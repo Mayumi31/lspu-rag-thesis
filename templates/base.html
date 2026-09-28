@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{% block description %}LSPU-LB Student Information Portal{% endblock %}">
+  <title>{% block title %}LSPU-LB{% endblock %} | LSPU-LB</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/site.css') }}">
+</head>
+<body class="{% block body_class %}{% endblock %}">
+  {% set ep = request.endpoint %}
+  {% macro navlink(endpoint, label, extra_class='') -%}
+    <a href="{{ url_for(endpoint) }}"
+       class="{{ extra_class }}{% if ep == endpoint %} active{% endif %}"
+       {% if ep == endpoint %}aria-current="page"{% endif %}>{{ label }}</a>
+  {%- endmacro %}
+
+  <nav aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="{{ url_for('index') }}" class="brand">
+        <span class="logo-mark" aria-hidden="true">LB<img class="logo-img" src="{{ url_for('assets', filename='images/lspu-logo.png') }}" alt="" onerror="this.remove()"></span>
+        <span class="brand-text"><span>LSPU-LB</span><small>Los Baños Campus</small></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        {{ navlink('index', 'Home') }}
+        {{ navlink('explore', 'Explore') }}
+        {{ navlink('recommendation', 'Recommendation') }}
+        {{ navlink('about', 'About') }}
+        {{ navlink('contact', 'Contact') }}
+        <a href="{{ url_for('visualizer') }}" target="_blank" rel="noopener">See how retrieval works ↗</a>
+        {{ navlink('assistant', 'Ask Assistant', 'nav-chat') }}
+      </div>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-controls="navLinks" aria-expanded="false">☰</button>
+    </div>
+  </nav>
+
+  {% block page %}
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  {% endblock %}
+
+  {% block footer %}
+  <footer>
+    <div class="container footer-grid">
+      <div><h2>LSPU-LB</h2><p>A student-focused program exploration prototype for Los Baños Campus.</p></div>
+      <div>
+        <h2>Explore</h2>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('explore') }}#program-details">Colleges &amp; Programs</a>
+        <a href="{{ url_for('recommendation') }}">Recommendation</a>
+      </div>
+      <div>
+        <h2>Discover</h2>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('contact') }}">Contact</a>
+        <a href="{{ url_for('assistant') }}">Ask Assistant</a>
+        <a href="{{ url_for('visualizer') }}" target="_blank" rel="noopener">See how retrieval works</a>
+      </div>
+    </div>
+    <div class="container copyright">© 2026 LSPU-LB Student Information Portal. Thesis Prototype.</div>
+  </footer>
+  {% endblock %}
+
+  <script src="{{ url_for('static', filename='js/site.js') }}"></script>
+</body>
+</html>

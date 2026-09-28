@@ -288,6 +288,11 @@ class GraphHit:
     facts: List[Tuple[str, str]] = field(default_factory=list)
     # 1-hop neighbors resolved to readable text: (predicate, neighbor label, neighbor text)
     neighbors: List[Tuple[str, str, str]] = field(default_factory=list)
+    # 1-hop *incoming* links: nodes that point AT this node via a non-structural
+    # object property (e.g. the parent Service of a Step, the SanctionTier of a
+    # Sanction). Surfaces roll-up/aggregate facts (total time, total fee) that
+    # live on the parent even when the child node is the semantic best match.
+    parents: List[Tuple[str, str, List[Tuple[str, str]]]] = field(default_factory=list)
     # The exact text shown to the LLM for this hit. The same string is passed
     # to RAGAS as this hit's context, so scoring sees what the model saw.
     frame: str = ""
@@ -298,6 +303,27 @@ class OntologyStore:
         self.ttl_path = ttl_path
         self.g = Graph()
         self.LSPU = Namespace("http://lspu.edu.ph/ontology/handbook#")
+        # The merged TTL actually carries THREE pillar namespaces, not one:
+        #   lspu:      handbook / conduct policy (Pillar 3)
+        #   lspuprog:  program information (Pillar 1)
+        #   lspuadm:   admission & Citizen's Charter procedures (Pillar 2)
+        # Definition/source-citation predicates differ per pillar (see
+        # _DEFINITION_PREDS/_SOURCE_PREDS below) — treating lspu: as the only
+        # namespace silently blanked the DEFINITION/SOURCE ARTICLE fields for
+        # every Pillar 1/2 node.
+        self.LSPUPROG = Namespace("http://lspu.edu.ph/ontology/program#")
+        self.LSPUADM = Namespace("http://lspu.edu.ph/ontology/admission#")
+        # Ordered by priority: first one present on the node wins. rdfs:comment
+        # is last and is only ever read on non-class/non-property subjects
+        # (see _definition), since on classes/properties it's schema
+        # documentation, not a fact about an instance.
+        self._DEFINITION_PREDS = [self.LSPU.definition, self.LSPUPROG.programOverview, RDFS.comment]
+        self._SOURCE_PREDS = [
+            self.LSPU.sourceArticle,
+            self.LSPUADM.sourceSection,
+            self.LSPUPROG.sourceDocument,
+            self.LSPUADM.sourceDocument,
+        ]
         # Optional embedder enables semantic (not just lexical) node ranking,
         # which is what actually fixes low context_precision: lexical
         # substring/token matching returns loosely-related nodes with no
@@ -339,9 +365,44 @@ class OntologyStore:
         name = re.split(r"[#/:]", str(p))[-1]
         return re.sub(r"(?<=[a-z0-9])(?=[A-Z])", " ", name).replace("_", " ").lower().strip()
 
+    def _is_schema_node(self, s) -> bool:
+        """
+        True for owl:Class / rdfs:Class subjects — i.e. vocabulary/schema
+        definitions like `lspuprog:CMO a owl:Class` or `lspuprog:AdmissionRequirement
+        a owl:Class`, which typically carry an rdfs:comment describing what the
+        TERM means in general, not a fact about the university. These are not
+        evidence for any student question and must never be indexed as if they
+        were content — doing so is what produced hits like "CHED Memorandum
+        Order (CMO): <textbook definition>" or "Admission Requirement: <textbook
+        definition>" crowding out the *actual* CMO/requirement instances (or,
+        worse, standing in for them when no real instance matches).
+        """
+        return (s, RDF.type, OWL.Class) in self.g or (s, RDF.type, RDFS.Class) in self.g
+
+    def _definition(self, s) -> str:
+        """First non-empty value across this pillar's definition-like predicates.
+        rdfs:comment is only honored here because _has_content already excludes
+        schema nodes (owl:Class/rdfs:Class), so by the time we get here a
+        comment is annotating an *instance* (e.g. "Follows the same 5-step
+        process as ...") rather than documenting a vocabulary term."""
+        for p in self._DEFINITION_PREDS:
+            v = self._literal(s, p)
+            if v:
+                return v
+        return ""
+
+    def _source(self, s) -> str:
+        for p in self._SOURCE_PREDS:
+            v = self._literal(s, p)
+            if v:
+                return v
+        return ""
+
     def _own_facts(self, s) -> List[Tuple[str, str]]:
-        """Every literal property of a node except label/definition/sourceArticle."""
-        skip = {self.LSPU.definition, self.LSPU.sourceArticle}
+        """Every literal property of a node except whichever definition/source
+        predicate was used for the DEFINITION/SOURCE ARTICLE lines (so it isn't
+        shown twice)."""
+        skip = set(self._DEFINITION_PREDS) | set(self._SOURCE_PREDS)
         facts = []
         for p, o in self.g.predicate_objects(subject=s):
             if not isinstance(o, Literal) or self._is_structural(p) or p in skip:
@@ -361,10 +422,73 @@ class OntologyStore:
         for p, o in self.g.predicate_objects(subject=s):
             if not isinstance(o, URIRef) or self._is_structural(p) or self._is_class_node(o):
                 continue
-            if self._label(o) or self._literal(o, self.LSPU.definition):
+            if self._label(o) or self._definition(o):
                 links.append((self._pred_name(p), o))
         links.sort(key=lambda po: (po[0], self._natural_key(self._label(po[1]) or str(po[1]))))
         return links
+
+    def _parents(self, s, max_parents: int = 2) -> List[Tuple[str, str, List[Tuple[str, str]]]]:
+        """
+        Nodes that point AT s via a non-structural object property — e.g. the
+        parent Service of a ServiceStep (lspu:hasStep), or the SanctionTier
+        that imposes a given Sanction (imposesSanction). Ontologies routinely
+        put roll-up facts (total processing time, total fee) on the PARENT
+        while the CHILD is what best matches a specific query — e.g. a query
+        about "Good Moral Certificate processing time" semantically matches
+        "Step 3: Processing of Good Moral Certificate" (20 minutes, one step)
+        at least as well as it matches the parent Service (which actually
+        holds the correct total: 1 hour and 15 minutes). Surfacing the
+        parent's own facts alongside the child prevents the model from
+        answering with just one step's partial figure.
+        """
+        seen_subjects = set()
+        out = []
+
+        # Step-chain rollup FIRST (and prioritized): a ServiceStep only sits
+        # inside a Service via lspu:hasStep on the *first* step, chained
+        # onward with lspu:nextStep — so Step 3 has no direct reverse link to
+        # its Service at all, only to Step 2 (via nextStep). Walk backward to
+        # the chain's root step, then find whichever node lspu:hasStep's that
+        # root; that is the actual owning Service, and it is what carries the
+        # roll-up totals (total processing time, total fee).
+        has_next_step_link = bool(list(self.g.subjects(self.LSPU.nextStep, s))) or bool(
+            list(self.g.objects(s, self.LSPU.nextStep))
+        )
+        if has_next_step_link:
+            root = s
+            for _ in range(20):  # generous cap; real chains are a handful of steps
+                preds = list(self.g.subjects(self.LSPU.nextStep, root))
+                if not preds:
+                    break
+                root = preds[0]
+            for owner in self.g.subjects(self.LSPU.hasStep, root):
+                if owner in seen_subjects:
+                    continue
+                o_facts = self._own_facts(owner)
+                if not o_facts:
+                    continue
+                seen_subjects.add(owner)
+                out.append(("part of", self._label(owner) or self._shorten(owner), o_facts))
+
+        # Generic 1-hop reverse links (e.g. SanctionTier --imposesSanction--> Sanction).
+        # lspu:nextStep is excluded here: it points from the PREVIOUS step, a
+        # sibling in the same chain, not a parent — following it would surface
+        # an unrelated step's own partial figures instead of the true rollup.
+        for subj, pred in self.g.subject_predicates(object=s):
+            if pred == self.LSPU.nextStep:
+                continue
+            if not isinstance(subj, URIRef) or self._is_structural(pred):
+                continue
+            if subj in seen_subjects or self._is_schema_node(subj) or self._is_property_decl(subj):
+                continue
+            p_facts = self._own_facts(subj)
+            if not p_facts:
+                continue
+            seen_subjects.add(subj)
+            out.append((self._pred_name(pred), self._label(subj) or self._shorten(subj), p_facts))
+            if len(out) >= max_parents:
+                break
+        return out[:max_parents]
 
     _PROPERTY_TYPES = (OWL.ObjectProperty, OWL.DatatypeProperty, OWL.AnnotationProperty, RDF.Property)
 
@@ -373,34 +497,36 @@ class OntologyStore:
 
     def _has_content(self, s) -> bool:
         """A node can only serve as evidence if it says something beyond its own name.
-        Property declarations (schema like `occurrenceOrdinal`) never count."""
-        if self._is_property_decl(s):
+        Property declarations (schema like `occurrenceOrdinal`) never count, and
+        neither do owl:Class/rdfs:Class vocabulary nodes (schema documentation,
+        not facts — see _is_schema_node)."""
+        if self._is_property_decl(s) or self._is_schema_node(s):
             return False
         return bool(
-            self._literal(s, self.LSPU.definition)
+            self._definition(s)
             or self._own_facts(s)
             or self._links(s)
         )
 
     def _node_text(self, s) -> str:
         """Text embedded for retrieval: label + definition + facts + labeled links."""
-        parts = [self._label(s), self._literal(s, self.LSPU.definition)]
+        parts = [self._label(s), self._definition(s)]
         parts += [f"{p}: {v}" for p, v in self._own_facts(s)]
-        parts += [f"{p}: {self._label(o) or self._literal(o, self.LSPU.definition)}" for p, o in self._links(s)]
+        parts += [f"{p}: {self._label(o) or self._definition(o)}" for p, o in self._links(s)]
         return ". ".join(x.strip() for x in parts if x and x.strip())
 
     def _neighbors(self, s, max_neighbors: int = 8, max_chars: int = 280) -> List[Tuple[str, str, str]]:
         """1-hop expansion: steps, requirements, sanctions... resolved to readable text."""
         out = []
         for pred, o in self._links(s):
-            bits = [self._literal(o, self.LSPU.definition)] + [f"{p}: {v}" for p, v in self._own_facts(o)]
+            bits = [self._definition(o)] + [f"{p}: {v}" for p, v in self._own_facts(o)]
             text = "; ".join(b.strip() for b in bits if b and b.strip())[:max_chars]
             out.append((pred, self._label(o), text))
             if len(out) >= max_neighbors:
                 break
         return out
 
-    def _render_frame(self, label, definition, source_article, facts, neighbors) -> str:
+    def _render_frame(self, label, definition, source_article, facts, neighbors, parents=None) -> str:
         lines = []
         if label:
             lines.append(f"LABEL: {label}")
@@ -416,6 +542,11 @@ class OntologyStore:
             for p, lbl, txt in neighbors:
                 head = f"  - {p}" + (f" -> {lbl}" if lbl else "")
                 lines.append(head + (f": {txt}" if txt else ""))
+        if parents:
+            lines.append("PART OF / REFERENCED BY (use these totals/roll-ups when the question asks for an overall or total figure):")
+            for pred, lbl, p_facts in parents:
+                lines.append(f"  - {pred} of: {lbl}")
+                lines += [f"      - {p}: {v}" for p, v in p_facts]
         return "\n".join(lines)
 
     def _build_node_embeddings(self):
@@ -424,9 +555,10 @@ class OntologyStore:
         definition + all literal facts + labeled links, so a node whose
         content lives in properties other than lspu:definition (process steps,
         programs, services) still embeds — and can be found — by what it says.
-        Nodes with no content beyond their own name are left out of the index:
-        they can't answer anything, and used to surface as label-only hits that
-        pushed context_precision down.
+        Nodes with no content beyond their own name, and owl:Class/rdfs:Class
+        vocabulary nodes, are left out of the index: they can't answer
+        anything (or answer with schema documentation instead of a fact),
+        and used to surface as noise that pushed context_precision down.
         """
         self._node_ids = [
             s for s in sorted(set(self.g.subjects()), key=lambda s: str(s)) if self._has_content(s)
@@ -490,10 +622,11 @@ class OntologyStore:
         out = []
         for s, score in scored:
             label = self._label(s)
-            definition = self._literal(s, self.LSPU.definition)
-            source_article = self._literal(s, self.LSPU.sourceArticle)
+            definition = self._definition(s)
+            source_article = self._source(s)
             facts = self._own_facts(s)
             neighbors = self._neighbors(s) if expand_neighbors else []
+            parents = self._parents(s)
             out.append(
                 GraphHit(
                     node=self._shorten(s),
@@ -504,7 +637,8 @@ class OntologyStore:
                     score=score,
                     facts=facts,
                     neighbors=neighbors,
-                    frame=self._render_frame(label, definition, source_article, facts, neighbors),
+                    parents=parents,
+                    frame=self._render_frame(label, definition, source_article, facts, neighbors, parents),
                 )
             )
         return out
@@ -535,7 +669,7 @@ class OntologyStore:
         exact_hits = []
         for s in set(self.g.subjects()):
             lbl = self._label(s).lower()
-            definition = self._literal(s, self.LSPU.definition).lower()
+            definition = self._definition(s).lower()
             if q in lbl or q in definition:
                 exact_hits.append((s, 1.0))
 
@@ -548,7 +682,7 @@ class OntologyStore:
         scored = []
         for s in set(self.g.subjects()):
             lbl = self._label(s).lower()
-            definition = self._literal(s, self.LSPU.definition).lower()
+            definition = self._definition(s).lower()
             hits = sum(1 for t in tokens if t in lbl or t in definition)
             if hits >= 2:
                 scored.append((s, hits / max(len(tokens), 1)))
@@ -699,7 +833,7 @@ class RAGSystem:
         k_vec: int = 3,
         k_graph: int = 2,
         vec_min_score: float = 0.25,
-        graph_min_score: float = 0.40,
+        graph_min_score: float = 0.45,
         vec_candidate_pool: int = 9,
         include_text: bool = True,
         mode: str = "ontology_contextual_rag",
@@ -712,7 +846,9 @@ class RAGSystem:
              to via imposesSanction often restate the same fact — keeping
              both pads context without adding information).
           2) Turn hits into a compact "contextual knowledge frame"
-             (definitions, source article, relations).
+             (definitions, source article, relations, and — new — any
+             PARENT node's own facts, so a Step/Tier-level hit still
+             carries its Service/Sanction's roll-up totals).
           3) Combine with vector chunks (raw handbook text): pull a wider
              candidate pool at a looser embedding threshold, then rescore
              with lexical overlap (same trick as answer_hybrid_rag) before
@@ -727,23 +863,15 @@ class RAGSystem:
              if it were a factual claim about the handbook. Only the Final
              Answer section is scored.
 
-        context_recall has been a flat 1.0 across every eval run so far —
-        the right evidence is always found well within the top couple of
-        candidates. k_graph/k_vec were cut from 3/3 to 2/2 and
-        graph_min_score raised (0.35 -> 0.40) because, once the chunk-
-        bleed bug was fixed, precision was *still* low on multi-section
-        questions purely because the pipeline always fills all 3+3=6
-        slots regardless of whether that many items are actually relevant
-        — e.g. a "Procedure for Major Disciplinary Actions" query pulling
-        in an unrelated Vandalism/Habitual-Offenders chunk just to fill
-        the quota. Answer_relevancy also dipped once whole-Article chunks
-        started coming through clean (e.g. the due-process question),
-        because the model had enough surrounding context to elaborate on
-        adjacent steps nobody asked about — the added system-prompt line
-        below ("answer only what THIS question asks") targets that
-        specifically. If a future eval set has genuinely multi-fact
-        questions needing more than 2+2 pieces of evidence, raise k_vec/
-        k_graph back up rather than lowering the thresholds further.
+        graph_min_score was raised from 0.40 to 0.45 alongside the
+        _is_schema_node exclusion in OntologyStore: schema/vocabulary
+        nodes (owl:Class subjects like `CHED Memorandum Order (CMO)` or
+        `Admission Requirement`, which only ever carried a textbook-style
+        rdfs:comment) are no longer indexed at all, which removes most of
+        the score-0.35-0.42 false positives that used to fill the 2nd
+        graph slot. 0.45 is a starting point — re-run `--diagnose` after
+        any ontology edit to see the new score distribution before
+        retuning further.
 
         include_text: set False for the graph-only ablation (see
         answer_ontology_graph_only below) — skips the vector-retrieval
@@ -784,6 +912,9 @@ class RAGSystem:
                 "the provided contexts — do not combine, extrapolate, or infer beyond what is explicitly stated.\n"
                 "If a context item is only loosely related and does not directly support the answer, ignore it "
                 "rather than blending it in.\n"
+                "If the question asks for an overall, total, or combined figure (e.g. total processing time, "
+                "total fee) and a context item has a 'PART OF / REFERENCED BY' section, prefer the total/roll-up "
+                "figure given there over a single step's partial figure.\n"
                 "Answer ONLY what THIS specific question asks. If a context item (e.g. a full multi-step "
                 "procedure or a list of related offenses) contains adjacent information beyond what was asked, "
                 "use only the part that directly answers the question — do not narrate surrounding steps, "
@@ -819,10 +950,13 @@ class RAGSystem:
                 "You must answer ONLY using the provided Ontology Context below — no other knowledge source "
                 "is available in this mode.\n"
                 "Every factual claim in your answer must be directly supported by a specific node's DEFINITION "
-                "in the Ontology Context — do not combine, extrapolate, or infer beyond what is explicitly "
-                "stated in those definitions.\n"
+                "or FACTS in the Ontology Context — do not combine, extrapolate, or infer beyond what is "
+                "explicitly stated in those definitions/facts.\n"
                 "If a context item is only loosely related and does not directly support the answer, ignore it "
                 "rather than blending it in.\n"
+                "If the question asks for an overall, total, or combined figure (e.g. total processing time, "
+                "total fee) and a node has a 'PART OF / REFERENCED BY' section, prefer the total/roll-up figure "
+                "given there over a single step's partial figure.\n"
                 "Answer ONLY what THIS specific question asks. If a node's definition contains adjacent "
                 "information beyond what was asked, use only the part that directly answers the question.\n"
                 "If one node bundles several rules (e.g. undergraduate and graduate), give only the rule for "
@@ -861,7 +995,7 @@ class RAGSystem:
         self,
         query: str,
         k_graph: int = 2,
-        graph_min_score: float = 0.40,
+        graph_min_score: float = 0.45,
     ) -> Tuple[str, AnswerTrace]:
         """
         Ablation: OC-RAG with the text-retrieval track removed entirely —

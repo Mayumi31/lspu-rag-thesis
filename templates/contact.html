@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Contact{% endblock %}
+{% block description %}Contact information for the LSPU-LB program recommendation prototype.{% endblock %}
+
+{% block content %}
+    <header class="page-hero">
+      <div class="container">
+        <div class="section-label">Contact</div>
+        <h1 class="page-title">How can we help you explore?</h1>
+        <p>Use this prototype to browse the sample college listings or try the assistant.</p>
+      </div>
+    </header>
+
+    <section class="contact-content" aria-labelledby="contact-info-title">
+      <div class="container contact-layout">
+        <div>
+          <div class="section-label">Get started</div>
+          <h2 id="contact-info-title">Find the information you need.</h2>
+          <p>For program and admissions decisions, please confirm details through LSPU-LB’s official channels. This prototype does not currently have a connected contact inbox.</p>
+          <div class="buttons contact-actions">
+            <a class="btn btn-primary" href="{{ url_for('explore') }}">Explore programs</a>
+            <a class="btn btn-outline contact-assistant" href="{{ url_for('assistant') }}">Ask Assistant</a>
+          </div>
+        </div>
+        <aside class="contact-note">
+          <h2>Prototype notice</h2>
+          <p>Official campus phone numbers, email addresses, and office hours have not been verified for this website, so they are intentionally not listed here.</p>
+          <a class="card-link" href="{{ url_for('about') }}">Learn about this project →</a>
+        </aside>
+      </div>
+    </section>
+{% endblock %}

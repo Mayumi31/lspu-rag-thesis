@@ -12,7 +12,7 @@
   <!-- NAVIGATION -->
   <nav>
     <div class="nav-inner">
-      <a href="#home" class="brand">
+      <a href="{{ url_for('index') }}" class="brand">
         <!-- Replace with your actual LSPU logo -->
         <img class="logo" src="assets/images/lspu-logo.png" alt="LSPU Logo"
              onerror="this.style.display='none'">
@@ -23,11 +23,13 @@
       </a>
 
       <div class="nav-links" id="navLinks">
-        <a href="#home">Home</a>
-        <a href="#discover">Explore</a>
-        <a href="#programs">Programs</a>
+        <a href="{{ url_for('index') }}" class="active">Home</a>
+        <a href="{{ url_for('explore') }}">Explore</a>
+        <a href="{{ url_for('recommendation') }}">Recommendation</a>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('contact') }}">Contact</a>
         <a class="nav-visualizer" href="{{ url_for('visualizer') }}" target="_blank" rel="noopener">See how retrieval works ↗</a>
-        <a href="#assistant" class="nav-chat">Ask Assistant</a>
+        <a href="{{ url_for('assistant') }}" class="nav-chat">Ask Assistant</a>
       </div>
 
       <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
@@ -48,8 +50,8 @@
       </p>
 
       <div class="buttons">
-        <a href="#discover" class="btn btn-primary">Explore LSPU-LB →</a>
-        <a href="#assistant" class="btn btn-outline">Ask LSPU Assistant</a>
+        <a href="{{ url_for('explore') }}" class="btn btn-primary">Explore LSPU-LB →</a>
+        <a href="{{ url_for('assistant') }}" class="btn btn-outline">Ask LSPU Assistant</a>
       </div>
     </div>
   </header>
@@ -110,7 +112,7 @@
           <div class="card-body">
             <h3>Campus & Facilities</h3>
             <p>Explore learning spaces, facilities, and important areas around the campus.</p>
-            <a class="card-link" href="#assistant">Learn more →</a>
+            <a class="card-link" href="{{ url_for('explore') }}">Learn more →</a>
           </div>
         </article>
 
@@ -119,7 +121,7 @@
           <div class="card-body">
             <h3>Student Life</h3>
             <p>Discover the environment, activities, organizations, and experiences of students.</p>
-            <a class="card-link" href="#assistant">Learn more →</a>
+            <a class="card-link" href="{{ url_for('explore') }}">Learn more →</a>
           </div>
         </article>
 
@@ -128,7 +130,7 @@
           <div class="card-body">
             <h3>Learning Environment</h3>
             <p>Learn about the spaces and resources that support students in their studies.</p>
-            <a class="card-link" href="#assistant">Learn more →</a>
+            <a class="card-link" href="{{ url_for('explore') }}">Learn more →</a>
           </div>
         </article>
       </div>
@@ -152,21 +154,21 @@
           <div class="program-icon">CS</div>
           <h3>BS Computer Science</h3>
           <p>Explore computing, software development, intelligent systems, and related areas.</p>
-          <a class="card-link" href="#assistant">Ask about BSCS →</a>
+          <a class="card-link" href="{{ url_for('assistant') }}">Ask about BSCS →</a>
         </article>
 
         <article class="program">
           <div class="program-icon">IT</div>
           <h3>BS Information Technology</h3>
           <p>Learn about information technology, applications, services, and specialized areas.</p>
-          <a class="card-link" href="#assistant">Ask about BSIT →</a>
+          <a class="card-link" href="{{ url_for('assistant') }}">Ask about BSIT →</a>
         </article>
 
         <article class="program">
           <div class="program-icon">+</div>
           <h3>More Programs</h3>
-          <p>Add the other verified LSPU-LB programs here as your knowledge base grows.</p>
-          <a class="card-link" href="#assistant">Explore programs →</a>
+          <p>See every listed college and program, with pictures, study areas, and sample career paths.</p>
+          <a class="card-link" href="{{ url_for('explore') }}#program-details">Explore programs →</a>
         </article>
       </div>
     </div>
@@ -194,6 +196,10 @@
 
         <a class="visualizer-link" href="{{ url_for('visualizer') }}" target="_blank" rel="noopener">
           <span>See how the retrieval works</span>
+          <span class="arrow-ic">→</span>
+        </a>
+        <a class="visualizer-link" style="margin-left:10px" href="{{ url_for('assistant') }}">
+          <span>Open the full assistant</span>
           <span class="arrow-ic">→</span>
         </a>
       </div>
@@ -279,7 +285,7 @@
         Explore the university or ask the Knowledge Assistant when you need
         more specific information.
       </p>
-      <a href="#assistant" class="btn btn-primary">Ask the LSPU Assistant →</a>
+      <a href="{{ url_for('assistant') }}" class="btn btn-primary">Ask the LSPU Assistant →</a>
     </div>
   </section>
 
@@ -297,10 +303,12 @@
 
         <div>
           <h3>Explore</h3>
-          <a href="#home">Home</a>
-          <a href="#discover">About LSPU-LB</a>
-          <a href="#programs">Academic Programs</a>
-          <a href="#assistant">Knowledge Assistant</a>
+          <a href="{{ url_for('index') }}">Home</a>
+          <a href="{{ url_for('about') }}">About</a>
+          <a href="{{ url_for('contact') }}">Contact</a>
+          <a href="{{ url_for('explore') }}#program-details">Colleges &amp; Programs</a>
+          <a href="{{ url_for('recommendation') }}">Recommendation</a>
+          <a href="{{ url_for('assistant') }}">Knowledge Assistant</a>
           <a href="{{ url_for('visualizer') }}" target="_blank" rel="noopener">See how retrieval works</a>
         </div>
 

@@ -23,7 +23,7 @@ import os
 import re
 from typing import Any, Dict, List, Optional
 
-from flask import Flask, jsonify, render_template, request, send_from_directory
+from flask import Flask, jsonify, redirect, render_template, request, send_from_directory, url_for
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -42,7 +42,15 @@ from app import (
     build_vector_index_from_text_file,
 )
 
+from catalog import COLLEGES
+
 app = Flask(__name__)
+
+
+@app.context_processor
+def inject_catalog():
+    """Make the college/program catalog available to every template."""
+    return {"colleges": COLLEGES}
 
 # ---------------------------------------------------------------------
 # The homepage template references plain "assets/images/..." paths (as
@@ -399,6 +407,45 @@ def index():
         "index.html",
         llm_enabled=_llm is not None,
     )
+
+
+
+# ---------------------------------------------------------------------
+# Multi-page site (Explore / Recommendation / About / Contact / Assistant)
+# ---------------------------------------------------------------------
+@app.route("/explore")
+def explore():
+    """Colleges and programs, with pictures and details per program."""
+    return render_template("explore.html")
+
+
+@app.route("/recommendation")
+def recommendation():
+    """Interest checklist -> suggested colleges/programs (client-side)."""
+    return render_template("recommendation.html")
+
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
+
+@app.route("/assistant")
+def assistant():
+    """Full-page Knowledge Assistant. Talks to the same /api/chat endpoint
+    as the homepage chat preview (Ontology Contextual RAG only)."""
+    return render_template("assistant.html", llm_enabled=_llm is not None)
+
+
+@app.route("/programs")
+def programs_legacy():
+    """Old URL: programs now live on the Explore page."""
+    return redirect(url_for("explore") + "#program-details", code=301)
 
 
 @app.route("/visualizer")

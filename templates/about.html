@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+{% block description %}Learn about the LSPU-LB college program recommendation prototype.{% endblock %}
+
+{% block content %}
+    <header class="page-hero">
+      <div class="container">
+        <div class="section-label">About this project</div>
+        <h1 class="page-title">A clearer way to explore your next step.</h1>
+        <p>This LSPU-LB website is a college program recommendation prototype designed to help students explore areas of study and start asking questions.</p>
+      </div>
+    </header>
+
+    <section class="about-content" aria-labelledby="about-purpose">
+      <div class="container about-grid">
+        <article class="about-block">
+          <div class="section-label">Purpose</div>
+          <h2 id="about-purpose">Explore before you decide.</h2>
+          <p>Use the college and program listings to compare possible fields, then try the recommendation guide to connect your interests with the sample programs shown here.</p>
+          <a class="card-link" href="{{ url_for('explore') }}">Explore colleges and programs →</a>
+        </article>
+        <article class="about-block about-note">
+          <div class="section-label">Prototype status</div>
+          <h2>Information is still being verified.</h2>
+          <p>Some program descriptions and assistant responses are illustrative prototype content, not official academic or admissions guidance. Confirm current offerings, requirements, and contact details with LSPU-LB before making decisions.</p>
+          <a class="card-link" href="{{ url_for('assistant') }}">Open the assistant →</a>
+        </article>
+      </div>
+    </section>
+{% endblock %}

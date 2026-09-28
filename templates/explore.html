@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block title %}Explore{% endblock %}
+{% block description %}Explore the colleges and programs of LSPU-LB{% endblock %}
+
+{% block content %}
+  <section class="explore-hero">
+    <div class="container">
+      <div class="section-label">Colleges &amp; Programs</div>
+      <h1 class="explore-title">Explore</h1>
+      <p class="lede">Tap a college to see what students actually do there, the skills it builds, and where it can lead.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="container">
+      <div class="college-grid">
+        {% for c in colleges %}
+        <article class="college-card" style="--card-accent:{{ c.accent }}; --card-tint:{{ c.tint }};">
+          <div class="college-card-head">
+            <span>COL · {{ '%02d' % loop.index }}</span>
+            <span class="college-tag"></span>
+          </div>
+          <div class="college-card-body">
+            <div class="college-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{{ c.icon|safe }}</svg>
+            </div>
+            <h3>{{ c.name }}</h3>
+            <div class="college-kicker">{{ c.kicker }}</div>
+            <p>{{ c.blurb }}</p>
+            <a class="college-link" href="#{{ c.id }}">See programs →</a>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="program-details light-section" id="program-details" aria-labelledby="program-details-title">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-label">Program details</div>
+        <h2 id="program-details-title">Find your field of study.</h2>
+        <p>Explore the listed programs by college. Confirm current offerings and requirements with official campus sources.</p>
+      </div>
+
+      {% for c in colleges %}
+      <div class="college-group" id="{{ c.id }}">
+        <div class="college-group-head" style="--group-accent:{{ c.accent }};">
+          <span class="college-group-tag" aria-hidden="true"></span>
+          <h2>{{ c.name }}</h2>
+          <span>{{ c.kicker }}</span>
+        </div>
+        <div class="program-grid program-grid--rich">
+          {% for p in c.programs %}
+          <article class="program program--rich" style="--program-accent:{{ c.program_accent }}; --program-tint:{{ c.tint }};">
+            <div class="program-media">
+              <img src="{{ url_for('assets', filename='images/programs/' ~ p.image) }}"
+                   alt="{{ p.name }}" loading="lazy"
+                   onerror="this.onerror=null;this.src='{{ url_for('assets', filename='images/programs/placeholder.svg') }}'">
+              <span class="program-code">{{ p.code }}</span>
+            </div>
+            <div class="program-body">
+              <h3>{{ p.name }}</h3>
+              <p>{{ p.desc }}</p>
+
+              <div class="detail-label">What you'll study</div>
+              <ul class="chip-list">
+                {% for s in p.study %}<li>{{ s }}</li>{% endfor %}
+              </ul>
+
+              <div class="detail-label">Sample career paths <em>· general, not LSPU-verified</em></div>
+              <ul class="chip-list chip-list--soft">
+                {% for r in p.careers %}<li>{{ r }}</li>{% endfor %}
+              </ul>
+
+              <a class="card-link" href="{{ url_for('assistant') }}">Ask about this program →</a>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+        <p class="placeholder-note">Prototype listing — verify current program availability with the campus.</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <div class="section-label" style="justify-content:center;display:flex;">Not sure yet?</div>
+      <h2>Not sure where to begin?</h2>
+      <p>Choose the subjects and activities that interest you to see related sample programs.</p>
+      <a href="{{ url_for('recommendation') }}" class="btn btn-primary">Get a recommendation →</a>
+    </div>
+  </section>
+{% endblock %}

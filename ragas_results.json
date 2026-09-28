@@ -1,0 +1,651 @@
+[
+  {
+    "mode": "bare_llm",
+    "ragas": {
+      "faithfulness": {
+        "count": 6.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "answer_relevancy": {
+        "count": 6.0,
+        "mean": 0.8776290204806432,
+        "std": 0.07211798702929573,
+        "min": 0.7958336378732196,
+        "25%": 0.8271743195243024,
+        "50%": 0.8804928943298652,
+        "75%": 0.8962987885739887,
+        "max": 0.9979858151064311
+      },
+      "context_precision": {
+        "count": 6.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "context_recall": {
+        "count": 6.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      }
+    },
+    "per_item": [
+      {
+        "user_input": "How many degree programs does LSPU Los Baños offer, and across how many colleges?",
+        "retrieved_contexts": [],
+        "response": "LSPU Los Baños offers approximately 40+ degree programs across 5 colleges:\n\n1. **College of Education**\n2. **College of Engineering and Technology**\n3. **College of Agriculture and Natural Resources**\n4. **College of Business and Accountancy**\n5. **College of Arts and Sciences**\n\nThese colleges provide undergraduate and graduate programs spanning various disciplines from education and engineering to agriculture and business.",
+        "reference": "LSPU-LB offers 23 degree programs across 8 colleges. All of them are four-year programs.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.9979858151064311,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      {
+        "user_input": "Which CHED memorandum order regulates the BS Psychology program, and which licensure examination can its graduates take?",
+        "retrieved_contexts": [],
+        "response": "# BS Psychology Program Regulation\n\n**CHED Memorandum Order:** CMO 53, Series of 2010 (General Education Curriculum) and the specific program standards under CHED's psychology program guidelines regulate the BS Psychology program.\n\n**Licensure Examination:** Graduates of BS Psychology can take the **Licensure Examination for Psychologists (LEP)**, administered by the Professional Regulation Commission (PRC).\n\nUpon passing, graduates become licensed psychologists and can practice psychology professionally in the Philippines.",
+        "reference": "CHED CMO No. 34, s. 2017 (Policies and Standards for Undergraduate Programs in Psychology). Graduates may take the Psychometrician Licensure Examination.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.7958336378732196,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      {
+        "user_input": "How long does it take to get a Good Moral Certificate as an undergraduate student at OSAS, according to the Citizen's Charter?",
+        "retrieved_contexts": [],
+        "response": "According to standard LSPU-LB OSAS procedures outlined in their Citizen's Charter, a Good Moral Certificate for undergraduate students typically takes **3-5 working days** from the date of application, provided all requirements are complete and there are no pending disciplinary cases or outstanding obligations.",
+        "reference": "The total processing time is 1 hour and 15 minutes, with no fee for the OSAS steps. The applicant needs a Certificate of Registration, an Official Receipt for the Good Moral/Doc Stamp, and a Student ID.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.813336874391009,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      {
+        "user_input": "What medical requirements must an admitted applicant submit to the University Clinic?",
+        "retrieved_contexts": [],
+        "response": "# Medical Requirements for Admitted Applicants\n\nAdmitted applicants must submit the following to the University Clinic:\n\n1. **Medical Certificate** - A health clearance from a licensed physician confirming fitness to study\n2. **Immunization Records** - Proof of required vaccinations (typically including tetanus, measles, and other standard immunizations)\n3. **Physical Examination Results** - Documentation of a recent medical check-up\n4. **Medical History Form** - A completed health questionnaire disclosing any chronic conditions or allergies\n\nThese documents must typically be submitted before or during the orientation period to ensure you're cleared to attend classes and participate in university activities.",
+        "reference": "A medical certificate from an accredited clinical laboratory, a drug test, and an x-ray. Using University-accredited medical facilities is highly encouraged, but other medical facilities are also accepted.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.897632006853469,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      {
+        "user_input": "What is the maximum residence rule for finishing a course?",
+        "retrieved_contexts": [],
+        "response": "The maximum residence rule for finishing a course at LSPU-LB is typically **8 years** from first enrollment. This means you have up to 8 years to complete your degree program. If you exceed this period, you may be required to re-enroll under the current curriculum and policies, or your enrollment may be terminated depending on the university's specific regulations.",
+        "reference": "A student must finish the course within an actual residence equivalent to 1.5 times the normal length prescribed for the course. Otherwise, the student is not allowed to register in the university.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.8686866549241826,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      {
+        "user_input": "What is the sanction for a 2nd offense of cheating in examinations?",
+        "retrieved_contexts": [],
+        "response": "For a 2nd offense of cheating in examinations at LSPU-LB, the sanction is **suspension from the university for one (1) academic year**.\n\nA first offense typically results in a failing grade in the course and disciplinary probation, while the second offense escalates to suspension. A third offense would result in permanent expulsion.",
+        "reference": "Academic probation and an automatic grade of 5.0.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.8922991337355478,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      }
+    ]
+  },
+  {
+    "mode": "basic_rag",
+    "ragas": {
+      "faithfulness": {
+        "count": 6.0,
+        "mean": 0.8253968253968255,
+        "std": 0.2961072715266291,
+        "min": 0.2857142857142857,
+        "25%": 0.75,
+        "50%": 1.0,
+        "75%": 1.0,
+        "max": 1.0
+      },
+      "answer_relevancy": {
+        "count": 6.0,
+        "mean": 0.9575225240385653,
+        "std": 0.06410052745200118,
+        "min": 0.8337454335524276,
+        "25%": 0.9524866587860972,
+        "50%": 0.9860572934893118,
+        "75%": 0.9958723704152951,
+        "max": 0.9988346137580252
+      },
+      "context_precision": {
+        "count": 6.0,
+        "mean": 0.884259259191821,
+        "std": 0.14531433216972015,
+        "min": 0.6388888888675925,
+        "25%": 0.8333333332916666,
+        "50%": 0.9166666665958333,
+        "75%": 0.9999999999,
+        "max": 0.9999999999
+      },
+      "context_recall": {
+        "count": 6.0,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "25%": 1.0,
+        "50%": 1.0,
+        "75%": 1.0,
+        "max": 1.0
+      }
+    },
+    "per_item": [
+      {
+        "user_input": "How many degree programs does LSPU Los Baños offer, and across how many colleges?",
+        "retrieved_contexts": [
+          "=================================\nLSPU-LB ACADEMIC PROGRAMS: OVERVIEW\nLaguna State Polytechnic University - Los Banos Campus (LSPU-LB) offers 23 degree programs across 8 colleges. All programs are four-year programs.\n\nColleges and the programs they offer:\n- College of Arts and Sciences (CAS): Bachelor of Science in Psychology\n- College of Business Administration and Accountancy (CBAA): Bachelor of Science in Business Administration - Major in Marketing Management; Bachelor of Science in Accountancy; Bachelor of Science in Business Administration - Major in Financial Management\n- College of Computer Studies (CCS): Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program\n- College of Criminal Justice Education (CCJE): Bachelor of Science in Criminology\n- College of Fisheries (CF): Bachelor of Science in Fisheries\n- College of Food Nutrition and Dietetics (CFND): Bachelor of Science in Food Technology; Bac",
+          "es (Admission Office) below:\n\n- Guidance and Counseling (LSPU Los Baños Campus)\n  Email Address: guidance_lb@lspu.edu.ph\n  Facebook Page: Guidance Office-LSPU Los Baños Campus\n\nE. ANNEX A: LIST OF CURRICULAR PROGRAM OFFERINGS AND GENERAL WEIGHTED AVERAGE REQUIREMENTS\n\nFormat below: Program | GWA | Campus offering the program\n\nCollege of Arts and Sciences\n- Bachelor of Science in Psychology | GWA 88 | Los Baños\n\nCollege of Business Administration and Accountancy\n- Bachelor of Science in Accountancy | GWA 90 | Los Baños\n- Bachelor of Science in Business Administration (Majors: Financial Management, Marketing Management) | GWA 88 | Los Baños\n\nCollege of Computer Studies\n- Bachelor of Science in Computer Science | GWA 90 | Los Baños\n- Bachelor of Science in Information Technology | GWA 85 | Los Baños\n\nCollege of Criminal Justice Education\n- Bachelor of Science in Criminology | GWA 85 | Los Baños\n\nCollege of Fisheries\n- Bachelor of Science in Fisheries | GWA 87 | Los Baños\n\nCollege of Food Nutrition and Dietetics\n- Bachelor of Science in Nutrition and Dietetics | GWA 90 | Los Baños\n- Bachelor of Science in Food Technology | GWA 90 | Los Baños\n\nCollege of Hospitality Management and Touri",
+          "hment of satellite campuses such as LSPC Nagcarlan Satellite Campus (S.Y. 1991-1992); LSPC Santa Maria Satellite Campus (S.Y. 1992-1993); and LSPC Cabuyao Campus (S.Y. 1993-1994). The integration phase of three (3) Commission on Higher Education (CHED) Supervised Institutions by the Special Provision No. 2 of the CHED FY 1999 Budget under the General Appropriations Act of 1999 transpired under Dr. Wagan’s incumbency.\n\nIn January 1999, the former Laguna College of Arts and Trades in Santa Cruz, Laguna, was integrated to LSPC by R.A. 8745, R.A. 7722, and R.A. 8292, hence known as Laguna State Polytechnic College-Santa Cruz Campus. In the same year, Los Baños College of Fisheries at Los Baños Laguna was also integrated to LSPC by R.A. 7722, known as the Higher Education Act of 1994, and R.A. 8292, Higher Education Modernization Act of 1997.\n\nUnder CHED Memorandum Order No. 27, s.",
+          "es not lower than 2.0 in nine (9) units of foundation subjects and nine (9) units in major subjects.\n\n1.1.7. entrance examination and interview results with a passing rate\n\n1.1.8. recommendation for graduate study (LSPU GSAR Form) from immediate head/supervisor\n\n1.1.9. for non-education graduates, 18 units of professional education are required\n\n1.2.0. for applicants of the master's program to enroll in major subjects other than what they majored in college, 12 units in an undergraduate course in that particular new choice/major shall be taken. However, an applicant with two-year experience teaching the new preferred major subject shall qualify him/her to enroll in the preferred course.\n\n1.2. Transferees. Residency is tantamount to the acquisition of 50 percent (50%) attendance to the required courses of the university, namely: two (2) foundations subjects (Methods of Research and Advance Statistics), three (3) major subjects, and one (1) cognate.\n\n1.3. Foreign Students\n\n1.3.1. Admission Requirements of foreign/international students stipulated for undergraduate students are the same for graduate students.\n\n1.3.2. Certification of Registration\n\n1.4. Doctorate Students\n\n1.4.1.",
+          "in varied learning environments, in and outside the traditional classroom.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.\n\n======================================================================\nADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nSource: LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\n- Bachelor of Elementary Education (CTE): minimum GWA 90\n- Bachelor of Physical Education (CTE): minimum GWA 90\n- Bachelor of Science in Accountancy (CBAA): minimum GWA 90\n- Bachelor of Science in Computer Science - Major in Intelligent Systems (CCS): minimum GWA 90\n- Bachelor of Science in Food Technology (CFND): minimum GWA 90\n- Bachelor of Science in Nutrition and Dietetics (CFND): minimum GWA 90\n- Bachelor of Secondary Education - Major in English (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Filipino (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Mathematics (CTE)"
+        ],
+        "response": "Based on the provided context, **LSPU Los Baños offers 23 degree programs across 8 colleges**.\n\nThe context explicitly states: \"Laguna State Polytechnic University - Los Banos Campus (LSPU-LB) offers 23 degree programs across 8 colleges. All programs are four-year programs.\"\n\nThe 8 colleges are:\n1. College of Arts and Sciences (CAS)\n2. College of Business Administration and Accountancy (CBAA)\n3. College of Computer Studies (CCS)\n4. College of Criminal Justice Education (CCJE)\n5. College of Fisheries (CF)\n6. College of Food Nutrition and Dietetics (CFND)\n7. College of Hospitality Management and Tourism\n8. College of Teacher Education (CTE)",
+        "reference": "LSPU-LB offers 23 degree programs across 8 colleges. All of them are four-year programs.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9979858151064311,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "Which CHED memorandum order regulates the BS Psychology program, and which licensure examination can its graduates take?",
+        "retrieved_contexts": [
+          "- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.\n- Counseling / Guidance Track: Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Psychometrician Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 34, s.",
+          "ducation: Licensure Examination for Teachers (Elementary Level)\n\nNon-board programs (no PRC licensure examination):\n- Bachelor of Science in Computer Science - Major in Intelligent Systems\n- Bachelor of Science in Business Administration - Major in Marketing Management\n- Bachelor of Science in Business Administration - Major in Financial Management\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\n- Bachelor of Science in Information Technology - Major in Service Management Program\n- Bachelor of Science in Tourism Management\n- Bachelor of Science in Hospitality Management\n\n======================================================================\nCHED MEMORANDUM ORDER: CMO No. 25, s.",
+          "neral Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Psychometrician Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 34, s. 2017 - Policies and Standards for Undergraduate Programs in Psychology\nProgram educational objectives (per this CMO):\n- Apply the scientific study of behavior and mental processes to understand individuals and groups across diverse settings.\n- Conduct psychological research and assessment ethically, and pursue further training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.\n\n======================================================================\nPROGRAM: Bachelor of Science in Accountancy\nCollege: College of Business Administration and Accountancy (CBAA)\nDegree: Bachelor of Science in Accountancy (BSA)\nDuration: 4 years\n\nOverview: Covers financial and management accounting, auditing, taxation, and busin",
+          "Evaluate | N/A | 1 hour | LSPU-ATBI Staff\nRequirements | Requirements and\nassess the\nqualification\n2 hours and 6\nTOTAL: | None\nminutes\n\nXXIX. CURRICULUM INSTRUCTION DEVELOPMENT\n1. Curriculum Review and Enhancement\nEstablishment of a defined procedure in the review and enhancement of\ncurricular programs in accordance with the most recent CHED Memorandum\nOrders.\nOffice or | Curriculum and Instruction Development (CID)\nDivision:\nClassification: | Academic\nType of | Internal\nTransaction:\nWho may avail: | Deans/Associate Deans, Program Coordinators\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nRefer to CID-SF-001 | CID Office\nFEES\nTO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE | TIME | RESPONSIBLE\nPAID\n1. Receives the | Assist the academic units/colleges | n/a | 6-12 months Deans/Associate\nCMO and checks | Deans, Program\nthe congruency of | Coordinators,\nthe current | Faculty, other\ncurriculum to the | stakeholders\nCHED guidelines\n\n78\n\n================================================================================\nPAGE 87\n================================================================================\nas stipulated in\nthe new CMO\n2.",
+          "business specialization in response to a changing market environment.\n\n======================================================================\nCHED MEMORANDUM ORDER: CMO No. 27, s. 2017\nTitle: Revised Policies, Standards and Guidelines for Bachelor of Science in Accountancy (BSA)\nLSPU-LB programs covered by this CMO: Bachelor of Science in Accountancy.\nProgram educational objectives:\n- Apply generally accepted accounting, auditing, and taxation principles to prepare and evaluate financial information with integrity.\n- Qualify for and succeed in the CPA Licensure Examination and subsequent professional accountancy practice.\n\n======================================================================\nCHED MEMORANDUM ORDER: CMO No. 33, s."
+        ],
+        "response": "Based on the provided context:\n\n**CHED Memorandum Order:** The BS Psychology program is regulated by **CMO No. 34, s. 2017** - \"Policies and Standards for Undergraduate Programs in Psychology\"\n\n**Licensure Examination:** Graduates may take the **Psychometrician Licensure Examination**. The program is classified as a \"Board program,\" meaning it leads to a PRC (Professional Regulation Commission) licensure examination.",
+        "reference": "CHED CMO No. 34, s. 2017 (Policies and Standards for Undergraduate Programs in Psychology). Graduates may take the Psychometrician Licensure Examination.",
+        "faithfulness": 0.6666666666666666,
+        "answer_relevancy": 0.8337454335524276,
+        "context_precision": 0.8333333332916666,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "How long does it take to get a Good Moral Certificate as an undergraduate student at OSAS, according to the Citizen's Charter?",
+        "retrieved_contexts": [
+          "rperson/ Staff\nrendered by\nOSAS.\nClientele\n\n3. Accept the validated Release validated ID. | None | 1 minute | OSAS Director/\nID. | Chairperson/ Staff\nTOTAL: | None | 4 minutes\n\n5. Issuance of Good Moral Certificate (Undergraduate)\nThis process provides description and series of steps for assisting the students\nspecifically in the issuance of Good Moral Certificate\nOffice or Division: | Office of the Student Affairs and Services\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nCertificate of Registration | Registrar’s Office\nOfficial Receipt for Good Moral/Doc\nStamp | Cashier Office\nStudent ID | Business Affairs Office\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present the Certificate | Receive and check | OSAS Director /\nof Registration. | submitted | Chairperson\ndocuments. | None | 5 Minutes | OSAS Staff\nIssue Good Moral\npayment slip.\n2. Payment | of | fees | Check | Official | Cashier\n(Certification Fee and | Receipt.",
+          "| Release | Good | OSAS Director /\nCertificate. Signing in | Moral Certificate. | None | 5 minutes | Chairperson\nthe Logbook. | OSAS Staff\n1 hour and 15\nTOTAL: | None\nminutes\n\n6. Issuance of Good Moral Certificate (LSPU Alumni)\nThis process provides description and series of steps for assisting the students\nspecifically in the issuance of Good Moral Certificate\nOffice or Division: | Office of the Student Affairs and Services\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nTranscript of Record (TOR) | Registrar’s Office\nOfficial Receipt for Good Moral/Doc\nStamp | Cashier Office\nStudent ID | Business Affairs Office\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present any of the | Receive and check | OSAS Director /\nfollowing: | Original | submitted | Chairperson\nTranscript of Records, | documents. | None | 5 Minutes | OSAS Staff\nDiploma or Alumni ID. | Issue Good Moral\npayment slip.\n2. Payment | of | fees | Check | Official | Cashier\n(Certification Fee and | Receipt.\nDocumentary Stamp – | None | 40 minutes\nif applicable).",
+          "| Release | Good | OSAS Director /\nCertificate. Signing in | Moral Certificate. | None | 5 minutes | Chairperson\nthe Logbook. | OSAS Staff\n1 hour and 15\nTOTAL: | None\nminutes\n\n7. Issuance of Good Moral Certificate (Transferee)\nThis process provides description and series of steps for assisting the students\nspecifically in the issuance of Good Moral Certificate.\nOffice or Division: | Office of the Student Affairs and Services\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nCertificate of Transfer | Registrar’s Office\nOfficial Receipt for Good Moral/Doc\nStamp | Cashier Office\nStudent ID | Business Affairs Office\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present the Certificate | Receive and check | OSAS Director /\nof Transfer. | submitted | Chairperson\ndocuments. | None | 5 Minutes | OSAS Staff\nIssue Good Moral\npayment slip.\n2. Payment | of | fees | Check | Official | Cashier\n(Certification Fee and | Receipt.\nDocumentary Stamp – | None | 40 minutes\nif applicable). Submit\nOfficial Receipt.\n3.",
+          "ID. | Issue Good Moral\npayment slip.\n2. Payment | of | fees | Check | Official | Cashier\n(Certification Fee and | Receipt.\nDocumentary Stamp – | None | 40 minutes\nif applicable). Submit\nOfficial Receipt.\n3. Processing of Good | Check correctness | OSAS Director /\nMoral Certificate. | of | documents | Chairperson\nNone | 20 minutes\nsubmitted. Check | OSAS Staff\ndisciplinary records.\n\n20\n\n================================================================================\nPAGE 29\n================================================================================\nPreparation | of\nGood | Moral\nCertificate.\nAffix Documentary\nStamp.\nAffix signature on\nthe certification.\n4. Evaluate the Services\nIssue Confirm fulfillment | OSAS Director /\nrendered by OSAS. | of evaluation. | None | 5 minutes | Chairperson\nOSAS Staff\n5. Accept the Good Moral | Release | Good | OSAS Director /\nCertificate. Signing in | Moral Certificate. | None | 5 minutes | Chairperson\nthe Logbook. | OSAS Staff\n1 hour and 15\nTOTAL: | None\nminutes\n\n7.",
+          "Article 5. Retention Policies\n\nSec. 1. Good Moral. After admission to any university program, the student must maintain good moral character at all times regardless of the year level.\n\nSec. 2. Compliance. A student must adhere to the rules of conduct, regulations, and policies imposed by the University in this Handbook.\n\nSec. 3. Retention Requirement. A student shall always act in a manner that will uphold the honor, dignity, and prestige of the university and must meet the following requirements to stay in the program and must obtain the corresponding degree:\n\n3.1. Evaluation of student records for purposes of retention is guided by standards.\n\n3.2. Minimum Grade Point Average (GPA) for every semester or summer of study is 2.00.\n\n3.2.1. Minimum Final Grade for Board Program\n\n3.2.1.1. in any major-related subjects 2.00\n\n3.2.1.2. in any professional -related subjects 2.00\n\n3.2.1.3. in any general education subjects 1.75-1.00\n\n3.2.2. Minimum Final Grade for any Non-board Program\n\n3.2.2.1. in any major-required subjects 2.25\n\n3.2.2.2. in any professional-related subjects 2. 25\n\n3.2.2.3. in any general education subjects 2.00-1.00\n\n3.3."
+        ],
+        "response": "According to the Citizen's Charter in the provided context, it takes **1 hour and 15 minutes** to get a Good Moral Certificate as an undergraduate student at OSAS.\n\nThe process breaks down as follows:\n- Step 1 (Present Certificate of Registration): 5 minutes\n- Step 2 (Payment of fees): 40 minutes\n- Step 3 (Processing of Good Moral Certificate): 20 minutes\n- Step 4 (Evaluate the Services rendered by OSAS): 5 minutes\n- Step 5 (Accept the Good Moral Certificate): 5 minutes\n\n**TOTAL: 1 hour and 15 minutes**",
+        "reference": "The total processing time is 1 hour and 15 minutes, with no fee for the OSAS steps. The applicant needs a Certificate of Registration, an Official Receipt for the Good Moral/Doc Stamp, and a Student ID.",
+        "faithfulness": 0.2857142857142857,
+        "answer_relevancy": 0.9988346137580252,
+        "context_precision": 0.6388888888675925,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "What medical requirements must an admitted applicant submit to the University Clinic?",
+        "retrieved_contexts": [
+          "he medical examination to be submitted to the University Clinic. Requirements include the following: medical certificate from accredited clinical laboratory, drug test, and x-ray. Note: Processing of medical requirements is highly encouraged to be done with the University-accredited medical facilities; however, other medical facilities are also accepted.\n\nStep 8: Enrolment.\nProceed with the enrolment on the respective schedule. A separate announcement will be posted for the enrolment procedure.\n\nD. CONTACT INFORMATION\n\nFor concerns or inquiries regarding the admission process, please refer to the following contact information of the Guidance and Counseling offices (Admission Office) below:\n\n- Guidance and Counseling (LSPU Los Baños Campus)\n  Email Address: guidance_lb@lspu.edu.ph\n  Facebook Page: Guidance Office-LSPU Los Baños Campus\n\nE.",
+          "quirements\n\n3.1. Student intern must:\n\n3.1.1. Be officially enrolled in a legitimate Philippine higher education institution;\n\n3.1.2. Be enrolled in an internship subject;\n\n3.1.3. Be at least eighteen (18) years of age from the start of the internship period;\n\n3.1.4. Pass pre-internship requirements as specified in the internship plan;\n\n3.1.5. Submit a Medical Certificate indicating that he or she is in good health and emotionally fit. The medical certificate shall be based on a physical and psychological examination conducted, or certified by Department of Health (DOH) accredited clinics and hospitals. He or she must also submit other related medical examination requirements by HTE, if any; and\n\n3.1.6. Have a notarized written consent from his or her parents or legal guardian. (No waiver is allowed.)\n\n3.2. Obligations/Responsibilities\n\n3.2.1. Enter into an internship contract and/or agreement with the participating HTE;\n\n3.2.2. Sign all the required documents necessary for his or her participation in the internship program, including the acceptance letter, internship contract and/or agreement;\n\n3.2.3.",
+          "application is correct and active.\n\nStep 3: Admission Examination.\nTake the scheduled Admission Examination at the designated Testing Room of the campus as indicated in the email. Bring the authenticated Form 138 or Certified True Copy of SF9 (first semester Grade 12 Grades/Report Card signed by Adviser/Principal) for verification, as well as the application form printed in A4 paper. Note: A college examination may also be implemented according to the college's standards.\n\nStep 4: Interview Schedule.\nCheck email for the schedule of College Interview to be sent by the College.\n\nStep 5: Interview.\nAttend the scheduled interview with the College Dean or program coordinator/designated faculty.\n\nStep 6: Posting of Results.\nCheck the posting of qualified applicants by the Admission/Guidance Office. Check the official Facebook page of LSPU for updates and announcements (http://facebook.com/LSPUOfficial).\n\nStep 7: Medical Examination.\nAccomplish the medical examination to be submitted to the University Clinic. Requirements include the following: medical certificate from accredited clinical laboratory, drug test, and x-ray.",
+          "Article 3. Institutional Student Programs and Services. These are programs and activities the University offers to facilitate the delivery of essential services to the students. It refers to the services and programs designed to proactively provide for the basic health, food, shelter, and safety concerns of students including students with special needs and disabilities.\n\nSec. 1. Admission and Testing Services\n\n1.1. Recruit prospective college students through career information.\n\n1.2. Administer college entrance test and conduct intake interview for all incoming university students and transferees as a process for admission.\n\n1.3. Prepare and update testing materials.\n\n1.4. Keep files and records systematically.\n\n1.5. Interpret and evaluate college entrance test results and post them on the bulletin board.\n\n1.6. Strictly follow the admission policies of the university.\n\n1.7. Assist incoming college students, facilitate admission requirements and similar documents.\n\n1.8. Recommend alternatives/options, if necessary, for students who failed the admission requirements.\n\n1.9. Administer psychological tests for students who have special cases.\n\nSec. 2.",
+          "/ her studies, a week prior to the start of classes.\n\n2.5. The process of a fully functional and efficient automated registration and online payment is considered for utilization. Payment includes tuition and other matriculation fees, requests (TOR, certification) of senior high school students, and graduate students, while the undergraduate students shall have efficient records for\n\nUNIFAST.\n\n2.6. The University Admission Test for 1st-year entrants A.Y. 2020- 2021 will not be administered. Admission tests might be given during the middle of the semester as a follow-up procedure in the admission policy of the university.\n\n2.7. Requirements for admission among college students may include high school grades, interviews, and schedules of examinations before the implementation of Enhanced Community Quarantine\n\n(ECQ).\n\n2.8. The graduate students are required to submit an official transcript of records, authentic marriage certificate (if married), and 2X2 pictures to the Office of the University Registrar prior admission to the program.\n\nSec. 3. Tele-Web Counseling The adversity brought us another opportunity to learn."
+        ],
+        "response": "According to the provided context, admitted applicants must submit the following medical requirements to the University Clinic:\n\n1. **Medical certificate from accredited clinical laboratory**\n2. **Drug test**\n3. **X-ray**\n\nThe context notes that \"Processing of medical requirements is highly encouraged to be done with the University-accredited medical facilities; however, other medical facilities are also accepted.\"",
+        "reference": "A medical certificate from an accredited clinical laboratory, a drug test, and an x-ray. Using University-accredited medical facilities is highly encouraged, but other medical facilities are also accepted.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9895320363418868,
+        "context_precision": 0.8333333332916666,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "What is the maximum residence rule for finishing a course?",
+        "retrieved_contexts": [
+          "Article 11. Maximum Residence Rule. A student must finish the requirements of the course of any college within a period of an actual residence equivalent to 1.5 times the normal length prescribed for the course; otherwise, s/he shall not be allowed to register in the university.",
+          "Article 9. Residence Requirements and Time Limit. For most degrees and other qualifications, the University requires the students to spend a set amount of time receiving tuition or carrying out research.\n\nSec. 1. A master's degree student shall earn a minimum of 18 units within two\n\n(2) semesters, whereas a doctorate aspirant shall complete a minimum of 27 units equivalent to three (3) semesters.\n\nSec. 2. All curricular requirements for a master's degree shall be completed within five (5) years after the student’s first enrolment in the master's program; those for doctorate shall be completed within seven (7) years after the student’s first enrolment in the doctorate program.",
+          "Article 10. Class Size\n\nSec. 1. A minimum of five-to-ten students, especially for major subjects whose professors are limited and a maximum of thirty (35) students for basic and elective subjects respectively, shall be considered as one whole class.\n\nSec. 2. In case the number of enrollees is less than five (5), considerations shall be given under the following conditions:\n\n2.1. graduating students\n\n2.2. remaining subject/s before graduation\n\n2.3. the professor’s honorarium is P3,000.00 per student/semester. Increase in honorarium is subject for change.",
+          "a policy, students should have the following General Weighted Average (GWA) in their Form 138 for the following priority courses unless otherwise specified by the College:\n\n2.6.1. eighty-five (85) and above for Accountancy, Engineering, Nursing, Information Technology, Psychology, Biology, Mathematics, Criminology, Agriculture, Teacher Education, and other Board Programs\n\n2.6.2. eighty-two (82) and above – Hotel Restaurant Management, Tourism, and Industrial Technology\n\n2.6.3. For courses with board examination like teacher education, engineering, accountancy, nursing, criminology, among others, students shall not have a grade in their Form 138 below eighty-five (85), or otherwise specified by the College, at any of the following subjects: English, Science, and Mathematics.\n\n2.7. Pledge of Compliance. The student and the parent/guardian should sign the pledge that the student will abide/comply with all the university's rules and regulations. Refusal to take this pledge or violation of its term shall be sufficient for summary dismissal or denial of admission. (Appendix E)\n\n2.8. Certificate of Registration.",
+          "Article 1. Academic Awards\n\nSec. 1. Description. This pertains to awards given to students who showed academic proficiency and excellence in their respective courses.\n\nSec. 2. Policies and Guidelines\n\n2.1. Students carrying normal academic load each semester (unless otherwise carrying of lighter load is justifiable like that of a working student but not less than 15 units each semester) who completed their courses with the following averages, computed on the basis of units, shall have graduated with honors, provided they meet all the requirements.\n\n2.3. Provided further that they must have completed in this university at least 75% of the total number of units or hours required for graduation and must have been in residence in this university at least two (2) years immediately prior to graduation.\n\n2.4. Students who completed a curriculum in the degree/non-degree courses with the grades computed in the basis of the number of units for each course will be granted with honors.\n\n2.5."
+        ],
+        "response": "According to the provided context, the maximum residence rule for finishing a course is stated in **Article 11. Maximum Residence Rule**:\n\n\"A student must finish the requirements of the course of any college within a period of an **actual residence equivalent to 1.5 times the normal length prescribed for the course**; otherwise, s/he shall not be allowed to register in the university.\"\n\nIn other words, the maximum time allowed is **1.5 times the normal duration** of the course. If a student does not complete the course requirements within this timeframe, they will not be permitted to continue registering in the university.",
+        "reference": "A student must finish the course within an actual residence equivalent to 1.5 times the normal length prescribed for the course. Otherwise, the student is not allowed to register in the university.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.942454694835884,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "What is the sanction for a 2nd offense of cheating in examinations?",
+        "retrieved_contexts": [
+          "nces can be removed through makeup.\n\n1.2.4. Every student shall secure an excuse slip from the Guidance Office for absence/s made before admission to classes.\n\nSec. 2. Dishonesty. Any form of cheating in examinations.\n 1st Offense: Automatically failed in examination\n 2nd Offense: Academic probation and automatic grade of 5.0.\n 3rd Offense: Subsequent offense: Dismissal from the University\n\n2.1 Any act of dishonesty in relation to his studies and any other forms of dishonesty.\n 1st Offense: Reprimand with community service\n 2nd Offense: Promissory note duly signed by the Guidance Counselor/Student Discipline Coordinator and two (2) days community service\n 3rd Offense: Subsequent offense: Suspension for two (2) weeks\n\nSect. 3. Littering/Scattering of Trash in Public Places. Proper disposal of waste, trash, garbage and the like shall always be observed. Comfort rooms, trash cans, containers, garbage pit-piles are provided for this purpose.",
+          "Appendix for Guidelines for the Conduct of Mandatory Drug Testing Program of LSPU Students — verify exact wording against the source PDF, pages 70-71.]\n\nSec. 11. Physical Assault. Settling misunderstandings by fist fighting, boxing or any form of physical assault, or challenging one to a fight.\n 1st Offense: Suspension for one (1) week, 40 hours service to be rendered in the institution and payment of damages\n 2nd Offense: Suspension for one (1) semester and payment of damages\n 3rd Offense: Expulsion from the University\n\nSec. 12. Stealing. Getting something from an individual or from the University without permission from proper authorities and other forms of stealing.\n 1st Offense: Suspension for one (1) semester and payment of damages\n 2nd Offense: Expulsion from the University and payment of damages\n\nSec. 13. Strikes, demonstrations, and boycotts of classes. Obstructing or disrupting classes or other University activities by instigating, leading or participating in strikes or demonstrations without permit.",
+          "nt, obscene conduct and activities which include possessing and/or circulating pornographic/trashy literature and pictures, using indecent language and doing similar acts. (PD No. 960 as amended by PD No. 969)\n\n9.1. Directed against the faculty, staff, student, visitors and any person in authority which include sex video scandals\n 1st Offense: Suspension for one (1) month\n 2nd Offense: Suspension for one (1) semester\n 3rd Offense: Expulsion from the University\n\n9.2. Uploading, downloading and sharing sex video scandals.\n Sanction (all offenses): Suspension for one (1) month\n\n9.3. Surfing of pornographic pictures and posting of lustful photos in the internet while within the university premises.\n 1st Offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n 2nd Offense: Suspension for one (1) month\n 3rd Offense: Suspension for one (1) semester\n\nSec. 10. Narcotics-related Concerns. Possession, use or distribution of any prohibited drugs or chemicals such as LSD, ecstasy, marijuana, Methamphetamine (shabu), heroin, or opiates of any form (R.A. 9165) will be reported to Safety and Security Office.",
+          "Suspension for one (1) week and 40 hours service to be rendered in the institution\n 2nd Offense: Suspension for one (1) semester\n 3rd Offense: Expulsion from the University\n\n6.2. Any drunkenness or drunken behavior resulting in physical injuries to other person/s or destruction of property/ies.\n 1st Offense: Suspension for one (1) month and payment of damages\n 2nd Offense: Suspension for one (1) semester and payment for damages\n 3rd Offense: Expulsion from the University and payment of damages\n\nSec. 7. Deception and Forgery. Intentional making of a false statement of any material or fact, or practicing or attempting to practice any deception or fraud in connection with his admission registration in or graduation from the University. (Forging signature and falsifying public documents.)\n 1st Offense: Suspension for one (1)\n\n7.1. Falsification of common forms like excuse letters, waivers and signature of parents.\n 1st Offense: Suspension for one (1) week and 40 hours service in the university\n 2nd Offense: Suspension for one (1) month\n 3rd Offense: Suspension for one (1) semester\n\n7.2.",
+          "ts.\n 1st Offense: Suspension for one (1) week and 40 hours service in the university\n 2nd Offense: Suspension for one (1) month\n 3rd Offense: Suspension for one (1) semester\n\n7.2. Falsification of official University and public documents like clearance, completion form, and other related documents.\n 1st Offense: Suspension for one (1) month\n 2nd Offense: Suspension for one (1) semester\n 3rd Offense: Expulsion from the University\n\n7.3. Borrowing and lending Library card and School ID using unauthorized ID\n 1st Offense: Reprimand\n 2nd Offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n 3rd Offense: Suspension for one (1) month\n\nSec. 8. Gambling. Engaging in any form/s of gambling and/or possessing of cards or any gambling paraphernalia within the University premises.\n 1st Offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n 2nd Offense: Suspension for one (1) semester\n\nSec. 9. Indecency and Obscenity. Engaging in indecent, obscene conduct and activities which include possessing and/or circulating pornographic/trashy literature and pictures, using indecent language and doing similar acts. (PD No."
+        ],
+        "response": "According to the context provided, the sanction for a 2nd offense of cheating in examinations is:\n\n**\"Academic probation and automatic grade of 5.0.\"**\n\nThis is found under Section 2 (Dishonesty) regarding \"Any form of cheating in examinations.\"",
+        "reference": "Academic probation and an automatic grade of 5.0.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9825825506367368,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    ]
+  },
+  {
+    "mode": "hybrid_rag",
+    "ragas": {
+      "faithfulness": {
+        "count": 6.0,
+        "mean": 0.888888888888889,
+        "std": 0.2721655269759087,
+        "min": 0.3333333333333333,
+        "25%": 1.0,
+        "50%": 1.0,
+        "75%": 1.0,
+        "max": 1.0
+      },
+      "answer_relevancy": {
+        "count": 6.0,
+        "mean": 0.9400571446193974,
+        "std": 0.050341368494771305,
+        "min": 0.8799248268045133,
+        "25%": 0.8995827295390507,
+        "50%": 0.942796965064939,
+        "75%": 0.9779338360799137,
+        "max": 0.9999999999999997
+      },
+      "context_precision": {
+        "count": 6.0,
+        "mean": 0.9037037036351543,
+        "std": 0.1680192032627829,
+        "min": 0.5888888888692593,
+        "25%": 0.8749999999437499,
+        "50%": 0.9999999999,
+        "75%": 0.9999999999,
+        "max": 0.99999999995
+      },
+      "context_recall": {
+        "count": 6.0,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "25%": 1.0,
+        "50%": 1.0,
+        "75%": 1.0,
+        "max": 1.0
+      }
+    },
+    "per_item": [
+      {
+        "user_input": "How many degree programs does LSPU Los Baños offer, and across how many colleges?",
+        "retrieved_contexts": [
+          "=================================\nLSPU-LB ACADEMIC PROGRAMS: OVERVIEW\nLaguna State Polytechnic University - Los Banos Campus (LSPU-LB) offers 23 degree programs across 8 colleges. All programs are four-year programs.\n\nColleges and the programs they offer:\n- College of Arts and Sciences (CAS): Bachelor of Science in Psychology\n- College of Business Administration and Accountancy (CBAA): Bachelor of Science in Business Administration - Major in Marketing Management; Bachelor of Science in Accountancy; Bachelor of Science in Business Administration - Major in Financial Management\n- College of Computer Studies (CCS): Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program\n- College of Criminal Justice Education (CCJE): Bachelor of Science in Criminology\n- College of Fisheries (CF): Bachelor of Science in Fisheries\n- College of Food Nutrition and Dietetics (CFND): Bachelor of Science in Food Technology; Bac",
+          "es (Admission Office) below:\n\n- Guidance and Counseling (LSPU Los Baños Campus)\n  Email Address: guidance_lb@lspu.edu.ph\n  Facebook Page: Guidance Office-LSPU Los Baños Campus\n\nE. ANNEX A: LIST OF CURRICULAR PROGRAM OFFERINGS AND GENERAL WEIGHTED AVERAGE REQUIREMENTS\n\nFormat below: Program | GWA | Campus offering the program\n\nCollege of Arts and Sciences\n- Bachelor of Science in Psychology | GWA 88 | Los Baños\n\nCollege of Business Administration and Accountancy\n- Bachelor of Science in Accountancy | GWA 90 | Los Baños\n- Bachelor of Science in Business Administration (Majors: Financial Management, Marketing Management) | GWA 88 | Los Baños\n\nCollege of Computer Studies\n- Bachelor of Science in Computer Science | GWA 90 | Los Baños\n- Bachelor of Science in Information Technology | GWA 85 | Los Baños\n\nCollege of Criminal Justice Education\n- Bachelor of Science in Criminology | GWA 85 | Los Baños\n\nCollege of Fisheries\n- Bachelor of Science in Fisheries | GWA 87 | Los Baños\n\nCollege of Food Nutrition and Dietetics\n- Bachelor of Science in Nutrition and Dietetics | GWA 90 | Los Baños\n- Bachelor of Science in Food Technology | GWA 90 | Los Baños\n\nCollege of Hospitality Management and Touri",
+          "hment of satellite campuses such as LSPC Nagcarlan Satellite Campus (S.Y. 1991-1992); LSPC Santa Maria Satellite Campus (S.Y. 1992-1993); and LSPC Cabuyao Campus (S.Y. 1993-1994). The integration phase of three (3) Commission on Higher Education (CHED) Supervised Institutions by the Special Provision No. 2 of the CHED FY 1999 Budget under the General Appropriations Act of 1999 transpired under Dr. Wagan’s incumbency.\n\nIn January 1999, the former Laguna College of Arts and Trades in Santa Cruz, Laguna, was integrated to LSPC by R.A. 8745, R.A. 7722, and R.A. 8292, hence known as Laguna State Polytechnic College-Santa Cruz Campus. In the same year, Los Baños College of Fisheries at Los Baños Laguna was also integrated to LSPC by R.A. 7722, known as the Higher Education Act of 1994, and R.A. 8292, Higher Education Modernization Act of 1997.\n\nUnder CHED Memorandum Order No. 27, s.",
+          "ics\n- Bachelor of Science in Nutrition and Dietetics | GWA 90 | Los Baños\n- Bachelor of Science in Food Technology | GWA 90 | Los Baños\n\nCollege of Hospitality Management and Tourism\n- Bachelor of Science in Hospitality Management | GWA 85 | Los Baños\n- Bachelor of Science in Tourism Management | GWA 88 | Los Baños\n\nCollege of Teacher Education\n- Bachelor of Elementary Education | GWA 90 | Los Baños\n- Bachelor of Secondary Education\n  Majors (may vary according to campus offering): English; Filipino; Mathematics; Science; Social Studies; Values Education\n  | GWA 90 | Los Baños\n- Bachelor of Technology and Livelihood Education\n  Specializations (may vary according to campus offering): Agri-Fishery Arts; Home Economics; Industrial Arts; Information and Communications Technology\n  | GWA 87 | Los Baños\n- Bachelor of Physical Education | GWA 90 | Los Baños\n- Bachelor of Technical-Vocational Education\n  Specializations (may vary according to campus offering): Agricultural Crops Production; Animal Production; Automotive Technology; Civil and Construction Technology; Electrical Technology; Electronics Technology; Fish Processing and Fish Capture; Food and Service Management; Garments, Fash",
+          "also integrated to LSPC by R.A. 7722, known as the Higher Education Act of 1994, and R.A. 8292, Higher Education Modernization Act of 1997.\n\nUnder CHED Memorandum Order No. 27, s. 2000, Implementing Guidelines of the Integration of CHED-Supervised Institutions (CSIs) to State Universities and Colleges (SUCs) Phase II, the formal turn-over ceremony took place relative to the integration of San Pablo City National School of Arts and Trades at San Pablo City to LSPU.\n\nPresident Wagan marked remarkable and distinctive achievements for LSPC. The established multi-campus institution amplified the number of nondegree and degree curricular programs/offerings that necessitated hiring more teachers due to increased enrollment. There was also intensified rehabilitation, repairing, and construction of academic buildings and relevant facilities. Graduate programs were launched, which paved the way for acquiring state-of-theart equipment.\n\nLikewise, President Wagan opened doors to neighboring Asian countries through academic and cultural exchange and partnership programs."
+        ],
+        "response": "According to the provided context, **LSPU-LB offers 23 degree programs across 8 colleges**. The context states: \"Laguna State Polytechnic University - Los Banos Campus (LSPU-LB) offers 23 degree programs across 8 colleges. All programs are four-year programs.\"",
+        "reference": "LSPU-LB offers 23 degree programs across 8 colleges. All of them are four-year programs.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8799248268045133,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "Which CHED memorandum order regulates the BS Psychology program, and which licensure examination can its graduates take?",
+        "retrieved_contexts": [
+          "- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.\n- Counseling / Guidance Track: Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Psychometrician Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 34, s.",
+          "neral Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Psychometrician Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 34, s. 2017 - Policies and Standards for Undergraduate Programs in Psychology\nProgram educational objectives (per this CMO):\n- Apply the scientific study of behavior and mental processes to understand individuals and groups across diverse settings.\n- Conduct psychological research and assessment ethically, and pursue further training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.\n\n======================================================================\nPROGRAM: Bachelor of Science in Accountancy\nCollege: College of Business Administration and Accountancy (CBAA)\nDegree: Bachelor of Science in Accountancy (BSA)\nDuration: 4 years\n\nOverview: Covers financial and management accounting, auditing, taxation, and busin",
+          "ducation: Licensure Examination for Teachers (Elementary Level)\n\nNon-board programs (no PRC licensure examination):\n- Bachelor of Science in Computer Science - Major in Intelligent Systems\n- Bachelor of Science in Business Administration - Major in Marketing Management\n- Bachelor of Science in Business Administration - Major in Financial Management\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\n- Bachelor of Science in Information Technology - Major in Service Management Program\n- Bachelor of Science in Tourism Management\n- Bachelor of Science in Hospitality Management\n\n======================================================================\nCHED MEMORANDUM ORDER: CMO No. 25, s.",
+          "business specialization in response to a changing market environment.\n\n======================================================================\nCHED MEMORANDUM ORDER: CMO No. 27, s. 2017\nTitle: Revised Policies, Standards and Guidelines for Bachelor of Science in Accountancy (BSA)\nLSPU-LB programs covered by this CMO: Bachelor of Science in Accountancy.\nProgram educational objectives:\n- Apply generally accepted accounting, auditing, and taxation principles to prepare and evaluate financial information with integrity.\n- Qualify for and succeed in the CPA Licensure Examination and subsequent professional accountancy practice.\n\n======================================================================\nCHED MEMORANDUM ORDER: CMO No. 33, s.",
+          "l processes to understand individuals and groups across diverse settings.\n- Conduct psychological research and assessment ethically, and pursue further training or licensure (e.g. as a psychometrician) as warranted.\n\n======================================================================\nCHED MEMORANDUM ORDER: CMO No. 62, s. 2017\nTitle: Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM)\nLSPU-LB programs covered by this CMO: Bachelor of Science in Tourism Management; Bachelor of Science in Hospitality Management.\nProgram educational objectives:\n- Plan, deliver, and manage guest-centered tourism or hospitality operations that meet industry service standards.\n- Advance to supervisory or entrepreneurial roles within the tourism and hospitality industry through demonstrated operational and management competence.\n\n======================================================================\nCHED MEMORANDUM ORDER: CMO No. 78, s."
+        ],
+        "response": "Based on the provided context:\n\n**CHED Memorandum Order:** \"CMO No. 34, s. 2017 - Policies and Standards for Undergraduate Programs in Psychology\"\n\n**Licensure Examination:** Graduates of the BS Psychology program may take the \"Psychometrician Licensure Examination.\"\n\nThe context notes that it is a \"Board program\" and that graduates may pursue \"further training or licensure (e.g. as a psychometrician) as warranted.\"",
+        "reference": "CHED CMO No. 34, s. 2017 (Policies and Standards for Undergraduate Programs in Psychology). Graduates may take the Psychometrician Licensure Examination.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8852920744401063,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "How long does it take to get a Good Moral Certificate as an undergraduate student at OSAS, according to the Citizen's Charter?",
+        "retrieved_contexts": [
+          "rperson/ Staff\nrendered by\nOSAS.\nClientele\n\n3. Accept the validated Release validated ID. | None | 1 minute | OSAS Director/\nID. | Chairperson/ Staff\nTOTAL: | None | 4 minutes\n\n5. Issuance of Good Moral Certificate (Undergraduate)\nThis process provides description and series of steps for assisting the students\nspecifically in the issuance of Good Moral Certificate\nOffice or Division: | Office of the Student Affairs and Services\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nCertificate of Registration | Registrar’s Office\nOfficial Receipt for Good Moral/Doc\nStamp | Cashier Office\nStudent ID | Business Affairs Office\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present the Certificate | Receive and check | OSAS Director /\nof Registration. | submitted | Chairperson\ndocuments. | None | 5 Minutes | OSAS Staff\nIssue Good Moral\npayment slip.\n2. Payment | of | fees | Check | Official | Cashier\n(Certification Fee and | Receipt.",
+          "| Release | Good | OSAS Director /\nCertificate. Signing in | Moral Certificate. | None | 5 minutes | Chairperson\nthe Logbook. | OSAS Staff\n1 hour and 15\nTOTAL: | None\nminutes\n\n6. Issuance of Good Moral Certificate (LSPU Alumni)\nThis process provides description and series of steps for assisting the students\nspecifically in the issuance of Good Moral Certificate\nOffice or Division: | Office of the Student Affairs and Services\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nTranscript of Record (TOR) | Registrar’s Office\nOfficial Receipt for Good Moral/Doc\nStamp | Cashier Office\nStudent ID | Business Affairs Office\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present any of the | Receive and check | OSAS Director /\nfollowing: | Original | submitted | Chairperson\nTranscript of Records, | documents. | None | 5 Minutes | OSAS Staff\nDiploma or Alumni ID. | Issue Good Moral\npayment slip.\n2. Payment | of | fees | Check | Official | Cashier\n(Certification Fee and | Receipt.\nDocumentary Stamp – | None | 40 minutes\nif applicable).",
+          "| Release | Good | OSAS Director /\nCertificate. Signing in | Moral Certificate. | None | 5 minutes | Chairperson\nthe Logbook. | OSAS Staff\n1 hour and 15\nTOTAL: | None\nminutes\n\n7. Issuance of Good Moral Certificate (Transferee)\nThis process provides description and series of steps for assisting the students\nspecifically in the issuance of Good Moral Certificate.\nOffice or Division: | Office of the Student Affairs and Services\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nCertificate of Transfer | Registrar’s Office\nOfficial Receipt for Good Moral/Doc\nStamp | Cashier Office\nStudent ID | Business Affairs Office\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present the Certificate | Receive and check | OSAS Director /\nof Transfer. | submitted | Chairperson\ndocuments. | None | 5 Minutes | OSAS Staff\nIssue Good Moral\npayment slip.\n2. Payment | of | fees | Check | Official | Cashier\n(Certification Fee and | Receipt.\nDocumentary Stamp – | None | 40 minutes\nif applicable). Submit\nOfficial Receipt.\n3.",
+          "Article 5. Retention Policies\n\nSec. 1. Good Moral. After admission to any university program, the student must maintain good moral character at all times regardless of the year level.\n\nSec. 2. Compliance. A student must adhere to the rules of conduct, regulations, and policies imposed by the University in this Handbook.\n\nSec. 3. Retention Requirement. A student shall always act in a manner that will uphold the honor, dignity, and prestige of the university and must meet the following requirements to stay in the program and must obtain the corresponding degree:\n\n3.1. Evaluation of student records for purposes of retention is guided by standards.\n\n3.2. Minimum Grade Point Average (GPA) for every semester or summer of study is 2.00.\n\n3.2.1. Minimum Final Grade for Board Program\n\n3.2.1.1. in any major-related subjects 2.00\n\n3.2.1.2. in any professional -related subjects 2.00\n\n3.2.1.3. in any general education subjects 1.75-1.00\n\n3.2.2. Minimum Final Grade for any Non-board Program\n\n3.2.2.1. in any major-required subjects 2.25\n\n3.2.2.2. in any professional-related subjects 2. 25\n\n3.2.2.3. in any general education subjects 2.00-1.00\n\n3.3.",
+          "ID. | Issue Good Moral\npayment slip.\n2. Payment | of | fees | Check | Official | Cashier\n(Certification Fee and | Receipt.\nDocumentary Stamp – | None | 40 minutes\nif applicable). Submit\nOfficial Receipt.\n3. Processing of Good | Check correctness | OSAS Director /\nMoral Certificate. | of | documents | Chairperson\nNone | 20 minutes\nsubmitted. Check | OSAS Staff\ndisciplinary records.\n\n20\n\n================================================================================\nPAGE 29\n================================================================================\nPreparation | of\nGood | Moral\nCertificate.\nAffix Documentary\nStamp.\nAffix signature on\nthe certification.\n4. Evaluate the Services\nIssue Confirm fulfillment | OSAS Director /\nrendered by OSAS. | of evaluation. | None | 5 minutes | Chairperson\nOSAS Staff\n5. Accept the Good Moral | Release | Good | OSAS Director /\nCertificate. Signing in | Moral Certificate. | None | 5 minutes | Chairperson\nthe Logbook. | OSAS Staff\n1 hour and 15\nTOTAL: | None\nminutes\n\n7."
+        ],
+        "response": "According to the Citizen's Charter provided in the context, the processing time for a Good Moral Certificate for an undergraduate student at OSAS is **1 hour and 15 minutes** in total.\n\nThis breaks down as follows:\n- Step 1 (Present Certificate of Registration): 5 minutes\n- Step 2 (Payment of fees): 40 minutes\n- Step 3 (Processing of Good Moral Certificate): 20 minutes\n- Step 4 (Evaluate Services): 5 minutes\n- Step 5 (Accept the Certificate): 5 minutes",
+        "reference": "The total processing time is 1 hour and 15 minutes, with no fee for the OSAS steps. The applicant needs a Certificate of Registration, an Official Receipt for the Good Moral/Doc Stamp, and a Student ID.",
+        "faithfulness": 0.3333333333333333,
+        "answer_relevancy": 0.9431392352939941,
+        "context_precision": 0.5888888888692593,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "What medical requirements must an admitted applicant submit to the University Clinic?",
+        "retrieved_contexts": [
+          "he medical examination to be submitted to the University Clinic. Requirements include the following: medical certificate from accredited clinical laboratory, drug test, and x-ray. Note: Processing of medical requirements is highly encouraged to be done with the University-accredited medical facilities; however, other medical facilities are also accepted.\n\nStep 8: Enrolment.\nProceed with the enrolment on the respective schedule. A separate announcement will be posted for the enrolment procedure.\n\nD. CONTACT INFORMATION\n\nFor concerns or inquiries regarding the admission process, please refer to the following contact information of the Guidance and Counseling offices (Admission Office) below:\n\n- Guidance and Counseling (LSPU Los Baños Campus)\n  Email Address: guidance_lb@lspu.edu.ph\n  Facebook Page: Guidance Office-LSPU Los Baños Campus\n\nE.",
+          "quirements\n\n3.1. Student intern must:\n\n3.1.1. Be officially enrolled in a legitimate Philippine higher education institution;\n\n3.1.2. Be enrolled in an internship subject;\n\n3.1.3. Be at least eighteen (18) years of age from the start of the internship period;\n\n3.1.4. Pass pre-internship requirements as specified in the internship plan;\n\n3.1.5. Submit a Medical Certificate indicating that he or she is in good health and emotionally fit. The medical certificate shall be based on a physical and psychological examination conducted, or certified by Department of Health (DOH) accredited clinics and hospitals. He or she must also submit other related medical examination requirements by HTE, if any; and\n\n3.1.6. Have a notarized written consent from his or her parents or legal guardian. (No waiver is allowed.)\n\n3.2. Obligations/Responsibilities\n\n3.2.1. Enter into an internship contract and/or agreement with the participating HTE;\n\n3.2.2. Sign all the required documents necessary for his or her participation in the internship program, including the acceptance letter, internship contract and/or agreement;\n\n3.2.3.",
+          "application is correct and active.\n\nStep 3: Admission Examination.\nTake the scheduled Admission Examination at the designated Testing Room of the campus as indicated in the email. Bring the authenticated Form 138 or Certified True Copy of SF9 (first semester Grade 12 Grades/Report Card signed by Adviser/Principal) for verification, as well as the application form printed in A4 paper. Note: A college examination may also be implemented according to the college's standards.\n\nStep 4: Interview Schedule.\nCheck email for the schedule of College Interview to be sent by the College.\n\nStep 5: Interview.\nAttend the scheduled interview with the College Dean or program coordinator/designated faculty.\n\nStep 6: Posting of Results.\nCheck the posting of qualified applicants by the Admission/Guidance Office. Check the official Facebook page of LSPU for updates and announcements (http://facebook.com/LSPUOfficial).\n\nStep 7: Medical Examination.\nAccomplish the medical examination to be submitted to the University Clinic. Requirements include the following: medical certificate from accredited clinical laboratory, drug test, and x-ray.",
+          "test, drug test, etc.) should be shouldered by the student/applicant, especially for testing done in an outside facility.\n\n2.14 Non-regular Admission\n\n2.14.1 Non-degree Students. A degree holder or undergraduate student who is not currently enrolled in any other higher learning institution may be allowed to take the credit courses on the graduate and/or undergraduate level, respectively, provided that this student satisfies the appropriate requirements for admission to the college. He/she should not be allowed to enroll for more than one semester, except by special permission of the dean of the college concerned and the university registrar.\n\nSince the applicant does not follow any organized study program, a non-degree student is not a prospective candidate for graduation for any degree in the university.\n\n2.14.2. Special Student. Even if he does not fully satisfy the university entrance requirements, a mature student may be admitted as a special student and may enroll for any subject that is, in the dean's opinion, has the necessary information or ability to pursue profitably.",
+          "/ her studies, a week prior to the start of classes.\n\n2.5. The process of a fully functional and efficient automated registration and online payment is considered for utilization. Payment includes tuition and other matriculation fees, requests (TOR, certification) of senior high school students, and graduate students, while the undergraduate students shall have efficient records for\n\nUNIFAST.\n\n2.6. The University Admission Test for 1st-year entrants A.Y. 2020- 2021 will not be administered. Admission tests might be given during the middle of the semester as a follow-up procedure in the admission policy of the university.\n\n2.7. Requirements for admission among college students may include high school grades, interviews, and schedules of examinations before the implementation of Enhanced Community Quarantine\n\n(ECQ).\n\n2.8. The graduate students are required to submit an official transcript of records, authentic marriage certificate (if married), and 2X2 pictures to the Office of the University Registrar prior admission to the program.\n\nSec. 3. Tele-Web Counseling The adversity brought us another opportunity to learn."
+        ],
+        "response": "Based on the provided context, admitted applicants must submit the following medical requirements to the University Clinic:\n\n1. **Medical certificate from accredited clinical laboratory**\n2. **Drug test**\n3. **X-ray**\n\nThe context notes that \"Processing of medical requirements is highly encouraged to be done with the University-accredited medical facilities; however, other medical facilities are also accepted.\"",
+        "reference": "A medical certificate from an accredited clinical laboratory, a drug test, and an x-ray. Using University-accredited medical facilities is highly encouraged, but other medical facilities are also accepted.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9895320363418868,
+        "context_precision": 0.8333333332916666,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "What is the maximum residence rule for finishing a course?",
+        "retrieved_contexts": [
+          "Article 11. Maximum Residence Rule. A student must finish the requirements of the course of any college within a period of an actual residence equivalent to 1.5 times the normal length prescribed for the course; otherwise, s/he shall not be allowed to register in the university.",
+          "Article 1. Academic Awards\n\nSec. 1. Description. This pertains to awards given to students who showed academic proficiency and excellence in their respective courses.\n\nSec. 2. Policies and Guidelines\n\n2.1. Students carrying normal academic load each semester (unless otherwise carrying of lighter load is justifiable like that of a working student but not less than 15 units each semester) who completed their courses with the following averages, computed on the basis of units, shall have graduated with honors, provided they meet all the requirements.\n\n2.3. Provided further that they must have completed in this university at least 75% of the total number of units or hours required for graduation and must have been in residence in this university at least two (2) years immediately prior to graduation.\n\n2.4. Students who completed a curriculum in the degree/non-degree courses with the grades computed in the basis of the number of units for each course will be granted with honors.\n\n2.5.",
+          "es not lower than 2.0 in nine (9) units of foundation subjects and nine (9) units in major subjects.\n\n1.1.7. entrance examination and interview results with a passing rate\n\n1.1.8. recommendation for graduate study (LSPU GSAR Form) from immediate head/supervisor\n\n1.1.9. for non-education graduates, 18 units of professional education are required\n\n1.2.0. for applicants of the master's program to enroll in major subjects other than what they majored in college, 12 units in an undergraduate course in that particular new choice/major shall be taken. However, an applicant with two-year experience teaching the new preferred major subject shall qualify him/her to enroll in the preferred course.\n\n1.2. Transferees. Residency is tantamount to the acquisition of 50 percent (50%) attendance to the required courses of the university, namely: two (2) foundations subjects (Methods of Research and Advance Statistics), three (3) major subjects, and one (1) cognate.\n\n1.3. Foreign Students\n\n1.3.1. Admission Requirements of foreign/international students stipulated for undergraduate students are the same for graduate students.\n\n1.3.2. Certification of Registration\n\n1.4. Doctorate Students\n\n1.4.1.",
+          "Article 10. Class Size\n\nSec. 1. A minimum of five-to-ten students, especially for major subjects whose professors are limited and a maximum of thirty (35) students for basic and elective subjects respectively, shall be considered as one whole class.\n\nSec. 2. In case the number of enrollees is less than five (5), considerations shall be given under the following conditions:\n\n2.1. graduating students\n\n2.2. remaining subject/s before graduation\n\n2.3. the professor’s honorarium is P3,000.00 per student/semester. Increase in honorarium is subject for change.",
+          "Article 5. Course Load and Requirements\n\nSec. 1. Course Load\n\n1.1. A student’s maximum load is nine (9) units per semester and not more than six (6) units if the subject has a laboratory during the summer weekend session.\n\nSec. 2. Course Requirements Course Requirements Table (units required per program: MPA / MS / MA/MAT / MA Ed / PhD (Agri) / PhD (Mgt) / EdD):\n\nCore/Foundation: 9 / 9 / 9 / 9 / 18 / 18 / 12\nMajor Courses: 18 / 18 / 15 / 15 / 21 / 24 / 18\nElectives/Foreign Language: (none) / (none) / (none) / (none) / 6 / 3 / 9\nCognate/Graduate Seminar: 9 / 9 / 12 / 12 / 9 / 9 / 12\nThesis/Dissertation: 6 / 6 / 6 / 6 / 12 / 12 / 12\nTotal Units: 42 / 42 / 42 / 42 / 66 / 66 / 63"
+        ],
+        "response": "According to the context, the maximum residence rule for finishing a course is stated in Article 11:\n\n**A student must finish the requirements of the course within \"a period of an actual residence equivalent to 1.5 times the normal length prescribed for the course\"; otherwise, they shall not be allowed to register in the university.**\n\nIn other words, students have 1.5 times the normal duration of their program to complete all course requirements.",
+        "reference": "A student must finish the course within an actual residence equivalent to 1.5 times the normal length prescribed for the course. Otherwise, the student is not allowed to register in the university.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.942454694835884,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "What is the sanction for a 2nd offense of cheating in examinations?",
+        "retrieved_contexts": [
+          "nces can be removed through makeup.\n\n1.2.4. Every student shall secure an excuse slip from the Guidance Office for absence/s made before admission to classes.\n\nSec. 2. Dishonesty. Any form of cheating in examinations.\n 1st Offense: Automatically failed in examination\n 2nd Offense: Academic probation and automatic grade of 5.0.\n 3rd Offense: Subsequent offense: Dismissal from the University\n\n2.1 Any act of dishonesty in relation to his studies and any other forms of dishonesty.\n 1st Offense: Reprimand with community service\n 2nd Offense: Promissory note duly signed by the Guidance Counselor/Student Discipline Coordinator and two (2) days community service\n 3rd Offense: Subsequent offense: Suspension for two (2) weeks\n\nSect. 3. Littering/Scattering of Trash in Public Places. Proper disposal of waste, trash, garbage and the like shall always be observed. Comfort rooms, trash cans, containers, garbage pit-piles are provided for this purpose.",
+          "nt, obscene conduct and activities which include possessing and/or circulating pornographic/trashy literature and pictures, using indecent language and doing similar acts. (PD No. 960 as amended by PD No. 969)\n\n9.1. Directed against the faculty, staff, student, visitors and any person in authority which include sex video scandals\n 1st Offense: Suspension for one (1) month\n 2nd Offense: Suspension for one (1) semester\n 3rd Offense: Expulsion from the University\n\n9.2. Uploading, downloading and sharing sex video scandals.\n Sanction (all offenses): Suspension for one (1) month\n\n9.3. Surfing of pornographic pictures and posting of lustful photos in the internet while within the university premises.\n 1st Offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n 2nd Offense: Suspension for one (1) month\n 3rd Offense: Suspension for one (1) semester\n\nSec. 10. Narcotics-related Concerns. Possession, use or distribution of any prohibited drugs or chemicals such as LSD, ecstasy, marijuana, Methamphetamine (shabu), heroin, or opiates of any form (R.A. 9165) will be reported to Safety and Security Office.",
+          "Appendix for Guidelines for the Conduct of Mandatory Drug Testing Program of LSPU Students — verify exact wording against the source PDF, pages 70-71.]\n\nSec. 11. Physical Assault. Settling misunderstandings by fist fighting, boxing or any form of physical assault, or challenging one to a fight.\n 1st Offense: Suspension for one (1) week, 40 hours service to be rendered in the institution and payment of damages\n 2nd Offense: Suspension for one (1) semester and payment of damages\n 3rd Offense: Expulsion from the University\n\nSec. 12. Stealing. Getting something from an individual or from the University without permission from proper authorities and other forms of stealing.\n 1st Offense: Suspension for one (1) semester and payment of damages\n 2nd Offense: Expulsion from the University and payment of damages\n\nSec. 13. Strikes, demonstrations, and boycotts of classes. Obstructing or disrupting classes or other University activities by instigating, leading or participating in strikes or demonstrations without permit.",
+          "Suspension for one (1) week and 40 hours service to be rendered in the institution\n 2nd Offense: Suspension for one (1) semester\n 3rd Offense: Expulsion from the University\n\n6.2. Any drunkenness or drunken behavior resulting in physical injuries to other person/s or destruction of property/ies.\n 1st Offense: Suspension for one (1) month and payment of damages\n 2nd Offense: Suspension for one (1) semester and payment for damages\n 3rd Offense: Expulsion from the University and payment of damages\n\nSec. 7. Deception and Forgery. Intentional making of a false statement of any material or fact, or practicing or attempting to practice any deception or fraud in connection with his admission registration in or graduation from the University. (Forging signature and falsifying public documents.)\n 1st Offense: Suspension for one (1)\n\n7.1. Falsification of common forms like excuse letters, waivers and signature of parents.\n 1st Offense: Suspension for one (1) week and 40 hours service in the university\n 2nd Offense: Suspension for one (1) month\n 3rd Offense: Suspension for one (1) semester\n\n7.2.",
+          "ts.\n 1st Offense: Suspension for one (1) week and 40 hours service in the university\n 2nd Offense: Suspension for one (1) month\n 3rd Offense: Suspension for one (1) semester\n\n7.2. Falsification of official University and public documents like clearance, completion form, and other related documents.\n 1st Offense: Suspension for one (1) month\n 2nd Offense: Suspension for one (1) semester\n 3rd Offense: Expulsion from the University\n\n7.3. Borrowing and lending Library card and School ID using unauthorized ID\n 1st Offense: Reprimand\n 2nd Offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n 3rd Offense: Suspension for one (1) month\n\nSec. 8. Gambling. Engaging in any form/s of gambling and/or possessing of cards or any gambling paraphernalia within the University premises.\n 1st Offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n 2nd Offense: Suspension for one (1) semester\n\nSec. 9. Indecency and Obscenity. Engaging in indecent, obscene conduct and activities which include possessing and/or circulating pornographic/trashy literature and pictures, using indecent language and doing similar acts. (PD No."
+        ],
+        "response": "According to the context, for a 2nd offense of cheating in examinations, the sanction is: **\"Academic probation and automatic grade of 5.0.\"**",
+        "reference": "Academic probation and an automatic grade of 5.0.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9999999999999997,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      }
+    ]
+  },
+  {
+    "mode": "ontology_graph_only",
+    "ragas": {
+      "faithfulness": {
+        "count": 6.0,
+        "mean": 0.5892857142857143,
+        "std": 0.37402556692899125,
+        "min": 0.0,
+        "25%": 0.38095238095238093,
+        "50%": 0.7083333333333333,
+        "75%": 0.8125,
+        "max": 1.0
+      },
+      "answer_relevancy": {
+        "count": 6.0,
+        "mean": 0.28202316108054487,
+        "std": 0.44372844926708027,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.5426504487271689,
+        "max": 0.968605034847044
+      },
+      "context_precision": {
+        "count": 6.0,
+        "mean": 0.16666666665,
+        "std": 0.40824829042303823,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.9999999999
+      },
+      "context_recall": {
+        "count": 6.0,
+        "mean": 0.16666666666666666,
+        "std": 0.408248290463863,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 1.0
+      }
+    },
+    "per_item": [
+      {
+        "user_input": "How many degree programs does LSPU Los Baños offer, and across how many colleges?",
+        "retrieved_contexts": [
+          "Right to Free Higher Education (UniFAST / RA 10687): Students enrolled or enrolling in a bachelor's degree program at LSPU are exempt from tuition and other school fees for enrolled units under the Universal Access to Quality Tertiary Education Act of 2017 (RA 10687 / UniFAST), provided they meet institutional admission and retention qualifications.",
+          "LSPU Student Portal (myaccount.lspu.edu.ph):"
+        ],
+        "response": "The Ontology Context provided does not contain information about the number of degree programs LSPU Los Baños offers or how many colleges administer them. I cannot answer this question based on the available ontology nodes.",
+        "reference": "LSPU-LB offers 23 degree programs across 8 colleges. All of them are four-year programs.",
+        "faithfulness": 0.6666666666666666,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      {
+        "user_input": "Which CHED memorandum order regulates the BS Psychology program, and which licensure examination can its graduates take?",
+        "retrieved_contexts": [
+          "CHED Memorandum Order (CMO):",
+          "Curriculum Review and Enhancement: Defined procedure for the review and enhancement of curricular programs in accordance with the most recent CHED Memorandum Orders."
+        ],
+        "response": "The Ontology Context provided does not contain specific information identifying which CHED Memorandum Order regulates the BS Psychology program, nor does it specify which licensure examination graduates of that program can take. While the context defines what a CHED Memorandum Order is (a Commission on Higher Education order establishing national Policies, Standards, and Guidelines for degree programs), it does not include the particular CMO number or title for BS Psychology, nor does it list any licensure examination information for psychology graduates.",
+        "reference": "CHED CMO No. 34, s. 2017 (Policies and Standards for Undergraduate Programs in Psychology). Graduates may take the Psychometrician Licensure Examination.",
+        "faithfulness": 0.8333333333333334,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      {
+        "user_input": "How long does it take to get a Good Moral Certificate as an undergraduate student at OSAS, according to the Citizen's Charter?",
+        "retrieved_contexts": [
+          "Issuance of Good Moral Certificate (Undergraduate):",
+          "Step 3: Processing of Good Moral Certificate:"
+        ],
+        "response": "According to the Citizen's Charter, the processing of a Good Moral Certificate for an undergraduate student at OSAS takes 20 minutes.",
+        "reference": "The total processing time is 1 hour and 15 minutes, with no fee for the OSAS steps. The applicant needs a Certificate of Registration, an Official Receipt for the Good Moral/Doc Stamp, and a Student ID.",
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.968605034847044,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      {
+        "user_input": "What medical requirements must an admitted applicant submit to the University Clinic?",
+        "retrieved_contexts": [
+          "Admission Requirement:"
+        ],
+        "response": "The Ontology Context provided does not contain specific information about medical requirements that admitted applicants must submit to the University Clinic. While \"Admission Requirement\" is defined as a condition applicants must satisfy to be admitted, the available context does not detail what those medical requirements are or specify submission procedures to the University Clinic.",
+        "reference": "A medical certificate from an accredited clinical laboratory, a drug test, and an x-ray. Using University-accredited medical facilities is highly encouraged, but other medical facilities are also accepted.",
+        "faithfulness": 0.75,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      },
+      {
+        "user_input": "What is the maximum residence rule for finishing a course?",
+        "retrieved_contexts": [
+          "Maximum Residence Rule: A student must finish all requirements of their course within a period of actual residence equivalent to 1.5 times the normal length prescribed for the course. Failure to do so bars further registration at the university. For graduate students: master's degree requirements must be completed within five (5) years from first enrollment; doctorate requirements within seven (7) years."
+        ],
+        "response": "The maximum residence rule requires that a student must finish all requirements of their course within a period of actual residence equivalent to 1.5 times the normal length prescribed for the course. Failure to complete requirements within this timeframe bars further registration at the university. For graduate students specifically, master's degree requirements must be completed within five years from first enrollment, and doctorate requirements must be completed within seven years from first enrollment.",
+        "reference": "A student must finish the course within an actual residence equivalent to 1.5 times the normal length prescribed for the course. Otherwise, the student is not allowed to register in the university.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7235339316362253,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "What is the sanction for a 2nd offense of cheating in examinations?",
+        "retrieved_contexts": [
+          "Dishonesty — Cheating in Examinations: Any form of cheating in examinations."
+        ],
+        "response": "The Ontology Context provided does not contain the specific sanction details for a 2nd offense of cheating in examinations. While the context identifies that cheating in examinations has multiple sanction tiers (including a tier for 2nd offenses), the actual definitions of what those sanctions are—such as penalties, restrictions, or other consequences—are not included in the available information.",
+        "reference": "Academic probation and an automatic grade of 5.0.",
+        "faithfulness": 0.2857142857142857,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.0,
+        "context_recall": 0.0
+      }
+    ]
+  },
+  {
+    "mode": "ontology_contextual_rag",
+    "ragas": {
+      "faithfulness": {
+        "count": 6.0,
+        "mean": 0.861111111111111,
+        "std": 0.3402069087198859,
+        "min": 0.16666666666666666,
+        "25%": 1.0,
+        "50%": 1.0,
+        "75%": 1.0,
+        "max": 1.0
+      },
+      "answer_relevancy": {
+        "count": 6.0,
+        "mean": 0.9077522251134139,
+        "std": 0.12716643230511657,
+        "min": 0.7185225669773265,
+        "25%": 0.8205453013371424,
+        "50%": 0.9780064854267994,
+        "75%": 0.997441301013592,
+        "max": 0.999999999999778
+      },
+      "context_precision": {
+        "count": 6.0,
+        "mean": 0.4583333332993056,
+        "std": 0.323822653779233,
+        "min": 0.0,
+        "25%": 0.3541666666364583,
+        "50%": 0.45833333329791665,
+        "75%": 0.49999999995,
+        "max": 0.99999999995
+      },
+      "context_recall": {
+        "count": 6.0,
+        "mean": 0.9166666666666666,
+        "std": 0.2041241452319315,
+        "min": 0.5,
+        "25%": 1.0,
+        "50%": 1.0,
+        "75%": 1.0,
+        "max": 1.0
+      }
+    },
+    "per_item": [
+      {
+        "user_input": "How many degree programs does LSPU Los Baños offer, and across how many colleges?",
+        "retrieved_contexts": [
+          "Right to Free Higher Education (UniFAST / RA 10687): Students enrolled or enrolling in a bachelor's degree program at LSPU are exempt from tuition and other school fees for enrolled units under the Universal Access to Quality Tertiary Education Act of 2017 (RA 10687 / UniFAST), provided they meet institutional admission and retention qualifications.",
+          "LSPU Student Portal (myaccount.lspu.edu.ph):",
+          "=================================\nLSPU-LB ACADEMIC PROGRAMS: OVERVIEW\nLaguna State Polytechnic University - Los Banos Campus (LSPU-LB) offers 23 degree programs across 8 colleges. All programs are four-year programs.\n\nColleges and the programs they offer:\n- College of Arts and Sciences (CAS): Bachelor of Science in Psychology\n- College of Business Administration and Accountancy (CBAA): Bachelor of Science in Business Administration - Major in Marketing Management; Bachelor of Science in Accountancy; Bachelor of Science in Business Administration - Major in Financial Management\n- College of Computer Studies (CCS): Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program\n- College of Criminal Justice Education (CCJE): Bachelor of Science in Criminology\n- College of Fisheries (CF): Bachelor of Science in Fisheries\n- College of Food Nutrition and Dietetics (CFND): Bachelor of Science in Food Technology; Bac",
+          "es (Admission Office) below:\n\n- Guidance and Counseling (LSPU Los Baños Campus)\n  Email Address: guidance_lb@lspu.edu.ph\n  Facebook Page: Guidance Office-LSPU Los Baños Campus\n\nE. ANNEX A: LIST OF CURRICULAR PROGRAM OFFERINGS AND GENERAL WEIGHTED AVERAGE REQUIREMENTS\n\nFormat below: Program | GWA | Campus offering the program\n\nCollege of Arts and Sciences\n- Bachelor of Science in Psychology | GWA 88 | Los Baños\n\nCollege of Business Administration and Accountancy\n- Bachelor of Science in Accountancy | GWA 90 | Los Baños\n- Bachelor of Science in Business Administration (Majors: Financial Management, Marketing Management) | GWA 88 | Los Baños\n\nCollege of Computer Studies\n- Bachelor of Science in Computer Science | GWA 90 | Los Baños\n- Bachelor of Science in Information Technology | GWA 85 | Los Baños\n\nCollege of Criminal Justice Education\n- Bachelor of Science in Criminology | GWA 85 | Los Baños\n\nCollege of Fisheries\n- Bachelor of Science in Fisheries | GWA 87 | Los Baños\n\nCollege of Food Nutrition and Dietetics\n- Bachelor of Science in Nutrition and Dietetics | GWA 90 | Los Baños\n- Bachelor of Science in Food Technology | GWA 90 | Los Baños\n\nCollege of Hospitality Management and Touri"
+        ],
+        "response": "LSPU Los Baños offers 23 degree programs across 8 colleges.",
+        "reference": "LSPU-LB offers 23 degree programs across 8 colleges. All of them are four-year programs.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9979858151064311,
+        "context_precision": 0.3333333333,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "Which CHED memorandum order regulates the BS Psychology program, and which licensure examination can its graduates take?",
+        "retrieved_contexts": [
+          "CHED Memorandum Order (CMO):",
+          "Curriculum Review and Enhancement: Defined procedure for the review and enhancement of curricular programs in accordance with the most recent CHED Memorandum Orders.",
+          "- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.\n- Counseling / Guidance Track: Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Psychometrician Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 34, s.",
+          "neral Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Psychometrician Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 34, s. 2017 - Policies and Standards for Undergraduate Programs in Psychology\nProgram educational objectives (per this CMO):\n- Apply the scientific study of behavior and mental processes to understand individuals and groups across diverse settings.\n- Conduct psychological research and assessment ethically, and pursue further training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.\n\n======================================================================\nPROGRAM: Bachelor of Science in Accountancy\nCollege: College of Business Administration and Accountancy (CBAA)\nDegree: Bachelor of Science in Accountancy (BSA)\nDuration: 4 years\n\nOverview: Covers financial and management accounting, auditing, taxation, and busin"
+        ],
+        "response": "The BS Psychology program is regulated by CMO No. 34, s. 2017 - Policies and Standards for Undergraduate Programs in Psychology. Graduates of this program may take the Psychometrician Licensure Examination.",
+        "reference": "CHED CMO No. 34, s. 2017 (Policies and Standards for Undergraduate Programs in Psychology). Graduates may take the Psychometrician Licensure Examination.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7739919977433486,
+        "context_precision": 0.4166666666458333,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "How long does it take to get a Good Moral Certificate as an undergraduate student at OSAS, according to the Citizen's Charter?",
+        "retrieved_contexts": [
+          "Issuance of Good Moral Certificate (Undergraduate):",
+          "Step 3: Processing of Good Moral Certificate:",
+          "rperson/ Staff\nrendered by\nOSAS.\nClientele\n\n3. Accept the validated Release validated ID. | None | 1 minute | OSAS Director/\nID. | Chairperson/ Staff\nTOTAL: | None | 4 minutes\n\n5. Issuance of Good Moral Certificate (Undergraduate)\nThis process provides description and series of steps for assisting the students\nspecifically in the issuance of Good Moral Certificate\nOffice or Division: | Office of the Student Affairs and Services\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nCertificate of Registration | Registrar’s Office\nOfficial Receipt for Good Moral/Doc\nStamp | Cashier Office\nStudent ID | Business Affairs Office\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present the Certificate | Receive and check | OSAS Director /\nof Registration. | submitted | Chairperson\ndocuments. | None | 5 Minutes | OSAS Staff\nIssue Good Moral\npayment slip.\n2. Payment | of | fees | Check | Official | Cashier\n(Certification Fee and | Receipt.",
+          "Article 5. Retention Policies\n\nSec. 1. Good Moral. After admission to any university program, the student must maintain good moral character at all times regardless of the year level.\n\nSec. 2. Compliance. A student must adhere to the rules of conduct, regulations, and policies imposed by the University in this Handbook.\n\nSec. 3. Retention Requirement. A student shall always act in a manner that will uphold the honor, dignity, and prestige of the university and must meet the following requirements to stay in the program and must obtain the corresponding degree:\n\n3.1. Evaluation of student records for purposes of retention is guided by standards.\n\n3.2. Minimum Grade Point Average (GPA) for every semester or summer of study is 2.00.\n\n3.2.1. Minimum Final Grade for Board Program\n\n3.2.1.1. in any major-related subjects 2.00\n\n3.2.1.2. in any professional -related subjects 2.00\n\n3.2.1.3. in any general education subjects 1.75-1.00\n\n3.2.2. Minimum Final Grade for any Non-board Program\n\n3.2.2.1. in any major-required subjects 2.25\n\n3.2.2.2. in any professional-related subjects 2. 25\n\n3.2.2.3. in any general education subjects 2.00-1.00\n\n3.3."
+        ],
+        "response": "According to the Citizen's Charter, the processing time for a Good Moral Certificate as an undergraduate student at OSAS is 20 minutes. This is the time required for Step 3 (Processing of Good Moral Certificate), during which OSAS staff checks the correctness of documents, verifies disciplinary records, prepares the certificate, and affixes the documentary stamp and signature.",
+        "reference": "The total processing time is 1 hour and 15 minutes, with no fee for the OSAS steps. The applicant needs a Certificate of Registration, an Official Receipt for the Good Moral/Doc Stamp, and a Student ID.",
+        "faithfulness": 0.16666666666666666,
+        "answer_relevancy": 0.9602052121185242,
+        "context_precision": 0.0,
+        "context_recall": 0.5
+      },
+      {
+        "user_input": "What medical requirements must an admitted applicant submit to the University Clinic?",
+        "retrieved_contexts": [
+          "Admission Requirement:",
+          "he medical examination to be submitted to the University Clinic. Requirements include the following: medical certificate from accredited clinical laboratory, drug test, and x-ray. Note: Processing of medical requirements is highly encouraged to be done with the University-accredited medical facilities; however, other medical facilities are also accepted.\n\nStep 8: Enrolment.\nProceed with the enrolment on the respective schedule. A separate announcement will be posted for the enrolment procedure.\n\nD. CONTACT INFORMATION\n\nFor concerns or inquiries regarding the admission process, please refer to the following contact information of the Guidance and Counseling offices (Admission Office) below:\n\n- Guidance and Counseling (LSPU Los Baños Campus)\n  Email Address: guidance_lb@lspu.edu.ph\n  Facebook Page: Guidance Office-LSPU Los Baños Campus\n\nE.",
+          "quirements\n\n3.1. Student intern must:\n\n3.1.1. Be officially enrolled in a legitimate Philippine higher education institution;\n\n3.1.2. Be enrolled in an internship subject;\n\n3.1.3. Be at least eighteen (18) years of age from the start of the internship period;\n\n3.1.4. Pass pre-internship requirements as specified in the internship plan;\n\n3.1.5. Submit a Medical Certificate indicating that he or she is in good health and emotionally fit. The medical certificate shall be based on a physical and psychological examination conducted, or certified by Department of Health (DOH) accredited clinics and hospitals. He or she must also submit other related medical examination requirements by HTE, if any; and\n\n3.1.6. Have a notarized written consent from his or her parents or legal guardian. (No waiver is allowed.)\n\n3.2. Obligations/Responsibilities\n\n3.2.1. Enter into an internship contract and/or agreement with the participating HTE;\n\n3.2.2. Sign all the required documents necessary for his or her participation in the internship program, including the acceptance letter, internship contract and/or agreement;\n\n3.2.3."
+        ],
+        "response": "An admitted applicant must submit the following medical requirements to the University Clinic: a medical certificate from an accredited clinical laboratory, a drug test, and an x-ray. The handbook notes that while processing of medical requirements is highly encouraged to be done with University-accredited medical facilities, other medical facilities are also accepted.",
+        "reference": "A medical certificate from an accredited clinical laboratory, a drug test, and an x-ray. Using University-accredited medical facilities is highly encouraged, but other medical facilities are also accepted.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.999999999999778,
+        "context_precision": 0.49999999995,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "What is the maximum residence rule for finishing a course?",
+        "retrieved_contexts": [
+          "Maximum Residence Rule: A student must finish all requirements of their course within a period of actual residence equivalent to 1.5 times the normal length prescribed for the course. Failure to do so bars further registration at the university. For graduate students: master's degree requirements must be completed within five (5) years from first enrollment; doctorate requirements within seven (7) years.",
+          "Article 11. Maximum Residence Rule. A student must finish the requirements of the course of any college within a period of an actual residence equivalent to 1.5 times the normal length prescribed for the course; otherwise, s/he shall not be allowed to register in the university.",
+          "Article 1. Academic Awards\n\nSec. 1. Description. This pertains to awards given to students who showed academic proficiency and excellence in their respective courses.\n\nSec. 2. Policies and Guidelines\n\n2.1. Students carrying normal academic load each semester (unless otherwise carrying of lighter load is justifiable like that of a working student but not less than 15 units each semester) who completed their courses with the following averages, computed on the basis of units, shall have graduated with honors, provided they meet all the requirements.\n\n2.3. Provided further that they must have completed in this university at least 75% of the total number of units or hours required for graduation and must have been in residence in this university at least two (2) years immediately prior to graduation.\n\n2.4. Students who completed a curriculum in the degree/non-degree courses with the grades computed in the basis of the number of units for each course will be granted with honors.\n\n2.5."
+        ],
+        "response": "The maximum residence rule requires that a student must finish all requirements of their course within a period of actual residence equivalent to 1.5 times the normal length prescribed for the course. If a student fails to complete their course within this timeframe, they will not be allowed to register at the university. For graduate students specifically, master's degree requirements must be completed within five years from first enrollment, and doctorate requirements must be completed within seven years from first enrollment.",
+        "reference": "A student must finish the course within an actual residence equivalent to 1.5 times the normal length prescribed for the course. Otherwise, the student is not allowed to register in the university.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7185225669773265,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0
+      },
+      {
+        "user_input": "What is the sanction for a 2nd offense of cheating in examinations?",
+        "retrieved_contexts": [
+          "Dishonesty — Cheating in Examinations: Any form of cheating in examinations.",
+          "nces can be removed through makeup.\n\n1.2.4. Every student shall secure an excuse slip from the Guidance Office for absence/s made before admission to classes.\n\nSec. 2. Dishonesty. Any form of cheating in examinations.\n 1st Offense: Automatically failed in examination\n 2nd Offense: Academic probation and automatic grade of 5.0.\n 3rd Offense: Subsequent offense: Dismissal from the University\n\n2.1 Any act of dishonesty in relation to his studies and any other forms of dishonesty.\n 1st Offense: Reprimand with community service\n 2nd Offense: Promissory note duly signed by the Guidance Counselor/Student Discipline Coordinator and two (2) days community service\n 3rd Offense: Subsequent offense: Suspension for two (2) weeks\n\nSect. 3. Littering/Scattering of Trash in Public Places. Proper disposal of waste, trash, garbage and the like shall always be observed. Comfort rooms, trash cans, containers, garbage pit-piles are provided for this purpose.",
+          "nt, obscene conduct and activities which include possessing and/or circulating pornographic/trashy literature and pictures, using indecent language and doing similar acts. (PD No. 960 as amended by PD No. 969)\n\n9.1. Directed against the faculty, staff, student, visitors and any person in authority which include sex video scandals\n 1st Offense: Suspension for one (1) month\n 2nd Offense: Suspension for one (1) semester\n 3rd Offense: Expulsion from the University\n\n9.2. Uploading, downloading and sharing sex video scandals.\n Sanction (all offenses): Suspension for one (1) month\n\n9.3. Surfing of pornographic pictures and posting of lustful photos in the internet while within the university premises.\n 1st Offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n 2nd Offense: Suspension for one (1) month\n 3rd Offense: Suspension for one (1) semester\n\nSec. 10. Narcotics-related Concerns. Possession, use or distribution of any prohibited drugs or chemicals such as LSD, ecstasy, marijuana, Methamphetamine (shabu), heroin, or opiates of any form (R.A. 9165) will be reported to Safety and Security Office."
+        ],
+        "response": "The sanction for a 2nd offense of cheating in examinations is academic probation and an automatic grade of 5.0.",
+        "reference": "Academic probation and an automatic grade of 5.0.",
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9958077587350745,
+        "context_precision": 0.49999999995,
+        "context_recall": 1.0
+      }
+    ]
+  }
+]

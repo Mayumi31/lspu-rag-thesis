@@ -1,0 +1,11 @@
+anthropic>=0.34.0
+python-dotenv>=1.0.1
+rdflib>=7.0.0
+sentence-transformers>=3.0.1
+faiss-cpu>=1.8.0.post1
+numpy>=1.26.0
+ragas==0.3.9
+datasets>=2.20.0
+pandas>=2.2.2
+langchain-anthropic>=0.1.0
+flask>=3.0.0

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LSPU-LB Student Information Portal and RAG Knowledge Assistant">
+  <title>LSPU-LB | Explore & Learn</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#home" class="brand">
+        <!-- Replace with your actual LSPU logo -->
+        <img class="logo" src="assets/images/lspu-logo.png" alt="LSPU Logo"
+             onerror="this.style.display='none'">
+        <div class="brand-text">
+          <span>LSPU-LB</span>
+          <small>Los Baños Campus</small>
+        </div>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#discover">Explore</a>
+        <a href="#programs">Programs</a>
+        <a class="nav-visualizer" href="{{ url_for('visualizer') }}" target="_blank" rel="noopener">See how retrieval works ↗</a>
+        <a href="#assistant" class="nav-chat">Ask Assistant</a>
+      </div>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="container hero-content">
+      <div class="eyebrow"><span class="dot"></span> Los Baños Campus</div>
+
+      <h1>Welcome to<br><span>LSPU-LB.</span></h1>
+
+      <p>
+        Discover Laguna State Polytechnic University – Los Baños Campus.
+        Explore its programs, campus life, facilities, and information
+        through one student-friendly knowledge portal.
+      </p>
+
+      <div class="buttons">
+        <a href="#discover" class="btn btn-primary">Explore LSPU-LB →</a>
+        <a href="#assistant" class="btn btn-outline">Ask LSPU Assistant</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- STATS -->
+  <div class="stats-wrap">
+    <div class="container stats">
+      <!-- Replace the placeholder values with verified LSPU-LB data -->
+      <div class="stat"><strong>—</strong><span>Academic Programs</span></div>
+      <div class="stat"><strong>—</strong><span>Colleges / Units</span></div>
+      <div class="stat"><strong>LB</strong><span>Campus</span></div>
+      <div class="stat"><strong>RAG</strong><span>Knowledge Assistant</span></div>
+    </div>
+  </div>
+
+  <!-- DISCOVER -->
+  <section id="discover">
+    <div class="container discover-grid">
+      <img class="feature-img"
+           src="assets/images/campus-building.jpg"
+           alt="LSPU Los Baños Campus"
+           onerror="this.src='assets/images/lspu-campus.jpg'">
+
+      <div class="discover-copy">
+        <div class="section-label">Discover LSPU-LB</div>
+        <h2>More than a campus. A place to discover your path.</h2>
+        <p>
+          Learn more about the university, its background, academic offerings,
+          campus environment, facilities, and opportunities available to students.
+        </p>
+
+        <ul class="check-list">
+          <li><span class="check">✓</span> University background and history</li>
+          <li><span class="check">✓</span> Academic programs and courses</li>
+          <li><span class="check">✓</span> Campus facilities and student spaces</li>
+          <li><span class="check">✓</span> Student life and university information</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPLORATION -->
+  <section class="light-section">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-label">Explore</div>
+        <h2>Get to know LSPU-LB.</h2>
+        <p>
+          Browse the information students commonly look for when discovering
+          a university and its campus.
+        </p>
+      </div>
+
+      <div class="cards">
+        <article class="image-card">
+          <img src="assets/images/facilities.jpg" alt="Campus facilities"
+               onerror="this.style.background='#eaf1ff'">
+          <div class="card-body">
+            <h3>Campus & Facilities</h3>
+            <p>Explore learning spaces, facilities, and important areas around the campus.</p>
+            <a class="card-link" href="#assistant">Learn more →</a>
+          </div>
+        </article>
+
+        <article class="image-card">
+          <img src="assets/images/students.jpg" alt="Students and campus life">
+          <div class="card-body">
+            <h3>Student Life</h3>
+            <p>Discover the environment, activities, organizations, and experiences of students.</p>
+            <a class="card-link" href="#assistant">Learn more →</a>
+          </div>
+        </article>
+
+        <article class="image-card">
+          <img src="assets/images/library.jpg" alt="University library">
+          <div class="card-body">
+            <h3>Learning Environment</h3>
+            <p>Learn about the spaces and resources that support students in their studies.</p>
+            <a class="card-link" href="#assistant">Learn more →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section id="programs">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-label">Academic Programs</div>
+        <h2>Explore your possibilities.</h2>
+        <p>
+          Start learning about the programs offered at LSPU-LB and use the
+          Knowledge Assistant for more detailed questions.
+        </p>
+      </div>
+
+      <div class="program-grid">
+        <article class="program">
+          <div class="program-icon">CS</div>
+          <h3>BS Computer Science</h3>
+          <p>Explore computing, software development, intelligent systems, and related areas.</p>
+          <a class="card-link" href="#assistant">Ask about BSCS →</a>
+        </article>
+
+        <article class="program">
+          <div class="program-icon">IT</div>
+          <h3>BS Information Technology</h3>
+          <p>Learn about information technology, applications, services, and specialized areas.</p>
+          <a class="card-link" href="#assistant">Ask about BSIT →</a>
+        </article>
+
+        <article class="program">
+          <div class="program-icon">+</div>
+          <h3>More Programs</h3>
+          <p>Add the other verified LSPU-LB programs here as your knowledge base grows.</p>
+          <a class="card-link" href="#assistant">Explore programs →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- RAG ASSISTANT -->
+  <section class="assistant-section" id="assistant">
+    <div class="container assistant-grid">
+
+      <div class="assistant-copy">
+        <div class="section-label">Main Feature</div>
+        <h2>Have a question about LSPU-LB?</h2>
+        <p>
+          Meet the LSPU Knowledge Assistant — an intelligent chatbot designed
+          to help students find information about the university through
+          natural-language questions.
+        </p>
+
+        <div class="rag-note">
+          <strong>Powered by Ontology Contextual RAG.</strong><br>
+          The assistant answers only from the LSPU-LB knowledge base — matching
+          your question against the handbook's ontology graph and its retrieved
+          text — so answers stay grounded in what's actually documented.
+        </div>
+
+        <a class="visualizer-link" href="{{ url_for('visualizer') }}" target="_blank" rel="noopener">
+          <span>See how the retrieval works</span>
+          <span class="arrow-ic">→</span>
+        </a>
+      </div>
+
+      <!-- FRONT-END CHAT PREVIEW -->
+      <div class="chat-window">
+        <div class="chat-head">
+          <div class="bot-avatar">AI</div>
+          <div>
+            <strong>LSPU Knowledge Assistant</strong>
+            <span class="online" id="chatOnlineStatus">● Ready to help</span>
+          </div>
+        </div>
+
+        <div class="chat-body" id="chatBody">
+          <div class="bubble bot">
+            Hello! I'm the LSPU-LB Knowledge Assistant.
+            What would you like to know about the university?
+          </div>
+
+          <div class="suggestions">
+            <button type="button" onclick="askDemo('What programs are offered at LSPU-LB?')">Programs</button>
+            <button type="button" onclick="askDemo('Tell me about BSCS.')">BSCS</button>
+            <button type="button" onclick="askDemo('What is the campus like?')">Campus</button>
+            <button type="button" onclick="askDemo('What are the admission requirements?')">Admission</button>
+          </div>
+        </div>
+
+        <form class="chat-input" id="chatForm">
+          <input id="chatInput" type="text" placeholder="Ask about LSPU-LB..." autocomplete="off">
+          <button type="submit" id="chatSendBtn">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW RAG WORKS -->
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <div class="section-label">Behind the Assistant</div>
+        <h2>From question to answer.</h2>
+        <p>
+          A simple view of how Retrieval-Augmented Generation supports the
+          LSPU-LB knowledge assistant.
+        </p>
+      </div>
+
+      <div class="steps">
+        <article class="step">
+          <div class="step-number">01 <span class="arrow">→</span></div>
+          <h3>Ask</h3>
+          <p>The student asks a question using natural language.</p>
+        </article>
+
+        <article class="step">
+          <div class="step-number">02 <span class="arrow">→</span></div>
+          <h3>Retrieve</h3>
+          <p>The system searches the LSPU-LB knowledge base for relevant information.</p>
+        </article>
+
+        <article class="step">
+          <div class="step-number">03 <span class="arrow">→</span></div>
+          <h3>Generate</h3>
+          <p>Relevant retrieved information is provided as context to the language model.</p>
+        </article>
+
+        <article class="step">
+          <div class="step-number">04</div>
+          <h3>Answer</h3>
+          <p>The assistant generates a contextual response based on the retrieved knowledge.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <div class="section-label">Start Exploring</div>
+      <h2>Your questions about LSPU-LB start here.</h2>
+      <p>
+        Explore the university or ask the Knowledge Assistant when you need
+        more specific information.
+      </p>
+      <a href="#assistant" class="btn btn-primary">Ask the LSPU Assistant →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>LSPU-LB</h3>
+          <p>
+            A student-focused information portal for exploring
+            Laguna State Polytechnic University – Los Baños Campus.
+          </p>
+        </div>
+
+        <div>
+          <h3>Explore</h3>
+          <a href="#home">Home</a>
+          <a href="#discover">About LSPU-LB</a>
+          <a href="#programs">Academic Programs</a>
+          <a href="#assistant">Knowledge Assistant</a>
+          <a href="{{ url_for('visualizer') }}" target="_blank" rel="noopener">See how retrieval works</a>
+        </div>
+
+        <div>
+          <h3>Knowledge Assistant</h3>
+          <p>Retrieval-Augmented Generation powered university information assistant.</p>
+        </div>
+      </div>
+
+      <div class="copyright">
+        © 2026 LSPU-LB Student Information Portal. Thesis Prototype.
+      </div>
+    </div>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/home.js') }}"></script>
+
+</body>
+</html>

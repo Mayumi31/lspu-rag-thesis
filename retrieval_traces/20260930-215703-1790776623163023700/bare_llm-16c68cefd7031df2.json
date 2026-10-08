@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "How do I pay my fees online, and through which portal?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "To pay your fees online, you should use the official LSPU-LB online payment portal. Please visit the university's official website or contact the university's administration for the specific portal link and instructions.",
+    "retrieval_query": "How do I pay my fees online, and through which portal?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.9529999999795109,
+    "selected_contexts": []
+  },
+  "answer": "To pay your fees online, you should use the official LSPU-LB online payment portal. Please visit the university's official website or contact the university's administration for the specific portal link and instructions.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

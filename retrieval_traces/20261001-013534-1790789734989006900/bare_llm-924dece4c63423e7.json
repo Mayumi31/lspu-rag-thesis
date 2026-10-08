@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "Within how many days should the school release official documents I request?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The specific number of days within which the school should release official documents is not provided in the evidence. Please refer to the school's policies or relevant regulations for this information.",
+    "retrieval_query": "Within how many days should the school release official documents I request?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.1089999999967404,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 1.1089999999967404,
+    "selected_contexts": []
+  },
+  "answer": "The specific number of days within which the school should release official documents is not provided in the evidence. Please refer to the school's policies or relevant regulations for this information.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

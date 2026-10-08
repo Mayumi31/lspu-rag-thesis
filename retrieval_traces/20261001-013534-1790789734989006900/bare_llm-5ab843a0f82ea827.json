@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What are the requirements for the half varsity scholarship?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The requirements for the half varsity scholarship are not provided in the evidence. Please refer to the official LSPU-LB scholarship guidelines or contact the campus office for detailed information.",
+    "retrieval_query": "What are the requirements for the half varsity scholarship?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.9530000000377186,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.9530000000377186,
+    "selected_contexts": []
+  },
+  "answer": "The requirements for the half varsity scholarship are not provided in the evidence. Please refer to the official LSPU-LB scholarship guidelines or contact the campus office for detailed information.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

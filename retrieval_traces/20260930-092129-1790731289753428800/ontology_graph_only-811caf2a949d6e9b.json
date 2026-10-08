@@ -1,0 +1,75 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Do school rules still apply if I violate them during OJT or an off-campus competition?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Off-Campus Jurisdiction of the Code of Conduct\nh:definition: Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).\nh:sourceArticle: Chapter 6, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: Off-Campus Jurisdiction of the Code of Conduct"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Violation of Rules/Regulations/Policies from Other Departments or Units\nh:definition: Every student must observe the rules, regulations and policies promulgated by the College/Department Head, instructors, or organization advisers, provided such rules conform with the LSPU Code of Conduct.\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_1 [h:Tier_ViolationOtherDeptPolicies_1]\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_2 [h:Tier_ViolationOtherDeptPolicies_2]\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_3 [h:Tier_ViolationOtherDeptPolicies_3]\nh:sourceArticle: Ch.6 Art.3 Sec.8\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Violation of Rules/Regulations/Policies from Other Departments or Units"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): School Uniform and Dress Code Policy\nh:administeredBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:audience: New students\nh:definition: Prescribed uniform must be worn in classroom sessions; P.E. uniform only during P.E. classes; University t-shirt every Wednesday, department shirt every Friday. Prohibited campus attire includes: shorts/walking shorts/cycling shorts, pedal pushers, capri pants, cargo shorts, mutilated/jazzed pants, faded/torn/wrinkled shirts, jogging pants, miniskirts, sleeveless/backless/halter/spaghetti-strap tops, sandos, plunging necklines, leggings, and slippers. A student violating the uniform provision is not allowed to enter the University gates unless a promissory note/communication letter from OSAS is presented.\nh:requiresDocument -> Promissory Note [h:Doc_PromissoryNote]\nh:sourceArticle: Chapter 6, Article 4, Sec. 1\nrdf:type -> Policy [h:Policy]\nrdfs:label: School Uniform and Dress Code Policy"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Trespassing\nh:definition: Staying inside University premises after class hours in the afternoon, or entering campus during off-school days without authorization from Campus Director/Deans/OSAS Director/Chief of Security (exceptions for makeup classes, practice, field activities, official business, or regular activities like ROTC/CWTS/Band).\nh:hasSanctionTier -> h:Tier_Trespassing_1 [h:Tier_Trespassing_1]\nh:hasSanctionTier -> h:Tier_Trespassing_2 [h:Tier_Trespassing_2]\nh:hasSanctionTier -> h:Tier_Trespassing_3 [h:Tier_Trespassing_3]\nh:sourceArticle: Ch.6 Art.3 Sec.7\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Trespassing"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Sign Pledge of Compliance upon Admission\nh:definition: Every student and their parent/guardian must sign the Pledge of Compliance at admission, pledging to abide by all university rules and regulations. Refusal to sign or subsequent violation of its terms is sufficient for summary dismissal or denial of admission.\nh:requiresDocument -> Pledge of Compliance [h:Doc_PledgeOfCompliance]\nh:sourceArticle: Chapter 3, Article 2, Sec. 2.7\nrdf:type -> Student Duty [h:Duty]\nrdfs:label: Sign Pledge of Compliance upon Admission"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Off-Campus Jurisdiction of the Code of Conduct\nh:definition: Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).\nh:sourceArticle: Chapter 6, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: Off-Campus Jurisdiction of the Code of Conduct\n\nAPPROXIMATE MATCH (not an exhaustive result): Violation of Rules/Regulations/Policies from Other Departments or Units\nh:definition: Every student must observe the rules, regulations and policies promulgated by the College/Department Head, instructors, or organization advisers, provided such rules conform with the LSPU Code of Conduct.\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_1 [h:Tier_ViolationOtherDeptPolicies_1]\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_2 [h:Tier_ViolationOtherDeptPolicies_2]\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_3 [h:Tier_ViolationOtherDeptPolicies_3]\nh:sourceArticle: Ch.6 Art.3 Sec.8\nrdf:type -> Minor Offense [h:M",
+    "answer_for_eval": "Yes, school rules still apply if you violate them during OJT or an off-campus competition. Violations committed outside University premises are treated as if committed within the University when you are representing the University at conferences, conventions, competitions, presentations, OJT, or the Student Internship Program (SIP).",
+    "retrieval_query": "Do school rules still apply if I violate them during OJT or an off-campus competition?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Policy_ScholasticDelinquency",
+              "rdf:type",
+              "h:Policy"
+            ],
+            [
+              "h:Policy_ScholasticDelinquency",
+              "h:definition",
+              {
+                "literal": "School rules and regulations"
+              }
+            ],
+            [
+              "h:Policy_ScholasticDelinquency",
+              "h:appliesToStudentType",
+              "?studentType"
+            ]
+          ],
+          "select": [
+            "h:Policy_ScholasticDelinquency"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Expecting ',' delimiter: line 1 column 92 (char 91)",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 4.452999999979511
+  },
+  "answer": "Yes, school rules still apply if you violate them during OJT or an off-campus competition. Violations committed outside University premises are treated as if committed within the University when you are representing the University at conferences, conventions, competitions, presentations, OJT, or the Student Internship Program (SIP).",
+  "pipeline_version": "oc-rag-3.0"
+}

@@ -18,16 +18,13 @@
   <nav aria-label="Main navigation">
     <div class="nav-inner">
       <a href="{{ url_for('index') }}" class="brand">
-        <span class="logo-mark" aria-hidden="true">LB<img class="logo-img" src="{{ url_for('assets', filename='images/lspu-logo.png') }}" alt="" onerror="this.remove()"></span>
+        <img class="logo-mark" src="{{ url_for('assets', filename='images/lspu-logo.png') }}" alt="" onerror="this.style.display='none'">
         <span class="brand-text"><span>LSPU-LB</span><small>Los Baños Campus</small></span>
       </a>
       <div class="nav-links" id="navLinks">
         {{ navlink('index', 'Home') }}
-        {{ navlink('explore', 'Explore') }}
-        {{ navlink('recommendation', 'Recommendation') }}
-        {{ navlink('about', 'About') }}
-        {{ navlink('contact', 'Contact') }}
-        <a href="{{ url_for('visualizer') }}" target="_blank" rel="noopener">See how retrieval works ↗</a>
+        {{ navlink('college_details', 'View Programs') }}
+        {{ navlink('campus_map', 'Map') }}
         {{ navlink('assistant', 'Ask Assistant', 'nav-chat') }}
       </div>
       <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-controls="navLinks" aria-expanded="false">☰</button>
@@ -43,17 +40,16 @@
   {% block footer %}
   <footer>
     <div class="container footer-grid">
-      <div><h2>LSPU-LB</h2><p>A student-focused program exploration prototype for Los Baños Campus.</p></div>
+      <div><h3>LSPU-LB</h3><p>A student-focused information portal for exploring Laguna State Polytechnic University – Los Baños Campus.</p></div>
       <div>
-        <h2>Explore</h2>
+        <h3>Explore</h3>
         <a href="{{ url_for('index') }}">Home</a>
-        <a href="{{ url_for('explore') }}#program-details">Colleges &amp; Programs</a>
-        <a href="{{ url_for('recommendation') }}">Recommendation</a>
+        <a href="{{ url_for('college_details') }}">View Programs</a>
+        <a href="{{ url_for('campus_map') }}">Campus Map</a>
+        <a href="{{ url_for('others') }}">About &amp; Contact</a>
       </div>
       <div>
-        <h2>Discover</h2>
-        <a href="{{ url_for('about') }}">About</a>
-        <a href="{{ url_for('contact') }}">Contact</a>
+        <h3>Discover</h3>
         <a href="{{ url_for('assistant') }}">Ask Assistant</a>
         <a href="{{ url_for('visualizer') }}" target="_blank" rel="noopener">See how retrieval works</a>
       </div>
@@ -62,6 +58,8 @@
   </footer>
   {% endblock %}
 
+  <script src="{{ url_for('static', filename='js/chat-ui.js') }}"></script>
   <script src="{{ url_for('static', filename='js/site.js') }}"></script>
+  {% block scripts %}{% endblock %}
 </body>
 </html>

@@ -1,0 +1,60 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "CCS",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_799",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_799\nSECTION: STUDENT COUNCIL: COLLEGE OF COMPUTER STUDIES STUDENT COUNCIL (CCS-SC)\nSTUDENT COUNCIL: COLLEGE OF COMPUTER STUDIES STUDENT COUNCIL (CCS-SC)\nSource: campus information supplied by the maintainer (September 2026). The 2026 Gawad Parangal recognition was supplied by the maintainer and not independently confirmed.\nThe CCS Student Council (CCS-SC) is the student organization representing students of the College of Computer Studies. It handles CCS-related activities, programs, and student representation. LSPU recognized CCS-SC as its Most Outstanding Mother Organization in the 2026 Gawad Parangal.",
+        "score": 0.06401209677419355
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_14",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_14\nSECTION: PROGRAM: Bachelor of Science in Computer Science - Major in Intelligent Systems | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Computer Science (BSCS) | Major: Intelligent Systems\ntechnical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.0625225468975469
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?label=Location of CCS Building (College of Computer Studies)\nLocation of CCS Building (College of Computer Studies) [h:Loc_CCS] --rdfs:label--> \"Location of CCS Building (College of Computer Studies)\"\nTYPE of Location of CCS Building (College of Computer Studies): h:CampusPlace\nSOURCE/QUALIFIER for Location of CCS Building (College of Computer Studies): h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?label=Location of CCS Building (College of Computer Studies)\nLocation of CCS Building (College of Computer Studies) [h:Loc_CCS] --rdfs:label--> \"Location of CCS Building (College of Computer Studies)\"\nTYPE of Location of CCS Building (College of Computer Studies): h:CampusPlace\nSOURCE/QUALIFIER for Location of CCS Building (College of Computer Studies): h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_799\nSECTION: STUDENT COUNCIL: COLLEGE OF COMPUTER STUDIES STUDENT COUNCIL (CCS-SC)\nSTUDENT COUNCIL: COLLEGE OF COMPUTER STUDIES STUDENT COUNCIL (CCS-SC)\nSource: campus information supplied by the maintainer (September 2026). The 2026 Gawad Parangal recognition was supplied by the maintainer and not independently confirmed.\nThe CCS Student Council (CCS-SC) is the student organization representing students of the College of Computer Studies. It handles CCS-related activities, programs, and student representation. LSPU recognized CCS-SC as its Most Outstanding Mother Organization in the 2026 Gawad Parangal.\n\nSOURCE: LSPU_SOURCE.txt |",
+    "answer_for_eval": "The location of the CCS Building (College of Computer Studies) is identified as a campus place, with the specific location being sourced from a campus map and walking directions from the main gate.",
+    "retrieval_query": "What is CCS?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Loc_CCS",
+              "rdfs:label",
+              "?label"
+            ]
+          ],
+          "select": [
+            "?label"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 5.75,
+    "retrieval_seconds": 4.094000000040978,
+    "generation_seconds": 1.6559999999590218,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?label=Location of CCS Building (College of Computer Studies)\nLocation of CCS Building (College of Computer Studies) [h:Loc_CCS] --rdfs:label--> \"Location of CCS Building (College of Computer Studies)\"\nTYPE of Location of CCS Building (College of Computer Studies): h:CampusPlace\nSOURCE/QUALIFIER for Location of CCS Building (College of Computer Studies): h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_799\nSECTION: STUDENT COUNCIL: COLLEGE OF COMPUTER STUDIES STUDENT COUNCIL (CCS-SC)\nSTUDENT COUNCIL: COLLEGE OF COMPUTER STUDIES STUDENT COUNCIL (CCS-SC)\nSource: campus information supplied by the maintainer (September 2026). The 2026 Gawad Parangal recognition was supplied by the maintainer and not independently confirmed.\nThe CCS Student Council (CCS-SC) is the student organization representing students of the College of Computer Studies. It handles CCS-related activities, programs, and student representation. LSPU recognized CCS-SC as its Most Outstanding Mother Organization in the 2026 Gawad Parangal.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_14\nSECTION: PROGRAM: Bachelor of Science in Computer Science - Major in Intelligent Systems | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Computer Science (BSCS) | Major: Intelligent Systems\ntechnical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document."
+    ]
+  },
+  "answer": "The location of the CCS Building (College of Computer Studies) is identified as a campus place, with the specific location being sourced from a campus map and walking directions from the main gate.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

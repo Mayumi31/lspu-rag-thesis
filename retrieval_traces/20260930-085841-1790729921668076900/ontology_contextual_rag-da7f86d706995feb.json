@@ -1,0 +1,81 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Where is the Guidance Office located?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_314",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_314\nSECTION: Office or Division: | Guidance and Counseling\nOffice or Division: | Guidance and Counseling\nClassification: | Simple\nType of Transaction: | G2C\nWho may avail: | Student-applicants\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nOnline application form | LSPU Online Admission\nCertified True Copy (Report Card and/or TOR) | Client\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Orientation | Inform the clients | N/A | 15 minutes | Guidance Staff\nabout the college\nentrance examination\n(flow, time)\n2. Examination | Monitoring of the | N/A | 1 and ½ hours Guidance Staff and\nproper | desktop during the | Interns\nexamination.\nExamination result | Issuance of the official | N/A | 1-3 days | Guidance Staff\nresult to examinees\n1-3 days, 1 hr\nTOTAL: | None | and 45\nminutes\n\n2. Appraisal\nAdministration and interpretation of appraisal.\n\nOffice or Division: | Guidance and Counseling\nClassification: | Simple\nType of Transaction: | G2G\nG2C\nWho may avail: | Students, Faculty, Non-Teaching, Job Applicants\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nData Privacy Consent | Client\nIdentification Card | Guidance and Counseling\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS",
+        "score": 0.06204838900734423
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_783",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_783\nSECTION: EMERGENCY CONTACT: GUIDANCE OFFICE (EMOTIONAL OR MENTAL HEALTH CRISIS)\nEMERGENCY CONTACT: GUIDANCE OFFICE (EMOTIONAL OR MENTAL HEALTH CRISIS)\nSource: Student Handbook Chapter 5, Article 1, Sec. 2 and the Mental Health Services articles; the 911 advice and the office location are from the maintainer and general safety information.\nThe Guidance Office (inside the OSAS building) offers counseling and mental health support to enrolled students. Go there for emotional distress, mental health concerns, and support after a bullying or harassment incident.\nIf you or someone else is in immediate danger, call 911 first.\nNo direct Guidance Office phone number has been supplied. The campus main line is (049) 308-4530 (Mon-Fri, 8:00 AM-5:00 PM).",
+        "score": 0.061934239586897685
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_717",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_717\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nStudent ID processing is handled by this office.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: BAO, Business Affairs, where to process student ID.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Scholarship and Financial Assistance (SFA) Office\nDirections from the main gate: From the main gate, walk straight in. The Scholarship and Financial Assistance office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: SFA, scholarship office, financial assistance office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Office of the Registrar\nDirections from the main gate: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: Registrar, registrar's office, where to get COR TOR.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Campus Library",
+        "score": 0.061271733730750136
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_315",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_315\nSECTION: Office or Division: | Guidance and Counseling\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nData Privacy Consent | Client\nIdentification Card | Guidance and Counseling\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nEndorsement, referral, Received the | n/a | 5 minutes Guidance personnel\nwalk-in | endorsement,\nreferral, walk-in\nclients. Scheduling\nof client.\nAdministration of | Prepare the testing | n/a | 4 hours | Guidance personnel\nAppraisal (Examination materials | (test\nproper) | booklet and answer\nsheet)\n\nAppraisal | briefing,\nincludes | the\ndiscussion of data\nprivacy consent.\n\n73",
+        "score": 0.06069148896552238
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_317",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_317\nSECTION: Discussion of | test\nDiscussion of | test\ninstructions.\n\nAppraisal Interpretation | Interpretation of tests. | n/a | 1-3 days | Guidance personnel &\nGuidance Counselor\nPreparation of report.\n3 days 4\nTOTAL: | None | hours and 5\nminutes\n\n3. Counseling\nFacilitation of counseling service.\n\nOffice or Division: | Guidance and Counseling\nClassification: | Simple\nType of Transaction: | G2G\nG2C\nWho may avail:\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nData Privacy Consent | Client\nIdentification Card | Guidance and Counseling\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nEndorsement, referral, | Received the | n/a | 2 minutes | Guidance Staff\nwalk-in | endorsement,\nreferral, walk-in\nclients. Scheduling\nof client.\nCounseling briefing | Completion of data | n/a | 15 minutes | Guidance Staff\nprivacy consent and\nstudent | inventory\nform.\n\nCounseling briefing,\nincludes | the\ndiscussion of data\nprivacy consent.\nCounseling proper | Administration and | n/a | 1-2 hours | Guidance Counselor\nconduct of\ncounseling\n1-2 hours and\nTOTAL: | None\n17 minutes\n\nXXV. CENTER FOR INNOVATION AND EMERGING TECHNOLOGIES\n1. IP Registration Process\nOpen to all Clients\n\n74",
+        "score": 0.055281617465370136
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?place\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?place=Location of Office of Student Affairs and Services (OSAS) Building\nGuidance Office [h:GuidanceOffice] --h:locatedAtPlace--> Location of Office of Student Affairs and Services (OSAS) Building [h:Loc_OSAS]\nGuidance Office [h:GuidanceOffice] --rdf:type--> Office [h:Office]\nTYPE of Guidance Office: h:Office\nTYPE of Location of Office of Student Affairs and Services (OSAS) Building: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of Student Affairs and Services (OSAS) Building: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nTYPE of Office: http://www.w3.org/2002/07/owl#Class"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?place\": 1}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?place=Location of Office of Student Affairs and Services (OSAS) Building\nGuidance Office [h:GuidanceOffice] --h:locatedAtPlace--> Location of Office of Student Affairs and Services (OSAS) Building [h:Loc_OSAS]\nGuidance Office [h:GuidanceOffice] --rdf:type--> Office [h:Office]\nTYPE of Guidance Office: h:Office\nTYPE of Location of Office of Student Affairs and Services (OSAS) Building: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of Student Affairs and Services (OSAS) Building: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nTYPE of Office: http://www.w3.org/2002/07/owl#Class\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_314\nSECTION: Office or Division: | Guidance and Counseling\nOffice or Division: | Guidance and Counseling\nClassification: | Simple\nType of Transaction: | G2C\nWho may avail: | Student-applicants\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nOnline application form | LSPU Onlin",
+    "answer_for_eval": "The Guidance Office is located inside the Office of Student Affairs and Services (OSAS) Building at LSPU-LB campus, Malinta, Los Baños, Laguna.",
+    "retrieval_query": "Where is the Guidance Office located?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:GuidanceOffice",
+              "rdf:type",
+              "h:Office"
+            ],
+            [
+              "h:GuidanceOffice",
+              "h:locatedAtPlace",
+              "?place"
+            ]
+          ],
+          "select": [
+            "?place"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 7,
+    "elapsed_seconds": 3.9060000000172295
+  },
+  "answer": "The Guidance Office is located inside the Office of Student Affairs and Services (OSAS) Building at LSPU-LB campus, Malinta, Los Baños, Laguna.",
+  "pipeline_version": "oc-rag-3.0"
+}

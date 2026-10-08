@@ -1,0 +1,64 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "When was the 2026 campus-level ICAC-CAF held?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_802",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_802\nSECTION: EVENT: LSPU-LBC ICAC-CAF 2026 (CAMPUS LEVEL)\nEVENT: LSPU-LBC ICAC-CAF 2026 (CAMPUS LEVEL)\nSource: campus information supplied by the maintainer (September 2026). An LSPU-LBC ICAC-CAF 2026 is announced on the university website, but the dates were not independently confirmed.\nThe 2026 LSPU-LBC ICAC-CAF was held September 15-18, 2026. The colleges competed against each other in basketball, volleyball, chess, e-sports, swimming and other sports, plus cultural competitions. Afterward, the winners became LSPU-LBC's representatives in the university-wide ICAC-CAF. As of September 29, 2026 this campus-level event has already been held.",
+        "score": 0.06504494976203068
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_803",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_803\nSECTION: EVENT: UNIVERSITY-WIDE ICAC-CAF 2026\nEVENT: UNIVERSITY-WIDE ICAC-CAF 2026\nSource: campus information supplied by the maintainer (September 2026); dates and venue not independently confirmed; schedules can change.\nThe university-wide ICAC-CAF 2026 is scheduled for October 20-23, 2026 at the LSPU Santa Cruz Campus. Each campus sends the winners of its own campus-level ICAC-CAF. As of September 29, 2026 this event has not happened yet.",
+        "score": 0.06428490111891752
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?startDate=2026-10-20; ?endDate=2026-10-23\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventEndDate--> \"2026-10-23\"\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventStartDate--> \"2026-10-20\"\nTYPE of University-wide ICAC-CAF 2026: h:CampusEvent\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:verificationNote = Dates and venue supplied by the maintainer; not independently confirmed. Schedules can change."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?startDate=2026-10-20; ?endDate=2026-10-23\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventEndDate--> \"2026-10-23\"\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventStartDate--> \"2026-10-20\"\nTYPE of University-wide ICAC-CAF 2026: h:CampusEvent\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:verificationNote = Dates and venue supplied by the maintainer; not independently confirmed. Schedules can change.\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_802\nSECTION: EVENT: LSPU-LBC ICAC-CAF 2026 (CAMPUS LEVEL)\nEVENT: LSPU-LBC ICAC-CAF 2026 (CAMPUS LEVEL)\nSource: campus information supplied by the maintainer (September 2026). An LSPU-LBC ICAC-CAF 2026 is announced on the university website, but the dates were not independently confirmed.\nThe 2026 LSPU-LBC ICAC-CAF was held September 15-18, 2026. The colleges competed against each other in basketball, volleyball, chess, e-sports, swimming and other sports",
+    "answer_for_eval": "The 2026 campus-level ICAC-CAF was held from September 15 to September 18, 2026.",
+    "retrieval_query": "When was the 2026 campus-level ICAC-CAF held?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Event_ICACCAF_University_2026",
+              "h:eventStartDate",
+              "?startDate"
+            ],
+            [
+              "h:Event_ICACCAF_University_2026",
+              "h:eventEndDate",
+              "?endDate"
+            ]
+          ],
+          "select": [
+            "?startDate",
+            "?endDate"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 5.280999999959022,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?startDate=2026-10-20; ?endDate=2026-10-23\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventEndDate--> \"2026-10-23\"\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventStartDate--> \"2026-10-20\"\nTYPE of University-wide ICAC-CAF 2026: h:CampusEvent\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:verificationNote = Dates and venue supplied by the maintainer; not independently confirmed. Schedules can change.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_802\nSECTION: EVENT: LSPU-LBC ICAC-CAF 2026 (CAMPUS LEVEL)\nEVENT: LSPU-LBC ICAC-CAF 2026 (CAMPUS LEVEL)\nSource: campus information supplied by the maintainer (September 2026). An LSPU-LBC ICAC-CAF 2026 is announced on the university website, but the dates were not independently confirmed.\nThe 2026 LSPU-LBC ICAC-CAF was held September 15-18, 2026. The colleges competed against each other in basketball, volleyball, chess, e-sports, swimming and other sports, plus cultural competitions. Afterward, the winners became LSPU-LBC's representatives in the university-wide ICAC-CAF. As of September 29, 2026 this campus-level event has already been held.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_803\nSECTION: EVENT: UNIVERSITY-WIDE ICAC-CAF 2026\nEVENT: UNIVERSITY-WIDE ICAC-CAF 2026\nSource: campus information supplied by the maintainer (September 2026); dates and venue not independently confirmed; schedules can change.\nThe university-wide ICAC-CAF 2026 is scheduled for October 20-23, 2026 at the LSPU Santa Cruz Campus. Each campus sends the winners of its own campus-level ICAC-CAF. As of September 29, 2026 this event has not happened yet."
+    ]
+  },
+  "answer": "The 2026 campus-level ICAC-CAF was held from September 15 to September 18, 2026.",
+  "pipeline_version": "oc-rag-3.5-grounded-evidence"
+}

@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "Which programs lead to a board or licensure exam?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The programs that lead to a board or licensure exam at LSPU-LB typically include teacher education, nursing, and other health-related programs. Please refer to the official LSPU-LB website or academic catalog for the most accurate and updated list.",
+    "retrieval_query": "Which programs lead to a board or licensure exam?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.1089999999967404,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 1.1089999999967404,
+    "selected_contexts": []
+  },
+  "answer": "The programs that lead to a board or licensure exam at LSPU-LB typically include teacher education, nursing, and other health-related programs. Please refer to the official LSPU-LB website or academic catalog for the most accurate and updated list.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

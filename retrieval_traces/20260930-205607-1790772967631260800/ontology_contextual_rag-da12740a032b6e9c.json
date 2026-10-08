@@ -1,0 +1,60 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What does INC mean?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_445",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_445\nSECTION: Chapter 3 | Article 7. Grading System and Other Grade-related Concerns\nterm/semester).\n\n5.5. Removal Fee. The removal fee is P20 per unit. (BOR Reso.1046, s.2012)\n\nSec. 5. INC Mark\n\n5.1. Types of INC or Incomplete mark\n\n5.1.1. No Final Examination. A grade of INC is given if a student whose class standing throughout the term/semester is passing but fails to take the final examination due to illness or other valid reason/s. An approved excuse slip is required before a student is given the examination. In case the student's class standing is not passing, and s/he fails the final examination for any reason, a grade of “5.0” is given. Re-examination to improve a passing grade is not allowed.\n\n5.1.2. Failure to comply with certain requirements. INC is also given to the work that is of passing quality, but some parts of which are undone because of sickness or failure to comply with certain requirements of the course.\n\n5.2. Policies for INC\n\n5.2.1. A grade of INC is not given to any student with a failing grade in a subject. The one-year academic period is interrupted as extending to the regular semester; the removal period immediately follows the one year.\n\n5.2.2.",
+        "score": 0.06266425425370543
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_473",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_473\nSECTION: Chapter 4 | Article 8. Grading System and Requirements\nwhich does not earn any academic credit nor indicate failures such as “NC” for “No Credit” or “NG” for “No Grade.” Such a grade is permanent and cannot be subsequently changed. Provided, however, that where the failure to take the final examination or to submit the academic requirements is due to excusable grounds, such as sickness, emergency or accident may be given an incomplete mark or “INC.” Provided further that the institution allows special or completion examinations or additional time for compliance with the requirements. In no case shall an incomplete or “INC” mark remain for more than one (1) academic year. (CMO No. 40 s.2008 and CMO No. 30 s.2009)\n\n2.3. A special completion fee of P100 is charged in the completion of\n\n“INC.”\n\n2.4. A student cannot drop or change the subject without the written consent of the GSAR Dean; otherwise, the student shall be given an “F.”\n\n2.5. The letter “W” for “Withdrawn” shows that the student shall drop a course with the written permission of the College Dean of the Graduate Studies. If a student drops a course without written permission, s/he shall get an “F automatically.”",
+        "score": 0.061829710526131204
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?definition=An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which must be taken within one (1) academic year. Removal fee: P20 per unit. Special removal examination (via Dean petition): P100 per unit.\nINC Mark and Grade Removal Policy [h:Policy_INCAndRemovalGrades] --h:definition--> \"An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which must be taken within one (1) academic year. Removal fee: P20 per unit. Special removal examination (via Dean petition): P100 per unit.\"\nTYPE of INC Mark and Grade Removal Policy: h:Policy\nSOURCE/QUALIFIER for INC Mark and Grade Removal Policy: h:sourceArticle = Chapter 3, Article 7, Sec. 5"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?definition=An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which must be taken within one (1) academic year. Removal fee: P20 per unit. Special removal examination (via Dean petition): P100 per unit.\nINC Mark and Grade Removal Policy [h:Policy_INCAndRemovalGrades] --h:definition--> \"An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest remo",
+    "answer_for_eval": "INC means Incomplete. It is given when a student with a passing class standing fails to take the final examination due to illness or other valid reasons, or when some course requirements are incomplete due to sickness. If not completed within one academic year, INC automatically becomes a grade of 5.00.",
+    "retrieval_query": "What does INC mean?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Policy_INCAndRemovalGrades",
+              "h:definition",
+              "?definition"
+            ]
+          ],
+          "select": [
+            "?definition"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: a:Policy_INCAndRemovalGrades"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 12.98399999999674,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?definition=An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which must be taken within one (1) academic year. Removal fee: P20 per unit. Special removal examination (via Dean petition): P100 per unit.\nINC Mark and Grade Removal Policy [h:Policy_INCAndRemovalGrades] --h:definition--> \"An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which must be taken within one (1) academic year. Removal fee: P20 per unit. Special removal examination (via Dean petition): P100 per unit.\"\nTYPE of INC Mark and Grade Removal Policy: h:Policy\nSOURCE/QUALIFIER for INC Mark and Grade Removal Policy: h:sourceArticle = Chapter 3, Article 7, Sec. 5",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_445\nSECTION: Chapter 3 | Article 7. Grading System and Other Grade-related Concerns\nterm/semester).\n\n5.5. Removal Fee. The removal fee is P20 per unit. (BOR Reso.1046, s.2012)\n\nSec. 5. INC Mark\n\n5.1. Types of INC or Incomplete mark\n\n5.1.1. No Final Examination. A grade of INC is given if a student whose class standing throughout the term/semester is passing but fails to take the final examination due to illness or other valid reason/s. An approved excuse slip is required before a student is given the examination. In case the student's class standing is not passing, and s/he fails the final examination for any reason, a grade of “5.0” is given. Re-examination to improve a passing grade is not allowed.\n\n5.1.2. Failure to comply with certain requirements. INC is also given to the work that is of passing quality, but some parts of which are undone because of sickness or failure to comply with certain requirements of the course.\n\n5.2. Policies for INC\n\n5.2.1. A grade of INC is not given to any student with a failing grade in a subject. The one-year academic period is interrupted as extending to the regular semester; the removal period immediately follows the one year.\n\n5.2.2.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_473\nSECTION: Chapter 4 | Article 8. Grading System and Requirements\nwhich does not earn any academic credit nor indicate failures such as “NC” for “No Credit” or “NG” for “No Grade.” Such a grade is permanent and cannot be subsequently changed. Provided, however, that where the failure to take the final examination or to submit the academic requirements is due to excusable grounds, such as sickness, emergency or accident may be given an incomplete mark or “INC.” Provided further that the institution allows special or completion examinations or additional time for compliance with the requirements. In no case shall an incomplete or “INC” mark remain for more than one (1) academic year. (CMO No. 40 s.2008 and CMO No. 30 s.2009)\n\n2.3. A special completion fee of P100 is charged in the completion of\n\n“INC.”\n\n2.4. A student cannot drop or change the subject without the written consent of the GSAR Dean; otherwise, the student shall be given an “F.”\n\n2.5. The letter “W” for “Withdrawn” shows that the student shall drop a course with the written permission of the College Dean of the Graduate Studies. If a student drops a course without written permission, s/he shall get an “F automatically.”"
+    ]
+  },
+  "answer": "INC means Incomplete. It is given when a student with a passing class standing fails to take the final examination due to illness or other valid reasons, or when some course requirements are incomplete due to sickness. If not completed within one academic year, INC automatically becomes a grade of 5.00.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

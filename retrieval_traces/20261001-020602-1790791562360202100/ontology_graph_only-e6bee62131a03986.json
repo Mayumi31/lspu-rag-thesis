@@ -1,0 +1,45 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Which office handles scholarships and financial assistance, and where is it?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?office=Scholarship and Financial Assistance Unit\nScholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit] --h:additionalInfo--> \"Go to this office for: scholarships.\"\nScholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit] --h:definition--> \"The unit that processes scholarship and financial assistance applications.\"\nScholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit] --h:locatedAtPlace--> Location of Scholarship and Financial Assistance (SFA) Office [h:Loc_SFA]\nLocation of Scholarship and Financial Assistance (SFA) Office [h:Loc_SFA] --h:definition--> \"From the main gate, walk straight in. The Scholarship and Financial Assistance office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side. Located in the LSPU Los Ba\\u00f1os campus, Malinta, Los Ba\\u00f1os, Laguna.\"\nLocation of Scholarship and Financial Assistance (SFA) Office [h:Loc_SFA] --h:housesOffice--> Scholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit]\nLOCATION DETAIL for Location of Scholarship and Financial Assistance (SFA) Office: h:definition = From the main gate, walk straight in. The Scholarship and Financial Assistance office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nLOCATION DETAIL for Location of Scholarship and Financial Assistance (SFA) Office: h:directionsFromGate = From the main gate, walk straight in. The Scholarship and Financial Assistance office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side.\nTYPE of Scholarship and Financial Assistance Unit: h:Office\nTYPE of Location of Scholarship and Financial Assistance (SFA) Office: h:CampusPlace\nSOURCE/QUALIFIER for Location of Scholarship and Financial Assistance (SFA) Office: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?office=Scholarship and Financial Assistance Unit\nScholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit] --h:additionalInfo--> \"Go to this office for: scholarships.\"\nScholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit] --h:definition--> \"The unit that processes scholarship and financial assistance applications.\"\nScholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit] --h:locatedAtPlace--> Location of Scholarship and Financial Assistance (SFA) Office [h:Loc_SFA]\nLocation of Scholarship and Financial Assistance (SFA) Office [h:Loc_SFA] --h:definition--> \"From the main gate, walk straight in. The Scholarship and Financial Assistance office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side. Located in the LSPU Los Ba\\u00f1os campus, Malinta, Los Ba\\u00f1os, Laguna.\"\nLocation of Scholarship and Financial Assistance (SFA) Office [h:Loc_SFA] --h:housesOffice--> Scholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit]\nLOCATION DETAIL for Location of Scholarship and Financial Assistance (SFA",
+    "answer_for_eval": "The office that handles scholarships and financial assistance is the Scholarship and Financial Assistance Unit. It is located inside the BAO, in the same building as the Clinic and Cafeteria, on the left side, in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.",
+    "retrieval_query": "Which office handles scholarships and financial assistance, and where is it located?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Loc_SFA",
+              "h:housesOffice",
+              "?office"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 9.875,
+    "retrieval_seconds": 9.045999999972992,
+    "generation_seconds": 0.8290000000270084,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?office=Scholarship and Financial Assistance Unit\nScholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit] --h:additionalInfo--> \"Go to this office for: scholarships.\"\nScholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit] --h:definition--> \"The unit that processes scholarship and financial assistance applications.\"\nScholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit] --h:locatedAtPlace--> Location of Scholarship and Financial Assistance (SFA) Office [h:Loc_SFA]\nLocation of Scholarship and Financial Assistance (SFA) Office [h:Loc_SFA] --h:definition--> \"From the main gate, walk straight in. The Scholarship and Financial Assistance office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side. Located in the LSPU Los Ba\\u00f1os campus, Malinta, Los Ba\\u00f1os, Laguna.\"\nLocation of Scholarship and Financial Assistance (SFA) Office [h:Loc_SFA] --h:housesOffice--> Scholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit]\nLOCATION DETAIL for Location of Scholarship and Financial Assistance (SFA) Office: h:definition = From the main gate, walk straight in. The Scholarship and Financial Assistance office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nLOCATION DETAIL for Location of Scholarship and Financial Assistance (SFA) Office: h:directionsFromGate = From the main gate, walk straight in. The Scholarship and Financial Assistance office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side.\nTYPE of Scholarship and Financial Assistance Unit: h:Office\nTYPE of Location of Scholarship and Financial Assistance (SFA) Office: h:CampusPlace\nSOURCE/QUALIFIER for Location of Scholarship and Financial Assistance (SFA) Office: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+    ]
+  },
+  "answer": "The office that handles scholarships and financial assistance is the Scholarship and Financial Assistance Unit. It is located inside the BAO, in the same building as the Clinic and Cafeteria, on the left side, in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

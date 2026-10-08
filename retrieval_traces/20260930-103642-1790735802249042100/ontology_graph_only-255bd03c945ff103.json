@@ -1,0 +1,98 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What programs does the College of Teacher Education offer?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Elementary Education\nBachelor of Elementary Education [p:Prog_BEEd] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Elementary Education [p:Prog_BEEd] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Elementary Education: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Physical Education\nBachelor of Physical Education [p:Prog_BPE] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Physical Education [p:Prog_BPE] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Physical Education: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Secondary Education - Major in English\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Secondary Education - Major in English: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 4: ?program=Bachelor of Secondary Education - Major in Filipino\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Secondary Education - Major in Filipino: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 5: ?program=Bachelor of Secondary Education - Major in Mathematics\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Secondary Education - Major in Mathematics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 6: ?program=Bachelor of Secondary Education - Major in Sciences\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Secondary Education - Major in Sciences: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 7: ?program=Bachelor of Secondary Education - Major in Social Studies\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Secondary Education - Major in Social Studies: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 8: ?program=Bachelor of Technology and Livelihood Education - Major in Home Economics\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Technology and Livelihood Education - Major in Home Economics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 9: ?program=Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Elementary Education\nBachelor of Elementary Education [p:Prog_BEEd] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Elementary Education [p:Prog_BEEd] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Elementary Education: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\n\nQUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Physical Education\nBachelor of Physical Education [p:Prog_BPE] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Physical Education [p:Prog_BPE] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Physical Education: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\n\nQUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Secondary Education - Major in English\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of",
+    "answer_for_eval": "The College of Teacher Education offers the following programs:\n1. Bachelor of Elementary Education\n2. Bachelor of Physical Education\n3. Bachelor of Secondary Education - Major in English\n4. Bachelor of Secondary Education - Major in Filipino\n5. Bachelor of Secondary Education - Major in Mathematics\n6. Bachelor of Secondary Education - Major in Sciences\n7. Bachelor of Secondary Education - Major in Social Studies\n8. Bachelor of Technology and Livelihood Education - Major in Home Economics\n9. Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management",
+    "retrieval_query": "What programs does the College of Teacher Education offer?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?program",
+              "p:offeredByCollege",
+              "p:CTE"
+            ],
+            [
+              "?program",
+              "rdf:type",
+              "p:Program"
+            ]
+          ],
+          "select": [
+            "?program"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Query 1 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 9,
+    "elapsed_seconds": 5.438000000023749,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Elementary Education\nBachelor of Elementary Education [p:Prog_BEEd] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Elementary Education [p:Prog_BEEd] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Elementary Education: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class",
+      "QUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Physical Education\nBachelor of Physical Education [p:Prog_BPE] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Physical Education [p:Prog_BPE] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Physical Education: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class",
+      "QUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Secondary Education - Major in English\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Secondary Education - Major in English: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class",
+      "QUERY 1\nGRAPH RESULT 4: ?program=Bachelor of Secondary Education - Major in Filipino\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Secondary Education - Major in Filipino: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class",
+      "QUERY 1\nGRAPH RESULT 5: ?program=Bachelor of Secondary Education - Major in Mathematics\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Secondary Education - Major in Mathematics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class",
+      "QUERY 1\nGRAPH RESULT 6: ?program=Bachelor of Secondary Education - Major in Sciences\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Secondary Education - Major in Sciences: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class",
+      "QUERY 1\nGRAPH RESULT 7: ?program=Bachelor of Secondary Education - Major in Social Studies\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Secondary Education - Major in Social Studies: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class",
+      "QUERY 1\nGRAPH RESULT 8: ?program=Bachelor of Technology and Livelihood Education - Major in Home Economics\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Technology and Livelihood Education - Major in Home Economics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class",
+      "QUERY 1\nGRAPH RESULT 9: ?program=Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --rdf:type--> Program [p:Program]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  "answer": "The College of Teacher Education offers the following programs:\n1. Bachelor of Elementary Education\n2. Bachelor of Physical Education\n3. Bachelor of Secondary Education - Major in English\n4. Bachelor of Secondary Education - Major in Filipino\n5. Bachelor of Secondary Education - Major in Mathematics\n6. Bachelor of Secondary Education - Major in Sciences\n7. Bachelor of Secondary Education - Major in Social Studies\n8. Bachelor of Technology and Livelihood Education - Major in Home Economics\n9. Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

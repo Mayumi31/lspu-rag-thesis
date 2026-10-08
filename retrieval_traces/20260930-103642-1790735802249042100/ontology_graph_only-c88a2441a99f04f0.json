@@ -1,0 +1,49 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "When was the 2026 campus-level ICAC-CAF held?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?startDate=2026-10-20; ?endDate=2026-10-23\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventEndDate--> \"2026-10-23\"\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventStartDate--> \"2026-10-20\"\nTYPE of University-wide ICAC-CAF 2026: h:CampusEvent\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:verificationNote = Dates and venue supplied by the maintainer; not independently confirmed. Schedules can change."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?startDate=2026-10-20; ?endDate=2026-10-23\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventEndDate--> \"2026-10-23\"\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventStartDate--> \"2026-10-20\"\nTYPE of University-wide ICAC-CAF 2026: h:CampusEvent\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:verificationNote = Dates and venue supplied by the maintainer; not independently confirmed. Schedules can change.",
+    "answer_for_eval": "The 2026 campus-level ICAC-CAF was held from October 20 to October 23, 2026.",
+    "retrieval_query": "When was the 2026 campus-level ICAC-CAF held?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Event_ICACCAF_University_2026",
+              "h:eventStartDate",
+              "?startDate"
+            ],
+            [
+              "h:Event_ICACCAF_University_2026",
+              "h:eventEndDate",
+              "?endDate"
+            ]
+          ],
+          "select": [
+            "?startDate",
+            "?endDate"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 4.64100000000326,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?startDate=2026-10-20; ?endDate=2026-10-23\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventEndDate--> \"2026-10-23\"\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventStartDate--> \"2026-10-20\"\nTYPE of University-wide ICAC-CAF 2026: h:CampusEvent\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:verificationNote = Dates and venue supplied by the maintainer; not independently confirmed. Schedules can change."
+    ]
+  },
+  "answer": "The 2026 campus-level ICAC-CAF was held from October 20 to October 23, 2026.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

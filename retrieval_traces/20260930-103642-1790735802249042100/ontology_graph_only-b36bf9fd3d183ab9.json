@@ -1,0 +1,52 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Which law is the offense of illegal access or hacking based on?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Illegal Access or Hacking\nh:definition: Illegal access or hacking to the whole or any part of one's online accounts including e-mail, social media profiles, etc.\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_1 [h:Tier_IllegalAccessHacking_1]\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_2 [h:Tier_IllegalAccessHacking_2]\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_3 [h:Tier_IllegalAccessHacking_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.2\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Illegal Access or Hacking"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Illegal Interception\nh:definition: Illegal interception or listening to, recording, monitoring or surveillance of communications, directly through computer systems or indirectly through electronic eavesdropping/tapping devices.\nh:hasSanctionTier -> h:Tier_IllegalInterception_1 [h:Tier_IllegalInterception_1]\nh:hasSanctionTier -> h:Tier_IllegalInterception_2 [h:Tier_IllegalInterception_2]\nh:hasSanctionTier -> h:Tier_IllegalInterception_3 [h:Tier_IllegalInterception_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.3\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Illegal Interception"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Illegal Access or Hacking\nh:definition: Illegal access or hacking to the whole or any part of one's online accounts including e-mail, social media profiles, etc.\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_1 [h:Tier_IllegalAccessHacking_1]\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_2 [h:Tier_IllegalAccessHacking_2]\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_3 [h:Tier_IllegalAccessHacking_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.2\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Illegal Access or Hacking\n\nAPPROXIMATE MATCH (not an exhaustive result): Illegal Interception\nh:definition: Illegal interception or listening to, recording, monitoring or surveillance of communications, directly through computer systems or indirectly through electronic eavesdropping/tapping devices.\nh:hasSanctionTier -> h:Tier_IllegalInterception_1 [h:Tier_IllegalInterception_1]\nh:hasSanctionTier -> h:Tier_IllegalInterception_2 [h:Tier_IllegalInterception_2]\nh:hasSanctionTier -> h:Tier_IllegalInterception_3 [h:Tier_IllegalInterception_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.3\n",
+    "answer_for_eval": "The offense of illegal access or hacking is based on RA 10175.",
+    "retrieval_query": "Which law is the offense of illegal access or hacking based on?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:IllegalAccessHacking",
+              "h:isBasedOn",
+              "h:LegalBasis"
+            ]
+          ],
+          "select": [
+            "?w"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: h:RA10175",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 2,
+    "elapsed_seconds": 8.186999999976251,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Illegal Access or Hacking\nh:definition: Illegal access or hacking to the whole or any part of one's online accounts including e-mail, social media profiles, etc.\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_1 [h:Tier_IllegalAccessHacking_1]\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_2 [h:Tier_IllegalAccessHacking_2]\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_3 [h:Tier_IllegalAccessHacking_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.2\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Illegal Access or Hacking",
+      "APPROXIMATE MATCH (not an exhaustive result): Illegal Interception\nh:definition: Illegal interception or listening to, recording, monitoring or surveillance of communications, directly through computer systems or indirectly through electronic eavesdropping/tapping devices.\nh:hasSanctionTier -> h:Tier_IllegalInterception_1 [h:Tier_IllegalInterception_1]\nh:hasSanctionTier -> h:Tier_IllegalInterception_2 [h:Tier_IllegalInterception_2]\nh:hasSanctionTier -> h:Tier_IllegalInterception_3 [h:Tier_IllegalInterception_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.3\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Illegal Interception"
+    ]
+  },
+  "answer": "The offense of illegal access or hacking is based on RA 10175.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

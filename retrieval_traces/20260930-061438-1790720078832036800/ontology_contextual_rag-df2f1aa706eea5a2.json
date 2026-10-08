@@ -1,0 +1,381 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "How many units is GEC 101 (Understanding the Self) in BS Psychology?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_723",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_723\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nSCIENCES (CAS) — Psychology (major inferred), 4 years\nPATHFIT 1 — Movement Competency Training (MCT)\nCAS | Year 1, Sem 1 | Units: 2 Basic movement competency and fitness training. Students learn proper form and baseline fitness assessment. This course lays the groundwork for the subsequent PATHFit courses.\nGEC 101 — Understanding the Self\nCAS | Year 1, Sem 1 | Units: 3 Examines the self through psychological, sociological, anthropological, and philosophical lenses. Students explore identity formation and how various disciplines frame human experience. The course encourages self-reflection as a foundation for personal growth throughout college life.\nGEC 104 — Mathematics in the Modern World\nCAS | Year 1, Sem 1 | Units: 3 Presents mathematics as a tool for understanding patterns, reasoning, and decision-making. Covers statistics, logic, and applied mathematical reasoning. The course is designed to make math relevant to everyday and professional situations rather than purely abstract computation.\nP.I. 100 — The Life and Works of Jose Rizal\nCAS | Year 1, Sem 1 | Units: 3 Studies Rizal's life, writings (Noli Me Tangere, El Filibusterismo), and his role in Philippine nationalism.",
+        "score": 0.03278688524590164
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_741",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_741\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nspecialized study of psychological assessment tools and their application in professional practice. Students critically evaluate assessment methods across various contexts. This seminar builds directly on the foundational Psychological Assessment course.\n\nCOLLEGE OF BUSINESS ADMINISTRATION AND ACCOUNTANCY (CBAA) — Major: Marketing Management, 4 years\nGEC 101 — Understanding the Self\nCBAA Marketing Management | Year 1, Sem 1 | Units: 3 Examines the self through psychological, sociological, anthropological, and philosophical lenses. Students explore identity formation and how various disciplines frame human experience. The course encourages self-reflection as a foundation for personal growth throughout college life.\nGEC 102 — Readings in Philippine History\nCBAA Marketing Management | Year 1, Sem 1 | Units: 3 Examines Philippine history through primary source documents. Students learn to read and interpret original historical texts. This approach builds critical thinking skills that go beyond memorizing dates and events.\nBAC 101 — Basic Microeconomics",
+        "score": 0.031754032258064516
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_760",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_760\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\ntraining. Students learn proper form and baseline fitness assessment. This course lays the groundwork for the subsequent PATHFit courses.\nGEC 104 — Mathematics in the Modern World\nCCS Intelligent Systems | Year 1, Sem 2 | Units: 3 Presents mathematics as a tool for understanding patterns, reasoning, and decision-making. Covers statistics, logic, and applied mathematical reasoning. The course is designed to make math relevant to everyday and professional situations rather than purely abstract computation.\nGEC 103 — The Contemporary World\nCCS Intelligent Systems | Year 1, Sem 2 | Units: 3 Examines globalization and its economic, political, and cultural dimensions. Students analyze how global interconnectedness shapes local realities. The course encourages a broader, more critical view of current world affairs.\nGEC 105 — Purposive Communication\nCCS Intelligent Systems | Year 1, Sem 2 | Units: 3 Develops writing and speaking skills for academic and professional purposes. Students practice communication across varied genres and contexts. It prepares students for the kinds of writing and presentations expected in the workplace.\nFILDIS — Filipino sa Iba't Ibang Disiplina",
+        "score": 0.02946912242686891
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_743",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_743\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nNSTP 2 The Civic Welfare Training Service (or ROTC) component of the National Service Training Program. Students engage in community-based service or military training activities. It fulfills part of the mandatory national service requirement for college students.\nGEC 103 — The Contemporary World\nCBAA Marketing Management | Year 1, Sem 1 | Units: 3 Examines globalization and its economic, political, and cultural dimensions. Students analyze how global interconnectedness shapes local realities. The course encourages a broader, more critical view of current world affairs.\nPATHFIT 1 — Movement Competency Training (MCT)\nCBAA Marketing Management | Year 1, Sem 1 | Units: 2 | Prerequisite for: PATHFit 2 Basic movement competency and fitness training. Students learn proper form and baseline fitness assessment. This course lays the groundwork for the subsequent PATHFit courses.\nGEC 104 — Mathematics in the Modern World\nCBAA Marketing Management | Year 1, Sem 2 | Units: 3 Presents mathematics as a tool for understanding patterns, reasoning, and decision-making. Covers statistics, logic, and applied mathematical reasoning.",
+        "score": 0.029418126757516764
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_757",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_757\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nPricing Strategy\nCBAA Marketing Management | Year 4, Sem 1 | Units: 3 | Prerequisite: MM 106 Examines pricing models, competitive pricing strategies, and price elasticity concepts. Students learn to set prices that balance profitability with market competitiveness. This course completes the product-marketing sequence begun with Product Management.\n\nCOLLEGE OF COMPUTER SCIENCE (CCS) — Major: Intelligent Systems, 4 years\nGEC 101 — Understanding the Self\nCCS Intelligent Systems | Year 1, Sem 1 | Units: 3 Examines the self through psychological, sociological, anthropological, and philosophical lenses. Students explore identity formation and how various disciplines frame human experience. The course encourages self-reflection as a foundation for personal growth throughout college life.\nGEC 102 — Readings in Philippine History\nCCS Intelligent Systems | Year 1, Sem 1 | Units: 3 Examines Philippine history through primary source documents. Students learn to read and interpret original historical texts. This approach builds critical thinking skills that go beyond memorizing dates and events.\nP.I. 100 — The Life and Works of Jose Rizal",
+        "score": 0.029386529386529386
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 52; distinct values by variable = {\"?course\": 52}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?course=BC PSY 1 — Introduction to Psychology (BS Psychology, Year 1, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> BC PSY 1 — Introduction to Psychology (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_BCPSY1]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of BC PSY 1 — Introduction to Psychology (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for BC PSY 1 — Introduction to Psychology (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?course=BC PSY 2 — Psychological Statistics (BS Psychology, Year 1, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> BC PSY 2 — Psychological Statistics (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_BCPSY2]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of BC PSY 2 — Psychological Statistics (BS Psychology, Year 1, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for BC PSY 2 — Psychological Statistics (BS Psychology, Year 1, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?course=DALUMATFIL — Dalumat Ng/Sa Filipino (BS Psychology, Year 2, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> DALUMATFIL — Dalumat Ng/Sa Filipino (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_DALUMATFIL]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of DALUMATFIL — Dalumat Ng/Sa Filipino (BS Psychology, Year 2, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for DALUMATFIL — Dalumat Ng/Sa Filipino (BS Psychology, Year 2, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 4: ?course=FILDIS — Filipino sa Iba't Ibang Disiplina (BS Psychology, Year 1, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> FILDIS — Filipino sa Iba't Ibang Disiplina (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_FILDIS]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of FILDIS — Filipino sa Iba't Ibang Disiplina (BS Psychology, Year 1, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for FILDIS — Filipino sa Iba't Ibang Disiplina (BS Psychology, Year 1, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 5: ?course=FL 1 — Basic Foreign Language (BS Psychology, Year 3, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> FL 1 — Basic Foreign Language (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_FL1]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of FL 1 — Basic Foreign Language (BS Psychology, Year 3, 1st Semester): p:Subject\nSOURCE/QUALIFIER for FL 1 — Basic Foreign Language (BS Psychology, Year 3, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 6: ?course=FL 2 — Advanced Foreign Language (BS Psychology, Year 3, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> FL 2 — Advanced Foreign Language (BS Psychology, Year 3, 2nd Semester) [p:Subj_BSPsych_FL2]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of FL 2 — Advanced Foreign Language (BS Psychology, Year 3, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for FL 2 — Advanced Foreign Language (BS Psychology, Year 3, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 7: ?course=GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_GEC101]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 8: ?course=GEC 102 — Readings in Philippine History (BS Psychology, Year 1, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> GEC 102 — Readings in Philippine History (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_GEC102]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of GEC 102 — Readings in Philippine History (BS Psychology, Year 1, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for GEC 102 — Readings in Philippine History (BS Psychology, Year 1, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 9: ?course=GEC 103 — The Contemporary World (BS Psychology, Year 2, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> GEC 103 — The Contemporary World (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_GEC103]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of GEC 103 — The Contemporary World (BS Psychology, Year 2, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for GEC 103 — The Contemporary World (BS Psychology, Year 2, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 10: ?course=GEC 104 — Mathematics in the Modern World (BS Psychology, Year 1, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> GEC 104 — Mathematics in the Modern World (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_GEC104]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of GEC 104 — Mathematics in the Modern World (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for GEC 104 — Mathematics in the Modern World (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 11: ?course=GEC 105 — Purposive Communication (BS Psychology, Year 2, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> GEC 105 — Purposive Communication (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_GEC105]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of GEC 105 — Purposive Communication (BS Psychology, Year 2, 1st Semester): p:Subject\nSOURCE/QUALIFIER for GEC 105 — Purposive Communication (BS Psychology, Year 2, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 12: ?course=GEC 106 — Art Appreciation (BS Psychology, Year 2, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> GEC 106 — Art Appreciation (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_GEC106]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of GEC 106 — Art Appreciation (BS Psychology, Year 2, 1st Semester): p:Subject\nSOURCE/QUALIFIER for GEC 106 — Art Appreciation (BS Psychology, Year 2, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 13: ?course=GEC 107 — Science, Technology and Society (BS Psychology, Year 2, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> GEC 107 — Science, Technology and Society (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_GEC107]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of GEC 107 — Science, Technology and Society (BS Psychology, Year 2, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for GEC 107 — Science, Technology and Society (BS Psychology, Year 2, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 14: ?course=GEC 108 — Ethics (BS Psychology, Year 2, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> GEC 108 — Ethics (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_GEC108]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of GEC 108 — Ethics (BS Psychology, Year 2, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for GEC 108 — Ethics (BS Psychology, Year 2, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 15: ?course=GEC ELEC 1 — Living in the IT Era (BS Psychology, Year 1, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> GEC ELEC 1 — Living in the IT Era (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_GECELEC1]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of GEC ELEC 1 — Living in the IT Era (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for GEC ELEC 1 — Living in the IT Era (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 16: ?course=GEC ELEC 2 — Great Books (BS Psychology, Year 1, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> GEC ELEC 2 — Great Books (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_GECELEC2]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of GEC ELEC 2 — Great Books (BS Psychology, Year 1, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for GEC ELEC 2 — Great Books (BS Psychology, Year 1, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 17: ?course=GE ELECT 3 — Gender and Society (BS Psychology, Year 2, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> GE ELECT 3 — Gender and Society (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_GEELECT3]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of GE ELECT 3 — Gender and Society (BS Psychology, Year 2, 1st Semester): p:Subject\nSOURCE/QUALIFIER for GE ELECT 3 — Gender and Society (BS Psychology, Year 2, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 18: ?course=KOMFIL — Kontekstwalisadong Komunikasyon sa Filipino (BS Psychology, Year 1, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> KOMFIL — Kontekstwalisadong Komunikasyon sa Filipino (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_KOMFIL]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of KOMFIL — Kontekstwalisadong Komunikasyon sa Filipino (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for KOMFIL — Kontekstwalisadong Komunikasyon sa Filipino (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 19: ?course=LIT 1 — The Tradition of Fiction (BS Psychology, Year 2, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> LIT 1 — The Tradition of Fiction (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_LIT1]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of LIT 1 — The Tradition of Fiction (BS Psychology, Year 2, 1st Semester): p:Subject\nSOURCE/QUALIFIER for LIT 1 — The Tradition of Fiction (BS Psychology, Year 2, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 20: ?course=LIT 2 — The Tradition of Poetry (BS Psychology, Year 2, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> LIT 2 — The Tradition of Poetry (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_LIT2]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of LIT 2 — The Tradition of Poetry (BS Psychology, Year 2, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for LIT 2 — The Tradition of Poetry (BS Psychology, Year 2, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 21: ?course=NS ELEC 1 — General Biology (BS Psychology, Year 1, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> NS ELEC 1 — General Biology (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_NSELEC1]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of NS ELEC 1 — General Biology (BS Psychology, Year 1, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for NS ELEC 1 — General Biology (BS Psychology, Year 1, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 22: ?course=NS ELEC 2 — Principles of Chemistry (BS Psychology, Year 2, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> NS ELEC 2 — Principles of Chemistry (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_NSELEC2]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of NS ELEC 2 — Principles of Chemistry (BS Psychology, Year 2, 1st Semester): p:Subject\nSOURCE/QUALIFIER for NS ELEC 2 — Principles of Chemistry (BS Psychology, Year 2, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 23: ?course=NS ELEC 3 — General Zoology (BS Psychology, Year 3, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> NS ELEC 3 — General Zoology (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_NSELEC3]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of NS ELEC 3 — General Zoology (BS Psychology, Year 3, 1st Semester): p:Subject\nSOURCE/QUALIFIER for NS ELEC 3 — General Zoology (BS Psychology, Year 3, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 24: ?course=NS ELEC 4 — Human Anatomy and Physiology (BS Psychology, Year 3, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> NS ELEC 4 — Human Anatomy and Physiology (BS Psychology, Year 3, 2nd Semester) [p:Subj_BSPsych_NSELEC4]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of NS ELEC 4 — Human Anatomy and Physiology (BS Psychology, Year 3, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for NS ELEC 4 — Human Anatomy and Physiology (BS Psychology, Year 3, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 25: ?course=NSTP 1 — CWTS 1 / ROTC 1 (BS Psychology, Year 1, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> NSTP 1 — CWTS 1 / ROTC 1 (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_NSTP1]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of NSTP 1 — CWTS 1 / ROTC 1 (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for NSTP 1 — CWTS 1 / ROTC 1 (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 26: ?course=NSTP 2 — CWTS 2 / ROTC 2 / LTS 2 (BS Psychology, Year 1, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> NSTP 2 — CWTS 2 / ROTC 2 / LTS 2 (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_NSTP2]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of NSTP 2 — CWTS 2 / ROTC 2 / LTS 2 (BS Psychology, Year 1, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for NSTP 2 — CWTS 2 / ROTC 2 / LTS 2 (BS Psychology, Year 1, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 27: ?course=PATHFit 1 — Movement Competency Training (MCT) (BS Psychology, Year 1, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PATHFit 1 — Movement Competency Training (MCT) (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_PATHFIT1]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PATHFit 1 — Movement Competency Training (MCT) (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PATHFit 1 — Movement Competency Training (MCT) (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 28: ?course=PATHFit 2 — Exercise-based Fitness Activities (BS Psychology, Year 1, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PATHFit 2 — Exercise-based Fitness Activities (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_PATHFIT2]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PATHFit 2 — Exercise-based Fitness Activities (BS Psychology, Year 1, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for PATHFit 2 — Exercise-based Fitness Activities (BS Psychology, Year 1, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 29: ?course=PATHFit 3 — Choice of Dance, Sports, Martial Arts, Group Exercise, Outdoor and Adventure Activities (BS Psychology, Year 2, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PATHFit 3 — Choice of Dance, Sports, Martial Arts, Group Exercise, Outdoor and Adventure Activities (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_PATHFIT3]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PATHFit 3 — Choice of Dance, Sports, Martial Arts, Group Exercise, Outdoor and Adventure Activities (BS Psychology, Year 2, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PATHFit 3 — Choice of Dance, Sports, Martial Arts, Group Exercise, Outdoor and Adventure Activities (BS Psychology, Year 2, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 30: ?course=PATHFit 4 — Choice of Dance, Sports, Martial Arts, Group Exercise, Outdoor and Adventure Activities (BS Psychology, Year 2, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PATHFit 4 — Choice of Dance, Sports, Martial Arts, Group Exercise, Outdoor and Adventure Activities (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_PATHFIT4]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PATHFit 4 — Choice of Dance, Sports, Martial Arts, Group Exercise, Outdoor and Adventure Activities (BS Psychology, Year 2, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for PATHFit 4 — Choice of Dance, Sports, Martial Arts, Group Exercise, Outdoor and Adventure Activities (BS Psychology, Year 2, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 31: ?course=PE 3 — Individual/Dual Sports Games (BS Psychology, Year 2, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PE 3 — Individual/Dual Sports Games (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_PE3]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PE 3 — Individual/Dual Sports Games (BS Psychology, Year 2, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PE 3 — Individual/Dual Sports Games (BS Psychology, Year 2, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter).\nSOURCE/QUALIFIER for PE 3 — Individual/Dual Sports Games (BS Psychology, Year 2, 1st Semester): p:sourceDataGap = The source lists \"PE 2\" as a prerequisite, but no subject with that code appears in the supplied BS Psychology curriculum, so no prerequisite link is recorded for it."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 32: ?course=P.I. 100 — The Life and Works of Jose Rizal (BS Psychology, Year 1, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> P.I. 100 — The Life and Works of Jose Rizal (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_PI100]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of P.I. 100 — The Life and Works of Jose Rizal (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for P.I. 100 — The Life and Works of Jose Rizal (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 33: ?course=PRACTICUM 1 — Clinical Setting (BS Psychology, Year 3, Inter-Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PRACTICUM 1 — Clinical Setting (BS Psychology, Year 3, Inter-Semester) [p:Subj_BSPsych_PRACTICUM1]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PRACTICUM 1 — Clinical Setting (BS Psychology, Year 3, Inter-Semester): p:Subject\nSOURCE/QUALIFIER for PRACTICUM 1 — Clinical Setting (BS Psychology, Year 3, Inter-Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 34: ?course=PSY 1 — Developmental Psychology (BS Psychology, Year 2, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 1 — Developmental Psychology (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_PSY1]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 1 — Developmental Psychology (BS Psychology, Year 2, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY 1 — Developmental Psychology (BS Psychology, Year 2, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 35: ?course=PSY 10 — Research in Psychology 2 (BS Psychology, Year 3, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 10 — Research in Psychology 2 (BS Psychology, Year 3, 2nd Semester) [p:Subj_BSPsych_PSY10]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 10 — Research in Psychology 2 (BS Psychology, Year 3, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for PSY 10 — Research in Psychology 2 (BS Psychology, Year 3, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 36: ?course=PSY 11 — Cognitive Psychology (BS Psychology, Year 4, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 11 — Cognitive Psychology (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSY11]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 11 — Cognitive Psychology (BS Psychology, Year 4, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY 11 — Cognitive Psychology (BS Psychology, Year 4, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 37: ?course=PSY 12 — Industrial/Organizational Psychology (BS Psychology, Year 4, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 12 — Industrial/Organizational Psychology (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSY12]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 12 — Industrial/Organizational Psychology (BS Psychology, Year 4, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY 12 — Industrial/Organizational Psychology (BS Psychology, Year 4, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 38: ?course=PSY 13 — Social Psychology (BS Psychology, Year 4, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 13 — Social Psychology (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSY13]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 13 — Social Psychology (BS Psychology, Year 4, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY 13 — Social Psychology (BS Psychology, Year 4, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 39: ?course=PSY 2 — Experimental Psychology (BS Psychology, Year 2, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 2 — Experimental Psychology (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_PSY2]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 2 — Experimental Psychology (BS Psychology, Year 2, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY 2 — Experimental Psychology (BS Psychology, Year 2, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 40: ?course=PSY 3 — Theories of Personality (BS Psychology, Year 2, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 3 — Theories of Personality (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_PSY3]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 3 — Theories of Personality (BS Psychology, Year 2, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for PSY 3 — Theories of Personality (BS Psychology, Year 2, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 41: ?course=PSY 4 — Field Methods in Psychology (BS Psychology, Year 2, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 4 — Field Methods in Psychology (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_PSY4]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 4 — Field Methods in Psychology (BS Psychology, Year 2, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for PSY 4 — Field Methods in Psychology (BS Psychology, Year 2, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 42: ?course=PSY 5 — Physiological/Biological Psychology (BS Psychology, Year 3, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 5 — Physiological/Biological Psychology (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_PSY5]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 5 — Physiological/Biological Psychology (BS Psychology, Year 3, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY 5 — Physiological/Biological Psychology (BS Psychology, Year 3, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 43: ?course=PSY 6 — Abnormal Psychology (BS Psychology, Year 3, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 6 — Abnormal Psychology (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_PSY6]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 6 — Abnormal Psychology (BS Psychology, Year 3, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY 6 — Abnormal Psychology (BS Psychology, Year 3, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 44: ?course=PSY 7 — Research in Psychology 1 (BS Psychology, Year 3, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 7 — Research in Psychology 1 (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_PSY7]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 7 — Research in Psychology 1 (BS Psychology, Year 3, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY 7 — Research in Psychology 1 (BS Psychology, Year 3, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 45: ?course=PSY 8 — Sikolohiyang Filipino (BS Psychology, Year 3, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 8 — Sikolohiyang Filipino (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_PSY8]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 8 — Sikolohiyang Filipino (BS Psychology, Year 3, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY 8 — Sikolohiyang Filipino (BS Psychology, Year 3, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 46: ?course=PSY 9 — Psychological Assessment (BS Psychology, Year 3, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY 9 — Psychological Assessment (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_PSY9]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY 9 — Psychological Assessment (BS Psychology, Year 3, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY 9 — Psychological Assessment (BS Psychology, Year 3, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 47: ?course=PSY ELEC 1 — Introduction to Clinical Psychology (BS Psychology, Year 3, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY ELEC 1 — Introduction to Clinical Psychology (BS Psychology, Year 3, 2nd Semester) [p:Subj_BSPsych_PSYELEC1]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY ELEC 1 — Introduction to Clinical Psychology (BS Psychology, Year 3, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for PSY ELEC 1 — Introduction to Clinical Psychology (BS Psychology, Year 3, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 48: ?course=PSY ELEC 2 — Psychology for Exceptional Children (BS Psychology, Year 3, 2nd Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY ELEC 2 — Psychology for Exceptional Children (BS Psychology, Year 3, 2nd Semester) [p:Subj_BSPsych_PSYELEC2]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY ELEC 2 — Psychology for Exceptional Children (BS Psychology, Year 3, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for PSY ELEC 2 — Psychology for Exceptional Children (BS Psychology, Year 3, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 49: ?course=PSY ELEC 3 — Group Dynamics (BS Psychology, Year 4, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY ELEC 3 — Group Dynamics (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSYELEC3]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY ELEC 3 — Group Dynamics (BS Psychology, Year 4, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY ELEC 3 — Group Dynamics (BS Psychology, Year 4, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 50: ?course=PSY ELEC 4 — Introduction to Counseling (BS Psychology, Year 4, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY ELEC 4 — Introduction to Counseling (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSYELEC4]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY ELEC 4 — Introduction to Counseling (BS Psychology, Year 4, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY ELEC 4 — Introduction to Counseling (BS Psychology, Year 4, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 51: ?course=PSY ELEC 5 — Seminar in Psychology: Recruitment and Selection (BS Psychology, Year 4, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY ELEC 5 — Seminar in Psychology: Recruitment and Selection (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSYELEC5]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY ELEC 5 — Seminar in Psychology: Recruitment and Selection (BS Psychology, Year 4, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY ELEC 5 — Seminar in Psychology: Recruitment and Selection (BS Psychology, Year 4, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 52: ?course=PSY ELEC 6 — Seminar on Psychological Assessment (BS Psychology, Year 4, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> PSY ELEC 6 — Seminar on Psychological Assessment (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSYELEC6]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of PSY ELEC 6 — Seminar on Psychological Assessment (BS Psychology, Year 4, 1st Semester): p:Subject\nSOURCE/QUALIFIER for PSY ELEC 6 — Seminar on Psychological Assessment (BS Psychology, Year 4, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?units\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?units=3\nGEC 101 — Understanding the Self (BSBA - Major in Marketing Management, Year 1, 1st Semester) [p:Subj_BSBA_MM_GEC101] --p:subjectCode--> \"GEC 101\"\nGEC 101 — Understanding the Self (BSBA - Major in Marketing Management, Year 1, 1st Semester) [p:Subj_BSBA_MM_GEC101] --p:subjectTitle--> \"Understanding the Self\"\nGEC 101 — Understanding the Self (BSBA - Major in Marketing Management, Year 1, 1st Semester) [p:Subj_BSBA_MM_GEC101] --p:units--> \"3\"\nGEC 101 — Understanding the Self (BSCS - Major in Intelligent Systems, Year 1, 1st Semester) [p:Subj_BSCS_IS_GEC101] --p:subjectCode--> \"GEC 101\"\nGEC 101 — Understanding the Self (BSCS - Major in Intelligent Systems, Year 1, 1st Semester) [p:Subj_BSCS_IS_GEC101] --p:subjectTitle--> \"Understanding the Self\"\nGEC 101 — Understanding the Self (BSCS - Major in Intelligent Systems, Year 1, 1st Semester) [p:Subj_BSCS_IS_GEC101] --p:units--> \"3\"\nGEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_GEC101] --p:subjectCode--> \"GEC 101\"\nGEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_GEC101] --p:subjectTitle--> \"Understanding the Self\"\nGEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_GEC101] --p:units--> \"3\"\nTYPE of GEC 101 — Understanding the Self (BSBA - Major in Marketing Management, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for GEC 101 — Understanding the Self (BSBA - Major in Marketing Management, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter).\nTYPE of GEC 101 — Understanding the Self (BSCS - Major in Intelligent Systems, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for GEC 101 — Understanding the Self (BSCS - Major in Intelligent Systems, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter).\nTYPE of GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 52; distinct values by variable = {\"?course\": 52}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?course=BC PSY 1 — Introduction to Psychology (BS Psychology, Year 1, 1st Semester)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasSubject--> BC PSY 1 — Introduction to Psychology (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_BCPSY1]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\nTYPE of BC PSY 1 — Introduction to Psychology (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for BC PSY 1 — Introduction to Psychology (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter).\n\nQUERY 1\nGRAPH RESULT 2: ?course=BC PSY 2 — Psychological Statistics (BS Psychology, Year 1, 2nd Semester)\nBac",
+    "answer_for_eval": "Based on the supplied evidence, **GEC 101 (Understanding the Self) is 3 units in BS Psychology**.\n\nThis is confirmed in QUERY 2, which shows:\n- GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester) has **3 units**\n\nThis is also corroborated by the source document (LSPU_SOURCE.txt), which lists:\n- GEC 101 — Understanding the Self | CAS | Year 1, Sem 1 | **Units: 3**",
+    "retrieval_query": "How many units is GEC 101 Understanding the Self in BS Psychology?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?subject",
+              "rdf:type",
+              "p:Program"
+            ],
+            [
+              "?subject",
+              "p:programName",
+              {
+                "literal": "Bachelor of Science in Psychology"
+              }
+            ],
+            [
+              "?subject",
+              "p:hasSubject",
+              "?course"
+            ]
+          ],
+          "select": [
+            "?course"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "?course",
+              "p:subjectCode",
+              {
+                "literal": "GEC 101"
+              }
+            ],
+            [
+              "?course",
+              "p:subjectTitle",
+              {
+                "literal": "Understanding the Self"
+              }
+            ],
+            [
+              "?course",
+              "p:units",
+              "?units"
+            ]
+          ],
+          "select": [
+            "?units"
+          ],
+          "filters": []
+        }
+      ],
+      "traversals": []
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 60,
+    "elapsed_seconds": 5.702999999979511
+  },
+  "answer": "Based on the supplied evidence, **GEC 101 (Understanding the Self) is 3 units in BS Psychology**.\n\nThis is confirmed in QUERY 2, which shows:\n- GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester) has **3 units**\n\nThis is also corroborated by the source document (LSPU_SOURCE.txt), which lists:\n- GEC 101 — Understanding the Self | CAS | Year 1, Sem 1 | **Units: 3**",
+  "pipeline_version": "oc-rag-3.0"
+}

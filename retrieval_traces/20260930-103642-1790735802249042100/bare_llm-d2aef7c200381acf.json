@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "Who may avail of the enrollment service?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The enrollment service is available to students who are eligible to enroll, typically including new and returning students who meet the requirements set by LSPU-LB.",
+    "retrieval_query": "Who may avail of the enrollment service?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.0630000000237487,
+    "selected_contexts": []
+  },
+  "answer": "The enrollment service is available to students who are eligible to enroll, typically including new and returning students who meet the requirements set by LSPU-LB.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

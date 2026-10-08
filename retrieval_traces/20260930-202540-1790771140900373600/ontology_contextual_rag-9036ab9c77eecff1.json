@@ -1,0 +1,72 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Is smoking a minor or a major offense?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_521",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_521\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Minor Offense\nHandbook) before the written suspension.\n Subsequent offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n\nSec. 5. Signboard Littering. Notices and provisions printed on signboards within the University premises shall be observed by every student. Students who remove or damage posted signs and notices shall be dealt with accordingly or as the administration may decide.\n 1st Offense: Suspension for three (3) days and restoration of damaged signs/notices with community services\n 2nd Offense: Suspension for one (1) week and restoration of damaged signs/notices and 40 hours service to be rendered in the institution\n 3rd Offense: Subsequent offense: Suspension for one (1) month or one (1) semester and restoration of damaged signs/notices\n\nSec. 6. Smoking. Smoking within the University premises is strictly prohibited to all students.\n 1st Offense: Reprimand with community service\n 2nd Offense: Promissory note duly signed by the Guidance Counselor/Student Discipline Coordinator and two (2) days community service\n 3rd Offense: Subsequent offense: Suspension for two (2) weeks\n\nSec. 7. Trespassing.",
+        "score": 0.06504494976203068
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_508",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_508\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 2. Major Offense. A student shall be subjected to disciplinary action ranging from deprivation of certain students’ privileges, suspension and expulsion if he commits serious deviations from the expected norm of behavior as an LSPU student. The following acts are strictly prohibited.\nwithin the University premises any firearm/s, knife with a blade longer than 2- 1/2 inches, ice pick, explosive/s or any other dangerous or deadly weapon/s is a major offense. However, this provision shall not apply to anyone who possesses bolo/s and other monitored tools in connection with his/her studies or field of activities. Case of unauthorized possession of firearms shall be reported to Safety and Security Management Office.\n 1st Offense: Suspension for one (1) semester\n 2nd Offense: Suspension for one (1) year\n 3rd Offense: Expulsion from the University\n\nSec. 5. Bullying (RA 10627 or the Anti-Bullying Act of 2013)\n\n5.1. Any severe or repeated use of written or verbal expression, physical act or gesture, or a combination thereof that is directed against another student, causing or placing the latter in reasonable fear of physical or emotional harm or damage to his/her property.\n 1st Offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n 2nd Offense: Suspension for one (1) month\n 3rd Offense: Suspension for one (1) semester\n\n5.2.",
+        "score": 0.06349206349206349
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_Smoking_1\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_1 [h:Tier_Smoking_1]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_Smoking_2\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_2 [h:Tier_Smoking_2]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_Smoking_3\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_3 [h:Tier_Smoking_3]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_3: h:SanctionTier"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_Smoking_1\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_1 [h:Tier_Smoking_1]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_1: h:SanctionTier\n\nQUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_Smoking_2\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_2 [h:Tier_Smoking_2]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_2: h:SanctionTier\n\nQUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_Smoking_3\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_3 [h:Tier_Smoking_3]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_3: h:SanctionTier\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_521\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Minor Offense\nHandbook) before the written suspension.\n Subsequent offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n\nSec. 5. Signboard Littering. Notices and provisions printed on signboards within the Unive",
+    "answer_for_eval": "Smoking is classified as a minor offense.",
+    "retrieval_query": "Is smoking considered a minor or a major offense?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Smoking",
+              "h:hasSanctionTier",
+              "?tier"
+            ]
+          ],
+          "select": [
+            "?tier"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 5,
+    "elapsed_seconds": 5.328000000037719,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_Smoking_1\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_1 [h:Tier_Smoking_1]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_1: h:SanctionTier",
+      "QUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_Smoking_2\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_2 [h:Tier_Smoking_2]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_2: h:SanctionTier",
+      "QUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_Smoking_3\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_3 [h:Tier_Smoking_3]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_3: h:SanctionTier",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_521\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Minor Offense\nHandbook) before the written suspension.\n Subsequent offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n\nSec. 5. Signboard Littering. Notices and provisions printed on signboards within the University premises shall be observed by every student. Students who remove or damage posted signs and notices shall be dealt with accordingly or as the administration may decide.\n 1st Offense: Suspension for three (3) days and restoration of damaged signs/notices with community services\n 2nd Offense: Suspension for one (1) week and restoration of damaged signs/notices and 40 hours service to be rendered in the institution\n 3rd Offense: Subsequent offense: Suspension for one (1) month or one (1) semester and restoration of damaged signs/notices\n\nSec. 6. Smoking. Smoking within the University premises is strictly prohibited to all students.\n 1st Offense: Reprimand with community service\n 2nd Offense: Promissory note duly signed by the Guidance Counselor/Student Discipline Coordinator and two (2) days community service\n 3rd Offense: Subsequent offense: Suspension for two (2) weeks\n\nSec. 7. Trespassing.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_508\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 2. Major Offense. A student shall be subjected to disciplinary action ranging from deprivation of certain students’ privileges, suspension and expulsion if he commits serious deviations from the expected norm of behavior as an LSPU student. The following acts are strictly prohibited.\nwithin the University premises any firearm/s, knife with a blade longer than 2- 1/2 inches, ice pick, explosive/s or any other dangerous or deadly weapon/s is a major offense. However, this provision shall not apply to anyone who possesses bolo/s and other monitored tools in connection with his/her studies or field of activities. Case of unauthorized possession of firearms shall be reported to Safety and Security Management Office.\n 1st Offense: Suspension for one (1) semester\n 2nd Offense: Suspension for one (1) year\n 3rd Offense: Expulsion from the University\n\nSec. 5. Bullying (RA 10627 or the Anti-Bullying Act of 2013)\n\n5.1. Any severe or repeated use of written or verbal expression, physical act or gesture, or a combination thereof that is directed against another student, causing or placing the latter in reasonable fear of physical or emotional harm or damage to his/her property.\n 1st Offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n 2nd Offense: Suspension for one (1) month\n 3rd Offense: Suspension for one (1) semester\n\n5.2."
+    ]
+  },
+  "answer": "Smoking is classified as a minor offense.",
+  "pipeline_version": "oc-rag-3.5-grounded-evidence"
+}

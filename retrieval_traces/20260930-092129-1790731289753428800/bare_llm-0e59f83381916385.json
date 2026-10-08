@@ -1,0 +1,18 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What academic statuses can a student be placed under?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The specific academic statuses a student can be placed under are not provided in the evidence.",
+    "retrieval_query": "What academic statuses can a student be placed under?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.9849999999860302
+  },
+  "answer": "The specific academic statuses a student can be placed under are not provided in the evidence.",
+  "pipeline_version": "oc-rag-3.0"
+}

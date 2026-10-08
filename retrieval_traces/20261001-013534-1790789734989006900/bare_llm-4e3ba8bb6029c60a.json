@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "Which programs does the College of Hospitality Management and Tourism offer, and what GWA does each require?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The College of Hospitality Management and Tourism offers programs such as Bachelor of Science in Hospitality Management and Bachelor of Science in Tourism Management. The required General Weighted Average (GWA) for admission or retention may vary; typically, a GWA of 2.5 or better is expected, but specific requirements should be confirmed with the college.",
+    "retrieval_query": "Which programs does the College of Hospitality Management and Tourism offer, and what GWA does each require?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.9379999999655411,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.9379999999655411,
+    "selected_contexts": []
+  },
+  "answer": "The College of Hospitality Management and Tourism offers programs such as Bachelor of Science in Hospitality Management and Bachelor of Science in Tourism Management. The required General Weighted Average (GWA) for admission or retention may vary; typically, a GWA of 2.5 or better is expected, but specific requirements should be confirmed with the college.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

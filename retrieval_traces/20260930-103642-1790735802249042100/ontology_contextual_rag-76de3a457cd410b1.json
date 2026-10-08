@@ -1,0 +1,132 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which programs lead to a board or licensure exam?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_62",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_62\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBoard programs (graduates may sit a PRC licensure examination):\n- Bachelor of Science in Psychology: Psychometrician Licensure Examination\n- Bachelor of Science in Accountancy: CPA (Certified Public Accountant) Licensure Examination\n- Bachelor of Science in Criminology: Criminologist Licensure Examination\n- Bachelor of Science in Fisheries: Fisheries Professional Licensure Examination\n- Bachelor of Science in Food Technology: Food Technologist Licensure Examination\n- Bachelor of Science in Nutrition and Dietetics: Nutritionist-Dietitian Licensure Examination\n- Bachelor of Technology and Livelihood Education - Major in Home Economics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Physical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)",
+        "score": 0.032266458495966696
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_63",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_63\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nPhysical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Filipino: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Mathematics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Sciences: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Social Studies: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Elementary Education: Licensure Examination for Teachers (Elementary Level)\n\nNon-board programs (no PRC licensure examination):\n- Bachelor of Science in Computer Science - Major in Intelligent Systems\n- Bachelor of Science in Business Administration - Major in Marketing Management\n- Bachelor of Science in Business Administration - Major in Financial Management\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development",
+        "score": 0.031754032258064516
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_836",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_836\nSECTION: PRC LICENSURE EXAMINATION NAMES: FISHERIES AND FOOD TECHNOLOGY (NAME VARIANTS)\nAct), PRC uses the plural \"Food Technologists Licensure Examination\", and 2026 PRC announcements call it the \"Professional Food Technologists Computer-Based Licensure Examination\". Other names for the same exam: Food Technologist Licensure Examination, Professional Food Technologists Licensure Examination, and \"Food Tech board exam\".",
+        "score": 0.031754032258064516
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_64",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_64\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nof Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\n- Bachelor of Science in Information Technology - Major in Service Management Program\n- Bachelor of Science in Tourism Management\n- Bachelor of Science in Hospitality Management",
+        "score": 0.03057889822595705
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_835",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_835\nSECTION: PRC LICENSURE EXAMINATION NAMES: FISHERIES AND FOOD TECHNOLOGY (NAME VARIANTS)\nPRC LICENSURE EXAMINATION NAMES: FISHERIES AND FOOD TECHNOLOGY (NAME VARIANTS)\nSource: checked by the maintainer against RA 11398, RA 11052 and PRC announcements (general public information, not an LSPU document). The Pillar 1 program blocks above use \"Fisheries Professional Licensure Examination\" and \"Food Technologist Licensure Examination\".\nBS Fisheries: the official current name is the Fisheries Professional Licensure Examination, under RA 11398 (Philippine Fisheries Profession Act, 2019), which speaks of the licensure examination for fisheries professionals. The earlier law (RA 8550 / PRC Res. 2000-664) called the practitioners fisheries technologists, and PRC web pages still list the board type as Fisheries Technologists. Other names for the same exam: Fisheries Technologist Licensure Examination, Fisheries Technologists Licensure Examination, Fisheries Professionals Licensure Examination, and \"Fisheries board exam\".\nBS Food Technology: under RA 11052 (Philippine Food Technology Act), PRC uses the plural \"Food Technologists Licensure Examination\", and 2026 PRC announcements call it the \"Professional Food Technologists Computer-Based Licensure Examination\".",
+        "score": 0.02889344262295082
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Grading Sheet\nh:definition: Secured from: Faculty.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Grading Sheet"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Admission Examination\nh:definition: Applicants must pass the Admission Test and University Qualifying Examination administered by the Guidance Office, and complete an interview.\nh:providedBy -> Guidance Office [h:GuidanceOffice]\nh:sourceArticle: Chapter 3, Article 2, Sec. 2.4\nrdf:type -> University Admission Requirement (Handbook) [h:AdmissionRequirement]\nrdfs:label: Admission Examination"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Evaluated Grades/Report of Grades\nh:definition: Secured from: Registrar's Office.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Evaluated Grades/Report of Grades"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Auditing\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Auditing\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Auditing"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:isGeneralInformation: true\np:jobOutcomeDescription: Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\np:jobOutcomeName: Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:provenanceNote: General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:requiresSkill -> Psychological Assessment [p:Skill_PsychAssessment]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Clinical Psychology Track (Psychometrician / further studies toward licensure)"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_62\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBoard programs (graduates may sit a PRC licensure examination):\n- Bachelor of Science in Psychology: Psychometrician Licensure Examination\n- Bachelor of Science in Accountancy: CPA (Certified Public Accountant) Licensure Examination\n- Bachelor of Science in Criminology: Criminologist Licensure Examination\n- Bachelor of Science in Fisheries: Fisheries Professional Licensure Examination\n- Bachelor of Science in Food Technology: Food Technologist Licensure Examination\n- Bachelor of Science in Nutrition and Dietetics: Nutritionist-Dietitian Licensure Examination\n- Bachelor of Technology and Livelihood Education - Major in Home Economics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Physical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers ",
+    "answer_for_eval": "The programs that lead to a board or licensure exam are:\n\n1. Bachelor of Science in Psychology: Psychometrician Licensure Examination\n2. Bachelor of Science in Accountancy: CPA (Certified Public Accountant) Licensure Examination\n3. Bachelor of Science in Criminology: Criminologist Licensure Examination\n4. Bachelor of Science in Fisheries: Fisheries Professional Licensure Examination\n5. Bachelor of Science in Food Technology: Food Technologist Licensure Examination\n6. Bachelor of Science in Nutrition and Dietetics: Nutritionist-Dietitian Licensure Examination\n7. Bachelor of Technology and Livelihood Education - Major in Home Economics: Licensure Examination for Teachers (Secondary Level)\n8. Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: Licensure Examination for Teachers (Secondary Level)\n9. Bachelor of Physical Education: Licensure Examination for Teachers (Secondary Level)\n10. Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)\n11. Bachelor of Secondary Education - Major in Filipino: Licensure Examination for Teachers (Secondary Level)\n12. Bachelor of Secondary Education - Major in Mathematics: Licensure Examination for Teachers (Secondary Level)\n13. Bachelor of Secondary Education - Major in Sciences: Licensure Examination for Teachers (Secondary Level)\n14. Bachelor of Secondary Education - Major in Social Studies: Licensure Examination for Teachers (Secondary Level)\n15. Bachelor of Elementary Education: Licensure Examination for Teachers (Elementary Level)",
+    "retrieval_query": "Which programs lead to a board or licensure exam?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?program",
+              "p:licensureExamination",
+              "?exam"
+            ],
+            [
+              "?program",
+              "p:hasProgramObjective",
+              "?objective"
+            ],
+            [
+              "?objective",
+              "p:provenanceNote",
+              "?note"
+            ]
+          ],
+          "select": [
+            "?program"
+          ],
+          "filters": [
+            {
+              "var": "?exam",
+              "op": "contains",
+              "value": {
+                "literal": "board"
+              }
+            },
+            {
+              "var": "?exam",
+              "op": "contains",
+              "value": {
+                "literal": "licensure"
+              }
+            }
+          ]
+        }
+      ],
+      "traversals": []
+    },
+    "retrieval_errors": [
+      "Invalid filter value",
+      "Invalid filter value"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 2.0939999999827705,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_62\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBoard programs (graduates may sit a PRC licensure examination):\n- Bachelor of Science in Psychology: Psychometrician Licensure Examination\n- Bachelor of Science in Accountancy: CPA (Certified Public Accountant) Licensure Examination\n- Bachelor of Science in Criminology: Criminologist Licensure Examination\n- Bachelor of Science in Fisheries: Fisheries Professional Licensure Examination\n- Bachelor of Science in Food Technology: Food Technologist Licensure Examination\n- Bachelor of Science in Nutrition and Dietetics: Nutritionist-Dietitian Licensure Examination\n- Bachelor of Technology and Livelihood Education - Major in Home Economics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Physical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_63\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nPhysical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Filipino: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Mathematics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Sciences: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Social Studies: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Elementary Education: Licensure Examination for Teachers (Elementary Level)\n\nNon-board programs (no PRC licensure examination):\n- Bachelor of Science in Computer Science - Major in Intelligent Systems\n- Bachelor of Science in Business Administration - Major in Marketing Management\n- Bachelor of Science in Business Administration - Major in Financial Management\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_836\nSECTION: PRC LICENSURE EXAMINATION NAMES: FISHERIES AND FOOD TECHNOLOGY (NAME VARIANTS)\nAct), PRC uses the plural \"Food Technologists Licensure Examination\", and 2026 PRC announcements call it the \"Professional Food Technologists Computer-Based Licensure Examination\". Other names for the same exam: Food Technologist Licensure Examination, Professional Food Technologists Licensure Examination, and \"Food Tech board exam\".",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_64\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nof Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\n- Bachelor of Science in Information Technology - Major in Service Management Program\n- Bachelor of Science in Tourism Management\n- Bachelor of Science in Hospitality Management",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_835\nSECTION: PRC LICENSURE EXAMINATION NAMES: FISHERIES AND FOOD TECHNOLOGY (NAME VARIANTS)\nPRC LICENSURE EXAMINATION NAMES: FISHERIES AND FOOD TECHNOLOGY (NAME VARIANTS)\nSource: checked by the maintainer against RA 11398, RA 11052 and PRC announcements (general public information, not an LSPU document). The Pillar 1 program blocks above use \"Fisheries Professional Licensure Examination\" and \"Food Technologist Licensure Examination\".\nBS Fisheries: the official current name is the Fisheries Professional Licensure Examination, under RA 11398 (Philippine Fisheries Profession Act, 2019), which speaks of the licensure examination for fisheries professionals. The earlier law (RA 8550 / PRC Res. 2000-664) called the practitioners fisheries technologists, and PRC web pages still list the board type as Fisheries Technologists. Other names for the same exam: Fisheries Technologist Licensure Examination, Fisheries Technologists Licensure Examination, Fisheries Professionals Licensure Examination, and \"Fisheries board exam\".\nBS Food Technology: under RA 11052 (Philippine Food Technology Act), PRC uses the plural \"Food Technologists Licensure Examination\", and 2026 PRC announcements call it the \"Professional Food Technologists Computer-Based Licensure Examination\".",
+      "APPROXIMATE MATCH (not an exhaustive result): Grading Sheet\nh:definition: Secured from: Faculty.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Grading Sheet",
+      "APPROXIMATE MATCH (not an exhaustive result): Admission Examination\nh:definition: Applicants must pass the Admission Test and University Qualifying Examination administered by the Guidance Office, and complete an interview.\nh:providedBy -> Guidance Office [h:GuidanceOffice]\nh:sourceArticle: Chapter 3, Article 2, Sec. 2.4\nrdf:type -> University Admission Requirement (Handbook) [h:AdmissionRequirement]\nrdfs:label: Admission Examination",
+      "APPROXIMATE MATCH (not an exhaustive result): Evaluated Grades/Report of Grades\nh:definition: Secured from: Registrar's Office.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Evaluated Grades/Report of Grades",
+      "APPROXIMATE MATCH (not an exhaustive result): Auditing\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Auditing\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Auditing",
+      "APPROXIMATE MATCH (not an exhaustive result): Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:isGeneralInformation: true\np:jobOutcomeDescription: Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\np:jobOutcomeName: Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:provenanceNote: General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:requiresSkill -> Psychological Assessment [p:Skill_PsychAssessment]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Clinical Psychology Track (Psychometrician / further studies toward licensure)"
+    ]
+  },
+  "answer": "The programs that lead to a board or licensure exam are:\n\n1. Bachelor of Science in Psychology: Psychometrician Licensure Examination\n2. Bachelor of Science in Accountancy: CPA (Certified Public Accountant) Licensure Examination\n3. Bachelor of Science in Criminology: Criminologist Licensure Examination\n4. Bachelor of Science in Fisheries: Fisheries Professional Licensure Examination\n5. Bachelor of Science in Food Technology: Food Technologist Licensure Examination\n6. Bachelor of Science in Nutrition and Dietetics: Nutritionist-Dietitian Licensure Examination\n7. Bachelor of Technology and Livelihood Education - Major in Home Economics: Licensure Examination for Teachers (Secondary Level)\n8. Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: Licensure Examination for Teachers (Secondary Level)\n9. Bachelor of Physical Education: Licensure Examination for Teachers (Secondary Level)\n10. Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)\n11. Bachelor of Secondary Education - Major in Filipino: Licensure Examination for Teachers (Secondary Level)\n12. Bachelor of Secondary Education - Major in Mathematics: Licensure Examination for Teachers (Secondary Level)\n13. Bachelor of Secondary Education - Major in Sciences: Licensure Examination for Teachers (Secondary Level)\n14. Bachelor of Secondary Education - Major in Social Studies: Licensure Examination for Teachers (Secondary Level)\n15. Bachelor of Elementary Education: Licensure Examination for Teachers (Elementary Level)",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

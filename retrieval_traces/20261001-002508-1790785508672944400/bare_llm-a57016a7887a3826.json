@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "how to enroll in lspu-lb?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "To enroll at LSPU-LB, visit their official website or contact their admissions office for specific enrollment procedures, requirements, and deadlines. Typically, you need to submit necessary documents such as a completed application form, academic records, and other requirements as specified by the university.",
+    "retrieval_query": "how to enroll in lspu-lb?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 2.51500000001397,
+    "retrieval_seconds": 0.015000000013969839,
+    "generation_seconds": 2.5,
+    "selected_contexts": []
+  },
+  "answer": "To enroll at LSPU-LB, visit their official website or contact their admissions office for specific enrollment procedures, requirements, and deadlines. Typically, you need to submit necessary documents such as a completed application form, academic records, and other requirements as specified by the university.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

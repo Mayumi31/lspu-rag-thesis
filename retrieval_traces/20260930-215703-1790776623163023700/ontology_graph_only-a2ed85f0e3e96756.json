@@ -1,0 +1,109 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What documents must transferee applicants submit?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Student transferee admission documents (LSPU website list)\nh:appliesToStudentType -> Student Transferee [h:StudentType_Transferee]\nh:audience: Transferees\nh:eligibilityCriteria: Transfer credential or honorable dismissal from the school last attended; transcript of records or a copy of academic records for evaluation; physical and medical examination certified by a government physician; certificate of good moral character from the school last attended; three latest 2x2 pictures; photocopy of authenticated birth certificate (NSO).\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Student Transferees)\nh:verificationNote: Older website wording; see the note on lspu:AdmReq_FreshmanDocuments. The Charter's enrollment list for transferees also asks for an original certificate of transfer and TOR or copy of grades.\nh:verificationNote: Website list is older wording (NSO, government physician). Prefer the Charter list for enrollment day. No rule about a minimum number of units was supplied for transferees from schools outside LSPU.\nrdf:type -> University Admission Requirement (Handbook) [h:AdmissionRequirement]\nrdfs:label: Student transferee admission documents (LSPU website list)\nrdfs:seeAlso -> Enrollment [a:Serv_Enrollment]\nrdfs:seeAlso -> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nrdfs:seeAlso -> Transfer from another LSPU campus (within the LSPU System) [h:Policy_TransferFromLSPUCampus]"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Transcript of Records/Copy of Grades for evaluation purposes (transferees only)\nh:definition: Secured from the school previously attended/graduated from.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Transcript of Records/Copy of Grades for evaluation purposes (transferees only)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Updated/Modified Constitution and By-Laws\nh:definition: Supplied by the applicant.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Updated/Modified Constitution and By-Laws"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Transferring to Another College/Program Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:definition: Students intending to transfer to another college must satisfy grade requirements of the target college. The prescribed transfer form must state a valid reason, with an attached copy of grades and a recommendation letter from the previous Dean (CC to Registrar). Approval from the College Dean and Registrar must be obtained before 12% of regular class meetings have been held. The student must complete at least 60% of program units at LSPU (75% if running for honors).\nh:sourceArticle: Chapter 3, Article 2, Sec. 2.9\nrdf:type -> Policy [h:Policy]\nrdfs:label: Transferring to Another College/Program Policy"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Student Transferee\nh:definition: A student coming from another school or another LSPU campus. Needs honorable dismissal or transfer credential, a transcript of records for evaluation, and must pass the entrance examination and interview.\nh:mustSatisfy -> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nh:mustSatisfy -> Student transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments]\nrdf:type -> Student Type [h:StudentType]\nrdfs:label: Student Transferee"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Student transferee admission documents (LSPU website list)\nh:appliesToStudentType -> Student Transferee [h:StudentType_Transferee]\nh:audience: Transferees\nh:eligibilityCriteria: Transfer credential or honorable dismissal from the school last attended; transcript of records or a copy of academic records for evaluation; physical and medical examination certified by a government physician; certificate of good moral character from the school last attended; three latest 2x2 pictures; photocopy of authenticated birth certificate (NSO).\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Student Transferees)\nh:verificationNote: Older website wording; see the note on lspu:AdmReq_FreshmanDocuments. The Charter's enrollment list for transferees also asks for an original certificate of transfer and TOR or copy of grades.\nh:verificationNote: Website list is older wording (NSO, government physician). Prefer the Charter list for enrollment day. No rule about a minimum number of units was supplied for transferees from schoo",
+    "answer_for_eval": "Transferee applicants must submit the following documents:\n1. Transfer credential or honorable dismissal from the school last attended\n2. Transcript of records or a copy of academic records for evaluation\n3. Physical and medical examination certified by a government physician\n4. Certificate of good moral character from the school last attended\n5. Three latest 2x2 pictures\n6. Photocopy of authenticated birth certificate (NSO)\n7. Updated/Modified Constitution and By-Laws",
+    "retrieval_query": "What documents must transferee applicants submit?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:AdmReq_TransfereeDocuments",
+              "h:appliesToStudentType",
+              "h:StudentType_Transferee"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "a:Doc_TORForEvaluation",
+              "h:definition",
+              "?definition"
+            ]
+          ],
+          "select": [
+            "?definition"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "a:Doc_Form138newstudentTORtransfereeprintedandsoftcopy",
+              "h:definition",
+              "?definition"
+            ]
+          ],
+          "select": [
+            "?definition"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "a:Doc_CertificateOfTransfer",
+              "h:definition",
+              "?definition"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: a:AdmReq_TransfereeDocuments",
+      "Unresolved entity or class: a:AdmReq_TransfereeDocuments"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 15.98399999999674,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Student transferee admission documents (LSPU website list)\nh:appliesToStudentType -> Student Transferee [h:StudentType_Transferee]\nh:audience: Transferees\nh:eligibilityCriteria: Transfer credential or honorable dismissal from the school last attended; transcript of records or a copy of academic records for evaluation; physical and medical examination certified by a government physician; certificate of good moral character from the school last attended; three latest 2x2 pictures; photocopy of authenticated birth certificate (NSO).\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Student Transferees)\nh:verificationNote: Older website wording; see the note on lspu:AdmReq_FreshmanDocuments. The Charter's enrollment list for transferees also asks for an original certificate of transfer and TOR or copy of grades.\nh:verificationNote: Website list is older wording (NSO, government physician). Prefer the Charter list for enrollment day. No rule about a minimum number of units was supplied for transferees from schools outside LSPU.\nrdf:type -> University Admission Requirement (Handbook) [h:AdmissionRequirement]\nrdfs:label: Student transferee admission documents (LSPU website list)\nrdfs:seeAlso -> Enrollment [a:Serv_Enrollment]\nrdfs:seeAlso -> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nrdfs:seeAlso -> Transfer from another LSPU campus (within the LSPU System) [h:Policy_TransferFromLSPUCampus]",
+      "APPROXIMATE MATCH (not an exhaustive result): Transcript of Records/Copy of Grades for evaluation purposes (transferees only)\nh:definition: Secured from the school previously attended/graduated from.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Transcript of Records/Copy of Grades for evaluation purposes (transferees only)",
+      "APPROXIMATE MATCH (not an exhaustive result): Updated/Modified Constitution and By-Laws\nh:definition: Supplied by the applicant.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Updated/Modified Constitution and By-Laws",
+      "APPROXIMATE MATCH (not an exhaustive result): Transferring to Another College/Program Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:definition: Students intending to transfer to another college must satisfy grade requirements of the target college. The prescribed transfer form must state a valid reason, with an attached copy of grades and a recommendation letter from the previous Dean (CC to Registrar). Approval from the College Dean and Registrar must be obtained before 12% of regular class meetings have been held. The student must complete at least 60% of program units at LSPU (75% if running for honors).\nh:sourceArticle: Chapter 3, Article 2, Sec. 2.9\nrdf:type -> Policy [h:Policy]\nrdfs:label: Transferring to Another College/Program Policy",
+      "APPROXIMATE MATCH (not an exhaustive result): Student Transferee\nh:definition: A student coming from another school or another LSPU campus. Needs honorable dismissal or transfer credential, a transcript of records for evaluation, and must pass the entrance examination and interview.\nh:mustSatisfy -> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nh:mustSatisfy -> Student transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments]\nrdf:type -> Student Type [h:StudentType]\nrdfs:label: Student Transferee"
+    ]
+  },
+  "answer": "Transferee applicants must submit the following documents:\n1. Transfer credential or honorable dismissal from the school last attended\n2. Transcript of records or a copy of academic records for evaluation\n3. Physical and medical examination certified by a government physician\n4. Certificate of good moral character from the school last attended\n5. Three latest 2x2 pictures\n6. Photocopy of authenticated birth certificate (NSO)\n7. Updated/Modified Constitution and By-Laws",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

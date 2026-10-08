@@ -1,0 +1,75 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What does OSAS handle?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Location of Office of Student Affairs and Services (OSAS) Building\nh:definition: From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there.\nh:housesOffice -> Guidance Office [h:GuidanceOffice]\nh:housesOffice -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:nearPlace -> Location of CBAA Building (College of Business Administration and Accountancy) [h:Loc_CBAA]\nh:nearPlace -> Location of Office of the University President [h:Loc_UniversityPresident]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: Office\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:label: Location of Office of Student Affairs and Services (OSAS) Building"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Office of Student Affairs and Services (OSAS)\nh:additionalInfo: Go to this office for: student organizations, ID validation, clearances, good moral certificates, excuse slips.\nh:administers -> School Uniform and Dress Code Policy [h:Policy_DressCode]\nh:administers -> Flag Ceremony Attendance Policy [h:Policy_FlagCeremonyAttendance]\nh:administers -> Clothing and Gender Representation Policy (LGBT/Gender Nonconforming Students) [h:Policy_GenderInclusiveDressCode]\nh:administers -> Hairstyle/Haircut Policy [h:Policy_HairstylePolicy]\nh:contactNote: Handles all complaints against alleged violators of the Code of Conduct; issues promissory notes, excuse-slip referrals, and coordinates the Student Discipline Coordinator.\nh:definition: Handles student organizations, discipline, ID validation, clearances, good moral certificates, and excuse slips.\nh:issues -> Excuse Slip [h:Doc_ExcuseSlip]\nh:issues -> Promissory Note [h:Doc_PromissoryNote]\nh:locatedAtPlace -> Location of Office of Student Affairs and Services (OSAS) Building [h:Loc_OSAS]\nh:receivesReportOf -> Non-wearing of I.D. and School Uniform [h:NonWearingIDUniform]\nh:receivesReportOf -> Other Acts Requiring Disciplinary/Corrective Action [h:OtherActsMajor]\nrdf:type -> Office [h:Office]\nrdfs:label: Office of Student Affairs and Services (OSAS)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 4: Evaluate the services rendered by OSAS\na:agencyAction: Issues/confirms fulfillment of evaluation.\na:hasFeeText: None\na:hasProcessingTime: 5 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 5: Issuance of Good Moral Certificate (Undergraduate), Step 4, p. 19\nh:nextStep -> Step 5: Accept the Good Moral Certificate; sign the logbook [a:GoodMoralUG_Step5]\nh:performedBy -> OSAS Director/Chairperson/Staff [a:Role_OSASDirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 4: Evaluate the services rendered by OSAS"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 2: Evaluate the services rendered by OSAS\na:agencyAction: Issues Evaluation Form.\na:clientAction: Evaluates the services rendered by OSAS.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 2: Signing of Semestral Clearances (Graduating Students), Step 2, p. 17\nh:nextStep -> Step 3: Accept the signed clearance [a:SemClearance_Step3]\nh:performedBy -> OSAS Director/Chairperson/Staff [a:Role_OSASDirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Evaluate the services rendered by OSAS"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 2: Evaluate the services rendered by OSAS\na:agencyAction: Issues Evaluation Form.\na:clientAction: Evaluates the services rendered by OSAS.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 1: Signing of General Clearances (Graduating Students), Step 2, p. 16\nh:nextStep -> Step 3: Accept the signed clearance [a:GenClearance_Step3]\nh:performedBy -> OSAS Director/Chairperson/Staff [a:Role_OSASDirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Evaluate the services rendered by OSAS"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Location of Office of Student Affairs and Services (OSAS) Building\nh:definition: From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there.\nh:housesOffice -> Guidance Office [h:GuidanceOffice]\nh:housesOffice -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:nearPlace -> Location of CBAA Building (College of Business Administration and Accountancy) [h:Loc_CBAA]\nh:nearPlace -> Location of Office of the University President [h:Loc_UniversityPresident]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: Office\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:label: Location of Office of Student Affairs and Services (OSAS) Building\n\nAPPROXIMATE MATCH (not an exhaus",
+    "answer_for_eval": "OSAS handles student organizations, discipline, ID validation, clearances, good moral certificates, and excuse slips.",
+    "retrieval_query": "What does OSAS handle?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?service",
+              "rdf:type",
+              "a:Service"
+            ],
+            [
+              "?service",
+              "a:hasCategory",
+              "a:ServiceCategory"
+            ]
+          ],
+          "select": [
+            "?service"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown predicate",
+      "Query 1 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 3.7660000000032596,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Location of Office of Student Affairs and Services (OSAS) Building\nh:definition: From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there.\nh:housesOffice -> Guidance Office [h:GuidanceOffice]\nh:housesOffice -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:nearPlace -> Location of CBAA Building (College of Business Administration and Accountancy) [h:Loc_CBAA]\nh:nearPlace -> Location of Office of the University President [h:Loc_UniversityPresident]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: Office\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:label: Location of Office of Student Affairs and Services (OSAS) Building",
+      "APPROXIMATE MATCH (not an exhaustive result): Office of Student Affairs and Services (OSAS)\nh:additionalInfo: Go to this office for: student organizations, ID validation, clearances, good moral certificates, excuse slips.\nh:administers -> School Uniform and Dress Code Policy [h:Policy_DressCode]\nh:administers -> Flag Ceremony Attendance Policy [h:Policy_FlagCeremonyAttendance]\nh:administers -> Clothing and Gender Representation Policy (LGBT/Gender Nonconforming Students) [h:Policy_GenderInclusiveDressCode]\nh:administers -> Hairstyle/Haircut Policy [h:Policy_HairstylePolicy]\nh:contactNote: Handles all complaints against alleged violators of the Code of Conduct; issues promissory notes, excuse-slip referrals, and coordinates the Student Discipline Coordinator.\nh:definition: Handles student organizations, discipline, ID validation, clearances, good moral certificates, and excuse slips.\nh:issues -> Excuse Slip [h:Doc_ExcuseSlip]\nh:issues -> Promissory Note [h:Doc_PromissoryNote]\nh:locatedAtPlace -> Location of Office of Student Affairs and Services (OSAS) Building [h:Loc_OSAS]\nh:receivesReportOf -> Non-wearing of I.D. and School Uniform [h:NonWearingIDUniform]\nh:receivesReportOf -> Other Acts Requiring Disciplinary/Corrective Action [h:OtherActsMajor]\nrdf:type -> Office [h:Office]\nrdfs:label: Office of Student Affairs and Services (OSAS)",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 4: Evaluate the services rendered by OSAS\na:agencyAction: Issues/confirms fulfillment of evaluation.\na:hasFeeText: None\na:hasProcessingTime: 5 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 5: Issuance of Good Moral Certificate (Undergraduate), Step 4, p. 19\nh:nextStep -> Step 5: Accept the Good Moral Certificate; sign the logbook [a:GoodMoralUG_Step5]\nh:performedBy -> OSAS Director/Chairperson/Staff [a:Role_OSASDirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 4: Evaluate the services rendered by OSAS",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 2: Evaluate the services rendered by OSAS\na:agencyAction: Issues Evaluation Form.\na:clientAction: Evaluates the services rendered by OSAS.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 2: Signing of Semestral Clearances (Graduating Students), Step 2, p. 17\nh:nextStep -> Step 3: Accept the signed clearance [a:SemClearance_Step3]\nh:performedBy -> OSAS Director/Chairperson/Staff [a:Role_OSASDirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Evaluate the services rendered by OSAS",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 2: Evaluate the services rendered by OSAS\na:agencyAction: Issues Evaluation Form.\na:clientAction: Evaluates the services rendered by OSAS.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 1: Signing of General Clearances (Graduating Students), Step 2, p. 16\nh:nextStep -> Step 3: Accept the signed clearance [a:GenClearance_Step3]\nh:performedBy -> OSAS Director/Chairperson/Staff [a:Role_OSASDirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Evaluate the services rendered by OSAS"
+    ]
+  },
+  "answer": "OSAS handles student organizations, discipline, ID validation, clearances, good moral certificates, and excuse slips.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

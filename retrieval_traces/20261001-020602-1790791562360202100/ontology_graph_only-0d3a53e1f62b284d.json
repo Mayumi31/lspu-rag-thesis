@@ -1,0 +1,81 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What haircut must male 2nd to 4th year college students follow?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Hairstyle/Haircut Policy\nh:administeredBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:audience: New students\nh:definition: Colored/tinted/dyed or out-of-the-ordinary styled hair, and funky short or fixie-crop hairstyles for male students, are prohibited unless minimal aesthetic coloring is approved by OSAS and the Campus Director. Male Freshmen/Senior High School students follow a 2x3 cut; 2nd-4th year college students follow a clean-cut/1x2 barber's cut, inspected monthly.\nh:sourceArticle: Chapter 6, Article 4, Sec. 2\nrdf:type -> Policy [h:Policy]\nrdfs:label: Hairstyle/Haircut Policy"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Clothing and Gender Representation Policy (LGBT/Gender Nonconforming Students)\nh:administeredBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:definition: Transgender students have the right to dress and groom in accordance with their gender identity within the constraints of the adopted dress code. Transwomen wear the male uniform (pants/polo) with female-cut blouses of the same color; transmen wear pants/polo in the female uniform color. Grooming rules apply the same standard to male and female units; transgender girls are not required to have a male haircut or masculine clothing, and transgender boys are not required to maintain a female hairstyle, wear make-up, or feminine clothing.\nh:sourceArticle: Chapter 6, Article 4, Sec. 6\nrdf:type -> Policy [h:Policy]\nrdfs:label: Clothing and Gender Representation Policy (LGBT/Gender Nonconforming Students)"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Hairstyle/Haircut Policy\nh:administeredBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:audience: New students\nh:definition: Colored/tinted/dyed or out-of-the-ordinary styled hair, and funky short or fixie-crop hairstyles for male students, are prohibited unless minimal aesthetic coloring is approved by OSAS and the Campus Director. Male Freshmen/Senior High School students follow a 2x3 cut; 2nd-4th year college students follow a clean-cut/1x2 barber's cut, inspected monthly.\nh:sourceArticle: Chapter 6, Article 4, Sec. 2\nrdf:type -> Policy [h:Policy]\nrdfs:label: Hairstyle/Haircut Policy\n\nAPPROXIMATE MATCH (not an exhaustive result): Clothing and Gender Representation Policy (LGBT/Gender Nonconforming Students)\nh:administeredBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:definition: Transgender students have the right to dress and groom in accordance with their gender identity within the constraints of the adopted dress code. Transwomen wear the male uniform (pants/polo) with female-cut blouses of the same color; transmen wear pants/polo in the female uniform color. Grooming rules apply the same standard to ",
+    "answer_for_eval": "Male 2nd to 4th year college students must follow a clean-cut/1x2 barber's cut, inspected monthly.",
+    "retrieval_query": "What haircut should male 2nd to 4th year college students follow?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Policy_HairstylePolicy",
+              "rdfs:label",
+              "?label"
+            ],
+            [
+              "h:Policy_HairstylePolicy",
+              "h:definition",
+              "?definition"
+            ],
+            [
+              "h:Policy_HairstylePolicy",
+              "h:sourceArticle",
+              "?source"
+            ]
+          ],
+          "select": [
+            "?label",
+            "?definition",
+            "?source"
+          ],
+          "filters": [
+            {
+              "var": "?label",
+              "op": "contains",
+              "value": {
+                "literal": "hairstyle"
+              }
+            },
+            {
+              "var": "?definition",
+              "op": "contains",
+              "value": {
+                "literal": "male students"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Invalid filter value",
+      "Invalid filter value"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 2,
+    "elapsed_seconds": 15.797000000020489,
+    "retrieval_seconds": 14.625,
+    "generation_seconds": 1.172000000020489,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Hairstyle/Haircut Policy\nh:administeredBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:audience: New students\nh:definition: Colored/tinted/dyed or out-of-the-ordinary styled hair, and funky short or fixie-crop hairstyles for male students, are prohibited unless minimal aesthetic coloring is approved by OSAS and the Campus Director. Male Freshmen/Senior High School students follow a 2x3 cut; 2nd-4th year college students follow a clean-cut/1x2 barber's cut, inspected monthly.\nh:sourceArticle: Chapter 6, Article 4, Sec. 2\nrdf:type -> Policy [h:Policy]\nrdfs:label: Hairstyle/Haircut Policy",
+      "APPROXIMATE MATCH (not an exhaustive result): Clothing and Gender Representation Policy (LGBT/Gender Nonconforming Students)\nh:administeredBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:definition: Transgender students have the right to dress and groom in accordance with their gender identity within the constraints of the adopted dress code. Transwomen wear the male uniform (pants/polo) with female-cut blouses of the same color; transmen wear pants/polo in the female uniform color. Grooming rules apply the same standard to male and female units; transgender girls are not required to have a male haircut or masculine clothing, and transgender boys are not required to maintain a female hairstyle, wear make-up, or feminine clothing.\nh:sourceArticle: Chapter 6, Article 4, Sec. 6\nrdf:type -> Policy [h:Policy]\nrdfs:label: Clothing and Gender Representation Policy (LGBT/Gender Nonconforming Students)"
+    ]
+  },
+  "answer": "Male 2nd to 4th year college students must follow a clean-cut/1x2 barber's cut, inspected monthly.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

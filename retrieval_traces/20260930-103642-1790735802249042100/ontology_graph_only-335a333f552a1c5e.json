@@ -1,0 +1,62 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "How much is an ID lace, and where is it sold?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?office=Business Affairs Office\nID lace (lanyard) [h:Price_IDLace] --h:soldAt--> Business Affairs Office [a:Office_BusinessAffairsOffice]\nTYPE of Business Affairs Office: h:Office\nSOURCE/QUALIFIER for Business Affairs Office: h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for Business Affairs Office: h:sourceArticle = Estimate computed by the ontology builder from the maintainer-supplied prices (2026-09); assumes one of each item\nSOURCE/QUALIFIER for Business Affairs Office: h:verificationNote = Prices reported in September 2026 and may change. Confirm whether the Php 500 PE price is per set.\nTYPE of ID lace (lanyard): h:CampusItemPrice\nSOURCE/QUALIFIER for ID lace (lanyard): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?price=130\nID lace (lanyard) [h:Price_IDLace] --h:priceMaxPHP--> \"130\"\nTYPE of ID lace (lanyard): h:CampusItemPrice\nSOURCE/QUALIFIER for ID lace (lanyard): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?office=Business Affairs Office\nID lace (lanyard) [h:Price_IDLace] --h:soldAt--> Business Affairs Office [a:Office_BusinessAffairsOffice]\nTYPE of Business Affairs Office: h:Office\nSOURCE/QUALIFIER for Business Affairs Office: h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for Business Affairs Office: h:sourceArticle = Estimate computed by the ontology builder from the maintainer-supplied prices (2026-09); assumes one of each item\nSOURCE/QUALIFIER for Business Affairs Office: h:verificationNote = Prices reported in September 2026 and may change. Confirm whether the Php 500 PE price is per set.\nTYPE of ID lace (lanyard): h:CampusItemPrice\nSOURCE/QUALIFIER for ID lace (lanyard): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\n\nQUERY 2\nGRAPH RESULT 1: ?price=130\nID lace (lanyard) [h:Price_IDLace] --h:priceMaxPHP--> \"130\"\nTYPE of ID lace (lanyard): h:CampusItemPrice\nSOURCE/QUALIFIER for ID lace (lanyard): h:sourceArticle = Campus informa",
+    "answer_for_eval": "The ID lace (lanyard) costs 130 PHP and is sold at the Business Affairs Office.",
+    "retrieval_query": "How much is an ID lanyard, and where is it sold?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Price_IDLace",
+              "h:soldAt",
+              "?office"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "h:Price_IDLace",
+              "h:priceMaxPHP",
+              "?price"
+            ]
+          ],
+          "select": [
+            "?price"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 2,
+    "elapsed_seconds": 6.327999999979511,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?office=Business Affairs Office\nID lace (lanyard) [h:Price_IDLace] --h:soldAt--> Business Affairs Office [a:Office_BusinessAffairsOffice]\nTYPE of Business Affairs Office: h:Office\nSOURCE/QUALIFIER for Business Affairs Office: h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for Business Affairs Office: h:sourceArticle = Estimate computed by the ontology builder from the maintainer-supplied prices (2026-09); assumes one of each item\nSOURCE/QUALIFIER for Business Affairs Office: h:verificationNote = Prices reported in September 2026 and may change. Confirm whether the Php 500 PE price is per set.\nTYPE of ID lace (lanyard): h:CampusItemPrice\nSOURCE/QUALIFIER for ID lace (lanyard): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter",
+      "QUERY 2\nGRAPH RESULT 1: ?price=130\nID lace (lanyard) [h:Price_IDLace] --h:priceMaxPHP--> \"130\"\nTYPE of ID lace (lanyard): h:CampusItemPrice\nSOURCE/QUALIFIER for ID lace (lanyard): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter"
+    ]
+  },
+  "answer": "The ID lace (lanyard) costs 130 PHP and is sold at the Business Affairs Office.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

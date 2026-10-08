@@ -1,0 +1,49 @@
+{
+  "trace": {
+    "mode": "basic_rag",
+    "query": "What academic statuses can a student be placed under?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_405",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_405\nSECTION: Chapter 3 | Article 1. Classifications of Students\nArticle 1. Classifications of Students\n\nSec. 1. Based on Admission\n\n1.1 New Student. A student who is enrolled in the university for the first time.\n\n1.2. Transferee Student. A student who had partly finished his/her course in other schools and satisfied the college's weighted average. All subjects taken shall be credited if compared with the university subjects.\n\n1.3. Cross-enrollee Student. A student currently enrolled in another campus/school is permitted to enroll in the university to earn credit units or vice versa.\n\n1.4. Foreign Student. A student whose citizenship is not Filipino who enrolls in any degree program of the university.\n\n1.5. Returnee Student. A student who is previously enrolled in the University and after having stopped without enrolling elsewhere or has valid leaves of absence for the period during which the student discontinued the studies and is not disqualified from continuing their university studies.\n\nSec. 2. Based on Curriculum Level\n\n2.1 Freshman. A student who has earned a total or fewer than twentyfive percent (25%) of the entire units required in the whole course.\n\n2.2 Sophomore.",
+        "score": 0.625225305557251
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_412",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_412\nSECTION: Chapter 3 | Article 2. Admission Requirements\nCriminology, Agriculture, Teacher Education, and other Board Programs\n\n2.6.2. eighty-two (82) and above – Hotel Restaurant Management, Tourism, and Industrial Technology\n\n2.6.3. For courses with board examination like teacher education, engineering, accountancy, nursing, criminology, among others, students shall not have a grade in their Form 138 below eighty-five (85), or otherwise specified by the College, at any of the following subjects: English, Science, and Mathematics.\n\n2.7. Pledge of Compliance. The student and the parent/guardian should sign the pledge that the student will abide/comply with all the university's rules and regulations. Refusal to take this pledge or violation of its term shall be sufficient for summary dismissal or denial of admission. (Appendix E)\n\n2.8. Certificate of Registration. No student should be admitted to classes unless the Certificate of Registration (COR) or a document certifying that the students are officially enrolled had been duly signed by the concerned authorities.\n\n2.9. Transferring. Those who intend to transfer to another College should satisfy its grade requirements.",
+        "score": 0.6089613437652588
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_430",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_430\nSECTION: Chapter 3 | Article 5. Retention Policies\nPercentage of failure: 100%\nNumber of units enrolled: (none)\nStatus: Permanent disqualification from the University\nAllowable load for the following semester: (none)\n\nSec. 8. Monitoring and Assessing of the Students’ Status\n\n8.1. Monitoring. To assure that the enrolment or status of the student is correct and aligned, the student who is primarily held responsible for his/her status of enrolment may make use of the following records:\n\n8.1.1. Copy of Grades (COG). The copy of the grade is issued at the end of the semester by the Office of the Registrar to the student where the grades for the course/subjects taken are indicated.\n\n8.1.1.1. Any concern on the student's standing is indicated in the COG, such as INC for completion and/or enrollment status such as warning, probation, dismissal, or disqualification.\n\n8.1.1.2. COG is used by the Dean of the College for the evaluation of the student during enrolment for updating of records.\n\n8.1.2. LSPU Portal. The student may also access his/her academic records or standing by logging into his/her account in the LSPU Portal (myaccount.lspu.edu.ph).",
+        "score": 0.6058608293533325
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_539",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_539\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 1. Rights of Students (Lifted from: Art. II. The Educational Community, Chapter 2. Rights, Section 9)\nArticle 1. Rights of Students (Lifted from: Art. II. The Educational Community, Chapter 2. Rights, Section 9)\n\nIn addition to other rights under existing laws, and subject to limitations prescribed by law and regulations, students shall enjoy the following rights:\n\na. The right to receive, primarily through competent instruction, relevant quality education in line with national goals and conducive to their full development as person with human dignity.\n\nb. The right to freely choose their field of study subject to the existing curricula and to continue their course therein up to graduation, except in cases of academic deficiency, or violation of disciplinary regulations\n\nc. The right to guidance and counseling services for making decisions and selecting the alternatives in fields of work suited to their potentialities.\n\nd. The right to access to their own academic records, the confidentiality of which the university shall maintain and preserve.\n\ne. The right to the issuance of official certificates, diplomas, transcript of records, grades, transfer credentials, and other similar documents within thirty days from request.\n\nf.",
+        "score": 0.6027066111564636
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_543",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_543\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 1. Academic Awards\nArticle 1. Academic Awards\n\nSec. 1. Description. This pertains to awards given to students who showed academic proficiency and excellence in their respective courses.\n\nSec. 2. Policies and Guidelines\n\n2.1. Students carrying normal academic load each semester (unless otherwise carrying of lighter load is justifiable like that of a working student but not less than 15 units each semester) who completed their courses with the following averages, computed on the basis of units, shall have graduated with honors, provided they meet all the requirements.\n\n2.3. Provided further that they must have completed in this university at least 75% of the total number of units or hours required for graduation and must have been in residence in this university at least two (2) years immediately prior to graduation.\n\n2.4. Students who completed a curriculum in the degree/non-degree courses with the grades computed in the basis of the number of units for each course will be granted with honors.\n\n2.5.",
+        "score": 0.602188229560852
+      }
+    ],
+    "graph_hits": [],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_405\nSECTION: Chapter 3 | Article 1. Classifications of Students\nArticle 1. Classifications of Students\n\nSec. 1. Based on Admission\n\n1.1 New Student. A student who is enrolled in the university for the first time.\n\n1.2. Transferee Student. A student who had partly finished his/her course in other schools and satisfied the college's weighted average. All subjects taken shall be credited if compared with the university subjects.\n\n1.3. Cross-enrollee Student. A student currently enrolled in another campus/school is permitted to enroll in the university to earn credit units or vice versa.\n\n1.4. Foreign Student. A student whose citizenship is not Filipino who enrolls in any degree program of the university.\n\n1.5. Returnee Student. A student who is previously enrolled in the University and after having stopped without enrolling elsewhere or has valid leaves of absence for the period during which the student discontinued the studies and is not disqualified from continuing their university studies.\n\nSec. 2. Based on Curriculum Level\n\n2.1 Freshman. A student who has earned a total or fewer than twentyfive percent (25%) of the entire units re",
+    "answer_for_eval": "A student can be placed under the following academic statuses:\n\n- New Student\n- Transferee Student\n- Cross-enrollee Student\n- Foreign Student\n- Returnee Student\n- Freshman\n- Sophomore\n- (Additional statuses such as warning, probation, dismissal, or disqualification are indicated in the Grade of Concern, but specific statuses are not explicitly listed in the evidence.)",
+    "retrieval_query": "What academic statuses can a student be placed under",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 5,
+    "elapsed_seconds": 1.6869999999762513
+  },
+  "answer": "A student can be placed under the following academic statuses:\n\n- New Student\n- Transferee Student\n- Cross-enrollee Student\n- Foreign Student\n- Returnee Student\n- Freshman\n- Sophomore\n- (Additional statuses such as warning, probation, dismissal, or disqualification are indicated in the Grade of Concern, but specific statuses are not explicitly listed in the evidence.)",
+  "pipeline_version": "oc-rag-3.0"
+}

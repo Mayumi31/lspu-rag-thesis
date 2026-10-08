@@ -1,0 +1,99 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Who sits on the Student Discipline Committee?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_537",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_537\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nof the Code of Conduct of LSPU Students and/or College Rules and Regulations.\n\nCases must be treated individually according to their merits and findings of investigations. They shall be reported to the University President who has the final say in all the cases.\n\nIn the pursuit of the preceding paragraph, every faculty member is authorized to enforce this Code of Conduct. A faculty member usually handles his own disciplinary problems, and more serious infractions.\n\nHowever, it must be reported to the OSAS through the Student Discipline Coordinator. Student leaders authorized by the administration are given equal responsibility in enforcing the Code of Conduct.\n\nSec. 4. Coverage. The provisions on Specific Misconduct and Miscellaneous Rules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction.",
+        "score": 0.06277056277056277
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_536",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_536\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nArticle 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\n\nSec. 1. Definition. Student discipline refers to the desired and/or expected norm of conduct of students, and the corresponding administrative sanctions thereof, as set forth in this duly approved and promulgated Code of Conduct of LSPU Students and /or College Rules and Regulations.\n\nSec. 2. Composition of Student Discipline Committee. The Student Discipline Committee shall be composed of the following:\n\n2.1. Chairman /Chairperson: Director/Chairperson for Student Affairs and Services\n\n2.2. Vice Chairman/Vice Chairperson: Student Discipline Coordinator\n\n2.3. Members: Vice President for Academic Affairs/Campus Director, Dean of College where the student is enrolled, Chief Security Officer ,President of Supreme Student Council\n\n2.4. University Legal Consultant\n\nSec. 3. Administration. The Office of the Student Affairs and Services\n\n(OSAS) shall handle all complaints against alleged violators of the Code of Conduct of LSPU Students and/or College Rules and Regulations.\n\nCases must be treated individually according to their merits and findings of investigations.",
+        "score": 0.06557377049180328
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?role=Chief Security Officer\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> Chief Security Officer [h:Role_ChiefSecurityOfficer]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of Chief Security Officer: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?role=College Dean\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> College Dean [h:Role_CollegeDean]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of College Dean: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?role=OSAS Director/Chairperson\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> OSAS Director/Chairperson [h:Role_OSASDirector]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of OSAS Director/Chairperson: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 4: ?role=President, Supreme Student Council\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> President, Supreme Student Council [h:Role_SSCPresident]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of President, Supreme Student Council: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 5: ?role=Student Discipline Coordinator\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> Student Discipline Coordinator [h:Role_StudentDisciplineCoordinator]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of Student Discipline Coordinator: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 6: ?role=University Legal Consultant\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> University Legal Consultant [h:Role_UniversityLegalConsultant]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of University Legal Consultant: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 7: ?role=Vice President for Academic Affairs / Campus Director\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> Vice President for Academic Affairs / Campus Director [h:Role_VPAA_CampusDirector]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of Vice President for Academic Affairs / Campus Director: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_537\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nof the Code of Conduct of LSPU Students and/or College Rules and Regulations.\n\nCases must be treated individually according to their merits and findings of investigations. They shall be reported to the University President who has the final say in all the cases.\n\nIn the pursuit of the preceding paragraph, every faculty member is authorized to enforce this Code of Conduct. A faculty member usually handles his own disciplinary problems, and more serious infractions.\n\nHowever, it must be reported to the OSAS through the Student Discipline Coordinator. Student leaders authorized by the administration are given equal responsibility in enforcing the Code of Conduct.\n\nSec. 4. Coverage. The provisions on Specific Misconduct and Miscellaneous Rules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction.\n\nQUERY 1\nGRAPH RESULT 1: ?role=Chief Secu",
+    "answer_for_eval": "The Student Discipline Committee is composed of the following members:\n1. Chairman/Chairperson: Director/Chairperson for Student Affairs and Services\n2. Vice Chairman/Vice Chairperson: Student Discipline Coordinator\n3. Members:\n   - Vice President for Academic Affairs/Campus Director\n   - Dean of College where the student is enrolled\n   - Chief Security Officer\n   - President of Supreme Student Council\n4. University Legal Consultant",
+    "retrieval_query": "Who is part of the Student Discipline Committee?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:StudentDisciplineCommittee",
+              "rdf:type",
+              "h:Committee"
+            ],
+            [
+              "h:StudentDisciplineCommittee",
+              "h:hasCommitteeRole",
+              "?role"
+            ]
+          ],
+          "select": [
+            "?role"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 9,
+    "elapsed_seconds": 4.14100000000326,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_537\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nof the Code of Conduct of LSPU Students and/or College Rules and Regulations.\n\nCases must be treated individually according to their merits and findings of investigations. They shall be reported to the University President who has the final say in all the cases.\n\nIn the pursuit of the preceding paragraph, every faculty member is authorized to enforce this Code of Conduct. A faculty member usually handles his own disciplinary problems, and more serious infractions.\n\nHowever, it must be reported to the OSAS through the Student Discipline Coordinator. Student leaders authorized by the administration are given equal responsibility in enforcing the Code of Conduct.\n\nSec. 4. Coverage. The provisions on Specific Misconduct and Miscellaneous Rules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction.",
+      "QUERY 1\nGRAPH RESULT 1: ?role=Chief Security Officer\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> Chief Security Officer [h:Role_ChiefSecurityOfficer]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of Chief Security Officer: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2",
+      "QUERY 1\nGRAPH RESULT 2: ?role=College Dean\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> College Dean [h:Role_CollegeDean]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of College Dean: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2",
+      "QUERY 1\nGRAPH RESULT 3: ?role=OSAS Director/Chairperson\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> OSAS Director/Chairperson [h:Role_OSASDirector]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of OSAS Director/Chairperson: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2",
+      "QUERY 1\nGRAPH RESULT 4: ?role=President, Supreme Student Council\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> President, Supreme Student Council [h:Role_SSCPresident]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of President, Supreme Student Council: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2",
+      "QUERY 1\nGRAPH RESULT 5: ?role=Student Discipline Coordinator\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> Student Discipline Coordinator [h:Role_StudentDisciplineCoordinator]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of Student Discipline Coordinator: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2",
+      "QUERY 1\nGRAPH RESULT 6: ?role=University Legal Consultant\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> University Legal Consultant [h:Role_UniversityLegalConsultant]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of University Legal Consultant: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2",
+      "QUERY 1\nGRAPH RESULT 7: ?role=Vice President for Academic Affairs / Campus Director\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:hasCommitteeRole--> Vice President for Academic Affairs / Campus Director [h:Role_VPAA_CampusDirector]\nStudent Discipline Committee [h:StudentDisciplineCommittee] --rdf:type--> Committee [h:Committee]\nTYPE of Committee: http://www.w3.org/2002/07/owl#Class\nTYPE of Vice President for Academic Affairs / Campus Director: h:UniversityRole\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_536\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nArticle 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\n\nSec. 1. Definition. Student discipline refers to the desired and/or expected norm of conduct of students, and the corresponding administrative sanctions thereof, as set forth in this duly approved and promulgated Code of Conduct of LSPU Students and /or College Rules and Regulations.\n\nSec. 2. Composition of Student Discipline Committee. The Student Discipline Committee shall be composed of the following:\n\n2.1. Chairman /Chairperson: Director/Chairperson for Student Affairs and Services\n\n2.2. Vice Chairman/Vice Chairperson: Student Discipline Coordinator\n\n2.3. Members: Vice President for Academic Affairs/Campus Director, Dean of College where the student is enrolled, Chief Security Officer ,President of Supreme Student Council\n\n2.4. University Legal Consultant\n\nSec. 3. Administration. The Office of the Student Affairs and Services\n\n(OSAS) shall handle all complaints against alleged violators of the Code of Conduct of LSPU Students and/or College Rules and Regulations.\n\nCases must be treated individually according to their merits and findings of investigations."
+    ]
+  },
+  "answer": "The Student Discipline Committee is composed of the following members:\n1. Chairman/Chairperson: Director/Chairperson for Student Affairs and Services\n2. Vice Chairman/Vice Chairperson: Student Discipline Coordinator\n3. Members:\n   - Vice President for Academic Affairs/Campus Director\n   - Dean of College where the student is enrolled\n   - Chief Security Officer\n   - President of Supreme Student Council\n4. University Legal Consultant",
+  "pipeline_version": "oc-rag-3.3-verified-build"
+}

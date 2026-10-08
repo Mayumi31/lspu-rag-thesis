@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What is the difference between a COR and a COG?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "A COR (Certificate of Registration) is a document issued to a licensed professional, confirming their registration to practice. A COG (Certificate of Good Standing) certifies that a professional is in good standing with their licensing body, indicating they have no pending violations or disciplinary actions.",
+    "retrieval_query": "What is the difference between a COR and a COG?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.1089999999967404,
+    "selected_contexts": []
+  },
+  "answer": "A COR (Certificate of Registration) is a document issued to a licensed professional, confirming their registration to practice. A COG (Certificate of Good Standing) certifies that a professional is in good standing with their licensing body, indicating they have no pending violations or disciplinary actions.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

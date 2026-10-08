@@ -1,0 +1,55 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Is smoking a minor or a major offense?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 3; distinct values by variable = {\"?tier\": 3}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_Smoking_1\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_1 [h:Tier_Smoking_1]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_Smoking_2\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_2 [h:Tier_Smoking_2]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_Smoking_3\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_3 [h:Tier_Smoking_3]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_3: h:SanctionTier"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 3; distinct values by variable = {\"?tier\": 3}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_Smoking_1\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_1 [h:Tier_Smoking_1]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_1: h:SanctionTier\n\nQUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_Smoking_2\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_2 [h:Tier_Smoking_2]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_2: h:SanctionTier\n\nQUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_Smoking_3\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_3 [h:Tier_Smoking_3]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_3: h:SanctionTier",
+    "answer_for_eval": "Smoking is classified as a minor offense.",
+    "retrieval_query": "Is smoking considered a minor or a major offense?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Smoking",
+              "h:hasSanctionTier",
+              "?tier"
+            ]
+          ],
+          "select": [
+            "?tier"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 4,
+    "elapsed_seconds": 1.6880000000237487
+  },
+  "answer": "Smoking is classified as a minor offense.",
+  "pipeline_version": "oc-rag-3.0"
+}

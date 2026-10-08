@@ -1,0 +1,56 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "How do I get to the Registrar's office from the main gate?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Location of Office of the Registrar\nh:definition: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nh:housesOffice -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:nearPlace -> Location of Administration Building and Campus Director's Office [h:Loc_AdminBuilding]\nh:nearPlace -> Location of Cashier and Accounting Office [h:Loc_CashierAccounting]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: Office\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:comment: Second floor of the Administration Building.\nrdfs:label: Location of Office of the Registrar"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Location of Campus Main Gate and Entrance\nh:definition: The campus entrance is the main gate. The Guard House is right beside the gate, on the left as you enter. Just inside the gate, the Hall (the open roofed space) is on your right. All directions in this ontology start from the main gate. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: The campus entrance is the main gate. The Guard House is right beside the gate, on the left as you enter. Just inside the gate, the Hall (the open roofed space) is on your right. All directions in this ontology start from the main gate.\nh:nearPlace -> Location of Guard House [h:Loc_GuardHouse]\nh:nearPlace -> Location of the Hall [h:Loc_Hall]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: Entrance\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:label: Location of Campus Main Gate and Entrance"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Location of Office of the Registrar\nh:definition: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nh:housesOffice -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:nearPlace -> Location of Administration Building and Campus Director's Office [h:Loc_AdminBuilding]\nh:nearPlace -> Location of Cashier and Accounting Office [h:Loc_CashierAccounting]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: Office\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:comment: Second floor of the Administration Building.\nrdfs:label: Location of Office of the Registrar\n\nAPPROXIMATE MATCH (not an exhaustive result): Location of Campus Main Gate and",
+    "answer_for_eval": "To get to the Registrar's Office from the main gate, follow these directions:\n1. From the main gate, turn left.\n2. Follow the road-side path to the Administration Building.\n3. Go up to the second floor of the Administration Building.\n4. The Registrar's Office is located on that floor.",
+    "retrieval_query": "How do I get to the Registrar's office from the main gate?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Loc_Registrar",
+              "h:directionsFromGate",
+              {
+                "literal": "From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor."
+              }
+            ]
+          ],
+          "select": [
+            "h:Loc_Registrar"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 2,
+    "elapsed_seconds": 10.312000000034459,
+    "retrieval_seconds": 8.875,
+    "generation_seconds": 1.437000000034459,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Location of Office of the Registrar\nh:definition: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nh:housesOffice -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:nearPlace -> Location of Administration Building and Campus Director's Office [h:Loc_AdminBuilding]\nh:nearPlace -> Location of Cashier and Accounting Office [h:Loc_CashierAccounting]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: Office\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:comment: Second floor of the Administration Building.\nrdfs:label: Location of Office of the Registrar",
+      "APPROXIMATE MATCH (not an exhaustive result): Location of Campus Main Gate and Entrance\nh:definition: The campus entrance is the main gate. The Guard House is right beside the gate, on the left as you enter. Just inside the gate, the Hall (the open roofed space) is on your right. All directions in this ontology start from the main gate. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: The campus entrance is the main gate. The Guard House is right beside the gate, on the left as you enter. Just inside the gate, the Hall (the open roofed space) is on your right. All directions in this ontology start from the main gate.\nh:nearPlace -> Location of Guard House [h:Loc_GuardHouse]\nh:nearPlace -> Location of the Hall [h:Loc_Hall]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: Entrance\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:label: Location of Campus Main Gate and Entrance"
+    ]
+  },
+  "answer": "To get to the Registrar's Office from the main gate, follow these directions:\n1. From the main gate, turn left.\n2. Follow the road-side path to the Administration Building.\n3. Go up to the second floor of the Administration Building.\n4. The Registrar's Office is located on that floor.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

@@ -1,0 +1,133 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which programs does the College of Hospitality Management and Tourism offer, and what GWA does each require?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_10",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_10\nSECTION: COLLEGE: College of Hospitality Management and Tourism (CIHT)\nCOLLEGE: College of Hospitality Management and Tourism (CIHT)\nThe College of Hospitality Management and Tourism at LSPU-LB offers the following degree programs:\n- Bachelor of Science in Tourism Management\n- Bachelor of Science in Hospitality Management",
+        "score": 0.03177805800756621
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_40",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_40\nSECTION: PROGRAM: Bachelor of Science in Hospitality Management | College: College of Hospitality Management and Tourism (CIHT) | Degree: Bachelor of Science in Hospitality Management (BSHM)\nPROGRAM: Bachelor of Science in Hospitality Management\nCollege: College of Hospitality Management and Tourism (CIHT)\nDegree: Bachelor of Science in Hospitality Management (BSHM)\nDuration: 4 years\n\nOverview: Covers hotel and lodging operations, food and beverage service, and front office management for the hospitality industry.\n\nSkills developed:\n- Hotel and Lodging Operations\n- Food and Beverage Service\n- Front Office Management\n\nCareer and job outcomes:\n- Hotel and Restaurant Operations Supervisor: Manages front office, housekeeping, or food and beverage operations in hotels, resorts, or restaurants.\n- Food and Beverage Service Supervisor: Supervises dining, catering, or banquet service operations in the hospitality industry.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 85.0\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 62, s. 2017 - Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM)\nProgram educational objectives (per this CMO):",
+        "score": 0.03177805800756621
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_38",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_38\nSECTION: PROGRAM: Bachelor of Science in Tourism Management | College: College of Hospitality Management and Tourism (CIHT) | Degree: Bachelor of Science in Tourism Management (BSTM)\nPROGRAM: Bachelor of Science in Tourism Management\nCollege: College of Hospitality Management and Tourism (CIHT)\nDegree: Bachelor of Science in Tourism Management (BSTM)\nDuration: 4 years\n\nOverview: Covers tour planning and operations, destination management and development, and tourism marketing.\n\nSkills developed:\n- Tour Planning and Operations\n- Destination Management and Development\n- Tourism Marketing\n\nCareer and job outcomes:\n- Travel and Tour Officer: Works for travel agencies, tour operators, or airlines arranging and managing travel packages.\n- Tourism Planning/Development Officer: Works with local government units or tourism boards on destination planning and promotion.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 62, s. 2017 - Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM)\nProgram educational objectives (per this CMO):",
+        "score": 0.031754032258064516
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_41",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_41\nSECTION: PROGRAM: Bachelor of Science in Hospitality Management | College: College of Hospitality Management and Tourism (CIHT) | Degree: Bachelor of Science in Hospitality Management (BSHM)\nand Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM)\nProgram educational objectives (per this CMO):\n- Plan, deliver, and manage guest-centered tourism or hospitality operations that meet industry service standards.\n- Advance to supervisory or entrepreneurial roles within the tourism and hospitality industry through demonstrated operational and management competence.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.031754032258064516
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_39",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_39\nSECTION: PROGRAM: Bachelor of Science in Tourism Management | College: College of Hospitality Management and Tourism (CIHT) | Degree: Bachelor of Science in Tourism Management (BSTM)\nand Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM)\nProgram educational objectives (per this CMO):\n- Plan, deliver, and manage guest-centered tourism or hospitality operations that meet industry service standards.\n- Advance to supervisory or entrepreneurial roles within the tourism and hospitality industry through demonstrated operational and management competence.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.031746031746031744
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): College of Hospitality Management and Tourism\nh:collegeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:definition: The College of Hospitality Management and Tourism (CIHT) offers 2 programs: BS Tourism Management and BS Hospitality Management.\nh:hasStudentOrganization -> College of Hospitality Management and Tourism student organizations [h:OrgGroup_CIHT]\nh:hasStudentOrganization -> College of Hospitality Management and Tourism Student Council [h:Org_Council_CIHT]\nh:programCount: 2\np:collegeAbbreviation: CIHT\np:collegeName: College of Hospitality Management and Tourism\np:hasProgram -> Bachelor of Science in Hospitality Management [p:Prog_BSHospitalityManagement]\np:hasProgram -> Bachelor of Science in Tourism Management [p:Prog_BSTourismManagement]\np:sourceDataGap: Resolved: the earlier Program Offers document named this college 'College of International Hospitality and Tourism'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Hospitality Management and Tourism', now used here. 'College of International Hospitality and Tourism' is kept only as a historical alternate name.\nrdf:type -> College [p:College]\nrdfs:label: College of Hospitality Management and Tourism"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Hospitality Management\np:degreeAbbreviation: BSHM\np:degreeName: Bachelor of Science in Hospitality Management\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Hospitality Management"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Hospitality Management\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSHospitalityManagement [p:AdmReq_BSHospitalityManagement]\np:hasDegree -> Bachelor of Science in Hospitality Management [p:Degree_BSHospitalityManagement]\np:hasLegalBasis -> Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM) [p:CMO_62_s2017]\np:offeredByCollege -> College of Hospitality Management and Tourism [p:CIHT]\np:preparesForOutcome -> Food and Beverage Service Supervisor [p:Job_FoodBeverageSupervisor]\np:preparesForOutcome -> Hotel and Restaurant Operations Supervisor [p:Job_HotelOperationsManager]\np:programDurationYears: 4\np:programName: Bachelor of Science in Hospitality Management\np:programOverview: Covers hotel and lodging operations, food and beverage service, and front office management for the hospitality industry.\np:teachesSkill -> Food and Beverage Service [p:Skill_FoodBeverageService]\np:teachesSkill -> Front Office Management [p:Skill_FrontOfficeManagement]\np:teachesSkill -> Hotel and Lodging Operations [p:Skill_HotelOperations]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Hospitality Management"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Tourism Management\np:degreeAbbreviation: BSTM\np:degreeName: Bachelor of Science in Tourism Management\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Tourism Management"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Tourism Management\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSTourismManagement [p:AdmReq_BSTourismManagement]\np:hasDegree -> Bachelor of Science in Tourism Management [p:Degree_BSTourismManagement]\np:hasLegalBasis -> Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM) [p:CMO_62_s2017]\np:offeredByCollege -> College of Hospitality Management and Tourism [p:CIHT]\np:preparesForOutcome -> Tourism Planning/Development Officer [p:Job_TourismPlanningOfficer]\np:preparesForOutcome -> Travel and Tour Officer [p:Job_TravelTourOfficer]\np:programDurationYears: 4\np:programName: Bachelor of Science in Tourism Management\np:programOverview: Covers tour planning and operations, destination management and development, and tourism marketing.\np:teachesSkill -> Destination Management and Development [p:Skill_DestinationManagement]\np:teachesSkill -> Tour Planning and Operations [p:Skill_TourOperations]\np:teachesSkill -> Tourism Marketing [p:Skill_TourismMarketing]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Tourism Management"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): College of Hospitality Management and Tourism\nh:collegeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:definition: The College of Hospitality Management and Tourism (CIHT) offers 2 programs: BS Tourism Management and BS Hospitality Management.\nh:hasStudentOrganization -> College of Hospitality Management and Tourism student organizations [h:OrgGroup_CIHT]\nh:hasStudentOrganization -> College of Hospitality Management and Tourism Student Council [h:Org_Council_CIHT]\nh:programCount: 2\np:collegeAbbreviation: CIHT\np:collegeName: College of Hospitality Management and Tourism\np:hasProgram -> Bachelor of Science in Hospitality Management [p:Prog_BSHospitalityManagement]\np:hasProgram -> Bachelor of Science in Tourism Management [p:Prog_BSTourismManagement]\np:sourceDataGap: Resolved: the earlier Program Offers document named this college 'College of International Hospitality and Tourism'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Hospitality Management and Tourism', now used here. 'College of Internationa",
+    "answer_for_eval": "The College of Hospitality Management and Tourism offers the following programs and their GWA requirements:\n\n1. Bachelor of Science in Hospitality Management\n   - GWA requirement: 85.0\n\n2. Bachelor of Science in Tourism Management\n   - GWA requirement: 88.0",
+    "retrieval_query": "What programs does the College of Hospitality Management and Tourism offer and what GWA does each require?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSHospitalityManagement",
+              "p:hasProgramObjective",
+              "p:ProgramEducationalObjective"
+            ],
+            [
+              "p:Prog_BSHospitalityManagement",
+              "p:hasDegree",
+              "p:Degree_BSHospitalityManagement"
+            ],
+            [
+              "p:Prog_BSHospitalityManagement",
+              "p:programName",
+              {
+                "literal": "Bachelor of Science in Hospitality Management"
+              }
+            ],
+            [
+              "p:Prog_BSHospitalityManagement",
+              "p:programOverview",
+              {
+                "literal": "This program prepares students for careers in hospitality management, focusing on hotel operations, food and beverage service, and tourism development."
+              }
+            ],
+            [
+              "p:Prog_BSTourismManagement",
+              "p:hasProgramObjective",
+              "p:ProgramEducationalObjective"
+            ],
+            [
+              "p:Prog_BSTourismManagement",
+              "p:hasDegree",
+              "p:Degree_BSTourismManagement"
+            ],
+            [
+              "p:Prog_BSTourismManagement",
+              "p:programName",
+              {
+                "literal": "Bachelor of Science in Tourism Management"
+              }
+            ],
+            [
+              "p:Prog_BSTourismManagement",
+              "p:programOverview",
+              {
+                "literal": "This program trains students in tourism planning, development, and management, preparing them for roles in the tourism industry."
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Expecting property name enclosed in double quotes: line 1 column 704 (char 703)",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 7.51600000000326
+  },
+  "answer": "The College of Hospitality Management and Tourism offers the following programs and their GWA requirements:\n\n1. Bachelor of Science in Hospitality Management\n   - GWA requirement: 85.0\n\n2. Bachelor of Science in Tourism Management\n   - GWA requirement: 88.0",
+  "pipeline_version": "oc-rag-3.0"
+}

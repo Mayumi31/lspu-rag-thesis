@@ -1,0 +1,119 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which college offers BS Psychology?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_17",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psychological Research Methods and Statistics\n- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.",
+        "score": 0.06452452301209573
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_19",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_19\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nfurther training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.06428490111891752
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Psychology\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasDegree--> Bachelor of Science in Psychology [p:Degree_BSPsychology]\nTYPE of Bachelor of Science in Psychology: p:Degree\nTYPE of Bachelor of Science in Psychology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?college=College of Teacher Education\nBachelor of Elementary Education [p:Prog_BEEd] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Physical Education [p:Prog_BPE] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Elementary Education: p:Program\nTYPE of Bachelor of Physical Education: p:Program\nTYPE of Bachelor of Secondary Education - Major in English: p:Program\nTYPE of Bachelor of Secondary Education - Major in Filipino: p:Program\nTYPE of Bachelor of Secondary Education - Major in Mathematics: p:Program\nTYPE of Bachelor of Secondary Education - Major in Sciences: p:Program\nTYPE of Bachelor of Secondary Education - Major in Social Studies: p:Program\nTYPE of Bachelor of Technology and Livelihood Education - Major in Home Economics: p:Program\nTYPE of Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 2: ?college=College of Business Administration and Accountancy\nBachelor of Science in Accountancy [p:Prog_BSA] --p:offeredByCollege--> College of Business Administration and Accountancy [p:CBAA]\nBachelor of Science in Business Administration - Major in Financial Management [p:Prog_BSBA_FM] --p:offeredByCollege--> College of Business Administration and Accountancy [p:CBAA]\nBachelor of Science in Business Administration - Major in Marketing Management [p:Prog_BSBA_MM] --p:offeredByCollege--> College of Business Administration and Accountancy [p:CBAA]\nTYPE of College of Business Administration and Accountancy: p:College\nTYPE of Bachelor of Science in Accountancy: p:Program\nTYPE of Bachelor of Science in Business Administration - Major in Financial Management: p:Program\nTYPE of Bachelor of Science in Business Administration - Major in Marketing Management: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 3: ?college=College of Computer Studies\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nTYPE of College of Computer Studies: p:College\nSOURCE/QUALIFIER for College of Computer Studies: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program\nTYPE of Bachelor of Science in Information Technology - Major in Animation and Motion Graphics: p:Program\nTYPE of Bachelor of Science in Information Technology - Major in Service Management Program: p:Program\nTYPE of Bachelor of Science in Information Technology - Major in Web and Mobile Application Development: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 4: ?college=College of Criminal Justice Education\nBachelor of Science in Criminology [p:Prog_BSCrim] --p:offeredByCollege--> College of Criminal Justice Education [p:CCJE]\nTYPE of College of Criminal Justice Education: p:College\nTYPE of Bachelor of Science in Criminology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 5: ?college=College of Fisheries\nBachelor of Science in Fisheries [p:Prog_BSFisheries] --p:offeredByCollege--> College of Fisheries [p:CF]\nTYPE of College of Fisheries: p:College\nTYPE of Bachelor of Science in Fisheries: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 6: ?college=College of Food Nutrition and Dietetics\nBachelor of Science in Food Technology [p:Prog_BSFoodTech] --p:offeredByCollege--> College of Food Nutrition and Dietetics [p:CFND]\nBachelor of Science in Nutrition and Dietetics [p:Prog_BSNutritionDietetics] --p:offeredByCollege--> College of Food Nutrition and Dietetics [p:CFND]\nTYPE of College of Food Nutrition and Dietetics: p:College\nTYPE of Bachelor of Science in Food Technology: p:Program\nTYPE of Bachelor of Science in Nutrition and Dietetics: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 7: ?college=College of Hospitality Management and Tourism\nBachelor of Science in Hospitality Management [p:Prog_BSHospitalityManagement] --p:offeredByCollege--> College of Hospitality Management and Tourism [p:CIHT]\nBachelor of Science in Tourism Management [p:Prog_BSTourismManagement] --p:offeredByCollege--> College of Hospitality Management and Tourism [p:CIHT]\nTYPE of College of Hospitality Management and Tourism: p:College\nSOURCE/QUALIFIER for College of Hospitality Management and Tourism: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of International Hospitality and Tourism'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Hospitality Management and Tourism', now used here. 'College of International Hospitality and Tourism' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Hospitality Management: p:Program\nTYPE of Bachelor of Science in Tourism Management: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 8: ?college=College of Arts and Sciences\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:offeredByCollege--> College of Arts and Sciences [p:CAS]\nTYPE of College of Arts and Sciences: p:College\nTYPE of Bachelor of Science in Psychology: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Psychology\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasDegree--> Bachelor of Science in Psychology [p:Degree_BSPsychology]\nTYPE of Bachelor of Science in Psychology: p:Degree\nTYPE of Bachelor of Science in Psychology: p:Program\n\nQUERY 2\nGRAPH RESULT 1: ?college=College of Teacher Education\nBachelor of Elementary Education [p:Prog_BEEd] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Physical Education [p:Prog_BPE] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies]",
+    "answer_for_eval": "The college that offers BS Psychology is the College of Arts and Sciences.",
+    "retrieval_query": "Which colleges offer BS Psychology?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?program",
+              "p:hasDegree",
+              "p:Degree_BSPsychology"
+            ]
+          ],
+          "select": [
+            "?program"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "?program",
+              "p:offeredByCollege",
+              "?college"
+            ]
+          ],
+          "select": [
+            "?college"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 11,
+    "elapsed_seconds": 4.9689999999827705,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Psychology\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasDegree--> Bachelor of Science in Psychology [p:Degree_BSPsychology]\nTYPE of Bachelor of Science in Psychology: p:Degree\nTYPE of Bachelor of Science in Psychology: p:Program",
+      "QUERY 2\nGRAPH RESULT 1: ?college=College of Teacher Education\nBachelor of Elementary Education [p:Prog_BEEd] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Physical Education [p:Prog_BPE] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nTYPE of College of Teacher Education: p:College\nTYPE of Bachelor of Elementary Education: p:Program\nTYPE of Bachelor of Physical Education: p:Program\nTYPE of Bachelor of Secondary Education - Major in English: p:Program\nTYPE of Bachelor of Secondary Education - Major in Filipino: p:Program\nTYPE of Bachelor of Secondary Education - Major in Mathematics: p:Program\nTYPE of Bachelor of Secondary Education - Major in Sciences: p:Program\nTYPE of Bachelor of Secondary Education - Major in Social Studies: p:Program\nTYPE of Bachelor of Technology and Livelihood Education - Major in Home Economics: p:Program\nTYPE of Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: p:Program",
+      "QUERY 2\nGRAPH RESULT 2: ?college=College of Business Administration and Accountancy\nBachelor of Science in Accountancy [p:Prog_BSA] --p:offeredByCollege--> College of Business Administration and Accountancy [p:CBAA]\nBachelor of Science in Business Administration - Major in Financial Management [p:Prog_BSBA_FM] --p:offeredByCollege--> College of Business Administration and Accountancy [p:CBAA]\nBachelor of Science in Business Administration - Major in Marketing Management [p:Prog_BSBA_MM] --p:offeredByCollege--> College of Business Administration and Accountancy [p:CBAA]\nTYPE of College of Business Administration and Accountancy: p:College\nTYPE of Bachelor of Science in Accountancy: p:Program\nTYPE of Bachelor of Science in Business Administration - Major in Financial Management: p:Program\nTYPE of Bachelor of Science in Business Administration - Major in Marketing Management: p:Program",
+      "QUERY 2\nGRAPH RESULT 3: ?college=College of Computer Studies\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nTYPE of College of Computer Studies: p:College\nSOURCE/QUALIFIER for College of Computer Studies: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program\nTYPE of Bachelor of Science in Information Technology - Major in Animation and Motion Graphics: p:Program\nTYPE of Bachelor of Science in Information Technology - Major in Service Management Program: p:Program\nTYPE of Bachelor of Science in Information Technology - Major in Web and Mobile Application Development: p:Program",
+      "QUERY 2\nGRAPH RESULT 4: ?college=College of Criminal Justice Education\nBachelor of Science in Criminology [p:Prog_BSCrim] --p:offeredByCollege--> College of Criminal Justice Education [p:CCJE]\nTYPE of College of Criminal Justice Education: p:College\nTYPE of Bachelor of Science in Criminology: p:Program",
+      "QUERY 2\nGRAPH RESULT 5: ?college=College of Fisheries\nBachelor of Science in Fisheries [p:Prog_BSFisheries] --p:offeredByCollege--> College of Fisheries [p:CF]\nTYPE of College of Fisheries: p:College\nTYPE of Bachelor of Science in Fisheries: p:Program",
+      "QUERY 2\nGRAPH RESULT 6: ?college=College of Food Nutrition and Dietetics\nBachelor of Science in Food Technology [p:Prog_BSFoodTech] --p:offeredByCollege--> College of Food Nutrition and Dietetics [p:CFND]\nBachelor of Science in Nutrition and Dietetics [p:Prog_BSNutritionDietetics] --p:offeredByCollege--> College of Food Nutrition and Dietetics [p:CFND]\nTYPE of College of Food Nutrition and Dietetics: p:College\nTYPE of Bachelor of Science in Food Technology: p:Program\nTYPE of Bachelor of Science in Nutrition and Dietetics: p:Program",
+      "QUERY 2\nGRAPH RESULT 7: ?college=College of Hospitality Management and Tourism\nBachelor of Science in Hospitality Management [p:Prog_BSHospitalityManagement] --p:offeredByCollege--> College of Hospitality Management and Tourism [p:CIHT]\nBachelor of Science in Tourism Management [p:Prog_BSTourismManagement] --p:offeredByCollege--> College of Hospitality Management and Tourism [p:CIHT]\nTYPE of College of Hospitality Management and Tourism: p:College\nSOURCE/QUALIFIER for College of Hospitality Management and Tourism: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of International Hospitality and Tourism'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Hospitality Management and Tourism', now used here. 'College of International Hospitality and Tourism' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Hospitality Management: p:Program\nTYPE of Bachelor of Science in Tourism Management: p:Program",
+      "QUERY 2\nGRAPH RESULT 8: ?college=College of Arts and Sciences\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:offeredByCollege--> College of Arts and Sciences [p:CAS]\nTYPE of College of Arts and Sciences: p:College\nTYPE of Bachelor of Science in Psychology: p:Program",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psychological Research Methods and Statistics\n- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_19\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nfurther training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document."
+    ]
+  },
+  "answer": "The college that offers BS Psychology is the College of Arts and Sciences.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

@@ -1,0 +1,58 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "How do I get to the Registrar's office from the main gate?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_717",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_717\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nStudent ID processing is handled by this office.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: BAO, Business Affairs, where to process student ID.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Scholarship and Financial Assistance (SFA) Office\nDirections from the main gate: From the main gate, walk straight in. The Scholarship and Financial Assistance office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: SFA, scholarship office, financial assistance office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Office of the Registrar\nDirections from the main gate: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: Registrar, registrar's office, where to get COR TOR.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Campus Library",
+        "score": 0.06530936012691699
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_718",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_718\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nLaguna.\nAlso known as: Registrar, registrar's office, where to get COR TOR.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Campus Library\nDirections from the main gate: Exit the main gate and follow the road to the left (southwest) all the way to its end. The Library compound is there, with its own gate and parking.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: library, LSPU library.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Cashier and Accounting Office\nDirections from the main gate: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Cashier and Accounting Office is the room beside the Registrar.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: Cashier, Accounting, where to pay, payment office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: University Health Service / Clinic\nDirections from the main gate: From the main gate, walk straight in. Look for the first long building on your right, just past the Hall.",
+        "score": 0.0637560803891449
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?directions=From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nLocation of Office of the Registrar [h:Loc_Registrar] --h:directionsFromGate--> \"From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\"\nTYPE of Location of Office of the Registrar: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of the Registrar: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_717\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nStudent ID processing is handled by this office.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: BAO, Business Affairs, where to process student ID.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Scholarship and Financial Assistance (SFA) Office\nDirections from the main gate: From the main gate, walk straight in. The Scholarship and Financial Assistance office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: SFA, scholarship office, financial assistance office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Office of the Registrar\nDirections from the main gate: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: Registrar, registrar's office, where to get ",
+    "answer_for_eval": "To get to the Registrar's office from the main gate, turn left and follow the road-side path to the Administration Building. Then go up to the second floor, where the Registrar's Office is located.",
+    "retrieval_query": "How do I get to the Registrar's office from the main gate?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Loc_Registrar",
+              "h:directionsFromGate",
+              "?directions"
+            ]
+          ],
+          "select": [
+            "?directions"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 4.0310000000172295,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_717\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nStudent ID processing is handled by this office.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: BAO, Business Affairs, where to process student ID.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Scholarship and Financial Assistance (SFA) Office\nDirections from the main gate: From the main gate, walk straight in. The Scholarship and Financial Assistance office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: SFA, scholarship office, financial assistance office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Office of the Registrar\nDirections from the main gate: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: Registrar, registrar's office, where to get COR TOR.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Campus Library",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_718\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nLaguna.\nAlso known as: Registrar, registrar's office, where to get COR TOR.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Campus Library\nDirections from the main gate: Exit the main gate and follow the road to the left (southwest) all the way to its end. The Library compound is there, with its own gate and parking.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: library, LSPU library.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Cashier and Accounting Office\nDirections from the main gate: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Cashier and Accounting Office is the room beside the Registrar.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: Cashier, Accounting, where to pay, payment office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: University Health Service / Clinic\nDirections from the main gate: From the main gate, walk straight in. Look for the first long building on your right, just past the Hall.",
+      "QUERY 1\nGRAPH RESULT 1: ?directions=From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nLocation of Office of the Registrar [h:Loc_Registrar] --h:directionsFromGate--> \"From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\"\nTYPE of Location of Office of the Registrar: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of the Registrar: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+    ]
+  },
+  "answer": "To get to the Registrar's office from the main gate, turn left and follow the road-side path to the Administration Building. Then go up to the second floor, where the Registrar's Office is located.",
+  "pipeline_version": "oc-rag-3.3-verified-build"
+}

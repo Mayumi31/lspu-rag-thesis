@@ -1,0 +1,156 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "how to enroll ?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_418",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_418\nSECTION: Chapter 3 | Article 3. Registration. Registration is open to new and old students who have satisfied the admission requirements. For on-site registration, students should enroll at the Office of the Registrar and register only in those subjects approved by the Registration Adviser/Program Coordinator/College Dean, as evidenced by their initials on the registration form. Whenever applicable, online registration may be used in line with its effectivity as endorsed by the University Registrar.\nArticle 3. Registration. Registration is open to new and old students who have satisfied the admission requirements. For on-site registration, students should enroll at the Office of the Registrar and register only in those subjects approved by the Registration Adviser/Program Coordinator/College Dean, as evidenced by their initials on the registration form. Whenever applicable, online registration may be used in line with its effectivity as endorsed by the University Registrar.\n\nSec. 1. Late Registration. The students are still allowed to register one (1) week after the last day of the regular registration period. Late registrants are charged a fine of P500.00. (BOR Resolution 1046 s 2012)\n\nSec. 2. Deferment of Enrolment. In the event that a qualified freshman applicant, who, for a valid reason, cannot enroll during the semester initially applied for, may petition for deferment of enrolment to the succeeding semester by writing to the University Registrar, provided that the applicant would not take any academic subjects in another college/ university during the deferment period.\n\nSec. 3. Refunding of Fees.",
+        "score": 0.030158730158730156
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_417",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_417\nSECTION: Chapter 3 | Article 2. Admission Requirements\ndean's opinion, has the necessary information or ability to pursue profitably. He/she should not be allowed to enroll for more than nine (9) except by special permission from the\n\nVPAA.\n\nSubjects taken shall be noncredit, although his work may be reported at the end of each semester as satisfactory or unsatisfactory.\n\nThe special student may register at any time without the payment of fine for late registration subject to another college regulation.\n\n2.15. Online Admission. Online admission makes it easy and convenient for prospective students to apply for various programs offered by the university during the admission cycle using internet connectivity.",
+        "score": 0.02964426877470356
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_272",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_272\nSECTION: XVII. | INTERNATIONAL AFFAIRS OFFICE\nPERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Foreign students | ILA Student Mobility | 1 day | IA Student Mobility\nsubmit his/her | evaluates the client’s\nintention to enroll | capacity for the\nthrough a formal | intended program\nletter attached the | and the capacity to\nrequirement for the | use the target\nenrollment | language\n2. Enrollment | IA Student Mobility | 1 day | IA Student Mobility,\nprocedure to his/her | facilitates the | Registrar’s Office,\nchosen program. | enrollment procedure | Dean/Assoc. Dean of\nthe College\n3. The FS complies | IA Student Mobility | 1 day | IA Student Mobility\nwith the medical | assists the FS to look\nrequirements in | for a Level III Hospital\npreparation for the in the area. The IA\nBOQ Clearance | Student Mobility\nthen applies for the\nClearance Stamp\nfrom the Bureau of\nQuarantine.\n4. The foreign students IA facilitates the | Depends on | 1 day | IA Student Mobility\napplies for the | application of the | the Bureau | (Representative to\nconversion of the | conversion and/or | of | Bureau of\nvisa from tourist to extension of the Visa Immigration | Immigration)\nstudent (9F) through at the Bureau of | table of",
+        "score": 0.027031963470319637
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_407",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_407\nSECTION: Chapter 3 | Article 2. Admission Requirements\nArticle 2. Admission Requirements\n\nSec. 1. LSPU Entrance Examination Instrument, Policies and Guidelines for Admission, and Retention (CMO 105, s. 2015)\n\n1.1. Accommodation Capacity. Admission to this University shall be limited to the number of students for whom adequate facilities and competent faculty members are available to provide better instruction.\n\n1.2. Free Higher Education. All students who are either currently enrolled at the time of the affectivity of the Universal Access to Quality Tertiary Education Act of 2017 or Unified Financial Assistance System for Tertiary Education Act, or UniFAST (Republic Act No.\n\n10687) shall enroll at any time after that in a course leading to a bachelor’s degree in the University shall be exempt from paying tuition and other school fees for units enrolled in.\n\n1.3. Institutional Qualifications. Students are eligible to receive the benefits stipulated in 1.2. provided that they qualify the admission and retention policies of the University.\n\nSec. 2. Admission and Testing\n\n2.1. Non-discriminatory Admission. No student shall be denied admission to the University by reason of age, sex, gender, nationality, belief, or political affiliation.",
+        "score": 0.02649122807017544
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_466",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_466\nSECTION: Chapter 4 | Article 3. GSAR Admission Requirements, Policies, and Registration\nAny bachelor’s degree holder from various colleges or universities shall apply for admission and comply with all the course requirements where the student intends to enroll.\n\n2.2. An undergraduate without specialization may be admitted but is required to earn 18 education units and preferably a holder of a license in teaching before admitted to the Master of Arts in Education program. The student must also be a PRC license holder.\n\n2.3. Master of Arts in Education (M.A.Ed.). Enrollee in any field of concentration shall have 12 units of undergraduate academic background related to the intended major course or at least two (2) years of experience teaching the subject or practicing the field.\n\n2.4 Master of Science in Agriculture (M.S.A.) / Master of Science in Fishery. A non-agriculture graduate has to earn 18 units in an agriculture course before admittance to MSA. Alternatively, an enrollee in any field of concentration shall have 12 units of undergraduate academic background related to the intended major course.\n\n2.5. The list of officially enrolled students shall be furnished by the registrar through the Dean/Assistant Dean.",
+        "score": 0.02454819277108434
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 1: Apply online for completion\na:clientAction: After submitting the complete requirements to the subject teacher, the student logs in to the portal in the LSPU online system to apply online for completion of the INC or 4.0 grade.\na:hasFeeText: N/A\na:hasProcessingTime: 5 minutes\na:sourceSection: XXXI. Colleges, Service 3: Completion of INC/Removal – Online System (College, Registrar, Cashier), Step 1, p. 87\nh:nextStep -> Step 2: Pay completion fee [a:Serv_CompletionOfINCRemovalOnlineSystem_S2]\nh:performedBy -> Student (Client) [a:Role_StudentClient]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Apply online for completion"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 5: Receive Pre-Enrolment Form\na:agencyAction: Registration Adviser/Program Coordinator/College Dean signs the Pre-Enrolment Form.\na:clientAction: Receives the Pre-Enrolment Form and proceeds to enrollment.\na:hasFeeText: None\na:hasProcessingTime: 1 minute\na:sourceSection: XXXI. Colleges, Service 9: Enrollment Advising, Step 5, p. 91\nh:performedBy -> Registration Adviser/Program Coordinator/College Dean [a:Role_RegistrationAdviserProgramCoordinatorCollegeDean]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 5: Receive Pre-Enrolment Form"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 1: Apply for scholarship\na:agencyAction: Verifies the qualification of the applicant.\na:clientAction: Applies for scholarship through online or actual application.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, Step 1, p. 22\nh:nextStep -> Step 2: Fill out application form [a:Scholarship_Step2]\nh:performedBy -> Scholarship and Financial Assistance Director/Chairperson and Technical Staff [a:Role_SFADirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Apply for scholarship"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Enrollment\na:availedAt -> Office of the Registrar [h:OfficeOfTheRegistrar]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:hasTransactionType -> G2G -- Government to Government [a:TT_G2G]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: I. Office of the Registrar, Service 1: Enrollment, p. 2\na:totalProcessingTime: 20 minutes (fees vary per assessment form)\na:whoMayAvail: All\nh:additionalInfo: Step 1: new students and transferees submit requirements to the Registrar on their appointment date; old students log in to the Student Web Portal and enlist subjects.\nh:additionalInfo: Step 2: students not covered by Free Higher Education (and RLE, opt-out, CTP/foreign, and graduate students) get fees assessed at the Accounting Office.\nh:additionalInfo: Step 3: pay at the Cashier.\nh:additionalInfo: Step 4: view your Certificate of Registration (COR) on the portal or claim the printed copy at the Registrar.\nh:audience: New and continuing students\nh:audience: New students\nh:definition: Assists the public in the enrollment procedures each semester.\nh:hasStep -> Step 1: Submission of enrolment requirements / subject enlistment [a:Enroll_Step1]\nh:requiresDocument -> 2 pcs 2x2 ID picture [a:Doc_2x2Picture]\nh:requiresDocument -> Original Certificate of Transfer (transferees only) [a:Doc_CertificateOfTransfer]\nh:requiresDocument -> Clearance (old students) [a:Doc_Clearance]\nh:requiresDocument -> Enrolment Slip from Admission Office (new students/transferees) [a:Doc_EnrolmentSlip]\nh:requiresDocument -> Original/authenticated Form 137 (new students only) [a:Doc_Form137]\nh:requiresDocument -> Original Certificate of Good Moral Character [a:Doc_GoodMoralCharacter]\nh:requiresDocument -> 1 pc. long brown envelope [a:Doc_LongBrownEnvelope]\nh:requiresDocument -> Medical slip/Certificate from LSPU Medical Clinic [a:Doc_MedicalSlip]\nh:requiresDocument -> Photocopy of PSA Birth Certificate / Marriage Contract (for married female students) [a:Doc_PSABirthCertificate]\nh:requiresDocument -> Original Report Card (new students only) [a:Doc_ReportCard]\nh:requiresDocument -> Student ID (old students) [a:Doc_StudentID]\nh:requiresDocument -> Transcript of Records/Copy of Grades for evaluation purposes (transferees only) [a:Doc_TORForEvaluation]\nh:sourceArticle: Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nh:sourceArticle: Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nrdf:type -> Service [a:Service]\nrdfs:label: Enrollment\nrdfs:seeAlso -> Student transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments]"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 1: Submission of enrolment requirements / subject enlistment\na:agencyAction: Validates the authenticity of the submitted hard-copy enrolment requirements; enlists subjects to the system and issues a request for SF10/F137 (new students), or evaluates and credits subjects for GSAR students, or evaluates and finalizes the enlisted subjects for old students on the Student Web Portal.\na:clientAction: New college students and transferees proceed to the Office of the Registrar on the scheduled appointment date to submit the hard copy of enrolment requirements. New GSAR students likewise submit requirements plus a Pre-Enrolment Form from the Dean's Office. All old college students and old GSAR students log in to the Student Web Portal and enlist the subjects to be enrolled.\na:hasFeeText: None\na:hasProcessingTime: 8 minutes (new/transferee/GSAR); 3 minutes (old students, web portal)\na:sourceSection: I. Office of the Registrar, Service 1: Enrollment, Step 1, p. 2\nh:nextStep -> Step 2: Assessment of fees [a:Enroll_Step2]\nh:performedBy -> Registrar's Staff [a:Role_RegistrarStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Submission of enrolment requirements / subject enlistment"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Step 1: Apply online for completion\na:clientAction: After submitting the complete requirements to the subject teacher, the student logs in to the portal in the LSPU online system to apply online for completion of the INC or 4.0 grade.\na:hasFeeText: N/A\na:hasProcessingTime: 5 minutes\na:sourceSection: XXXI. Colleges, Service 3: Completion of INC/Removal – Online System (College, Registrar, Cashier), Step 1, p. 87\nh:nextStep -> Step 2: Pay completion fee [a:Serv_CompletionOfINCRemovalOnlineSystem_S2]\nh:performedBy -> Student (Client) [a:Role_StudentClient]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Apply online for completion\n\nAPPROXIMATE MATCH (not an exhaustive result): Step 5: Receive Pre-Enrolment Form\na:agencyAction: Registration Adviser/Program Coordinator/College Dean signs the Pre-Enrolment Form.\na:clientAction: Receives the Pre-Enrolment Form and proceeds to enrollment.\na:hasFeeText: None\na:hasProcessingTime: 1 minute\na:sourceSection: XXXI. Colleges, Service 9: Enrollment Advising, Step 5, p. 91\nh:performedBy -> Registration Adviser/Program Coordinator/College Dean [a:Role_RegistrationAdviserProgramCoordinatorCol",
+    "answer_for_eval": "To enroll at LSPU-LB campus, follow these steps:\n\n1. Apply online for completion of INC or 4.0 grade by submitting requirements to the subject teacher, then log in to the portal in the LSPU online system (Step 1, a:clientAction). Processing time is approximately 5 minutes.\n2. Receive the Pre-Enrolment Form after it is signed by the Registration Adviser, Program Coordinator, or College Dean (Step 5, a:clientAction). This step takes about 1 minute.\n3. Submit the hard copy of enrollment requirements at the Office of the Registrar on your scheduled appointment date if you are a new student or transferee. Old students can log in to the Student Web Portal to enlist subjects (Step 1, a:clientAction). The process takes about 8 minutes for new/transferee students or 3 minutes for old students.\n4. Enlist subjects and have them validated by the Registrar's Staff.\n5. Pay the required fees at the Accounting Office or the Cashier.\n6. View your Certificate of Registration (COR) on the portal or claim the printed copy at the Registrar.\n\nRequired documents include:\n- 2 pcs 2x2 ID picture\n- Original Certificate of Transfer (for transferees)\n- Clearance (for old students)\n- Enrolment Slip from Admission Office (for new students/transferees)\n- Original/authenticated Form 137 (for new students)\n- Original Certificate of Good Moral Character\n- 1 pc. long brown envelope\n- Medical slip/Certificate from LSPU Medical Clinic\n- Photocopy of PSA Birth Certificate / Marriage Contract (for married female students)\n- Original Report Card (for new students)\n- Student ID (for old students)\n- Transcript of Records/Copy of Grades (for transferees)\n\nThis process is supported by the Office of the Registrar and is designed to assist both new and continuing students in their enrollment each semester.",
+    "retrieval_query": "How to enroll?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:Serv_Enrollment",
+              "h:hasStep",
+              "?step"
+            ]
+          ],
+          "select": [
+            "?step"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "?step",
+              "a:clientAction",
+              "?action"
+            ],
+            [
+              "?step",
+              "a:hasFeeText",
+              "?fee"
+            ],
+            [
+              "?step",
+              "a:hasProcessingTime",
+              "?time"
+            ]
+          ],
+          "select": [
+            "?action",
+            "?fee",
+            "?time"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "a:Serv_Enrollment",
+              "a:availedAt",
+              "?office"
+            ],
+            [
+              "?office",
+              "h:addressText",
+              "?address"
+            ]
+          ],
+          "select": [
+            "?office",
+            "?address"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "a:Serv_Enrollment",
+              "a:hasCategory",
+              "?category"
+            ],
+            [
+              "?category",
+              "rdf:type",
+              "a:ServiceCategory"
+            ]
+          ],
+          "select": [
+            "?category"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown predicate",
+      "Query 3 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 8.875
+  },
+  "answer": "To enroll at LSPU-LB campus, follow these steps:\n\n1. Apply online for completion of INC or 4.0 grade by submitting requirements to the subject teacher, then log in to the portal in the LSPU online system (Step 1, a:clientAction). Processing time is approximately 5 minutes.\n2. Receive the Pre-Enrolment Form after it is signed by the Registration Adviser, Program Coordinator, or College Dean (Step 5, a:clientAction). This step takes about 1 minute.\n3. Submit the hard copy of enrollment requirements at the Office of the Registrar on your scheduled appointment date if you are a new student or transferee. Old students can log in to the Student Web Portal to enlist subjects (Step 1, a:clientAction). The process takes about 8 minutes for new/transferee students or 3 minutes for old students.\n4. Enlist subjects and have them validated by the Registrar's Staff.\n5. Pay the required fees at the Accounting Office or the Cashier.\n6. View your Certificate of Registration (COR) on the portal or claim the printed copy at the Registrar.\n\nRequired documents include:\n- 2 pcs 2x2 ID picture\n- Original Certificate of Transfer (for transferees)\n- Clearance (for old students)\n- Enrolment Slip from Admission Office (for new students/transferees)\n- Original/authenticated Form 137 (for new students)\n- Original Certificate of Good Moral Character\n- 1 pc. long brown envelope\n- Medical slip/Certificate from LSPU Medical Clinic\n- Photocopy of PSA Birth Certificate / Marriage Contract (for married female students)\n- Original Report Card (for new students)\n- Student ID (for old students)\n- Transcript of Records/Copy of Grades (for transferees)\n\nThis process is supported by the Office of the Registrar and is designed to assist both new and continuing students in their enrollment each semester.",
+  "pipeline_version": "oc-rag-3.0"
+}

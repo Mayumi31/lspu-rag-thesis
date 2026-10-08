@@ -1,0 +1,103 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What grade range is needed for Summa Cum Laude?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_544",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_544\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 1. Academic Awards\nStudents who completed a curriculum in the degree/non-degree courses with the grades computed in the basis of the number of units for each course will be granted with honors.\n\n2.5. I the computation of the final averages of the students who are candidates for graduation with honors, subjects such as PE, NSTP (MTS/CWTS), Euthenics and other similar subjects must not receive a grade lower than “2.0” in all subjects to qualify for graduation with honors.\n\n2.6. For transferee students running for honors, students must have no grades lower than “2.0” in all subjects.\n\n2.7. In computing the final average of candidate for graduation with honors, only resident credits shall be included. He/she should not have a mark of incomplete or dropped subjects. He/she must be of good moral character. Al grades from first to fourth year shall be considered.\n\nSec. 3. Academic Awards Criteria\n\n3.1. for degree course Latin Honors Table (Award / Final Grade):\nSumma cum laude / 1.00 to 1.20\nMagna cum laude / 1.21 to 1.45\nCum laude / 1.46 to 1.75\n\n3.2. for non-degree course Honors Table (Award / Final Grade):\nwith highest honors / 1.00 to 1.20\nwith higher honors / 1.21 to 1.45\nwith honors / 1.46 to 1.75",
+        "score": 0.06557377049180328
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_485",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_485\nSECTION: Chapter 4 | Article 15. Retention/Scholastic Policy\nArticle 15. Retention/Scholastic Policy\n\nSec. 1. The minimum grade point average (GPA) of a graduate student required by the program for an advanced degree is 2.0.\n\nSec. 2. The GPA is computed at the end of every semester and is shown in a grade report of the student. The GPA shall be based only on units within the grade of 1.0 through 2.0 and on all courses prescribed in the approved graduate program.\n\nSec. 3. The student shall obtain a passing grade of 2.0 in all prescribed subjects and 3.0 for undergraduate subjects, including those listed under “others”. Excluded in the computation are grades of Incomplete (INC), Satisfactory (S), and other letter marks.",
+        "score": 0.06124357176250585
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?altQuestion=How do I graduate cum laude?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"How do I graduate cum laude?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?altQuestion=How do I graduate with honors?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"How do I graduate with honors?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?altQuestion=What GWA do I need for cum laude?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"What GWA do I need for cum laude?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 4: ?altQuestion=What are the requirements for magna cum laude?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"What are the requirements for magna cum laude?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 5: ?altQuestion=What grades are needed for Latin honors?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"What grades are needed for Latin honors?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 6: ?altQuestion=What is the grade range for summa cum laude?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"What is the grade range for summa cum laude?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?altQuestion=How do I graduate cum laude?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"How do I graduate cum laude?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1\n\nQUERY 1\nGRAPH RESULT 2: ?altQuestion=How do I graduate with honors?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"How do I graduate with honors?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1\n\nQUERY 1\nGRAPH RESULT 3: ?altQuestion=What GWA do I need for cum laude?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"What GWA do I need for cum laude?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for C",
+    "answer_for_eval": "The grade range needed for Summa Cum Laude is 1.00 to 1.20.",
+    "retrieval_query": "What grade range is needed for Summa Cum Laude?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Award_CumLaude",
+              "h:gradeRangeText",
+              {
+                "literal": "1.46 to 1.75"
+              }
+            ],
+            [
+              "h:Award_CumLaude",
+              "h:alternateQuestion",
+              "?altQuestion"
+            ],
+            [
+              "h:Award_CumLaude",
+              "h:audience",
+              "?audience"
+            ]
+          ],
+          "select": [
+            "?altQuestion",
+            "?audience"
+          ]
+        }
+      ],
+      "traversals": []
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 8,
+    "elapsed_seconds": 6.077999999979511,
+    "retrieval_seconds": 5.4060000000172295,
+    "generation_seconds": 0.6719999999622814,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?altQuestion=How do I graduate cum laude?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"How do I graduate cum laude?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1",
+      "QUERY 1\nGRAPH RESULT 2: ?altQuestion=How do I graduate with honors?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"How do I graduate with honors?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1",
+      "QUERY 1\nGRAPH RESULT 3: ?altQuestion=What GWA do I need for cum laude?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"What GWA do I need for cum laude?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1",
+      "QUERY 1\nGRAPH RESULT 4: ?altQuestion=What are the requirements for magna cum laude?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"What are the requirements for magna cum laude?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1",
+      "QUERY 1\nGRAPH RESULT 5: ?altQuestion=What grades are needed for Latin honors?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"What grades are needed for Latin honors?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1",
+      "QUERY 1\nGRAPH RESULT 6: ?altQuestion=What is the grade range for summa cum laude?; ?audience=Students\nCum Laude [h:Award_CumLaude] --h:alternateQuestion--> \"What is the grade range for summa cum laude?\"\nCum Laude [h:Award_CumLaude] --h:audience--> \"Students\"\nCum Laude [h:Award_CumLaude] --h:gradeRangeText--> \"1.46 to 1.75\"\nTYPE of Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 3.1",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_544\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 1. Academic Awards\nStudents who completed a curriculum in the degree/non-degree courses with the grades computed in the basis of the number of units for each course will be granted with honors.\n\n2.5. I the computation of the final averages of the students who are candidates for graduation with honors, subjects such as PE, NSTP (MTS/CWTS), Euthenics and other similar subjects must not receive a grade lower than “2.0” in all subjects to qualify for graduation with honors.\n\n2.6. For transferee students running for honors, students must have no grades lower than “2.0” in all subjects.\n\n2.7. In computing the final average of candidate for graduation with honors, only resident credits shall be included. He/she should not have a mark of incomplete or dropped subjects. He/she must be of good moral character. Al grades from first to fourth year shall be considered.\n\nSec. 3. Academic Awards Criteria\n\n3.1. for degree course Latin Honors Table (Award / Final Grade):\nSumma cum laude / 1.00 to 1.20\nMagna cum laude / 1.21 to 1.45\nCum laude / 1.46 to 1.75\n\n3.2. for non-degree course Honors Table (Award / Final Grade):\nwith highest honors / 1.00 to 1.20\nwith higher honors / 1.21 to 1.45\nwith honors / 1.46 to 1.75",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_485\nSECTION: Chapter 4 | Article 15. Retention/Scholastic Policy\nArticle 15. Retention/Scholastic Policy\n\nSec. 1. The minimum grade point average (GPA) of a graduate student required by the program for an advanced degree is 2.0.\n\nSec. 2. The GPA is computed at the end of every semester and is shown in a grade report of the student. The GPA shall be based only on units within the grade of 1.0 through 2.0 and on all courses prescribed in the approved graduate program.\n\nSec. 3. The student shall obtain a passing grade of 2.0 in all prescribed subjects and 3.0 for undergraduate subjects, including those listed under “others”. Excluded in the computation are grades of Incomplete (INC), Satisfactory (S), and other letter marks."
+    ]
+  },
+  "answer": "The grade range needed for Summa Cum Laude is 1.00 to 1.20.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

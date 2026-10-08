@@ -1,0 +1,72 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What academic statuses can a student be placed under?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Academic\nrdf:type -> Service Category [a:ServiceCategory]\nrdfs:comment: As printed for the three CID services in the source Charter; not one of the RA 11032 tiers (Simple/Complex/Highly Technical). Preserved verbatim, like Cat_External.\nrdfs:label: Academic"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Special student admission\nh:appliesToStudentType -> Special Student [h:StudentType_Special]\nh:audience: Non-regular students\nh:definition: A mature student who does not fully meet the entrance requirements may be admitted as a special student and may enroll in subjects that, in the opinion of the instructor and the Dean, they have the information and ability to pursue profitably. A special student may not enroll for more than 9 units unless the VPAA gives special permission. Subjects taken are non-credit, although the work may be reported each semester as satisfactory or unsatisfactory. A special student may register at any time without paying the late-registration fine, subject to other college regulations.\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Non-Regular Admission: Special Student)\nrdf:type -> Policy [h:Policy]\nrdfs:label: Special student admission"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Special Student\nh:definition: A mature student who does not fully satisfy entrance requirements but may be admitted to enroll in specific subjects at the dean's discretion; limited to nine (9) units unless given special permission.\nrdf:type -> Student Type [h:StudentType]\nrdfs:label: Special Student"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 1: Present required documents (verification of student status/entries)\na:agencyAction: Verifies if the student is qualified to avail RA No. 10931 (Free Higher Education) / checks the Registration Form or Clearance for completeness of entry, as applicable.\na:clientAction: Presents required documents: undergraduates via Registrar's online registration; graduate students; senior high school students (represented by parent/authorized rep); or students with adding/dropping/cancellation of subjects.\na:hasFeeText: None\na:hasProcessingTime: 15 seconds per client type\na:sourceSection: III. Accounting Office, Service 2: Assessment of Fees, Step 1, p. 9-10\nh:nextStep -> Accounting fee-assessment service — Step 2: Assessment of school fees [a:AssessFees_Step2]\nh:performedBy -> Administrative Aide VI [a:Role_AdministrativeAideVI]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Present required documents (verification of student status/entries)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Residency Requirement for Graduation\nh:definition: Completion of at least 50% of total academic units/hours in residence, with at least 2 years of residence, one of which must be senior year.\nh:sourceArticle: Chapter 3, Article 14, Sec. 4\nrdf:type -> Graduation Requirement [h:GraduationRequirement]\nrdfs:label: Residency Requirement for Graduation"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Academic\nrdf:type -> Service Category [a:ServiceCategory]\nrdfs:comment: As printed for the three CID services in the source Charter; not one of the RA 11032 tiers (Simple/Complex/Highly Technical). Preserved verbatim, like Cat_External.\nrdfs:label: Academic\n\nAPPROXIMATE MATCH (not an exhaustive result): Special student admission\nh:appliesToStudentType -> Special Student [h:StudentType_Special]\nh:audience: Non-regular students\nh:definition: A mature student who does not fully meet the entrance requirements may be admitted as a special student and may enroll in subjects that, in the opinion of the instructor and the Dean, they have the information and ability to pursue profitably. A special student may not enroll for more than 9 units unless the VPAA gives special permission. Subjects taken are non-credit, although the work may be reported each semester as satisfactory or unsatisfactory. A special student may register at any time without paying the late-registration fine, subject to other college regulations.\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Hand",
+    "answer_for_eval": "A student can be placed under the following academic statuses:\n\n1. Academic (as a service category)\n2. Special Student (a type of student who does not fully meet entrance requirements but may enroll in specific subjects, limited to nine units unless given special permission)",
+    "retrieval_query": "What academic statuses can a student be placed under",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Status_Disqualification",
+              "rdf:type",
+              "h:AcademicStatus"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 6.702999999979511,
+    "retrieval_seconds": 5.5,
+    "generation_seconds": 1.202999999979511,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Academic\nrdf:type -> Service Category [a:ServiceCategory]\nrdfs:comment: As printed for the three CID services in the source Charter; not one of the RA 11032 tiers (Simple/Complex/Highly Technical). Preserved verbatim, like Cat_External.\nrdfs:label: Academic",
+      "APPROXIMATE MATCH (not an exhaustive result): Special student admission\nh:appliesToStudentType -> Special Student [h:StudentType_Special]\nh:audience: Non-regular students\nh:definition: A mature student who does not fully meet the entrance requirements may be admitted as a special student and may enroll in subjects that, in the opinion of the instructor and the Dean, they have the information and ability to pursue profitably. A special student may not enroll for more than 9 units unless the VPAA gives special permission. Subjects taken are non-credit, although the work may be reported each semester as satisfactory or unsatisfactory. A special student may register at any time without paying the late-registration fine, subject to other college regulations.\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Non-Regular Admission: Special Student)\nrdf:type -> Policy [h:Policy]\nrdfs:label: Special student admission",
+      "APPROXIMATE MATCH (not an exhaustive result): Special Student\nh:definition: A mature student who does not fully satisfy entrance requirements but may be admitted to enroll in specific subjects at the dean's discretion; limited to nine (9) units unless given special permission.\nrdf:type -> Student Type [h:StudentType]\nrdfs:label: Special Student",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 1: Present required documents (verification of student status/entries)\na:agencyAction: Verifies if the student is qualified to avail RA No. 10931 (Free Higher Education) / checks the Registration Form or Clearance for completeness of entry, as applicable.\na:clientAction: Presents required documents: undergraduates via Registrar's online registration; graduate students; senior high school students (represented by parent/authorized rep); or students with adding/dropping/cancellation of subjects.\na:hasFeeText: None\na:hasProcessingTime: 15 seconds per client type\na:sourceSection: III. Accounting Office, Service 2: Assessment of Fees, Step 1, p. 9-10\nh:nextStep -> Accounting fee-assessment service — Step 2: Assessment of school fees [a:AssessFees_Step2]\nh:performedBy -> Administrative Aide VI [a:Role_AdministrativeAideVI]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Present required documents (verification of student status/entries)",
+      "APPROXIMATE MATCH (not an exhaustive result): Residency Requirement for Graduation\nh:definition: Completion of at least 50% of total academic units/hours in residence, with at least 2 years of residence, one of which must be senior year.\nh:sourceArticle: Chapter 3, Article 14, Sec. 4\nrdf:type -> Graduation Requirement [h:GraduationRequirement]\nrdfs:label: Residency Requirement for Graduation"
+    ]
+  },
+  "answer": "A student can be placed under the following academic statuses:\n\n1. Academic (as a service category)\n2. Special Student (a type of student who does not fully meet entrance requirements but may enroll in specific subjects, limited to nine units unless given special permission)",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

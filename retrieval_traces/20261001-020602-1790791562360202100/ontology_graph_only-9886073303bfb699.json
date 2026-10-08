@@ -1,0 +1,69 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Which office handles enrollment each semester?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Enrollment\na:availedAt -> Office of the Registrar [h:OfficeOfTheRegistrar]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:hasTransactionType -> G2G -- Government to Government [a:TT_G2G]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: I. Office of the Registrar, Service 1: Enrollment, p. 2\na:totalProcessingTime: 20 minutes (fees vary per assessment form)\na:whoMayAvail: All\nh:additionalInfo: Step 1: new students and transferees submit requirements to the Registrar on their appointment date; old students log in to the Student Web Portal and enlist subjects.\nh:additionalInfo: Step 2: students not covered by Free Higher Education (and RLE, opt-out, CTP/foreign, and graduate students) get fees assessed at the Accounting Office.\nh:additionalInfo: Step 3: pay at the Cashier.\nh:additionalInfo: Step 4: view your Certificate of Registration (COR) on the portal or claim the printed copy at the Registrar.\nh:audience: New and continuing students\nh:audience: New students\nh:definition: Assists the public in the enrollment procedures each semester.\nh:hasStep -> Step 1: Submission of enrolment requirements / subject enlistment [a:Enroll_Step1]\nh:requiresDocument -> 2 pcs 2x2 ID picture [a:Doc_2x2Picture]\nh:requiresDocument -> Original Certificate of Transfer (transferees only) [a:Doc_CertificateOfTransfer]\nh:requiresDocument -> Clearance (old students) [a:Doc_Clearance]\nh:requiresDocument -> Enrolment Slip from Admission Office (new students/transferees) [a:Doc_EnrolmentSlip]\nh:requiresDocument -> Original/authenticated Form 137 (new students only) [a:Doc_Form137]\nh:requiresDocument -> Original Certificate of Good Moral Character [a:Doc_GoodMoralCharacter]\nh:requiresDocument -> 1 pc. long brown envelope [a:Doc_LongBrownEnvelope]\nh:requiresDocument -> Medical slip/Certificate from LSPU Medical Clinic [a:Doc_MedicalSlip]\nh:requiresDocument -> Photocopy of PSA Birth Certificate / Marriage Contract (for married female students) [a:Doc_PSABirthCertificate]\nh:requiresDocument -> Original Report Card (new students only) [a:Doc_ReportCard]\nh:requiresDocument -> Student ID (old students) [a:Doc_StudentID]\nh:requiresDocument -> Transcript of Records/Copy of Grades for evaluation purposes (transferees only) [a:Doc_TORForEvaluation]\nh:sourceArticle: Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nh:sourceArticle: Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nrdf:type -> Service [a:Service]\nrdfs:label: Enrollment\nrdfs:seeAlso -> Student transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments]"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Colleges\nrdf:type -> Office [h:Office]\nrdfs:comment: Generic placeholder office used by the 9 college-agnostic Citizen's Charter services (enrollment/adding, dropping, crediting subjects, clearances, etc.), which apply to whichever college a given student belongs to and so cannot resolve to a single location. For a specific location, see the 8 lspuadm:Office_Dean_* instances below, each linked to its college building.\nrdfs:label: Colleges"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Enrollment\na:availedAt -> Office of the Registrar [h:OfficeOfTheRegistrar]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:hasTransactionType -> G2G -- Government to Government [a:TT_G2G]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: I. Office of the Registrar, Service 1: Enrollment, p. 2\na:totalProcessingTime: 20 minutes (fees vary per assessment form)\na:whoMayAvail: All\nh:additionalInfo: Step 1: new students and transferees submit requirements to the Registrar on their appointment date; old students log in to the Student Web Portal and enlist subjects.\nh:additionalInfo: Step 2: students not covered by Free Higher Education (and RLE, opt-out, CTP/foreign, and graduate students) get fees assessed at the Accounting Office.\nh:additionalInfo: Step 3: pay at the Cashier.\nh:additionalInfo: Step 4: view your Certificate of Registration (COR) on the portal or claim the printed copy at the Registrar.\nh:audience: New and continuing students\nh:audience: New students\nh:definition: Assists the public in the enrollmen",
+    "answer_for_eval": "The office that handles enrollment each semester is the Office of the Registrar.",
+    "retrieval_query": "Which office handles enrollment each semester",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?office",
+              "h:housesOffice",
+              "?place"
+            ],
+            [
+              "?place",
+              "h:placeOfCampus",
+              "h:Campus_LSPULB"
+            ],
+            [
+              "?office",
+              "rdf:type",
+              "h:Office"
+            ],
+            [
+              "?office",
+              "rdfs:label",
+              "Office of the Campus Director"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown predicate",
+      "Unresolved entity or class: h:Campus_LSPULB"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 2,
+    "elapsed_seconds": 15.172000000020489,
+    "retrieval_seconds": 14.077999999979511,
+    "generation_seconds": 1.0940000000409782,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Enrollment\na:availedAt -> Office of the Registrar [h:OfficeOfTheRegistrar]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:hasTransactionType -> G2G -- Government to Government [a:TT_G2G]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: I. Office of the Registrar, Service 1: Enrollment, p. 2\na:totalProcessingTime: 20 minutes (fees vary per assessment form)\na:whoMayAvail: All\nh:additionalInfo: Step 1: new students and transferees submit requirements to the Registrar on their appointment date; old students log in to the Student Web Portal and enlist subjects.\nh:additionalInfo: Step 2: students not covered by Free Higher Education (and RLE, opt-out, CTP/foreign, and graduate students) get fees assessed at the Accounting Office.\nh:additionalInfo: Step 3: pay at the Cashier.\nh:additionalInfo: Step 4: view your Certificate of Registration (COR) on the portal or claim the printed copy at the Registrar.\nh:audience: New and continuing students\nh:audience: New students\nh:definition: Assists the public in the enrollment procedures each semester.\nh:hasStep -> Step 1: Submission of enrolment requirements / subject enlistment [a:Enroll_Step1]\nh:requiresDocument -> 2 pcs 2x2 ID picture [a:Doc_2x2Picture]\nh:requiresDocument -> Original Certificate of Transfer (transferees only) [a:Doc_CertificateOfTransfer]\nh:requiresDocument -> Clearance (old students) [a:Doc_Clearance]\nh:requiresDocument -> Enrolment Slip from Admission Office (new students/transferees) [a:Doc_EnrolmentSlip]\nh:requiresDocument -> Original/authenticated Form 137 (new students only) [a:Doc_Form137]\nh:requiresDocument -> Original Certificate of Good Moral Character [a:Doc_GoodMoralCharacter]\nh:requiresDocument -> 1 pc. long brown envelope [a:Doc_LongBrownEnvelope]\nh:requiresDocument -> Medical slip/Certificate from LSPU Medical Clinic [a:Doc_MedicalSlip]\nh:requiresDocument -> Photocopy of PSA Birth Certificate / Marriage Contract (for married female students) [a:Doc_PSABirthCertificate]\nh:requiresDocument -> Original Report Card (new students only) [a:Doc_ReportCard]\nh:requiresDocument -> Student ID (old students) [a:Doc_StudentID]\nh:requiresDocument -> Transcript of Records/Copy of Grades for evaluation purposes (transferees only) [a:Doc_TORForEvaluation]\nh:sourceArticle: Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nh:sourceArticle: Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nrdf:type -> Service [a:Service]\nrdfs:label: Enrollment\nrdfs:seeAlso -> Student transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments]",
+      "APPROXIMATE MATCH (not an exhaustive result): Colleges\nrdf:type -> Office [h:Office]\nrdfs:comment: Generic placeholder office used by the 9 college-agnostic Citizen's Charter services (enrollment/adding, dropping, crediting subjects, clearances, etc.), which apply to whichever college a given student belongs to and so cannot resolve to a single location. For a specific location, see the 8 lspuadm:Office_Dean_* instances below, each linked to its college building.\nrdfs:label: Colleges"
+    ]
+  },
+  "answer": "The office that handles enrollment each semester is the Office of the Registrar.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

@@ -1,0 +1,63 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Which CHED memorandum order covers the BSCS, BSIS and BSIT programs?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Computer Science - Major in Intelligent Systems\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Information Technology - Major in Animation and Motion Graphics: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Science in Information Technology - Major in Service Management Program\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Information Technology - Major in Service Management Program: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 4: ?program=Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Information Technology - Major in Web and Mobile Application Development: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Computer Science - Major in Intelligent Systems\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program\n\nQUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\nRevise",
+    "answer_for_eval": "The CHED memorandum order that covers the BSCS, BSIS, and BSIT programs is CMO 25 s2015.",
+    "retrieval_query": "Which CHED memorandum order covers the BSCS, BSIS, and BSIT programs?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:CMO_25_s2015",
+              "p:isLegalBasisFor",
+              "?program"
+            ]
+          ],
+          "select": [
+            "?program"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: p:Prog_BSCS"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 4,
+    "elapsed_seconds": 10.077999999979511,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Computer Science - Major in Intelligent Systems\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program",
+      "QUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Information Technology - Major in Animation and Motion Graphics: p:Program",
+      "QUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Science in Information Technology - Major in Service Management Program\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Information Technology - Major in Service Management Program: p:Program",
+      "QUERY 1\nGRAPH RESULT 4: ?program=Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Information Technology - Major in Web and Mobile Application Development: p:Program"
+    ]
+  },
+  "answer": "The CHED memorandum order that covers the BSCS, BSIS, and BSIT programs is CMO 25 s2015.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

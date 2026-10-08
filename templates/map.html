@@ -1,0 +1,83 @@
+{% extends "base.html" %}{% block title %}Campus Map{% endblock %}{% block content %}<div class="map-page"><section class="map-section" aria-labelledby="campus-map-title">
+  <div class="container">
+    <div class="section-head map-section-head">
+      <div class="section-label">Campus map</div>
+      <h2 id="campus-map-title">Explore the Los Baños Campus.</h2>
+      <p>
+        Campus reference map for Laguna State Polytechnic University - Los Baños
+        Campus.
+      </p>
+    </div>
+
+    <div class="map-panel" id="campusMapPanel">
+      <div class="map-toolbar">
+        <div class="map-controls" role="group" aria-label="Map controls">
+          <button
+            class="map-control"
+            id="mapZoomIn"
+            type="button"
+            aria-label="Zoom in"
+            title="Zoom in"
+          >
+            +
+          </button>
+          <button
+            class="map-control"
+            id="mapZoomOut"
+            type="button"
+            aria-label="Zoom out"
+            title="Zoom out"
+          >
+            −
+          </button>
+          <button class="map-control map-reset" id="mapReset" type="button">
+            Reset view
+          </button>
+          <button
+            class="map-control"
+            id="mapFullscreen"
+            type="button"
+            aria-label="Enter fullscreen"
+            title="Fullscreen"
+          >
+            ⛶
+          </button>
+        </div>
+      </div>
+      <p class="map-status" id="mapStatus" role="status" aria-live="polite"></p>
+
+      <div class="map-canvas">
+        <aside class="map-legend-panel" aria-label="Campus map legend">
+          <img
+            class="map-legend-image"
+            src="{{ url_for('assets', filename='map/lspu-map-legends.svg') }}"
+            alt="Legend for the LSPU-LB campus map"
+            onerror="this.style.display = 'none'"
+          />
+        </aside>
+        <div class="map-viewport" id="mapViewport">
+          <svg
+            class="campus-map"
+            id="campusMap"
+            viewBox="0 0 1440 810"
+            role="application"
+            aria-label="Interactive LSPU-LB campus map"
+          >
+            <g id="campusMapWorld">
+              <image
+                href="{{ url_for('assets', filename='map/lspu-campus-map.svg') }}"
+                x="0"
+                y="0"
+                width="1440"
+                height="810"
+                preserveAspectRatio="xMidYMid meet"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>{% endblock %}{% block scripts %}<script src="{{ url_for('static', filename='js/map.js') }}"></script>{% endblock %}

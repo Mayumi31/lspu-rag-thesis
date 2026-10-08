@@ -1,0 +1,67 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What is the minimum GWA needed to apply, by program?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_60",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_60\nSECTION: ADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nSource: LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\n- Bachelor of Elementary Education (CTE): minimum GWA 90\n- Bachelor of Physical Education (CTE): minimum GWA 90\n- Bachelor of Science in Accountancy (CBAA): minimum GWA 90\n- Bachelor of Science in Computer Science - Major in Intelligent Systems (CCS): minimum GWA 90\n- Bachelor of Science in Food Technology (CFND): minimum GWA 90\n- Bachelor of Science in Nutrition and Dietetics (CFND): minimum GWA 90\n- Bachelor of Secondary Education - Major in English (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Filipino (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Mathematics (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Sciences (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Social Studies (CTE): minimum GWA 90\n- Bachelor of Science in Business Administration - Major in Financial Management (CBAA): minimum GWA 88\n- Bachelor of Science in Business Administration - Major in Marketing Management (CBAA): minimum GWA 88\n- Bachelor of Science in Psychology (CAS): minimum GWA 88",
+        "score": 0.06505334374186833
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_61",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_61\nSECTION: ADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nminimum GWA 88\n- Bachelor of Science in Business Administration - Major in Marketing Management (CBAA): minimum GWA 88\n- Bachelor of Science in Psychology (CAS): minimum GWA 88\n- Bachelor of Science in Tourism Management (CIHT): minimum GWA 88\n- Bachelor of Science in Fisheries (CF): minimum GWA 87\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management (CTE): minimum GWA 87\n- Bachelor of Technology and Livelihood Education - Major in Home Economics (CTE): minimum GWA 87\n- Bachelor of Science in Criminology (CCJE): minimum GWA 85\n- Bachelor of Science in Hospitality Management (CIHT): minimum GWA 85\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics (CCS): minimum GWA 85\n- Bachelor of Science in Information Technology - Major in Service Management Program (CCS): minimum GWA 85\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development (CCS): minimum GWA 85",
+        "score": 0.06401209677419355
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?minGWA=85.0\np:AdmReq_BSCrim [p:AdmReq_BSCrim] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSCrim [p:AdmReq_BSCrim] --p:sourceDocument--> \"LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\"\nTYPE of p:AdmReq_BSCrim: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCrim: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?minGWA=85.0\np:AdmReq_BSCrim [p:AdmReq_BSCrim] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSCrim [p:AdmReq_BSCrim] --p:sourceDocument--> \"LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\"\nTYPE of p:AdmReq_BSCrim: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCrim: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_60\nSECTION: ADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nSource: LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\n- Bachelor of Elementary Education (CTE): minimum GWA 90\n- Bachelor of Physical Education (CTE): minimum GWA 90\n- Bachelor of Science in Accountancy (CBAA): minimum GWA 90\n- Bachelor of Science in Computer Science - Major in Intelligent Systems (CCS): minimum GWA 90\n- Bachelor of Science in Food Technology (CFND): minimum GWA 90\n- Bachelor of Science in Nutrition and Dietetics (CFND): minimum GWA 90\n- Bachelor of Secondary Education - Major in English (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Filipino (CT",
+    "answer_for_eval": "The minimum GWA needed to apply by program is as follows:\n\n- Bachelor of Elementary Education (CTE): 90\n- Bachelor of Physical Education (CTE): 90\n- Bachelor of Science in Accountancy (CBAA): 90\n- Bachelor of Science in Computer Science - Major in Intelligent Systems (CCS): 90\n- Bachelor of Science in Food Technology (CFND): 90\n- Bachelor of Science in Nutrition and Dietetics (CFND): 90\n- Bachelor of Secondary Education - Major in English (CTE): 90\n- Bachelor of Secondary Education - Major in Filipino (CTE): 90\n- Bachelor of Secondary Education - Major in Mathematics (CTE): 90\n- Bachelor of Secondary Education - Major in Sciences (CTE): 90\n- Bachelor of Secondary Education - Major in Social Studies (CTE): 90\n- Bachelor of Science in Business Administration - Major in Financial Management (CBAA): 88\n- Bachelor of Science in Business Administration - Major in Marketing Management (CBAA): 88\n- Bachelor of Science in Psychology (CAS): 88\n- Bachelor of Science in Tourism Management (CIHT): 88\n- Bachelor of Science in Fisheries (CF): 87\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management (CTE): 87\n- Bachelor of Technology and Livelihood Education - Major in Home Economics (CTE): 87\n- Bachelor of Science in Criminology (CCJE): 85\n- Bachelor of Science in Hospitality Management (CIHT): 85\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics (CCS): 85\n- Bachelor of Science in Information Technology - Major in Service Management Program (CCS): 85\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development (CCS): 85",
+    "retrieval_query": "What is the minimum GWA needed to apply by program?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:AdmReq_BSCrim",
+              "p:minimumGeneralWeightedAverage",
+              "?minGWA"
+            ],
+            [
+              "p:AdmReq_BSCrim",
+              "p:sourceDocument",
+              {
+                "literal": "LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A."
+              }
+            ]
+          ],
+          "select": [
+            "?minGWA"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 26.40600000001723,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?minGWA=85.0\np:AdmReq_BSCrim [p:AdmReq_BSCrim] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSCrim [p:AdmReq_BSCrim] --p:sourceDocument--> \"LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\"\nTYPE of p:AdmReq_BSCrim: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCrim: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_60\nSECTION: ADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nSource: LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\n- Bachelor of Elementary Education (CTE): minimum GWA 90\n- Bachelor of Physical Education (CTE): minimum GWA 90\n- Bachelor of Science in Accountancy (CBAA): minimum GWA 90\n- Bachelor of Science in Computer Science - Major in Intelligent Systems (CCS): minimum GWA 90\n- Bachelor of Science in Food Technology (CFND): minimum GWA 90\n- Bachelor of Science in Nutrition and Dietetics (CFND): minimum GWA 90\n- Bachelor of Secondary Education - Major in English (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Filipino (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Mathematics (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Sciences (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Social Studies (CTE): minimum GWA 90\n- Bachelor of Science in Business Administration - Major in Financial Management (CBAA): minimum GWA 88\n- Bachelor of Science in Business Administration - Major in Marketing Management (CBAA): minimum GWA 88\n- Bachelor of Science in Psychology (CAS): minimum GWA 88",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_61\nSECTION: ADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nminimum GWA 88\n- Bachelor of Science in Business Administration - Major in Marketing Management (CBAA): minimum GWA 88\n- Bachelor of Science in Psychology (CAS): minimum GWA 88\n- Bachelor of Science in Tourism Management (CIHT): minimum GWA 88\n- Bachelor of Science in Fisheries (CF): minimum GWA 87\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management (CTE): minimum GWA 87\n- Bachelor of Technology and Livelihood Education - Major in Home Economics (CTE): minimum GWA 87\n- Bachelor of Science in Criminology (CCJE): minimum GWA 85\n- Bachelor of Science in Hospitality Management (CIHT): minimum GWA 85\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics (CCS): minimum GWA 85\n- Bachelor of Science in Information Technology - Major in Service Management Program (CCS): minimum GWA 85\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development (CCS): minimum GWA 85"
+    ]
+  },
+  "answer": "The minimum GWA needed to apply by program is as follows:\n\n- Bachelor of Elementary Education (CTE): 90\n- Bachelor of Physical Education (CTE): 90\n- Bachelor of Science in Accountancy (CBAA): 90\n- Bachelor of Science in Computer Science - Major in Intelligent Systems (CCS): 90\n- Bachelor of Science in Food Technology (CFND): 90\n- Bachelor of Science in Nutrition and Dietetics (CFND): 90\n- Bachelor of Secondary Education - Major in English (CTE): 90\n- Bachelor of Secondary Education - Major in Filipino (CTE): 90\n- Bachelor of Secondary Education - Major in Mathematics (CTE): 90\n- Bachelor of Secondary Education - Major in Sciences (CTE): 90\n- Bachelor of Secondary Education - Major in Social Studies (CTE): 90\n- Bachelor of Science in Business Administration - Major in Financial Management (CBAA): 88\n- Bachelor of Science in Business Administration - Major in Marketing Management (CBAA): 88\n- Bachelor of Science in Psychology (CAS): 88\n- Bachelor of Science in Tourism Management (CIHT): 88\n- Bachelor of Science in Fisheries (CF): 87\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management (CTE): 87\n- Bachelor of Technology and Livelihood Education - Major in Home Economics (CTE): 87\n- Bachelor of Science in Criminology (CCJE): 85\n- Bachelor of Science in Hospitality Management (CIHT): 85\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics (CCS): 85\n- Bachelor of Science in Information Technology - Major in Service Management Program (CCS): 85\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development (CCS): 85",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

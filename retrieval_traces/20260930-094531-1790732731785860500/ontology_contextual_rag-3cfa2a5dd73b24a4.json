@@ -1,0 +1,107 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What are the steps for processing my student ID?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_816",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_816\nSECTION: LOST OR FOUND STUDENT ID: WHAT TO DO\nLOST OR FOUND STUDENT ID: WHAT TO DO\nSource: found-ID hand-in points from campus information supplied by the maintainer (September 2026). ID processing: Citizen's Charter 2026, Business Affairs, Marketing and Production Office, Service 1, p. 13. Wearing the ID: Student Handbook Chapter 6, Article 3, Sec. 4. The lost-ID replacement fee and process were not supplied; confirm at the BAO.\nIf you LOST your ID, check the guard office and the student council first, because found IDs are turned in there. If it is not found, go to the Business Affairs Office (BAO), which handles student ID processing. The Citizen's Charter lists Php 100.00 for ID processing and the ID lace costs Php 130, but the replacement fee and steps for a lost ID are not documented, so ask the BAO.\nIf you FOUND an ID, hand it to the guard office (the Guard House at the main gate, on the left as you enter) or to the student council (the Supreme Student Council or your college's student council), who can return it to its owner.\nThe Handbook requires wearing the University ID at all times on campus (not doing so is a minor offense), so replace it as soon as you can.",
+        "score": 0.03278688524590164
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_817",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_817\nSECTION: LOST OR FOUND STUDENT ID: WHAT TO DO\nwho can return it to its owner.\nThe Handbook requires wearing the University ID at all times on campus (not doing so is a minor offense), so replace it as soon as you can.\nFee note: the Citizen's Charter lists Php 100.00 for ID processing, while campus information says the official ID is free for first-year students. The sources do not say which students pay the Php 100.00, so confirm at the BAO.",
+        "score": 0.03225806451612903
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_131",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_131\nSECTION: 1.2 Graduate | Checks the | None | 15 seconds | Administrative Aide VI\nType of Transaction: | G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nStudent ID for Student Number Verification | Client/Student\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Student to present | • Checks if the | None | 1 minute Administrative Aide VI\nhis/her ID for | Student have\nverification of | unsettled\nstudent number in | accounts in\nthe system | the system,\nrequire them\nto settle\naccounts in\nthe Cashier's\nOffice.\n• If the Student\nhave no\n\n11",
+        "score": 0.03055037313432836
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_153",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_153\nSECTION: 4. ID Validation\n4. ID Validation\nThis process provides description and series of steps for assisting the students\nspecifically in the validation of ID.\n\nOffice or Division: | Office of the Student Affairs and Services\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\n⎯ Certificate of Registration | Registrar’s Office\n⎯ Student ID | Business Affairs Office\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present the | Check Certificate of None | 1 minute | OSAS Director/\nCertificate of | Registration. | Chairperson/ Staff\nRegistration.\n2. Evaluate the | Issue Evaluation Form None | 2 minutes | OSAS Director/\nServices | Chairperson/ Staff\nrendered by\nOSAS.\nClientele\n\n3. Accept the validated Release validated ID. | None | 1 minute | OSAS Director/\nID. | Chairperson/ Staff\nTOTAL: | None | 4 minutes\n\n5. Issuance of Good Moral Certificate (Undergraduate)\nThis process provides description and series of steps for assisting the students\nspecifically in the issuance of Good Moral Certificate\nOffice or Division: | Office of the Student Affairs and Services",
+        "score": 0.03036576949620428
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_812",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_812\nSECTION: PRICE: OFFICIAL STUDENT ID CARD FOR FIRST-YEAR STUDENTS\nPRICE: OFFICIAL STUDENT ID CARD FOR FIRST-YEAR STUDENTS\nSource: campus information supplied by the maintainer (September 2026). The Citizen's Charter lists Php 100.00 for ID processing without saying who pays it; confirm at the BAO.\nThe official ID card is free for first-year students and is obtained at the Business Affairs Office (BAO).",
+        "score": 0.02964426877470356
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Student ID\nh:definition: Secured from the Business Affairs Office.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Student ID"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Student ID\nh:definition: Secured from the Business Affairs Office.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Student ID"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Processing of Student ID\na:availedAt -> Business Affairs Office [a:Office_BusinessAffairsOffice]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: V. Business Affairs, Marketing and Production Office, Service 1: Processing of Student ID, p. 13\na:totalFeeText: Php 100.00\na:totalProcessingTime: 4 minutes\na:whoMayAvail: Students, Employees and Alumni\nh:additionalInfo: If it is not found, go to the Business Affairs Office (BAO), which handles student ID processing; the Citizen's Charter lists Php 100.00 for ID processing and the ID lace costs Php 130, but the replacement fee and steps for a lost ID are not documented, so ask BAO.\nh:additionalInfo: If you FOUND an ID, hand it to the guard office (the Guard House at the main gate, on the left as you enter) or to the student council (the Supreme Student Council or your college's student council), who can return it to its owner.\nh:additionalInfo: If you LOST your ID, check the guard office and the student council first, because found IDs are turned in there.\nh:additionalInfo: The Citizen's Charter lists a fee of Php 100.00, while campus information says the official ID is free for first-year students; the sources do not say which students pay the Php 100.00, so confirm at BAO.\nh:additionalInfo: The Handbook requires wearing the University ID at all times on campus (not doing so is a minor offense), so replace it as soon as you can.\nh:additionalInfo: You bring your Certificate of Registration (COR), scan the QR code or fill out the Google Form, wait for your data to be encoded and the ID printed, then sign the logbook.\nh:audience: All students\nh:audience: New students\nh:definition: ID processing for students, employees, and alumni.\nh:hasStep -> Step 1: Scan QR code / fill out Google form [a:StudentID_Step1]\nh:requiresDocument -> Certificate of Registration (COR) [a:Doc_CORForID]\nh:sourceArticle: Citizen's Charter 2026, Business Affairs, Marketing and Production Office, Service 1, p. 13\nh:sourceArticle: Found-ID hand-in points: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. ID processing: Citizen's Charter 2026, Business Affairs Office, Service 1, p. 13. Wearing the ID: Handbook Chapter 6, Article 3, Sec. 4\nh:verificationNote: The Citizen's Charter lists Php 100.00 for ID processing; the maintainer reports the ID card is free for first-year students and the lace costs Php 130. Confirm at BAO which students pay Php 100.00.\nh:verificationNote: The lost-ID replacement fee and process were not supplied; confirm at BAO.\nrdf:type -> Service [a:Service]\nrdfs:label: Processing of Student ID\nrdfs:seeAlso -> Wear School ID and Uniform at All Times [h:Duty_WearIDAndUniform]\nrdfs:seeAlso -> Location of Guard House [h:Loc_GuardHouse]\nrdfs:seeAlso -> Supreme Student Council [h:Org_SupremeStudentCouncil]\nrdfs:seeAlso -> Official student ID card for first-year students [h:Price_IDCardFirstYear]\nrdfs:seeAlso -> ID lace (lanyard) [h:Price_IDLace]"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 1: Present required documents (verification of student status/entries)\na:agencyAction: Verifies if the student is qualified to avail RA No. 10931 (Free Higher Education) / checks the Registration Form or Clearance for completeness of entry, as applicable.\na:clientAction: Presents required documents: undergraduates via Registrar's online registration; graduate students; senior high school students (represented by parent/authorized rep); or students with adding/dropping/cancellation of subjects.\na:hasFeeText: None\na:hasProcessingTime: 15 seconds per client type\na:sourceSection: III. Accounting Office, Service 2: Assessment of Fees, Step 1, p. 9-10\nh:nextStep -> Accounting fee-assessment service — Step 2: Assessment of school fees [a:AssessFees_Step2]\nh:performedBy -> Administrative Aide VI [a:Role_AdministrativeAideVI]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Present required documents (verification of student status/entries)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Student ID (for student number verification)\nh:definition: Supplied by the client/student.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Student ID (for student number verification)"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Student ID\nh:definition: Secured from the Business Affairs Office.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Student ID\n\nAPPROXIMATE MATCH (not an exhaustive result): Student ID\nh:definition: Secured from the Business Affairs Office.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Student ID\n\nAPPROXIMATE MATCH (not an exhaustive result): Processing of Student ID\na:availedAt -> Business Affairs Office [a:Office_BusinessAffairsOffice]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: V. Business Affairs, Marketing and Production Office, Service 1: Processing of Student ID, p. 13\na:totalFeeText: Php 100.00\na:totalProcessingTime: 4 minutes\na:whoMayAvail: Students, Employees and Alumni\nh:additionalInfo: If it is not found, go to the Business Affairs Office (BAO), which handles student ID processing; the Citizen's Charter lists Php 100.00 for ID processing and the ID lace costs Php 130, but the replacement fee and steps for a lost ID are not documented, so a",
+    "answer_for_eval": "The steps for processing your student ID are as follows:\n\n1. Bring your Certificate of Registration (COR), scan the QR code, or fill out the Google Form.\n2. Present the required documents, including your COR, at the Business Affairs Office (BAO).\n3. Wait for your data to be encoded and your ID to be printed.\n4. Sign the logbook.\n5. Collect your ID.\n\nAdditional notes:\n- The processing fee is Php 100.00, but it is free for first-year students.\n- The total processing time is approximately 4 minutes.\n- If your ID is lost, go to the BAO for replacement, but the replacement fee and steps are not documented; confirm at BAO.",
+    "retrieval_query": "What are the steps for processing my student ID?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:Serv_ProcessingOfStudentID",
+              "a:hasStep",
+              "?step"
+            ]
+          ],
+          "select": [
+            "?step"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "?step",
+              "h:nextStep",
+              "?nextStep"
+            ]
+          ],
+          "select": [
+            "?nextStep"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown predicate",
+      "Unknown predicate"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 6.077999999979511
+  },
+  "answer": "The steps for processing your student ID are as follows:\n\n1. Bring your Certificate of Registration (COR), scan the QR code, or fill out the Google Form.\n2. Present the required documents, including your COR, at the Business Affairs Office (BAO).\n3. Wait for your data to be encoded and your ID to be printed.\n4. Sign the logbook.\n5. Collect your ID.\n\nAdditional notes:\n- The processing fee is Php 100.00, but it is free for first-year students.\n- The total processing time is approximately 4 minutes.\n- If your ID is lost, go to the BAO for replacement, but the replacement fee and steps are not documented; confirm at BAO.",
+  "pipeline_version": "oc-rag-3.0"
+}

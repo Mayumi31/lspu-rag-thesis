@@ -1,0 +1,90 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "where is the ccs faculty located?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_711",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_711\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nare at the gym end. The CCS Faculty Room, ITSO, TSL Room and the Psychology Lab/Logistics Office are at the gate end.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: CCS, College of Computer Studies building, computer laboratories, CCS dean's office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: CAS Building (College of Arts and Sciences)\nDirections from the main gate: From the main gate, turn right and walk past CBAA. CAS is the long purple building parallel to CCS, set back from the road. The CAS Dean's Office, the Faculty Room and the classrooms are inside.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: CAS, College of Arts and Sciences building.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: CTE Building (College of Teacher Education)\nDirections from the main gate: From the main gate, turn right and walk past Lacson Gym and CCS to the far end of the campus. CTE is the dark blue building group. The CTE Dean's Office, Faculty Room, GSAE Office and classrooms are inside.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.",
+        "score": 0.032018442622950824
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_799",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_799\nSECTION: STUDENT COUNCIL: COLLEGE OF COMPUTER STUDIES STUDENT COUNCIL (CCS-SC)\nSTUDENT COUNCIL: COLLEGE OF COMPUTER STUDIES STUDENT COUNCIL (CCS-SC)\nSource: campus information supplied by the maintainer (September 2026). The 2026 Gawad Parangal recognition was supplied by the maintainer and not independently confirmed.\nThe CCS Student Council (CCS-SC) is the student organization representing students of the College of Computer Studies. It handles CCS-related activities, programs, and student representation. LSPU recognized CCS-SC as its Most Outstanding Mother Organization in the 2026 Gawad Parangal.",
+        "score": 0.029827662395050816
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_714",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_714\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nand Tourism building, Cafe By The Bay, Guest House.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: COF Building (College of Fisheries)\nDirections from the main gate: From the main gate, turn left and walk past Joey Lina Gym along the road. The COF rooms are the last buildings on the left, along the road. The fish ponds and the COF Faculty Room building are behind them.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: COF, CF, College of Fisheries building, fish ponds.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: CCJE Building (College of Criminal Justice Education)\nDirections from the main gate: Exit the main gate and follow the road to the right (northeast) until it bends. CCJE is on the right side of the road, with parking along its front. The rooms, Open Rooms and the CCJE Faculty Room are inside.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: CCJE, College of Criminal Justice Education building.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Cafeteria",
+        "score": 0.028006267136701922
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_712",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_712\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\ncampus. CTE is the dark blue building group. The CTE Dean's Office, Faculty Room, GSAE Office and classrooms are inside.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: CTE, College of Teacher Education building, GSAE office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: CBAA Building (College of Business Administration and Accountancy)\nDirections from the main gate: From the main gate, turn right and walk past the Hall and Gender and Development. CBAA is the long orange building whose hallway runs away from the road. The CBAA Function Hall, the Faculty Room and the Supreme Student Council are inside.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: CBAA, College of Business Administration and Accountancy building, Supreme Student Council office, SSC office, CBAA function hall.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: CFND Faculty (College of Food Nutrition and Dietetics)\nDirections from the main gate: From the main gate, turn left. The CFND rooms are beside the Guard House, on the gate side of the Administration Building.",
+        "score": 0.026553280111072546
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_798",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_798\nSECTION: STUDENT COUNCILS AT LSPU-LB: SUPREME STUDENT COUNCIL AND THE EIGHT COLLEGE COUNCILS\nsits on the Board. At LSPU-LB it is the main campus-wide student government: it represents students and helps organize campus-wide activities, programs, and student initiatives.\nCollege councils: College of Arts and Sciences Student Council; College of Business Administration and Accountancy Student Council; College of Computer Studies Student Council (CCS-SC); College of Criminal Justice Education Student Council; College of Fisheries Student Council; College of Food Nutrition and Dietetics Student Council; College of Hospitality Management and Tourism Student Council; College of Teacher Education Student Council. The official abbreviations of the councils other than CCS-SC were not supplied.",
+        "score": 0.025989268947015427
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Faculty\nrdf:type -> University Role [h:UniversityRole]\nrdfs:label: Faculty"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Location of CCS Building (College of Computer Studies)\nh:definition: From the main gate, turn right and walk toward Lacson Gym. CCS is the long red building running beside the gym, on the inner side. The Computer Laboratories and the CCS Dean's Office are at the gym end. The CCS Faculty Room, ITSO, TSL Room and the Psychology Lab/Logistics Office are at the gate end. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: From the main gate, turn right and walk toward Lacson Gym. CCS is the long red building running beside the gym, on the inner side. The Computer Laboratories and the CCS Dean's Office are at the gym end. The CCS Faculty Room, ITSO, TSL Room and the Psychology Lab/Logistics Office are at the gate end.\nh:housesCollege -> College of Computer Studies [p:CCS]\nh:housesOffice -> College of Computer Studies (CCS) Dean's Office [a:Office_Dean_CCS]\nh:housesOffice -> ICT Office (inside the CCS building) [h:ICTOffice]\nh:nearPlace -> Location of Lacson Gymnasium [h:Loc_LacsonGym]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: College building\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:label: Location of CCS Building (College of Computer Studies)"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_711\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nare at the gym end. The CCS Faculty Room, ITSO, TSL Room and the Psychology Lab/Logistics Office are at the gate end.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: CCS, College of Computer Studies building, computer laboratories, CCS dean's office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: CAS Building (College of Arts and Sciences)\nDirections from the main gate: From the main gate, turn right and walk past CBAA. CAS is the long purple building parallel to CCS, set back from the road. The CAS Dean's Office, the Faculty Room and the classrooms are inside.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: CAS, College of Arts and Sciences building.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: CTE Building (College of Teacher Education)\nDirections from the main gate: From the main gate, turn right and walk past Lacson Gym and CCS to the far end of the campus. CTE is the dark blue building group. The CTE Dean's Offi",
+    "answer_for_eval": "The CCS faculty is located in the College of Computer Studies building (CCS) at the gym end of the campus, in the LSPU-LB campus, Malinta, Los Baños, Laguna.",
+    "retrieval_query": "Where is the CCS faculty located?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Loc_CCS",
+              "h:housesCollege",
+              "p:CCS"
+            ]
+          ],
+          "select": [
+            "?location"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 7,
+    "elapsed_seconds": 8.64000000001397,
+    "retrieval_seconds": 6.467999999993481,
+    "generation_seconds": 2.172000000020489,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_711\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nare at the gym end. The CCS Faculty Room, ITSO, TSL Room and the Psychology Lab/Logistics Office are at the gate end.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: CCS, College of Computer Studies building, computer laboratories, CCS dean's office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: CAS Building (College of Arts and Sciences)\nDirections from the main gate: From the main gate, turn right and walk past CBAA. CAS is the long purple building parallel to CCS, set back from the road. The CAS Dean's Office, the Faculty Room and the classrooms are inside.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: CAS, College of Arts and Sciences building.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: CTE Building (College of Teacher Education)\nDirections from the main gate: From the main gate, turn right and walk past Lacson Gym and CCS to the far end of the campus. CTE is the dark blue building group. The CTE Dean's Office, Faculty Room, GSAE Office and classrooms are inside.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_799\nSECTION: STUDENT COUNCIL: COLLEGE OF COMPUTER STUDIES STUDENT COUNCIL (CCS-SC)\nSTUDENT COUNCIL: COLLEGE OF COMPUTER STUDIES STUDENT COUNCIL (CCS-SC)\nSource: campus information supplied by the maintainer (September 2026). The 2026 Gawad Parangal recognition was supplied by the maintainer and not independently confirmed.\nThe CCS Student Council (CCS-SC) is the student organization representing students of the College of Computer Studies. It handles CCS-related activities, programs, and student representation. LSPU recognized CCS-SC as its Most Outstanding Mother Organization in the 2026 Gawad Parangal.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_714\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nand Tourism building, Cafe By The Bay, Guest House.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: COF Building (College of Fisheries)\nDirections from the main gate: From the main gate, turn left and walk past Joey Lina Gym along the road. The COF rooms are the last buildings on the left, along the road. The fish ponds and the COF Faculty Room building are behind them.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: COF, CF, College of Fisheries building, fish ponds.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: CCJE Building (College of Criminal Justice Education)\nDirections from the main gate: Exit the main gate and follow the road to the right (northeast) until it bends. CCJE is on the right side of the road, with parking along its front. The rooms, Open Rooms and the CCJE Faculty Room are inside.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: CCJE, College of Criminal Justice Education building.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Cafeteria",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_712\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\ncampus. CTE is the dark blue building group. The CTE Dean's Office, Faculty Room, GSAE Office and classrooms are inside.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: CTE, College of Teacher Education building, GSAE office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: CBAA Building (College of Business Administration and Accountancy)\nDirections from the main gate: From the main gate, turn right and walk past the Hall and Gender and Development. CBAA is the long orange building whose hallway runs away from the road. The CBAA Function Hall, the Faculty Room and the Supreme Student Council are inside.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: CBAA, College of Business Administration and Accountancy building, Supreme Student Council office, SSC office, CBAA function hall.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: CFND Faculty (College of Food Nutrition and Dietetics)\nDirections from the main gate: From the main gate, turn left. The CFND rooms are beside the Guard House, on the gate side of the Administration Building.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_798\nSECTION: STUDENT COUNCILS AT LSPU-LB: SUPREME STUDENT COUNCIL AND THE EIGHT COLLEGE COUNCILS\nsits on the Board. At LSPU-LB it is the main campus-wide student government: it represents students and helps organize campus-wide activities, programs, and student initiatives.\nCollege councils: College of Arts and Sciences Student Council; College of Business Administration and Accountancy Student Council; College of Computer Studies Student Council (CCS-SC); College of Criminal Justice Education Student Council; College of Fisheries Student Council; College of Food Nutrition and Dietetics Student Council; College of Hospitality Management and Tourism Student Council; College of Teacher Education Student Council. The official abbreviations of the councils other than CCS-SC were not supplied.",
+      "APPROXIMATE MATCH (not an exhaustive result): Faculty\nrdf:type -> University Role [h:UniversityRole]\nrdfs:label: Faculty",
+      "APPROXIMATE MATCH (not an exhaustive result): Location of CCS Building (College of Computer Studies)\nh:definition: From the main gate, turn right and walk toward Lacson Gym. CCS is the long red building running beside the gym, on the inner side. The Computer Laboratories and the CCS Dean's Office are at the gym end. The CCS Faculty Room, ITSO, TSL Room and the Psychology Lab/Logistics Office are at the gate end. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: From the main gate, turn right and walk toward Lacson Gym. CCS is the long red building running beside the gym, on the inner side. The Computer Laboratories and the CCS Dean's Office are at the gym end. The CCS Faculty Room, ITSO, TSL Room and the Psychology Lab/Logistics Office are at the gate end.\nh:housesCollege -> College of Computer Studies [p:CCS]\nh:housesOffice -> College of Computer Studies (CCS) Dean's Office [a:Office_Dean_CCS]\nh:housesOffice -> ICT Office (inside the CCS building) [h:ICTOffice]\nh:nearPlace -> Location of Lacson Gymnasium [h:Loc_LacsonGym]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: College building\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:label: Location of CCS Building (College of Computer Studies)"
+    ]
+  },
+  "answer": "The CCS faculty is located in the College of Computer Studies building (CCS) at the gym end of the campus, in the LSPU-LB campus, Malinta, Los Baños, Laguna.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

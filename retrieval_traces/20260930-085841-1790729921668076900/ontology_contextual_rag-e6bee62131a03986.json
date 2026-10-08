@@ -1,0 +1,194 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which office handles scholarships and financial assistance, and where is it?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_162",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_162\nSECTION: 4. Evaluate the Services\n4. Evaluate the Services\nIssue Confirm fulfillment | OSAS Director /\nrendered by OSAS. | of evaluation. | None | 5 minutes | Chairperson\nOSAS Staff\n5. Accept the Good Moral | Release | Good | OSAS Director /\nCertificate. Signing in | Moral Certificate. | None | 5 minutes | Chairperson\nthe Logbook. | OSAS Staff\n1 hour and 15\nTOTAL: | None\nminutes\n\nIX. | SCHOLARSHIP AND FINANCIAL ASSISTANCE\n1. Processing of Scholarship and Financial Assistance\nThis process provides description and series of steps for assisting the public\nspecifically processing of scholarship and financial assistance.\n\nOffice or Division: | Scholarship and Financial Assistance Unit\nClassification: | Simple\nType of Transaction: | G2C, G2G, G2B\nWho may avail: | ALL\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nApplication Form for Scholarship and Financial | Scholarship and Financial Assistance Office/ SFA\nAssistance | Page (Online)\nApplication Form (CHED Form) | CHED Official Page/ Scholarship and Financial\nAssistance Office/ SFA Page (Online)\nCertified True Copy of Grades | Registrar\nCertified True Copy of Certificate of Registration Registrar\nFinancial Documents | DSWD and BIR Office",
+        "score": 0.06530936012691699
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_163",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_163\nSECTION: 4. Evaluate the Services\nOffice/ SFA Page (Online)\nCertified True Copy of Grades | Registrar\nCertified True Copy of Certificate of Registration Registrar\nFinancial Documents | DSWD and BIR Office\nNotarized Certificate of No Employment and No | Law Office\nScholarship\nCopy of ID with 3 specimen/Signature | BAO Office/ Student\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Applying for | Verification of the | None | 2 minutes | Scholarship and\nScholarship | qualification of the | Financial Assistance\nthrough online or | applicants | Director/Chairperson\nactual application. | and Technical Staff\n2. Fill out application Issues application | None | 2 minutes | Scholarship and\nform. (SFA | form through online or | Financial Assistance\nForm/CHED | actual application | Director/Chairperson\nForm/ Other | based on the | and Technical Staff\nforms) | scholarship program\nthey are applying for.\n3. Submit scholarship Checked the filled-up | None | 3 minutes | Scholarship and\nand/or CHED form form and the | Financial Assistance\nand other | requirements for the | Director/Chairperson\ndocumentary | approval of their | and Technical Staff\nrequirements. | scholarship or financial",
+        "score": 0.06350006400409626
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_717",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_717\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nStudent ID processing is handled by this office.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: BAO, Business Affairs, where to process student ID.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Scholarship and Financial Assistance (SFA) Office\nDirections from the main gate: From the main gate, walk straight in. The Scholarship and Financial Assistance office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: SFA, scholarship office, financial assistance office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Office of the Registrar\nDirections from the main gate: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: Registrar, registrar's office, where to get COR TOR.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Campus Library",
+        "score": 0.06233293048402157
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_450",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_450\nSECTION: Chapter 3 | Article 10. Scholarships. Scholarship grants and all other forms of financial assistance shall be awarded in accordance with pertinent rules and regulations.\nArticle 10. Scholarships. Scholarship grants and all other forms of financial assistance shall be awarded in accordance with pertinent rules and regulations.\n\nSec. 1. Academic Scholars\n\n1.1. Government and Private Company Scholarship. Scholarship and study grants by government and private companies or individuals are also available for needy and deserving students.\n\n1.4. Only one (1) government/public office scholarship is allowed for every qualified scholar.\n\nSec. 2. Non-academic Scholars\n\n2.1. Varsity Scholars. The university provides incentives to deserving and dedicated athletes. This scholarship is divided into:\n\n2.1.1. Full Scholarship/Training Allowance: SCUAA medalists whether gold, silver or bronze; grade average of 2.0 for the semester immediately proceeding; and possess good moral character\n\n2.1.2. Half Scholarship/Training Allowance: point contributors in SCUAA; SCUAA finalists; average grade of 2.5 and maximum grade of 2.0.\n\n2.2. Advanced ROTC\n\n2.3. Cultural and the Performing Arts\n\n2.4. Band Member\n\n2.5. Student Government (President)\n\n2.6. Publication (Editor-in-Chief)",
+        "score": 0.06172111085714492
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_164",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_164\nSECTION: 4. Evaluate the Services\nthe | Financial Assistance\nand other | requirements for the | Director/Chairperson\ndocumentary | approval of their | and Technical Staff\nrequirements. | scholarship or financial\nassistance.\n\n22",
+        "score": 0.06156066156066156
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?office\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?office=Scholarship and Financial Assistance Unit\nProcessing of Scholarship and Financial Assistance [a:Serv_ProcessingOfScholarshipAndFinancialAssistance] --a:availedAt--> Scholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit]\nTYPE of Scholarship and Financial Assistance Unit: h:Office\nTYPE of Processing of Scholarship and Financial Assistance: a:Service\nSOURCE/QUALIFIER for Processing of Scholarship and Financial Assistance: h:sourceArticle = Citizen's Charter 2026, Scholarship and Financial Assistance, Service 1, p. 22-23\nSOURCE/QUALIFIER for Processing of Scholarship and Financial Assistance: a:sourceSection = IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, p. 22\nSOURCE/QUALIFIER for Processing of Scholarship and Financial Assistance: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 20; distinct values by variable = {\"?location\": 20}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?location=Location of Cashier and Accounting Office\nAccounting [a:Office_Accounting] --h:locatedAtPlace--> Location of Cashier and Accounting Office [h:Loc_CashierAccounting]\nCashier [a:Office_Cashier] --h:locatedAtPlace--> Location of Cashier and Accounting Office [h:Loc_CashierAccounting]\nTYPE of Accounting: h:Office\nTYPE of Cashier: h:Office\nTYPE of Location of Cashier and Accounting Office: h:CampusPlace\nSOURCE/QUALIFIER for Location of Cashier and Accounting Office: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 2: ?location=Location of Administration Building and Campus Director's Office\nAlumni Affairs and Placement Services [a:Office_AlumniAffairsAndPlacementServices] --h:locatedAtPlace--> Location of Administration Building and Campus Director's Office [h:Loc_AdminBuilding]\nInternal Audit Unit [a:Office_InternalAuditUnit] --h:locatedAtPlace--> Location of Administration Building and Campus Director's Office [h:Loc_AdminBuilding]\nManagement information system [a:Office_ManagementInformationSystem] --h:locatedAtPlace--> Location of Administration Building and Campus Director's Office [h:Loc_AdminBuilding]\nOffice of the Campus Director [a:Office_OfficeOfTheCampusDirector] --h:locatedAtPlace--> Location of Administration Building and Campus Director's Office [h:Loc_AdminBuilding]\nRecords Management Office [a:Office_RecordsManagementOffice] --h:locatedAtPlace--> Location of Administration Building and Campus Director's Office [h:Loc_AdminBuilding]\nSupply and Property Management Unit [a:Office_SupplyAndPropertyManagementUnit] --h:locatedAtPlace--> Location of Administration Building and Campus Director's Office [h:Loc_AdminBuilding]\nTYPE of Alumni Affairs and Placement Services: h:Office\nTYPE of Internal Audit Unit: h:Office\nTYPE of Management information system: h:Office\nTYPE of Office of the Campus Director: h:Office\nTYPE of Records Management Office: h:Office\nTYPE of Supply and Property Management Unit: h:Office\nTYPE of Location of Administration Building and Campus Director's Office: h:CampusPlace\nSOURCE/QUALIFIER for Location of Administration Building and Campus Director's Office: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 3: ?location=Location of Business Affairs Office (BAO)\nBusiness Affairs Office [a:Office_BusinessAffairsOffice] --h:locatedAtPlace--> Location of Business Affairs Office (BAO) [h:Loc_BAO]\nTYPE of Business Affairs Office: h:Office\nSOURCE/QUALIFIER for Business Affairs Office: h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for Business Affairs Office: h:sourceArticle = Estimate computed by the ontology builder from the maintainer-supplied prices (2026-09); assumes one of each item\nSOURCE/QUALIFIER for Business Affairs Office: h:verificationNote = Prices reported in September 2026 and may change. Confirm whether the Php 500 PE price is per set.\nTYPE of Location of Business Affairs Office (BAO): h:CampusPlace\nSOURCE/QUALIFIER for Location of Business Affairs Office (BAO): h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 4: ?location=Location of CAS Building (College of Arts and Sciences)\nCollege of Arts and Sciences (CAS) Dean's Office [a:Office_Dean_CAS] --h:locatedAtPlace--> Location of CAS Building (College of Arts and Sciences) [h:Loc_CAS]\nTYPE of College of Arts and Sciences (CAS) Dean's Office: h:Office\nTYPE of Location of CAS Building (College of Arts and Sciences): h:CampusPlace\nSOURCE/QUALIFIER for Location of CAS Building (College of Arts and Sciences): h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 5: ?location=Location of CBAA Building (College of Business Administration and Accountancy)\nCollege of Business Administration and Accountancy (CBAA) Dean's Office [a:Office_Dean_CBAA] --h:locatedAtPlace--> Location of CBAA Building (College of Business Administration and Accountancy) [h:Loc_CBAA]\nTYPE of College of Business Administration and Accountancy (CBAA) Dean's Office: h:Office\nTYPE of Location of CBAA Building (College of Business Administration and Accountancy): h:CampusPlace\nSOURCE/QUALIFIER for Location of CBAA Building (College of Business Administration and Accountancy): h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 6: ?location=Location of CCJE Building (College of Criminal Justice Education)\nCollege of Criminal Justice Education (CCJE) Dean's Office [a:Office_Dean_CCJE] --h:locatedAtPlace--> Location of CCJE Building (College of Criminal Justice Education) [h:Loc_CCJE]\nTYPE of College of Criminal Justice Education (CCJE) Dean's Office: h:Office\nTYPE of Location of CCJE Building (College of Criminal Justice Education): h:CampusPlace\nSOURCE/QUALIFIER for Location of CCJE Building (College of Criminal Justice Education): h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 7: ?location=Location of CCS Building (College of Computer Studies)\nCollege of Computer Studies (CCS) Dean's Office [a:Office_Dean_CCS] --h:locatedAtPlace--> Location of CCS Building (College of Computer Studies) [h:Loc_CCS]\nICT Office (inside the CCS building) [h:ICTOffice] --h:locatedAtPlace--> Location of CCS Building (College of Computer Studies) [h:Loc_CCS]\nTYPE of College of Computer Studies (CCS) Dean's Office: h:Office\nTYPE of ICT Office (inside the CCS building): h:Office\nSOURCE/QUALIFIER for ICT Office (inside the CCS building): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for ICT Office (inside the CCS building): h:verificationNote = Confirm that the ICT office and the ITSO on the campus map are the same office, and confirm its hours.\nSOURCE/QUALIFIER for ICT Office (inside the CCS building): h:verificationNote = Steps supplied by the maintainer, not the Handbook or Charter. Confirm the ICT office hours.\nTYPE of Location of CCS Building (College of Computer Studies): h:CampusPlace\nSOURCE/QUALIFIER for Location of CCS Building (College of Computer Studies): h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 8: ?location=Location of COF Building (College of Fisheries)\nCollege of Fisheries (CF) Dean's Office [a:Office_Dean_CF] --h:locatedAtPlace--> Location of COF Building (College of Fisheries) [h:Loc_COF]\nTYPE of College of Fisheries (CF) Dean's Office: h:Office\nTYPE of Location of COF Building (College of Fisheries): h:CampusPlace\nSOURCE/QUALIFIER for Location of COF Building (College of Fisheries): h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 9: ?location=Location of CFND Faculty (College of Food Nutrition and Dietetics)\nCollege of Food Nutrition and Dietetics (CFND) Dean's Office [a:Office_Dean_CFND] --h:locatedAtPlace--> Location of CFND Faculty (College of Food Nutrition and Dietetics) [h:Loc_CFND]\nTYPE of College of Food Nutrition and Dietetics (CFND) Dean's Office: h:Office\nTYPE of Location of CFND Faculty (College of Food Nutrition and Dietetics): h:CampusPlace\nSOURCE/QUALIFIER for Location of CFND Faculty (College of Food Nutrition and Dietetics): h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 10: ?location=Location of CHMT Building (College of Hospitality Management and Tourism)\nCollege of Hospitality Management and Tourism (CIHT) Dean's Office [a:Office_Dean_CIHT] --h:locatedAtPlace--> Location of CHMT Building (College of Hospitality Management and Tourism) [h:Loc_CHMT]\nTYPE of College of Hospitality Management and Tourism (CIHT) Dean's Office: h:Office\nTYPE of Location of CHMT Building (College of Hospitality Management and Tourism): h:CampusPlace\nSOURCE/QUALIFIER for Location of CHMT Building (College of Hospitality Management and Tourism): h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 11: ?location=Location of CTE Building (College of Teacher Education)\nCollege of Teacher Education (CTE) Dean's Office [a:Office_Dean_CTE] --h:locatedAtPlace--> Location of CTE Building (College of Teacher Education) [h:Loc_CTE]\nTYPE of College of Teacher Education (CTE) Dean's Office: h:Office\nTYPE of Location of CTE Building (College of Teacher Education): h:CampusPlace\nSOURCE/QUALIFIER for Location of CTE Building (College of Teacher Education): h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 12: ?location=Location of Gender and Development (GAD) Building\nGender and Development [a:Office_GenderAndDevelopment] --h:locatedAtPlace--> Location of Gender and Development (GAD) Building [h:Loc_GenderAndDevelopment]\nTYPE of Gender and Development: h:Office\nTYPE of Location of Gender and Development (GAD) Building: h:CampusPlace\nSOURCE/QUALIFIER for Location of Gender and Development (GAD) Building: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 13: ?location=Location of Campus Library\nLibrary [a:Office_Library] --h:locatedAtPlace--> Location of Campus Library [h:Loc_Library]\nTYPE of Library: h:Office\nTYPE of Location of Campus Library: h:CampusPlace\nSOURCE/QUALIFIER for Location of Campus Library: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 14: ?location=Location of NSTP Room\nNational Service Training Program [a:Office_NationalServiceTrainingProgram] --h:locatedAtPlace--> Location of NSTP Room [h:Loc_NSTP]\nTYPE of National Service Training Program: h:Office\nTYPE of Location of NSTP Room: h:CampusPlace\nSOURCE/QUALIFIER for Location of NSTP Room: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 15: ?location=Location of Office of the University President\nOffice of the University President [a:Office_OfficeOfTheUniversityPresident] --h:locatedAtPlace--> Location of Office of the University President [h:Loc_UniversityPresident]\nUDRRMO [a:Office_UDRRMO] --h:locatedAtPlace--> Location of Office of the University President [h:Loc_UniversityPresident]\nTYPE of Office of the University President: h:Office\nTYPE of UDRRMO: h:Office\nTYPE of Location of Office of the University President: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of the University President: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 16: ?location=Location of Scholarship and Financial Assistance (SFA) Office\nScholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit] --h:locatedAtPlace--> Location of Scholarship and Financial Assistance (SFA) Office [h:Loc_SFA]\nTYPE of Scholarship and Financial Assistance Unit: h:Office\nTYPE of Location of Scholarship and Financial Assistance (SFA) Office: h:CampusPlace\nSOURCE/QUALIFIER for Location of Scholarship and Financial Assistance (SFA) Office: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 17: ?location=Location of University Health Service / Clinic\nUniversity Health Service [a:Office_UniversityHealthService] --h:locatedAtPlace--> Location of University Health Service / Clinic [h:Loc_Clinic]\nTYPE of University Health Service: h:Office\nTYPE of Location of University Health Service / Clinic: h:CampusPlace\nSOURCE/QUALIFIER for Location of University Health Service / Clinic: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 18: ?location=Location of Office of Student Affairs and Services (OSAS) Building\nGuidance Office [h:GuidanceOffice] --h:locatedAtPlace--> Location of Office of Student Affairs and Services (OSAS) Building [h:Loc_OSAS]\nOffice of Student Affairs and Services (OSAS) [h:OSAS] --h:locatedAtPlace--> Location of Office of Student Affairs and Services (OSAS) Building [h:Loc_OSAS]\nTYPE of Guidance Office: h:Office\nTYPE of Location of Office of Student Affairs and Services (OSAS) Building: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of Student Affairs and Services (OSAS) Building: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nTYPE of Office of Student Affairs and Services (OSAS): h:Office"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 19: ?location=Location of Office of the Registrar\nOffice of the Registrar [h:OfficeOfTheRegistrar] --h:locatedAtPlace--> Location of Office of the Registrar [h:Loc_Registrar]\nTYPE of Location of Office of the Registrar: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of the Registrar: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nTYPE of Office of the Registrar: h:Office"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 20: ?location=Location of Guard House\nSafety and Security Management Office [h:SafetyAndSecurityManagementOffice] --h:locatedAtPlace--> Location of Guard House [h:Loc_GuardHouse]\nTYPE of Location of Guard House: h:CampusPlace\nSOURCE/QUALIFIER for Location of Guard House: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nTYPE of Safety and Security Management Office: h:Office"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?office\": 1}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?office=Scholarship and Financial Assistance Unit\nProcessing of Scholarship and Financial Assistance [a:Serv_ProcessingOfScholarshipAndFinancialAssistance] --a:availedAt--> Scholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit]\nTYPE of Scholarship and Financial Assistance Unit: h:Office\nTYPE of Processing of Scholarship and Financial Assistance: a:Service\nSOURCE/QUALIFIER for Processing of Scholarship and Financial Assistance: h:sourceArticle = Citizen's Charter 2026, Scholarship and Financial Assistance, Service 1, p. 22-23\nSOURCE/QUALIFIER for Processing of Scholarship and Financial Assistance: a:sourceSection = IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, p. 22\nSOURCE/QUALIFIER for Processing of Scholarship and Financial Assistance: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\n\nQUERY 2\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 20; dist",
+    "answer_for_eval": "The office that handles scholarships and financial assistance is the Scholarship and Financial Assistance Unit, and it is located in the LSPU-LB campus, Malinta, Los Baños, Laguna.",
+    "retrieval_query": "Which office handles scholarships and financial assistance, and where is it?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:Serv_ProcessingOfScholarshipAndFinancialAssistance",
+              "a:availedAt",
+              "?office"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "?office",
+              "h:locatedAtPlace",
+              "?location"
+            ]
+          ],
+          "select": [
+            "?location"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 28,
+    "elapsed_seconds": 4.25
+  },
+  "answer": "The office that handles scholarships and financial assistance is the Scholarship and Financial Assistance Unit, and it is located in the LSPU-LB campus, Malinta, Los Baños, Laguna.",
+  "pipeline_version": "oc-rag-3.0"
+}

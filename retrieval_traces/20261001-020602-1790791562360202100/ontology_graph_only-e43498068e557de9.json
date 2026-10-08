@@ -1,0 +1,56 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What grade range is needed for Summa Cum Laude?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Summa Cum Laude\nh:audience: Students\nh:eligibilityCriteria: Degree-course student with normal academic load, at least 75% of units completed in residence, at least 2 years residence, no grade below 2.0 in PE/NSTP/Euthenics/similar subjects, good moral character.\nh:gradeRangeText: 1.00 to 1.20\nh:sourceArticle: Chapter on Awards, Article 1, Sec. 2-3\nh:sourceArticle: Handbook, Awards, Article 1, Sec. 2-3\nrdf:type -> Academic Award [h:AcademicAward]\nrdfs:label: Summa Cum Laude"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Cum Laude\nh:audience: Students\nh:gradeRangeText: 1.46 to 1.75\nh:sourceArticle: Chapter on Awards, Article 1, Sec. 3.1\nrdf:type -> Academic Award [h:AcademicAward]\nrdfs:label: Cum Laude"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Summa Cum Laude\nh:audience: Students\nh:eligibilityCriteria: Degree-course student with normal academic load, at least 75% of units completed in residence, at least 2 years residence, no grade below 2.0 in PE/NSTP/Euthenics/similar subjects, good moral character.\nh:gradeRangeText: 1.00 to 1.20\nh:sourceArticle: Chapter on Awards, Article 1, Sec. 2-3\nh:sourceArticle: Handbook, Awards, Article 1, Sec. 2-3\nrdf:type -> Academic Award [h:AcademicAward]\nrdfs:label: Summa Cum Laude\n\nAPPROXIMATE MATCH (not an exhaustive result): Cum Laude\nh:audience: Students\nh:gradeRangeText: 1.46 to 1.75\nh:sourceArticle: Chapter on Awards, Article 1, Sec. 3.1\nrdf:type -> Academic Award [h:AcademicAward]\nrdfs:label: Cum Laude",
+    "answer_for_eval": "The grade range needed for Summa Cum Laude is 1.00 to 1.20.",
+    "retrieval_query": "What is the grade range needed for Summa Cum Laude?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Award_CumLaude",
+              "h:gradeRangeText",
+              {
+                "literal": "1.46 to 1.75"
+              }
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 2,
+    "elapsed_seconds": 11.84399999998277,
+    "retrieval_seconds": 11.139999999955762,
+    "generation_seconds": 0.7040000000270084,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Summa Cum Laude\nh:audience: Students\nh:eligibilityCriteria: Degree-course student with normal academic load, at least 75% of units completed in residence, at least 2 years residence, no grade below 2.0 in PE/NSTP/Euthenics/similar subjects, good moral character.\nh:gradeRangeText: 1.00 to 1.20\nh:sourceArticle: Chapter on Awards, Article 1, Sec. 2-3\nh:sourceArticle: Handbook, Awards, Article 1, Sec. 2-3\nrdf:type -> Academic Award [h:AcademicAward]\nrdfs:label: Summa Cum Laude",
+      "APPROXIMATE MATCH (not an exhaustive result): Cum Laude\nh:audience: Students\nh:gradeRangeText: 1.46 to 1.75\nh:sourceArticle: Chapter on Awards, Article 1, Sec. 3.1\nrdf:type -> Academic Award [h:AcademicAward]\nrdfs:label: Cum Laude"
+    ]
+  },
+  "answer": "The grade range needed for Summa Cum Laude is 1.00 to 1.20.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

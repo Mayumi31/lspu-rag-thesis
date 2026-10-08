@@ -1,0 +1,93 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "magkano pamasahe papunta sa campus?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_825",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_825\nSECTION: CAMPUS LOCATION: TRANSPORTATION TO THE CAMPUS (TRICYCLES) AND THE HALL\nCAMPUS LOCATION: TRANSPORTATION TO THE CAMPUS (TRICYCLES) AND THE HALL\nSource: campus information supplied by the maintainer and the project team (September 2026); campus map.\nTricycles: tricycles are waiting outside the main gate, nearby along the road. The fare is about 20 pesos from nearby barangays; it costs more if you come from farther away, and you may need to take 2 rides. The 20-peso fare may change. Jeepney and bus routes and fares (for example from Calamba, the Los Baños poblacion or UPLB) are not documented.\nThe Hall: the Hall is the open space with a roof that you see when you enter the main gate. It is just inside the gate, on your right. It is an open covered space and a landmark used in many directions (for example \"walk past the Hall\").",
+        "score": 0.03225806451612903
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_722",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_722\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nfrom the main gate: From the main gate, the nearest comfort room is beside Gender and Development, at the CBAA end. There are also comfort rooms in the CBAA, CCS and CTE buildings. There is a comfort room in the Administration Building. There is one near the CHMT rooms, beside the Guest House. There are Men's and Women's rooms by the stage of Joey Lina Gym. There is one in the COF building behind the fish ponds.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: restroom, CR, toilet, bathroom.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Transportation to the Campus (Tricycles)\nDirections from the main gate: Tricycles are waiting outside the main gate, nearby along the road. The fare is 20 pesos.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: tricycle, fare, how to commute, tricycle fare.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nCOLLEGE OF ARTS AND SCIENCES (CAS) — Psychology (major inferred), 4 years\nPATHFIT 1 — Movement Competency Training (MCT)\nCAS | Year 1, Sem 1 | Units: 2 Basic movement competency and fitness training.",
+        "score": 0.03028233151183971
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_807",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_807\nSECTION: PRICE: OFFICIAL UNIFORM (FABRIC ONLY)\nPRICE: OFFICIAL UNIFORM (FABRIC ONLY)\nSource: campus information supplied by the maintainer (September 2026).\nThe official uniform costs about Php 600 to 800, depending on the fabric. The campus sells only the fabric, so you must find a tailor to sew the polo and pants; the tailoring cost is extra and is not included. The fabric is sold at the Business Affairs Office (BAO).",
+        "score": 0.027777777777777776
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_808",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_808\nSECTION: PRICE: UNIVERSITY SHIRT\nPRICE: UNIVERSITY SHIRT\nSource: campus information supplied by the maintainer (September 2026).\nThe University shirt costs Php 400 and is sold at the Business Affairs Office (BAO). It is worn every Wednesday.",
+        "score": 0.01639344262295082
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_730",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_730\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nscientific coursework.\nGE ELECT 3 — Gender and Society\nCAS | Year 2, Sem 1 | Units: 3 Examines gender roles, identities, and inequalities within social and cultural contexts. Students critically analyze how gender shapes institutions, relationships, and opportunities. The course fosters awareness of gender-related issues relevant to psychological practice.\nPSY 1 — Developmental Psychology\nCAS | Year 2, Sem 1 | Units: 3 | Prerequisite: BC PSY (incomplete in source) Studies human development across the lifespan, from infancy through late adulthood. Students learn theories of cognitive, social, and emotional development at each life stage. This course underlies much of the later coursework on personality and clinical psychology.\nPATHFit 3 — Choice of Dance, Sports, Martial Arts, Group Exercise, Outdoor and Adventure Activities\nCAS | Year 2, Sem 1 | Units: 2 | Prerequisite: PATHFit 2 Lets students choose a specialized physical activity track based on personal interest. Emphasizes sustained engagement in a chosen discipline. It gives students more autonomy in shaping their physical education path.\nGEC 107 — Science, Technology and Society",
+        "score": 0.015873015873015872
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Location of Transportation to the Campus (Tricycles)\nh:audience: New students, visitors\nh:definition: Tricycles are waiting outside the main gate, nearby along the road. The fare is about 20 pesos from nearby barangays; it costs more if you come from farther away, and you may need to take 2 rides. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: Tricycles are waiting outside the main gate, nearby along the road. The fare is about 20 pesos from nearby barangays; it costs more if you come from farther away, and you may need to take 2 rides.\nh:nearPlace -> Location of Campus Main Gate and Entrance [h:Loc_MainGate]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: Transport\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nh:verificationNote: Fare and route information come from the project team and the maintainer. Jeepney and bus routes and fares from specific places are NOT documented.\nh:verificationNote: Specific jeepney or bus routes and fares from Calamba, the Los Baños poblacion or UPLB are not documented here.\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:comment: The 20-peso fare is as reported by the project team and the maintainer, applies to nearby barangays, and may change. Jeepney and bus routes and fares are not documented.\nrdfs:label: Location of Transportation to the Campus (Tricycles)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Travel Order\nh:definition: Secured from: Office of the Campus Director.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Travel Order"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_825\nSECTION: CAMPUS LOCATION: TRANSPORTATION TO THE CAMPUS (TRICYCLES) AND THE HALL\nCAMPUS LOCATION: TRANSPORTATION TO THE CAMPUS (TRICYCLES) AND THE HALL\nSource: campus information supplied by the maintainer and the project team (September 2026); campus map.\nTricycles: tricycles are waiting outside the main gate, nearby along the road. The fare is about 20 pesos from nearby barangays; it costs more if you come from farther away, and you may need to take 2 rides. The 20-peso fare may change. Jeepney and bus routes and fares (for example from Calamba, the Los Baños poblacion or UPLB) are not documented.\nThe Hall: the Hall is the open space with a roof that you see when you enter the main gate. It is just inside the gate, on your right. It is an open covered space and a landmark used in many directions (for example \"walk past the Hall\").\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_722\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nfrom the main gate: From the main gate, the nearest comfort room is beside Gender and Development, at the CBAA end. There are also comfort rooms in the CBAA, CCS an",
+    "answer_for_eval": "The pamasahe papunta sa campus gamit ang tricycle ay humigit-kumulang 20 pesos mula sa mga kalapit na barangay.",
+    "retrieval_query": "How much is the fare to the campus?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?service",
+              "rdf:type",
+              "a:Service"
+            ],
+            [
+              "?service",
+              "a:hasCategory",
+              "a:ServiceCategory"
+            ]
+          ],
+          "select": [
+            "?service"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown predicate",
+      "Query 1 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 7,
+    "elapsed_seconds": 6.73399999999674,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_825\nSECTION: CAMPUS LOCATION: TRANSPORTATION TO THE CAMPUS (TRICYCLES) AND THE HALL\nCAMPUS LOCATION: TRANSPORTATION TO THE CAMPUS (TRICYCLES) AND THE HALL\nSource: campus information supplied by the maintainer and the project team (September 2026); campus map.\nTricycles: tricycles are waiting outside the main gate, nearby along the road. The fare is about 20 pesos from nearby barangays; it costs more if you come from farther away, and you may need to take 2 rides. The 20-peso fare may change. Jeepney and bus routes and fares (for example from Calamba, the Los Baños poblacion or UPLB) are not documented.\nThe Hall: the Hall is the open space with a roof that you see when you enter the main gate. It is just inside the gate, on your right. It is an open covered space and a landmark used in many directions (for example \"walk past the Hall\").",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_722\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nfrom the main gate: From the main gate, the nearest comfort room is beside Gender and Development, at the CBAA end. There are also comfort rooms in the CBAA, CCS and CTE buildings. There is a comfort room in the Administration Building. There is one near the CHMT rooms, beside the Guest House. There are Men's and Women's rooms by the stage of Joey Lina Gym. There is one in the COF building behind the fish ponds.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: restroom, CR, toilet, bathroom.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Transportation to the Campus (Tricycles)\nDirections from the main gate: Tricycles are waiting outside the main gate, nearby along the road. The fare is 20 pesos.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: tricycle, fare, how to commute, tricycle fare.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nCOLLEGE OF ARTS AND SCIENCES (CAS) — Psychology (major inferred), 4 years\nPATHFIT 1 — Movement Competency Training (MCT)\nCAS | Year 1, Sem 1 | Units: 2 Basic movement competency and fitness training.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_807\nSECTION: PRICE: OFFICIAL UNIFORM (FABRIC ONLY)\nPRICE: OFFICIAL UNIFORM (FABRIC ONLY)\nSource: campus information supplied by the maintainer (September 2026).\nThe official uniform costs about Php 600 to 800, depending on the fabric. The campus sells only the fabric, so you must find a tailor to sew the polo and pants; the tailoring cost is extra and is not included. The fabric is sold at the Business Affairs Office (BAO).",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_808\nSECTION: PRICE: UNIVERSITY SHIRT\nPRICE: UNIVERSITY SHIRT\nSource: campus information supplied by the maintainer (September 2026).\nThe University shirt costs Php 400 and is sold at the Business Affairs Office (BAO). It is worn every Wednesday.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_730\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nscientific coursework.\nGE ELECT 3 — Gender and Society\nCAS | Year 2, Sem 1 | Units: 3 Examines gender roles, identities, and inequalities within social and cultural contexts. Students critically analyze how gender shapes institutions, relationships, and opportunities. The course fosters awareness of gender-related issues relevant to psychological practice.\nPSY 1 — Developmental Psychology\nCAS | Year 2, Sem 1 | Units: 3 | Prerequisite: BC PSY (incomplete in source) Studies human development across the lifespan, from infancy through late adulthood. Students learn theories of cognitive, social, and emotional development at each life stage. This course underlies much of the later coursework on personality and clinical psychology.\nPATHFit 3 — Choice of Dance, Sports, Martial Arts, Group Exercise, Outdoor and Adventure Activities\nCAS | Year 2, Sem 1 | Units: 2 | Prerequisite: PATHFit 2 Lets students choose a specialized physical activity track based on personal interest. Emphasizes sustained engagement in a chosen discipline. It gives students more autonomy in shaping their physical education path.\nGEC 107 — Science, Technology and Society",
+      "APPROXIMATE MATCH (not an exhaustive result): Location of Transportation to the Campus (Tricycles)\nh:audience: New students, visitors\nh:definition: Tricycles are waiting outside the main gate, nearby along the road. The fare is about 20 pesos from nearby barangays; it costs more if you come from farther away, and you may need to take 2 rides. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: Tricycles are waiting outside the main gate, nearby along the road. The fare is about 20 pesos from nearby barangays; it costs more if you come from farther away, and you may need to take 2 rides.\nh:nearPlace -> Location of Campus Main Gate and Entrance [h:Loc_MainGate]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: Transport\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nh:verificationNote: Fare and route information come from the project team and the maintainer. Jeepney and bus routes and fares from specific places are NOT documented.\nh:verificationNote: Specific jeepney or bus routes and fares from Calamba, the Los Baños poblacion or UPLB are not documented here.\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:comment: The 20-peso fare is as reported by the project team and the maintainer, applies to nearby barangays, and may change. Jeepney and bus routes and fares are not documented.\nrdfs:label: Location of Transportation to the Campus (Tricycles)",
+      "APPROXIMATE MATCH (not an exhaustive result): Travel Order\nh:definition: Secured from: Office of the Campus Director.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Travel Order"
+    ]
+  },
+  "answer": "The pamasahe papunta sa campus gamit ang tricycle ay humigit-kumulang 20 pesos mula sa mga kalapit na barangay.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

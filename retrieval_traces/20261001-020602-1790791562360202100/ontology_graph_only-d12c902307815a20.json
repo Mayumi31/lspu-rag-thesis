@@ -1,0 +1,73 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What is the minimum GWA needed to apply, by program?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Admission of foreign students and Filipinos who graduated from high school abroad\nh:appliesToStudentType -> Foreign/International Student [h:StudentType_Foreign]\nh:audience: Foreign applicants, Filipinos who studied abroad\nh:definition: A foreign applicant who graduated from a high school abroad and has not enrolled in the University may be admitted to the freshman class if they (1) submit complete secondary-school academic documents; (2) qualify in an accepted national or international examination: GCE with 3 ordinary-level and 2 advanced-level passes, or SAT with a minimum total score of 1200, or an International Baccalaureate Diploma, or an equivalent examination; and (3) if their native language or medium of instruction in secondary school is not English, score at least 500 (paper-based) or 173 (computer-based) on the TOEFL. Filipinos who graduated from a secondary school abroad and apply for freshman admission must meet the same requirements. An applicant transferring from another Philippine school should secure a permit to transfer from the Commission on Higher Education (CHED).\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Foreign Students Admission)\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Foreign Students Admission: Requirements for Beginning Freshmen)\nh:verificationNote: 'ISS office' is not defined in the source; confirm with the Registrar.\nh:verificationNote: The source calls the TOEFL the 'Test of English or Foreign Language'; the standard name is Test of English as a Foreign Language. Exam requirements are transcribed from the website as supplied.\nrdf:type -> Policy [h:Policy]\nrdfs:label: Admission of foreign students and Filipinos who graduated from high school abroad\nrdfs:seeAlso -> Temporary study permit for foreign students [h:Policy_StudyPermit]"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): p:AdmReq_BSCrim\np:minimumGeneralWeightedAverage: 85.0\np:sourceDocument: LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nrdf:type -> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): p:AdmReq_BSNutritionDietetics\np:minimumGeneralWeightedAverage: 90.0\np:sourceDocument: LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nrdf:type -> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Admission of foreign students and Filipinos who graduated from high school abroad\nh:appliesToStudentType -> Foreign/International Student [h:StudentType_Foreign]\nh:audience: Foreign applicants, Filipinos who studied abroad\nh:definition: A foreign applicant who graduated from a high school abroad and has not enrolled in the University may be admitted to the freshman class if they (1) submit complete secondary-school academic documents; (2) qualify in an accepted national or international examination: GCE with 3 ordinary-level and 2 advanced-level passes, or SAT with a minimum total score of 1200, or an International Baccalaureate Diploma, or an equivalent examination; and (3) if their native language or medium of instruction in secondary school is not English, score at least 500 (paper-based) or 173 (computer-based) on the TOEFL. Filipinos who graduated from a secondary school abroad and apply for freshman admission must meet the same requirements. An applicant transferring from another Philippine school should secure a permit to transfer from the Commission on Higher Education (CHED).\nh:sourceArticle: LSPU official website admission pag",
+    "answer_for_eval": "The minimum GWA needed to apply by program is:\n- Bachelor of Science in Criminology (BSCrim): 85.0\n- Bachelor of Science in Nutrition and Dietetics (BSNutritionDietetics): 90.0",
+    "retrieval_query": "What is the minimum GWA needed to apply by program?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:AdmReq_BSCrim",
+              "p:minimumGeneralWeightedAverage",
+              "?minGWA"
+            ],
+            [
+              "p:AdmReq_BSCrim",
+              "p:hasProgram",
+              "?program"
+            ]
+          ],
+          "select": [
+            "?minGWA"
+          ],
+          "filters": [
+            {
+              "var": "?program",
+              "op": "eq",
+              "value": {
+                "literal": "p:Program"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Invalid filter value"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 3,
+    "elapsed_seconds": 9.187999999965541,
+    "retrieval_seconds": 5.7189999999827705,
+    "generation_seconds": 3.4689999999827705,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Admission of foreign students and Filipinos who graduated from high school abroad\nh:appliesToStudentType -> Foreign/International Student [h:StudentType_Foreign]\nh:audience: Foreign applicants, Filipinos who studied abroad\nh:definition: A foreign applicant who graduated from a high school abroad and has not enrolled in the University may be admitted to the freshman class if they (1) submit complete secondary-school academic documents; (2) qualify in an accepted national or international examination: GCE with 3 ordinary-level and 2 advanced-level passes, or SAT with a minimum total score of 1200, or an International Baccalaureate Diploma, or an equivalent examination; and (3) if their native language or medium of instruction in secondary school is not English, score at least 500 (paper-based) or 173 (computer-based) on the TOEFL. Filipinos who graduated from a secondary school abroad and apply for freshman admission must meet the same requirements. An applicant transferring from another Philippine school should secure a permit to transfer from the Commission on Higher Education (CHED).\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Foreign Students Admission)\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Foreign Students Admission: Requirements for Beginning Freshmen)\nh:verificationNote: 'ISS office' is not defined in the source; confirm with the Registrar.\nh:verificationNote: The source calls the TOEFL the 'Test of English or Foreign Language'; the standard name is Test of English as a Foreign Language. Exam requirements are transcribed from the website as supplied.\nrdf:type -> Policy [h:Policy]\nrdfs:label: Admission of foreign students and Filipinos who graduated from high school abroad\nrdfs:seeAlso -> Temporary study permit for foreign students [h:Policy_StudyPermit]",
+      "APPROXIMATE MATCH (not an exhaustive result): p:AdmReq_BSCrim\np:minimumGeneralWeightedAverage: 85.0\np:sourceDocument: LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nrdf:type -> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]",
+      "APPROXIMATE MATCH (not an exhaustive result): p:AdmReq_BSNutritionDietetics\np:minimumGeneralWeightedAverage: 90.0\np:sourceDocument: LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nrdf:type -> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]"
+    ]
+  },
+  "answer": "The minimum GWA needed to apply by program is:\n- Bachelor of Science in Criminology (BSCrim): 85.0\n- Bachelor of Science in Nutrition and Dietetics (BSNutritionDietetics): 90.0",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

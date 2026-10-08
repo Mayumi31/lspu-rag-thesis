@@ -1,0 +1,76 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What is the difference between a COR and a COG?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Copy of Grades (COG)\nh:additionalInfo: COG (Copy of Grades): Official record of your grades for a semester issued by the Registrar; its information is also shown on the LSPU Portal.\nh:definition: Official record of a student's grades for a given semester issued by the Office of the Registrar at the end of each semester. Also indicates enrollment status flags such as Warning, Probation, Dismissal, Disqualification, or INC. Used by the College Dean for retention evaluation and by the student to monitor academic standing via the LSPU Portal.\nh:issuedBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:sourceArticle: Chapter 3, Article 5, Sec. 8.1.1\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Copy of Grades (COG)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Certificate of Registration (COR)\nh:additionalInfo: COR (Certificate of Registration): Document certifying you are officially enrolled for the semester; required for admission to classes and for processing a student ID. View it on the portal or claim a printed copy from the Registrar.\nh:definition: Document certifying that a student is officially enrolled for a given semester. Required for admission to classes. Signed by authorized university officials.\nh:issuedBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:sourceArticle: Chapter 3, Article 2, Sec. 2.8\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Certificate of Registration (COR)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Portal function: view Certificate of Registration (COR)\nh:definition: After enrollment, students log in to the student portal to view their COR (about 3 minutes). Students who paid at the Cashier may instead claim a printed COR at the Office of the Registrar (about 20 minutes).\nh:functionOf -> LSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal]\nh:sourceArticle: Citizen's Charter 2026, Registrar, Service 1: Enrollment, Step 4, p. 3\nrdf:type -> Platform Function [h:PlatformFunction]\nrdfs:label: Portal function: view Certificate of Registration (COR)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 4: Issuance of Certificate of Registration (COR)\na:agencyAction: Issues Certificate of Registration (COR).\na:clientAction: New/old college students log in to the student portal to view the Certificate of Registration (COR); students who paid at the Cashier proceed to the Office of the Registrar to claim the printed COR.\na:hasFeeText: None\na:hasProcessingTime: 3 minutes (view online) / 20 minutes (claim printed copy)\na:sourceSection: I. Office of the Registrar, Service 1: Enrollment, Step 4, p. 3\nh:performedBy -> Registrar's Staff [a:Role_RegistrarStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 4: Issuance of Certificate of Registration (COR)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Disqualification\nh:definition: Enrollment-status flag that may appear on a student's Copy of Grades (COG) alongside warning, probation, or dismissal.\nh:sourceArticle: Sec. 8.1.1.1\nrdf:type -> Academic Status [h:AcademicStatus]\nrdfs:label: Disqualification"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Copy of Grades (COG)\nh:additionalInfo: COG (Copy of Grades): Official record of your grades for a semester issued by the Registrar; its information is also shown on the LSPU Portal.\nh:definition: Official record of a student's grades for a given semester issued by the Office of the Registrar at the end of each semester. Also indicates enrollment status flags such as Warning, Probation, Dismissal, Disqualification, or INC. Used by the College Dean for retention evaluation and by the student to monitor academic standing via the LSPU Portal.\nh:issuedBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:sourceArticle: Chapter 3, Article 5, Sec. 8.1.1\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Copy of Grades (COG)\n\nAPPROXIMATE MATCH (not an exhaustive result): Certificate of Registration (COR)\nh:additionalInfo: COR (Certificate of Registration): Document certifying you are officially enrolled for the semester; required for admission to classes and for processing a student ID. View it on the portal or claim a printed copy from the Registrar.\nh:definition: Document certifying that a student is officially enrolled for a given semeste",
+    "answer_for_eval": "A COR (Certificate of Registration) is a document certifying that a student is officially enrolled for a semester, required for admission to classes and for processing a student ID. It is issued by the Office of the Registrar and can be viewed online via the student portal or claimed as a printed copy from the Registrar.\n\nA COG (Copy of Grades) is an official record of a student's grades for a semester, issued by the Registrar. It also indicates enrollment status flags such as Warning, Probation, Dismissal, Disqualification, or INC, and is used for retention evaluation and academic standing monitoring.\n\nThe main difference is that the COR certifies enrollment status for a semester, while the COG provides academic performance and status information for that semester.",
+    "retrieval_query": "What is the difference between a COR and a COG?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Doc_CertificateOfRegistration",
+              "rdf:type",
+              "h:Document"
+            ],
+            [
+              "h:Doc_CertificateOfRegistration",
+              "rdfs:label",
+              {
+                "literal": "Certificate of Registration (COR)"
+              }
+            ]
+          ],
+          "select": [
+            "?x"
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 4.5,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Copy of Grades (COG)\nh:additionalInfo: COG (Copy of Grades): Official record of your grades for a semester issued by the Registrar; its information is also shown on the LSPU Portal.\nh:definition: Official record of a student's grades for a given semester issued by the Office of the Registrar at the end of each semester. Also indicates enrollment status flags such as Warning, Probation, Dismissal, Disqualification, or INC. Used by the College Dean for retention evaluation and by the student to monitor academic standing via the LSPU Portal.\nh:issuedBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:sourceArticle: Chapter 3, Article 5, Sec. 8.1.1\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Copy of Grades (COG)",
+      "APPROXIMATE MATCH (not an exhaustive result): Certificate of Registration (COR)\nh:additionalInfo: COR (Certificate of Registration): Document certifying you are officially enrolled for the semester; required for admission to classes and for processing a student ID. View it on the portal or claim a printed copy from the Registrar.\nh:definition: Document certifying that a student is officially enrolled for a given semester. Required for admission to classes. Signed by authorized university officials.\nh:issuedBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:sourceArticle: Chapter 3, Article 2, Sec. 2.8\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Certificate of Registration (COR)",
+      "APPROXIMATE MATCH (not an exhaustive result): Portal function: view Certificate of Registration (COR)\nh:definition: After enrollment, students log in to the student portal to view their COR (about 3 minutes). Students who paid at the Cashier may instead claim a printed COR at the Office of the Registrar (about 20 minutes).\nh:functionOf -> LSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal]\nh:sourceArticle: Citizen's Charter 2026, Registrar, Service 1: Enrollment, Step 4, p. 3\nrdf:type -> Platform Function [h:PlatformFunction]\nrdfs:label: Portal function: view Certificate of Registration (COR)",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 4: Issuance of Certificate of Registration (COR)\na:agencyAction: Issues Certificate of Registration (COR).\na:clientAction: New/old college students log in to the student portal to view the Certificate of Registration (COR); students who paid at the Cashier proceed to the Office of the Registrar to claim the printed COR.\na:hasFeeText: None\na:hasProcessingTime: 3 minutes (view online) / 20 minutes (claim printed copy)\na:sourceSection: I. Office of the Registrar, Service 1: Enrollment, Step 4, p. 3\nh:performedBy -> Registrar's Staff [a:Role_RegistrarStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 4: Issuance of Certificate of Registration (COR)",
+      "APPROXIMATE MATCH (not an exhaustive result): Disqualification\nh:definition: Enrollment-status flag that may appear on a student's Copy of Grades (COG) alongside warning, probation, or dismissal.\nh:sourceArticle: Sec. 8.1.1.1\nrdf:type -> Academic Status [h:AcademicStatus]\nrdfs:label: Disqualification"
+    ]
+  },
+  "answer": "A COR (Certificate of Registration) is a document certifying that a student is officially enrolled for a semester, required for admission to classes and for processing a student ID. It is issued by the Office of the Registrar and can be viewed online via the student portal or claimed as a printed copy from the Registrar.\n\nA COG (Copy of Grades) is an official record of a student's grades for a semester, issued by the Registrar. It also indicates enrollment status flags such as Warning, Probation, Dismissal, Disqualification, or INC, and is used for retention evaluation and academic standing monitoring.\n\nThe main difference is that the COR certifies enrollment status for a semester, while the COG provides academic performance and status information for that semester.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

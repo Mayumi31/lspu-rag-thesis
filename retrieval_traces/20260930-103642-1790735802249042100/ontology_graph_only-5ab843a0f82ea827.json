@@ -1,0 +1,84 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What are the requirements for the half varsity scholarship?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Varsity Scholarship — Half Scholarship/Training Allowance\nh:benefitDescription: Half Scholarship/Training Allowance\nh:eligibilityCriteria: SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0.\nh:sourceArticle: Chapter 3, Article 10, Sec. 2.1.2\nrdf:type -> Non-academic Scholarship [h:NonAcademicScholarship]\nrdfs:label: Varsity Scholarship — Half Scholarship/Training Allowance"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Varsity Scholarship — Full Scholarship/Training Allowance\nh:benefitDescription: Full Scholarship/Training Allowance\nh:eligibilityCriteria: SCUAA medalist (gold, silver, or bronze); grade average of 2.0 for the preceding semester; good moral character.\nh:sourceArticle: Chapter 3, Article 10, Sec. 2.1.1\nrdf:type -> Non-academic Scholarship [h:NonAcademicScholarship]\nrdfs:label: Varsity Scholarship — Full Scholarship/Training Allowance"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 1: Apply for scholarship\na:agencyAction: Verifies the qualification of the applicant.\na:clientAction: Applies for scholarship through online or actual application.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, Step 1, p. 22\nh:nextStep -> Step 2: Fill out application form [a:Scholarship_Step2]\nh:performedBy -> Scholarship and Financial Assistance Director/Chairperson and Technical Staff [a:Role_SFADirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Apply for scholarship"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 3: Submit scholarship/CHED form and documentary requirements\na:agencyAction: Checks the filled-out form and the requirements for approval of the scholarship or financial assistance.\na:clientAction: Submits the scholarship and/or CHED form and other documentary requirements.\na:hasFeeText: None\na:hasProcessingTime: 3 minutes\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, Step 3, p. 22\nh:nextStep -> Step 4: Request for certification [a:Scholarship_Step4]\nh:performedBy -> Scholarship and Financial Assistance Director/Chairperson and Technical Staff [a:Role_SFADirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 3: Submit scholarship/CHED form and documentary requirements"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Scholarship and Financial Assistance Unit\nh:additionalInfo: Go to this office for: scholarships.\nh:definition: The unit that processes scholarship and financial assistance applications.\nh:locatedAtPlace -> Location of Scholarship and Financial Assistance (SFA) Office [h:Loc_SFA]\nrdf:type -> Office [h:Office]\nrdfs:label: Scholarship and Financial Assistance Unit"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Varsity Scholarship — Half Scholarship/Training Allowance\nh:benefitDescription: Half Scholarship/Training Allowance\nh:eligibilityCriteria: SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0.\nh:sourceArticle: Chapter 3, Article 10, Sec. 2.1.2\nrdf:type -> Non-academic Scholarship [h:NonAcademicScholarship]\nrdfs:label: Varsity Scholarship — Half Scholarship/Training Allowance\n\nAPPROXIMATE MATCH (not an exhaustive result): Varsity Scholarship — Full Scholarship/Training Allowance\nh:benefitDescription: Full Scholarship/Training Allowance\nh:eligibilityCriteria: SCUAA medalist (gold, silver, or bronze); grade average of 2.0 for the preceding semester; good moral character.\nh:sourceArticle: Chapter 3, Article 10, Sec. 2.1.1\nrdf:type -> Non-academic Scholarship [h:NonAcademicScholarship]\nrdfs:label: Varsity Scholarship — Full Scholarship/Training Allowance\n\nAPPROXIMATE MATCH (not an exhaustive result): Step 1: Apply for scholarship\na:agencyAction: Verifies the qualification of the applicant.\na:clientAction: Applies for scholarship through online or actual application.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes",
+    "answer_for_eval": "The requirements for the half varsity scholarship are:\n- Be a SCUAA point contributor or finalist\n- Have an average grade of 2.5 or better, with a maximum grade of 2.0",
+    "retrieval_query": "What are the requirements for the half varsity scholarship?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Schol_VarsityHalf",
+              "rdf:type",
+              "h:NonAcademicScholarship"
+            ],
+            [
+              "h:Schol_VarsityHalf",
+              "h:benefitDescription",
+              {
+                "literal": "Half Scholarship/Training Allowance"
+              }
+            ],
+            [
+              "h:Schol_VarsityHalf",
+              "h:eligibilityCriteria",
+              {
+                "literal": "SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0."
+              }
+            ]
+          ],
+          "select": [
+            "?scholarship"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 7.594000000040978,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Varsity Scholarship — Half Scholarship/Training Allowance\nh:benefitDescription: Half Scholarship/Training Allowance\nh:eligibilityCriteria: SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0.\nh:sourceArticle: Chapter 3, Article 10, Sec. 2.1.2\nrdf:type -> Non-academic Scholarship [h:NonAcademicScholarship]\nrdfs:label: Varsity Scholarship — Half Scholarship/Training Allowance",
+      "APPROXIMATE MATCH (not an exhaustive result): Varsity Scholarship — Full Scholarship/Training Allowance\nh:benefitDescription: Full Scholarship/Training Allowance\nh:eligibilityCriteria: SCUAA medalist (gold, silver, or bronze); grade average of 2.0 for the preceding semester; good moral character.\nh:sourceArticle: Chapter 3, Article 10, Sec. 2.1.1\nrdf:type -> Non-academic Scholarship [h:NonAcademicScholarship]\nrdfs:label: Varsity Scholarship — Full Scholarship/Training Allowance",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 1: Apply for scholarship\na:agencyAction: Verifies the qualification of the applicant.\na:clientAction: Applies for scholarship through online or actual application.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, Step 1, p. 22\nh:nextStep -> Step 2: Fill out application form [a:Scholarship_Step2]\nh:performedBy -> Scholarship and Financial Assistance Director/Chairperson and Technical Staff [a:Role_SFADirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Apply for scholarship",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 3: Submit scholarship/CHED form and documentary requirements\na:agencyAction: Checks the filled-out form and the requirements for approval of the scholarship or financial assistance.\na:clientAction: Submits the scholarship and/or CHED form and other documentary requirements.\na:hasFeeText: None\na:hasProcessingTime: 3 minutes\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, Step 3, p. 22\nh:nextStep -> Step 4: Request for certification [a:Scholarship_Step4]\nh:performedBy -> Scholarship and Financial Assistance Director/Chairperson and Technical Staff [a:Role_SFADirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 3: Submit scholarship/CHED form and documentary requirements",
+      "APPROXIMATE MATCH (not an exhaustive result): Scholarship and Financial Assistance Unit\nh:additionalInfo: Go to this office for: scholarships.\nh:definition: The unit that processes scholarship and financial assistance applications.\nh:locatedAtPlace -> Location of Scholarship and Financial Assistance (SFA) Office [h:Loc_SFA]\nrdf:type -> Office [h:Office]\nrdfs:label: Scholarship and Financial Assistance Unit"
+    ]
+  },
+  "answer": "The requirements for the half varsity scholarship are:\n- Be a SCUAA point contributor or finalist\n- Have an average grade of 2.5 or better, with a maximum grade of 2.0",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

@@ -1,0 +1,43 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "How many tardiness instances count as one absence?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?x=3\nTardiness/Unexcused Absences [h:Tardiness] --h:tardinessInstancesPerAbsence--> \"3\"\nCONFLICTING SOURCE for Attendance / Dropping Policy: h:definition = Undergraduate students accumulating absences equal to at least 25% of total class hours in a semester shall be dropped; withdrawing before mid-term exams permits dropping without prejudice.\nCONFLICTING SOURCE for Attendance / Dropping Policy: h:sourceArticle = Article 9, Sec. 4.1\nTYPE of Tardiness/Unexcused Absences: h:MinorOffense\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:sourceArticle = Ch.6 Art.3 Sec.1\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:verificationNote = Chapter 6 Article 3 Section 1 states 17%; other attendance/dropping sections state 25%. Preserve section scope and disclose conflicting thresholds rather than treating one as universally controlling."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?x=3\nTardiness/Unexcused Absences [h:Tardiness] --h:tardinessInstancesPerAbsence--> \"3\"\nCONFLICTING SOURCE for Attendance / Dropping Policy: h:definition = Undergraduate students accumulating absences equal to at least 25% of total class hours in a semester shall be dropped; withdrawing before mid-term exams permits dropping without prejudice.\nCONFLICTING SOURCE for Attendance / Dropping Policy: h:sourceArticle = Article 9, Sec. 4.1\nTYPE of Tardiness/Unexcused Absences: h:MinorOffense\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:sourceArticle = Ch.6 Art.3 Sec.1\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:verificationNote = Chapter 6 Article 3 Section 1 states 17%; other attendance/dropping sections state 25%. Preserve section scope and disclose conflicting thresholds rather than treating one as universally controlling.",
+    "answer_for_eval": "Three tardiness instances count as one absence.",
+    "retrieval_query": "How many tardiness instances count as one absence?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Tardiness",
+              "h:tardinessInstancesPerAbsence",
+              "?x"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 4.375,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?x=3\nTardiness/Unexcused Absences [h:Tardiness] --h:tardinessInstancesPerAbsence--> \"3\"\nCONFLICTING SOURCE for Attendance / Dropping Policy: h:definition = Undergraduate students accumulating absences equal to at least 25% of total class hours in a semester shall be dropped; withdrawing before mid-term exams permits dropping without prejudice.\nCONFLICTING SOURCE for Attendance / Dropping Policy: h:sourceArticle = Article 9, Sec. 4.1\nTYPE of Tardiness/Unexcused Absences: h:MinorOffense\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:sourceArticle = Ch.6 Art.3 Sec.1\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:verificationNote = Chapter 6 Article 3 Section 1 states 17%; other attendance/dropping sections state 25%. Preserve section scope and disclose conflicting thresholds rather than treating one as universally controlling."
+    ]
+  },
+  "answer": "Three tardiness instances count as one absence.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What programs does the College of Computer Studies offer?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The College of Computer Studies at LSPU-LB offers programs related to computer science and information technology. Specific programs are not listed in the provided evidence.",
+    "retrieval_query": "What programs does the College of Computer Studies offer?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.8280000000377186,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.8280000000377186,
+    "selected_contexts": []
+  },
+  "answer": "The College of Computer Studies at LSPU-LB offers programs related to computer science and information technology. Specific programs are not listed in the provided evidence.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

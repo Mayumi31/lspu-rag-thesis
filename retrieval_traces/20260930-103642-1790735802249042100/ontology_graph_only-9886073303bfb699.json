@@ -1,0 +1,45 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Which office handles enrollment each semester?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?office=Office of the Registrar\nEnrollment [a:Serv_Enrollment] --a:availedAt--> Office of the Registrar [h:OfficeOfTheRegistrar]\nTYPE of Enrollment: a:Service\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nSOURCE/QUALIFIER for Enrollment: a:sourceSection = I. Office of the Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\nTYPE of Office of the Registrar: h:Office"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?office=Office of the Registrar\nEnrollment [a:Serv_Enrollment] --a:availedAt--> Office of the Registrar [h:OfficeOfTheRegistrar]\nTYPE of Enrollment: a:Service\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nSOURCE/QUALIFIER for Enrollment: a:sourceSection = I. Office of the Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\nTYPE of Office of the Registrar: h:Office",
+    "answer_for_eval": "The Office of the Registrar handles enrollment each semester.",
+    "retrieval_query": "Which office handles enrollment each semester",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:Serv_Enrollment",
+              "a:availedAt",
+              "?office"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: h:Office_Registrar"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 5.578000000037719,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?office=Office of the Registrar\nEnrollment [a:Serv_Enrollment] --a:availedAt--> Office of the Registrar [h:OfficeOfTheRegistrar]\nTYPE of Enrollment: a:Service\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nSOURCE/QUALIFIER for Enrollment: a:sourceSection = I. Office of the Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\nTYPE of Office of the Registrar: h:Office"
+    ]
+  },
+  "answer": "The Office of the Registrar handles enrollment each semester.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

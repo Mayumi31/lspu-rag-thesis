@@ -1,0 +1,65 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What kinds of attire are prohibited on campus?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?definition=Prescribed uniform must be worn in classroom sessions; P.E. uniform only during P.E. classes; University t-shirt every Wednesday, department shirt every Friday. Prohibited campus attire includes: shorts/walking shorts/cycling shorts, pedal pushers, capri pants, cargo shorts, mutilated/jazzed pants, faded/torn/wrinkled shirts, jogging pants, miniskirts, sleeveless/backless/halter/spaghetti-strap tops, sandos, plunging necklines, leggings, and slippers. A student violating the uniform provision is not allowed to enter the University gates unless a promissory note/communication letter from OSAS is presented.\nSchool Uniform and Dress Code Policy [h:Policy_DressCode] --h:definition--> \"Prescribed uniform must be worn in classroom sessions; P.E. uniform only during P.E. classes; University t-shirt every Wednesday, department shirt every Friday. Prohibited campus attire includes: shorts/walking shorts/cycling shorts, pedal pushers, capri pants, cargo shorts, mutilated/jazzed pants, faded/torn/wrinkled shirts, jogging pants, miniskirts, sleeveless/backless/halter/spaghetti-strap tops, sandos, plunging necklines, leggings, and slippers. A student violating the uniform provision is not allowed to enter the University gates unless a promissory note/communication letter from OSAS is presented.\"\nTYPE of School Uniform and Dress Code Policy: h:Policy\nSOURCE/QUALIFIER for School Uniform and Dress Code Policy: h:sourceArticle = Chapter 6, Article 4, Sec. 1"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?definition=University t-shirt is worn every Wednesday and department shirt every Friday; blue jeans/maong trousers following the dress code are acceptable on these days. Wearing of inappropriate campus attire on washdays (Wednesday) and inter-semester classes is classified as a minor offense (Art. 4, Sec. 1.3), but the handbook publishes no sanction tier for it — verified against the source text, this is a genuine gap, not a data-entry omission. On non-washdays, uniform violations are handled under lspu:NonWearingIDUniform.\nWearing of Inappropriate Student Campus Attire [h:InappropriateAttireWashdays] --h:definition--> \"University t-shirt is worn every Wednesday and department shirt every Friday; blue jeans/maong trousers following the dress code are acceptable on these days. Wearing of inappropriate campus attire on washdays (Wednesday) and inter-semester classes is classified as a minor offense (Art. 4, Sec. 1.3), but the handbook publishes no sanction tier for it \\u2014 verified against the source text, this is a genuine gap, not a data-entry omission. On non-washdays, uniform violations are handled under lspu:NonWearingIDUniform.\"\nTYPE of Wearing of Inappropriate Student Campus Attire: h:MinorOffense\nSOURCE/QUALIFIER for Wearing of Inappropriate Student Campus Attire: h:sourceArticle = Ch.6 Art.4 Sec.1.3"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?definition=Prescribed uniform must be worn in classroom sessions; P.E. uniform only during P.E. classes; University t-shirt every Wednesday, department shirt every Friday. Prohibited campus attire includes: shorts/walking shorts/cycling shorts, pedal pushers, capri pants, cargo shorts, mutilated/jazzed pants, faded/torn/wrinkled shirts, jogging pants, miniskirts, sleeveless/backless/halter/spaghetti-strap tops, sandos, plunging necklines, leggings, and slippers. A student violating the uniform provision is not allowed to enter the University gates unless a promissory note/communication letter from OSAS is presented.\nSchool Uniform and Dress Code Policy [h:Policy_DressCode] --h:definition--> \"Prescribed uniform must be worn in classroom sessions; P.E. uniform only during P.E. classes; University t-shirt every Wednesday, department shirt every Friday. Prohibited campus attire includes: shorts/walking shorts/cycling shorts, pedal pushers, capri pants, cargo shorts, mutilated/jazzed pants, faded/torn/wrinkled shirts, jogging pants, miniskirts, sleeveless/backless/halter/spaghetti-strap tops, sandos, plunging necklines, leggings, and slippers. A student violatin",
+    "answer_for_eval": "Prohibited attire on campus includes shorts/walking shorts/cycling shorts, pedal pushers, capri pants, cargo shorts, mutilated/jazzed pants, faded/torn/wrinkled shirts, jogging pants, miniskirts, sleeveless/backless/halter/spaghetti-strap tops, sandos, plunging necklines, leggings, and slippers.",
+    "retrieval_query": "What kinds of attire are prohibited on campus",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Policy_DressCode",
+              "h:definition",
+              "?definition"
+            ]
+          ],
+          "select": [
+            "?definition"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "h:InappropriateAttireWashdays",
+              "h:definition",
+              "?definition"
+            ]
+          ],
+          "select": [
+            "?definition"
+          ],
+          "filters": []
+        }
+      ],
+      "traversals": []
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 2,
+    "elapsed_seconds": 4.686999999976251,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?definition=Prescribed uniform must be worn in classroom sessions; P.E. uniform only during P.E. classes; University t-shirt every Wednesday, department shirt every Friday. Prohibited campus attire includes: shorts/walking shorts/cycling shorts, pedal pushers, capri pants, cargo shorts, mutilated/jazzed pants, faded/torn/wrinkled shirts, jogging pants, miniskirts, sleeveless/backless/halter/spaghetti-strap tops, sandos, plunging necklines, leggings, and slippers. A student violating the uniform provision is not allowed to enter the University gates unless a promissory note/communication letter from OSAS is presented.\nSchool Uniform and Dress Code Policy [h:Policy_DressCode] --h:definition--> \"Prescribed uniform must be worn in classroom sessions; P.E. uniform only during P.E. classes; University t-shirt every Wednesday, department shirt every Friday. Prohibited campus attire includes: shorts/walking shorts/cycling shorts, pedal pushers, capri pants, cargo shorts, mutilated/jazzed pants, faded/torn/wrinkled shirts, jogging pants, miniskirts, sleeveless/backless/halter/spaghetti-strap tops, sandos, plunging necklines, leggings, and slippers. A student violating the uniform provision is not allowed to enter the University gates unless a promissory note/communication letter from OSAS is presented.\"\nTYPE of School Uniform and Dress Code Policy: h:Policy\nSOURCE/QUALIFIER for School Uniform and Dress Code Policy: h:sourceArticle = Chapter 6, Article 4, Sec. 1",
+      "QUERY 2\nGRAPH RESULT 1: ?definition=University t-shirt is worn every Wednesday and department shirt every Friday; blue jeans/maong trousers following the dress code are acceptable on these days. Wearing of inappropriate campus attire on washdays (Wednesday) and inter-semester classes is classified as a minor offense (Art. 4, Sec. 1.3), but the handbook publishes no sanction tier for it — verified against the source text, this is a genuine gap, not a data-entry omission. On non-washdays, uniform violations are handled under lspu:NonWearingIDUniform.\nWearing of Inappropriate Student Campus Attire [h:InappropriateAttireWashdays] --h:definition--> \"University t-shirt is worn every Wednesday and department shirt every Friday; blue jeans/maong trousers following the dress code are acceptable on these days. Wearing of inappropriate campus attire on washdays (Wednesday) and inter-semester classes is classified as a minor offense (Art. 4, Sec. 1.3), but the handbook publishes no sanction tier for it \\u2014 verified against the source text, this is a genuine gap, not a data-entry omission. On non-washdays, uniform violations are handled under lspu:NonWearingIDUniform.\"\nTYPE of Wearing of Inappropriate Student Campus Attire: h:MinorOffense\nSOURCE/QUALIFIER for Wearing of Inappropriate Student Campus Attire: h:sourceArticle = Ch.6 Art.4 Sec.1.3"
+    ]
+  },
+  "answer": "Prohibited attire on campus includes shorts/walking shorts/cycling shorts, pedal pushers, capri pants, cargo shorts, mutilated/jazzed pants, faded/torn/wrinkled shirts, jogging pants, miniskirts, sleeveless/backless/halter/spaghetti-strap tops, sandos, plunging necklines, leggings, and slippers.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

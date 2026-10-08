@@ -1,0 +1,45 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Which CHED memorandum order covers the BSCS, BSIS and BSIT programs?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?legalBasis=Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasLegalBasis--> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?legalBasis=Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasLegalBasis--> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Sys",
+    "answer_for_eval": "The CHED memorandum order that covers the BSCS, BSIS, and BSIT programs is CMO 25 s2015.",
+    "retrieval_query": "Which CHED memorandum order covers the BSCS, BSIS, and BSIT programs?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSCS_IS",
+              "p:hasLegalBasis",
+              "?legalBasis"
+            ]
+          ],
+          "select": [
+            "?legalBasis"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 8.797000000020489,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?legalBasis=Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasLegalBasis--> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program"
+    ]
+  },
+  "answer": "The CHED memorandum order that covers the BSCS, BSIS, and BSIT programs is CMO 25 s2015.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

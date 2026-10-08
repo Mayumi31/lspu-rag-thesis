@@ -1,0 +1,47 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Where is the Guidance Office located?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?place=Location of Office of Student Affairs and Services (OSAS) Building\nGuidance Office [h:GuidanceOffice] --h:locatedAtPlace--> Location of Office of Student Affairs and Services (OSAS) Building [h:Loc_OSAS]\nLOCATION DETAIL for Location of Office of Student Affairs and Services (OSAS) Building: h:definition = From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nLOCATION DETAIL for Location of Office of Student Affairs and Services (OSAS) Building: h:directionsFromGate = From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there.\nTYPE of Guidance Office: h:Office\nTYPE of Location of Office of Student Affairs and Services (OSAS) Building: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of Student Affairs and Services (OSAS) Building: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?place=Location of Office of Student Affairs and Services (OSAS) Building\nGuidance Office [h:GuidanceOffice] --h:locatedAtPlace--> Location of Office of Student Affairs and Services (OSAS) Building [h:Loc_OSAS]\nLOCATION DETAIL for Location of Office of Student Affairs and Services (OSAS) Building: h:definition = From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nLOCATION DETAIL for Location of Office of Student Affairs and Services (OSAS) Building: h:directionsFromGate = From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there.\nTYPE of Guidance Office: h:Office\nTYPE of Location of Office of Student Affairs and Services (OSAS) Building: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of Student Affairs and Services (OSAS) Building: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter",
+    "answer_for_eval": "The Guidance Office is located in the Office of Student Affairs and Services (OSAS) Building at the LSPU Los Baños campus, Malinta, Los Baños, Laguna. From the main gate, turn right, walk past the Hall and Gender and Development, follow the CBAA hallway to the end, and the OSAS building is there.",
+    "retrieval_query": "Where is the Guidance Office located?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:GuidanceOffice",
+              "h:locatedAtPlace",
+              "?place"
+            ]
+          ],
+          "select": [
+            "?place"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 11.188000000023749,
+    "retrieval_seconds": 10.10999999998603,
+    "generation_seconds": 1.0780000000377186,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?place=Location of Office of Student Affairs and Services (OSAS) Building\nGuidance Office [h:GuidanceOffice] --h:locatedAtPlace--> Location of Office of Student Affairs and Services (OSAS) Building [h:Loc_OSAS]\nLOCATION DETAIL for Location of Office of Student Affairs and Services (OSAS) Building: h:definition = From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nLOCATION DETAIL for Location of Office of Student Affairs and Services (OSAS) Building: h:directionsFromGate = From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there.\nTYPE of Guidance Office: h:Office\nTYPE of Location of Office of Student Affairs and Services (OSAS) Building: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of Student Affairs and Services (OSAS) Building: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+    ]
+  },
+  "answer": "The Guidance Office is located in the Office of Student Affairs and Services (OSAS) Building at the LSPU Los Baños campus, Malinta, Los Baños, Laguna. From the main gate, turn right, walk past the Hall and Gender and Development, follow the CBAA hallway to the end, and the OSAS building is there.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

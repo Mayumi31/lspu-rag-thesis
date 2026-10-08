@@ -1,0 +1,66 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Is cyber bullying a minor or a major offense?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Cyber Bullying\nh:definition: Bullying done through the use of technology or any electronic means.\nh:hasSanctionTier -> h:Tier_CyberBullying_1 [h:Tier_CyberBullying_1]\nh:hasSanctionTier -> h:Tier_CyberBullying_2 [h:Tier_CyberBullying_2]\nh:hasSanctionTier -> h:Tier_CyberBullying_3 [h:Tier_CyberBullying_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.1\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Cyber Bullying"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Cyber Libel\nh:definition: Unlawful or prohibited acts of libel as defined in Article 355 of the Revised Penal Code, committed through a computer system or any other similar means.\nh:hasSanctionTier -> h:Tier_CyberLibel_1 [h:Tier_CyberLibel_1]\nh:isBasedOn -> Revised Penal Code, Art. 355 [h:RPCArt355]\nh:sourceArticle: Ch.6 Art.2 Sec.1.8\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Cyber Libel"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bullying — Severe/Repeated Act Causing Fear of Harm\nh:definition: Severe or repeated use of written or verbal expression, physical act or gesture, or combination thereof, directed against another student, causing or placing the latter in reasonable fear of physical or emotional harm or damage to property.\nh:hasSanctionTier -> h:Tier_Bullying_SevereRepeated_1 [h:Tier_Bullying_SevereRepeated_1]\nh:hasSanctionTier -> h:Tier_Bullying_SevereRepeated_2 [h:Tier_Bullying_SevereRepeated_2]\nh:hasSanctionTier -> h:Tier_Bullying_SevereRepeated_3 [h:Tier_Bullying_SevereRepeated_3]\nh:isBasedOn -> RA 10627 [h:RA10627]\nh:sourceArticle: Ch.6 Art.2 Sec.5.1\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Bullying — Severe/Repeated Act Causing Fear of Harm"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bullying — Creating a Hostile School Environment\nh:definition: Creating a hostile environment at school for another student, infringing on that student's rights at school, or materially and substantially disrupting the education process.\nh:hasSanctionTier -> h:Tier_Bullying_HostileEnvironment_1 [h:Tier_Bullying_HostileEnvironment_1]\nh:hasSanctionTier -> h:Tier_Bullying_HostileEnvironment_2 [h:Tier_Bullying_HostileEnvironment_2]\nh:hasSanctionTier -> h:Tier_Bullying_HostileEnvironment_3 [h:Tier_Bullying_HostileEnvironment_3]\nh:isBasedOn -> RA 10627 [h:RA10627]\nh:sourceArticle: Ch.6 Art.2 Sec.5.2\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Bullying — Creating a Hostile School Environment"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Cyber Bullying\nh:definition: Bullying done through the use of technology or any electronic means.\nh:hasSanctionTier -> h:Tier_CyberBullying_1 [h:Tier_CyberBullying_1]\nh:hasSanctionTier -> h:Tier_CyberBullying_2 [h:Tier_CyberBullying_2]\nh:hasSanctionTier -> h:Tier_CyberBullying_3 [h:Tier_CyberBullying_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.1\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Cyber Bullying\n\nAPPROXIMATE MATCH (not an exhaustive result): Cyber Libel\nh:definition: Unlawful or prohibited acts of libel as defined in Article 355 of the Revised Penal Code, committed through a computer system or any other similar means.\nh:hasSanctionTier -> h:Tier_CyberLibel_1 [h:Tier_CyberLibel_1]\nh:isBasedOn -> Revised Penal Code, Art. 355 [h:RPCArt355]\nh:sourceArticle: Ch.6 Art.2 Sec.1.8\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Cyber Libel\n\nAPPROXIMATE MATCH (not an exhaustive result): Bullying — Severe/Repeated Act Causing Fear of Harm\nh:definition: Severe or repeated use of written or verbal expression, physical act or gesture, or combination thereof, directed against another student, caus",
+    "answer_for_eval": "Cyber bullying is classified as a major offense.",
+    "retrieval_query": "Is cyber bullying a minor or a major offense?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:CyberBullying",
+              "rdf:type",
+              "h:MajorOffense"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 4,
+    "elapsed_seconds": 4.421999999962281,
+    "retrieval_seconds": 3.7339999999967404,
+    "generation_seconds": 0.6879999999655411,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Cyber Bullying\nh:definition: Bullying done through the use of technology or any electronic means.\nh:hasSanctionTier -> h:Tier_CyberBullying_1 [h:Tier_CyberBullying_1]\nh:hasSanctionTier -> h:Tier_CyberBullying_2 [h:Tier_CyberBullying_2]\nh:hasSanctionTier -> h:Tier_CyberBullying_3 [h:Tier_CyberBullying_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.1\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Cyber Bullying",
+      "APPROXIMATE MATCH (not an exhaustive result): Cyber Libel\nh:definition: Unlawful or prohibited acts of libel as defined in Article 355 of the Revised Penal Code, committed through a computer system or any other similar means.\nh:hasSanctionTier -> h:Tier_CyberLibel_1 [h:Tier_CyberLibel_1]\nh:isBasedOn -> Revised Penal Code, Art. 355 [h:RPCArt355]\nh:sourceArticle: Ch.6 Art.2 Sec.1.8\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Cyber Libel",
+      "APPROXIMATE MATCH (not an exhaustive result): Bullying — Severe/Repeated Act Causing Fear of Harm\nh:definition: Severe or repeated use of written or verbal expression, physical act or gesture, or combination thereof, directed against another student, causing or placing the latter in reasonable fear of physical or emotional harm or damage to property.\nh:hasSanctionTier -> h:Tier_Bullying_SevereRepeated_1 [h:Tier_Bullying_SevereRepeated_1]\nh:hasSanctionTier -> h:Tier_Bullying_SevereRepeated_2 [h:Tier_Bullying_SevereRepeated_2]\nh:hasSanctionTier -> h:Tier_Bullying_SevereRepeated_3 [h:Tier_Bullying_SevereRepeated_3]\nh:isBasedOn -> RA 10627 [h:RA10627]\nh:sourceArticle: Ch.6 Art.2 Sec.5.1\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Bullying — Severe/Repeated Act Causing Fear of Harm",
+      "APPROXIMATE MATCH (not an exhaustive result): Bullying — Creating a Hostile School Environment\nh:definition: Creating a hostile environment at school for another student, infringing on that student's rights at school, or materially and substantially disrupting the education process.\nh:hasSanctionTier -> h:Tier_Bullying_HostileEnvironment_1 [h:Tier_Bullying_HostileEnvironment_1]\nh:hasSanctionTier -> h:Tier_Bullying_HostileEnvironment_2 [h:Tier_Bullying_HostileEnvironment_2]\nh:hasSanctionTier -> h:Tier_Bullying_HostileEnvironment_3 [h:Tier_Bullying_HostileEnvironment_3]\nh:isBasedOn -> RA 10627 [h:RA10627]\nh:sourceArticle: Ch.6 Art.2 Sec.5.2\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Bullying — Creating a Hostile School Environment"
+    ]
+  },
+  "answer": "Cyber bullying is classified as a major offense.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

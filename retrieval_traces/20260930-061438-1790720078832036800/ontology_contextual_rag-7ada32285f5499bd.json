@@ -1,0 +1,257 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which CHED memorandum order covers the BSCS, BSIS and BSIT programs?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_65",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_65\nSECTION: CHED MEMORANDUM ORDER: CMO No. 25, s. 2015\nCHED MEMORANDUM ORDER: CMO No. 25, s. 2015\nTitle: Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nLSPU-LB programs covered by this CMO: Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program.\nProgram educational objectives:\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.",
+        "score": 0.03278688524590164
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_72",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_72\nSECTION: CHED MEMORANDUM ORDER: CMO No. 27, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 27, s. 2017\nTitle: Revised Policies, Standards and Guidelines for Bachelor of Science in Accountancy (BSA)\nLSPU-LB programs covered by this CMO: Bachelor of Science in Accountancy.\nProgram educational objectives:\n- Apply generally accepted accounting, auditing, and taxation principles to prepare and evaluate financial information with integrity.\n- Qualify for and succeed in the CPA Licensure Examination and subsequent professional accountancy practice.",
+        "score": 0.030834914611005692
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_74",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_74\nSECTION: CHED MEMORANDUM ORDER: CMO No. 34, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 34, s. 2017\nTitle: Policies and Standards for Undergraduate Programs in Psychology\nLSPU-LB programs covered by this CMO: Bachelor of Science in Psychology.\nProgram educational objectives:\n- Apply the scientific study of behavior and mental processes to understand individuals and groups across diverse settings.\n- Conduct psychological research and assessment ethically, and pursue further training or licensure (e.g. as a psychometrician) as warranted.",
+        "score": 0.030303030303030304
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_71",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_71\nSECTION: CHED MEMORANDUM ORDER: CMO No. 17, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 17, s. 2017\nTitle: Revised Policies, Standards and Guidelines for Bachelor of Science in Business Administration\nLSPU-LB programs covered by this CMO: Bachelor of Science in Business Administration - Major in Marketing Management; Bachelor of Science in Business Administration - Major in Financial Management.\nProgram educational objectives:\n- Apply core business, economic, and management principles to plan, organize, and evaluate business operations.\n- Exercise sound, ethical decision-making within a chosen business specialization in response to a changing market environment.",
+        "score": 0.029386529386529386
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_75",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_75\nSECTION: CHED MEMORANDUM ORDER: CMO No. 62, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 62, s. 2017\nTitle: Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM)\nLSPU-LB programs covered by this CMO: Bachelor of Science in Tourism Management; Bachelor of Science in Hospitality Management.\nProgram educational objectives:\n- Plan, deliver, and manage guest-centered tourism or hospitality operations that meet industry service standards.\n- Advance to supervisory or entrepreneurial roles within the tourism and hospitality industry through demonstrated operational and management competence.",
+        "score": 0.0293236301369863
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 23; distinct values by variable = {\"?cmo\": 14, \"?program\": 23}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?cmo=Policies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program; ?program=Bachelor of Science in Criminology\nPolicies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program [p:CMO_05_s2018] --p:isLegalBasisFor--> Bachelor of Science in Criminology [p:Prog_BSCrim]\nPolicies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program [p:CMO_05_s2018] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Criminology [p:Prog_BSCrim] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program: p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Criminology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?cmo=Policies, Standards and Guidelines for the Bachelor of Science in Food Technology; ?program=Bachelor of Science in Food Technology\nPolicies, Standards and Guidelines for the Bachelor of Science in Food Technology [p:CMO_07_s2019] --p:isLegalBasisFor--> Bachelor of Science in Food Technology [p:Prog_BSFoodTech]\nPolicies, Standards and Guidelines for the Bachelor of Science in Food Technology [p:CMO_07_s2019] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Food Technology [p:Prog_BSFoodTech] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for the Bachelor of Science in Food Technology: p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for the Bachelor of Science in Food Technology: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Food Technology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?cmo=Policies, Standards and Guidelines for the Bachelor of Science in Nutrition and Dietetics (BSND) Program; ?program=Bachelor of Science in Nutrition and Dietetics\nPolicies, Standards and Guidelines for the Bachelor of Science in Nutrition and Dietetics (BSND) Program [p:CMO_14_s2017] --p:isLegalBasisFor--> Bachelor of Science in Nutrition and Dietetics [p:Prog_BSNutritionDietetics]\nPolicies, Standards and Guidelines for the Bachelor of Science in Nutrition and Dietetics (BSND) Program [p:CMO_14_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Nutrition and Dietetics [p:Prog_BSNutritionDietetics] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for the Bachelor of Science in Nutrition and Dietetics (BSND) Program: p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for the Bachelor of Science in Nutrition and Dietetics (BSND) Program: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Nutrition and Dietetics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 4: ?cmo=Revised Policies, Standards and Guidelines for Bachelor of Science in Business Administration; ?program=Bachelor of Science in Business Administration - Major in Financial Management\nRevised Policies, Standards and Guidelines for Bachelor of Science in Business Administration [p:CMO_17_s2017] --p:isLegalBasisFor--> Bachelor of Science in Business Administration - Major in Financial Management [p:Prog_BSBA_FM]\nRevised Policies, Standards and Guidelines for Bachelor of Science in Business Administration [p:CMO_17_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Business Administration - Major in Financial Management [p:Prog_BSBA_FM] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Revised Policies, Standards and Guidelines for Bachelor of Science in Business Administration: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards and Guidelines for Bachelor of Science in Business Administration: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Business Administration - Major in Financial Management: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 5: ?cmo=Revised Policies, Standards and Guidelines for Bachelor of Science in Business Administration; ?program=Bachelor of Science in Business Administration - Major in Marketing Management\nRevised Policies, Standards and Guidelines for Bachelor of Science in Business Administration [p:CMO_17_s2017] --p:isLegalBasisFor--> Bachelor of Science in Business Administration - Major in Marketing Management [p:Prog_BSBA_MM]\nRevised Policies, Standards and Guidelines for Bachelor of Science in Business Administration [p:CMO_17_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Business Administration - Major in Marketing Management [p:Prog_BSBA_MM] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Revised Policies, Standards and Guidelines for Bachelor of Science in Business Administration: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards and Guidelines for Bachelor of Science in Business Administration: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Business Administration - Major in Marketing Management: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 6: ?cmo=Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs; ?program=Bachelor of Science in Computer Science - Major in Intelligent Systems\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS]\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 7: ?cmo=Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs; ?program=Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG]\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Information Technology - Major in Animation and Motion Graphics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 8: ?cmo=Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs; ?program=Bachelor of Science in Information Technology - Major in Service Management Program\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM]\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Information Technology - Major in Service Management Program: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 9: ?cmo=Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs; ?program=Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:isLegalBasisFor--> Bachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD]\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Information Technology - Major in Web and Mobile Application Development: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 10: ?cmo=Revised Policies, Standards and Guidelines for Bachelor of Science in Accountancy (BSA); ?program=Bachelor of Science in Accountancy\nRevised Policies, Standards and Guidelines for Bachelor of Science in Accountancy (BSA) [p:CMO_27_s2017] --p:isLegalBasisFor--> Bachelor of Science in Accountancy [p:Prog_BSA]\nRevised Policies, Standards and Guidelines for Bachelor of Science in Accountancy (BSA) [p:CMO_27_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Accountancy [p:Prog_BSA] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Revised Policies, Standards and Guidelines for Bachelor of Science in Accountancy (BSA): p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards and Guidelines for Bachelor of Science in Accountancy (BSA): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Accountancy: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 11: ?cmo=Policies, Standards and Guidelines for the Bachelor of Science in Fisheries; ?program=Bachelor of Science in Fisheries\nPolicies, Standards and Guidelines for the Bachelor of Science in Fisheries [p:CMO_33_s2021] --p:isLegalBasisFor--> Bachelor of Science in Fisheries [p:Prog_BSFisheries]\nPolicies, Standards and Guidelines for the Bachelor of Science in Fisheries [p:CMO_33_s2021] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Fisheries [p:Prog_BSFisheries] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for the Bachelor of Science in Fisheries: p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for the Bachelor of Science in Fisheries: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Fisheries: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 12: ?cmo=Policies and Standards for Undergraduate Programs in Psychology; ?program=Bachelor of Science in Psychology\nPolicies and Standards for Undergraduate Programs in Psychology [p:CMO_34_s2017] --p:isLegalBasisFor--> Bachelor of Science in Psychology [p:Prog_BSPsych]\nPolicies and Standards for Undergraduate Programs in Psychology [p:CMO_34_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies and Standards for Undergraduate Programs in Psychology: p:CMO\nSOURCE/QUALIFIER for Policies and Standards for Undergraduate Programs in Psychology: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 13: ?cmo=Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM); ?program=Bachelor of Science in Hospitality Management\nPolicies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM) [p:CMO_62_s2017] --p:isLegalBasisFor--> Bachelor of Science in Hospitality Management [p:Prog_BSHospitalityManagement]\nPolicies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM) [p:CMO_62_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Hospitality Management [p:Prog_BSHospitalityManagement] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Hospitality Management: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 14: ?cmo=Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM); ?program=Bachelor of Science in Tourism Management\nPolicies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM) [p:CMO_62_s2017] --p:isLegalBasisFor--> Bachelor of Science in Tourism Management [p:Prog_BSTourismManagement]\nPolicies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM) [p:CMO_62_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Tourism Management [p:Prog_BSTourismManagement] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Tourism Management: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 15: ?cmo=Policies, Standards and Guidelines for Bachelor of Elementary Education (BEEd); ?program=Bachelor of Elementary Education\nPolicies, Standards and Guidelines for Bachelor of Elementary Education (BEEd) [p:CMO_74_s2017] --p:isLegalBasisFor--> Bachelor of Elementary Education [p:Prog_BEEd]\nPolicies, Standards and Guidelines for Bachelor of Elementary Education (BEEd) [p:CMO_74_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Elementary Education [p:Prog_BEEd] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for Bachelor of Elementary Education (BEEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Elementary Education (BEEd): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Elementary Education: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 16: ?cmo=Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd); ?program=Bachelor of Secondary Education - Major in English\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --p:isLegalBasisFor--> Bachelor of Secondary Education - Major in English [p:Prog_BSEd_English]\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Secondary Education - Major in English: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 17: ?cmo=Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd); ?program=Bachelor of Secondary Education - Major in Filipino\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --p:isLegalBasisFor--> Bachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino]\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Secondary Education - Major in Filipino: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 18: ?cmo=Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd); ?program=Bachelor of Secondary Education - Major in Mathematics\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --p:isLegalBasisFor--> Bachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math]\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Secondary Education - Major in Mathematics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 19: ?cmo=Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd); ?program=Bachelor of Secondary Education - Major in Sciences\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --p:isLegalBasisFor--> Bachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences]\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Secondary Education - Major in Sciences: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 20: ?cmo=Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd); ?program=Bachelor of Secondary Education - Major in Social Studies\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --p:isLegalBasisFor--> Bachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies]\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Secondary Education - Major in Social Studies: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 21: ?cmo=Policies, Standards and Guidelines for Bachelor of Technology and Livelihood Education (BTLEd); ?program=Bachelor of Technology and Livelihood Education - Major in Home Economics\nPolicies, Standards and Guidelines for Bachelor of Technology and Livelihood Education (BTLEd) [p:CMO_78_s2017] --p:isLegalBasisFor--> Bachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE]\nPolicies, Standards and Guidelines for Bachelor of Technology and Livelihood Education (BTLEd) [p:CMO_78_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for Bachelor of Technology and Livelihood Education (BTLEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Technology and Livelihood Education (BTLEd): p:sourceDataGap = Sourced from CMO No. 78, s. 2017 rather than the user's original list; the number 78 is corroborated across multiple independent university BTLEd program pages, but cmoTitle's exact wording is reconstructed from the standard CHED PSG naming pattern rather than copied from the primary CMO PDF — verify before quoting it as the exact official title.\nTYPE of Bachelor of Technology and Livelihood Education - Major in Home Economics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 22: ?cmo=Policies, Standards and Guidelines for Bachelor of Technical-Vocational Teacher Education (BTVTEd); ?program=Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\nPolicies, Standards and Guidelines for Bachelor of Technical-Vocational Teacher Education (BTVTEd) [p:CMO_79_s2017] --p:isLegalBasisFor--> Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM]\nPolicies, Standards and Guidelines for Bachelor of Technical-Vocational Teacher Education (BTVTEd) [p:CMO_79_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for Bachelor of Technical-Vocational Teacher Education (BTVTEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Technical-Vocational Teacher Education (BTVTEd): p:sourceDataGap = Sourced from CMO No. 79, s. 2017 rather than the user's original list; the number 79 is corroborated by an academic journal article and independent BTVTEd curriculum documents, but cmoTitle's exact wording is reconstructed from the standard CHED PSG naming pattern rather than copied from the primary CMO PDF — verify before quoting it as the exact official title.\nTYPE of Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 23: ?cmo=Policies, Standards and Guidelines for Bachelor of Physical Education (BPEd); ?program=Bachelor of Physical Education\nPolicies, Standards and Guidelines for Bachelor of Physical Education (BPEd) [p:CMO_80_s2017] --p:isLegalBasisFor--> Bachelor of Physical Education [p:Prog_BPE]\nPolicies, Standards and Guidelines for Bachelor of Physical Education (BPEd) [p:CMO_80_s2017] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Physical Education [p:Prog_BPE] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for Bachelor of Physical Education (BPEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Physical Education (BPEd): p:sourceDataGap = Sourced from CMO No. 80, s. 2017 rather than the user's original list; corroborated by one university department page plus CHED's own confirmation that CMOs 74-80 and 82, s. 2017 form one teacher-education family (74=BEEd and 75=BSEd match the user-supplied list), but this is the weakest-sourced of the three added CMOs — only one direct source ties the number specifically to BPEd, and cmoTitle's wording is reconstructed, not copied from the primary CMO PDF. Verify before treating as final.\nTYPE of Bachelor of Physical Education: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?cmo\": 1, \"?title\": 1, \"?number\": 1, \"?year\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?cmo=Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs; ?title=Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs; ?number=25; ?year=2015\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:cmoNumber--> \"25\"\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:cmoSeriesYear--> \"2015\"\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --p:cmoTitle--> \"Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\"\nRevised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11)."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 23; distinct values by variable = {\"?cmo\": 14, \"?program\": 23}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?cmo=Policies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program; ?program=Bachelor of Science in Criminology\nPolicies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program [p:CMO_05_s2018] --p:isLegalBasisFor--> Bachelor of Science in Criminology [p:Prog_BSCrim]\nPolicies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program [p:CMO_05_s2018] --rdf:type--> CHED Memorandum Order (CMO) [p:CMO]\nBachelor of Science in Criminology [p:Prog_BSCrim] --rdf:type--> Program [p:Program]\nTYPE of CHED Memorandum Order (CMO): http://www.w3.org/2002/07/owl#Class\nTYPE of Policies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program: p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program: p:sourceDocument = Supplied directly by the user's CMO list (ba",
+    "answer_for_eval": "# CHED Memorandum Order for BSCS, BSIS, and BSIT Programs\n\n**CMO No. 25, s. 2015**\n\n**Full Title:** Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\n\nThis single CHED memorandum order covers all three programs: BSCS, BSIS, and BSIT.",
+    "retrieval_query": "Which CHED memorandum order covers the BSCS, BSIS and BSIT programs?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?cmo",
+              "rdf:type",
+              "p:CMO"
+            ],
+            [
+              "?cmo",
+              "p:isLegalBasisFor",
+              "?program"
+            ],
+            [
+              "?program",
+              "rdf:type",
+              "p:Program"
+            ]
+          ],
+          "select": [
+            "?cmo",
+            "?program"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "?cmo",
+              "rdf:type",
+              "p:CMO"
+            ],
+            [
+              "?cmo",
+              "p:cmoTitle",
+              "?title"
+            ],
+            [
+              "?cmo",
+              "p:cmoNumber",
+              "?number"
+            ],
+            [
+              "?cmo",
+              "p:cmoSeriesYear",
+              "?year"
+            ]
+          ],
+          "select": [
+            "?cmo",
+            "?title",
+            "?number",
+            "?year"
+          ],
+          "filters": [
+            {
+              "var": "?title",
+              "op": "contains",
+              "value": "Computer Science"
+            },
+            {
+              "var": "?title",
+              "op": "contains",
+              "value": "Information Systems"
+            },
+            {
+              "var": "?title",
+              "op": "contains",
+              "value": "Information Technology"
+            }
+          ]
+        }
+      ],
+      "traversals": []
+    },
+    "retrieval_errors": [
+      "Query 1 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 31,
+    "elapsed_seconds": 8.51600000000326
+  },
+  "answer": "# CHED Memorandum Order for BSCS, BSIS, and BSIT Programs\n\n**CMO No. 25, s. 2015**\n\n**Full Title:** Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\n\nThis single CHED memorandum order covers all three programs: BSCS, BSIS, and BSIT.",
+  "pipeline_version": "oc-rag-3.0"
+}

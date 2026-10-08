@@ -1,0 +1,78 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "How much is an ID lace, and where is it sold?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_811",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_811\nSECTION: PRICE: ID LACE (LANYARD)\nPRICE: ID LACE (LANYARD)\nSource: campus information supplied by the maintainer (September 2026).\nThe ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).",
+        "score": 0.03278688524590164
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_806",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_806\nSECTION: COSTS OF UNIFORM, SHIRTS AND ID LACE, AND A FIRST-YEAR BUDGET ESTIMATE\nCOSTS OF UNIFORM, SHIRTS AND ID LACE, AND A FIRST-YEAR BUDGET ESTIMATE\nSource: prices reported by the maintainer in September 2026 and may change. The total is an estimate computed from those prices, assuming one of each item. Confirm whether the Php 500 PE price is per set.\nAll of these are bought at the Business Affairs Office (BAO).\n- Uniform fabric: about Php 600-800 (fabric only, so you need a tailor to make the polo and pants, which costs extra).\n- University shirt: Php 400.\n- NSTP shirt: Php 350.\n- PE T-shirt and shorts: Php 500.\n- ID lace: Php 130.\n- The official ID card itself is free for first-year students.\nIf you buy one of each item sold at the BAO, the total is roughly Php 1,980 to 2,180 (fabric Php 600-800 + University shirt Php 400 + NSTP shirt Php 350 + PE T-shirt and shorts Php 500 + ID lace Php 130).\nNot included: tailoring for the uniform, books, OJT, transport and housing.\nLaboratory costs are not an extra: they are already covered by the free tuition.",
+        "score": 0.031754032258064516
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Animation and Motion Graphics [p:Major_AnimationMotionGraphics]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> 2D/3D Animator / Motion Graphics Designer [p:Job_AnimatorMotionDesigner]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:programOverview: Combines core IT fundamentals with specialized training in 2D/3D animation, digital illustration, and motion graphics design for media, advertising, and game production.\np:teachesSkill -> 2D/3D Animation and Digital Illustration [p:Skill_2DAnimation]\np:teachesSkill -> Motion Graphics Design [p:Skill_MotionGraphics]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): ID lace (lanyard)\nh:definition: The ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).\nh:priceAsOf: 2026-09\nh:priceMaxPHP: 130\nh:priceMinPHP: 130\nh:priceNote: Sold at BAO.\nh:soldAt -> Business Affairs Office [a:Office_BusinessAffairsOffice]\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nrdf:type -> Campus Item Price [h:CampusItemPrice]\nrdfs:label: ID lace (lanyard)"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): ID lace (lanyard)\nh:definition: The ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).\nh:priceAsOf: 2026-09\nh:priceMaxPHP: 130\nh:priceMinPHP: 130\nh:priceNote: Sold at BAO.\nh:soldAt -> Business Affairs Office [a:Office_BusinessAffairsOffice]\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nrdf:type -> Campus Item Price [h:CampusItemPrice]\nrdfs:label: ID lace (lanyard)\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_811\nSECTION: PRICE: ID LACE (LANYARD)\nPRICE: ID LACE (LANYARD)\nSource: campus information supplied by the maintainer (September 2026).\nThe ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_806\nSECTION: COSTS OF UNIFORM, SHIRTS AND ID LACE, AND A FIRST-YEAR BUDGET ESTIMATE\nCOSTS OF UNIFORM, SHIRTS AND ID LACE, AND A FIRST-YEAR BUDGET ESTIMATE\nSource: prices reported by the maintainer in September 2026 and may change. The total is an estimate computed from those prices, assuming one of each item. Confirm whether the Php 500 PE pr",
+    "answer_for_eval": "The ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).",
+    "retrieval_query": "How much is an ID lanyard, and where is it sold?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Price_IDLace",
+              "h:priceMaxPHP",
+              "?price"
+            ],
+            [
+              "h:Price_IDLace",
+              "h:soldAt",
+              "?office"
+            ],
+            [
+              "?office",
+              "a:Office",
+              "a:Office_BusinessAffairsOffice"
+            ]
+          ],
+          "select": [
+            "?price",
+            "?office"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Extra data: line 1 column 366 (char 365)",
+      "Unknown predicate"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 4,
+    "elapsed_seconds": 5.0,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): ID lace (lanyard)\nh:definition: The ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).\nh:priceAsOf: 2026-09\nh:priceMaxPHP: 130\nh:priceMinPHP: 130\nh:priceNote: Sold at BAO.\nh:soldAt -> Business Affairs Office [a:Office_BusinessAffairsOffice]\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nrdf:type -> Campus Item Price [h:CampusItemPrice]\nrdfs:label: ID lace (lanyard)",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_811\nSECTION: PRICE: ID LACE (LANYARD)\nPRICE: ID LACE (LANYARD)\nSource: campus information supplied by the maintainer (September 2026).\nThe ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_806\nSECTION: COSTS OF UNIFORM, SHIRTS AND ID LACE, AND A FIRST-YEAR BUDGET ESTIMATE\nCOSTS OF UNIFORM, SHIRTS AND ID LACE, AND A FIRST-YEAR BUDGET ESTIMATE\nSource: prices reported by the maintainer in September 2026 and may change. The total is an estimate computed from those prices, assuming one of each item. Confirm whether the Php 500 PE price is per set.\nAll of these are bought at the Business Affairs Office (BAO).\n- Uniform fabric: about Php 600-800 (fabric only, so you need a tailor to make the polo and pants, which costs extra).\n- University shirt: Php 400.\n- NSTP shirt: Php 350.\n- PE T-shirt and shorts: Php 500.\n- ID lace: Php 130.\n- The official ID card itself is free for first-year students.\nIf you buy one of each item sold at the BAO, the total is roughly Php 1,980 to 2,180 (fabric Php 600-800 + University shirt Php 400 + NSTP shirt Php 350 + PE T-shirt and shorts Php 500 + ID lace Php 130).\nNot included: tailoring for the uniform, books, OJT, transport and housing.\nLaboratory costs are not an extra: they are already covered by the free tuition.",
+      "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Animation and Motion Graphics [p:Major_AnimationMotionGraphics]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> 2D/3D Animator / Motion Graphics Designer [p:Job_AnimatorMotionDesigner]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:programOverview: Combines core IT fundamentals with specialized training in 2D/3D animation, digital illustration, and motion graphics design for media, advertising, and game production.\np:teachesSkill -> 2D/3D Animation and Digital Illustration [p:Skill_2DAnimation]\np:teachesSkill -> Motion Graphics Design [p:Skill_MotionGraphics]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics"
+    ]
+  },
+  "answer": "The ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).",
+  "pipeline_version": "oc-rag-3.3-verified-build"
+}

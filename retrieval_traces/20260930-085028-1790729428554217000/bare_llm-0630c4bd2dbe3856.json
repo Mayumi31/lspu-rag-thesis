@@ -1,0 +1,18 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What is the minimum GWA needed to apply for BS Computer Science?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The minimum GWA needed to apply for BS Computer Science at LSPU-LB is 2.25.",
+    "retrieval_query": "What is the minimum GWA needed to apply for BS Computer Science?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.375
+  },
+  "answer": "The minimum GWA needed to apply for BS Computer Science at LSPU-LB is 2.25.",
+  "pipeline_version": "oc-rag-3.0"
+}

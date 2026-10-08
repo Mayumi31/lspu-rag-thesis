@@ -1,0 +1,76 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What is the minimum GWA needed to apply for BS Computer Science?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_60",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_60\nSECTION: ADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nSource: LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\n- Bachelor of Elementary Education (CTE): minimum GWA 90\n- Bachelor of Physical Education (CTE): minimum GWA 90\n- Bachelor of Science in Accountancy (CBAA): minimum GWA 90\n- Bachelor of Science in Computer Science - Major in Intelligent Systems (CCS): minimum GWA 90\n- Bachelor of Science in Food Technology (CFND): minimum GWA 90\n- Bachelor of Science in Nutrition and Dietetics (CFND): minimum GWA 90\n- Bachelor of Secondary Education - Major in English (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Filipino (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Mathematics (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Sciences (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Social Studies (CTE): minimum GWA 90\n- Bachelor of Science in Business Administration - Major in Financial Management (CBAA): minimum GWA 88\n- Bachelor of Science in Business Administration - Major in Marketing Management (CBAA): minimum GWA 88\n- Bachelor of Science in Psychology (CAS): minimum GWA 88",
+        "score": 0.06504494976203068
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_61",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_61\nSECTION: ADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nminimum GWA 88\n- Bachelor of Science in Business Administration - Major in Marketing Management (CBAA): minimum GWA 88\n- Bachelor of Science in Psychology (CAS): minimum GWA 88\n- Bachelor of Science in Tourism Management (CIHT): minimum GWA 88\n- Bachelor of Science in Fisheries (CF): minimum GWA 87\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management (CTE): minimum GWA 87\n- Bachelor of Technology and Livelihood Education - Major in Home Economics (CTE): minimum GWA 87\n- Bachelor of Science in Criminology (CCJE): minimum GWA 85\n- Bachelor of Science in Hospitality Management (CIHT): minimum GWA 85\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics (CCS): minimum GWA 85\n- Bachelor of Science in Information Technology - Major in Service Management Program (CCS): minimum GWA 85\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development (CCS): minimum GWA 85",
+        "score": 0.06332086388835957
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_13",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_13\nSECTION: PROGRAM: Bachelor of Science in Computer Science - Major in Intelligent Systems | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Computer Science (BSCS) | Major: Intelligent Systems\napplications and systems.\n- AI/Research Assistant: Supports research and development in computer vision, NLP, or robotics, or pursues graduate study in AI.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 90.0\n- Note: CCS gives priority to STEM and ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.",
+        "score": 0.06230507843411069
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_28",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_28\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Service Management Program | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Service Management Program\nPROGRAM: Bachelor of Science in Information Technology - Major in Service Management Program\nCollege: College of Computer Studies (CCS)\nDegree: Bachelor of Science in Information Technology (BSIT)\nMajor: Service Management Program\nDuration: 4 years\n\nOverview: Combines core IT fundamentals with specialized training in IT service delivery, systems administration, and technical support operations.\n\nSkills developed:\n- IT Service Management\n- Systems Administration and Technical Support\n\nCareer and job outcomes:\n- IT Service/Support Manager: Manages IT service delivery, helpdesk operations, or systems administration for an organization.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 85.0\n- Note: Annex A gives one GWA (85) for BSIT overall; per-major cutoffs are not broken out. CCS gives priority to STEM and ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s.",
+        "score": 0.060859728506787336
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_26",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_26\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Web and Mobile Application Development\nPROGRAM: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\nCollege: College of Computer Studies (CCS)\nDegree: Bachelor of Science in Information Technology (BSIT)\nMajor: Web and Mobile Application Development\nDuration: 4 years\n\nOverview: Combines core IT fundamentals with specialized training in building websites and mobile applications, including UI/UX design.\n\nSkills developed:\n- Web Application Development\n- Mobile Application Development\n- UI/UX Design\n\nCareer and job outcomes:\n- Web/Mobile Application Developer: Builds websites and mobile applications for businesses or as an independent/freelance developer.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 85.0\n- Note: Annex A gives one GWA (85) for BSIT overall; per-major cutoffs are not broken out. CCS gives priority to STEM and ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s.",
+        "score": 0.0600752765384578
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?req\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?req=p:AdmReq_BSCS_IS\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasAdmissionRequirement--> p:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS]\nTYPE of p:AdmReq_BSCS_IS: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCS_IS: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?req\": 1}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?req=p:AdmReq_BSCS_IS\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasAdmissionRequirement--> p:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS]\nTYPE of p:AdmReq_BSCS_IS: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCS_IS: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_60\nSECTION: ADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nSource: LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\n- Bachelor of Elementary Education (CTE): minimum GWA 90\n- Bachelor of Physical Education (CTE): minimum GWA 90\n- Bachelor of Science in Accountancy (CBAA): minimum GWA 90\n- Bachelor of Science in Computer Science - Major in Intelligent Systems (CCS): minimum GWA 90\n- Bachelor of Science in Food Tech",
+    "answer_for_eval": "The minimum GWA needed to apply for BS Computer Science is 90.",
+    "retrieval_query": "What is the minimum GWA needed to apply for BS Computer Science?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSCS_IS",
+              "p:hasAdmissionRequirement",
+              "?req"
+            ]
+          ],
+          "select": [
+            "?req"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 7,
+    "elapsed_seconds": 3.1089999999967404
+  },
+  "answer": "The minimum GWA needed to apply for BS Computer Science is 90.",
+  "pipeline_version": "oc-rag-3.0"
+}

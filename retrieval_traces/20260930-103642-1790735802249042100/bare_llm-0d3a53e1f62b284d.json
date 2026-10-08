@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What haircut must male 2nd to 4th year college students follow?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "There is no specific information available about a required haircut for male 2nd to 4th year college students at LSPU-LB.",
+    "retrieval_query": "What haircut must male 2nd to 4th year college students follow?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.9679999999934807,
+    "selected_contexts": []
+  },
+  "answer": "There is no specific information available about a required haircut for male 2nd to 4th year college students at LSPU-LB.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

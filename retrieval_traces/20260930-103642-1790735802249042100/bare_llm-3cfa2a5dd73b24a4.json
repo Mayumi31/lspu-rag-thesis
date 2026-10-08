@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What are the steps for processing my student ID?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The steps for processing your student ID at LSPU-LB are not specified in the provided evidence. Please consult the official LSPU-LB website or contact the campus administration for detailed instructions.",
+    "retrieval_query": "What are the steps for processing my student ID?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.8429999999934807,
+    "selected_contexts": []
+  },
+  "answer": "The steps for processing your student ID at LSPU-LB are not specified in the provided evidence. Please consult the official LSPU-LB website or contact the campus administration for detailed instructions.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

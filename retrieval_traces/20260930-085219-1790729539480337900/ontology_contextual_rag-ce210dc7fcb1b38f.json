@@ -1,0 +1,76 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What is the prerequisite of CMSC 204 (Algorithms and Complexity) in BSCS?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_766",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_766\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nStudents apply ethical analysis to real-world dilemmas. It provides groundwork for later coursework on professional ethics in computing.\nCMSC 204 — Algorithms and Complexity\nCCS Intelligent Systems | Year 2, Sem 2 | Units: 3 | Prerequisite: CMSC 202 | Prerequisite for: CMSC 305, CSEL 303 Covers algorithm design paradigms (divide-and-conquer, dynamic programming, greedy methods) and complexity analysis via Big-O notation. Students learn to evaluate algorithmic efficiency and basic NP-completeness concepts. It is a gateway course for several advanced subjects later in the curriculum.\nITEC 106 — Applications Development and Emerging Technologies\nCCS Intelligent Systems | Year 2, Sem 2 | Units: 3 Focuses on building real-world applications using current frameworks and tools. Students apply prior programming knowledge to practical projects. The course also introduces students to emerging technology trends relevant to industry.\nCSEL 301 — Introduction to Graphics and Visual Computing\nCCS Intelligent Systems | Year 2, Sem 2 | Units: 3 Introduces computer graphics fundamentals, including rendering pipelines and geometric transformations. Students work with basic graphics APIs.",
+        "score": 0.06290463886909005
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_768",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_768\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nEmphasizes sustained fitness practice as a lifestyle habit. It completes the four-course PATHFit physical education requirement.\nCMSC 305 — Automata Theory and Formal Languages\nCCS Intelligent Systems | Year 3, Sem 1 | Units: 3 (Lec 3 / Lab 0) | Prerequisite: CMSC 204 Covers formal language theory, finite automata, regular expressions, and Turing machines. Students learn the theoretical limits of what computers can compute. This theory underlies the design of compilers and language processors.\nCMSC 306 — Computer Architecture and Organization\nCCS Intelligent Systems | Year 3, Sem 1 | Units: 3 (Lec 2 / Lab 1) Covers CPU design, memory hierarchy, and instruction set architecture. Students gain a low-level understanding of how hardware executes software. The course bridges software-level concepts with the physical computing systems that run them.\nCMSC 307 — Information Assurance and Security\nCCS Intelligent Systems | Year 3, Sem 1 | Units: 2 (Lec 2 / Lab 0) | Prerequisite: ITEC 105 Introduces cryptography basics, network security, and risk management principles. Students learn to identify and mitigate common security vulnerabilities.",
+        "score": 0.06029040404040404
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_771",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_771\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\n1 | Units: 3 (Lec 2 / Lab 1) | Prerequisite for: CSST 103, CSST 104 Introduces supervised and unsupervised machine learning, covering regression, classification, and clustering. Students learn to train and evaluate basic ML models. It serves as the gateway course for the more advanced ML and NLP subjects that follow.\nCMSC 311 — Software Engineering 2\nCCS Intelligent Systems | Year 3, Sem 2 | Units: 3 (Lec 2 / Lab 1) | Prerequisite: CMSC 309 Continues software engineering with a focus on testing, deployment, and project management. Students apply lifecycle concepts to a fuller development project. This course completes the two-part software engineering sequence.\nCSEL 303 — Computational Science\nCCS Intelligent Systems | Year 3, Sem 2 | Units: 3 (Lec 2 / Lab 1) | Prerequisite: CMSC 204 Applies computational methods to solve scientific and mathematical problems. Students use programming and numerical methods to model real-world phenomena. The course builds directly on algorithmic foundations from earlier coursework.\nCMSC 312 — Methods of Research",
+        "score": 0.060180995475113123
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_14",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_14\nSECTION: PROGRAM: Bachelor of Science in Computer Science - Major in Intelligent Systems | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Computer Science (BSCS) | Major: Intelligent Systems\ntechnical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.05956119518680603
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_764",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_764\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nculture, and history. Students analyze literary works as reflections of social issues. The course connects literary study to broader questions of Filipino social consciousness.\nCMSC 202 — Discrete Structures 2\nCCS Intelligent Systems | Year 2, Sem 1 | Units: 3 | Prerequisite for: CMSC 204 Continues discrete mathematics with graph theory, combinatorics, and recurrence relations. These tools support later algorithm analysis coursework. Mastery here is essential for succeeding in Algorithms and Complexity.\nCMSC 203 — Object-Oriented Programming\nCCS Intelligent Systems | Year 2, Sem 1 | Units: 3 Teaches OOP principles including classes, inheritance, polymorphism, and encapsulation. Students design modular, reusable software components. This course shifts students from procedural thinking toward object-oriented software design.\nITEC 105 — Information Management\nCCS Intelligent Systems | Year 2, Sem 1 | Units: 3 | Prerequisite for: CMSC 307 Covers database concepts including ER modeling, SQL, and normalization. Students design and query relational databases. These skills underlie most data-driven systems built later in the program.\nMATH 24 — Calculus",
+        "score": 0.05824962569756363
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?prereq\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?prereq=CMSC 202 — Discrete Structures 2 (BSCS - Major in Intelligent Systems, Year 2, 1st Semester)\nCMSC 204 — Algorithms and Complexity (BSCS - Major in Intelligent Systems, Year 2, 2nd Semester) [p:Subj_BSCS_IS_CMSC204] --p:hasPrerequisite--> CMSC 202 — Discrete Structures 2 (BSCS - Major in Intelligent Systems, Year 2, 1st Semester) [p:Subj_BSCS_IS_CMSC202]\nTYPE of CMSC 202 — Discrete Structures 2 (BSCS - Major in Intelligent Systems, Year 2, 1st Semester): p:Subject\nSOURCE/QUALIFIER for CMSC 202 — Discrete Structures 2 (BSCS - Major in Intelligent Systems, Year 2, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter).\nTYPE of CMSC 204 — Algorithms and Complexity (BSCS - Major in Intelligent Systems, Year 2, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for CMSC 204 — Algorithms and Complexity (BSCS - Major in Intelligent Systems, Year 2, 2nd Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?prereq\": 1}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?prereq=CMSC 202 — Discrete Structures 2 (BSCS - Major in Intelligent Systems, Year 2, 1st Semester)\nCMSC 204 — Algorithms and Complexity (BSCS - Major in Intelligent Systems, Year 2, 2nd Semester) [p:Subj_BSCS_IS_CMSC204] --p:hasPrerequisite--> CMSC 202 — Discrete Structures 2 (BSCS - Major in Intelligent Systems, Year 2, 1st Semester) [p:Subj_BSCS_IS_CMSC202]\nTYPE of CMSC 202 — Discrete Structures 2 (BSCS - Major in Intelligent Systems, Year 2, 1st Semester): p:Subject\nSOURCE/QUALIFIER for CMSC 202 — Discrete Structures 2 (BSCS - Major in Intelligent Systems, Year 2, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter).\nTYPE of CMSC 204 — Algorithms and Complexity (BSCS - Major in Intelligent Systems, Year 2, 2nd Semester): p:Subject\nSOURCE/QUALIFIER for CMSC 204 — Algorithms and Complexity (BSCS - Major in Intelligent Systems, Year 2, 2nd Semester): p:sourceDocument = campus_cur",
+    "answer_for_eval": "The prerequisite of CMSC 204 (Algorithms and Complexity) in BSCS is CMSC 202 (Discrete Structures 2).",
+    "retrieval_query": "What is the prerequisite for CMSC 204 (Algorithms and Complexity) in BSCS?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Subj_BSCS_IS_CMSC204",
+              "p:hasPrerequisite",
+              "?prereq"
+            ]
+          ],
+          "select": [
+            "?prereq"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 7,
+    "elapsed_seconds": 2.875
+  },
+  "answer": "The prerequisite of CMSC 204 (Algorithms and Complexity) in BSCS is CMSC 202 (Discrete Structures 2).",
+  "pipeline_version": "oc-rag-3.0"
+}

@@ -1,0 +1,47 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Which law is the offense of illegal access or hacking based on?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Illegal Access or Hacking\nh:definition: Illegal access or hacking to the whole or any part of one's online accounts including e-mail, social media profiles, etc.\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_1 [h:Tier_IllegalAccessHacking_1]\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_2 [h:Tier_IllegalAccessHacking_2]\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_3 [h:Tier_IllegalAccessHacking_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.2\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Illegal Access or Hacking"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Illegal Interception\nh:definition: Illegal interception or listening to, recording, monitoring or surveillance of communications, directly through computer systems or indirectly through electronic eavesdropping/tapping devices.\nh:hasSanctionTier -> h:Tier_IllegalInterception_1 [h:Tier_IllegalInterception_1]\nh:hasSanctionTier -> h:Tier_IllegalInterception_2 [h:Tier_IllegalInterception_2]\nh:hasSanctionTier -> h:Tier_IllegalInterception_3 [h:Tier_IllegalInterception_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.3\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Illegal Interception"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Child Pornography\nh:definition: Unlawful and prohibited acts defined and punishable by RA 9775 (Anti-Child Pornography Act of 2009), committed through a computer system.\nh:hasSanctionTier -> h:Tier_ChildPornography_1 [h:Tier_ChildPornography_1]\nh:isBasedOn -> RA 9775 [h:RA9775]\nh:sourceArticle: Ch.6 Art.2 Sec.1.7\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Child Pornography"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Computer-related Fraud, Forgery and Identity Theft\nh:definition: Computer-related fraud, forgery and identity theft: the intentional acquisition, use, misuse, transfer, possession, alteration, or deletion of identifying information belonging to another person. NOTE: The 2021 Student Handbook (Ch.6 Art.2 Sec.1.5) defines this offense but lists no sanction tier for it (unlike neighboring sub-offenses 1.4 and 1.6) — this is a confirmed gap in the source document, verified against the handbook text, not an omission in this ontology.\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.5\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Computer-related Fraud, Forgery and Identity Theft"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Aiding, Abetting or Attempting Cybercrime Offenses\nh:definition: Aiding, abetting or attempting to willfully commit any of the offenses enumerated as acts of cybercrime.\nh:hasSanctionTier -> h:Tier_AidingCybercrime_1 [h:Tier_AidingCybercrime_1]\nh:hasSanctionTier -> h:Tier_AidingCybercrime_2 [h:Tier_AidingCybercrime_2]\nh:hasSanctionTier -> h:Tier_AidingCybercrime_3 [h:Tier_AidingCybercrime_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.9\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Aiding, Abetting or Attempting Cybercrime Offenses"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Illegal Access or Hacking\nh:definition: Illegal access or hacking to the whole or any part of one's online accounts including e-mail, social media profiles, etc.\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_1 [h:Tier_IllegalAccessHacking_1]\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_2 [h:Tier_IllegalAccessHacking_2]\nh:hasSanctionTier -> h:Tier_IllegalAccessHacking_3 [h:Tier_IllegalAccessHacking_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.2\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Illegal Access or Hacking\n\nAPPROXIMATE MATCH (not an exhaustive result): Illegal Interception\nh:definition: Illegal interception or listening to, recording, monitoring or surveillance of communications, directly through computer systems or indirectly through electronic eavesdropping/tapping devices.\nh:hasSanctionTier -> h:Tier_IllegalInterception_1 [h:Tier_IllegalInterception_1]\nh:hasSanctionTier -> h:Tier_IllegalInterception_2 [h:Tier_IllegalInterception_2]\nh:hasSanctionTier -> h:Tier_IllegalInterception_3 [h:Tier_IllegalInterception_3]\nh:isBasedOn -> RA 10175 [h:RA10175]\nh:sourceArticle: Ch.6 Art.2 Sec.1.3\n",
+    "answer_for_eval": "The offense of illegal access or hacking is based on RA 10175.",
+    "retrieval_query": "Which law is the offense of illegal access or hacking based on?",
+    "graph_plan": {},
+    "retrieval_errors": [
+      "Expecting ',' delimiter: line 1 column 78 (char 77)",
+      "Expecting ',' delimiter: line 1 column 78 (char 77)"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 3.9219999999622814
+  },
+  "answer": "The offense of illegal access or hacking is based on RA 10175.",
+  "pipeline_version": "oc-rag-3.0"
+}

@@ -1,0 +1,56 @@
+{
+  "trace": {
+    "mode": "basic_rag",
+    "query": "Within how many days should the school release official documents I request?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_117",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_117\nSECTION: P30.00/page\nP30.00/page\n\n2nd copy of\nDiploma\nP100.00\n\n3. Submit filled out | ⎯ Receives and | None | 2 minutes | Registrar’s Staff/\nrequest slip and | reviews the | Registrar\nofficial receipt of | presented\npayment and get | receipts and\nthe claim stub | request slip\nwith date of | ⎯ Schedule the\nrelease | date of release of\nrequested\ndocument.\nIssues claim stub | (Inactive files – 1\n⎯ Locates the | day) Active files\npermanent | – 15 minutes\nrecord of student\nconcerned | 25 minutes\n⎯ Prepares and\nencodes the\nrequested\ndocument\n⎯ Reviews and | 5 minutes\ncounterchec ks\nentries on the\nprepared draft of\nrequested\ndocument\n⎯ Final printing of | 1 minute\nrequested\ndocument\n⎯ Affixes college | 1 minute\nseal\n1 minute\n⎯ Signs the\ndocument\n4. Claims the | Records and | None | 2 minutes | Registrar’s Staff\nrequested | releases document\ndocuments on the\nscheduled data\nindicated in the\nclaim stub\nDepends Active Files:\nTOTAL: | on the 59 minutes\ndocument Inactive files: 1\nday 44 minutes\n\n6",
+        "score": 0.5386233329772949
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_239",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_239\nSECTION: If data is not yet | the\nPERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Job Request | Accomplish Job | n.a | 5 minutes | Client\nOrder Form with\nAttached photos of\nrequested job item\nInspection/ Material | n.a | 3 days | Field Coordinator\nEstimates/ Initial\nApproval\nPerusal/Review/ | n.a | 1 day | Unit Head\nRecommending\nApproval\nFinal Perusal and | n.a | 1 day | Campus Director\nApproval\n5 days and 5\nTOTAL: | None\nminutes\n\n2. Use of School Vehicle for Travel\nScheduling and dispatching of vehicles for official travel.\n\n48",
+        "score": 0.5182502269744873
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_455",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_455\nSECTION: Chapter 3 | Article 13. Undergraduate Thesis. The thesis is a requirement in some of the course curriculum. (Special Academic Council Resolution 1, s.2020)\napproval, five (5) typewritten copies are presented to the Registrar Office at least two (2) weeks before the faculty acts on the candidacy for graduation.\n\n1.4. Approval Sheet. Only the following shall be included for signing in the approval sheet: adviser, panel members, dean/associate dean, and registrar. Research contribution number shall likewise appear.",
+        "score": 0.47024714946746826
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_440",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_440\nSECTION: Chapter 3 | Article 6. Academic Load and Changes\nof students does not reach the requirement, the subject may be offered provided that the students belong to the course or curriculum that has been superseded by a new one.\n\n7.1.3. A graduating student may request for unscheduled/petition subject.\n\n7.1.4. A subject may be scheduled by the College Dean for the students who failed during the previous semester, provided that the request is made not later than one (1) month before the end of the preceding semester and the required minimum number of at least ten (10) students is met.",
+        "score": 0.4516410231590271
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_185",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_185\nSECTION: 1. Receives | Prepares Project Proposal | N/A | 12 days | Faculty\nTO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE | TIME | RESPONSIBLE\nPAID\n1. Submits | Receives | and | evaluates | the N/A | 5 days Extension Office\nletter of | request\nrequest | Faculty\nIssuance of the letter of response | Extensionists\n\nPrepares the training design | Faculty\nExtensionists\n\n29",
+        "score": 0.44517117738723755
+      }
+    ],
+    "graph_hits": [],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_117\nSECTION: P30.00/page\nP30.00/page\n\n2nd copy of\nDiploma\nP100.00\n\n3. Submit filled out | ⎯ Receives and | None | 2 minutes | Registrar’s Staff/\nrequest slip and | reviews the | Registrar\nofficial receipt of | presented\npayment and get | receipts and\nthe claim stub | request slip\nwith date of | ⎯ Schedule the\nrelease | date of release of\nrequested\ndocument.\nIssues claim stub | (Inactive files – 1\n⎯ Locates the | day) Active files\npermanent | – 15 minutes\nrecord of student\nconcerned | 25 minutes\n⎯ Prepares and\nencodes the\nrequested\ndocument\n⎯ Reviews and | 5 minutes\ncounterchec ks\nentries on the\nprepared draft of\nrequested\ndocument\n⎯ Final printing of | 1 minute\nrequested\ndocument\n⎯ Affixes college | 1 minute\nseal\n1 minute\n⎯ Signs the\ndocument\n4. Claims the | Records and | None | 2 minutes | Registrar’s Staff\nrequested | releases document\ndocuments on the\nscheduled data\nindicated in the\nclaim stub\nDepends Active Files:\nTOTAL: | on the 59 minutes\ndocument Inactive files: 1\nday 44 minutes\n\n6\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_239\nSECTION: If data is not yet | the\nPERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | R",
+    "answer_for_eval": "The school should release official documents within 1 day for inactive files and 44 minutes for active files.",
+    "retrieval_query": "Within how many days should the school release official documents I request",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 5,
+    "elapsed_seconds": 2.4380000000237487,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_117\nSECTION: P30.00/page\nP30.00/page\n\n2nd copy of\nDiploma\nP100.00\n\n3. Submit filled out | ⎯ Receives and | None | 2 minutes | Registrar’s Staff/\nrequest slip and | reviews the | Registrar\nofficial receipt of | presented\npayment and get | receipts and\nthe claim stub | request slip\nwith date of | ⎯ Schedule the\nrelease | date of release of\nrequested\ndocument.\nIssues claim stub | (Inactive files – 1\n⎯ Locates the | day) Active files\npermanent | – 15 minutes\nrecord of student\nconcerned | 25 minutes\n⎯ Prepares and\nencodes the\nrequested\ndocument\n⎯ Reviews and | 5 minutes\ncounterchec ks\nentries on the\nprepared draft of\nrequested\ndocument\n⎯ Final printing of | 1 minute\nrequested\ndocument\n⎯ Affixes college | 1 minute\nseal\n1 minute\n⎯ Signs the\ndocument\n4. Claims the | Records and | None | 2 minutes | Registrar’s Staff\nrequested | releases document\ndocuments on the\nscheduled data\nindicated in the\nclaim stub\nDepends Active Files:\nTOTAL: | on the 59 minutes\ndocument Inactive files: 1\nday 44 minutes\n\n6",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_239\nSECTION: If data is not yet | the\nPERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Job Request | Accomplish Job | n.a | 5 minutes | Client\nOrder Form with\nAttached photos of\nrequested job item\nInspection/ Material | n.a | 3 days | Field Coordinator\nEstimates/ Initial\nApproval\nPerusal/Review/ | n.a | 1 day | Unit Head\nRecommending\nApproval\nFinal Perusal and | n.a | 1 day | Campus Director\nApproval\n5 days and 5\nTOTAL: | None\nminutes\n\n2. Use of School Vehicle for Travel\nScheduling and dispatching of vehicles for official travel.\n\n48",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_455\nSECTION: Chapter 3 | Article 13. Undergraduate Thesis. The thesis is a requirement in some of the course curriculum. (Special Academic Council Resolution 1, s.2020)\napproval, five (5) typewritten copies are presented to the Registrar Office at least two (2) weeks before the faculty acts on the candidacy for graduation.\n\n1.4. Approval Sheet. Only the following shall be included for signing in the approval sheet: adviser, panel members, dean/associate dean, and registrar. Research contribution number shall likewise appear.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_440\nSECTION: Chapter 3 | Article 6. Academic Load and Changes\nof students does not reach the requirement, the subject may be offered provided that the students belong to the course or curriculum that has been superseded by a new one.\n\n7.1.3. A graduating student may request for unscheduled/petition subject.\n\n7.1.4. A subject may be scheduled by the College Dean for the students who failed during the previous semester, provided that the request is made not later than one (1) month before the end of the preceding semester and the required minimum number of at least ten (10) students is met.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_185\nSECTION: 1. Receives | Prepares Project Proposal | N/A | 12 days | Faculty\nTO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE | TIME | RESPONSIBLE\nPAID\n1. Submits | Receives | and | evaluates | the N/A | 5 days Extension Office\nletter of | request\nrequest | Faculty\nIssuance of the letter of response | Extensionists\n\nPrepares the training design | Faculty\nExtensionists\n\n29"
+    ]
+  },
+  "answer": "The school should release official documents within 1 day for inactive files and 44 minutes for active files.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

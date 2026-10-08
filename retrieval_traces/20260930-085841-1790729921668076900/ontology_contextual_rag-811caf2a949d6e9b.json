@@ -1,0 +1,111 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Do school rules still apply if I violate them during OJT or an off-campus competition?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_538",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_538\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nRules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction. Violation of rules and regulations done outside the premises shall be treated as if they were committed within the University premises when a student is representing the University in conference, conventions, competitions presentations, during the time of On- thejob Training (OJT) and Student Internship Program (SIP) period.\n\nNB: LSPU System reserves the right for its University President to device any measure or enhance any established policy for the resolution of any concern if the implementation of any former policy will not be workable at any juncture.\n\nAPPENDIX A",
+        "score": 0.031099324975891997
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_604",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_604\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 5. Requirements, Obligations, and Responsibilities\nand submitted to the company one (1) month before the start of the semester. The student/OJT Coordinator shall seek confirmation of acceptance from the respective agency.\n\n7.2. Students who will undergo OJT/Internship should be officially enrolled. Students who do not meet the requirements per evaluation of their grades or academic standing during enrolment shall not be allowed to undergo OJT/Internship.\n\n7.3. The student submits a medical certificate as may be required by the company.\n\n7.4. The OJT/SIPP Coordinator conducts an in-house orientation on the policies and procedures in the conduct of the OJT and distributes relevant forms and documents.\n\n7.5. The OJT/SIPP Coordinator endorses students to the Dean and VPAA for approval, after which s/he packages the following documents for submission and endorsement to the institution/agency:\n\nTraining Needs Form, request letter for the conduct of OJT, Memorandum of Agreement, among others.\n\n7.6. The OJT/SIPP Coordinator conducts regular monitoring of the OJT students or interns.\n\n7.7.",
+        "score": 0.028612012987012988
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_531",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_531\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 5. Additional Guidelines\nArticle 5. Additional Guidelines\n\nSec. 1. International/Local Off-campus Activities (Curricular and Non- Curricular)\n\n1.1 International/local education tours/trips are voluntary in nature.\n\nStudents who cannot join the tours/trips shall be given parallel school activity which provides similar acquisition of knowledge of the required practical competencies & achieves other learning objectives. (CMO No. 17, s. 2012)\n\n1.2. To ensure safety on the conduct of Off-Campus Activity(ies) a mandatory compliance on the policies and guidelines set by CMO No. 63, s. 2017 shall be observed and accomplished for local academic and non-academic activities. On the other hand, International Educational Tours or Field Trips are governed by CMO No. 26, s. 2015.\n\n1.3. Students undergoing local and international internship, practicum or on-the-job training, shipboard training programs, etc. shall be governed by separate guidelines for student internship programs (CMO 104 s. 2017).\n\nSec. 2. Suspension of Classes\n\n2.1. Authority to Suspend Classes.",
+        "score": 0.027893738140417457
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_603",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_603\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 5. Requirements, Obligations, and Responsibilities\nshall transmit within ten (10) to fifteen (15) working days to LSPU the following documents:\n\n6.1.1. Certificate of completion;\n\n6.1.2. Accomplished evaluation sheet; and\n\n6.1.3. Other pertinent reports, information, and/or documents which may be included for purposes of describing student intern performances.\n\n6.2. The SIPP Coordinator’s report including the HTE evaluation report will be the basis of the student intern’s final grade;\n\n6.3. A student intern whose contract was terminated before the end of the stipulated period for other causes shall be given a final grade on the basis of the school’s grading system, and after considering the circumstances surrounding such termination; and\n\n6.4. The LSPU shall strictly monitor compliance to these guidelines.\n\nSec. 7. Procedures for Local OJT/Internship\n\n7.1. The OJT/SIPP Coordinator prepares an endorsement letter to the agency/institution endorsing the students who are to undergo an OJT/internship. This is duly signed by the Dean and submitted to the company one (1) month before the start of the semester. The student/OJT Coordinator shall seek confirmation of acceptance from the respective agency.\n\n7.2.",
+        "score": 0.027119252873563218
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_584",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_584\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 5. Medals and Certificates\nDTC shall submit reports on drug testing activity initiated by the University to the CHED for proper accreditation of the Department of Health.\n\nSec. 8. Enforcement of Compliance. Students who refuse to undergo drug testing shall be dealt with accordance with the rules and regulation of the University provided that no time refusal to undergo testing shall not give rise to a presumption of drug use or dependency; provided further that the University may implement interventions on such refusal other than offense of drug use or dependency.\n\nAPPENDIX D LSPU INTERNSHIP PROGRAM (LSPU Student Handbook 2022, Chapter 6. Code of Conduct for LSPU Students, Article 5. Additional Guidelines,\n\nSection 1. International/Off-Campus Activities)\n\nThe Laguna State Polytechnic University (LSPU) presents the policies and guidelines for students’ internship or on-the-job training (OJT) programs in the pursuit of strong industry-academe linkage yielding to an effective and efficient exposure of the students to a safe and secured work environment.",
+        "score": 0.026190476190476188
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Off-Campus Jurisdiction of the Code of Conduct\nh:definition: Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).\nh:sourceArticle: Chapter 6, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: Off-Campus Jurisdiction of the Code of Conduct"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Violation of Rules/Regulations/Policies from Other Departments or Units\nh:definition: Every student must observe the rules, regulations and policies promulgated by the College/Department Head, instructors, or organization advisers, provided such rules conform with the LSPU Code of Conduct.\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_1 [h:Tier_ViolationOtherDeptPolicies_1]\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_2 [h:Tier_ViolationOtherDeptPolicies_2]\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_3 [h:Tier_ViolationOtherDeptPolicies_3]\nh:sourceArticle: Ch.6 Art.3 Sec.8\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Violation of Rules/Regulations/Policies from Other Departments or Units"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): School Uniform and Dress Code Policy\nh:administeredBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:audience: New students\nh:definition: Prescribed uniform must be worn in classroom sessions; P.E. uniform only during P.E. classes; University t-shirt every Wednesday, department shirt every Friday. Prohibited campus attire includes: shorts/walking shorts/cycling shorts, pedal pushers, capri pants, cargo shorts, mutilated/jazzed pants, faded/torn/wrinkled shirts, jogging pants, miniskirts, sleeveless/backless/halter/spaghetti-strap tops, sandos, plunging necklines, leggings, and slippers. A student violating the uniform provision is not allowed to enter the University gates unless a promissory note/communication letter from OSAS is presented.\nh:requiresDocument -> Promissory Note [h:Doc_PromissoryNote]\nh:sourceArticle: Chapter 6, Article 4, Sec. 1\nrdf:type -> Policy [h:Policy]\nrdfs:label: School Uniform and Dress Code Policy"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Trespassing\nh:definition: Staying inside University premises after class hours in the afternoon, or entering campus during off-school days without authorization from Campus Director/Deans/OSAS Director/Chief of Security (exceptions for makeup classes, practice, field activities, official business, or regular activities like ROTC/CWTS/Band).\nh:hasSanctionTier -> h:Tier_Trespassing_1 [h:Tier_Trespassing_1]\nh:hasSanctionTier -> h:Tier_Trespassing_2 [h:Tier_Trespassing_2]\nh:hasSanctionTier -> h:Tier_Trespassing_3 [h:Tier_Trespassing_3]\nh:sourceArticle: Ch.6 Art.3 Sec.7\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Trespassing"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Sign Pledge of Compliance upon Admission\nh:definition: Every student and their parent/guardian must sign the Pledge of Compliance at admission, pledging to abide by all university rules and regulations. Refusal to sign or subsequent violation of its terms is sufficient for summary dismissal or denial of admission.\nh:requiresDocument -> Pledge of Compliance [h:Doc_PledgeOfCompliance]\nh:sourceArticle: Chapter 3, Article 2, Sec. 2.7\nrdf:type -> Student Duty [h:Duty]\nrdfs:label: Sign Pledge of Compliance upon Admission"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Off-Campus Jurisdiction of the Code of Conduct\nh:definition: Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).\nh:sourceArticle: Chapter 6, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: Off-Campus Jurisdiction of the Code of Conduct\n\nAPPROXIMATE MATCH (not an exhaustive result): Violation of Rules/Regulations/Policies from Other Departments or Units\nh:definition: Every student must observe the rules, regulations and policies promulgated by the College/Department Head, instructors, or organization advisers, provided such rules conform with the LSPU Code of Conduct.\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_1 [h:Tier_ViolationOtherDeptPolicies_1]\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_2 [h:Tier_ViolationOtherDeptPolicies_2]\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_3 [h:Tier_ViolationOtherDeptPolicies_3]\nh:sourceArticle: Ch.6 Art.3 Sec.8\nrdf:type -> Minor Offense [h:M",
+    "answer_for_eval": "Yes, school rules still apply if you violate them during OJT or an off-campus competition. Violations committed outside the University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, OJT, or SIP.",
+    "retrieval_query": "Do school rules still apply if I violate them during OJT or an off-campus competition?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Policy_ScholasticDelinquency",
+              "rdf:type",
+              "h:Policy"
+            ],
+            [
+              "h:Policy_ScholasticDelinquency",
+              "h:definition",
+              "?definition"
+            ],
+            [
+              "h:Policy_ScholasticDelinquency",
+              "h:sourceArticle",
+              "?article"
+            ]
+          ],
+          "select": [
+            "?definition",
+            "?article"
+          ],
+          "filters": [
+            {
+              "var": "?definition",
+              "op": "contains",
+              "value": "rules"
+            }
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Query 1 returned no rows; recheck predicates, entity and filters",
+      "Query 1 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 7.01600000000326
+  },
+  "answer": "Yes, school rules still apply if you violate them during OJT or an off-campus competition. Violations committed outside the University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, OJT, or SIP.",
+  "pipeline_version": "oc-rag-3.0"
+}

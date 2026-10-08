@@ -1,0 +1,55 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Is cyber bullying a minor or a major offense?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_CyberBullying_1\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_1 [h:Tier_CyberBullying_1]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_CyberBullying_2\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_2 [h:Tier_CyberBullying_2]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_CyberBullying_3\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_3 [h:Tier_CyberBullying_3]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_3: h:SanctionTier"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_CyberBullying_1\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_1 [h:Tier_CyberBullying_1]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_1: h:SanctionTier\n\nQUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_CyberBullying_2\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_2 [h:Tier_CyberBullying_2]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_2: h:SanctionTier\n\nQUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_CyberBullying_3\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_3 [h:Tier_CyberBullying_3]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_3: h:SanctionTier",
+    "answer_for_eval": "Cyber bullying is classified as a major offense.",
+    "retrieval_query": "Is cyber bullying a minor or a major offense?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:CyberBullying",
+              "h:hasSanctionTier",
+              "?tier"
+            ]
+          ],
+          "select": [
+            "?tier"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 4.26500000001397,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_CyberBullying_1\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_1 [h:Tier_CyberBullying_1]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_1: h:SanctionTier",
+      "QUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_CyberBullying_2\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_2 [h:Tier_CyberBullying_2]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_2: h:SanctionTier",
+      "QUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_CyberBullying_3\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_3 [h:Tier_CyberBullying_3]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_3: h:SanctionTier"
+    ]
+  },
+  "answer": "Cyber bullying is classified as a major offense.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

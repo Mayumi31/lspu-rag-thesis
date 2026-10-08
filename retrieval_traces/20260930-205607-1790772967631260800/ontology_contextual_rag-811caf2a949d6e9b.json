@@ -1,0 +1,76 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Do school rules still apply if I violate them during OJT or an off-campus competition?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_538",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_538\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nRules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction. Violation of rules and regulations done outside the premises shall be treated as if they were committed within the University premises when a student is representing the University in conference, conventions, competitions presentations, during the time of On- thejob Training (OJT) and Student Internship Program (SIP) period.\n\nNB: LSPU System reserves the right for its University President to device any measure or enhance any established policy for the resolution of any concern if the implementation of any former policy will not be workable at any juncture.\n\nAPPENDIX A",
+        "score": 0.031099324975891997
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_604",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_604\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 5. Requirements, Obligations, and Responsibilities\nand submitted to the company one (1) month before the start of the semester. The student/OJT Coordinator shall seek confirmation of acceptance from the respective agency.\n\n7.2. Students who will undergo OJT/Internship should be officially enrolled. Students who do not meet the requirements per evaluation of their grades or academic standing during enrolment shall not be allowed to undergo OJT/Internship.\n\n7.3. The student submits a medical certificate as may be required by the company.\n\n7.4. The OJT/SIPP Coordinator conducts an in-house orientation on the policies and procedures in the conduct of the OJT and distributes relevant forms and documents.\n\n7.5. The OJT/SIPP Coordinator endorses students to the Dean and VPAA for approval, after which s/he packages the following documents for submission and endorsement to the institution/agency:\n\nTraining Needs Form, request letter for the conduct of OJT, Memorandum of Agreement, among others.\n\n7.6. The OJT/SIPP Coordinator conducts regular monitoring of the OJT students or interns.\n\n7.7.",
+        "score": 0.028612012987012988
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?policy=Off-Campus Jurisdiction of the Code of Conduct; ?definition=Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).; ?article=Chapter 6, Article 7, Sec. 5\nOff-Campus Jurisdiction of the Code of Conduct [h:Policy_OffCampusJurisdiction] --h:definition--> \"Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).\"\nOff-Campus Jurisdiction of the Code of Conduct [h:Policy_OffCampusJurisdiction] --h:sourceArticle--> \"Chapter 6, Article 7, Sec. 5\"\nOff-Campus Jurisdiction of the Code of Conduct [h:Policy_OffCampusJurisdiction] --rdf:type--> Policy [h:Policy]\nTYPE of Policy: http://www.w3.org/2002/07/owl#Class\nTYPE of Off-Campus Jurisdiction of the Code of Conduct: h:Policy\nSOURCE/QUALIFIER for Off-Campus Jurisdiction of the Code of Conduct: h:sourceArticle = Chapter 6, Article 7, Sec. 5"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?policy=Off-Campus Jurisdiction of the Code of Conduct; ?definition=Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).; ?article=Chapter 6, Article 7, Sec. 5\nOff-Campus Jurisdiction of the Code of Conduct [h:Policy_OffCampusJurisdiction] --h:definition--> \"Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).\"\nOff-Campus Jurisdiction of the Code of Conduct [h:Policy_OffCampusJurisdiction] --h:sourceArticle--> \"Chapter 6, Article 7, Sec. 5\"\nOff-Campus Jurisdiction of the Code of Conduct [h:Policy_OffCampusJurisdiction] --rdf:type--> Policy [h:Policy]\nTYPE of Policy: http://www.w3.org/2002/07/owl#Class\nTYPE of Off-Campus Jurisdiction of the Code of Conduct: h:Policy\nSOURCE/QUALIFIER for Off-Campus Jurisdiction of the Code of Conduc",
+    "answer_for_eval": "Yes, school rules still apply if you violate them during OJT or an off-campus competition. Violations committed outside the University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, OJT, or the Student Internship Program (SIP).",
+    "retrieval_query": "Do school rules still apply if I violate them during OJT or an off-campus competition?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?policy",
+              "h:definition",
+              "?definition"
+            ],
+            [
+              "?policy",
+              "rdf:type",
+              "h:Policy"
+            ],
+            [
+              "?policy",
+              "h:sourceArticle",
+              "?article"
+            ]
+          ],
+          "select": [
+            "?policy",
+            "?definition",
+            "?article"
+          ],
+          "filters": [
+            {
+              "var": "?article",
+              "op": "contains",
+              "value": "Chapter 6, Article 7, Sec. 5"
+            }
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 7.125,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?policy=Off-Campus Jurisdiction of the Code of Conduct; ?definition=Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).; ?article=Chapter 6, Article 7, Sec. 5\nOff-Campus Jurisdiction of the Code of Conduct [h:Policy_OffCampusJurisdiction] --h:definition--> \"Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).\"\nOff-Campus Jurisdiction of the Code of Conduct [h:Policy_OffCampusJurisdiction] --h:sourceArticle--> \"Chapter 6, Article 7, Sec. 5\"\nOff-Campus Jurisdiction of the Code of Conduct [h:Policy_OffCampusJurisdiction] --rdf:type--> Policy [h:Policy]\nTYPE of Policy: http://www.w3.org/2002/07/owl#Class\nTYPE of Off-Campus Jurisdiction of the Code of Conduct: h:Policy\nSOURCE/QUALIFIER for Off-Campus Jurisdiction of the Code of Conduct: h:sourceArticle = Chapter 6, Article 7, Sec. 5",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_538\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nRules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction. Violation of rules and regulations done outside the premises shall be treated as if they were committed within the University premises when a student is representing the University in conference, conventions, competitions presentations, during the time of On- thejob Training (OJT) and Student Internship Program (SIP) period.\n\nNB: LSPU System reserves the right for its University President to device any measure or enhance any established policy for the resolution of any concern if the implementation of any former policy will not be workable at any juncture.\n\nAPPENDIX A",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_604\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 5. Requirements, Obligations, and Responsibilities\nand submitted to the company one (1) month before the start of the semester. The student/OJT Coordinator shall seek confirmation of acceptance from the respective agency.\n\n7.2. Students who will undergo OJT/Internship should be officially enrolled. Students who do not meet the requirements per evaluation of their grades or academic standing during enrolment shall not be allowed to undergo OJT/Internship.\n\n7.3. The student submits a medical certificate as may be required by the company.\n\n7.4. The OJT/SIPP Coordinator conducts an in-house orientation on the policies and procedures in the conduct of the OJT and distributes relevant forms and documents.\n\n7.5. The OJT/SIPP Coordinator endorses students to the Dean and VPAA for approval, after which s/he packages the following documents for submission and endorsement to the institution/agency:\n\nTraining Needs Form, request letter for the conduct of OJT, Memorandum of Agreement, among others.\n\n7.6. The OJT/SIPP Coordinator conducts regular monitoring of the OJT students or interns.\n\n7.7."
+    ]
+  },
+  "answer": "Yes, school rules still apply if you violate them during OJT or an off-campus competition. Violations committed outside the University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, OJT, or the Student Internship Program (SIP).",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

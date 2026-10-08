@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What is Google Classroom used for at LSPU-LB?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "Google Classroom at LSPU-LB is used for online learning, class management, and communication between students and teachers.",
+    "retrieval_query": "What is Google Classroom used for at LSPU-LB?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.8589999999967404,
+    "selected_contexts": []
+  },
+  "answer": "Google Classroom at LSPU-LB is used for online learning, class management, and communication between students and teachers.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

@@ -1,0 +1,74 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "How can I apply online for completion of an INC grade?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): INC Mark and Grade Removal Policy\nh:additionalInfo: INC (Incomplete): A temporary grade for unfinished requirements or a missed final exam for a valid reason; it becomes 5.00 if not completed within one year.\nh:additionalInfo: You submit requirements to the subject teacher and then apply online through the portal; the Charter lists a fee of P30.00 per unit for the online completion/removal service, while the Handbook states a removal fee of P20 per unit; confirm the current amount with the Registrar or Cashier.\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:audience: Students\nh:definition: An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which must be taken within one (1) academic year. Removal fee: P20 per unit. Special removal examination (via Dean petition): P100 per unit.\nh:requiresDocument -> Excuse Slip [h:Doc_ExcuseSlip]\nh:sourceArticle: Chapter 3, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: INC Mark and Grade Removal Policy"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Completion of INC/Removal – Online System\na:availedAt -> Colleges [a:Office_Colleges]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: XXXI. Colleges, Service 3: Completion of INC/Removal – Online System (College, Registrar, Cashier), p. 86\na:totalFeeText: P30.00 per unit\na:totalProcessingTime: 25 minutes\na:whoMayAvail: Students\nh:definition: For students with a grade of INC or 4.0 requesting completion/removal of grades.\nh:hasStep -> Step 1: Apply online for completion [a:Serv_CompletionOfINCRemovalOnlineSystem_S1]\nh:requiresDocument -> Completion form [a:Doc_Completionform]\nh:requiresDocument -> Proof of payment for completion/removal (official Cashier receipt) [a:Doc_ProofofpaymentforcompletionremovalofficialCashierreceipt]\nrdf:type -> Service [a:Service]\nrdfs:label: Completion of INC/Removal – Online System"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 1: Apply online for completion\na:clientAction: After submitting the complete requirements to the subject teacher, the student logs in to the portal in the LSPU online system to apply online for completion of the INC or 4.0 grade.\na:hasFeeText: N/A\na:hasProcessingTime: 5 minutes\na:sourceSection: XXXI. Colleges, Service 3: Completion of INC/Removal – Online System (College, Registrar, Cashier), Step 1, p. 87\nh:nextStep -> Step 2: Pay completion fee [a:Serv_CompletionOfINCRemovalOnlineSystem_S2]\nh:performedBy -> Student (Client) [a:Role_StudentClient]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Apply online for completion"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Portal function: apply online for completion of INC or 4.0 grade\nh:definition: After submitting the complete requirements to the subject teacher, the student logs in to the portal in the LSPU online system to apply online for completion of the INC or 4.0 grade.\nh:functionOf -> LSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal]\nh:sourceArticle: Citizen's Charter 2026, Colleges, Service 3: Completion of INC/Removal - Online System, p. 86\nrdf:type -> Platform Function [h:PlatformFunction]\nrdfs:label: Portal function: apply online for completion of INC or 4.0 grade"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): INC Mark and Grade Removal Policy\nh:additionalInfo: INC (Incomplete): A temporary grade for unfinished requirements or a missed final exam for a valid reason; it becomes 5.00 if not completed within one year.\nh:additionalInfo: You submit requirements to the subject teacher and then apply online through the portal; the Charter lists a fee of P30.00 per unit for the online completion/removal service, while the Handbook states a removal fee of P20 per unit; confirm the current amount with the Registrar or Cashier.\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:audience: Students\nh:definition: An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which mus",
+    "answer_for_eval": "You can apply online for the completion of an INC grade by logging into the LSPU online system portal (myaccount.lspu.edu.ph) after submitting the complete requirements to the subject teacher.",
+    "retrieval_query": "How can I apply online to complete an INC grade?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:Serv_CompletionOfINCRemovalOnlineSystem",
+              "a:hasStep",
+              "?step"
+            ],
+            [
+              "?step",
+              "rdf:type",
+              "a:ServiceStep"
+            ],
+            [
+              "?step",
+              "rdfs:label",
+              "Step 1: Apply online for completion"
+            ]
+          ],
+          "select": [
+            "?step"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown predicate",
+      "Unknown predicate"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 4,
+    "elapsed_seconds": 8.577999999979511,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): INC Mark and Grade Removal Policy\nh:additionalInfo: INC (Incomplete): A temporary grade for unfinished requirements or a missed final exam for a valid reason; it becomes 5.00 if not completed within one year.\nh:additionalInfo: You submit requirements to the subject teacher and then apply online through the portal; the Charter lists a fee of P30.00 per unit for the online completion/removal service, while the Handbook states a removal fee of P20 per unit; confirm the current amount with the Registrar or Cashier.\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:audience: Students\nh:definition: An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which must be taken within one (1) academic year. Removal fee: P20 per unit. Special removal examination (via Dean petition): P100 per unit.\nh:requiresDocument -> Excuse Slip [h:Doc_ExcuseSlip]\nh:sourceArticle: Chapter 3, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: INC Mark and Grade Removal Policy",
+      "APPROXIMATE MATCH (not an exhaustive result): Completion of INC/Removal – Online System\na:availedAt -> Colleges [a:Office_Colleges]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: XXXI. Colleges, Service 3: Completion of INC/Removal – Online System (College, Registrar, Cashier), p. 86\na:totalFeeText: P30.00 per unit\na:totalProcessingTime: 25 minutes\na:whoMayAvail: Students\nh:definition: For students with a grade of INC or 4.0 requesting completion/removal of grades.\nh:hasStep -> Step 1: Apply online for completion [a:Serv_CompletionOfINCRemovalOnlineSystem_S1]\nh:requiresDocument -> Completion form [a:Doc_Completionform]\nh:requiresDocument -> Proof of payment for completion/removal (official Cashier receipt) [a:Doc_ProofofpaymentforcompletionremovalofficialCashierreceipt]\nrdf:type -> Service [a:Service]\nrdfs:label: Completion of INC/Removal – Online System",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 1: Apply online for completion\na:clientAction: After submitting the complete requirements to the subject teacher, the student logs in to the portal in the LSPU online system to apply online for completion of the INC or 4.0 grade.\na:hasFeeText: N/A\na:hasProcessingTime: 5 minutes\na:sourceSection: XXXI. Colleges, Service 3: Completion of INC/Removal – Online System (College, Registrar, Cashier), Step 1, p. 87\nh:nextStep -> Step 2: Pay completion fee [a:Serv_CompletionOfINCRemovalOnlineSystem_S2]\nh:performedBy -> Student (Client) [a:Role_StudentClient]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Apply online for completion",
+      "APPROXIMATE MATCH (not an exhaustive result): Portal function: apply online for completion of INC or 4.0 grade\nh:definition: After submitting the complete requirements to the subject teacher, the student logs in to the portal in the LSPU online system to apply online for completion of the INC or 4.0 grade.\nh:functionOf -> LSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal]\nh:sourceArticle: Citizen's Charter 2026, Colleges, Service 3: Completion of INC/Removal - Online System, p. 86\nrdf:type -> Platform Function [h:PlatformFunction]\nrdfs:label: Portal function: apply online for completion of INC or 4.0 grade"
+    ]
+  },
+  "answer": "You can apply online for the completion of an INC grade by logging into the LSPU online system portal (myaccount.lspu.edu.ph) after submitting the complete requirements to the subject teacher.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

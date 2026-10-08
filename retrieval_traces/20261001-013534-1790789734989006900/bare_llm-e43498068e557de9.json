@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What grade range is needed for Summa Cum Laude?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The grade range needed for Summa Cum Laude typically varies by institution. Please specify the institution for precise information.",
+    "retrieval_query": "What grade range is needed for Summa Cum Laude?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.8589999999967404,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.8589999999967404,
+    "selected_contexts": []
+  },
+  "answer": "The grade range needed for Summa Cum Laude typically varies by institution. Please specify the institution for precise information.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

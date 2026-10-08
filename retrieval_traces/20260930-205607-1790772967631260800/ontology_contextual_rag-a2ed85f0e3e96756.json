@@ -1,0 +1,123 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What documents must transferee applicants submit?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_829",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_829\nSECTION: WEBSITE ADMISSION RULE: TRANSFER FROM ANOTHER LSPU CAMPUS (WITHIN THE LSPU SYSTEM)\nWEBSITE ADMISSION RULE: TRANSFER FROM ANOTHER LSPU CAMPUS (WITHIN THE LSPU SYSTEM)\nSource: LSPU official website admission pages, text supplied by the maintainer (September 2026); not from the Handbook or Citizen's Charter (Transfer Admission: Transfer within LSPU System).\nStudents from another LSPU constituent campus who have earned at least 30 collegiate academic units may be admitted as transferees, subject to the rules of the admitting college. The student must present honorable dismissal from the college or university last attended; must complete in LSPU at least 50% of the units required for the program (75% if running for honors); and the University's quota must not yet be filled.\nAn admitted transferee may not enroll in a subject whose prerequisite, taken elsewhere, has not been validated or repeated in LSPU. All courses for which advanced credit is sought must be validated at the time stated in the validation requirements.\nThe validation schedule was not supplied. The source says the transferee \"must have completed\" the 50% or 75% of units in LSPU; this is read as a residency requirement. Confirm with the Registrar.",
+        "score": 0.029386529386529386
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_409",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_409\nSECTION: Chapter 3 | Article 2. Admission Requirements\n2.2.1. Non-immigrant or foreign student-applicants who graduated from a high school abroad and have not enrolled in the university may be admitted to the freshmen class.\n\n2.2.2. The foreign applicant must be a graduate of recognized secondary schools or colleges in their country of origin and submit complete documents. Transferees must show records or proofs of current registration or completion of term course.\n\n2.2.3. Qualifying in the university national or international foreign administered examination such as the General Certificate of Education (GCE) Examination or the Scholastic Aptitude Test (SAT) or any equivalent examination.\n\n2.2.3.1. GCE: 3 ordinary level passed and two advanced levels passed\n\n2.2.3.2. Scholastic Aptitude Test: Minimum total score of 1200\n\n2.2.3.3. IBE (International Baccalaureate Diploma)\n\n2.2.4. The foreign student applicant who is not a native English speaker is required to have at least earned a minimum score of 500 in the Test of English as Foreign Language",
+        "score": 0.028949545078577336
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_830",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_830\nSECTION: WEBSITE ADMISSION RULE: TRANSFER FROM ANOTHER LSPU CAMPUS (WITHIN THE LSPU SYSTEM)\nwas not supplied. The source says the transferee \"must have completed\" the 50% or 75% of units in LSPU; this is read as a residency requirement. Confirm with the Registrar. The 50% here differs from the 60% in the Handbook's college-to-college transfer rule, which covers a different situation.",
+        "score": 0.02749719416386083
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_163",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_163\nSECTION: 4. Evaluate the Services\nOffice/ SFA Page (Online)\nCertified True Copy of Grades | Registrar\nCertified True Copy of Certificate of Registration Registrar\nFinancial Documents | DSWD and BIR Office\nNotarized Certificate of No Employment and No | Law Office\nScholarship\nCopy of ID with 3 specimen/Signature | BAO Office/ Student\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Applying for | Verification of the | None | 2 minutes | Scholarship and\nScholarship | qualification of the | Financial Assistance\nthrough online or | applicants | Director/Chairperson\nactual application. | and Technical Staff\n2. Fill out application Issues application | None | 2 minutes | Scholarship and\nform. (SFA | form through online or | Financial Assistance\nForm/CHED | actual application | Director/Chairperson\nForm/ Other | based on the | and Technical Staff\nforms) | scholarship program\nthey are applying for.\n3. Submit scholarship Checked the filled-up | None | 3 minutes | Scholarship and\nand/or CHED form form and the | Financial Assistance\nand other | requirements for the | Director/Chairperson\ndocumentary | approval of their | and Technical Staff\nrequirements. | scholarship or financial",
+        "score": 0.025603392041748205
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_293",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_293\nSECTION: uploaded to the LSPU | Evaluate | Legal assistant III\nuploaded to the LSPU | Evaluate | Legal assistant III\nNEXUS SYSTEM\nVerification and | N/A | 20 minutes | Legal assistant II\nReview | Legal assistant III\nAttorney IV\nRelease of | N/A | 5 minutes | Attorney IV\nCertification\nTOTAL: | None | 30 minutes\n\nXIX. | RECORDS MANAGEMENT OFFICE\n1. Issuance of Certified True Copy\nAuthentication of Documents\n\nOffice or Division: Records Management Office\nClassification: | Simple\nType of Transaction: G2G - Government to Government\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\n\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nSubmit documents for | Issuance of Certified | n/a | 5mins | Records Officer\nauthentication. | True Copy\nTOTAL: | None | 5 minutes\n\n2. Issuance of Copy of Documents Requested by Client\nIssuance of Copy of Documents Requested by Clients\n\nOffice or Division:Records Management Office\nClassification: | Simple\nType of Transaction:\nG2G - Government to Government\nG2C - Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\n\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE",
+        "score": 0.025158227848101268
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Student transferee admission documents (LSPU website list)\nh:appliesToStudentType -> Student Transferee [h:StudentType_Transferee]\nh:audience: Transferees\nh:eligibilityCriteria: Transfer credential or honorable dismissal from the school last attended; transcript of records or a copy of academic records for evaluation; physical and medical examination certified by a government physician; certificate of good moral character from the school last attended; three latest 2x2 pictures; photocopy of authenticated birth certificate (NSO).\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Student Transferees)\nh:verificationNote: Older website wording; see the note on lspu:AdmReq_FreshmanDocuments. The Charter's enrollment list for transferees also asks for an original certificate of transfer and TOR or copy of grades.\nh:verificationNote: Website list is older wording (NSO, government physician). Prefer the Charter list for enrollment day. No rule about a minimum number of units was supplied for transferees from schools outside LSPU.\nrdf:type -> University Admission Requirement (Handbook) [h:AdmissionRequirement]\nrdfs:label: Student transferee admission documents (LSPU website list)\nrdfs:seeAlso -> Enrollment [a:Serv_Enrollment]\nrdfs:seeAlso -> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nrdfs:seeAlso -> Transfer from another LSPU campus (within the LSPU System) [h:Policy_TransferFromLSPUCampus]"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Transferring to Another College/Program Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:definition: Students intending to transfer to another college must satisfy grade requirements of the target college. The prescribed transfer form must state a valid reason, with an attached copy of grades and a recommendation letter from the previous Dean (CC to Registrar). Approval from the College Dean and Registrar must be obtained before 12% of regular class meetings have been held. The student must complete at least 60% of program units at LSPU (75% if running for honors).\nh:sourceArticle: Chapter 3, Article 2, Sec. 2.9\nrdf:type -> Policy [h:Policy]\nrdfs:label: Transferring to Another College/Program Policy"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Transcript of Records/Copy of Grades for evaluation purposes (transferees only)\nh:definition: Secured from the school previously attended/graduated from.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Transcript of Records/Copy of Grades for evaluation purposes (transferees only)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Student Transferee\nh:definition: A student coming from another school or another LSPU campus. Needs honorable dismissal or transfer credential, a transcript of records for evaluation, and must pass the entrance examination and interview.\nh:mustSatisfy -> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nh:mustSatisfy -> Student transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments]\nrdf:type -> Student Type [h:StudentType]\nrdfs:label: Student Transferee"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Form 138 (new student) / TOR (transferee), printed and softcopy\nh:definition: Secured from: SHS / Previous HEI.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Form 138 (new student) / TOR (transferee), printed and softcopy"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_829\nSECTION: WEBSITE ADMISSION RULE: TRANSFER FROM ANOTHER LSPU CAMPUS (WITHIN THE LSPU SYSTEM)\nWEBSITE ADMISSION RULE: TRANSFER FROM ANOTHER LSPU CAMPUS (WITHIN THE LSPU SYSTEM)\nSource: LSPU official website admission pages, text supplied by the maintainer (September 2026); not from the Handbook or Citizen's Charter (Transfer Admission: Transfer within LSPU System).\nStudents from another LSPU constituent campus who have earned at least 30 collegiate academic units may be admitted as transferees, subject to the rules of the admitting college. The student must present honorable dismissal from the college or university last attended; must complete in LSPU at least 50% of the units required for the program (75% if running for honors); and the University's quota must not yet be filled.\nAn admitted transferee may not enroll in a subject whose prerequisite, taken elsewhere, has not been validated or repeated in LSPU. All courses for which advanced credit is sought must be validated at the time stated in the validation requirements.\nThe validation schedule was not supplied. The source says the transferee \"must have completed\" the 50% or 7",
+    "answer_for_eval": "Transferee applicants must submit the following documents:\n\n1. Transfer credential or honorable dismissal from the school last attended\n2. Transcript of records or a copy of academic records for evaluation\n3. Physical and medical examination certified by a government physician\n4. Certificate of good moral character from the school last attended\n5. Three latest 2x2 pictures\n6. Photocopy of authenticated birth certificate (NSO)",
+    "retrieval_query": "What documents must transferee applicants submit",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:StudentType_Transferee",
+              "h:mustSatisfy",
+              "?x"
+            ],
+            [
+              "?x",
+              "h:sourceArticle",
+              {
+                "literal": "LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Student Transferees)"
+              }
+            ],
+            [
+              "?x",
+              "h:eligibilityCriteria",
+              {
+                "literal": "Transfer credential or honorable dismissal from the school last attended; transcript of records or a copy of academic records for evaluation; physical and medical examination certified by a government physician; certificate of good moral ch"
+              }
+            ],
+            [
+              "?x",
+              "h:alternateQuestion",
+              {
+                "literal": "Can I transfer to LSPU from another school?; Do transferees take the entrance exam?; How do I apply as a transferee to LSPU-LB and what documents do I need?"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 12.686999999976251,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_829\nSECTION: WEBSITE ADMISSION RULE: TRANSFER FROM ANOTHER LSPU CAMPUS (WITHIN THE LSPU SYSTEM)\nWEBSITE ADMISSION RULE: TRANSFER FROM ANOTHER LSPU CAMPUS (WITHIN THE LSPU SYSTEM)\nSource: LSPU official website admission pages, text supplied by the maintainer (September 2026); not from the Handbook or Citizen's Charter (Transfer Admission: Transfer within LSPU System).\nStudents from another LSPU constituent campus who have earned at least 30 collegiate academic units may be admitted as transferees, subject to the rules of the admitting college. The student must present honorable dismissal from the college or university last attended; must complete in LSPU at least 50% of the units required for the program (75% if running for honors); and the University's quota must not yet be filled.\nAn admitted transferee may not enroll in a subject whose prerequisite, taken elsewhere, has not been validated or repeated in LSPU. All courses for which advanced credit is sought must be validated at the time stated in the validation requirements.\nThe validation schedule was not supplied. The source says the transferee \"must have completed\" the 50% or 75% of units in LSPU; this is read as a residency requirement. Confirm with the Registrar.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_409\nSECTION: Chapter 3 | Article 2. Admission Requirements\n2.2.1. Non-immigrant or foreign student-applicants who graduated from a high school abroad and have not enrolled in the university may be admitted to the freshmen class.\n\n2.2.2. The foreign applicant must be a graduate of recognized secondary schools or colleges in their country of origin and submit complete documents. Transferees must show records or proofs of current registration or completion of term course.\n\n2.2.3. Qualifying in the university national or international foreign administered examination such as the General Certificate of Education (GCE) Examination or the Scholastic Aptitude Test (SAT) or any equivalent examination.\n\n2.2.3.1. GCE: 3 ordinary level passed and two advanced levels passed\n\n2.2.3.2. Scholastic Aptitude Test: Minimum total score of 1200\n\n2.2.3.3. IBE (International Baccalaureate Diploma)\n\n2.2.4. The foreign student applicant who is not a native English speaker is required to have at least earned a minimum score of 500 in the Test of English as Foreign Language",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_830\nSECTION: WEBSITE ADMISSION RULE: TRANSFER FROM ANOTHER LSPU CAMPUS (WITHIN THE LSPU SYSTEM)\nwas not supplied. The source says the transferee \"must have completed\" the 50% or 75% of units in LSPU; this is read as a residency requirement. Confirm with the Registrar. The 50% here differs from the 60% in the Handbook's college-to-college transfer rule, which covers a different situation.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_163\nSECTION: 4. Evaluate the Services\nOffice/ SFA Page (Online)\nCertified True Copy of Grades | Registrar\nCertified True Copy of Certificate of Registration Registrar\nFinancial Documents | DSWD and BIR Office\nNotarized Certificate of No Employment and No | Law Office\nScholarship\nCopy of ID with 3 specimen/Signature | BAO Office/ Student\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Applying for | Verification of the | None | 2 minutes | Scholarship and\nScholarship | qualification of the | Financial Assistance\nthrough online or | applicants | Director/Chairperson\nactual application. | and Technical Staff\n2. Fill out application Issues application | None | 2 minutes | Scholarship and\nform. (SFA | form through online or | Financial Assistance\nForm/CHED | actual application | Director/Chairperson\nForm/ Other | based on the | and Technical Staff\nforms) | scholarship program\nthey are applying for.\n3. Submit scholarship Checked the filled-up | None | 3 minutes | Scholarship and\nand/or CHED form form and the | Financial Assistance\nand other | requirements for the | Director/Chairperson\ndocumentary | approval of their | and Technical Staff\nrequirements. | scholarship or financial",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_293\nSECTION: uploaded to the LSPU | Evaluate | Legal assistant III\nuploaded to the LSPU | Evaluate | Legal assistant III\nNEXUS SYSTEM\nVerification and | N/A | 20 minutes | Legal assistant II\nReview | Legal assistant III\nAttorney IV\nRelease of | N/A | 5 minutes | Attorney IV\nCertification\nTOTAL: | None | 30 minutes\n\nXIX. | RECORDS MANAGEMENT OFFICE\n1. Issuance of Certified True Copy\nAuthentication of Documents\n\nOffice or Division: Records Management Office\nClassification: | Simple\nType of Transaction: G2G - Government to Government\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\n\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nSubmit documents for | Issuance of Certified | n/a | 5mins | Records Officer\nauthentication. | True Copy\nTOTAL: | None | 5 minutes\n\n2. Issuance of Copy of Documents Requested by Client\nIssuance of Copy of Documents Requested by Clients\n\nOffice or Division:Records Management Office\nClassification: | Simple\nType of Transaction:\nG2G - Government to Government\nG2C - Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\n\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE",
+      "APPROXIMATE MATCH (not an exhaustive result): Student transferee admission documents (LSPU website list)\nh:appliesToStudentType -> Student Transferee [h:StudentType_Transferee]\nh:audience: Transferees\nh:eligibilityCriteria: Transfer credential or honorable dismissal from the school last attended; transcript of records or a copy of academic records for evaluation; physical and medical examination certified by a government physician; certificate of good moral character from the school last attended; three latest 2x2 pictures; photocopy of authenticated birth certificate (NSO).\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Student Transferees)\nh:verificationNote: Older website wording; see the note on lspu:AdmReq_FreshmanDocuments. The Charter's enrollment list for transferees also asks for an original certificate of transfer and TOR or copy of grades.\nh:verificationNote: Website list is older wording (NSO, government physician). Prefer the Charter list for enrollment day. No rule about a minimum number of units was supplied for transferees from schools outside LSPU.\nrdf:type -> University Admission Requirement (Handbook) [h:AdmissionRequirement]\nrdfs:label: Student transferee admission documents (LSPU website list)\nrdfs:seeAlso -> Enrollment [a:Serv_Enrollment]\nrdfs:seeAlso -> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nrdfs:seeAlso -> Transfer from another LSPU campus (within the LSPU System) [h:Policy_TransferFromLSPUCampus]",
+      "APPROXIMATE MATCH (not an exhaustive result): Transferring to Another College/Program Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:definition: Students intending to transfer to another college must satisfy grade requirements of the target college. The prescribed transfer form must state a valid reason, with an attached copy of grades and a recommendation letter from the previous Dean (CC to Registrar). Approval from the College Dean and Registrar must be obtained before 12% of regular class meetings have been held. The student must complete at least 60% of program units at LSPU (75% if running for honors).\nh:sourceArticle: Chapter 3, Article 2, Sec. 2.9\nrdf:type -> Policy [h:Policy]\nrdfs:label: Transferring to Another College/Program Policy",
+      "APPROXIMATE MATCH (not an exhaustive result): Transcript of Records/Copy of Grades for evaluation purposes (transferees only)\nh:definition: Secured from the school previously attended/graduated from.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Transcript of Records/Copy of Grades for evaluation purposes (transferees only)",
+      "APPROXIMATE MATCH (not an exhaustive result): Student Transferee\nh:definition: A student coming from another school or another LSPU campus. Needs honorable dismissal or transfer credential, a transcript of records for evaluation, and must pass the entrance examination and interview.\nh:mustSatisfy -> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nh:mustSatisfy -> Student transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments]\nrdf:type -> Student Type [h:StudentType]\nrdfs:label: Student Transferee",
+      "APPROXIMATE MATCH (not an exhaustive result): Form 138 (new student) / TOR (transferee), printed and softcopy\nh:definition: Secured from: SHS / Previous HEI.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Form 138 (new student) / TOR (transferee), printed and softcopy"
+    ]
+  },
+  "answer": "Transferee applicants must submit the following documents:\n\n1. Transfer credential or honorable dismissal from the school last attended\n2. Transcript of records or a copy of academic records for evaluation\n3. Physical and medical examination certified by a government physician\n4. Certificate of good moral character from the school last attended\n5. Three latest 2x2 pictures\n6. Photocopy of authenticated birth certificate (NSO)",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

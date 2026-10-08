@@ -1,0 +1,95 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "how much is the university shirt?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_808",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_808\nSECTION: PRICE: UNIVERSITY SHIRT\nPRICE: UNIVERSITY SHIRT\nSource: campus information supplied by the maintainer (September 2026).\nThe University shirt costs Php 400 and is sold at the Business Affairs Office (BAO). It is worn every Wednesday.",
+        "score": 0.03278688524590164
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_806",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_806\nSECTION: COSTS OF UNIFORM, SHIRTS AND ID LACE, AND A FIRST-YEAR BUDGET ESTIMATE\nCOSTS OF UNIFORM, SHIRTS AND ID LACE, AND A FIRST-YEAR BUDGET ESTIMATE\nSource: prices reported by the maintainer in September 2026 and may change. The total is an estimate computed from those prices, assuming one of each item. Confirm whether the Php 500 PE price is per set.\nAll of these are bought at the Business Affairs Office (BAO).\n- Uniform fabric: about Php 600-800 (fabric only, so you need a tailor to make the polo and pants, which costs extra).\n- University shirt: Php 400.\n- NSTP shirt: Php 350.\n- PE T-shirt and shorts: Php 500.\n- ID lace: Php 130.\n- The official ID card itself is free for first-year students.\nIf you buy one of each item sold at the BAO, the total is roughly Php 1,980 to 2,180 (fabric Php 600-800 + University shirt Php 400 + NSTP shirt Php 350 + PE T-shirt and shorts Php 500 + ID lace Php 130).\nNot included: tailoring for the uniform, books, OJT, transport and housing.\nLaboratory costs are not an extra: they are already covered by the free tuition.",
+        "score": 0.03200204813108039
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_809",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_809\nSECTION: PRICE: NSTP SHIRT\nPRICE: NSTP SHIRT\nSource: campus information supplied by the maintainer (September 2026).\nThe NSTP shirt costs Php 350 and is sold at the Business Affairs Office (BAO).",
+        "score": 0.03149801587301587
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_810",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_810\nSECTION: PRICE: PE UNIFORM (PE T-SHIRT AND SHORTS)\nPRICE: PE UNIFORM (PE T-SHIRT AND SHORTS)\nSource: campus information supplied by the maintainer (September 2026). Reported as one price for the PE T-shirt and shorts; confirm whether Php 500 is per set.\nThe PE T-shirt and shorts cost Php 500 and are sold at the Business Affairs Office (BAO).",
+        "score": 0.030776515151515152
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_815",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_815\nSECTION: FREE HIGHER EDUCATION: WHAT YOU STILL PAY FOR (ADDITIONAL NOTE)\nFREE HIGHER EDUCATION: WHAT YOU STILL PAY FOR (ADDITIONAL NOTE)\nSource: Student Handbook Chapter 3, Article 2, Sec. 1.2-1.3 and Citizen's Charter 2026 Enrollment Step 2, p. 3 for the free-tuition rule; item prices and other costs are from campus information supplied by the maintainer (September 2026).\nFree higher education covers tuition and other school fees for qualified bachelor's degree students. It does not cover students who do not qualify, students with RLE subjects, opt-out students, CTP/foreign students, and graduate students, who pay through the Accounting Office and Cashier.\nItems you buy yourself are separate from tuition: uniform fabric (about Php 600-800, plus tailoring), University shirt (Php 400), NSTP shirt (Php 350), PE T-shirt and shorts (Php 500), ID lace (Php 130), OJT expenses, transport and housing.\nLaboratory costs are not on this list: they are already included in the tuition, so a student covered by free higher education pays no separate laboratory fee.",
+        "score": 0.030536130536130537
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): University shirt\nh:definition: The University shirt costs Php 400 and is sold at the Business Affairs Office (BAO). It is worn every Wednesday.\nh:priceAsOf: 2026-09\nh:priceMaxPHP: 400\nh:priceMinPHP: 400\nh:priceNote: Sold at BAO.\nh:soldAt -> Business Affairs Office [a:Office_BusinessAffairsOffice]\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nrdf:type -> Campus Item Price [h:CampusItemPrice]\nrdfs:label: University shirt"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Official uniform (fabric only)\nh:definition: The official uniform costs about Php 600 to 800, depending on the fabric. The campus sells only the fabric, so you must find a tailor to sew the polo and pants; the tailoring cost is extra and is not included.\nh:priceAsOf: 2026-09\nh:priceMaxPHP: 800\nh:priceMinPHP: 600\nh:priceNote: Fabric only; tailoring not included.\nh:soldAt -> Business Affairs Office [a:Office_BusinessAffairsOffice]\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nrdf:type -> Campus Item Price [h:CampusItemPrice]\nrdfs:label: Official uniform (fabric only)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): NSTP shirt\nh:definition: The NSTP shirt costs Php 350 and is sold at the Business Affairs Office (BAO).\nh:priceAsOf: 2026-09\nh:priceMaxPHP: 350\nh:priceMinPHP: 350\nh:priceNote: Sold at BAO.\nh:soldAt -> Business Affairs Office [a:Office_BusinessAffairsOffice]\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nrdf:type -> Campus Item Price [h:CampusItemPrice]\nrdfs:label: NSTP shirt"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): PE uniform (PE T-shirt and shorts)\nh:definition: The PE T-shirt and shorts cost Php 500 and are sold at the Business Affairs Office (BAO).\nh:priceAsOf: 2026-09\nh:priceMaxPHP: 500\nh:priceMinPHP: 500\nh:priceNote: Reported as one price for the PE T-shirt and shorts; confirm whether Php 500 is per set.\nh:soldAt -> Business Affairs Office [a:Office_BusinessAffairsOffice]\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nrdf:type -> Campus Item Price [h:CampusItemPrice]\nrdfs:label: PE uniform (PE T-shirt and shorts)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Wearing of Inappropriate Student Campus Attire\nh:definition: University t-shirt is worn every Wednesday and department shirt every Friday; blue jeans/maong trousers following the dress code are acceptable on these days. Wearing of inappropriate campus attire on washdays (Wednesday) and inter-semester classes is classified as a minor offense (Art. 4, Sec. 1.3), but the handbook publishes no sanction tier for it — verified against the source text, this is a genuine gap, not a data-entry omission. On non-washdays, uniform violations are handled under lspu:NonWearingIDUniform.\nh:sourceArticle: Ch.6 Art.4 Sec.1.3\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Wearing of Inappropriate Student Campus Attire"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): University shirt\nh:definition: The University shirt costs Php 400 and is sold at the Business Affairs Office (BAO). It is worn every Wednesday.\nh:priceAsOf: 2026-09\nh:priceMaxPHP: 400\nh:priceMinPHP: 400\nh:priceNote: Sold at BAO.\nh:soldAt -> Business Affairs Office [a:Office_BusinessAffairsOffice]\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nrdf:type -> Campus Item Price [h:CampusItemPrice]\nrdfs:label: University shirt\n\nAPPROXIMATE MATCH (not an exhaustive result): Official uniform (fabric only)\nh:definition: The official uniform costs about Php 600 to 800, depending on the fabric. The campus sells only the fabric, so you must find a tailor to sew the polo and pants; the tailoring cost is extra and is not included.\nh:priceAsOf: 2026-09\nh:priceMaxPHP: 800\nh:priceMinPHP: 600\nh:priceNote: Fabric only; tailoring not included.\nh:soldAt -> Business Affairs Office [a:Office_BusinessAffairsOffice]\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's",
+    "answer_for_eval": "The university shirt costs Php 400.",
+    "retrieval_query": "How much is the university shirt?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Price_UniversityShirt",
+              "rdf:type",
+              "h:CampusItemPrice"
+            ]
+          ],
+          "select": [
+            "?label",
+            "?priceMaxPHP"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown prefix: University shirt",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 7.73399999999674
+  },
+  "answer": "The university shirt costs Php 400.",
+  "pipeline_version": "oc-rag-3.0"
+}

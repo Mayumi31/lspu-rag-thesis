@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What are the requirements for the full varsity scholarship?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The requirements for the full varsity scholarship are not provided in the evidence. Please refer to the official LSPU-LB website or contact their scholarship office for detailed information.",
+    "retrieval_query": "What are the requirements for the full varsity scholarship?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.077999999979511,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 1.077999999979511,
+    "selected_contexts": []
+  },
+  "answer": "The requirements for the full varsity scholarship are not provided in the evidence. Please refer to the official LSPU-LB website or contact their scholarship office for detailed information.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

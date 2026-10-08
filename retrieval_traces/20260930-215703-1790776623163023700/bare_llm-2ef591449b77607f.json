@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "Who can I contact in an emergency on campus?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "You can contact the campus security or emergency services in case of an emergency on campus.",
+    "retrieval_query": "Who can I contact in an emergency on campus?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.25,
+    "selected_contexts": []
+  },
+  "answer": "You can contact the campus security or emergency services in case of an emergency on campus.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

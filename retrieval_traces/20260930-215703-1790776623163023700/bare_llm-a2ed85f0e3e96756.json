@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What documents must transferee applicants submit?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The specific documents that transferee applicants must submit are not provided in the evidence. Please refer to the official LSPU-LB admissions guidelines or contact the admissions office for detailed requirements.",
+    "retrieval_query": "What documents must transferee applicants submit?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.0630000000237487,
+    "selected_contexts": []
+  },
+  "answer": "The specific documents that transferee applicants must submit are not provided in the evidence. Please refer to the official LSPU-LB admissions guidelines or contact the admissions office for detailed requirements.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

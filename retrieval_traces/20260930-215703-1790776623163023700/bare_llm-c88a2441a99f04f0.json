@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "When was the 2026 campus-level ICAC-CAF held?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The 2026 campus-level ICAC-CAF was held in 2026.",
+    "retrieval_query": "When was the 2026 campus-level ICAC-CAF held?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.7660000000032596,
+    "selected_contexts": []
+  },
+  "answer": "The 2026 campus-level ICAC-CAF was held in 2026.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

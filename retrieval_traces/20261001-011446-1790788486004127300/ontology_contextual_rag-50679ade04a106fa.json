@@ -1,0 +1,67 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which college offers BS Psychology?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_17",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psychological Research Methods and Statistics\n- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.",
+        "score": 0.06452452301209573
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_19",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_19\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nfurther training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.06428490111891752
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?college=College of Arts and Sciences\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasDegree--> Bachelor of Science in Psychology [p:Degree_BSPsychology]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:offeredByCollege--> College of Arts and Sciences [p:CAS]\nTYPE of College of Arts and Sciences: p:College\nTYPE of Bachelor of Science in Psychology: p:Degree\nTYPE of Bachelor of Science in Psychology: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?college=College of Arts and Sciences\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasDegree--> Bachelor of Science in Psychology [p:Degree_BSPsychology]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:offeredByCollege--> College of Arts and Sciences [p:CAS]\nTYPE of College of Arts and Sciences: p:College\nTYPE of Bachelor of Science in Psychology: p:Degree\nTYPE of Bachelor of Science in Psychology: p:Program\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psycholog",
+    "answer_for_eval": "The college that offers the BS Psychology program is the College of Arts and Sciences.",
+    "retrieval_query": "Which colleges offer BS Psychology?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSPsych",
+              "p:hasDegree",
+              "p:Degree_BSPsychology"
+            ],
+            [
+              "p:Prog_BSPsych",
+              "p:offeredByCollege",
+              "?college"
+            ]
+          ],
+          "select": [
+            "?college"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 4.25,
+    "retrieval_seconds": 3.4380000000237487,
+    "generation_seconds": 0.8119999999762513,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?college=College of Arts and Sciences\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasDegree--> Bachelor of Science in Psychology [p:Degree_BSPsychology]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:offeredByCollege--> College of Arts and Sciences [p:CAS]\nTYPE of College of Arts and Sciences: p:College\nTYPE of Bachelor of Science in Psychology: p:Degree\nTYPE of Bachelor of Science in Psychology: p:Program",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psychological Research Methods and Statistics\n- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_19\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nfurther training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document."
+    ]
+  },
+  "answer": "The college that offers the BS Psychology program is the College of Arts and Sciences.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

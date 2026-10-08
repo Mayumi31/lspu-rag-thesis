@@ -2,10 +2,11 @@
 catalog.py — single source of truth for colleges and programs.
 
 Used by:
-  - templates/explore.html         (college cards + program cards)
-  - templates/recommendation.html  (interest checkboxes + results, via JS)
+  - templates/explore.html          (college cards + campus map)
+  - templates/college-details.html  (full program details per college)
+  - templates/others.html           (recommendation interest checkboxes, via JS)
 
-To add or edit a program, change it HERE only.
+To add or edit a college or program, change it HERE only.
 
 IMAGES
   Each program has an "image" filename. Put the real photo in
@@ -13,9 +14,10 @@ IMAGES
   automatically shows assets/images/programs/placeholder.svg instead.
 
 VERIFICATION
-  "desc" and "study" come from the prototype listing already in the site.
-  "careers" are GENERAL examples for the field, NOT confirmed LSPU-LB
-  outcomes. The page labels them that way. Replace with verified info.
+  "desc", "study", and the "more" blocks (field overview, activities,
+  skills, careers) are prototype/illustrative content, not confirmed
+  LSPU-LB curriculum or outcomes. Pages label them that way. Replace with
+  verified info before using this outside the thesis defense.
 """
 
 COLLEGES = [
@@ -31,9 +33,14 @@ COLLEGES = [
         "programs": [
             {"code": "BSF", "name": "BS Fisheries", "image": "bs-fisheries.jpg",
              "desc": "Aquaculture, fisheries biology, and sustainable resource management.",
-             "study": ["Aquaculture", "Fisheries biology", "Sustainable resource management"],
-             "careers": ["Aquaculture technician", "Fisheries technologist", "Coastal resource officer"]},
+             "study": ["Aquaculture", "Fisheries biology", "Sustainable resource management"]},
         ],
+        "more": {
+            "overview": "Fisheries is the flagship specialization of LSPU-Los Baños. The program studies aquaculture, fish biology, and the sustainable management of aquatic resources, right at the doorstep of Laguna de Bay.",
+            "activities": ["Run hands-on fish and shellfish culture projects", "Study water quality and aquatic ecosystems", "Visit hatcheries, fish ponds, and coastal communities", "Design sustainable aquaculture systems"],
+            "skills": ["Field and laboratory observation", "Environmental awareness", "Patience and precision"],
+            "careers": ["Fisheries Technologist", "Aquaculture Farm Manager", "Fisheries Extension Officer"],
+        },
     },
     {
         "id": "food",
@@ -47,13 +54,17 @@ COLLEGES = [
         "programs": [
             {"code": "ND", "name": "BS Nutrition and Dietetics", "image": "bs-nutrition-dietetics.jpg",
              "desc": "Clinical nutrition, diet planning, and community health programs.",
-             "study": ["Clinical nutrition", "Diet planning", "Community health programs"],
-             "careers": ["Nutritionist-dietitian", "Community nutrition worker", "Wellness consultant"]},
+             "study": ["Clinical nutrition", "Diet planning", "Community health programs"]},
             {"code": "FT", "name": "BS Food Technology", "image": "bs-food-technology.jpg",
              "desc": "Food science, processing, and product development.",
-             "study": ["Food science", "Food processing", "Product development"],
-             "careers": ["Food technologist", "Quality assurance officer", "Product developer"]},
+             "study": ["Food science", "Food processing", "Product development"]},
         ],
+        "more": {
+            "overview": "This college studies the science of food, from nutrient composition to meal planning, and prepares students to guide the health of individuals and communities.",
+            "activities": ["Analyze the nutritional value of local dishes", "Plan diets for different age groups and conditions", "Practice food product development in the lab kitchen", "Run community feeding and nutrition programs"],
+            "skills": ["Scientific reasoning", "Care for people's wellbeing", "Attention to detail"],
+            "careers": ["Registered Nutritionist-Dietitian", "Food Technologist", "Community Health Educator"],
+        },
     },
     {
         "id": "computer",
@@ -67,13 +78,17 @@ COLLEGES = [
         "programs": [
             {"code": "CS", "name": "BS Computer Science", "image": "bs-computer-science.jpg",
              "desc": "Explore computing, software development, intelligent systems, and related areas.",
-             "study": ["Computing fundamentals", "Software development", "Intelligent systems"],
-             "careers": ["Software developer", "Data or AI analyst", "Systems analyst"]},
+             "study": ["Computing fundamentals", "Software development", "Intelligent systems"]},
             {"code": "IT", "name": "BS Information Technology", "image": "bs-information-technology.jpg",
              "desc": "Learn about information technology, applications, services, and specialized areas.",
-             "study": ["Applications", "IT services", "Specialized IT areas"],
-             "careers": ["IT support specialist", "Web or app developer", "Network technician"]},
+             "study": ["Applications", "IT services", "Specialized IT areas"]},
         ],
+        "more": {
+            "overview": "Computer Studies focuses on algorithms, software development, and solving real problems through technology, from mobile apps to community information systems.",
+            "activities": ["Create applications and websites", "Build and maintain information systems", "Learn programming languages and frameworks", "Work on team capstone projects"],
+            "skills": ["Logical thinking", "Problem solving", "Creativity"],
+            "careers": ["Software Developer", "Data Analyst", "Systems Administrator"],
+        },
     },
     {
         "id": "criminal-justice",
@@ -87,9 +102,14 @@ COLLEGES = [
         "programs": [
             {"code": "CR", "name": "BS Criminology", "image": "bs-criminology.jpg",
              "desc": "Law enforcement, criminal investigation, and public safety administration.",
-             "study": ["Law enforcement", "Criminal investigation", "Public safety administration"],
-             "careers": ["Law enforcement officer", "Investigator", "Public safety officer"]},
+             "study": ["Law enforcement", "Criminal investigation", "Public safety administration"]},
         ],
+        "more": {
+            "overview": "This college trains future criminologists in criminal law, investigation, and forensics, preparing students for the Criminologist Licensure Examination and careers in public safety.",
+            "activities": ["Study criminal law and criminology theory", "Practice crime scene investigation techniques", "Train in physical fitness and defensive tactics", "Join community outreach and peacekeeping activities"],
+            "skills": ["Discipline and integrity", "Quick, sound judgment", "Physical and mental resilience"],
+            "careers": ["Criminologist", "Law Enforcement Officer", "Forensic Investigator"],
+        },
     },
     {
         "id": "business",
@@ -103,13 +123,17 @@ COLLEGES = [
         "programs": [
             {"code": "MM", "name": "BSBA — Marketing Management", "image": "bsba-marketing-management.jpg",
              "desc": "Brand strategy, market research, and consumer behavior.",
-             "study": ["Brand strategy", "Market research", "Consumer behavior"],
-             "careers": ["Marketing associate", "Market researcher", "Brand coordinator"]},
+             "study": ["Brand strategy", "Market research", "Consumer behavior"]},
             {"code": "FM", "name": "BSBA — Financial Management", "image": "bsba-financial-management.jpg",
              "desc": "Corporate finance, investment analysis, and financial planning.",
-             "study": ["Corporate finance", "Investment analysis", "Financial planning"],
-             "careers": ["Financial analyst", "Credit or bank officer", "Financial planning associate"]},
+             "study": ["Corporate finance", "Investment analysis", "Financial planning"]},
         ],
+        "more": {
+            "overview": "Business Administration covers management, marketing, and finance, preparing students to run organizations, launch ventures, and lead teams.",
+            "activities": ["Pitch and plan small business ventures", "Study marketing, finance, and operations", "Join case competitions and student organization leadership", "Complete on-the-job training in a real company"],
+            "skills": ["Persuasion and negotiation", "Numerical reasoning", "Organization"],
+            "careers": ["Entrepreneur", "Marketing Officer", "Financial Analyst"],
+        },
     },
     {
         "id": "teacher",
@@ -123,12 +147,63 @@ COLLEGES = [
         "programs": [
             {"code": "EE", "name": "Bachelor of Elementary Education", "image": "bachelor-elementary-education.jpg",
              "desc": "Foundational pedagogy for teaching young learners.",
-             "study": ["Foundational pedagogy", "Teaching young learners"],
-             "careers": ["Elementary school teacher", "Learning facilitator", "Tutor"]},
+             "study": ["Foundational pedagogy", "Teaching young learners"]},
             {"code": "SE", "name": "Bachelor of Secondary Education", "image": "bachelor-secondary-education.jpg",
              "desc": "Subject-focused teaching methods for junior and senior high school.",
-             "study": ["Subject-focused teaching methods", "Junior and senior high school teaching"],
-             "careers": ["High school teacher", "Subject specialist", "Curriculum assistant"]},
+             "study": ["Subject-focused teaching methods", "Junior and senior high school teaching"]},
         ],
+        "more": {
+            "overview": "Teacher Education prepares students to plan lessons, manage classrooms, and mentor learners, building a foundation for shaping the next generation.",
+            "activities": ["Design lesson plans and learning activities", "Practice teaching in real classrooms", "Study child and adolescent development", "Create instructional materials"],
+            "skills": ["Clear communication", "Patience", "Creativity in explaining ideas"],
+            "careers": ["Elementary or Secondary Teacher", "Curriculum Developer", "Guidance Associate"],
+        },
+    },
+    {
+        "id": "tourism-hospitality",
+        "name": "College of Tourism and Hospitality Management",
+        "kicker": "Craft memorable experience",
+        "blurb": "Design travel experiences and run hotels, restaurants, and events with heart.",
+        "interest": "Travel, hospitality, and event experiences",
+        "recommend": "Explore travel experiences, hospitality, hotels, restaurants, and event services.",
+        "accent": "#c47700", "tint": "#fff3df", "program_accent": "#c47700",
+        "icon": '<circle cx="12" cy="12" r="9.5"/><path d="m15.8 8.2-2.6 5-5 2.6 2.6-5 5-2.6Z"/><circle cx="12" cy="12" r="1"/>',
+        "programs": [
+            {"code": "HM", "name": "BS Hospitality Management", "image": "bs-hospitality-management.jpg",
+             "desc": "Prepare for hotel, restaurant, and guest service operations.",
+             "study": ["Hotel operations", "Restaurant service", "Guest relations"]},
+            {"code": "TM", "name": "BS Tourism Management", "image": "bs-tourism-management.jpg",
+             "desc": "Explore travel experiences, tour planning, and destination services.",
+             "study": ["Tour planning", "Destination services", "Travel experience design"]},
+        ],
+        "more": {
+            "overview": "This college trains students to run hotels, restaurants, and travel experiences, turning hospitality and Filipino warmth into a profession.",
+            "activities": ["Practice front-desk and guest service scenarios", "Plan events and tour itineraries", "Train in food and beverage service", "Complete internships in hotels and resorts"],
+            "skills": ["People skills", "Composure under pressure", "Cultural awareness"],
+            "careers": ["Hotel Operations Manager", "Event Planner", "Tour Coordinator"],
+        },
+    },
+    {
+        "id": "arts-sciences",
+        "name": "College of Arts and Sciences",
+        "kicker": "Understand people and society",
+        "blurb": "Explore human behavior, emotions, and society through scientific study.",
+        "interest": "Human behavior, emotions, and society",
+        "recommend": "Explore human behavior, emotions, and society through scientific study.",
+        "accent": "#c000b5", "tint": "#fbe8fa", "program_accent": "#c000b5",
+        "icon": '<path d="M9 4a3 3 0 0 0-5.8 1.1A3.5 3.5 0 0 0 3 12a3.5 3.5 0 0 0 .8 6.9A3 3 0 0 0 9 20V4Z"/><path d="M15 4a3 3 0 0 1 5.8 1.1A3.5 3.5 0 0 1 21 12a3.5 3.5 0 0 1-.8 6.9A3 3 0 0 1 15 20V4Z"/><path d="M9 7h3l2-2M9 12h6m-6 5h3l2 2M18 9h3m-3 6h3"/>',
+        "programs": [
+            {"code": "PSY", "name": "Bachelor of Science in Psychology", "image": "bs-psychology.jpg",
+             "desc": "Study how people think, feel, and behave through research and scientific inquiry.",
+             "study": ["Personality and behavior", "Research methods", "Human development"]},
+        ],
+        "more": {
+            "overview": "The College of Arts and Sciences offers Psychology, exploring how people think, feel, and behave — a foundation for careers in counseling, human resources, and research.",
+            "activities": ["Study theories of personality and behavior", "Conduct small research studies and surveys", "Practice basic counseling and interview techniques", "Observe human development across the lifespan"],
+            "skills": ["Empathy", "Research and analysis", "Active listening"],
+            "careers": ["Psychometrician", "HR Associate", "Research Assistant"],
+        },
     },
 ]
+
+COLLEGES_BY_ID = {c["id"]: c for c in COLLEGES}

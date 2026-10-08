@@ -1,0 +1,1039 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Is smoking a minor or a major offense?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_Smoking_1\nSmoking [h:Smoking] --h:definition--> \"Smoking within University premises is strictly prohibited to all students.\"\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_1 [h:Tier_Smoking_1]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_Smoking_2\nSmoking [h:Smoking] --h:definition--> \"Smoking within University premises is strictly prohibited to all students.\"\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_2 [h:Tier_Smoking_2]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_Smoking_3\nSmoking [h:Smoking] --h:definition--> \"Smoking within University premises is strictly prohibited to all students.\"\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_3 [h:Tier_Smoking_3]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?sanction=h:Sanc_Tier_AidingCybercrime_1_1\nh:Tier_AidingCybercrime_1 [h:Tier_AidingCybercrime_1] --h:imposesSanction--> h:Sanc_Tier_AidingCybercrime_1_1 [h:Sanc_Tier_AidingCybercrime_1_1]\nTYPE of h:Sanc_Tier_AidingCybercrime_1_1: h:Sanction\nTYPE of h:Tier_AidingCybercrime_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 2: ?sanction=h:Sanc_Tier_AidingCybercrime_1_2\nh:Tier_AidingCybercrime_1 [h:Tier_AidingCybercrime_1] --h:imposesSanction--> h:Sanc_Tier_AidingCybercrime_1_2 [h:Sanc_Tier_AidingCybercrime_1_2]\nTYPE of h:Sanc_Tier_AidingCybercrime_1_2: h:Sanction\nTYPE of h:Tier_AidingCybercrime_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 3: ?sanction=h:Sanc_Tier_AidingCybercrime_2_1\nh:Tier_AidingCybercrime_2 [h:Tier_AidingCybercrime_2] --h:imposesSanction--> h:Sanc_Tier_AidingCybercrime_2_1 [h:Sanc_Tier_AidingCybercrime_2_1]\nTYPE of h:Sanc_Tier_AidingCybercrime_2_1: h:Sanction\nTYPE of h:Tier_AidingCybercrime_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 4: ?sanction=h:Sanc_Tier_AidingCybercrime_3_1\nh:Tier_AidingCybercrime_3 [h:Tier_AidingCybercrime_3] --h:imposesSanction--> h:Sanc_Tier_AidingCybercrime_3_1 [h:Sanc_Tier_AidingCybercrime_3_1]\nTYPE of h:Sanc_Tier_AidingCybercrime_3_1: h:Sanction\nTYPE of h:Tier_AidingCybercrime_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 5: ?sanction=h:Sanc_Tier_BelligerenceDiscourtesy_1_1\nh:Tier_BelligerenceDiscourtesy_1 [h:Tier_BelligerenceDiscourtesy_1] --h:imposesSanction--> h:Sanc_Tier_BelligerenceDiscourtesy_1_1 [h:Sanc_Tier_BelligerenceDiscourtesy_1_1]\nTYPE of h:Sanc_Tier_BelligerenceDiscourtesy_1_1: h:Sanction\nTYPE of h:Tier_BelligerenceDiscourtesy_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 6: ?sanction=h:Sanc_Tier_BelligerenceDiscourtesy_1_2\nh:Tier_BelligerenceDiscourtesy_1 [h:Tier_BelligerenceDiscourtesy_1] --h:imposesSanction--> h:Sanc_Tier_BelligerenceDiscourtesy_1_2 [h:Sanc_Tier_BelligerenceDiscourtesy_1_2]\nTYPE of h:Sanc_Tier_BelligerenceDiscourtesy_1_2: h:Sanction\nTYPE of h:Tier_BelligerenceDiscourtesy_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 7: ?sanction=h:Sanc_Tier_BelligerenceDiscourtesy_1_3\nh:Tier_BelligerenceDiscourtesy_1 [h:Tier_BelligerenceDiscourtesy_1] --h:imposesSanction--> h:Sanc_Tier_BelligerenceDiscourtesy_1_3 [h:Sanc_Tier_BelligerenceDiscourtesy_1_3]\nTYPE of h:Sanc_Tier_BelligerenceDiscourtesy_1_3: h:Sanction\nTYPE of h:Tier_BelligerenceDiscourtesy_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 8: ?sanction=h:Sanc_Tier_BelligerenceDiscourtesy_2_1\nh:Tier_BelligerenceDiscourtesy_2 [h:Tier_BelligerenceDiscourtesy_2] --h:imposesSanction--> h:Sanc_Tier_BelligerenceDiscourtesy_2_1 [h:Sanc_Tier_BelligerenceDiscourtesy_2_1]\nTYPE of h:Sanc_Tier_BelligerenceDiscourtesy_2_1: h:Sanction\nTYPE of h:Tier_BelligerenceDiscourtesy_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 9: ?sanction=h:Sanc_Tier_BelligerenceDiscourtesy_2_2\nh:Tier_BelligerenceDiscourtesy_2 [h:Tier_BelligerenceDiscourtesy_2] --h:imposesSanction--> h:Sanc_Tier_BelligerenceDiscourtesy_2_2 [h:Sanc_Tier_BelligerenceDiscourtesy_2_2]\nTYPE of h:Sanc_Tier_BelligerenceDiscourtesy_2_2: h:Sanction\nTYPE of h:Tier_BelligerenceDiscourtesy_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 10: ?sanction=h:Sanc_Tier_BelligerenceDiscourtesy_3_1\nh:Tier_BelligerenceDiscourtesy_3 [h:Tier_BelligerenceDiscourtesy_3] --h:imposesSanction--> h:Sanc_Tier_BelligerenceDiscourtesy_3_1 [h:Sanc_Tier_BelligerenceDiscourtesy_3_1]\nTYPE of h:Sanc_Tier_BelligerenceDiscourtesy_3_1: h:Sanction\nTYPE of h:Tier_BelligerenceDiscourtesy_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 11: ?sanction=h:Sanc_Tier_BorrowLendIDLibraryCard_1_1\nh:Tier_BorrowLendIDLibraryCard_1 [h:Tier_BorrowLendIDLibraryCard_1] --h:imposesSanction--> h:Sanc_Tier_BorrowLendIDLibraryCard_1_1 [h:Sanc_Tier_BorrowLendIDLibraryCard_1_1]\nTYPE of h:Sanc_Tier_BorrowLendIDLibraryCard_1_1: h:Sanction\nTYPE of h:Tier_BorrowLendIDLibraryCard_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 12: ?sanction=h:Sanc_Tier_BorrowLendIDLibraryCard_2_1\nh:Tier_BorrowLendIDLibraryCard_2 [h:Tier_BorrowLendIDLibraryCard_2] --h:imposesSanction--> h:Sanc_Tier_BorrowLendIDLibraryCard_2_1 [h:Sanc_Tier_BorrowLendIDLibraryCard_2_1]\nTYPE of h:Sanc_Tier_BorrowLendIDLibraryCard_2_1: h:Sanction\nTYPE of h:Tier_BorrowLendIDLibraryCard_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 13: ?sanction=h:Sanc_Tier_BorrowLendIDLibraryCard_2_2\nh:Tier_BorrowLendIDLibraryCard_2 [h:Tier_BorrowLendIDLibraryCard_2] --h:imposesSanction--> h:Sanc_Tier_BorrowLendIDLibraryCard_2_2 [h:Sanc_Tier_BorrowLendIDLibraryCard_2_2]\nTYPE of h:Sanc_Tier_BorrowLendIDLibraryCard_2_2: h:Sanction\nTYPE of h:Tier_BorrowLendIDLibraryCard_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 14: ?sanction=h:Sanc_Tier_BorrowLendIDLibraryCard_3_1\nh:Tier_BorrowLendIDLibraryCard_3 [h:Tier_BorrowLendIDLibraryCard_3] --h:imposesSanction--> h:Sanc_Tier_BorrowLendIDLibraryCard_3_1 [h:Sanc_Tier_BorrowLendIDLibraryCard_3_1]\nTYPE of h:Sanc_Tier_BorrowLendIDLibraryCard_3_1: h:Sanction\nTYPE of h:Tier_BorrowLendIDLibraryCard_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 15: ?sanction=h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_1_1\nh:Tier_BreachOfPeace_ShoutingRoaming_1 [h:Tier_BreachOfPeace_ShoutingRoaming_1] --h:imposesSanction--> h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_1_1 [h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_1_1]\nTYPE of h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_1_1: h:Sanction\nTYPE of h:Tier_BreachOfPeace_ShoutingRoaming_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 16: ?sanction=h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_1\nh:Tier_BreachOfPeace_ShoutingRoaming_2 [h:Tier_BreachOfPeace_ShoutingRoaming_2] --h:imposesSanction--> h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_1 [h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_1]\nTYPE of h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_1: h:Sanction\nTYPE of h:Tier_BreachOfPeace_ShoutingRoaming_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 17: ?sanction=h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_2\nh:Tier_BreachOfPeace_ShoutingRoaming_2 [h:Tier_BreachOfPeace_ShoutingRoaming_2] --h:imposesSanction--> h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_2 [h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_2]\nTYPE of h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_2: h:Sanction\nTYPE of h:Tier_BreachOfPeace_ShoutingRoaming_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 18: ?sanction=h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_3_1\nh:Tier_BreachOfPeace_ShoutingRoaming_3 [h:Tier_BreachOfPeace_ShoutingRoaming_3] --h:imposesSanction--> h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_3_1 [h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_3_1]\nTYPE of h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_3_1: h:Sanction\nTYPE of h:Tier_BreachOfPeace_ShoutingRoaming_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 19: ?sanction=h:Sanc_Tier_BreachOfPeace_Subsequent_1_1\nh:Tier_BreachOfPeace_Subsequent_1 [h:Tier_BreachOfPeace_Subsequent_1] --h:imposesSanction--> h:Sanc_Tier_BreachOfPeace_Subsequent_1_1 [h:Sanc_Tier_BreachOfPeace_Subsequent_1_1]\nTYPE of h:Sanc_Tier_BreachOfPeace_Subsequent_1_1: h:Sanction\nTYPE of h:Tier_BreachOfPeace_Subsequent_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 20: ?sanction=h:Sanc_Tier_Bullying_HostileEnvironment_1_1\nh:Tier_Bullying_HostileEnvironment_1 [h:Tier_Bullying_HostileEnvironment_1] --h:imposesSanction--> h:Sanc_Tier_Bullying_HostileEnvironment_1_1 [h:Sanc_Tier_Bullying_HostileEnvironment_1_1]\nTYPE of h:Sanc_Tier_Bullying_HostileEnvironment_1_1: h:Sanction\nTYPE of h:Tier_Bullying_HostileEnvironment_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 21: ?sanction=h:Sanc_Tier_Bullying_HostileEnvironment_1_2\nh:Tier_Bullying_HostileEnvironment_1 [h:Tier_Bullying_HostileEnvironment_1] --h:imposesSanction--> h:Sanc_Tier_Bullying_HostileEnvironment_1_2 [h:Sanc_Tier_Bullying_HostileEnvironment_1_2]\nTYPE of h:Sanc_Tier_Bullying_HostileEnvironment_1_2: h:Sanction\nTYPE of h:Tier_Bullying_HostileEnvironment_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 22: ?sanction=h:Sanc_Tier_Bullying_HostileEnvironment_2_1\nh:Tier_Bullying_HostileEnvironment_2 [h:Tier_Bullying_HostileEnvironment_2] --h:imposesSanction--> h:Sanc_Tier_Bullying_HostileEnvironment_2_1 [h:Sanc_Tier_Bullying_HostileEnvironment_2_1]\nTYPE of h:Sanc_Tier_Bullying_HostileEnvironment_2_1: h:Sanction\nTYPE of h:Tier_Bullying_HostileEnvironment_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 23: ?sanction=h:Sanc_Tier_Bullying_HostileEnvironment_3_1\nh:Tier_Bullying_HostileEnvironment_3 [h:Tier_Bullying_HostileEnvironment_3] --h:imposesSanction--> h:Sanc_Tier_Bullying_HostileEnvironment_3_1 [h:Sanc_Tier_Bullying_HostileEnvironment_3_1]\nTYPE of h:Sanc_Tier_Bullying_HostileEnvironment_3_1: h:Sanction\nTYPE of h:Tier_Bullying_HostileEnvironment_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 24: ?sanction=h:Sanc_Tier_Bullying_PhysicalContact_1_1\nh:Tier_Bullying_PhysicalContact_1 [h:Tier_Bullying_PhysicalContact_1] --h:imposesSanction--> h:Sanc_Tier_Bullying_PhysicalContact_1_1 [h:Sanc_Tier_Bullying_PhysicalContact_1_1]\nTYPE of h:Sanc_Tier_Bullying_PhysicalContact_1_1: h:Sanction\nTYPE of h:Tier_Bullying_PhysicalContact_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 25: ?sanction=h:Sanc_Tier_Bullying_PhysicalContact_2_1\nh:Tier_Bullying_PhysicalContact_2 [h:Tier_Bullying_PhysicalContact_2] --h:imposesSanction--> h:Sanc_Tier_Bullying_PhysicalContact_2_1 [h:Sanc_Tier_Bullying_PhysicalContact_2_1]\nTYPE of h:Sanc_Tier_Bullying_PhysicalContact_2_1: h:Sanction\nTYPE of h:Tier_Bullying_PhysicalContact_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 26: ?sanction=h:Sanc_Tier_Bullying_PhysicalContact_3_1\nh:Tier_Bullying_PhysicalContact_3 [h:Tier_Bullying_PhysicalContact_3] --h:imposesSanction--> h:Sanc_Tier_Bullying_PhysicalContact_3_1 [h:Sanc_Tier_Bullying_PhysicalContact_3_1]\nTYPE of h:Sanc_Tier_Bullying_PhysicalContact_3_1: h:Sanction\nTYPE of h:Tier_Bullying_PhysicalContact_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 27: ?sanction=h:Sanc_Tier_Bullying_SevereRepeated_1_1\nh:Tier_Bullying_SevereRepeated_1 [h:Tier_Bullying_SevereRepeated_1] --h:imposesSanction--> h:Sanc_Tier_Bullying_SevereRepeated_1_1 [h:Sanc_Tier_Bullying_SevereRepeated_1_1]\nTYPE of h:Sanc_Tier_Bullying_SevereRepeated_1_1: h:Sanction\nTYPE of h:Tier_Bullying_SevereRepeated_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 28: ?sanction=h:Sanc_Tier_Bullying_SevereRepeated_1_2\nh:Tier_Bullying_SevereRepeated_1 [h:Tier_Bullying_SevereRepeated_1] --h:imposesSanction--> h:Sanc_Tier_Bullying_SevereRepeated_1_2 [h:Sanc_Tier_Bullying_SevereRepeated_1_2]\nTYPE of h:Sanc_Tier_Bullying_SevereRepeated_1_2: h:Sanction\nTYPE of h:Tier_Bullying_SevereRepeated_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 29: ?sanction=h:Sanc_Tier_Bullying_SevereRepeated_2_1\nh:Tier_Bullying_SevereRepeated_2 [h:Tier_Bullying_SevereRepeated_2] --h:imposesSanction--> h:Sanc_Tier_Bullying_SevereRepeated_2_1 [h:Sanc_Tier_Bullying_SevereRepeated_2_1]\nTYPE of h:Sanc_Tier_Bullying_SevereRepeated_2_1: h:Sanction\nTYPE of h:Tier_Bullying_SevereRepeated_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 30: ?sanction=h:Sanc_Tier_Bullying_SevereRepeated_3_1\nh:Tier_Bullying_SevereRepeated_3 [h:Tier_Bullying_SevereRepeated_3] --h:imposesSanction--> h:Sanc_Tier_Bullying_SevereRepeated_3_1 [h:Sanc_Tier_Bullying_SevereRepeated_3_1]\nTYPE of h:Sanc_Tier_Bullying_SevereRepeated_3_1: h:Sanction\nTYPE of h:Tier_Bullying_SevereRepeated_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 31: ?sanction=h:Sanc_Tier_Bullying_SlanderousStatement_1_1\nh:Tier_Bullying_SlanderousStatement_1 [h:Tier_Bullying_SlanderousStatement_1] --h:imposesSanction--> h:Sanc_Tier_Bullying_SlanderousStatement_1_1 [h:Sanc_Tier_Bullying_SlanderousStatement_1_1]\nTYPE of h:Sanc_Tier_Bullying_SlanderousStatement_1_1: h:Sanction\nTYPE of h:Tier_Bullying_SlanderousStatement_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 32: ?sanction=h:Sanc_Tier_Bullying_SlanderousStatement_2_1\nh:Tier_Bullying_SlanderousStatement_2 [h:Tier_Bullying_SlanderousStatement_2] --h:imposesSanction--> h:Sanc_Tier_Bullying_SlanderousStatement_2_1 [h:Sanc_Tier_Bullying_SlanderousStatement_2_1]\nTYPE of h:Sanc_Tier_Bullying_SlanderousStatement_2_1: h:Sanction\nTYPE of h:Tier_Bullying_SlanderousStatement_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 33: ?sanction=h:Sanc_Tier_Bullying_SlanderousStatement_3_1\nh:Tier_Bullying_SlanderousStatement_3 [h:Tier_Bullying_SlanderousStatement_3] --h:imposesSanction--> h:Sanc_Tier_Bullying_SlanderousStatement_3_1 [h:Sanc_Tier_Bullying_SlanderousStatement_3_1]\nTYPE of h:Sanc_Tier_Bullying_SlanderousStatement_3_1: h:Sanction\nTYPE of h:Tier_Bullying_SlanderousStatement_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 34: ?sanction=h:Sanc_Tier_ChildPornography_1_1\nh:Tier_ChildPornography_1 [h:Tier_ChildPornography_1] --h:imposesSanction--> h:Sanc_Tier_ChildPornography_1_1 [h:Sanc_Tier_ChildPornography_1_1]\nTYPE of h:Sanc_Tier_ChildPornography_1_1: h:Sanction\nTYPE of h:Tier_ChildPornography_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 35: ?sanction=h:Sanc_Tier_ClimbingPerimeterFence_1_1\nh:Tier_ClimbingPerimeterFence_1 [h:Tier_ClimbingPerimeterFence_1] --h:imposesSanction--> h:Sanc_Tier_ClimbingPerimeterFence_1_1 [h:Sanc_Tier_ClimbingPerimeterFence_1_1]\nTYPE of h:Sanc_Tier_ClimbingPerimeterFence_1_1: h:Sanction\nTYPE of h:Tier_ClimbingPerimeterFence_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 36: ?sanction=h:Sanc_Tier_ClimbingPerimeterFence_2_1\nh:Tier_ClimbingPerimeterFence_2 [h:Tier_ClimbingPerimeterFence_2] --h:imposesSanction--> h:Sanc_Tier_ClimbingPerimeterFence_2_1 [h:Sanc_Tier_ClimbingPerimeterFence_2_1]\nTYPE of h:Sanc_Tier_ClimbingPerimeterFence_2_1: h:Sanction\nTYPE of h:Tier_ClimbingPerimeterFence_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 37: ?sanction=h:Sanc_Tier_ClimbingPerimeterFence_2_2\nh:Tier_ClimbingPerimeterFence_2 [h:Tier_ClimbingPerimeterFence_2] --h:imposesSanction--> h:Sanc_Tier_ClimbingPerimeterFence_2_2 [h:Sanc_Tier_ClimbingPerimeterFence_2_2]\nTYPE of h:Sanc_Tier_ClimbingPerimeterFence_2_2: h:Sanction\nTYPE of h:Tier_ClimbingPerimeterFence_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 38: ?sanction=h:Sanc_Tier_ClimbingPerimeterFence_3_1\nh:Tier_ClimbingPerimeterFence_3 [h:Tier_ClimbingPerimeterFence_3] --h:imposesSanction--> h:Sanc_Tier_ClimbingPerimeterFence_3_1 [h:Sanc_Tier_ClimbingPerimeterFence_3_1]\nTYPE of h:Sanc_Tier_ClimbingPerimeterFence_3_1: h:Sanction\nTYPE of h:Tier_ClimbingPerimeterFence_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 39: ?sanction=h:Sanc_Tier_CyberBullying_1_1\nh:Tier_CyberBullying_1 [h:Tier_CyberBullying_1] --h:imposesSanction--> h:Sanc_Tier_CyberBullying_1_1 [h:Sanc_Tier_CyberBullying_1_1]\nTYPE of h:Sanc_Tier_CyberBullying_1_1: h:Sanction\nTYPE of h:Tier_CyberBullying_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 40: ?sanction=h:Sanc_Tier_CyberBullying_2_1\nh:Tier_CyberBullying_2 [h:Tier_CyberBullying_2] --h:imposesSanction--> h:Sanc_Tier_CyberBullying_2_1 [h:Sanc_Tier_CyberBullying_2_1]\nTYPE of h:Sanc_Tier_CyberBullying_2_1: h:Sanction\nTYPE of h:Tier_CyberBullying_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 41: ?sanction=h:Sanc_Tier_CyberBullying_3_1\nh:Tier_CyberBullying_3 [h:Tier_CyberBullying_3] --h:imposesSanction--> h:Sanc_Tier_CyberBullying_3_1 [h:Sanc_Tier_CyberBullying_3_1]\nTYPE of h:Sanc_Tier_CyberBullying_3_1: h:Sanction\nTYPE of h:Tier_CyberBullying_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 42: ?sanction=h:Sanc_Tier_CyberLibel_1_1\nh:Tier_CyberLibel_1 [h:Tier_CyberLibel_1] --h:imposesSanction--> h:Sanc_Tier_CyberLibel_1_1 [h:Sanc_Tier_CyberLibel_1_1]\nTYPE of h:Sanc_Tier_CyberLibel_1_1: h:Sanction\nTYPE of h:Tier_CyberLibel_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 43: ?sanction=h:Sanc_Tier_Cybersex_1_1\nh:Tier_Cybersex_1 [h:Tier_Cybersex_1] --h:imposesSanction--> h:Sanc_Tier_Cybersex_1_1 [h:Sanc_Tier_Cybersex_1_1]\nTYPE of h:Sanc_Tier_Cybersex_1_1: h:Sanction\nTYPE of h:Tier_Cybersex_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 44: ?sanction=h:Sanc_Tier_DataInterference_1_1\nh:Tier_DataInterference_1 [h:Tier_DataInterference_1] --h:imposesSanction--> h:Sanc_Tier_DataInterference_1_1 [h:Sanc_Tier_DataInterference_1_1]\nTYPE of h:Sanc_Tier_DataInterference_1_1: h:Sanction\nTYPE of h:Tier_DataInterference_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 45: ?sanction=h:Sanc_Tier_DataInterference_2_1\nh:Tier_DataInterference_2 [h:Tier_DataInterference_2] --h:imposesSanction--> h:Sanc_Tier_DataInterference_2_1 [h:Sanc_Tier_DataInterference_2_1]\nTYPE of h:Sanc_Tier_DataInterference_2_1: h:Sanction\nTYPE of h:Tier_DataInterference_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 46: ?sanction=h:Sanc_Tier_DataInterference_3_1\nh:Tier_DataInterference_3 [h:Tier_DataInterference_3] --h:imposesSanction--> h:Sanc_Tier_DataInterference_3_1 [h:Sanc_Tier_DataInterference_3_1]\nTYPE of h:Sanc_Tier_DataInterference_3_1: h:Sanction\nTYPE of h:Tier_DataInterference_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 47: ?sanction=h:Sanc_Tier_DeadlyWeapons_1_1\nh:Tier_DeadlyWeapons_1 [h:Tier_DeadlyWeapons_1] --h:imposesSanction--> h:Sanc_Tier_DeadlyWeapons_1_1 [h:Sanc_Tier_DeadlyWeapons_1_1]\nTYPE of h:Sanc_Tier_DeadlyWeapons_1_1: h:Sanction\nTYPE of h:Tier_DeadlyWeapons_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 48: ?sanction=h:Sanc_Tier_DeadlyWeapons_2_1\nh:Tier_DeadlyWeapons_2 [h:Tier_DeadlyWeapons_2] --h:imposesSanction--> h:Sanc_Tier_DeadlyWeapons_2_1 [h:Sanc_Tier_DeadlyWeapons_2_1]\nTYPE of h:Sanc_Tier_DeadlyWeapons_2_1: h:Sanction\nTYPE of h:Tier_DeadlyWeapons_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 49: ?sanction=h:Sanc_Tier_DeadlyWeapons_3_1\nh:Tier_DeadlyWeapons_3 [h:Tier_DeadlyWeapons_3] --h:imposesSanction--> h:Sanc_Tier_DeadlyWeapons_3_1 [h:Sanc_Tier_DeadlyWeapons_3_1]\nTYPE of h:Sanc_Tier_DeadlyWeapons_3_1: h:Sanction\nTYPE of h:Tier_DeadlyWeapons_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 50: ?sanction=h:Sanc_Tier_DeceptionForgery_1_1\nh:Tier_DeceptionForgery_1 [h:Tier_DeceptionForgery_1] --h:imposesSanction--> h:Sanc_Tier_DeceptionForgery_1_1 [h:Sanc_Tier_DeceptionForgery_1_1]\nTYPE of h:Sanc_Tier_DeceptionForgery_1_1: h:Sanction\nTYPE of h:Tier_DeceptionForgery_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 51: ?sanction=h:Sanc_Tier_DishonestyCheating_1_1\nh:Tier_DishonestyCheating_1 [h:Tier_DishonestyCheating_1] --h:imposesSanction--> h:Sanc_Tier_DishonestyCheating_1_1 [h:Sanc_Tier_DishonestyCheating_1_1]\nTYPE of h:Sanc_Tier_DishonestyCheating_1_1: h:Sanction\nTYPE of h:Tier_DishonestyCheating_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 52: ?sanction=h:Sanc_Tier_DishonestyCheating_2_1\nh:Tier_DishonestyCheating_2 [h:Tier_DishonestyCheating_2] --h:imposesSanction--> h:Sanc_Tier_DishonestyCheating_2_1 [h:Sanc_Tier_DishonestyCheating_2_1]\nTYPE of h:Sanc_Tier_DishonestyCheating_2_1: h:Sanction\nTYPE of h:Tier_DishonestyCheating_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 53: ?sanction=h:Sanc_Tier_DishonestyCheating_3_1\nh:Tier_DishonestyCheating_3 [h:Tier_DishonestyCheating_3] --h:imposesSanction--> h:Sanc_Tier_DishonestyCheating_3_1 [h:Sanc_Tier_DishonestyCheating_3_1]\nTYPE of h:Sanc_Tier_DishonestyCheating_3_1: h:Sanction\nTYPE of h:Tier_DishonestyCheating_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 54: ?sanction=h:Sanc_Tier_DrinkingAlcohol_1_1\nh:Tier_DrinkingAlcohol_1 [h:Tier_DrinkingAlcohol_1] --h:imposesSanction--> h:Sanc_Tier_DrinkingAlcohol_1_1 [h:Sanc_Tier_DrinkingAlcohol_1_1]\nTYPE of h:Sanc_Tier_DrinkingAlcohol_1_1: h:Sanction\nTYPE of h:Tier_DrinkingAlcohol_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 55: ?sanction=h:Sanc_Tier_DrinkingAlcohol_1_2\nh:Tier_DrinkingAlcohol_1 [h:Tier_DrinkingAlcohol_1] --h:imposesSanction--> h:Sanc_Tier_DrinkingAlcohol_1_2 [h:Sanc_Tier_DrinkingAlcohol_1_2]\nTYPE of h:Sanc_Tier_DrinkingAlcohol_1_2: h:Sanction\nTYPE of h:Tier_DrinkingAlcohol_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 56: ?sanction=h:Sanc_Tier_DrinkingAlcohol_2_1\nh:Tier_DrinkingAlcohol_2 [h:Tier_DrinkingAlcohol_2] --h:imposesSanction--> h:Sanc_Tier_DrinkingAlcohol_2_1 [h:Sanc_Tier_DrinkingAlcohol_2_1]\nTYPE of h:Sanc_Tier_DrinkingAlcohol_2_1: h:Sanction\nTYPE of h:Tier_DrinkingAlcohol_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 57: ?sanction=h:Sanc_Tier_DrinkingAlcohol_3_1\nh:Tier_DrinkingAlcohol_3 [h:Tier_DrinkingAlcohol_3] --h:imposesSanction--> h:Sanc_Tier_DrinkingAlcohol_3_1 [h:Sanc_Tier_DrinkingAlcohol_3_1]\nTYPE of h:Sanc_Tier_DrinkingAlcohol_3_1: h:Sanction\nTYPE of h:Tier_DrinkingAlcohol_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 58: ?sanction=h:Sanc_Tier_DrunkennessCausingHarm_1_1\nh:Tier_DrunkennessCausingHarm_1 [h:Tier_DrunkennessCausingHarm_1] --h:imposesSanction--> h:Sanc_Tier_DrunkennessCausingHarm_1_1 [h:Sanc_Tier_DrunkennessCausingHarm_1_1]\nTYPE of h:Sanc_Tier_DrunkennessCausingHarm_1_1: h:Sanction\nTYPE of h:Tier_DrunkennessCausingHarm_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 59: ?sanction=h:Sanc_Tier_DrunkennessCausingHarm_1_2\nh:Tier_DrunkennessCausingHarm_1 [h:Tier_DrunkennessCausingHarm_1] --h:imposesSanction--> h:Sanc_Tier_DrunkennessCausingHarm_1_2 [h:Sanc_Tier_DrunkennessCausingHarm_1_2]\nTYPE of h:Sanc_Tier_DrunkennessCausingHarm_1_2: h:Sanction\nTYPE of h:Tier_DrunkennessCausingHarm_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 60: ?sanction=h:Sanc_Tier_DrunkennessCausingHarm_2_1\nh:Tier_DrunkennessCausingHarm_2 [h:Tier_DrunkennessCausingHarm_2] --h:imposesSanction--> h:Sanc_Tier_DrunkennessCausingHarm_2_1 [h:Sanc_Tier_DrunkennessCausingHarm_2_1]\nTYPE of h:Sanc_Tier_DrunkennessCausingHarm_2_1: h:Sanction\nTYPE of h:Tier_DrunkennessCausingHarm_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 61: ?sanction=h:Sanc_Tier_DrunkennessCausingHarm_2_2\nh:Tier_DrunkennessCausingHarm_2 [h:Tier_DrunkennessCausingHarm_2] --h:imposesSanction--> h:Sanc_Tier_DrunkennessCausingHarm_2_2 [h:Sanc_Tier_DrunkennessCausingHarm_2_2]\nTYPE of h:Sanc_Tier_DrunkennessCausingHarm_2_2: h:Sanction\nTYPE of h:Tier_DrunkennessCausingHarm_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 62: ?sanction=h:Sanc_Tier_DrunkennessCausingHarm_3_1\nh:Tier_DrunkennessCausingHarm_3 [h:Tier_DrunkennessCausingHarm_3] --h:imposesSanction--> h:Sanc_Tier_DrunkennessCausingHarm_3_1 [h:Sanc_Tier_DrunkennessCausingHarm_3_1]\nTYPE of h:Sanc_Tier_DrunkennessCausingHarm_3_1: h:Sanction\nTYPE of h:Tier_DrunkennessCausingHarm_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 63: ?sanction=h:Sanc_Tier_DrunkennessCausingHarm_3_2\nh:Tier_DrunkennessCausingHarm_3 [h:Tier_DrunkennessCausingHarm_3] --h:imposesSanction--> h:Sanc_Tier_DrunkennessCausingHarm_3_2 [h:Sanc_Tier_DrunkennessCausingHarm_3_2]\nTYPE of h:Sanc_Tier_DrunkennessCausingHarm_3_2: h:Sanction\nTYPE of h:Tier_DrunkennessCausingHarm_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 64: ?sanction=h:Sanc_Tier_FalsificationCommonForms_1_1\nh:Tier_FalsificationCommonForms_1 [h:Tier_FalsificationCommonForms_1] --h:imposesSanction--> h:Sanc_Tier_FalsificationCommonForms_1_1 [h:Sanc_Tier_FalsificationCommonForms_1_1]\nTYPE of h:Sanc_Tier_FalsificationCommonForms_1_1: h:Sanction\nTYPE of h:Tier_FalsificationCommonForms_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 65: ?sanction=h:Sanc_Tier_FalsificationCommonForms_1_2\nh:Tier_FalsificationCommonForms_1 [h:Tier_FalsificationCommonForms_1] --h:imposesSanction--> h:Sanc_Tier_FalsificationCommonForms_1_2 [h:Sanc_Tier_FalsificationCommonForms_1_2]\nTYPE of h:Sanc_Tier_FalsificationCommonForms_1_2: h:Sanction\nTYPE of h:Tier_FalsificationCommonForms_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 66: ?sanction=h:Sanc_Tier_FalsificationCommonForms_2_1\nh:Tier_FalsificationCommonForms_2 [h:Tier_FalsificationCommonForms_2] --h:imposesSanction--> h:Sanc_Tier_FalsificationCommonForms_2_1 [h:Sanc_Tier_FalsificationCommonForms_2_1]\nTYPE of h:Sanc_Tier_FalsificationCommonForms_2_1: h:Sanction\nTYPE of h:Tier_FalsificationCommonForms_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 67: ?sanction=h:Sanc_Tier_FalsificationCommonForms_3_1\nh:Tier_FalsificationCommonForms_3 [h:Tier_FalsificationCommonForms_3] --h:imposesSanction--> h:Sanc_Tier_FalsificationCommonForms_3_1 [h:Sanc_Tier_FalsificationCommonForms_3_1]\nTYPE of h:Sanc_Tier_FalsificationCommonForms_3_1: h:Sanction\nTYPE of h:Tier_FalsificationCommonForms_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 68: ?sanction=h:Sanc_Tier_FalsificationOfficialDocuments_1_1\nh:Tier_FalsificationOfficialDocuments_1 [h:Tier_FalsificationOfficialDocuments_1] --h:imposesSanction--> h:Sanc_Tier_FalsificationOfficialDocuments_1_1 [h:Sanc_Tier_FalsificationOfficialDocuments_1_1]\nTYPE of h:Sanc_Tier_FalsificationOfficialDocuments_1_1: h:Sanction\nTYPE of h:Tier_FalsificationOfficialDocuments_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 69: ?sanction=h:Sanc_Tier_FalsificationOfficialDocuments_2_1\nh:Tier_FalsificationOfficialDocuments_2 [h:Tier_FalsificationOfficialDocuments_2] --h:imposesSanction--> h:Sanc_Tier_FalsificationOfficialDocuments_2_1 [h:Sanc_Tier_FalsificationOfficialDocuments_2_1]\nTYPE of h:Sanc_Tier_FalsificationOfficialDocuments_2_1: h:Sanction\nTYPE of h:Tier_FalsificationOfficialDocuments_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 70: ?sanction=h:Sanc_Tier_FalsificationOfficialDocuments_3_1\nh:Tier_FalsificationOfficialDocuments_3 [h:Tier_FalsificationOfficialDocuments_3] --h:imposesSanction--> h:Sanc_Tier_FalsificationOfficialDocuments_3_1 [h:Sanc_Tier_FalsificationOfficialDocuments_3_1]\nTYPE of h:Sanc_Tier_FalsificationOfficialDocuments_3_1: h:Sanction\nTYPE of h:Tier_FalsificationOfficialDocuments_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 71: ?sanction=h:Sanc_Tier_Gambling_1_1\nh:Tier_Gambling_1 [h:Tier_Gambling_1] --h:imposesSanction--> h:Sanc_Tier_Gambling_1_1 [h:Sanc_Tier_Gambling_1_1]\nTYPE of h:Sanc_Tier_Gambling_1_1: h:Sanction\nTYPE of h:Tier_Gambling_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 72: ?sanction=h:Sanc_Tier_Gambling_1_2\nh:Tier_Gambling_1 [h:Tier_Gambling_1] --h:imposesSanction--> h:Sanc_Tier_Gambling_1_2 [h:Sanc_Tier_Gambling_1_2]\nTYPE of h:Sanc_Tier_Gambling_1_2: h:Sanction\nTYPE of h:Tier_Gambling_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 73: ?sanction=h:Sanc_Tier_Gambling_2_1\nh:Tier_Gambling_2 [h:Tier_Gambling_2] --h:imposesSanction--> h:Sanc_Tier_Gambling_2_1 [h:Sanc_Tier_Gambling_2_1]\nTYPE of h:Sanc_Tier_Gambling_2_1: h:Sanction\nTYPE of h:Tier_Gambling_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 74: ?sanction=h:Sanc_Tier_HabitualOffenders_1_1\nh:Tier_HabitualOffenders_1 [h:Tier_HabitualOffenders_1] --h:imposesSanction--> h:Sanc_Tier_HabitualOffenders_1_1 [h:Sanc_Tier_HabitualOffenders_1_1]\nTYPE of h:Sanc_Tier_HabitualOffenders_1_1: h:Sanction\nTYPE of h:Tier_HabitualOffenders_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 75: ?sanction=h:Sanc_Tier_HabitualOffenders_1_2\nh:Tier_HabitualOffenders_1 [h:Tier_HabitualOffenders_1] --h:imposesSanction--> h:Sanc_Tier_HabitualOffenders_1_2 [h:Sanc_Tier_HabitualOffenders_1_2]\nTYPE of h:Sanc_Tier_HabitualOffenders_1_2: h:Sanction\nTYPE of h:Tier_HabitualOffenders_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 76: ?sanction=h:Sanc_Tier_IllegalAccessHacking_1_1\nh:Tier_IllegalAccessHacking_1 [h:Tier_IllegalAccessHacking_1] --h:imposesSanction--> h:Sanc_Tier_IllegalAccessHacking_1_1 [h:Sanc_Tier_IllegalAccessHacking_1_1]\nTYPE of h:Sanc_Tier_IllegalAccessHacking_1_1: h:Sanction\nTYPE of h:Tier_IllegalAccessHacking_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 77: ?sanction=h:Sanc_Tier_IllegalAccessHacking_2_1\nh:Tier_IllegalAccessHacking_2 [h:Tier_IllegalAccessHacking_2] --h:imposesSanction--> h:Sanc_Tier_IllegalAccessHacking_2_1 [h:Sanc_Tier_IllegalAccessHacking_2_1]\nTYPE of h:Sanc_Tier_IllegalAccessHacking_2_1: h:Sanction\nTYPE of h:Tier_IllegalAccessHacking_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 78: ?sanction=h:Sanc_Tier_IllegalAccessHacking_3_1\nh:Tier_IllegalAccessHacking_3 [h:Tier_IllegalAccessHacking_3] --h:imposesSanction--> h:Sanc_Tier_IllegalAccessHacking_3_1 [h:Sanc_Tier_IllegalAccessHacking_3_1]\nTYPE of h:Sanc_Tier_IllegalAccessHacking_3_1: h:Sanction\nTYPE of h:Tier_IllegalAccessHacking_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 79: ?sanction=h:Sanc_Tier_IllegalInterception_1_1\nh:Tier_IllegalInterception_1 [h:Tier_IllegalInterception_1] --h:imposesSanction--> h:Sanc_Tier_IllegalInterception_1_1 [h:Sanc_Tier_IllegalInterception_1_1]\nTYPE of h:Sanc_Tier_IllegalInterception_1_1: h:Sanction\nTYPE of h:Tier_IllegalInterception_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 80: ?sanction=h:Sanc_Tier_IllegalInterception_2_1\nh:Tier_IllegalInterception_2 [h:Tier_IllegalInterception_2] --h:imposesSanction--> h:Sanc_Tier_IllegalInterception_2_1 [h:Sanc_Tier_IllegalInterception_2_1]\nTYPE of h:Sanc_Tier_IllegalInterception_2_1: h:Sanction\nTYPE of h:Tier_IllegalInterception_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 81: ?sanction=h:Sanc_Tier_IllegalInterception_3_1\nh:Tier_IllegalInterception_3 [h:Tier_IllegalInterception_3] --h:imposesSanction--> h:Sanc_Tier_IllegalInterception_3_1 [h:Sanc_Tier_IllegalInterception_3_1]\nTYPE of h:Sanc_Tier_IllegalInterception_3_1: h:Sanction\nTYPE of h:Tier_IllegalInterception_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 82: ?sanction=h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_1_1\nh:Tier_IndecencyObscenity_DirectedAtPerson_1 [h:Tier_IndecencyObscenity_DirectedAtPerson_1] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_1_1 [h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_1_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_1_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_DirectedAtPerson_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 83: ?sanction=h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_2_1\nh:Tier_IndecencyObscenity_DirectedAtPerson_2 [h:Tier_IndecencyObscenity_DirectedAtPerson_2] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_2_1 [h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_2_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_2_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_DirectedAtPerson_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 84: ?sanction=h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_3_1\nh:Tier_IndecencyObscenity_DirectedAtPerson_3 [h:Tier_IndecencyObscenity_DirectedAtPerson_3] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_3_1 [h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_3_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_3_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_DirectedAtPerson_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 85: ?sanction=h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_1\nh:Tier_IndecencyObscenity_SurfingPosting_1 [h:Tier_IndecencyObscenity_SurfingPosting_1] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_1 [h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_SurfingPosting_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 86: ?sanction=h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_2\nh:Tier_IndecencyObscenity_SurfingPosting_1 [h:Tier_IndecencyObscenity_SurfingPosting_1] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_2 [h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_2]\nTYPE of h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_2: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_SurfingPosting_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 87: ?sanction=h:Sanc_Tier_IndecencyObscenity_SurfingPosting_2_1\nh:Tier_IndecencyObscenity_SurfingPosting_2 [h:Tier_IndecencyObscenity_SurfingPosting_2] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_SurfingPosting_2_1 [h:Sanc_Tier_IndecencyObscenity_SurfingPosting_2_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_SurfingPosting_2_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_SurfingPosting_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 88: ?sanction=h:Sanc_Tier_IndecencyObscenity_SurfingPosting_3_1\nh:Tier_IndecencyObscenity_SurfingPosting_3 [h:Tier_IndecencyObscenity_SurfingPosting_3] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_SurfingPosting_3_1 [h:Sanc_Tier_IndecencyObscenity_SurfingPosting_3_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_SurfingPosting_3_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_SurfingPosting_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 89: ?sanction=h:Sanc_Tier_IndecencyObscenity_UploadingSexVideo_1_1\nh:Tier_IndecencyObscenity_UploadingSexVideo_1 [h:Tier_IndecencyObscenity_UploadingSexVideo_1] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_UploadingSexVideo_1_1 [h:Sanc_Tier_IndecencyObscenity_UploadingSexVideo_1_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_UploadingSexVideo_1_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_UploadingSexVideo_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 90: ?sanction=h:Sanc_Tier_LitteringScattering_1_1\nh:Tier_LitteringScattering_1 [h:Tier_LitteringScattering_1] --h:imposesSanction--> h:Sanc_Tier_LitteringScattering_1_1 [h:Sanc_Tier_LitteringScattering_1_1]\nTYPE of h:Sanc_Tier_LitteringScattering_1_1: h:Sanction\nTYPE of h:Tier_LitteringScattering_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 91: ?sanction=h:Sanc_Tier_LitteringScattering_2_1\nh:Tier_LitteringScattering_2 [h:Tier_LitteringScattering_2] --h:imposesSanction--> h:Sanc_Tier_LitteringScattering_2_1 [h:Sanc_Tier_LitteringScattering_2_1]\nTYPE of h:Sanc_Tier_LitteringScattering_2_1: h:Sanction\nTYPE of h:Tier_LitteringScattering_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 92: ?sanction=h:Sanc_Tier_LitteringScattering_2_2\nh:Tier_LitteringScattering_2 [h:Tier_LitteringScattering_2] --h:imposesSanction--> h:Sanc_Tier_LitteringScattering_2_2 [h:Sanc_Tier_LitteringScattering_2_2]\nTYPE of h:Sanc_Tier_LitteringScattering_2_2: h:Sanction\nTYPE of h:Tier_LitteringScattering_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 93: ?sanction=h:Sanc_Tier_LitteringScattering_3_1\nh:Tier_LitteringScattering_3 [h:Tier_LitteringScattering_3] --h:imposesSanction--> h:Sanc_Tier_LitteringScattering_3_1 [h:Sanc_Tier_LitteringScattering_3_1]\nTYPE of h:Sanc_Tier_LitteringScattering_3_1: h:Sanction\nTYPE of h:Tier_LitteringScattering_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 94: ?sanction=h:Sanc_Tier_LitteringScattering_3_2\nh:Tier_LitteringScattering_3 [h:Tier_LitteringScattering_3] --h:imposesSanction--> h:Sanc_Tier_LitteringScattering_3_2 [h:Sanc_Tier_LitteringScattering_3_2]\nTYPE of h:Sanc_Tier_LitteringScattering_3_2: h:Sanction\nTYPE of h:Tier_LitteringScattering_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 95: ?sanction=h:Sanc_Tier_NarcoticsRelatedConcerns_1_1\nh:Tier_NarcoticsRelatedConcerns_1 [h:Tier_NarcoticsRelatedConcerns_1] --h:imposesSanction--> h:Sanc_Tier_NarcoticsRelatedConcerns_1_1 [h:Sanc_Tier_NarcoticsRelatedConcerns_1_1]\nTYPE of h:Sanc_Tier_NarcoticsRelatedConcerns_1_1: h:Sanction\nTYPE of h:Tier_NarcoticsRelatedConcerns_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 96: ?sanction=h:Sanc_Tier_NonWearingIDUniform_1_1\nh:Tier_NonWearingIDUniform_1 [h:Tier_NonWearingIDUniform_1] --h:imposesSanction--> h:Sanc_Tier_NonWearingIDUniform_1_1 [h:Sanc_Tier_NonWearingIDUniform_1_1]\nTYPE of h:Sanc_Tier_NonWearingIDUniform_1_1: h:Sanction\nTYPE of h:Tier_NonWearingIDUniform_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 97: ?sanction=h:Sanc_Tier_NonWearingIDUniform_2_1\nh:Tier_NonWearingIDUniform_2 [h:Tier_NonWearingIDUniform_2] --h:imposesSanction--> h:Sanc_Tier_NonWearingIDUniform_2_1 [h:Sanc_Tier_NonWearingIDUniform_2_1]\nTYPE of h:Sanc_Tier_NonWearingIDUniform_2_1: h:Sanction\nTYPE of h:Tier_NonWearingIDUniform_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 98: ?sanction=h:Sanc_Tier_NonWearingIDUniform_3_1\nh:Tier_NonWearingIDUniform_3 [h:Tier_NonWearingIDUniform_3] --h:imposesSanction--> h:Sanc_Tier_NonWearingIDUniform_3_1 [h:Sanc_Tier_NonWearingIDUniform_3_1]\nTYPE of h:Sanc_Tier_NonWearingIDUniform_3_1: h:Sanction\nTYPE of h:Tier_NonWearingIDUniform_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 99: ?sanction=h:Sanc_Tier_NonWearingIDUniform_3_2\nh:Tier_NonWearingIDUniform_3 [h:Tier_NonWearingIDUniform_3] --h:imposesSanction--> h:Sanc_Tier_NonWearingIDUniform_3_2 [h:Sanc_Tier_NonWearingIDUniform_3_2]\nTYPE of h:Sanc_Tier_NonWearingIDUniform_3_2: h:Sanction\nTYPE of h:Tier_NonWearingIDUniform_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 100: ?sanction=h:Sanc_Tier_OtherDishonesty_1_1\nh:Tier_OtherDishonesty_1 [h:Tier_OtherDishonesty_1] --h:imposesSanction--> h:Sanc_Tier_OtherDishonesty_1_1 [h:Sanc_Tier_OtherDishonesty_1_1]\nTYPE of h:Sanc_Tier_OtherDishonesty_1_1: h:Sanction\nTYPE of h:Tier_OtherDishonesty_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 101: ?sanction=h:Sanc_Tier_OtherDishonesty_2_1\nh:Tier_OtherDishonesty_2 [h:Tier_OtherDishonesty_2] --h:imposesSanction--> h:Sanc_Tier_OtherDishonesty_2_1 [h:Sanc_Tier_OtherDishonesty_2_1]\nTYPE of h:Sanc_Tier_OtherDishonesty_2_1: h:Sanction\nTYPE of h:Tier_OtherDishonesty_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 102: ?sanction=h:Sanc_Tier_OtherDishonesty_2_2\nh:Tier_OtherDishonesty_2 [h:Tier_OtherDishonesty_2] --h:imposesSanction--> h:Sanc_Tier_OtherDishonesty_2_2 [h:Sanc_Tier_OtherDishonesty_2_2]\nTYPE of h:Sanc_Tier_OtherDishonesty_2_2: h:Sanction\nTYPE of h:Tier_OtherDishonesty_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 103: ?sanction=h:Sanc_Tier_OtherDishonesty_3_1\nh:Tier_OtherDishonesty_3 [h:Tier_OtherDishonesty_3] --h:imposesSanction--> h:Sanc_Tier_OtherDishonesty_3_1 [h:Sanc_Tier_OtherDishonesty_3_1]\nTYPE of h:Sanc_Tier_OtherDishonesty_3_1: h:Sanction\nTYPE of h:Tier_OtherDishonesty_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 104: ?sanction=h:Sanc_Tier_OverspeedingVehicles_1_1\nh:Tier_OverspeedingVehicles_1 [h:Tier_OverspeedingVehicles_1] --h:imposesSanction--> h:Sanc_Tier_OverspeedingVehicles_1_1 [h:Sanc_Tier_OverspeedingVehicles_1_1]\nTYPE of h:Sanc_Tier_OverspeedingVehicles_1_1: h:Sanction\nTYPE of h:Tier_OverspeedingVehicles_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 105: ?sanction=h:Sanc_Tier_OverspeedingVehicles_2_1\nh:Tier_OverspeedingVehicles_2 [h:Tier_OverspeedingVehicles_2] --h:imposesSanction--> h:Sanc_Tier_OverspeedingVehicles_2_1 [h:Sanc_Tier_OverspeedingVehicles_2_1]\nTYPE of h:Sanc_Tier_OverspeedingVehicles_2_1: h:Sanction\nTYPE of h:Tier_OverspeedingVehicles_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 106: ?sanction=h:Sanc_Tier_OverspeedingVehicles_2_2\nh:Tier_OverspeedingVehicles_2 [h:Tier_OverspeedingVehicles_2] --h:imposesSanction--> h:Sanc_Tier_OverspeedingVehicles_2_2 [h:Sanc_Tier_OverspeedingVehicles_2_2]\nTYPE of h:Sanc_Tier_OverspeedingVehicles_2_2: h:Sanction\nTYPE of h:Tier_OverspeedingVehicles_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 107: ?sanction=h:Sanc_Tier_OverspeedingVehicles_3_1\nh:Tier_OverspeedingVehicles_3 [h:Tier_OverspeedingVehicles_3] --h:imposesSanction--> h:Sanc_Tier_OverspeedingVehicles_3_1 [h:Sanc_Tier_OverspeedingVehicles_3_1]\nTYPE of h:Sanc_Tier_OverspeedingVehicles_3_1: h:Sanction\nTYPE of h:Tier_OverspeedingVehicles_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 108: ?sanction=h:Sanc_Tier_PhysicalAssault_1_1\nh:Tier_PhysicalAssault_1 [h:Tier_PhysicalAssault_1] --h:imposesSanction--> h:Sanc_Tier_PhysicalAssault_1_1 [h:Sanc_Tier_PhysicalAssault_1_1]\nTYPE of h:Sanc_Tier_PhysicalAssault_1_1: h:Sanction\nTYPE of h:Tier_PhysicalAssault_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 109: ?sanction=h:Sanc_Tier_PhysicalAssault_1_2\nh:Tier_PhysicalAssault_1 [h:Tier_PhysicalAssault_1] --h:imposesSanction--> h:Sanc_Tier_PhysicalAssault_1_2 [h:Sanc_Tier_PhysicalAssault_1_2]\nTYPE of h:Sanc_Tier_PhysicalAssault_1_2: h:Sanction\nTYPE of h:Tier_PhysicalAssault_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 110: ?sanction=h:Sanc_Tier_PhysicalAssault_1_3\nh:Tier_PhysicalAssault_1 [h:Tier_PhysicalAssault_1] --h:imposesSanction--> h:Sanc_Tier_PhysicalAssault_1_3 [h:Sanc_Tier_PhysicalAssault_1_3]\nTYPE of h:Sanc_Tier_PhysicalAssault_1_3: h:Sanction\nTYPE of h:Tier_PhysicalAssault_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 111: ?sanction=h:Sanc_Tier_PhysicalAssault_2_1\nh:Tier_PhysicalAssault_2 [h:Tier_PhysicalAssault_2] --h:imposesSanction--> h:Sanc_Tier_PhysicalAssault_2_1 [h:Sanc_Tier_PhysicalAssault_2_1]\nTYPE of h:Sanc_Tier_PhysicalAssault_2_1: h:Sanction\nTYPE of h:Tier_PhysicalAssault_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 112: ?sanction=h:Sanc_Tier_PhysicalAssault_2_2\nh:Tier_PhysicalAssault_2 [h:Tier_PhysicalAssault_2] --h:imposesSanction--> h:Sanc_Tier_PhysicalAssault_2_2 [h:Sanc_Tier_PhysicalAssault_2_2]\nTYPE of h:Sanc_Tier_PhysicalAssault_2_2: h:Sanction\nTYPE of h:Tier_PhysicalAssault_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 113: ?sanction=h:Sanc_Tier_PhysicalAssault_3_1\nh:Tier_PhysicalAssault_3 [h:Tier_PhysicalAssault_3] --h:imposesSanction--> h:Sanc_Tier_PhysicalAssault_3_1 [h:Sanc_Tier_PhysicalAssault_3_1]\nTYPE of h:Sanc_Tier_PhysicalAssault_3_1: h:Sanction\nTYPE of h:Tier_PhysicalAssault_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 114: ?sanction=h:Sanc_Tier_RecruitmentPromotingHazing_1_1\nh:Tier_RecruitmentPromotingHazing_1 [h:Tier_RecruitmentPromotingHazing_1] --h:imposesSanction--> h:Sanc_Tier_RecruitmentPromotingHazing_1_1 [h:Sanc_Tier_RecruitmentPromotingHazing_1_1]\nTYPE of h:Sanc_Tier_RecruitmentPromotingHazing_1_1: h:Sanction\nTYPE of h:Tier_RecruitmentPromotingHazing_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 115: ?sanction=h:Sanc_Tier_RecruitmentPromotingHazing_2_1\nh:Tier_RecruitmentPromotingHazing_2 [h:Tier_RecruitmentPromotingHazing_2] --h:imposesSanction--> h:Sanc_Tier_RecruitmentPromotingHazing_2_1 [h:Sanc_Tier_RecruitmentPromotingHazing_2_1]\nTYPE of h:Sanc_Tier_RecruitmentPromotingHazing_2_1: h:Sanction\nTYPE of h:Tier_RecruitmentPromotingHazing_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 116: ?sanction=h:Sanc_Tier_RecruitmentPromotingHazing_3_1\nh:Tier_RecruitmentPromotingHazing_3 [h:Tier_RecruitmentPromotingHazing_3] --h:imposesSanction--> h:Sanc_Tier_RecruitmentPromotingHazing_3_1 [h:Sanc_Tier_RecruitmentPromotingHazing_3_1]\nTYPE of h:Sanc_Tier_RecruitmentPromotingHazing_3_1: h:Sanction\nTYPE of h:Tier_RecruitmentPromotingHazing_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 117: ?sanction=h:Sanc_Tier_SignboardLittering_1_1\nh:Tier_SignboardLittering_1 [h:Tier_SignboardLittering_1] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_1_1 [h:Sanc_Tier_SignboardLittering_1_1]\nTYPE of h:Sanc_Tier_SignboardLittering_1_1: h:Sanction\nTYPE of h:Tier_SignboardLittering_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 118: ?sanction=h:Sanc_Tier_SignboardLittering_1_2\nh:Tier_SignboardLittering_1 [h:Tier_SignboardLittering_1] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_1_2 [h:Sanc_Tier_SignboardLittering_1_2]\nTYPE of h:Sanc_Tier_SignboardLittering_1_2: h:Sanction\nTYPE of h:Tier_SignboardLittering_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 119: ?sanction=h:Sanc_Tier_SignboardLittering_2_1\nh:Tier_SignboardLittering_2 [h:Tier_SignboardLittering_2] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_2_1 [h:Sanc_Tier_SignboardLittering_2_1]\nTYPE of h:Sanc_Tier_SignboardLittering_2_1: h:Sanction\nTYPE of h:Tier_SignboardLittering_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 120: ?sanction=h:Sanc_Tier_SignboardLittering_2_2\nh:Tier_SignboardLittering_2 [h:Tier_SignboardLittering_2] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_2_2 [h:Sanc_Tier_SignboardLittering_2_2]\nTYPE of h:Sanc_Tier_SignboardLittering_2_2: h:Sanction\nTYPE of h:Tier_SignboardLittering_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 121: ?sanction=h:Sanc_Tier_SignboardLittering_2_3\nh:Tier_SignboardLittering_2 [h:Tier_SignboardLittering_2] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_2_3 [h:Sanc_Tier_SignboardLittering_2_3]\nTYPE of h:Sanc_Tier_SignboardLittering_2_3: h:Sanction\nTYPE of h:Tier_SignboardLittering_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 122: ?sanction=h:Sanc_Tier_SignboardLittering_3_1\nh:Tier_SignboardLittering_3 [h:Tier_SignboardLittering_3] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_3_1 [h:Sanc_Tier_SignboardLittering_3_1]\nTYPE of h:Sanc_Tier_SignboardLittering_3_1: h:Sanction\nTYPE of h:Tier_SignboardLittering_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 123: ?sanction=h:Sanc_Tier_SignboardLittering_3_2\nh:Tier_SignboardLittering_3 [h:Tier_SignboardLittering_3] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_3_2 [h:Sanc_Tier_SignboardLittering_3_2]\nTYPE of h:Sanc_Tier_SignboardLittering_3_2: h:Sanction\nTYPE of h:Tier_SignboardLittering_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 124: ?sanction=h:Sanc_Tier_Smoking_1_1\nh:Tier_Smoking_1 [h:Tier_Smoking_1] --h:imposesSanction--> h:Sanc_Tier_Smoking_1_1 [h:Sanc_Tier_Smoking_1_1]\nTYPE of h:Sanc_Tier_Smoking_1_1: h:Sanction\nTYPE of h:Tier_Smoking_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 125: ?sanction=h:Sanc_Tier_Smoking_2_1\nh:Tier_Smoking_2 [h:Tier_Smoking_2] --h:imposesSanction--> h:Sanc_Tier_Smoking_2_1 [h:Sanc_Tier_Smoking_2_1]\nTYPE of h:Sanc_Tier_Smoking_2_1: h:Sanction\nTYPE of h:Tier_Smoking_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 126: ?sanction=h:Sanc_Tier_Smoking_2_2\nh:Tier_Smoking_2 [h:Tier_Smoking_2] --h:imposesSanction--> h:Sanc_Tier_Smoking_2_2 [h:Sanc_Tier_Smoking_2_2]\nTYPE of h:Sanc_Tier_Smoking_2_2: h:Sanction\nTYPE of h:Tier_Smoking_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 127: ?sanction=h:Sanc_Tier_Smoking_3_1\nh:Tier_Smoking_3 [h:Tier_Smoking_3] --h:imposesSanction--> h:Sanc_Tier_Smoking_3_1 [h:Sanc_Tier_Smoking_3_1]\nTYPE of h:Sanc_Tier_Smoking_3_1: h:Sanction\nTYPE of h:Tier_Smoking_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 128: ?sanction=h:Sanc_Tier_Stealing_1_1\nh:Tier_Stealing_1 [h:Tier_Stealing_1] --h:imposesSanction--> h:Sanc_Tier_Stealing_1_1 [h:Sanc_Tier_Stealing_1_1]\nTYPE of h:Sanc_Tier_Stealing_1_1: h:Sanction\nTYPE of h:Tier_Stealing_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 129: ?sanction=h:Sanc_Tier_Stealing_1_2\nh:Tier_Stealing_1 [h:Tier_Stealing_1] --h:imposesSanction--> h:Sanc_Tier_Stealing_1_2 [h:Sanc_Tier_Stealing_1_2]\nTYPE of h:Sanc_Tier_Stealing_1_2: h:Sanction\nTYPE of h:Tier_Stealing_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 130: ?sanction=h:Sanc_Tier_Stealing_2_1\nh:Tier_Stealing_2 [h:Tier_Stealing_2] --h:imposesSanction--> h:Sanc_Tier_Stealing_2_1 [h:Sanc_Tier_Stealing_2_1]\nTYPE of h:Sanc_Tier_Stealing_2_1: h:Sanction\nTYPE of h:Tier_Stealing_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 131: ?sanction=h:Sanc_Tier_Stealing_2_2\nh:Tier_Stealing_2 [h:Tier_Stealing_2] --h:imposesSanction--> h:Sanc_Tier_Stealing_2_2 [h:Sanc_Tier_Stealing_2_2]\nTYPE of h:Sanc_Tier_Stealing_2_2: h:Sanction\nTYPE of h:Tier_Stealing_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 132: ?sanction=h:Sanc_Tier_StrikesDemonstrationsBoycotts_1_1\nh:Tier_StrikesDemonstrationsBoycotts_1 [h:Tier_StrikesDemonstrationsBoycotts_1] --h:imposesSanction--> h:Sanc_Tier_StrikesDemonstrationsBoycotts_1_1 [h:Sanc_Tier_StrikesDemonstrationsBoycotts_1_1]\nTYPE of h:Sanc_Tier_StrikesDemonstrationsBoycotts_1_1: h:Sanction\nTYPE of h:Tier_StrikesDemonstrationsBoycotts_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 133: ?sanction=h:Sanc_Tier_StrikesDemonstrationsBoycotts_2_1\nh:Tier_StrikesDemonstrationsBoycotts_2 [h:Tier_StrikesDemonstrationsBoycotts_2] --h:imposesSanction--> h:Sanc_Tier_StrikesDemonstrationsBoycotts_2_1 [h:Sanc_Tier_StrikesDemonstrationsBoycotts_2_1]\nTYPE of h:Sanc_Tier_StrikesDemonstrationsBoycotts_2_1: h:Sanction\nTYPE of h:Tier_StrikesDemonstrationsBoycotts_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 134: ?sanction=h:Sanc_Tier_StrikesDemonstrationsBoycotts_3_1\nh:Tier_StrikesDemonstrationsBoycotts_3 [h:Tier_StrikesDemonstrationsBoycotts_3] --h:imposesSanction--> h:Sanc_Tier_StrikesDemonstrationsBoycotts_3_1 [h:Sanc_Tier_StrikesDemonstrationsBoycotts_3_1]\nTYPE of h:Sanc_Tier_StrikesDemonstrationsBoycotts_3_1: h:Sanction\nTYPE of h:Tier_StrikesDemonstrationsBoycotts_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 135: ?sanction=h:Sanc_Tier_Tardiness_1_1\nh:Tier_Tardiness_1 [h:Tier_Tardiness_1] --h:imposesSanction--> h:Sanc_Tier_Tardiness_1_1 [h:Sanc_Tier_Tardiness_1_1]\nTYPE of h:Sanc_Tier_Tardiness_1_1: h:Sanction\nTYPE of h:Tier_Tardiness_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 136: ?sanction=h:Sanc_Tier_Tardiness_2_1\nh:Tier_Tardiness_2 [h:Tier_Tardiness_2] --h:imposesSanction--> h:Sanc_Tier_Tardiness_2_1 [h:Sanc_Tier_Tardiness_2_1]\nTYPE of h:Sanc_Tier_Tardiness_2_1: h:Sanction\nTYPE of h:Tier_Tardiness_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 137: ?sanction=h:Sanc_Tier_Tardiness_2_2\nh:Tier_Tardiness_2 [h:Tier_Tardiness_2] --h:imposesSanction--> h:Sanc_Tier_Tardiness_2_2 [h:Sanc_Tier_Tardiness_2_2]\nTYPE of h:Sanc_Tier_Tardiness_2_2: h:Sanction\nTYPE of h:Tier_Tardiness_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 138: ?sanction=h:Sanc_Tier_Tardiness_3_1\nh:Tier_Tardiness_3 [h:Tier_Tardiness_3] --h:imposesSanction--> h:Sanc_Tier_Tardiness_3_1 [h:Sanc_Tier_Tardiness_3_1]\nTYPE of h:Sanc_Tier_Tardiness_3_1: h:Sanction\nTYPE of h:Tier_Tardiness_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 139: ?sanction=h:Sanc_Tier_Trespassing_1_1\nh:Tier_Trespassing_1 [h:Tier_Trespassing_1] --h:imposesSanction--> h:Sanc_Tier_Trespassing_1_1 [h:Sanc_Tier_Trespassing_1_1]\nTYPE of h:Sanc_Tier_Trespassing_1_1: h:Sanction\nTYPE of h:Tier_Trespassing_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 140: ?sanction=h:Sanc_Tier_Trespassing_2_1\nh:Tier_Trespassing_2 [h:Tier_Trespassing_2] --h:imposesSanction--> h:Sanc_Tier_Trespassing_2_1 [h:Sanc_Tier_Trespassing_2_1]\nTYPE of h:Sanc_Tier_Trespassing_2_1: h:Sanction\nTYPE of h:Tier_Trespassing_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 141: ?sanction=h:Sanc_Tier_Trespassing_2_2\nh:Tier_Trespassing_2 [h:Tier_Trespassing_2] --h:imposesSanction--> h:Sanc_Tier_Trespassing_2_2 [h:Sanc_Tier_Trespassing_2_2]\nTYPE of h:Sanc_Tier_Trespassing_2_2: h:Sanction\nTYPE of h:Tier_Trespassing_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 142: ?sanction=h:Sanc_Tier_Trespassing_2_3\nh:Tier_Trespassing_2 [h:Tier_Trespassing_2] --h:imposesSanction--> h:Sanc_Tier_Trespassing_2_3 [h:Sanc_Tier_Trespassing_2_3]\nTYPE of h:Sanc_Tier_Trespassing_2_3: h:Sanction\nTYPE of h:Tier_Trespassing_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 143: ?sanction=h:Sanc_Tier_Trespassing_3_1\nh:Tier_Trespassing_3 [h:Tier_Trespassing_3] --h:imposesSanction--> h:Sanc_Tier_Trespassing_3_1 [h:Sanc_Tier_Trespassing_3_1]\nTYPE of h:Sanc_Tier_Trespassing_3_1: h:Sanction\nTYPE of h:Tier_Trespassing_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 144: ?sanction=h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_1_1\nh:Tier_UnauthorizedOrgLeadingParticipating_1 [h:Tier_UnauthorizedOrgLeadingParticipating_1] --h:imposesSanction--> h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_1_1 [h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_1_1]\nTYPE of h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_1_1: h:Sanction\nTYPE of h:Tier_UnauthorizedOrgLeadingParticipating_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 145: ?sanction=h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_2_1\nh:Tier_UnauthorizedOrgLeadingParticipating_2 [h:Tier_UnauthorizedOrgLeadingParticipating_2] --h:imposesSanction--> h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_2_1 [h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_2_1]\nTYPE of h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_2_1: h:Sanction\nTYPE of h:Tier_UnauthorizedOrgLeadingParticipating_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 146: ?sanction=h:Sanc_Tier_UnrecognizedOrgOperating_1_1\nh:Tier_UnrecognizedOrgOperating_1 [h:Tier_UnrecognizedOrgOperating_1] --h:imposesSanction--> h:Sanc_Tier_UnrecognizedOrgOperating_1_1 [h:Sanc_Tier_UnrecognizedOrgOperating_1_1]\nTYPE of h:Sanc_Tier_UnrecognizedOrgOperating_1_1: h:Sanction\nTYPE of h:Tier_UnrecognizedOrgOperating_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 147: ?sanction=h:Sanc_Tier_UnrecognizedOrgOperating_2_1\nh:Tier_UnrecognizedOrgOperating_2 [h:Tier_UnrecognizedOrgOperating_2] --h:imposesSanction--> h:Sanc_Tier_UnrecognizedOrgOperating_2_1 [h:Sanc_Tier_UnrecognizedOrgOperating_2_1]\nTYPE of h:Sanc_Tier_UnrecognizedOrgOperating_2_1: h:Sanction\nTYPE of h:Tier_UnrecognizedOrgOperating_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 148: ?sanction=h:Sanc_Tier_UnrecognizedOrgOperating_3_1\nh:Tier_UnrecognizedOrgOperating_3 [h:Tier_UnrecognizedOrgOperating_3] --h:imposesSanction--> h:Sanc_Tier_UnrecognizedOrgOperating_3_1 [h:Sanc_Tier_UnrecognizedOrgOperating_3_1]\nTYPE of h:Sanc_Tier_UnrecognizedOrgOperating_3_1: h:Sanction\nTYPE of h:Tier_UnrecognizedOrgOperating_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 149: ?sanction=h:Sanc_Tier_VandalismDestructionOfProperty_1_1\nh:Tier_VandalismDestructionOfProperty_1 [h:Tier_VandalismDestructionOfProperty_1] --h:imposesSanction--> h:Sanc_Tier_VandalismDestructionOfProperty_1_1 [h:Sanc_Tier_VandalismDestructionOfProperty_1_1]\nTYPE of h:Sanc_Tier_VandalismDestructionOfProperty_1_1: h:Sanction\nTYPE of h:Tier_VandalismDestructionOfProperty_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 150: ?sanction=h:Sanc_Tier_VandalismDestructionOfProperty_1_2\nh:Tier_VandalismDestructionOfProperty_1 [h:Tier_VandalismDestructionOfProperty_1] --h:imposesSanction--> h:Sanc_Tier_VandalismDestructionOfProperty_1_2 [h:Sanc_Tier_VandalismDestructionOfProperty_1_2]\nTYPE of h:Sanc_Tier_VandalismDestructionOfProperty_1_2: h:Sanction\nTYPE of h:Tier_VandalismDestructionOfProperty_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 151: ?sanction=h:Sanc_Tier_VandalismDestructionOfProperty_2_1\nh:Tier_VandalismDestructionOfProperty_2 [h:Tier_VandalismDestructionOfProperty_2] --h:imposesSanction--> h:Sanc_Tier_VandalismDestructionOfProperty_2_1 [h:Sanc_Tier_VandalismDestructionOfProperty_2_1]\nTYPE of h:Sanc_Tier_VandalismDestructionOfProperty_2_1: h:Sanction\nTYPE of h:Tier_VandalismDestructionOfProperty_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 152: ?sanction=h:Sanc_Tier_VandalismDestructionOfProperty_2_2\nh:Tier_VandalismDestructionOfProperty_2 [h:Tier_VandalismDestructionOfProperty_2] --h:imposesSanction--> h:Sanc_Tier_VandalismDestructionOfProperty_2_2 [h:Sanc_Tier_VandalismDestructionOfProperty_2_2]\nTYPE of h:Sanc_Tier_VandalismDestructionOfProperty_2_2: h:Sanction\nTYPE of h:Tier_VandalismDestructionOfProperty_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 153: ?sanction=h:Sanc_Tier_VandalismDestructionOfProperty_3_1\nh:Tier_VandalismDestructionOfProperty_3 [h:Tier_VandalismDestructionOfProperty_3] --h:imposesSanction--> h:Sanc_Tier_VandalismDestructionOfProperty_3_1 [h:Sanc_Tier_VandalismDestructionOfProperty_3_1]\nTYPE of h:Sanc_Tier_VandalismDestructionOfProperty_3_1: h:Sanction\nTYPE of h:Tier_VandalismDestructionOfProperty_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 154: ?sanction=h:Sanc_Tier_VandalismDestructionOfProperty_3_2\nh:Tier_VandalismDestructionOfProperty_3 [h:Tier_VandalismDestructionOfProperty_3] --h:imposesSanction--> h:Sanc_Tier_VandalismDestructionOfProperty_3_2 [h:Sanc_Tier_VandalismDestructionOfProperty_3_2]\nTYPE of h:Sanc_Tier_VandalismDestructionOfProperty_3_2: h:Sanction\nTYPE of h:Tier_VandalismDestructionOfProperty_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 155: ?sanction=h:Sanc_Tier_ViolationOtherDeptPolicies_1_1\nh:Tier_ViolationOtherDeptPolicies_1 [h:Tier_ViolationOtherDeptPolicies_1] --h:imposesSanction--> h:Sanc_Tier_ViolationOtherDeptPolicies_1_1 [h:Sanc_Tier_ViolationOtherDeptPolicies_1_1]\nTYPE of h:Sanc_Tier_ViolationOtherDeptPolicies_1_1: h:Sanction\nTYPE of h:Tier_ViolationOtherDeptPolicies_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 156: ?sanction=h:Sanc_Tier_ViolationOtherDeptPolicies_1_2\nh:Tier_ViolationOtherDeptPolicies_1 [h:Tier_ViolationOtherDeptPolicies_1] --h:imposesSanction--> h:Sanc_Tier_ViolationOtherDeptPolicies_1_2 [h:Sanc_Tier_ViolationOtherDeptPolicies_1_2]\nTYPE of h:Sanc_Tier_ViolationOtherDeptPolicies_1_2: h:Sanction\nTYPE of h:Tier_ViolationOtherDeptPolicies_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 157: ?sanction=h:Sanc_Tier_ViolationOtherDeptPolicies_2_1\nh:Tier_ViolationOtherDeptPolicies_2 [h:Tier_ViolationOtherDeptPolicies_2] --h:imposesSanction--> h:Sanc_Tier_ViolationOtherDeptPolicies_2_1 [h:Sanc_Tier_ViolationOtherDeptPolicies_2_1]\nTYPE of h:Sanc_Tier_ViolationOtherDeptPolicies_2_1: h:Sanction\nTYPE of h:Tier_ViolationOtherDeptPolicies_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 158: ?sanction=h:Sanc_Tier_ViolationOtherDeptPolicies_2_2\nh:Tier_ViolationOtherDeptPolicies_2 [h:Tier_ViolationOtherDeptPolicies_2] --h:imposesSanction--> h:Sanc_Tier_ViolationOtherDeptPolicies_2_2 [h:Sanc_Tier_ViolationOtherDeptPolicies_2_2]\nTYPE of h:Sanc_Tier_ViolationOtherDeptPolicies_2_2: h:Sanction\nTYPE of h:Tier_ViolationOtherDeptPolicies_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 159: ?sanction=h:Sanc_Tier_ViolationOtherDeptPolicies_3_1\nh:Tier_ViolationOtherDeptPolicies_3 [h:Tier_ViolationOtherDeptPolicies_3] --h:imposesSanction--> h:Sanc_Tier_ViolationOtherDeptPolicies_3_1 [h:Sanc_Tier_ViolationOtherDeptPolicies_3_1]\nTYPE of h:Sanc_Tier_ViolationOtherDeptPolicies_3_1: h:Sanction\nTYPE of h:Tier_ViolationOtherDeptPolicies_3: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 160: ?sanction=h:Sanc_Tier_ViolationOtherDeptPolicies_3_2\nh:Tier_ViolationOtherDeptPolicies_3 [h:Tier_ViolationOtherDeptPolicies_3] --h:imposesSanction--> h:Sanc_Tier_ViolationOtherDeptPolicies_3_2 [h:Sanc_Tier_ViolationOtherDeptPolicies_3_2]\nTYPE of h:Sanc_Tier_ViolationOtherDeptPolicies_3_2: h:Sanction\nTYPE of h:Tier_ViolationOtherDeptPolicies_3: h:SanctionTier"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_Smoking_1\nSmoking [h:Smoking] --h:definition--> \"Smoking within University premises is strictly prohibited to all students.\"\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_1 [h:Tier_Smoking_1]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_1: h:SanctionTier\n\nQUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_Smoking_2\nSmoking [h:Smoking] --h:definition--> \"Smoking within University premises is strictly prohibited to all students.\"\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_2 [h:Tier_Smoking_2]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_2: h:SanctionTier\n\nQUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_Smoking_3\nSmoking [h:Smoking] --h:definition--> \"Smoking within University premises is strictly prohibited to all students.\"\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_3 [h:Tier_Smoking_3]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_3: h:SanctionTier\n\nQUERY 2\nGRAPH RESULT 1: ?sanction=h:Sanc_Tier_AidingCybercri",
+    "answer_for_eval": "Smoking is classified as a minor offense.",
+    "retrieval_query": "Is smoking a minor or a major offense?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Smoking",
+              "h:definition",
+              {
+                "literal": "Smoking within University premises is strictly prohibited to all students."
+              }
+            ],
+            [
+              "h:Smoking",
+              "h:hasSanctionTier",
+              "?tier"
+            ]
+          ],
+          "select": [
+            "?tier"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "?tier",
+              "h:imposesSanction",
+              "?sanction"
+            ]
+          ],
+          "select": [
+            "?sanction"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 163,
+    "elapsed_seconds": 15.01600000000326,
+    "retrieval_seconds": 14.09399999998277,
+    "generation_seconds": 0.9220000000204891,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_Smoking_1\nSmoking [h:Smoking] --h:definition--> \"Smoking within University premises is strictly prohibited to all students.\"\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_1 [h:Tier_Smoking_1]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_1: h:SanctionTier",
+      "QUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_Smoking_2\nSmoking [h:Smoking] --h:definition--> \"Smoking within University premises is strictly prohibited to all students.\"\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_2 [h:Tier_Smoking_2]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_2: h:SanctionTier",
+      "QUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_Smoking_3\nSmoking [h:Smoking] --h:definition--> \"Smoking within University premises is strictly prohibited to all students.\"\nSmoking [h:Smoking] --h:hasSanctionTier--> h:Tier_Smoking_3 [h:Tier_Smoking_3]\nTYPE of Smoking: h:MinorOffense\nSOURCE/QUALIFIER for Smoking: h:sourceArticle = Ch.6 Art.3 Sec.6\nTYPE of h:Tier_Smoking_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 1: ?sanction=h:Sanc_Tier_AidingCybercrime_1_1\nh:Tier_AidingCybercrime_1 [h:Tier_AidingCybercrime_1] --h:imposesSanction--> h:Sanc_Tier_AidingCybercrime_1_1 [h:Sanc_Tier_AidingCybercrime_1_1]\nTYPE of h:Sanc_Tier_AidingCybercrime_1_1: h:Sanction\nTYPE of h:Tier_AidingCybercrime_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 2: ?sanction=h:Sanc_Tier_AidingCybercrime_1_2\nh:Tier_AidingCybercrime_1 [h:Tier_AidingCybercrime_1] --h:imposesSanction--> h:Sanc_Tier_AidingCybercrime_1_2 [h:Sanc_Tier_AidingCybercrime_1_2]\nTYPE of h:Sanc_Tier_AidingCybercrime_1_2: h:Sanction\nTYPE of h:Tier_AidingCybercrime_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 3: ?sanction=h:Sanc_Tier_AidingCybercrime_2_1\nh:Tier_AidingCybercrime_2 [h:Tier_AidingCybercrime_2] --h:imposesSanction--> h:Sanc_Tier_AidingCybercrime_2_1 [h:Sanc_Tier_AidingCybercrime_2_1]\nTYPE of h:Sanc_Tier_AidingCybercrime_2_1: h:Sanction\nTYPE of h:Tier_AidingCybercrime_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 4: ?sanction=h:Sanc_Tier_AidingCybercrime_3_1\nh:Tier_AidingCybercrime_3 [h:Tier_AidingCybercrime_3] --h:imposesSanction--> h:Sanc_Tier_AidingCybercrime_3_1 [h:Sanc_Tier_AidingCybercrime_3_1]\nTYPE of h:Sanc_Tier_AidingCybercrime_3_1: h:Sanction\nTYPE of h:Tier_AidingCybercrime_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 5: ?sanction=h:Sanc_Tier_BelligerenceDiscourtesy_1_1\nh:Tier_BelligerenceDiscourtesy_1 [h:Tier_BelligerenceDiscourtesy_1] --h:imposesSanction--> h:Sanc_Tier_BelligerenceDiscourtesy_1_1 [h:Sanc_Tier_BelligerenceDiscourtesy_1_1]\nTYPE of h:Sanc_Tier_BelligerenceDiscourtesy_1_1: h:Sanction\nTYPE of h:Tier_BelligerenceDiscourtesy_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 6: ?sanction=h:Sanc_Tier_BelligerenceDiscourtesy_1_2\nh:Tier_BelligerenceDiscourtesy_1 [h:Tier_BelligerenceDiscourtesy_1] --h:imposesSanction--> h:Sanc_Tier_BelligerenceDiscourtesy_1_2 [h:Sanc_Tier_BelligerenceDiscourtesy_1_2]\nTYPE of h:Sanc_Tier_BelligerenceDiscourtesy_1_2: h:Sanction\nTYPE of h:Tier_BelligerenceDiscourtesy_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 7: ?sanction=h:Sanc_Tier_BelligerenceDiscourtesy_1_3\nh:Tier_BelligerenceDiscourtesy_1 [h:Tier_BelligerenceDiscourtesy_1] --h:imposesSanction--> h:Sanc_Tier_BelligerenceDiscourtesy_1_3 [h:Sanc_Tier_BelligerenceDiscourtesy_1_3]\nTYPE of h:Sanc_Tier_BelligerenceDiscourtesy_1_3: h:Sanction\nTYPE of h:Tier_BelligerenceDiscourtesy_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 8: ?sanction=h:Sanc_Tier_BelligerenceDiscourtesy_2_1\nh:Tier_BelligerenceDiscourtesy_2 [h:Tier_BelligerenceDiscourtesy_2] --h:imposesSanction--> h:Sanc_Tier_BelligerenceDiscourtesy_2_1 [h:Sanc_Tier_BelligerenceDiscourtesy_2_1]\nTYPE of h:Sanc_Tier_BelligerenceDiscourtesy_2_1: h:Sanction\nTYPE of h:Tier_BelligerenceDiscourtesy_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 9: ?sanction=h:Sanc_Tier_BelligerenceDiscourtesy_2_2\nh:Tier_BelligerenceDiscourtesy_2 [h:Tier_BelligerenceDiscourtesy_2] --h:imposesSanction--> h:Sanc_Tier_BelligerenceDiscourtesy_2_2 [h:Sanc_Tier_BelligerenceDiscourtesy_2_2]\nTYPE of h:Sanc_Tier_BelligerenceDiscourtesy_2_2: h:Sanction\nTYPE of h:Tier_BelligerenceDiscourtesy_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 10: ?sanction=h:Sanc_Tier_BelligerenceDiscourtesy_3_1\nh:Tier_BelligerenceDiscourtesy_3 [h:Tier_BelligerenceDiscourtesy_3] --h:imposesSanction--> h:Sanc_Tier_BelligerenceDiscourtesy_3_1 [h:Sanc_Tier_BelligerenceDiscourtesy_3_1]\nTYPE of h:Sanc_Tier_BelligerenceDiscourtesy_3_1: h:Sanction\nTYPE of h:Tier_BelligerenceDiscourtesy_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 11: ?sanction=h:Sanc_Tier_BorrowLendIDLibraryCard_1_1\nh:Tier_BorrowLendIDLibraryCard_1 [h:Tier_BorrowLendIDLibraryCard_1] --h:imposesSanction--> h:Sanc_Tier_BorrowLendIDLibraryCard_1_1 [h:Sanc_Tier_BorrowLendIDLibraryCard_1_1]\nTYPE of h:Sanc_Tier_BorrowLendIDLibraryCard_1_1: h:Sanction\nTYPE of h:Tier_BorrowLendIDLibraryCard_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 12: ?sanction=h:Sanc_Tier_BorrowLendIDLibraryCard_2_1\nh:Tier_BorrowLendIDLibraryCard_2 [h:Tier_BorrowLendIDLibraryCard_2] --h:imposesSanction--> h:Sanc_Tier_BorrowLendIDLibraryCard_2_1 [h:Sanc_Tier_BorrowLendIDLibraryCard_2_1]\nTYPE of h:Sanc_Tier_BorrowLendIDLibraryCard_2_1: h:Sanction\nTYPE of h:Tier_BorrowLendIDLibraryCard_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 13: ?sanction=h:Sanc_Tier_BorrowLendIDLibraryCard_2_2\nh:Tier_BorrowLendIDLibraryCard_2 [h:Tier_BorrowLendIDLibraryCard_2] --h:imposesSanction--> h:Sanc_Tier_BorrowLendIDLibraryCard_2_2 [h:Sanc_Tier_BorrowLendIDLibraryCard_2_2]\nTYPE of h:Sanc_Tier_BorrowLendIDLibraryCard_2_2: h:Sanction\nTYPE of h:Tier_BorrowLendIDLibraryCard_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 14: ?sanction=h:Sanc_Tier_BorrowLendIDLibraryCard_3_1\nh:Tier_BorrowLendIDLibraryCard_3 [h:Tier_BorrowLendIDLibraryCard_3] --h:imposesSanction--> h:Sanc_Tier_BorrowLendIDLibraryCard_3_1 [h:Sanc_Tier_BorrowLendIDLibraryCard_3_1]\nTYPE of h:Sanc_Tier_BorrowLendIDLibraryCard_3_1: h:Sanction\nTYPE of h:Tier_BorrowLendIDLibraryCard_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 15: ?sanction=h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_1_1\nh:Tier_BreachOfPeace_ShoutingRoaming_1 [h:Tier_BreachOfPeace_ShoutingRoaming_1] --h:imposesSanction--> h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_1_1 [h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_1_1]\nTYPE of h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_1_1: h:Sanction\nTYPE of h:Tier_BreachOfPeace_ShoutingRoaming_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 16: ?sanction=h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_1\nh:Tier_BreachOfPeace_ShoutingRoaming_2 [h:Tier_BreachOfPeace_ShoutingRoaming_2] --h:imposesSanction--> h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_1 [h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_1]\nTYPE of h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_1: h:Sanction\nTYPE of h:Tier_BreachOfPeace_ShoutingRoaming_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 17: ?sanction=h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_2\nh:Tier_BreachOfPeace_ShoutingRoaming_2 [h:Tier_BreachOfPeace_ShoutingRoaming_2] --h:imposesSanction--> h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_2 [h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_2]\nTYPE of h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_2_2: h:Sanction\nTYPE of h:Tier_BreachOfPeace_ShoutingRoaming_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 18: ?sanction=h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_3_1\nh:Tier_BreachOfPeace_ShoutingRoaming_3 [h:Tier_BreachOfPeace_ShoutingRoaming_3] --h:imposesSanction--> h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_3_1 [h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_3_1]\nTYPE of h:Sanc_Tier_BreachOfPeace_ShoutingRoaming_3_1: h:Sanction\nTYPE of h:Tier_BreachOfPeace_ShoutingRoaming_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 19: ?sanction=h:Sanc_Tier_BreachOfPeace_Subsequent_1_1\nh:Tier_BreachOfPeace_Subsequent_1 [h:Tier_BreachOfPeace_Subsequent_1] --h:imposesSanction--> h:Sanc_Tier_BreachOfPeace_Subsequent_1_1 [h:Sanc_Tier_BreachOfPeace_Subsequent_1_1]\nTYPE of h:Sanc_Tier_BreachOfPeace_Subsequent_1_1: h:Sanction\nTYPE of h:Tier_BreachOfPeace_Subsequent_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 20: ?sanction=h:Sanc_Tier_Bullying_HostileEnvironment_1_1\nh:Tier_Bullying_HostileEnvironment_1 [h:Tier_Bullying_HostileEnvironment_1] --h:imposesSanction--> h:Sanc_Tier_Bullying_HostileEnvironment_1_1 [h:Sanc_Tier_Bullying_HostileEnvironment_1_1]\nTYPE of h:Sanc_Tier_Bullying_HostileEnvironment_1_1: h:Sanction\nTYPE of h:Tier_Bullying_HostileEnvironment_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 21: ?sanction=h:Sanc_Tier_Bullying_HostileEnvironment_1_2\nh:Tier_Bullying_HostileEnvironment_1 [h:Tier_Bullying_HostileEnvironment_1] --h:imposesSanction--> h:Sanc_Tier_Bullying_HostileEnvironment_1_2 [h:Sanc_Tier_Bullying_HostileEnvironment_1_2]\nTYPE of h:Sanc_Tier_Bullying_HostileEnvironment_1_2: h:Sanction\nTYPE of h:Tier_Bullying_HostileEnvironment_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 22: ?sanction=h:Sanc_Tier_Bullying_HostileEnvironment_2_1\nh:Tier_Bullying_HostileEnvironment_2 [h:Tier_Bullying_HostileEnvironment_2] --h:imposesSanction--> h:Sanc_Tier_Bullying_HostileEnvironment_2_1 [h:Sanc_Tier_Bullying_HostileEnvironment_2_1]\nTYPE of h:Sanc_Tier_Bullying_HostileEnvironment_2_1: h:Sanction\nTYPE of h:Tier_Bullying_HostileEnvironment_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 23: ?sanction=h:Sanc_Tier_Bullying_HostileEnvironment_3_1\nh:Tier_Bullying_HostileEnvironment_3 [h:Tier_Bullying_HostileEnvironment_3] --h:imposesSanction--> h:Sanc_Tier_Bullying_HostileEnvironment_3_1 [h:Sanc_Tier_Bullying_HostileEnvironment_3_1]\nTYPE of h:Sanc_Tier_Bullying_HostileEnvironment_3_1: h:Sanction\nTYPE of h:Tier_Bullying_HostileEnvironment_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 24: ?sanction=h:Sanc_Tier_Bullying_PhysicalContact_1_1\nh:Tier_Bullying_PhysicalContact_1 [h:Tier_Bullying_PhysicalContact_1] --h:imposesSanction--> h:Sanc_Tier_Bullying_PhysicalContact_1_1 [h:Sanc_Tier_Bullying_PhysicalContact_1_1]\nTYPE of h:Sanc_Tier_Bullying_PhysicalContact_1_1: h:Sanction\nTYPE of h:Tier_Bullying_PhysicalContact_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 25: ?sanction=h:Sanc_Tier_Bullying_PhysicalContact_2_1\nh:Tier_Bullying_PhysicalContact_2 [h:Tier_Bullying_PhysicalContact_2] --h:imposesSanction--> h:Sanc_Tier_Bullying_PhysicalContact_2_1 [h:Sanc_Tier_Bullying_PhysicalContact_2_1]\nTYPE of h:Sanc_Tier_Bullying_PhysicalContact_2_1: h:Sanction\nTYPE of h:Tier_Bullying_PhysicalContact_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 26: ?sanction=h:Sanc_Tier_Bullying_PhysicalContact_3_1\nh:Tier_Bullying_PhysicalContact_3 [h:Tier_Bullying_PhysicalContact_3] --h:imposesSanction--> h:Sanc_Tier_Bullying_PhysicalContact_3_1 [h:Sanc_Tier_Bullying_PhysicalContact_3_1]\nTYPE of h:Sanc_Tier_Bullying_PhysicalContact_3_1: h:Sanction\nTYPE of h:Tier_Bullying_PhysicalContact_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 27: ?sanction=h:Sanc_Tier_Bullying_SevereRepeated_1_1\nh:Tier_Bullying_SevereRepeated_1 [h:Tier_Bullying_SevereRepeated_1] --h:imposesSanction--> h:Sanc_Tier_Bullying_SevereRepeated_1_1 [h:Sanc_Tier_Bullying_SevereRepeated_1_1]\nTYPE of h:Sanc_Tier_Bullying_SevereRepeated_1_1: h:Sanction\nTYPE of h:Tier_Bullying_SevereRepeated_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 28: ?sanction=h:Sanc_Tier_Bullying_SevereRepeated_1_2\nh:Tier_Bullying_SevereRepeated_1 [h:Tier_Bullying_SevereRepeated_1] --h:imposesSanction--> h:Sanc_Tier_Bullying_SevereRepeated_1_2 [h:Sanc_Tier_Bullying_SevereRepeated_1_2]\nTYPE of h:Sanc_Tier_Bullying_SevereRepeated_1_2: h:Sanction\nTYPE of h:Tier_Bullying_SevereRepeated_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 29: ?sanction=h:Sanc_Tier_Bullying_SevereRepeated_2_1\nh:Tier_Bullying_SevereRepeated_2 [h:Tier_Bullying_SevereRepeated_2] --h:imposesSanction--> h:Sanc_Tier_Bullying_SevereRepeated_2_1 [h:Sanc_Tier_Bullying_SevereRepeated_2_1]\nTYPE of h:Sanc_Tier_Bullying_SevereRepeated_2_1: h:Sanction\nTYPE of h:Tier_Bullying_SevereRepeated_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 30: ?sanction=h:Sanc_Tier_Bullying_SevereRepeated_3_1\nh:Tier_Bullying_SevereRepeated_3 [h:Tier_Bullying_SevereRepeated_3] --h:imposesSanction--> h:Sanc_Tier_Bullying_SevereRepeated_3_1 [h:Sanc_Tier_Bullying_SevereRepeated_3_1]\nTYPE of h:Sanc_Tier_Bullying_SevereRepeated_3_1: h:Sanction\nTYPE of h:Tier_Bullying_SevereRepeated_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 31: ?sanction=h:Sanc_Tier_Bullying_SlanderousStatement_1_1\nh:Tier_Bullying_SlanderousStatement_1 [h:Tier_Bullying_SlanderousStatement_1] --h:imposesSanction--> h:Sanc_Tier_Bullying_SlanderousStatement_1_1 [h:Sanc_Tier_Bullying_SlanderousStatement_1_1]\nTYPE of h:Sanc_Tier_Bullying_SlanderousStatement_1_1: h:Sanction\nTYPE of h:Tier_Bullying_SlanderousStatement_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 32: ?sanction=h:Sanc_Tier_Bullying_SlanderousStatement_2_1\nh:Tier_Bullying_SlanderousStatement_2 [h:Tier_Bullying_SlanderousStatement_2] --h:imposesSanction--> h:Sanc_Tier_Bullying_SlanderousStatement_2_1 [h:Sanc_Tier_Bullying_SlanderousStatement_2_1]\nTYPE of h:Sanc_Tier_Bullying_SlanderousStatement_2_1: h:Sanction\nTYPE of h:Tier_Bullying_SlanderousStatement_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 33: ?sanction=h:Sanc_Tier_Bullying_SlanderousStatement_3_1\nh:Tier_Bullying_SlanderousStatement_3 [h:Tier_Bullying_SlanderousStatement_3] --h:imposesSanction--> h:Sanc_Tier_Bullying_SlanderousStatement_3_1 [h:Sanc_Tier_Bullying_SlanderousStatement_3_1]\nTYPE of h:Sanc_Tier_Bullying_SlanderousStatement_3_1: h:Sanction\nTYPE of h:Tier_Bullying_SlanderousStatement_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 34: ?sanction=h:Sanc_Tier_ChildPornography_1_1\nh:Tier_ChildPornography_1 [h:Tier_ChildPornography_1] --h:imposesSanction--> h:Sanc_Tier_ChildPornography_1_1 [h:Sanc_Tier_ChildPornography_1_1]\nTYPE of h:Sanc_Tier_ChildPornography_1_1: h:Sanction\nTYPE of h:Tier_ChildPornography_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 35: ?sanction=h:Sanc_Tier_ClimbingPerimeterFence_1_1\nh:Tier_ClimbingPerimeterFence_1 [h:Tier_ClimbingPerimeterFence_1] --h:imposesSanction--> h:Sanc_Tier_ClimbingPerimeterFence_1_1 [h:Sanc_Tier_ClimbingPerimeterFence_1_1]\nTYPE of h:Sanc_Tier_ClimbingPerimeterFence_1_1: h:Sanction\nTYPE of h:Tier_ClimbingPerimeterFence_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 36: ?sanction=h:Sanc_Tier_ClimbingPerimeterFence_2_1\nh:Tier_ClimbingPerimeterFence_2 [h:Tier_ClimbingPerimeterFence_2] --h:imposesSanction--> h:Sanc_Tier_ClimbingPerimeterFence_2_1 [h:Sanc_Tier_ClimbingPerimeterFence_2_1]\nTYPE of h:Sanc_Tier_ClimbingPerimeterFence_2_1: h:Sanction\nTYPE of h:Tier_ClimbingPerimeterFence_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 37: ?sanction=h:Sanc_Tier_ClimbingPerimeterFence_2_2\nh:Tier_ClimbingPerimeterFence_2 [h:Tier_ClimbingPerimeterFence_2] --h:imposesSanction--> h:Sanc_Tier_ClimbingPerimeterFence_2_2 [h:Sanc_Tier_ClimbingPerimeterFence_2_2]\nTYPE of h:Sanc_Tier_ClimbingPerimeterFence_2_2: h:Sanction\nTYPE of h:Tier_ClimbingPerimeterFence_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 38: ?sanction=h:Sanc_Tier_ClimbingPerimeterFence_3_1\nh:Tier_ClimbingPerimeterFence_3 [h:Tier_ClimbingPerimeterFence_3] --h:imposesSanction--> h:Sanc_Tier_ClimbingPerimeterFence_3_1 [h:Sanc_Tier_ClimbingPerimeterFence_3_1]\nTYPE of h:Sanc_Tier_ClimbingPerimeterFence_3_1: h:Sanction\nTYPE of h:Tier_ClimbingPerimeterFence_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 39: ?sanction=h:Sanc_Tier_CyberBullying_1_1\nh:Tier_CyberBullying_1 [h:Tier_CyberBullying_1] --h:imposesSanction--> h:Sanc_Tier_CyberBullying_1_1 [h:Sanc_Tier_CyberBullying_1_1]\nTYPE of h:Sanc_Tier_CyberBullying_1_1: h:Sanction\nTYPE of h:Tier_CyberBullying_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 40: ?sanction=h:Sanc_Tier_CyberBullying_2_1\nh:Tier_CyberBullying_2 [h:Tier_CyberBullying_2] --h:imposesSanction--> h:Sanc_Tier_CyberBullying_2_1 [h:Sanc_Tier_CyberBullying_2_1]\nTYPE of h:Sanc_Tier_CyberBullying_2_1: h:Sanction\nTYPE of h:Tier_CyberBullying_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 41: ?sanction=h:Sanc_Tier_CyberBullying_3_1\nh:Tier_CyberBullying_3 [h:Tier_CyberBullying_3] --h:imposesSanction--> h:Sanc_Tier_CyberBullying_3_1 [h:Sanc_Tier_CyberBullying_3_1]\nTYPE of h:Sanc_Tier_CyberBullying_3_1: h:Sanction\nTYPE of h:Tier_CyberBullying_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 42: ?sanction=h:Sanc_Tier_CyberLibel_1_1\nh:Tier_CyberLibel_1 [h:Tier_CyberLibel_1] --h:imposesSanction--> h:Sanc_Tier_CyberLibel_1_1 [h:Sanc_Tier_CyberLibel_1_1]\nTYPE of h:Sanc_Tier_CyberLibel_1_1: h:Sanction\nTYPE of h:Tier_CyberLibel_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 43: ?sanction=h:Sanc_Tier_Cybersex_1_1\nh:Tier_Cybersex_1 [h:Tier_Cybersex_1] --h:imposesSanction--> h:Sanc_Tier_Cybersex_1_1 [h:Sanc_Tier_Cybersex_1_1]\nTYPE of h:Sanc_Tier_Cybersex_1_1: h:Sanction\nTYPE of h:Tier_Cybersex_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 44: ?sanction=h:Sanc_Tier_DataInterference_1_1\nh:Tier_DataInterference_1 [h:Tier_DataInterference_1] --h:imposesSanction--> h:Sanc_Tier_DataInterference_1_1 [h:Sanc_Tier_DataInterference_1_1]\nTYPE of h:Sanc_Tier_DataInterference_1_1: h:Sanction\nTYPE of h:Tier_DataInterference_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 45: ?sanction=h:Sanc_Tier_DataInterference_2_1\nh:Tier_DataInterference_2 [h:Tier_DataInterference_2] --h:imposesSanction--> h:Sanc_Tier_DataInterference_2_1 [h:Sanc_Tier_DataInterference_2_1]\nTYPE of h:Sanc_Tier_DataInterference_2_1: h:Sanction\nTYPE of h:Tier_DataInterference_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 46: ?sanction=h:Sanc_Tier_DataInterference_3_1\nh:Tier_DataInterference_3 [h:Tier_DataInterference_3] --h:imposesSanction--> h:Sanc_Tier_DataInterference_3_1 [h:Sanc_Tier_DataInterference_3_1]\nTYPE of h:Sanc_Tier_DataInterference_3_1: h:Sanction\nTYPE of h:Tier_DataInterference_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 47: ?sanction=h:Sanc_Tier_DeadlyWeapons_1_1\nh:Tier_DeadlyWeapons_1 [h:Tier_DeadlyWeapons_1] --h:imposesSanction--> h:Sanc_Tier_DeadlyWeapons_1_1 [h:Sanc_Tier_DeadlyWeapons_1_1]\nTYPE of h:Sanc_Tier_DeadlyWeapons_1_1: h:Sanction\nTYPE of h:Tier_DeadlyWeapons_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 48: ?sanction=h:Sanc_Tier_DeadlyWeapons_2_1\nh:Tier_DeadlyWeapons_2 [h:Tier_DeadlyWeapons_2] --h:imposesSanction--> h:Sanc_Tier_DeadlyWeapons_2_1 [h:Sanc_Tier_DeadlyWeapons_2_1]\nTYPE of h:Sanc_Tier_DeadlyWeapons_2_1: h:Sanction\nTYPE of h:Tier_DeadlyWeapons_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 49: ?sanction=h:Sanc_Tier_DeadlyWeapons_3_1\nh:Tier_DeadlyWeapons_3 [h:Tier_DeadlyWeapons_3] --h:imposesSanction--> h:Sanc_Tier_DeadlyWeapons_3_1 [h:Sanc_Tier_DeadlyWeapons_3_1]\nTYPE of h:Sanc_Tier_DeadlyWeapons_3_1: h:Sanction\nTYPE of h:Tier_DeadlyWeapons_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 50: ?sanction=h:Sanc_Tier_DeceptionForgery_1_1\nh:Tier_DeceptionForgery_1 [h:Tier_DeceptionForgery_1] --h:imposesSanction--> h:Sanc_Tier_DeceptionForgery_1_1 [h:Sanc_Tier_DeceptionForgery_1_1]\nTYPE of h:Sanc_Tier_DeceptionForgery_1_1: h:Sanction\nTYPE of h:Tier_DeceptionForgery_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 51: ?sanction=h:Sanc_Tier_DishonestyCheating_1_1\nh:Tier_DishonestyCheating_1 [h:Tier_DishonestyCheating_1] --h:imposesSanction--> h:Sanc_Tier_DishonestyCheating_1_1 [h:Sanc_Tier_DishonestyCheating_1_1]\nTYPE of h:Sanc_Tier_DishonestyCheating_1_1: h:Sanction\nTYPE of h:Tier_DishonestyCheating_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 52: ?sanction=h:Sanc_Tier_DishonestyCheating_2_1\nh:Tier_DishonestyCheating_2 [h:Tier_DishonestyCheating_2] --h:imposesSanction--> h:Sanc_Tier_DishonestyCheating_2_1 [h:Sanc_Tier_DishonestyCheating_2_1]\nTYPE of h:Sanc_Tier_DishonestyCheating_2_1: h:Sanction\nTYPE of h:Tier_DishonestyCheating_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 53: ?sanction=h:Sanc_Tier_DishonestyCheating_3_1\nh:Tier_DishonestyCheating_3 [h:Tier_DishonestyCheating_3] --h:imposesSanction--> h:Sanc_Tier_DishonestyCheating_3_1 [h:Sanc_Tier_DishonestyCheating_3_1]\nTYPE of h:Sanc_Tier_DishonestyCheating_3_1: h:Sanction\nTYPE of h:Tier_DishonestyCheating_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 54: ?sanction=h:Sanc_Tier_DrinkingAlcohol_1_1\nh:Tier_DrinkingAlcohol_1 [h:Tier_DrinkingAlcohol_1] --h:imposesSanction--> h:Sanc_Tier_DrinkingAlcohol_1_1 [h:Sanc_Tier_DrinkingAlcohol_1_1]\nTYPE of h:Sanc_Tier_DrinkingAlcohol_1_1: h:Sanction\nTYPE of h:Tier_DrinkingAlcohol_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 55: ?sanction=h:Sanc_Tier_DrinkingAlcohol_1_2\nh:Tier_DrinkingAlcohol_1 [h:Tier_DrinkingAlcohol_1] --h:imposesSanction--> h:Sanc_Tier_DrinkingAlcohol_1_2 [h:Sanc_Tier_DrinkingAlcohol_1_2]\nTYPE of h:Sanc_Tier_DrinkingAlcohol_1_2: h:Sanction\nTYPE of h:Tier_DrinkingAlcohol_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 56: ?sanction=h:Sanc_Tier_DrinkingAlcohol_2_1\nh:Tier_DrinkingAlcohol_2 [h:Tier_DrinkingAlcohol_2] --h:imposesSanction--> h:Sanc_Tier_DrinkingAlcohol_2_1 [h:Sanc_Tier_DrinkingAlcohol_2_1]\nTYPE of h:Sanc_Tier_DrinkingAlcohol_2_1: h:Sanction\nTYPE of h:Tier_DrinkingAlcohol_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 57: ?sanction=h:Sanc_Tier_DrinkingAlcohol_3_1\nh:Tier_DrinkingAlcohol_3 [h:Tier_DrinkingAlcohol_3] --h:imposesSanction--> h:Sanc_Tier_DrinkingAlcohol_3_1 [h:Sanc_Tier_DrinkingAlcohol_3_1]\nTYPE of h:Sanc_Tier_DrinkingAlcohol_3_1: h:Sanction\nTYPE of h:Tier_DrinkingAlcohol_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 58: ?sanction=h:Sanc_Tier_DrunkennessCausingHarm_1_1\nh:Tier_DrunkennessCausingHarm_1 [h:Tier_DrunkennessCausingHarm_1] --h:imposesSanction--> h:Sanc_Tier_DrunkennessCausingHarm_1_1 [h:Sanc_Tier_DrunkennessCausingHarm_1_1]\nTYPE of h:Sanc_Tier_DrunkennessCausingHarm_1_1: h:Sanction\nTYPE of h:Tier_DrunkennessCausingHarm_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 59: ?sanction=h:Sanc_Tier_DrunkennessCausingHarm_1_2\nh:Tier_DrunkennessCausingHarm_1 [h:Tier_DrunkennessCausingHarm_1] --h:imposesSanction--> h:Sanc_Tier_DrunkennessCausingHarm_1_2 [h:Sanc_Tier_DrunkennessCausingHarm_1_2]\nTYPE of h:Sanc_Tier_DrunkennessCausingHarm_1_2: h:Sanction\nTYPE of h:Tier_DrunkennessCausingHarm_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 60: ?sanction=h:Sanc_Tier_DrunkennessCausingHarm_2_1\nh:Tier_DrunkennessCausingHarm_2 [h:Tier_DrunkennessCausingHarm_2] --h:imposesSanction--> h:Sanc_Tier_DrunkennessCausingHarm_2_1 [h:Sanc_Tier_DrunkennessCausingHarm_2_1]\nTYPE of h:Sanc_Tier_DrunkennessCausingHarm_2_1: h:Sanction\nTYPE of h:Tier_DrunkennessCausingHarm_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 61: ?sanction=h:Sanc_Tier_DrunkennessCausingHarm_2_2\nh:Tier_DrunkennessCausingHarm_2 [h:Tier_DrunkennessCausingHarm_2] --h:imposesSanction--> h:Sanc_Tier_DrunkennessCausingHarm_2_2 [h:Sanc_Tier_DrunkennessCausingHarm_2_2]\nTYPE of h:Sanc_Tier_DrunkennessCausingHarm_2_2: h:Sanction\nTYPE of h:Tier_DrunkennessCausingHarm_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 62: ?sanction=h:Sanc_Tier_DrunkennessCausingHarm_3_1\nh:Tier_DrunkennessCausingHarm_3 [h:Tier_DrunkennessCausingHarm_3] --h:imposesSanction--> h:Sanc_Tier_DrunkennessCausingHarm_3_1 [h:Sanc_Tier_DrunkennessCausingHarm_3_1]\nTYPE of h:Sanc_Tier_DrunkennessCausingHarm_3_1: h:Sanction\nTYPE of h:Tier_DrunkennessCausingHarm_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 63: ?sanction=h:Sanc_Tier_DrunkennessCausingHarm_3_2\nh:Tier_DrunkennessCausingHarm_3 [h:Tier_DrunkennessCausingHarm_3] --h:imposesSanction--> h:Sanc_Tier_DrunkennessCausingHarm_3_2 [h:Sanc_Tier_DrunkennessCausingHarm_3_2]\nTYPE of h:Sanc_Tier_DrunkennessCausingHarm_3_2: h:Sanction\nTYPE of h:Tier_DrunkennessCausingHarm_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 64: ?sanction=h:Sanc_Tier_FalsificationCommonForms_1_1\nh:Tier_FalsificationCommonForms_1 [h:Tier_FalsificationCommonForms_1] --h:imposesSanction--> h:Sanc_Tier_FalsificationCommonForms_1_1 [h:Sanc_Tier_FalsificationCommonForms_1_1]\nTYPE of h:Sanc_Tier_FalsificationCommonForms_1_1: h:Sanction\nTYPE of h:Tier_FalsificationCommonForms_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 65: ?sanction=h:Sanc_Tier_FalsificationCommonForms_1_2\nh:Tier_FalsificationCommonForms_1 [h:Tier_FalsificationCommonForms_1] --h:imposesSanction--> h:Sanc_Tier_FalsificationCommonForms_1_2 [h:Sanc_Tier_FalsificationCommonForms_1_2]\nTYPE of h:Sanc_Tier_FalsificationCommonForms_1_2: h:Sanction\nTYPE of h:Tier_FalsificationCommonForms_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 66: ?sanction=h:Sanc_Tier_FalsificationCommonForms_2_1\nh:Tier_FalsificationCommonForms_2 [h:Tier_FalsificationCommonForms_2] --h:imposesSanction--> h:Sanc_Tier_FalsificationCommonForms_2_1 [h:Sanc_Tier_FalsificationCommonForms_2_1]\nTYPE of h:Sanc_Tier_FalsificationCommonForms_2_1: h:Sanction\nTYPE of h:Tier_FalsificationCommonForms_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 67: ?sanction=h:Sanc_Tier_FalsificationCommonForms_3_1\nh:Tier_FalsificationCommonForms_3 [h:Tier_FalsificationCommonForms_3] --h:imposesSanction--> h:Sanc_Tier_FalsificationCommonForms_3_1 [h:Sanc_Tier_FalsificationCommonForms_3_1]\nTYPE of h:Sanc_Tier_FalsificationCommonForms_3_1: h:Sanction\nTYPE of h:Tier_FalsificationCommonForms_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 68: ?sanction=h:Sanc_Tier_FalsificationOfficialDocuments_1_1\nh:Tier_FalsificationOfficialDocuments_1 [h:Tier_FalsificationOfficialDocuments_1] --h:imposesSanction--> h:Sanc_Tier_FalsificationOfficialDocuments_1_1 [h:Sanc_Tier_FalsificationOfficialDocuments_1_1]\nTYPE of h:Sanc_Tier_FalsificationOfficialDocuments_1_1: h:Sanction\nTYPE of h:Tier_FalsificationOfficialDocuments_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 69: ?sanction=h:Sanc_Tier_FalsificationOfficialDocuments_2_1\nh:Tier_FalsificationOfficialDocuments_2 [h:Tier_FalsificationOfficialDocuments_2] --h:imposesSanction--> h:Sanc_Tier_FalsificationOfficialDocuments_2_1 [h:Sanc_Tier_FalsificationOfficialDocuments_2_1]\nTYPE of h:Sanc_Tier_FalsificationOfficialDocuments_2_1: h:Sanction\nTYPE of h:Tier_FalsificationOfficialDocuments_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 70: ?sanction=h:Sanc_Tier_FalsificationOfficialDocuments_3_1\nh:Tier_FalsificationOfficialDocuments_3 [h:Tier_FalsificationOfficialDocuments_3] --h:imposesSanction--> h:Sanc_Tier_FalsificationOfficialDocuments_3_1 [h:Sanc_Tier_FalsificationOfficialDocuments_3_1]\nTYPE of h:Sanc_Tier_FalsificationOfficialDocuments_3_1: h:Sanction\nTYPE of h:Tier_FalsificationOfficialDocuments_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 71: ?sanction=h:Sanc_Tier_Gambling_1_1\nh:Tier_Gambling_1 [h:Tier_Gambling_1] --h:imposesSanction--> h:Sanc_Tier_Gambling_1_1 [h:Sanc_Tier_Gambling_1_1]\nTYPE of h:Sanc_Tier_Gambling_1_1: h:Sanction\nTYPE of h:Tier_Gambling_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 72: ?sanction=h:Sanc_Tier_Gambling_1_2\nh:Tier_Gambling_1 [h:Tier_Gambling_1] --h:imposesSanction--> h:Sanc_Tier_Gambling_1_2 [h:Sanc_Tier_Gambling_1_2]\nTYPE of h:Sanc_Tier_Gambling_1_2: h:Sanction\nTYPE of h:Tier_Gambling_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 73: ?sanction=h:Sanc_Tier_Gambling_2_1\nh:Tier_Gambling_2 [h:Tier_Gambling_2] --h:imposesSanction--> h:Sanc_Tier_Gambling_2_1 [h:Sanc_Tier_Gambling_2_1]\nTYPE of h:Sanc_Tier_Gambling_2_1: h:Sanction\nTYPE of h:Tier_Gambling_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 74: ?sanction=h:Sanc_Tier_HabitualOffenders_1_1\nh:Tier_HabitualOffenders_1 [h:Tier_HabitualOffenders_1] --h:imposesSanction--> h:Sanc_Tier_HabitualOffenders_1_1 [h:Sanc_Tier_HabitualOffenders_1_1]\nTYPE of h:Sanc_Tier_HabitualOffenders_1_1: h:Sanction\nTYPE of h:Tier_HabitualOffenders_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 75: ?sanction=h:Sanc_Tier_HabitualOffenders_1_2\nh:Tier_HabitualOffenders_1 [h:Tier_HabitualOffenders_1] --h:imposesSanction--> h:Sanc_Tier_HabitualOffenders_1_2 [h:Sanc_Tier_HabitualOffenders_1_2]\nTYPE of h:Sanc_Tier_HabitualOffenders_1_2: h:Sanction\nTYPE of h:Tier_HabitualOffenders_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 76: ?sanction=h:Sanc_Tier_IllegalAccessHacking_1_1\nh:Tier_IllegalAccessHacking_1 [h:Tier_IllegalAccessHacking_1] --h:imposesSanction--> h:Sanc_Tier_IllegalAccessHacking_1_1 [h:Sanc_Tier_IllegalAccessHacking_1_1]\nTYPE of h:Sanc_Tier_IllegalAccessHacking_1_1: h:Sanction\nTYPE of h:Tier_IllegalAccessHacking_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 77: ?sanction=h:Sanc_Tier_IllegalAccessHacking_2_1\nh:Tier_IllegalAccessHacking_2 [h:Tier_IllegalAccessHacking_2] --h:imposesSanction--> h:Sanc_Tier_IllegalAccessHacking_2_1 [h:Sanc_Tier_IllegalAccessHacking_2_1]\nTYPE of h:Sanc_Tier_IllegalAccessHacking_2_1: h:Sanction\nTYPE of h:Tier_IllegalAccessHacking_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 78: ?sanction=h:Sanc_Tier_IllegalAccessHacking_3_1\nh:Tier_IllegalAccessHacking_3 [h:Tier_IllegalAccessHacking_3] --h:imposesSanction--> h:Sanc_Tier_IllegalAccessHacking_3_1 [h:Sanc_Tier_IllegalAccessHacking_3_1]\nTYPE of h:Sanc_Tier_IllegalAccessHacking_3_1: h:Sanction\nTYPE of h:Tier_IllegalAccessHacking_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 79: ?sanction=h:Sanc_Tier_IllegalInterception_1_1\nh:Tier_IllegalInterception_1 [h:Tier_IllegalInterception_1] --h:imposesSanction--> h:Sanc_Tier_IllegalInterception_1_1 [h:Sanc_Tier_IllegalInterception_1_1]\nTYPE of h:Sanc_Tier_IllegalInterception_1_1: h:Sanction\nTYPE of h:Tier_IllegalInterception_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 80: ?sanction=h:Sanc_Tier_IllegalInterception_2_1\nh:Tier_IllegalInterception_2 [h:Tier_IllegalInterception_2] --h:imposesSanction--> h:Sanc_Tier_IllegalInterception_2_1 [h:Sanc_Tier_IllegalInterception_2_1]\nTYPE of h:Sanc_Tier_IllegalInterception_2_1: h:Sanction\nTYPE of h:Tier_IllegalInterception_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 81: ?sanction=h:Sanc_Tier_IllegalInterception_3_1\nh:Tier_IllegalInterception_3 [h:Tier_IllegalInterception_3] --h:imposesSanction--> h:Sanc_Tier_IllegalInterception_3_1 [h:Sanc_Tier_IllegalInterception_3_1]\nTYPE of h:Sanc_Tier_IllegalInterception_3_1: h:Sanction\nTYPE of h:Tier_IllegalInterception_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 82: ?sanction=h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_1_1\nh:Tier_IndecencyObscenity_DirectedAtPerson_1 [h:Tier_IndecencyObscenity_DirectedAtPerson_1] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_1_1 [h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_1_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_1_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_DirectedAtPerson_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 83: ?sanction=h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_2_1\nh:Tier_IndecencyObscenity_DirectedAtPerson_2 [h:Tier_IndecencyObscenity_DirectedAtPerson_2] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_2_1 [h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_2_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_2_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_DirectedAtPerson_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 84: ?sanction=h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_3_1\nh:Tier_IndecencyObscenity_DirectedAtPerson_3 [h:Tier_IndecencyObscenity_DirectedAtPerson_3] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_3_1 [h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_3_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_DirectedAtPerson_3_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_DirectedAtPerson_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 85: ?sanction=h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_1\nh:Tier_IndecencyObscenity_SurfingPosting_1 [h:Tier_IndecencyObscenity_SurfingPosting_1] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_1 [h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_SurfingPosting_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 86: ?sanction=h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_2\nh:Tier_IndecencyObscenity_SurfingPosting_1 [h:Tier_IndecencyObscenity_SurfingPosting_1] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_2 [h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_2]\nTYPE of h:Sanc_Tier_IndecencyObscenity_SurfingPosting_1_2: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_SurfingPosting_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 87: ?sanction=h:Sanc_Tier_IndecencyObscenity_SurfingPosting_2_1\nh:Tier_IndecencyObscenity_SurfingPosting_2 [h:Tier_IndecencyObscenity_SurfingPosting_2] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_SurfingPosting_2_1 [h:Sanc_Tier_IndecencyObscenity_SurfingPosting_2_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_SurfingPosting_2_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_SurfingPosting_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 88: ?sanction=h:Sanc_Tier_IndecencyObscenity_SurfingPosting_3_1\nh:Tier_IndecencyObscenity_SurfingPosting_3 [h:Tier_IndecencyObscenity_SurfingPosting_3] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_SurfingPosting_3_1 [h:Sanc_Tier_IndecencyObscenity_SurfingPosting_3_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_SurfingPosting_3_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_SurfingPosting_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 89: ?sanction=h:Sanc_Tier_IndecencyObscenity_UploadingSexVideo_1_1\nh:Tier_IndecencyObscenity_UploadingSexVideo_1 [h:Tier_IndecencyObscenity_UploadingSexVideo_1] --h:imposesSanction--> h:Sanc_Tier_IndecencyObscenity_UploadingSexVideo_1_1 [h:Sanc_Tier_IndecencyObscenity_UploadingSexVideo_1_1]\nTYPE of h:Sanc_Tier_IndecencyObscenity_UploadingSexVideo_1_1: h:Sanction\nTYPE of h:Tier_IndecencyObscenity_UploadingSexVideo_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 90: ?sanction=h:Sanc_Tier_LitteringScattering_1_1\nh:Tier_LitteringScattering_1 [h:Tier_LitteringScattering_1] --h:imposesSanction--> h:Sanc_Tier_LitteringScattering_1_1 [h:Sanc_Tier_LitteringScattering_1_1]\nTYPE of h:Sanc_Tier_LitteringScattering_1_1: h:Sanction\nTYPE of h:Tier_LitteringScattering_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 91: ?sanction=h:Sanc_Tier_LitteringScattering_2_1\nh:Tier_LitteringScattering_2 [h:Tier_LitteringScattering_2] --h:imposesSanction--> h:Sanc_Tier_LitteringScattering_2_1 [h:Sanc_Tier_LitteringScattering_2_1]\nTYPE of h:Sanc_Tier_LitteringScattering_2_1: h:Sanction\nTYPE of h:Tier_LitteringScattering_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 92: ?sanction=h:Sanc_Tier_LitteringScattering_2_2\nh:Tier_LitteringScattering_2 [h:Tier_LitteringScattering_2] --h:imposesSanction--> h:Sanc_Tier_LitteringScattering_2_2 [h:Sanc_Tier_LitteringScattering_2_2]\nTYPE of h:Sanc_Tier_LitteringScattering_2_2: h:Sanction\nTYPE of h:Tier_LitteringScattering_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 93: ?sanction=h:Sanc_Tier_LitteringScattering_3_1\nh:Tier_LitteringScattering_3 [h:Tier_LitteringScattering_3] --h:imposesSanction--> h:Sanc_Tier_LitteringScattering_3_1 [h:Sanc_Tier_LitteringScattering_3_1]\nTYPE of h:Sanc_Tier_LitteringScattering_3_1: h:Sanction\nTYPE of h:Tier_LitteringScattering_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 94: ?sanction=h:Sanc_Tier_LitteringScattering_3_2\nh:Tier_LitteringScattering_3 [h:Tier_LitteringScattering_3] --h:imposesSanction--> h:Sanc_Tier_LitteringScattering_3_2 [h:Sanc_Tier_LitteringScattering_3_2]\nTYPE of h:Sanc_Tier_LitteringScattering_3_2: h:Sanction\nTYPE of h:Tier_LitteringScattering_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 95: ?sanction=h:Sanc_Tier_NarcoticsRelatedConcerns_1_1\nh:Tier_NarcoticsRelatedConcerns_1 [h:Tier_NarcoticsRelatedConcerns_1] --h:imposesSanction--> h:Sanc_Tier_NarcoticsRelatedConcerns_1_1 [h:Sanc_Tier_NarcoticsRelatedConcerns_1_1]\nTYPE of h:Sanc_Tier_NarcoticsRelatedConcerns_1_1: h:Sanction\nTYPE of h:Tier_NarcoticsRelatedConcerns_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 96: ?sanction=h:Sanc_Tier_NonWearingIDUniform_1_1\nh:Tier_NonWearingIDUniform_1 [h:Tier_NonWearingIDUniform_1] --h:imposesSanction--> h:Sanc_Tier_NonWearingIDUniform_1_1 [h:Sanc_Tier_NonWearingIDUniform_1_1]\nTYPE of h:Sanc_Tier_NonWearingIDUniform_1_1: h:Sanction\nTYPE of h:Tier_NonWearingIDUniform_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 97: ?sanction=h:Sanc_Tier_NonWearingIDUniform_2_1\nh:Tier_NonWearingIDUniform_2 [h:Tier_NonWearingIDUniform_2] --h:imposesSanction--> h:Sanc_Tier_NonWearingIDUniform_2_1 [h:Sanc_Tier_NonWearingIDUniform_2_1]\nTYPE of h:Sanc_Tier_NonWearingIDUniform_2_1: h:Sanction\nTYPE of h:Tier_NonWearingIDUniform_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 98: ?sanction=h:Sanc_Tier_NonWearingIDUniform_3_1\nh:Tier_NonWearingIDUniform_3 [h:Tier_NonWearingIDUniform_3] --h:imposesSanction--> h:Sanc_Tier_NonWearingIDUniform_3_1 [h:Sanc_Tier_NonWearingIDUniform_3_1]\nTYPE of h:Sanc_Tier_NonWearingIDUniform_3_1: h:Sanction\nTYPE of h:Tier_NonWearingIDUniform_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 99: ?sanction=h:Sanc_Tier_NonWearingIDUniform_3_2\nh:Tier_NonWearingIDUniform_3 [h:Tier_NonWearingIDUniform_3] --h:imposesSanction--> h:Sanc_Tier_NonWearingIDUniform_3_2 [h:Sanc_Tier_NonWearingIDUniform_3_2]\nTYPE of h:Sanc_Tier_NonWearingIDUniform_3_2: h:Sanction\nTYPE of h:Tier_NonWearingIDUniform_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 100: ?sanction=h:Sanc_Tier_OtherDishonesty_1_1\nh:Tier_OtherDishonesty_1 [h:Tier_OtherDishonesty_1] --h:imposesSanction--> h:Sanc_Tier_OtherDishonesty_1_1 [h:Sanc_Tier_OtherDishonesty_1_1]\nTYPE of h:Sanc_Tier_OtherDishonesty_1_1: h:Sanction\nTYPE of h:Tier_OtherDishonesty_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 101: ?sanction=h:Sanc_Tier_OtherDishonesty_2_1\nh:Tier_OtherDishonesty_2 [h:Tier_OtherDishonesty_2] --h:imposesSanction--> h:Sanc_Tier_OtherDishonesty_2_1 [h:Sanc_Tier_OtherDishonesty_2_1]\nTYPE of h:Sanc_Tier_OtherDishonesty_2_1: h:Sanction\nTYPE of h:Tier_OtherDishonesty_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 102: ?sanction=h:Sanc_Tier_OtherDishonesty_2_2\nh:Tier_OtherDishonesty_2 [h:Tier_OtherDishonesty_2] --h:imposesSanction--> h:Sanc_Tier_OtherDishonesty_2_2 [h:Sanc_Tier_OtherDishonesty_2_2]\nTYPE of h:Sanc_Tier_OtherDishonesty_2_2: h:Sanction\nTYPE of h:Tier_OtherDishonesty_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 103: ?sanction=h:Sanc_Tier_OtherDishonesty_3_1\nh:Tier_OtherDishonesty_3 [h:Tier_OtherDishonesty_3] --h:imposesSanction--> h:Sanc_Tier_OtherDishonesty_3_1 [h:Sanc_Tier_OtherDishonesty_3_1]\nTYPE of h:Sanc_Tier_OtherDishonesty_3_1: h:Sanction\nTYPE of h:Tier_OtherDishonesty_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 104: ?sanction=h:Sanc_Tier_OverspeedingVehicles_1_1\nh:Tier_OverspeedingVehicles_1 [h:Tier_OverspeedingVehicles_1] --h:imposesSanction--> h:Sanc_Tier_OverspeedingVehicles_1_1 [h:Sanc_Tier_OverspeedingVehicles_1_1]\nTYPE of h:Sanc_Tier_OverspeedingVehicles_1_1: h:Sanction\nTYPE of h:Tier_OverspeedingVehicles_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 105: ?sanction=h:Sanc_Tier_OverspeedingVehicles_2_1\nh:Tier_OverspeedingVehicles_2 [h:Tier_OverspeedingVehicles_2] --h:imposesSanction--> h:Sanc_Tier_OverspeedingVehicles_2_1 [h:Sanc_Tier_OverspeedingVehicles_2_1]\nTYPE of h:Sanc_Tier_OverspeedingVehicles_2_1: h:Sanction\nTYPE of h:Tier_OverspeedingVehicles_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 106: ?sanction=h:Sanc_Tier_OverspeedingVehicles_2_2\nh:Tier_OverspeedingVehicles_2 [h:Tier_OverspeedingVehicles_2] --h:imposesSanction--> h:Sanc_Tier_OverspeedingVehicles_2_2 [h:Sanc_Tier_OverspeedingVehicles_2_2]\nTYPE of h:Sanc_Tier_OverspeedingVehicles_2_2: h:Sanction\nTYPE of h:Tier_OverspeedingVehicles_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 107: ?sanction=h:Sanc_Tier_OverspeedingVehicles_3_1\nh:Tier_OverspeedingVehicles_3 [h:Tier_OverspeedingVehicles_3] --h:imposesSanction--> h:Sanc_Tier_OverspeedingVehicles_3_1 [h:Sanc_Tier_OverspeedingVehicles_3_1]\nTYPE of h:Sanc_Tier_OverspeedingVehicles_3_1: h:Sanction\nTYPE of h:Tier_OverspeedingVehicles_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 108: ?sanction=h:Sanc_Tier_PhysicalAssault_1_1\nh:Tier_PhysicalAssault_1 [h:Tier_PhysicalAssault_1] --h:imposesSanction--> h:Sanc_Tier_PhysicalAssault_1_1 [h:Sanc_Tier_PhysicalAssault_1_1]\nTYPE of h:Sanc_Tier_PhysicalAssault_1_1: h:Sanction\nTYPE of h:Tier_PhysicalAssault_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 109: ?sanction=h:Sanc_Tier_PhysicalAssault_1_2\nh:Tier_PhysicalAssault_1 [h:Tier_PhysicalAssault_1] --h:imposesSanction--> h:Sanc_Tier_PhysicalAssault_1_2 [h:Sanc_Tier_PhysicalAssault_1_2]\nTYPE of h:Sanc_Tier_PhysicalAssault_1_2: h:Sanction\nTYPE of h:Tier_PhysicalAssault_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 110: ?sanction=h:Sanc_Tier_PhysicalAssault_1_3\nh:Tier_PhysicalAssault_1 [h:Tier_PhysicalAssault_1] --h:imposesSanction--> h:Sanc_Tier_PhysicalAssault_1_3 [h:Sanc_Tier_PhysicalAssault_1_3]\nTYPE of h:Sanc_Tier_PhysicalAssault_1_3: h:Sanction\nTYPE of h:Tier_PhysicalAssault_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 111: ?sanction=h:Sanc_Tier_PhysicalAssault_2_1\nh:Tier_PhysicalAssault_2 [h:Tier_PhysicalAssault_2] --h:imposesSanction--> h:Sanc_Tier_PhysicalAssault_2_1 [h:Sanc_Tier_PhysicalAssault_2_1]\nTYPE of h:Sanc_Tier_PhysicalAssault_2_1: h:Sanction\nTYPE of h:Tier_PhysicalAssault_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 112: ?sanction=h:Sanc_Tier_PhysicalAssault_2_2\nh:Tier_PhysicalAssault_2 [h:Tier_PhysicalAssault_2] --h:imposesSanction--> h:Sanc_Tier_PhysicalAssault_2_2 [h:Sanc_Tier_PhysicalAssault_2_2]\nTYPE of h:Sanc_Tier_PhysicalAssault_2_2: h:Sanction\nTYPE of h:Tier_PhysicalAssault_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 113: ?sanction=h:Sanc_Tier_PhysicalAssault_3_1\nh:Tier_PhysicalAssault_3 [h:Tier_PhysicalAssault_3] --h:imposesSanction--> h:Sanc_Tier_PhysicalAssault_3_1 [h:Sanc_Tier_PhysicalAssault_3_1]\nTYPE of h:Sanc_Tier_PhysicalAssault_3_1: h:Sanction\nTYPE of h:Tier_PhysicalAssault_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 114: ?sanction=h:Sanc_Tier_RecruitmentPromotingHazing_1_1\nh:Tier_RecruitmentPromotingHazing_1 [h:Tier_RecruitmentPromotingHazing_1] --h:imposesSanction--> h:Sanc_Tier_RecruitmentPromotingHazing_1_1 [h:Sanc_Tier_RecruitmentPromotingHazing_1_1]\nTYPE of h:Sanc_Tier_RecruitmentPromotingHazing_1_1: h:Sanction\nTYPE of h:Tier_RecruitmentPromotingHazing_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 115: ?sanction=h:Sanc_Tier_RecruitmentPromotingHazing_2_1\nh:Tier_RecruitmentPromotingHazing_2 [h:Tier_RecruitmentPromotingHazing_2] --h:imposesSanction--> h:Sanc_Tier_RecruitmentPromotingHazing_2_1 [h:Sanc_Tier_RecruitmentPromotingHazing_2_1]\nTYPE of h:Sanc_Tier_RecruitmentPromotingHazing_2_1: h:Sanction\nTYPE of h:Tier_RecruitmentPromotingHazing_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 116: ?sanction=h:Sanc_Tier_RecruitmentPromotingHazing_3_1\nh:Tier_RecruitmentPromotingHazing_3 [h:Tier_RecruitmentPromotingHazing_3] --h:imposesSanction--> h:Sanc_Tier_RecruitmentPromotingHazing_3_1 [h:Sanc_Tier_RecruitmentPromotingHazing_3_1]\nTYPE of h:Sanc_Tier_RecruitmentPromotingHazing_3_1: h:Sanction\nTYPE of h:Tier_RecruitmentPromotingHazing_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 117: ?sanction=h:Sanc_Tier_SignboardLittering_1_1\nh:Tier_SignboardLittering_1 [h:Tier_SignboardLittering_1] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_1_1 [h:Sanc_Tier_SignboardLittering_1_1]\nTYPE of h:Sanc_Tier_SignboardLittering_1_1: h:Sanction\nTYPE of h:Tier_SignboardLittering_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 118: ?sanction=h:Sanc_Tier_SignboardLittering_1_2\nh:Tier_SignboardLittering_1 [h:Tier_SignboardLittering_1] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_1_2 [h:Sanc_Tier_SignboardLittering_1_2]\nTYPE of h:Sanc_Tier_SignboardLittering_1_2: h:Sanction\nTYPE of h:Tier_SignboardLittering_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 119: ?sanction=h:Sanc_Tier_SignboardLittering_2_1\nh:Tier_SignboardLittering_2 [h:Tier_SignboardLittering_2] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_2_1 [h:Sanc_Tier_SignboardLittering_2_1]\nTYPE of h:Sanc_Tier_SignboardLittering_2_1: h:Sanction\nTYPE of h:Tier_SignboardLittering_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 120: ?sanction=h:Sanc_Tier_SignboardLittering_2_2\nh:Tier_SignboardLittering_2 [h:Tier_SignboardLittering_2] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_2_2 [h:Sanc_Tier_SignboardLittering_2_2]\nTYPE of h:Sanc_Tier_SignboardLittering_2_2: h:Sanction\nTYPE of h:Tier_SignboardLittering_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 121: ?sanction=h:Sanc_Tier_SignboardLittering_2_3\nh:Tier_SignboardLittering_2 [h:Tier_SignboardLittering_2] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_2_3 [h:Sanc_Tier_SignboardLittering_2_3]\nTYPE of h:Sanc_Tier_SignboardLittering_2_3: h:Sanction\nTYPE of h:Tier_SignboardLittering_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 122: ?sanction=h:Sanc_Tier_SignboardLittering_3_1\nh:Tier_SignboardLittering_3 [h:Tier_SignboardLittering_3] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_3_1 [h:Sanc_Tier_SignboardLittering_3_1]\nTYPE of h:Sanc_Tier_SignboardLittering_3_1: h:Sanction\nTYPE of h:Tier_SignboardLittering_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 123: ?sanction=h:Sanc_Tier_SignboardLittering_3_2\nh:Tier_SignboardLittering_3 [h:Tier_SignboardLittering_3] --h:imposesSanction--> h:Sanc_Tier_SignboardLittering_3_2 [h:Sanc_Tier_SignboardLittering_3_2]\nTYPE of h:Sanc_Tier_SignboardLittering_3_2: h:Sanction\nTYPE of h:Tier_SignboardLittering_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 124: ?sanction=h:Sanc_Tier_Smoking_1_1\nh:Tier_Smoking_1 [h:Tier_Smoking_1] --h:imposesSanction--> h:Sanc_Tier_Smoking_1_1 [h:Sanc_Tier_Smoking_1_1]\nTYPE of h:Sanc_Tier_Smoking_1_1: h:Sanction\nTYPE of h:Tier_Smoking_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 125: ?sanction=h:Sanc_Tier_Smoking_2_1\nh:Tier_Smoking_2 [h:Tier_Smoking_2] --h:imposesSanction--> h:Sanc_Tier_Smoking_2_1 [h:Sanc_Tier_Smoking_2_1]\nTYPE of h:Sanc_Tier_Smoking_2_1: h:Sanction\nTYPE of h:Tier_Smoking_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 126: ?sanction=h:Sanc_Tier_Smoking_2_2\nh:Tier_Smoking_2 [h:Tier_Smoking_2] --h:imposesSanction--> h:Sanc_Tier_Smoking_2_2 [h:Sanc_Tier_Smoking_2_2]\nTYPE of h:Sanc_Tier_Smoking_2_2: h:Sanction\nTYPE of h:Tier_Smoking_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 127: ?sanction=h:Sanc_Tier_Smoking_3_1\nh:Tier_Smoking_3 [h:Tier_Smoking_3] --h:imposesSanction--> h:Sanc_Tier_Smoking_3_1 [h:Sanc_Tier_Smoking_3_1]\nTYPE of h:Sanc_Tier_Smoking_3_1: h:Sanction\nTYPE of h:Tier_Smoking_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 128: ?sanction=h:Sanc_Tier_Stealing_1_1\nh:Tier_Stealing_1 [h:Tier_Stealing_1] --h:imposesSanction--> h:Sanc_Tier_Stealing_1_1 [h:Sanc_Tier_Stealing_1_1]\nTYPE of h:Sanc_Tier_Stealing_1_1: h:Sanction\nTYPE of h:Tier_Stealing_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 129: ?sanction=h:Sanc_Tier_Stealing_1_2\nh:Tier_Stealing_1 [h:Tier_Stealing_1] --h:imposesSanction--> h:Sanc_Tier_Stealing_1_2 [h:Sanc_Tier_Stealing_1_2]\nTYPE of h:Sanc_Tier_Stealing_1_2: h:Sanction\nTYPE of h:Tier_Stealing_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 130: ?sanction=h:Sanc_Tier_Stealing_2_1\nh:Tier_Stealing_2 [h:Tier_Stealing_2] --h:imposesSanction--> h:Sanc_Tier_Stealing_2_1 [h:Sanc_Tier_Stealing_2_1]\nTYPE of h:Sanc_Tier_Stealing_2_1: h:Sanction\nTYPE of h:Tier_Stealing_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 131: ?sanction=h:Sanc_Tier_Stealing_2_2\nh:Tier_Stealing_2 [h:Tier_Stealing_2] --h:imposesSanction--> h:Sanc_Tier_Stealing_2_2 [h:Sanc_Tier_Stealing_2_2]\nTYPE of h:Sanc_Tier_Stealing_2_2: h:Sanction\nTYPE of h:Tier_Stealing_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 132: ?sanction=h:Sanc_Tier_StrikesDemonstrationsBoycotts_1_1\nh:Tier_StrikesDemonstrationsBoycotts_1 [h:Tier_StrikesDemonstrationsBoycotts_1] --h:imposesSanction--> h:Sanc_Tier_StrikesDemonstrationsBoycotts_1_1 [h:Sanc_Tier_StrikesDemonstrationsBoycotts_1_1]\nTYPE of h:Sanc_Tier_StrikesDemonstrationsBoycotts_1_1: h:Sanction\nTYPE of h:Tier_StrikesDemonstrationsBoycotts_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 133: ?sanction=h:Sanc_Tier_StrikesDemonstrationsBoycotts_2_1\nh:Tier_StrikesDemonstrationsBoycotts_2 [h:Tier_StrikesDemonstrationsBoycotts_2] --h:imposesSanction--> h:Sanc_Tier_StrikesDemonstrationsBoycotts_2_1 [h:Sanc_Tier_StrikesDemonstrationsBoycotts_2_1]\nTYPE of h:Sanc_Tier_StrikesDemonstrationsBoycotts_2_1: h:Sanction\nTYPE of h:Tier_StrikesDemonstrationsBoycotts_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 134: ?sanction=h:Sanc_Tier_StrikesDemonstrationsBoycotts_3_1\nh:Tier_StrikesDemonstrationsBoycotts_3 [h:Tier_StrikesDemonstrationsBoycotts_3] --h:imposesSanction--> h:Sanc_Tier_StrikesDemonstrationsBoycotts_3_1 [h:Sanc_Tier_StrikesDemonstrationsBoycotts_3_1]\nTYPE of h:Sanc_Tier_StrikesDemonstrationsBoycotts_3_1: h:Sanction\nTYPE of h:Tier_StrikesDemonstrationsBoycotts_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 135: ?sanction=h:Sanc_Tier_Tardiness_1_1\nh:Tier_Tardiness_1 [h:Tier_Tardiness_1] --h:imposesSanction--> h:Sanc_Tier_Tardiness_1_1 [h:Sanc_Tier_Tardiness_1_1]\nTYPE of h:Sanc_Tier_Tardiness_1_1: h:Sanction\nTYPE of h:Tier_Tardiness_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 136: ?sanction=h:Sanc_Tier_Tardiness_2_1\nh:Tier_Tardiness_2 [h:Tier_Tardiness_2] --h:imposesSanction--> h:Sanc_Tier_Tardiness_2_1 [h:Sanc_Tier_Tardiness_2_1]\nTYPE of h:Sanc_Tier_Tardiness_2_1: h:Sanction\nTYPE of h:Tier_Tardiness_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 137: ?sanction=h:Sanc_Tier_Tardiness_2_2\nh:Tier_Tardiness_2 [h:Tier_Tardiness_2] --h:imposesSanction--> h:Sanc_Tier_Tardiness_2_2 [h:Sanc_Tier_Tardiness_2_2]\nTYPE of h:Sanc_Tier_Tardiness_2_2: h:Sanction\nTYPE of h:Tier_Tardiness_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 138: ?sanction=h:Sanc_Tier_Tardiness_3_1\nh:Tier_Tardiness_3 [h:Tier_Tardiness_3] --h:imposesSanction--> h:Sanc_Tier_Tardiness_3_1 [h:Sanc_Tier_Tardiness_3_1]\nTYPE of h:Sanc_Tier_Tardiness_3_1: h:Sanction\nTYPE of h:Tier_Tardiness_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 139: ?sanction=h:Sanc_Tier_Trespassing_1_1\nh:Tier_Trespassing_1 [h:Tier_Trespassing_1] --h:imposesSanction--> h:Sanc_Tier_Trespassing_1_1 [h:Sanc_Tier_Trespassing_1_1]\nTYPE of h:Sanc_Tier_Trespassing_1_1: h:Sanction\nTYPE of h:Tier_Trespassing_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 140: ?sanction=h:Sanc_Tier_Trespassing_2_1\nh:Tier_Trespassing_2 [h:Tier_Trespassing_2] --h:imposesSanction--> h:Sanc_Tier_Trespassing_2_1 [h:Sanc_Tier_Trespassing_2_1]\nTYPE of h:Sanc_Tier_Trespassing_2_1: h:Sanction\nTYPE of h:Tier_Trespassing_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 141: ?sanction=h:Sanc_Tier_Trespassing_2_2\nh:Tier_Trespassing_2 [h:Tier_Trespassing_2] --h:imposesSanction--> h:Sanc_Tier_Trespassing_2_2 [h:Sanc_Tier_Trespassing_2_2]\nTYPE of h:Sanc_Tier_Trespassing_2_2: h:Sanction\nTYPE of h:Tier_Trespassing_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 142: ?sanction=h:Sanc_Tier_Trespassing_2_3\nh:Tier_Trespassing_2 [h:Tier_Trespassing_2] --h:imposesSanction--> h:Sanc_Tier_Trespassing_2_3 [h:Sanc_Tier_Trespassing_2_3]\nTYPE of h:Sanc_Tier_Trespassing_2_3: h:Sanction\nTYPE of h:Tier_Trespassing_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 143: ?sanction=h:Sanc_Tier_Trespassing_3_1\nh:Tier_Trespassing_3 [h:Tier_Trespassing_3] --h:imposesSanction--> h:Sanc_Tier_Trespassing_3_1 [h:Sanc_Tier_Trespassing_3_1]\nTYPE of h:Sanc_Tier_Trespassing_3_1: h:Sanction\nTYPE of h:Tier_Trespassing_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 144: ?sanction=h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_1_1\nh:Tier_UnauthorizedOrgLeadingParticipating_1 [h:Tier_UnauthorizedOrgLeadingParticipating_1] --h:imposesSanction--> h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_1_1 [h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_1_1]\nTYPE of h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_1_1: h:Sanction\nTYPE of h:Tier_UnauthorizedOrgLeadingParticipating_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 145: ?sanction=h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_2_1\nh:Tier_UnauthorizedOrgLeadingParticipating_2 [h:Tier_UnauthorizedOrgLeadingParticipating_2] --h:imposesSanction--> h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_2_1 [h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_2_1]\nTYPE of h:Sanc_Tier_UnauthorizedOrgLeadingParticipating_2_1: h:Sanction\nTYPE of h:Tier_UnauthorizedOrgLeadingParticipating_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 146: ?sanction=h:Sanc_Tier_UnrecognizedOrgOperating_1_1\nh:Tier_UnrecognizedOrgOperating_1 [h:Tier_UnrecognizedOrgOperating_1] --h:imposesSanction--> h:Sanc_Tier_UnrecognizedOrgOperating_1_1 [h:Sanc_Tier_UnrecognizedOrgOperating_1_1]\nTYPE of h:Sanc_Tier_UnrecognizedOrgOperating_1_1: h:Sanction\nTYPE of h:Tier_UnrecognizedOrgOperating_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 147: ?sanction=h:Sanc_Tier_UnrecognizedOrgOperating_2_1\nh:Tier_UnrecognizedOrgOperating_2 [h:Tier_UnrecognizedOrgOperating_2] --h:imposesSanction--> h:Sanc_Tier_UnrecognizedOrgOperating_2_1 [h:Sanc_Tier_UnrecognizedOrgOperating_2_1]\nTYPE of h:Sanc_Tier_UnrecognizedOrgOperating_2_1: h:Sanction\nTYPE of h:Tier_UnrecognizedOrgOperating_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 148: ?sanction=h:Sanc_Tier_UnrecognizedOrgOperating_3_1\nh:Tier_UnrecognizedOrgOperating_3 [h:Tier_UnrecognizedOrgOperating_3] --h:imposesSanction--> h:Sanc_Tier_UnrecognizedOrgOperating_3_1 [h:Sanc_Tier_UnrecognizedOrgOperating_3_1]\nTYPE of h:Sanc_Tier_UnrecognizedOrgOperating_3_1: h:Sanction\nTYPE of h:Tier_UnrecognizedOrgOperating_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 149: ?sanction=h:Sanc_Tier_VandalismDestructionOfProperty_1_1\nh:Tier_VandalismDestructionOfProperty_1 [h:Tier_VandalismDestructionOfProperty_1] --h:imposesSanction--> h:Sanc_Tier_VandalismDestructionOfProperty_1_1 [h:Sanc_Tier_VandalismDestructionOfProperty_1_1]\nTYPE of h:Sanc_Tier_VandalismDestructionOfProperty_1_1: h:Sanction\nTYPE of h:Tier_VandalismDestructionOfProperty_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 150: ?sanction=h:Sanc_Tier_VandalismDestructionOfProperty_1_2\nh:Tier_VandalismDestructionOfProperty_1 [h:Tier_VandalismDestructionOfProperty_1] --h:imposesSanction--> h:Sanc_Tier_VandalismDestructionOfProperty_1_2 [h:Sanc_Tier_VandalismDestructionOfProperty_1_2]\nTYPE of h:Sanc_Tier_VandalismDestructionOfProperty_1_2: h:Sanction\nTYPE of h:Tier_VandalismDestructionOfProperty_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 151: ?sanction=h:Sanc_Tier_VandalismDestructionOfProperty_2_1\nh:Tier_VandalismDestructionOfProperty_2 [h:Tier_VandalismDestructionOfProperty_2] --h:imposesSanction--> h:Sanc_Tier_VandalismDestructionOfProperty_2_1 [h:Sanc_Tier_VandalismDestructionOfProperty_2_1]\nTYPE of h:Sanc_Tier_VandalismDestructionOfProperty_2_1: h:Sanction\nTYPE of h:Tier_VandalismDestructionOfProperty_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 152: ?sanction=h:Sanc_Tier_VandalismDestructionOfProperty_2_2\nh:Tier_VandalismDestructionOfProperty_2 [h:Tier_VandalismDestructionOfProperty_2] --h:imposesSanction--> h:Sanc_Tier_VandalismDestructionOfProperty_2_2 [h:Sanc_Tier_VandalismDestructionOfProperty_2_2]\nTYPE of h:Sanc_Tier_VandalismDestructionOfProperty_2_2: h:Sanction\nTYPE of h:Tier_VandalismDestructionOfProperty_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 153: ?sanction=h:Sanc_Tier_VandalismDestructionOfProperty_3_1\nh:Tier_VandalismDestructionOfProperty_3 [h:Tier_VandalismDestructionOfProperty_3] --h:imposesSanction--> h:Sanc_Tier_VandalismDestructionOfProperty_3_1 [h:Sanc_Tier_VandalismDestructionOfProperty_3_1]\nTYPE of h:Sanc_Tier_VandalismDestructionOfProperty_3_1: h:Sanction\nTYPE of h:Tier_VandalismDestructionOfProperty_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 154: ?sanction=h:Sanc_Tier_VandalismDestructionOfProperty_3_2\nh:Tier_VandalismDestructionOfProperty_3 [h:Tier_VandalismDestructionOfProperty_3] --h:imposesSanction--> h:Sanc_Tier_VandalismDestructionOfProperty_3_2 [h:Sanc_Tier_VandalismDestructionOfProperty_3_2]\nTYPE of h:Sanc_Tier_VandalismDestructionOfProperty_3_2: h:Sanction\nTYPE of h:Tier_VandalismDestructionOfProperty_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 155: ?sanction=h:Sanc_Tier_ViolationOtherDeptPolicies_1_1\nh:Tier_ViolationOtherDeptPolicies_1 [h:Tier_ViolationOtherDeptPolicies_1] --h:imposesSanction--> h:Sanc_Tier_ViolationOtherDeptPolicies_1_1 [h:Sanc_Tier_ViolationOtherDeptPolicies_1_1]\nTYPE of h:Sanc_Tier_ViolationOtherDeptPolicies_1_1: h:Sanction\nTYPE of h:Tier_ViolationOtherDeptPolicies_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 156: ?sanction=h:Sanc_Tier_ViolationOtherDeptPolicies_1_2\nh:Tier_ViolationOtherDeptPolicies_1 [h:Tier_ViolationOtherDeptPolicies_1] --h:imposesSanction--> h:Sanc_Tier_ViolationOtherDeptPolicies_1_2 [h:Sanc_Tier_ViolationOtherDeptPolicies_1_2]\nTYPE of h:Sanc_Tier_ViolationOtherDeptPolicies_1_2: h:Sanction\nTYPE of h:Tier_ViolationOtherDeptPolicies_1: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 157: ?sanction=h:Sanc_Tier_ViolationOtherDeptPolicies_2_1\nh:Tier_ViolationOtherDeptPolicies_2 [h:Tier_ViolationOtherDeptPolicies_2] --h:imposesSanction--> h:Sanc_Tier_ViolationOtherDeptPolicies_2_1 [h:Sanc_Tier_ViolationOtherDeptPolicies_2_1]\nTYPE of h:Sanc_Tier_ViolationOtherDeptPolicies_2_1: h:Sanction\nTYPE of h:Tier_ViolationOtherDeptPolicies_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 158: ?sanction=h:Sanc_Tier_ViolationOtherDeptPolicies_2_2\nh:Tier_ViolationOtherDeptPolicies_2 [h:Tier_ViolationOtherDeptPolicies_2] --h:imposesSanction--> h:Sanc_Tier_ViolationOtherDeptPolicies_2_2 [h:Sanc_Tier_ViolationOtherDeptPolicies_2_2]\nTYPE of h:Sanc_Tier_ViolationOtherDeptPolicies_2_2: h:Sanction\nTYPE of h:Tier_ViolationOtherDeptPolicies_2: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 159: ?sanction=h:Sanc_Tier_ViolationOtherDeptPolicies_3_1\nh:Tier_ViolationOtherDeptPolicies_3 [h:Tier_ViolationOtherDeptPolicies_3] --h:imposesSanction--> h:Sanc_Tier_ViolationOtherDeptPolicies_3_1 [h:Sanc_Tier_ViolationOtherDeptPolicies_3_1]\nTYPE of h:Sanc_Tier_ViolationOtherDeptPolicies_3_1: h:Sanction\nTYPE of h:Tier_ViolationOtherDeptPolicies_3: h:SanctionTier",
+      "QUERY 2\nGRAPH RESULT 160: ?sanction=h:Sanc_Tier_ViolationOtherDeptPolicies_3_2\nh:Tier_ViolationOtherDeptPolicies_3 [h:Tier_ViolationOtherDeptPolicies_3] --h:imposesSanction--> h:Sanc_Tier_ViolationOtherDeptPolicies_3_2 [h:Sanc_Tier_ViolationOtherDeptPolicies_3_2]\nTYPE of h:Sanc_Tier_ViolationOtherDeptPolicies_3_2: h:Sanction\nTYPE of h:Tier_ViolationOtherDeptPolicies_3: h:SanctionTier"
+    ]
+  },
+  "answer": "Smoking is classified as a minor offense.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

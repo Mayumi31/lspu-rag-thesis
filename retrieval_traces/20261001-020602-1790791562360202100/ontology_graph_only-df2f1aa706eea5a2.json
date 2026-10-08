@@ -1,0 +1,45 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "How many units is GEC 101 (Understanding the Self) in BS Psychology?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?units=3\nGEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_GEC101] --p:units--> \"3\"\nTYPE of GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?units=3\nGEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_GEC101] --p:units--> \"3\"\nTYPE of GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter).",
+    "answer_for_eval": "GEC 101 (Understanding the Self) in BS Psychology is 3 units.",
+    "retrieval_query": "How many units is GEC 101 (Understanding the Self) in BS Psychology?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Subj_BSPsych_GEC101",
+              "p:units",
+              "?units"
+            ]
+          ],
+          "select": [
+            "?units"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 2.7339999999967404,
+    "retrieval_seconds": 2.047000000020489,
+    "generation_seconds": 0.6869999999762513,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?units=3\nGEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_GEC101] --p:units--> \"3\"\nTYPE of GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester): p:Subject\nSOURCE/QUALIFIER for GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester): p:sourceDocument = campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter)."
+    ]
+  },
+  "answer": "GEC 101 (Understanding the Self) in BS Psychology is 3 units.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

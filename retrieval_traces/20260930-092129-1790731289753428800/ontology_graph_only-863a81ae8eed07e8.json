@@ -1,0 +1,57 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Is drinking alcoholic beverages a minor or a major offense?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 3; distinct values by variable = {\"?tier\": 3}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_DrinkingAlcohol_1\nDrinking Alcoholic Beverages [h:DrinkingAlcohol] --h:hasSanctionTier--> h:Tier_DrinkingAlcohol_1 [h:Tier_DrinkingAlcohol_1]\nTYPE of Drinking Alcoholic Beverages: h:MajorOffense\nSOURCE/QUALIFIER for Drinking Alcoholic Beverages: h:sourceArticle = Ch.6 Art.2 Sec.6.1\nTYPE of h:Tier_DrinkingAlcohol_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_DrinkingAlcohol_2\nDrinking Alcoholic Beverages [h:DrinkingAlcohol] --h:hasSanctionTier--> h:Tier_DrinkingAlcohol_2 [h:Tier_DrinkingAlcohol_2]\nTYPE of Drinking Alcoholic Beverages: h:MajorOffense\nSOURCE/QUALIFIER for Drinking Alcoholic Beverages: h:sourceArticle = Ch.6 Art.2 Sec.6.1\nTYPE of h:Tier_DrinkingAlcohol_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_DrinkingAlcohol_3\nDrinking Alcoholic Beverages [h:DrinkingAlcohol] --h:hasSanctionTier--> h:Tier_DrinkingAlcohol_3 [h:Tier_DrinkingAlcohol_3]\nTYPE of Drinking Alcoholic Beverages: h:MajorOffense\nSOURCE/QUALIFIER for Drinking Alcoholic Beverages: h:sourceArticle = Ch.6 Art.2 Sec.6.1\nTYPE of h:Tier_DrinkingAlcohol_3: h:SanctionTier"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 3; distinct values by variable = {\"?tier\": 3}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_DrinkingAlcohol_1\nDrinking Alcoholic Beverages [h:DrinkingAlcohol] --h:hasSanctionTier--> h:Tier_DrinkingAlcohol_1 [h:Tier_DrinkingAlcohol_1]\nTYPE of Drinking Alcoholic Beverages: h:MajorOffense\nSOURCE/QUALIFIER for Drinking Alcoholic Beverages: h:sourceArticle = Ch.6 Art.2 Sec.6.1\nTYPE of h:Tier_DrinkingAlcohol_1: h:SanctionTier\n\nQUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_DrinkingAlcohol_2\nDrinking Alcoholic Beverages [h:DrinkingAlcohol] --h:hasSanctionTier--> h:Tier_DrinkingAlcohol_2 [h:Tier_DrinkingAlcohol_2]\nTYPE of Drinking Alcoholic Beverages: h:MajorOffense\nSOURCE/QUALIFIER for Drinking Alcoholic Beverages: h:sourceArticle = Ch.6 Art.2 Sec.6.1\nTYPE of h:Tier_DrinkingAlcohol_2: h:SanctionTier\n\nQUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_DrinkingAlcohol_3\nDrinking Alcoholic Beverages [h:DrinkingAlcohol] --h:hasSanctionTier--> h:Tier_DrinkingAlcohol_3 [h:Tier_DrinkingAlcohol_3]\nTYPE of Drinking Alcoholic Beverages: h:MajorOffense\nSOURCE/QUALIFIER for Drinking Alcoholic Beverages:",
+    "answer_for_eval": "Drinking alcoholic beverages is a major offense.",
+    "retrieval_query": "Is drinking alcoholic beverages a minor or a major offense?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:DrinkingAlcohol",
+              "h:hasSanctionTier",
+              "?tier"
+            ]
+          ],
+          "select": [
+            "?tier"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Query 3 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 4,
+    "elapsed_seconds": 4.688000000023749
+  },
+  "answer": "Drinking alcoholic beverages is a major offense.",
+  "pipeline_version": "oc-rag-3.0"
+}

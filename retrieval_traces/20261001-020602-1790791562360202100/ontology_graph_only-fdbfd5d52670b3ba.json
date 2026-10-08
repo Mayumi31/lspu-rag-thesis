@@ -1,0 +1,56 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What are the criteria for the Athlete of the Year Award?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?definition=Given to a student who excels in sports, whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution.; ?criteria=No derogatory records with OSAS or the Guidance and Counseling Office; represented the university and won in various competitions; evaluated 70% on technical/competition-based points and 30% on student-achievement impact.\nAthlete of the Year Award [h:Award_AthleteOfTheYear] --h:awardedBy--> Committee on Awards and Recognition [h:Committee_AwardsAndRecognition]\nAthlete of the Year Award [h:Award_AthleteOfTheYear] --h:definition--> \"Given to a student who excels in sports, whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution.\"\nAthlete of the Year Award [h:Award_AthleteOfTheYear] --h:eligibilityCriteria--> \"No derogatory records with OSAS or the Guidance and Counseling Office; represented the university and won in various competitions; evaluated 70% on technical/competition-based points and 30% on student-achievement impact.\"\nTYPE of Athlete of the Year Award: h:NonAcademicAward\nSOURCE/QUALIFIER for Athlete of the Year Award: h:sourceArticle = Appendix B, Article 3, Sec. 2\nTYPE of Committee on Awards and Recognition: h:Committee\nSOURCE/QUALIFIER for Committee on Awards and Recognition: h:sourceArticle = Appendix B, various (e.g. Article 2 Sec.2, Article 3 Sec.1.3, Article 4 Sec.1.4)"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?definition=Given to a student who excels in sports, whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution.; ?criteria=No derogatory records with OSAS or the Guidance and Counseling Office; represented the university and won in various competitions; evaluated 70% on technical/competition-based points and 30% on student-achievement impact.\nAthlete of the Year Award [h:Award_AthleteOfTheYear] --h:awardedBy--> Committee on Awards and Recognition [h:Committee_AwardsAndRecognition]\nAthlete of the Year Award [h:Award_AthleteOfTheYear] --h:definition--> \"Given to a student who excels in sports, whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution.\"\nAthlete of the Year Award [h:Award_AthleteOfTheYear] --h:eligibilityCriteria--> \"No derogatory records with OSAS or the Guidance and Counseling Office; represented the university and won in various competitions; evaluated 70% on technical/competition-based points and 30% on student-achievement impact.\"\nTYPE of Athlete of th",
+    "answer_for_eval": "The criteria for the Athlete of the Year Award are:\n- No derogatory records with OSAS or the Guidance and Counseling Office\n- Represented the university and won in various competitions\n- Evaluated 70% on technical/competition-based points\n- Evaluated 30% on student-achievement impact",
+    "retrieval_query": "What are the criteria for the Athlete of the Year Award?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Award_AthleteOfTheYear",
+              "h:awardedBy",
+              "h:Committee_AwardsAndRecognition"
+            ],
+            [
+              "h:Award_AthleteOfTheYear",
+              "h:definition",
+              "?definition"
+            ],
+            [
+              "h:Award_AthleteOfTheYear",
+              "h:eligibilityCriteria",
+              "?criteria"
+            ]
+          ],
+          "select": [
+            "?definition",
+            "?criteria"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 6.0,
+    "retrieval_seconds": 5.01500000001397,
+    "generation_seconds": 0.9849999999860302,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?definition=Given to a student who excels in sports, whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution.; ?criteria=No derogatory records with OSAS or the Guidance and Counseling Office; represented the university and won in various competitions; evaluated 70% on technical/competition-based points and 30% on student-achievement impact.\nAthlete of the Year Award [h:Award_AthleteOfTheYear] --h:awardedBy--> Committee on Awards and Recognition [h:Committee_AwardsAndRecognition]\nAthlete of the Year Award [h:Award_AthleteOfTheYear] --h:definition--> \"Given to a student who excels in sports, whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution.\"\nAthlete of the Year Award [h:Award_AthleteOfTheYear] --h:eligibilityCriteria--> \"No derogatory records with OSAS or the Guidance and Counseling Office; represented the university and won in various competitions; evaluated 70% on technical/competition-based points and 30% on student-achievement impact.\"\nTYPE of Athlete of the Year Award: h:NonAcademicAward\nSOURCE/QUALIFIER for Athlete of the Year Award: h:sourceArticle = Appendix B, Article 3, Sec. 2\nTYPE of Committee on Awards and Recognition: h:Committee\nSOURCE/QUALIFIER for Committee on Awards and Recognition: h:sourceArticle = Appendix B, various (e.g. Article 2 Sec.2, Article 3 Sec.1.3, Article 4 Sec.1.4)"
+    ]
+  },
+  "answer": "The criteria for the Athlete of the Year Award are:\n- No derogatory records with OSAS or the Guidance and Counseling Office\n- Represented the university and won in various competitions\n- Evaluated 70% on technical/competition-based points\n- Evaluated 30% on student-achievement impact",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

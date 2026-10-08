@@ -1,0 +1,58 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Within how many days should the school release official documents I request?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?x\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?x=Right to issuance of official documents within 30 days\nRight to issuance of official documents within 30 days [h:Right_IssuanceOfDocuments] --h:definition--> \"The right to the issuance of official certificates, diplomas, transcript of records, grades, transfer credentials, and other similar documents within thirty (30) days from request.\"\nRight to issuance of official documents within 30 days [h:Right_IssuanceOfDocuments] --rdf:type--> Student Right [h:Right]\nTYPE of Student Right: http://www.w3.org/2002/07/owl#Class\nTYPE of Right to issuance of official documents within 30 days: h:Right\nSOURCE/QUALIFIER for Right to issuance of official documents within 30 days: h:sourceArticle = Appendix A, Article 1(e)"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?x\": 1}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?x=Right to issuance of official documents within 30 days\nRight to issuance of official documents within 30 days [h:Right_IssuanceOfDocuments] --h:definition--> \"The right to the issuance of official certificates, diplomas, transcript of records, grades, transfer credentials, and other similar documents within thirty (30) days from request.\"\nRight to issuance of official documents within 30 days [h:Right_IssuanceOfDocuments] --rdf:type--> Student Right [h:Right]\nTYPE of Student Right: http://www.w3.org/2002/07/owl#Class\nTYPE of Right to issuance of official documents within 30 days: h:Right\nSOURCE/QUALIFIER for Right to issuance of official documents within 30 days: h:sourceArticle = Appendix A, Article 1(e)",
+    "answer_for_eval": "The school should release official documents within 30 days of your request.",
+    "retrieval_query": "Within how many days should the school release official documents I request",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?x",
+              "rdf:type",
+              "h:Right"
+            ],
+            [
+              "?x",
+              "h:definition",
+              {
+                "literal": "The right to the issuance of official certificates, diplomas, transcript of records, grades, transfer credentials, and other similar documents within thirty (30) days from request."
+              }
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown prefix: Right to issuance of official documents within 30 days"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 2,
+    "elapsed_seconds": 13.14100000000326,
+    "selected_contexts": [
+      "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?x\": 1}. Counts apply only to this executed query and supplied dataset.",
+      "QUERY 1\nGRAPH RESULT 1: ?x=Right to issuance of official documents within 30 days\nRight to issuance of official documents within 30 days [h:Right_IssuanceOfDocuments] --h:definition--> \"The right to the issuance of official certificates, diplomas, transcript of records, grades, transfer credentials, and other similar documents within thirty (30) days from request.\"\nRight to issuance of official documents within 30 days [h:Right_IssuanceOfDocuments] --rdf:type--> Student Right [h:Right]\nTYPE of Student Right: http://www.w3.org/2002/07/owl#Class\nTYPE of Right to issuance of official documents within 30 days: h:Right\nSOURCE/QUALIFIER for Right to issuance of official documents within 30 days: h:sourceArticle = Appendix A, Article 1(e)"
+    ]
+  },
+  "answer": "The school should release official documents within 30 days of your request.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

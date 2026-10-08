@@ -1,0 +1,113 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "College Deans",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_329",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_329\nSECTION: Office or Division: | RD/CIET/ATBI\nin accordance with the most recent CHED Memorandum\nOrders.\nOffice or | Curriculum and Instruction Development (CID)\nDivision:\nClassification: | Academic\nType of | Internal\nTransaction:\nWho may avail: | Deans/Associate Deans, Program Coordinators\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nRefer to CID-SF-001 | CID Office\nFEES\nTO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE | TIME | RESPONSIBLE\nPAID\n1. Receives the | Assist the academic units/colleges | n/a | 6-12 months Deans/Associate\nCMO and checks | Deans, Program\nthe congruency of | Coordinators,\nthe current | Faculty, other\ncurriculum to the | stakeholders\nCHED guidelines\n\n78",
+        "score": 0.031544957774465976
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_361",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_361\nSECTION: 8. Dropping of Subjects\n8. Dropping of Subjects\nProcess for students who intend to drop subjects.\n\nOffice or Division: | Colleges\nClassification: | Simple\nType of Transaction: | G2C - Government to Citizen\nWho may avail: | New and Transferee Students\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nDropping Form | Registrar’s Office\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nStudent Application for | Release of dropping 30/unit | 3 min | Registrar’s Office\nDropping | form | Cashier’s Office\nRequest for the dropping | Approval of the | N/A | 5 minutes | Faculty-in-charge\nof subjects from the | faculty-in-charge\nfaculty-in-charge\nRequest for Deans | Approval from the | N/A | 5 Minutes Dean/Associate Dean\nApproval | Dean\nSubmit approved | Receives approved | N/A | 2 minutes | Registrar’s Office\nDropping Form | dropping form\nTOTAL: P30.00/ | 15 minutes\nunit\n\n9. Enrollment Advising\nEstablishment of a defined procedure in the Enrollment Advising in consonance\nwith other academic processes.\nOffice or Division: Colleges\nClassification: | Simple\nType | of Government to Citizen\nTransaction:\nWho may avail: | Students, Shifters, Transferees",
+        "score": 0.028381642512077296
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_641",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_641\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 4. Quality Assurance Measures\nDirector, Deans/Associate Deans, Program Coordinators, and Subject Matter Experts regarding the evaluation of the IMs. He/she issues the signed approval sheet to the faculty.\n\n2.4. Dean/Associate Dean – supervises and motivates the faculty to develop instructional materials. He/she identifies the program coordinator and subject matter experts in the College. He/she also certifies and endorses the IMs to CIDQA for evaluation.\n\n2.5. Program Coordinator – evaluates the organization and presentation of the instructional material and the suitability of the assessment procedures\n\n2.6. Subject Matter Experts – examines the IMs in terms of learning content, format, and language construction\n\n2.7. GAD Unit – verifies the inclusivity and gender-sensitivity of the instructional materials developed by the faculty\n\n2.8. Innovation and Technology Support Office (ITSO) – checks and certifies the intellectual property right of the IMs\n\nSec. 3.",
+        "score": 0.027346637102734665
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_640",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_640\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 4. Quality Assurance Measures\nincluding but not limited to: Agriculture, Fishery, Forestry; Business Administration and Related Areas; Education Sciences and Teacher Training; Engineering and Technology;\n\nGeneral Education; TVL (HE, Trade, Industrial); IT Related Discipline; Law and Jurisprudence; Mathematics; Natural Sciences;\n\nBehavioral Sciences; Arts, Humanities and Social Sciences; Physical Education; and Languages.\n\nSec. 2. University Cluster Curriculum Review Committee (UCCRC)\n\nThe UCCRC composed of the VPAA, CIDQA, Dean/Associate Dean, Program Coordinator, GAD Unit, ITSO Unit, and Subject Matter Expert is responsible in monitoring and calibrating the instructional materials prepared by faculty. The functions of the UCCRC are the following:\n\n2.1. Vice President for Academic Affairs – approves the IMs prepared by the faculty prior their publication, circulation, and utilization\n\n2.2. CIDQA Director – validates the reviewed IMs prior its endorsement to VPAA for approval\n\n2.3. CIDQA Chairperson – coordinates with the CIDQA Director, Deans/Associate Deans, Program Coordinators, and Subject Matter Experts regarding the evaluation of the IMs. He/she issues the signed approval sheet to the faculty.\n\n2.4.",
+        "score": 0.02603648424543947
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_413",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_413\nSECTION: Chapter 3 | Article 2. Admission Requirements\nofficially enrolled had been duly signed by the concerned authorities.\n\n2.9. Transferring. Those who intend to transfer to another College should satisfy its grade requirements. The prescribed forms for transfer should indicate a valid reason with an attached copy of grades and a recommendation letter from the previous Dean with a courtesy copy furnished to the registrar. Approval of the College Dean and the Registrar should be acquired before twelve percent (12%) of the regular class meeting for the terms is held. Finally, the student must have completed in the State University no less than sixty percent (60%) of the program's units and seventy-five (75%) if running for honors. (Also see Residency).\n\n2.10. Shifting of Course. Students from other courses can shift to any BS Program within the university provided that the following conditions are met:\n\n2.10.1. No failure of greater than six (6) units during the semester.\n\n2.10.2. No failure in the course/major-related subjects stated in the retention policy of any BS in the respective program curriculum.\n\n2.10.3 A filled out shifting form from the Office of the Registrar\n\n2.11. Basic Requirements.",
+        "score": 0.02299154334038055
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): College of Arts and Sciences (CAS) Dean's Office\nh:locatedAtPlace -> Location of CAS Building (College of Arts and Sciences) [h:Loc_CAS]\nrdf:type -> Office [h:Office]\nrdfs:label: College of Arts and Sciences (CAS) Dean's Office"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): College of Teacher Education (CTE) Dean's Office\nh:locatedAtPlace -> Location of CTE Building (College of Teacher Education) [h:Loc_CTE]\nrdf:type -> Office [h:Office]\nrdfs:label: College of Teacher Education (CTE) Dean's Office"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): College Dean\nh:definition: Approves petitions (substitution, cross-registration, dropping, LOA), evaluates transferees, member of the Student Discipline Committee for the enrolled student's college.\nrdf:type -> University Role [h:UniversityRole]\nrdfs:label: College Dean"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): College of Fisheries (CF) Dean's Office\nh:locatedAtPlace -> Location of COF Building (College of Fisheries) [h:Loc_COF]\nrdf:type -> Office [h:Office]\nrdfs:label: College of Fisheries (CF) Dean's Office"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): College of Criminal Justice Education (CCJE) Dean's Office\nh:locatedAtPlace -> Location of CCJE Building (College of Criminal Justice Education) [h:Loc_CCJE]\nrdf:type -> Office [h:Office]\nrdfs:label: College of Criminal Justice Education (CCJE) Dean's Office"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_329\nSECTION: Office or Division: | RD/CIET/ATBI\nin accordance with the most recent CHED Memorandum\nOrders.\nOffice or | Curriculum and Instruction Development (CID)\nDivision:\nClassification: | Academic\nType of | Internal\nTransaction:\nWho may avail: | Deans/Associate Deans, Program Coordinators\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nRefer to CID-SF-001 | CID Office\nFEES\nTO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE | TIME | RESPONSIBLE\nPAID\n1. Receives the | Assist the academic units/colleges | n/a | 6-12 months Deans/Associate\nCMO and checks | Deans, Program\nthe congruency of | Coordinators,\nthe current | Faculty, other\ncurriculum to the | stakeholders\nCHED guidelines\n\n78\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_361\nSECTION: 8. Dropping of Subjects\n8. Dropping of Subjects\nProcess for students who intend to drop subjects.\n\nOffice or Division: | Colleges\nClassification: | Simple\nType of Transaction: | G2C - Government to Citizen\nWho may avail: | New and Transferee Students\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nDropping Form | Registrar’s Office\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS",
+    "answer_for_eval": "The College Deans at LSPU-LB campus are responsible for approving petitions such as substitution, cross-registration, dropping, and Leave of Absence (LOA). They evaluate transferees and are members of the Student Discipline Committee for their respective colleges.",
+    "retrieval_query": "Who are the College Deans?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?office",
+              "rdf:type",
+              "h:Office"
+            ],
+            [
+              "?office",
+              "rdfs:label",
+              "College Dean"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown prefix: College of Arts and Sciences (CAS) Dean's Office",
+      "Unknown prefix: College Dean"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 7.530999999959022,
+    "retrieval_seconds": 5.875,
+    "generation_seconds": 1.6559999999590218,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_329\nSECTION: Office or Division: | RD/CIET/ATBI\nin accordance with the most recent CHED Memorandum\nOrders.\nOffice or | Curriculum and Instruction Development (CID)\nDivision:\nClassification: | Academic\nType of | Internal\nTransaction:\nWho may avail: | Deans/Associate Deans, Program Coordinators\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nRefer to CID-SF-001 | CID Office\nFEES\nTO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE | TIME | RESPONSIBLE\nPAID\n1. Receives the | Assist the academic units/colleges | n/a | 6-12 months Deans/Associate\nCMO and checks | Deans, Program\nthe congruency of | Coordinators,\nthe current | Faculty, other\ncurriculum to the | stakeholders\nCHED guidelines\n\n78",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_361\nSECTION: 8. Dropping of Subjects\n8. Dropping of Subjects\nProcess for students who intend to drop subjects.\n\nOffice or Division: | Colleges\nClassification: | Simple\nType of Transaction: | G2C - Government to Citizen\nWho may avail: | New and Transferee Students\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nDropping Form | Registrar’s Office\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nStudent Application for | Release of dropping 30/unit | 3 min | Registrar’s Office\nDropping | form | Cashier’s Office\nRequest for the dropping | Approval of the | N/A | 5 minutes | Faculty-in-charge\nof subjects from the | faculty-in-charge\nfaculty-in-charge\nRequest for Deans | Approval from the | N/A | 5 Minutes Dean/Associate Dean\nApproval | Dean\nSubmit approved | Receives approved | N/A | 2 minutes | Registrar’s Office\nDropping Form | dropping form\nTOTAL: P30.00/ | 15 minutes\nunit\n\n9. Enrollment Advising\nEstablishment of a defined procedure in the Enrollment Advising in consonance\nwith other academic processes.\nOffice or Division: Colleges\nClassification: | Simple\nType | of Government to Citizen\nTransaction:\nWho may avail: | Students, Shifters, Transferees",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_641\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 4. Quality Assurance Measures\nDirector, Deans/Associate Deans, Program Coordinators, and Subject Matter Experts regarding the evaluation of the IMs. He/she issues the signed approval sheet to the faculty.\n\n2.4. Dean/Associate Dean – supervises and motivates the faculty to develop instructional materials. He/she identifies the program coordinator and subject matter experts in the College. He/she also certifies and endorses the IMs to CIDQA for evaluation.\n\n2.5. Program Coordinator – evaluates the organization and presentation of the instructional material and the suitability of the assessment procedures\n\n2.6. Subject Matter Experts – examines the IMs in terms of learning content, format, and language construction\n\n2.7. GAD Unit – verifies the inclusivity and gender-sensitivity of the instructional materials developed by the faculty\n\n2.8. Innovation and Technology Support Office (ITSO) – checks and certifies the intellectual property right of the IMs\n\nSec. 3.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_640\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 4. Quality Assurance Measures\nincluding but not limited to: Agriculture, Fishery, Forestry; Business Administration and Related Areas; Education Sciences and Teacher Training; Engineering and Technology;\n\nGeneral Education; TVL (HE, Trade, Industrial); IT Related Discipline; Law and Jurisprudence; Mathematics; Natural Sciences;\n\nBehavioral Sciences; Arts, Humanities and Social Sciences; Physical Education; and Languages.\n\nSec. 2. University Cluster Curriculum Review Committee (UCCRC)\n\nThe UCCRC composed of the VPAA, CIDQA, Dean/Associate Dean, Program Coordinator, GAD Unit, ITSO Unit, and Subject Matter Expert is responsible in monitoring and calibrating the instructional materials prepared by faculty. The functions of the UCCRC are the following:\n\n2.1. Vice President for Academic Affairs – approves the IMs prepared by the faculty prior their publication, circulation, and utilization\n\n2.2. CIDQA Director – validates the reviewed IMs prior its endorsement to VPAA for approval\n\n2.3. CIDQA Chairperson – coordinates with the CIDQA Director, Deans/Associate Deans, Program Coordinators, and Subject Matter Experts regarding the evaluation of the IMs. He/she issues the signed approval sheet to the faculty.\n\n2.4.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_413\nSECTION: Chapter 3 | Article 2. Admission Requirements\nofficially enrolled had been duly signed by the concerned authorities.\n\n2.9. Transferring. Those who intend to transfer to another College should satisfy its grade requirements. The prescribed forms for transfer should indicate a valid reason with an attached copy of grades and a recommendation letter from the previous Dean with a courtesy copy furnished to the registrar. Approval of the College Dean and the Registrar should be acquired before twelve percent (12%) of the regular class meeting for the terms is held. Finally, the student must have completed in the State University no less than sixty percent (60%) of the program's units and seventy-five (75%) if running for honors. (Also see Residency).\n\n2.10. Shifting of Course. Students from other courses can shift to any BS Program within the university provided that the following conditions are met:\n\n2.10.1. No failure of greater than six (6) units during the semester.\n\n2.10.2. No failure in the course/major-related subjects stated in the retention policy of any BS in the respective program curriculum.\n\n2.10.3 A filled out shifting form from the Office of the Registrar\n\n2.11. Basic Requirements.",
+      "APPROXIMATE MATCH (not an exhaustive result): College of Arts and Sciences (CAS) Dean's Office\nh:locatedAtPlace -> Location of CAS Building (College of Arts and Sciences) [h:Loc_CAS]\nrdf:type -> Office [h:Office]\nrdfs:label: College of Arts and Sciences (CAS) Dean's Office",
+      "APPROXIMATE MATCH (not an exhaustive result): College of Teacher Education (CTE) Dean's Office\nh:locatedAtPlace -> Location of CTE Building (College of Teacher Education) [h:Loc_CTE]\nrdf:type -> Office [h:Office]\nrdfs:label: College of Teacher Education (CTE) Dean's Office",
+      "APPROXIMATE MATCH (not an exhaustive result): College Dean\nh:definition: Approves petitions (substitution, cross-registration, dropping, LOA), evaluates transferees, member of the Student Discipline Committee for the enrolled student's college.\nrdf:type -> University Role [h:UniversityRole]\nrdfs:label: College Dean",
+      "APPROXIMATE MATCH (not an exhaustive result): College of Fisheries (CF) Dean's Office\nh:locatedAtPlace -> Location of COF Building (College of Fisheries) [h:Loc_COF]\nrdf:type -> Office [h:Office]\nrdfs:label: College of Fisheries (CF) Dean's Office",
+      "APPROXIMATE MATCH (not an exhaustive result): College of Criminal Justice Education (CCJE) Dean's Office\nh:locatedAtPlace -> Location of CCJE Building (College of Criminal Justice Education) [h:Loc_CCJE]\nrdf:type -> Office [h:Office]\nrdfs:label: College of Criminal Justice Education (CCJE) Dean's Office"
+    ]
+  },
+  "answer": "The College Deans at LSPU-LB campus are responsible for approving petitions such as substitution, cross-registration, dropping, and Leave of Absence (LOA). They evaluate transferees and are members of the Student Discipline Committee for their respective colleges.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

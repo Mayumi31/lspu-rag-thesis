@@ -1,0 +1,69 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which programs lead to a board or licensure exam?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_62",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_62\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBoard programs (graduates may sit a PRC licensure examination):\n- Bachelor of Science in Psychology: Psychometrician Licensure Examination\n- Bachelor of Science in Accountancy: CPA (Certified Public Accountant) Licensure Examination\n- Bachelor of Science in Criminology: Criminologist Licensure Examination\n- Bachelor of Science in Fisheries: Fisheries Professional Licensure Examination\n- Bachelor of Science in Food Technology: Food Technologist Licensure Examination\n- Bachelor of Science in Nutrition and Dietetics: Nutritionist-Dietitian Licensure Examination\n- Bachelor of Technology and Livelihood Education - Major in Home Economics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Physical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)",
+        "score": 0.032266458495966696
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_63",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_63\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nPhysical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Filipino: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Mathematics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Sciences: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Social Studies: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Elementary Education: Licensure Examination for Teachers (Elementary Level)\n\nNon-board programs (no PRC licensure examination):\n- Bachelor of Science in Computer Science - Major in Intelligent Systems\n- Bachelor of Science in Business Administration - Major in Marketing Management\n- Bachelor of Science in Business Administration - Major in Financial Management\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development",
+        "score": 0.031754032258064516
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Auditing\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Auditing\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Auditing"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:isGeneralInformation: true\np:jobOutcomeDescription: Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\np:jobOutcomeName: Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:provenanceNote: General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:requiresSkill -> Psychological Assessment [p:Skill_PsychAssessment]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Clinical Psychology Track (Psychometrician / further studies toward licensure)"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_62\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBoard programs (graduates may sit a PRC licensure examination):\n- Bachelor of Science in Psychology: Psychometrician Licensure Examination\n- Bachelor of Science in Accountancy: CPA (Certified Public Accountant) Licensure Examination\n- Bachelor of Science in Criminology: Criminologist Licensure Examination\n- Bachelor of Science in Fisheries: Fisheries Professional Licensure Examination\n- Bachelor of Science in Food Technology: Food Technologist Licensure Examination\n- Bachelor of Science in Nutrition and Dietetics: Nutritionist-Dietitian Licensure Examination\n- Bachelor of Technology and Livelihood Education - Major in Home Economics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Physical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers ",
+    "answer_for_eval": "The programs that lead to a board or licensure exam at LSPU-LB are:\n\n- Bachelor of Science in Psychology\n- Bachelor of Science in Accountancy\n- Bachelor of Science in Criminology\n- Bachelor of Science in Fisheries\n- Bachelor of Science in Food Technology\n- Bachelor of Science in Nutrition and Dietetics\n- Bachelor of Technology and Livelihood Education - Major in Home Economics\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\n- Bachelor of Physical Education\n- Bachelor of Secondary Education - Major in English\n- Bachelor of Secondary Education - Major in Filipino\n- Bachelor of Secondary Education - Major in Mathematics\n- Bachelor of Secondary Education - Major in Sciences\n- Bachelor of Secondary Education - Major in Social Studies\n- Bachelor of Elementary Education",
+    "retrieval_query": "Which programs lead to a board or licensure exam?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?program",
+              "p:licensureExamination",
+              {
+                "literal": "board or licensure exam"
+              }
+            ]
+          ],
+          "select": [
+            "?program"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Query 1 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 4,
+    "elapsed_seconds": 8.48399999999674,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_62\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBoard programs (graduates may sit a PRC licensure examination):\n- Bachelor of Science in Psychology: Psychometrician Licensure Examination\n- Bachelor of Science in Accountancy: CPA (Certified Public Accountant) Licensure Examination\n- Bachelor of Science in Criminology: Criminologist Licensure Examination\n- Bachelor of Science in Fisheries: Fisheries Professional Licensure Examination\n- Bachelor of Science in Food Technology: Food Technologist Licensure Examination\n- Bachelor of Science in Nutrition and Dietetics: Nutritionist-Dietitian Licensure Examination\n- Bachelor of Technology and Livelihood Education - Major in Home Economics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Physical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_63\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nPhysical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Filipino: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Mathematics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Sciences: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Social Studies: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Elementary Education: Licensure Examination for Teachers (Elementary Level)\n\nNon-board programs (no PRC licensure examination):\n- Bachelor of Science in Computer Science - Major in Intelligent Systems\n- Bachelor of Science in Business Administration - Major in Marketing Management\n- Bachelor of Science in Business Administration - Major in Financial Management\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development",
+      "APPROXIMATE MATCH (not an exhaustive result): Auditing\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Auditing\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Auditing",
+      "APPROXIMATE MATCH (not an exhaustive result): Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:isGeneralInformation: true\np:jobOutcomeDescription: Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\np:jobOutcomeName: Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:provenanceNote: General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:requiresSkill -> Psychological Assessment [p:Skill_PsychAssessment]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Clinical Psychology Track (Psychometrician / further studies toward licensure)"
+    ]
+  },
+  "answer": "The programs that lead to a board or licensure exam at LSPU-LB are:\n\n- Bachelor of Science in Psychology\n- Bachelor of Science in Accountancy\n- Bachelor of Science in Criminology\n- Bachelor of Science in Fisheries\n- Bachelor of Science in Food Technology\n- Bachelor of Science in Nutrition and Dietetics\n- Bachelor of Technology and Livelihood Education - Major in Home Economics\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\n- Bachelor of Physical Education\n- Bachelor of Secondary Education - Major in English\n- Bachelor of Secondary Education - Major in Filipino\n- Bachelor of Secondary Education - Major in Mathematics\n- Bachelor of Secondary Education - Major in Sciences\n- Bachelor of Secondary Education - Major in Social Studies\n- Bachelor of Elementary Education",
+  "pipeline_version": "oc-rag-3.3-verified-build"
+}

@@ -1,0 +1,47 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What kinds of attire are prohibited on campus?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?definition\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?definition=Transgender students have the right to dress and groom in accordance with their gender identity within the constraints of the adopted dress code. Transwomen wear the male uniform (pants/polo) with female-cut blouses of the same color; transmen wear pants/polo in the female uniform color. Grooming rules apply the same standard to male and female units; transgender girls are not required to have a male haircut or masculine clothing, and transgender boys are not required to maintain a female hairstyle, wear make-up, or feminine clothing.\nClothing and Gender Representation Policy (LGBT/Gender Nonconforming Students) [h:Policy_GenderInclusiveDressCode] --h:definition--> \"Transgender students have the right to dress and groom in accordance with their gender identity within the constraints of the adopted dress code. Transwomen wear the male uniform (pants/polo) with female-cut blouses of the same color; transmen wear pants/polo in the female uniform color. Grooming rules apply the same standard to male and female units; transgender girls are not required to have a male haircut or masculine clothing, and transgender boys are not required to maintain a female hairstyle, wear make-up, or feminine clothing.\"\nTYPE of Clothing and Gender Representation Policy (LGBT/Gender Nonconforming Students): h:Policy\nSOURCE/QUALIFIER for Clothing and Gender Representation Policy (LGBT/Gender Nonconforming Students): h:sourceArticle = Chapter 6, Article 4, Sec. 6"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?definition\": 1}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?definition=Transgender students have the right to dress and groom in accordance with their gender identity within the constraints of the adopted dress code. Transwomen wear the male uniform (pants/polo) with female-cut blouses of the same color; transmen wear pants/polo in the female uniform color. Grooming rules apply the same standard to male and female units; transgender girls are not required to have a male haircut or masculine clothing, and transgender boys are not required to maintain a female hairstyle, wear make-up, or feminine clothing.\nClothing and Gender Representation Policy (LGBT/Gender Nonconforming Students) [h:Policy_GenderInclusiveDressCode] --h:definition--> \"Transgender students have the right to dress and groom in accordance with their gender identity within the constraints of the adopted dress code. Transwomen wear the male uniform (pants/polo) with female-cut blouses of the same color; transmen wear pants/polo in the female uniform color. Grooming rules a",
+    "answer_for_eval": "The evidence does not specify any prohibited attire on campus.",
+    "retrieval_query": "What kinds of attire are prohibited on campus",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Policy_GenderInclusiveDressCode",
+              "h:definition",
+              "?definition"
+            ]
+          ],
+          "select": [
+            "?definition"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Query 1 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 2,
+    "elapsed_seconds": 3.1880000000237487
+  },
+  "answer": "The evidence does not specify any prohibited attire on campus.",
+  "pipeline_version": "oc-rag-3.0"
+}

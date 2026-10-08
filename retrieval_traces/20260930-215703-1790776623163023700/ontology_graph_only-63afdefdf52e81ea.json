@@ -1,0 +1,43 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "How many years does the BS Accountancy program take?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?years=4\nBachelor of Science in Accountancy [p:Prog_BSA] --p:programDurationYears--> \"4\"\nTYPE of Bachelor of Science in Accountancy: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?years=4\nBachelor of Science in Accountancy [p:Prog_BSA] --p:programDurationYears--> \"4\"\nTYPE of Bachelor of Science in Accountancy: p:Program",
+    "answer_for_eval": "The BS Accountancy program takes 4 years.",
+    "retrieval_query": "How many years does the BS Accountancy program take?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSA",
+              "p:programDurationYears",
+              "?years"
+            ]
+          ],
+          "select": [
+            "?years"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 5.5310000000172295,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?years=4\nBachelor of Science in Accountancy [p:Prog_BSA] --p:programDurationYears--> \"4\"\nTYPE of Bachelor of Science in Accountancy: p:Program"
+    ]
+  },
+  "answer": "The BS Accountancy program takes 4 years.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

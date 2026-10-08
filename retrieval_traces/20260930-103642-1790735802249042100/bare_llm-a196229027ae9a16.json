@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What are the steps to request a Transcript of Records?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The steps to request a Transcript of Records at LSPU-LB are not provided in the evidence. Please refer to the official LSPU-LB website or contact the registrar's office for specific procedures.",
+    "retrieval_query": "What are the steps to request a Transcript of Records?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.2339999999967404,
+    "selected_contexts": []
+  },
+  "answer": "The steps to request a Transcript of Records at LSPU-LB are not provided in the evidence. Please refer to the official LSPU-LB website or contact the registrar's office for specific procedures.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

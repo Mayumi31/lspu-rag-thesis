@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "Which law is the offense of illegal access or hacking based on?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The offense of illegal access or hacking is based on the Cybercrime Prevention Act of 2012 (Republic Act No. 10175) in the Philippines.",
+    "retrieval_query": "Which law is the offense of illegal access or hacking based on?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.9529999999795109,
+    "selected_contexts": []
+  },
+  "answer": "The offense of illegal access or hacking is based on the Cybercrime Prevention Act of 2012 (Republic Act No. 10175) in the Philippines.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

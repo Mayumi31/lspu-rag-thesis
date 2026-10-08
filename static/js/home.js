@@ -1,32 +1,4 @@
-// ---------------------------------------------------------------------
-// LSPU-LB homepage script
-//   - mobile nav toggle
-//   - "LSPU Knowledge Assistant" chat, wired to /api/chat (server-side
-//     this endpoint ONLY runs the Ontology Contextual RAG pipeline —
-//     no chunk/vector/graph internals are sent to or rendered in this
-//     tab; that visual breakdown lives on the separate retrieval
-//     visualizer page, linked from the nav / "See how retrieval works").
-// ---------------------------------------------------------------------
-
-// Mobile navigation
-const menuBtn = document.getElementById("menuBtn");
-const navLinks = document.getElementById("navLinks");
-
-menuBtn.addEventListener("click", () => {
-  navLinks.classList.toggle("open");
-});
-
-navLinks.querySelectorAll("a").forEach((link) => {
-  link.addEventListener("click", (e) => {
-    // Don't collapse the mobile menu for the visualizer link before the
-    // new tab has a chance to open — harmless either way, but tidy.
-    navLinks.classList.remove("open");
-  });
-});
-
-// ---------------------------------------------------------------------
-// Chat wiring
-// ---------------------------------------------------------------------
+(() => {
 const form = document.getElementById("chatForm");
 const input = document.getElementById("chatInput");
 const sendBtn = document.getElementById("chatSendBtn");
@@ -38,7 +10,7 @@ let isSending = false;
 function addMessage(text, type) {
   const bubble = document.createElement("div");
   bubble.className = "bubble " + type;
-  bubble.textContent = text;
+  ChatUI.format(bubble, text);
   chatBody.appendChild(bubble);
   chatBody.scrollTop = chatBody.scrollHeight;
   return bubble;
@@ -83,13 +55,14 @@ async function sendQuestion(question) {
       body: JSON.stringify({ question }),
     });
     const data = await res.json();
+    if (!res.ok) throw new Error(data.error || "Request failed");
 
     typingBubble.remove();
 
     if (data.error) {
       addMessage(data.error, "bot").classList.add("is-error");
     } else {
-      addMessage(data.answer, "bot");
+      addMessage(data.answer, "bot").append(ChatUI.sources(data.sources || []));
     }
   } catch (err) {
     console.error(err);
@@ -120,3 +93,5 @@ form.addEventListener("submit", (event) => {
 
 // Let the chip buttons call askDemo() via inline onclick in the markup.
 window.askDemo = askDemo;
+
+})();

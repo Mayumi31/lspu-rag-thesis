@@ -1,0 +1,126 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What career paths can a BS Psychology graduate take?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_17",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psychological Research Methods and Statistics\n- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.",
+        "score": 0.03252247488101534
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_19",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_19\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nfurther training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.032266458495966696
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_18",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_18\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\n/ Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.\n- Counseling / Guidance Track: Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Psychometrician Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 34, s. 2017 - Policies and Standards for Undergraduate Programs in Psychology\nProgram educational objectives (per this CMO):\n- Apply the scientific study of behavior and mental processes to understand individuals and groups across diverse settings.\n- Conduct psychological research and assessment ethically, and pursue further training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.",
+        "score": 0.03200204813108039
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_740",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_740\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nleadership, group decision-making, and intergroup relations. This elective builds directly on concepts introduced in Social Psychology.\nPSY ELEC 4 — Introduction to Counseling\nCAS | Year 4, Sem 1 | Units: 3 | Prerequisite: PSY (incomplete in source) Introduces basic counseling theories, techniques, and the helping relationship. Students practice foundational counseling skills such as active listening and rapport-building. This elective prepares students interested in counseling-focused career paths.\nPSY ELEC 5 — Seminar in Psychology: Recruitment and Selection\nCAS | Year 4, Sem 1 | Units: 3 Focuses specifically on personnel recruitment and selection processes within organizations. Students learn to design and evaluate hiring assessments and interview procedures. This seminar extends the I/O psychology foundation into practical HR application.\nPSY ELEC 6 — Seminar on Psychological Assessment\nCAS | Year 4, Sem 1 | Units: 3 Provides advanced, specialized study of psychological assessment tools and their application in professional practice. Students critically evaluate assessment methods across various contexts.",
+        "score": 0.031009615384615385
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_31",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_31\nSECTION: PROGRAM: Bachelor of Science in Criminology | College: College of Criminal Justice Education (CCJE) | Degree: Bachelor of Science in Criminology (BSCrim)\nGeneral Weighted Average (GWA): 85.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Criminologist Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 05, s. 2018 - Policies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program\nProgram educational objectives (per this CMO):\n- Apply the principles of criminal law, criminalistics, and law enforcement administration to the investigation and prevention of crime.\n- Practice the profession within Philippine legal and ethical standards for law enforcement, corrections, and criminal justice work.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.02862400327131466
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Psychology\np:degreeAbbreviation: BS Psychology\np:degreeName: Bachelor of Science in Psychology\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Psychology"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Psychology\np:boardProgram: true\np:hasAdmissionRequirement -> p:AdmReq_BSPsych [p:AdmReq_BSPsych]\np:hasDegree -> Bachelor of Science in Psychology [p:Degree_BSPsychology]\np:hasLegalBasis -> Policies and Standards for Undergraduate Programs in Psychology [p:CMO_34_s2017]\np:hasSubject -> BC PSY 1 — Introduction to Psychology (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_BCPSY1]\np:hasSubject -> BC PSY 2 — Psychological Statistics (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_BCPSY2]\np:hasSubject -> DALUMATFIL — Dalumat Ng/Sa Filipino (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_DALUMATFIL]\np:hasSubject -> FILDIS — Filipino sa Iba't Ibang Disiplina (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_FILDIS]\np:hasSubject -> FL 1 — Basic Foreign Language (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_FL1]\np:hasSubject -> FL 2 — Advanced Foreign Language (BS Psychology, Year 3, 2nd Semester) [p:Subj_BSPsych_FL2]\np:hasSubject -> GEC 101 — Understanding the Self (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_GEC101]\np:hasSubject -> GEC 102 — Readings in Philippine History (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_GEC102]\np:hasSubject -> GEC 103 — The Contemporary World (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_GEC103]\np:hasSubject -> GEC 104 — Mathematics in the Modern World (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_GEC104]\np:hasSubject -> GEC 105 — Purposive Communication (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_GEC105]\np:hasSubject -> GEC 106 — Art Appreciation (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_GEC106]\np:hasSubject -> GEC 107 — Science, Technology and Society (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_GEC107]\np:hasSubject -> GEC 108 — Ethics (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_GEC108]\np:hasSubject -> GEC ELEC 1 — Living in the IT Era (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_GECELEC1]\np:hasSubject -> GEC ELEC 2 — Great Books (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_GECELEC2]\np:hasSubject -> GE ELECT 3 — Gender and Society (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_GEELECT3]\np:hasSubject -> KOMFIL — Kontekstwalisadong Komunikasyon sa Filipino (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_KOMFIL]\np:hasSubject -> LIT 1 — The Tradition of Fiction (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_LIT1]\np:hasSubject -> LIT 2 — The Tradition of Poetry (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_LIT2]\np:hasSubject -> NS ELEC 1 — General Biology (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_NSELEC1]\np:hasSubject -> NS ELEC 2 — Principles of Chemistry (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_NSELEC2]\np:hasSubject -> NS ELEC 3 — General Zoology (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_NSELEC3]\np:hasSubject -> NS ELEC 4 — Human Anatomy and Physiology (BS Psychology, Year 3, 2nd Semester) [p:Subj_BSPsych_NSELEC4]\np:hasSubject -> NSTP 1 — CWTS 1 / ROTC 1 (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_NSTP1]\np:hasSubject -> NSTP 2 — CWTS 2 / ROTC 2 / LTS 2 (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_NSTP2]\np:hasSubject -> PATHFit 1 — Movement Competency Training (MCT) (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_PATHFIT1]\np:hasSubject -> PATHFit 2 — Exercise-based Fitness Activities (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_PATHFIT2]\np:hasSubject -> PATHFit 3 — Choice of Dance, Sports, Martial Arts, Group Exercise, Outdoor and Adventure Activities (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_PATHFIT3]\np:hasSubject -> PATHFit 4 — Choice of Dance, Sports, Martial Arts, Group Exercise, Outdoor and Adventure Activities (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_PATHFIT4]\np:hasSubject -> PE 3 — Individual/Dual Sports Games (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_PE3]\np:hasSubject -> P.I. 100 — The Life and Works of Jose Rizal (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_PI100]\np:hasSubject -> PRACTICUM 1 — Clinical Setting (BS Psychology, Year 3, Inter-Semester) [p:Subj_BSPsych_PRACTICUM1]\np:hasSubject -> PSY 1 — Developmental Psychology (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_PSY1]\np:hasSubject -> PSY 10 — Research in Psychology 2 (BS Psychology, Year 3, 2nd Semester) [p:Subj_BSPsych_PSY10]\np:hasSubject -> PSY 11 — Cognitive Psychology (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSY11]\np:hasSubject -> PSY 12 — Industrial/Organizational Psychology (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSY12]\np:hasSubject -> PSY 13 — Social Psychology (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSY13]\np:hasSubject -> PSY 2 — Experimental Psychology (BS Psychology, Year 2, 1st Semester) [p:Subj_BSPsych_PSY2]\np:hasSubject -> PSY 3 — Theories of Personality (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_PSY3]\np:hasSubject -> PSY 4 — Field Methods in Psychology (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_PSY4]\np:hasSubject -> PSY 5 — Physiological/Biological Psychology (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_PSY5]\np:hasSubject -> PSY 6 — Abnormal Psychology (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_PSY6]\np:hasSubject -> PSY 7 — Research in Psychology 1 (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_PSY7]\np:hasSubject -> PSY 8 — Sikolohiyang Filipino (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_PSY8]\np:hasSubject -> PSY 9 — Psychological Assessment (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_PSY9]\np:hasSubject -> PSY ELEC 1 — Introduction to Clinical Psychology (BS Psychology, Year 3, 2nd Semester) [p:Subj_BSPsych_PSYELEC1]\np:hasSubject -> PSY ELEC 2 — Psychology for Exceptional Children (BS Psychology, Year 3, 2nd Semester) [p:Subj_BSPsych_PSYELEC2]\np:hasSubject -> PSY ELEC 3 — Group Dynamics (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSYELEC3]\np:hasSubject -> PSY ELEC 4 — Introduction to Counseling (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSYELEC4]\np:hasSubject -> PSY ELEC 5 — Seminar in Psychology: Recruitment and Selection (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSYELEC5]\np:hasSubject -> PSY ELEC 6 — Seminar on Psychological Assessment (BS Psychology, Year 4, 1st Semester) [p:Subj_BSPsych_PSYELEC6]\np:licensureExamination: Psychometrician Licensure Examination\np:offeredByCollege -> College of Arts and Sciences [p:CAS]\np:preparesForOutcome -> Clinical Psychology Track (Psychometrician / further studies toward licensure) [p:Job_ClinicalPsychTrack]\np:preparesForOutcome -> Counseling / Guidance Track [p:Job_CounselingPsychTrack]\np:preparesForOutcome -> Human Resources / Industrial-Organizational Psychology Track [p:Job_IOPsychTrack]\np:programDurationYears: 4\np:programName: Bachelor of Science in Psychology\np:programOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\np:teachesSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:teachesSkill -> Counseling and Helping Relationship Skills [p:Skill_CounselingSkills]\np:teachesSkill -> Psychological Assessment [p:Skill_PsychAssessment]\np:teachesSkill -> Psychological Research Methods and Statistics [p:Skill_ResearchMethodsPsych]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Psychology"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:isGeneralInformation: true\np:jobOutcomeDescription: Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\np:jobOutcomeName: Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:provenanceNote: General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:requiresSkill -> Psychological Assessment [p:Skill_PsychAssessment]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Clinical Psychology Track (Psychometrician / further studies toward licensure)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): BC PSY 1 — Introduction to Psychology (BS Psychology, Year 1, 1st Semester)\np:belongsToProgram -> Bachelor of Science in Psychology [p:Prog_BSPsych]\np:isPrerequisiteOf -> BC PSY 2 — Psychological Statistics (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_BCPSY2]\np:semester: 1st Semester\np:sourceDocument: campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter).\np:subjectCode: BC PSY 1\np:subjectDescription: Introduces the fundamental concepts, theories, and subfields of psychology as a science. Students learn about major psychological perspectives and research approaches. This course establishes the conceptual foundation for the entire psychology curriculum.\np:subjectTitle: Introduction to Psychology\np:units: 3\np:yearLevel: 1\nrdf:type -> Subject (as prescribed in a program's curriculum) [p:Subject]\nrdfs:label: BC PSY 1 — Introduction to Psychology (BS Psychology, Year 1, 1st Semester)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Policies and Standards for Undergraduate Programs in Psychology\np:cmoCitation: CMO No. 34, s. 2017\np:cmoNumber: 34\np:cmoSeriesYear: 2017\np:cmoTitle: Policies and Standards for Undergraduate Programs in Psychology\np:hasProgramObjective -> p:PEO_Psych_1 [p:PEO_Psych_1]\np:hasProgramObjective -> p:PEO_Psych_2 [p:PEO_Psych_2]\np:isLegalBasisFor -> Bachelor of Science in Psychology [p:Prog_BSPsych]\np:sourceDocument: Supplied directly by the user's CMO list (batch of 11).\nrdf:type -> CHED Memorandum Order (CMO) [p:CMO]\nrdfs:label: Policies and Standards for Undergraduate Programs in Psychology"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Psychology\np:degreeAbbreviation: BS Psychology\np:degreeName: Bachelor of Science in Psychology\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Psychology\n\nAPPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Psychology\np:boardProgram: true\np:hasAdmissionRequirement -> p:AdmReq_BSPsych [p:AdmReq_BSPsych]\np:hasDegree -> Bachelor of Science in Psychology [p:Degree_BSPsychology]\np:hasLegalBasis -> Policies and Standards for Undergraduate Programs in Psychology [p:CMO_34_s2017]\np:hasSubject -> BC PSY 1 — Introduction to Psychology (BS Psychology, Year 1, 1st Semester) [p:Subj_BSPsych_BCPSY1]\np:hasSubject -> BC PSY 2 — Psychological Statistics (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_BCPSY2]\np:hasSubject -> DALUMATFIL — Dalumat Ng/Sa Filipino (BS Psychology, Year 2, 2nd Semester) [p:Subj_BSPsych_DALUMATFIL]\np:hasSubject -> FILDIS — Filipino sa Iba't Ibang Disiplina (BS Psychology, Year 1, 2nd Semester) [p:Subj_BSPsych_FILDIS]\np:hasSubject -> FL 1 — Basic Foreign Language (BS Psychology, Year 3, 1st Semester) [p:Subj_BSPsych_FL1]\np:hasSubject -> FL 2 — Advanced Foreign Langua",
+    "answer_for_eval": "A BS Psychology graduate can pursue the following career paths:\n\n1. Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n2. Counseling / Guidance Track: Works in school or community guidance and counseling support roles.\n3. Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training, and organizational development roles that draw on the study of workplace behavior.",
+    "retrieval_query": "What career paths can a BS Psychology graduate pursue?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Degree_BSPsychology",
+              "rdf:type",
+              "p:Degree"
+            ],
+            [
+              "p:Degree_BSPsychology",
+              "p:degreeName",
+              {
+                "literal": "Bachelor of Science in Psychology"
+              }
+            ]
+          ],
+          "select": [
+            "?degree"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "p:Prog_BSPsych",
+              "p:hasDegree",
+              "?degree"
+            ],
+            [
+              "?degree",
+              "p:degreeName",
+              {
+                "literal": "Bachelor of Science in Psychology"
+              }
+            ],
+            [
+              "?prog",
+              "p:preparesForOutcome",
+              "?jobOutcome"
+            ]
+          ],
+          "select": [
+            "?jobOutcome"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Use at most 4 queries",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 8.03100000001723
+  },
+  "answer": "A BS Psychology graduate can pursue the following career paths:\n\n1. Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n2. Counseling / Guidance Track: Works in school or community guidance and counseling support roles.\n3. Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training, and organizational development roles that draw on the study of workplace behavior.",
+  "pipeline_version": "oc-rag-3.0"
+}

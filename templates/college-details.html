@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}View Programs{% endblock %}
+{% block content %}
+<header class="programs-intro container"><div class="section-label">Discover your possibilities</div><h1>Learning comes<br><em>to life.</em></h1><p>Explore programs, discover what students study, and picture your next chapter.</p></header>
+<div class="program-picker"><div class="container picker-inner"><label for="collegeSelect">Explore a college</label><select id="collegeSelect">{% for c in colleges %}<option value="{{ c.id }}">{{ c.name }}</option>{% endfor %}</select><span id="programCount" aria-live="polite"></span></div></div>
+<div id="programCollection">
+{% for c in colleges %}
+<section class="program-chapter" id="{{ c.id }}" {% if not loop.first %}hidden{% endif %}>
+<div class="container chapter-heading"><div class="section-label">{{ c.kicker }}</div><h2>{{ c.name }}</h2><p>{{ c.blurb }}</p><div class="program-shortcuts">{% for p in c.programs %}<a href="#program-{{ p.code }}">{{ p.name }} ↓</a>{% endfor %}</div></div>
+{% for p in c.programs %}
+<article class="program-story" id="program-{{ p.code }}">
+<div class="program-gallery" role="region" aria-roledescription="carousel" aria-label="{{ p.name }} photos">
+{% for n in range(1,4) %}<div class="gallery-slide" {% if n != 1 %}hidden{% endif %} role="group" aria-label="Photo {{ n }} of 3"><img src="{{ url_for('assets', filename='images/programs/' ~ (p.image if n == 1 else p.image.rsplit('.',1)[0] ~ '-' ~ n ~ '.jpg')) }}" alt="{{ p.name }} — {{ ['students in practice','learning together','projects and fieldwork'][n-1] }}" loading="lazy" data-photo><span class="photo-fallback" hidden>{{ p.name }}<small>Program photo {{ n }} · image coming soon</small></span></div>{% endfor %}
+<div class="gallery-caption"><span>{{ c.name }}</span><strong>{{ p.name }}</strong></div>
+<div class="gallery-controls"><button type="button" data-prev aria-label="Previous photo">←</button><span data-counter>1 / 3</span><button type="button" data-next aria-label="Next photo">→</button><button type="button" data-pause aria-label="Pause slideshow">Pause</button></div></div>
+<div class="container program-story-copy"><div><div class="section-label">{{ p.code }} · Program overview</div><h3>{{ p.name }}</h3><p>{{ p.desc }}</p><a class="btn btn-primary" href="{{ url_for('assistant', q='Tell me about ' ~ p.name ~ '.') }}">Ask about this program ↗</a></div><div><h4>What you’ll explore</h4><ul class="study-list">{% for s in p.study %}<li><span>0{{ loop.index }}</span>{{ s }}</li>{% endfor %}</ul></div></div>
+</article>{% endfor %}
+<div class="container field-notes"><details><summary>A closer look at this field</summary><p>{{ c.more.overview }}</p><div class="field-grid"><div><h3>Student experiences</h3><ul>{% for a in c.more.activities %}<li>{{ a }}</li>{% endfor %}</ul></div><div><h3>Skills you develop</h3><ul>{% for s in c.more.skills %}<li>{{ s }}</li>{% endfor %}</ul></div><div><h3>Possible careers</h3><ul>{% for r in c.more.careers %}<li>{{ r }}</li>{% endfor %}</ul></div></div></details><p class="placeholder-note">Program descriptions are illustrative. Confirm current offerings and curriculum with the campus.</p></div>
+</section>{% endfor %}</div>
+{% endblock %}

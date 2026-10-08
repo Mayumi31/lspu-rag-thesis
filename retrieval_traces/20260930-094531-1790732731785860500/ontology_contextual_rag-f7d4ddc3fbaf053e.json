@@ -1,0 +1,81 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Who sits on the Student Discipline Committee?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_536",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_536\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nArticle 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\n\nSec. 1. Definition. Student discipline refers to the desired and/or expected norm of conduct of students, and the corresponding administrative sanctions thereof, as set forth in this duly approved and promulgated Code of Conduct of LSPU Students and /or College Rules and Regulations.\n\nSec. 2. Composition of Student Discipline Committee. The Student Discipline Committee shall be composed of the following:\n\n2.1. Chairman /Chairperson: Director/Chairperson for Student Affairs and Services\n\n2.2. Vice Chairman/Vice Chairperson: Student Discipline Coordinator\n\n2.3. Members: Vice President for Academic Affairs/Campus Director, Dean of College where the student is enrolled, Chief Security Officer ,President of Supreme Student Council\n\n2.4. University Legal Consultant\n\nSec. 3. Administration. The Office of the Student Affairs and Services\n\n(OSAS) shall handle all complaints against alleged violators of the Code of Conduct of LSPU Students and/or College Rules and Regulations.\n\nCases must be treated individually according to their merits and findings of investigations.",
+        "score": 0.06557377049180328
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_537",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_537\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nof the Code of Conduct of LSPU Students and/or College Rules and Regulations.\n\nCases must be treated individually according to their merits and findings of investigations. They shall be reported to the University President who has the final say in all the cases.\n\nIn the pursuit of the preceding paragraph, every faculty member is authorized to enforce this Code of Conduct. A faculty member usually handles his own disciplinary problems, and more serious infractions.\n\nHowever, it must be reported to the OSAS through the Student Discipline Coordinator. Student leaders authorized by the administration are given equal responsibility in enforcing the Code of Conduct.\n\nSec. 4. Coverage. The provisions on Specific Misconduct and Miscellaneous Rules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction.",
+        "score": 0.06277056277056277
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_797",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_797\nSECTION: STUDENT COUNCILS AT LSPU-LB: SUPREME STUDENT COUNCIL AND THE EIGHT COLLEGE COUNCILS\nSTUDENT COUNCILS AT LSPU-LB: SUPREME STUDENT COUNCIL AND THE EIGHT COLLEGE COUNCILS\nSource: Student Handbook Chapter 5, Article 2, Sec. 3 (SSC definition); campus information supplied by the maintainer (September 2026).\nYes. All 8 colleges (CAS, CBAA, CCS, CCJE, CF, CFND, CIHT and CTE) have their own student council, and there is one Supreme Student Council (SSC) that governs them at the campus level.\nThe Supreme Student Council is the student body duly managed and elected at large by the students themselves; its President sits on the Student Discipline Committee and its Federated President sits on the Board. At LSPU-LB it is the main campus-wide student government: it represents students and helps organize campus-wide activities, programs, and student initiatives.",
+        "score": 0.06252326302729529
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_538",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_538\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nRules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction. Violation of rules and regulations done outside the premises shall be treated as if they were committed within the University premises when a student is representing the University in conference, conventions, competitions presentations, during the time of On- thejob Training (OJT) and Student Internship Program (SIP) period.\n\nNB: LSPU System reserves the right for its University President to device any measure or enhance any established policy for the resolution of any concern if the implementation of any former policy will not be workable at any juncture.\n\nAPPENDIX A",
+        "score": 0.05800653594771242
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_564",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_564\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 4. Minor Awards\nand Screening Committee for this award. Selection and Screening Form shall be given to the Dean of the College and to each chair of different programs of the college.\n\n3.4.2. Once the recipient of this award has been chosen by the Selection and Screening Committee, then there shall be the Decision Form indicated on the Selection and Screening Form bearing the name of the awardee/s, duly signed by the members of the said committee and be submitted to the Committee of Awards and Recognition, noted and accepted by the Committee Chair.\n\nSec. 4. Best Research Paper\n\n4.1. Description. This award is given to student/group who excelled in Research Writing and declared as “Best Research Paper” during the conduct of the Intercollegiate Student Research Congress by the Research and Development Unit. The thesis made by the student/group is a form of academic dedication and determination of each program for educational sustainability in academic research writing.\n\n4.2. Conditions. Preliminary selection (per program) for nominees of this award will be based on the following conditions:\n\n4.2.1. That the thesis if fully furnished and have already completed the requirements for its clearance.",
+        "score": 0.05788996195493123
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 2; distinct values by variable = {\"?x\": 2}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?x=Procedure for Major Disciplinary Actions\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:handles--> Procedure for Major Disciplinary Actions [h:Proc_MajorDisciplinaryAction]\nTYPE of Procedure for Major Disciplinary Actions: h:Procedure\nSOURCE/QUALIFIER for Procedure for Major Disciplinary Actions: h:sourceArticle = Chapter 6, Article 6\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?x=How to report bullying or harassment\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:handles--> How to report bullying or harassment [h:Proc_ReportBullyingHarassment]\nTYPE of How to report bullying or harassment: h:Procedure\nSOURCE/QUALIFIER for How to report bullying or harassment: h:sourceArticle = Reporting to the College Dean: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. Written complaint to OSAS and committee: Handbook Chapter 6, Article 6. Anti-Bullying Act of 2013 (RA 10627) is the legal basis of the bullying offenses\nSOURCE/QUALIFIER for How to report bullying or harassment: h:sourceArticle = Reporting to the College Dean: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. OSAS complaint and committee: Handbook Chapter 6, Articles 2 and 6\nSOURCE/QUALIFIER for How to report bullying or harassment: h:verificationNote = Step 2 (College Dean) comes from the maintainer. Steps 3 and the committee come from the Handbook. Steps 1 and 4 and the hints are practical advice. Dean office hours and contacts were not supplied.\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 2; distinct values by variable = {\"?x\": 2}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?x=Procedure for Major Disciplinary Actions\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:handles--> Procedure for Major Disciplinary Actions [h:Proc_MajorDisciplinaryAction]\nTYPE of Procedure for Major Disciplinary Actions: h:Procedure\nSOURCE/QUALIFIER for Procedure for Major Disciplinary Actions: h:sourceArticle = Chapter 6, Article 6\nTYPE of Student Discipline Committee: h:Committee\nSOURCE/QUALIFIER for Student Discipline Committee: h:sourceArticle = Chapter 6, Article 7, Sec. 2\n\nQUERY 1\nGRAPH RESULT 2: ?x=How to report bullying or harassment\nStudent Discipline Committee [h:StudentDisciplineCommittee] --h:handles--> How to report bullying or harassment [h:Proc_ReportBullyingHarassment]\nTYPE of How to report bullying or harassment: h:Procedure\nSOURCE/QUALIFIER for How to report bullying or harassment: h:sourceArticle = Reporting to the College Dean: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or C",
+    "answer_for_eval": "The members who sit on the Student Discipline Committee are:\n1. Chairman /Chairperson: Director/Chairperson for Student Affairs and Services\n2. Vice Chairman /Vice Chairperson: Student Discipline Coordinator\n3. Members: Vice President for Academic Affairs/Campus Director, Dean of College where the student is enrolled, Chief Security Officer, President of Supreme Student Council\n4. University Legal Consultant",
+    "retrieval_query": "Who is part of the Student Discipline Committee?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:StudentDisciplineCommittee",
+              "h:handles",
+              "?x"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 8,
+    "elapsed_seconds": 3.0929999999934807
+  },
+  "answer": "The members who sit on the Student Discipline Committee are:\n1. Chairman /Chairperson: Director/Chairperson for Student Affairs and Services\n2. Vice Chairman /Vice Chairperson: Student Discipline Coordinator\n3. Members: Vice President for Academic Affairs/Campus Director, Dean of College where the student is enrolled, Chief Security Officer, President of Supreme Student Council\n4. University Legal Consultant",
+  "pipeline_version": "oc-rag-3.0"
+}

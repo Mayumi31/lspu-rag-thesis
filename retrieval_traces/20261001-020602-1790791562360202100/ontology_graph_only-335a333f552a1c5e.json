@@ -1,0 +1,51 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "How much is an ID lace, and where is it sold?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?price=130\nID lace (lanyard) [h:Price_IDLace] --h:priceMaxPHP--> \"130\"\nID lace (lanyard) [h:Price_IDLace] --h:priceMinPHP--> \"130\"\nTYPE of ID lace (lanyard): h:CampusItemPrice\nSOURCE/QUALIFIER for ID lace (lanyard): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?price=130\nID lace (lanyard) [h:Price_IDLace] --h:priceMaxPHP--> \"130\"\nID lace (lanyard) [h:Price_IDLace] --h:priceMinPHP--> \"130\"\nTYPE of ID lace (lanyard): h:CampusItemPrice\nSOURCE/QUALIFIER for ID lace (lanyard): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter",
+    "answer_for_eval": "An ID lace (lanyard) costs 130 PHP and is sold as a campus item supplied by the campus information source.",
+    "retrieval_query": "How much is an ID lanyard, and where is it sold?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Price_IDLace",
+              "h:priceMinPHP",
+              "?price"
+            ],
+            [
+              "h:Price_IDLace",
+              "h:priceMaxPHP",
+              "?price"
+            ]
+          ],
+          "select": [
+            "?price"
+          ],
+          "filters": []
+        }
+      ],
+      "traversals": []
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 7.046999999962281,
+    "retrieval_seconds": 6.077999999979511,
+    "generation_seconds": 0.9689999999827705,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?price=130\nID lace (lanyard) [h:Price_IDLace] --h:priceMaxPHP--> \"130\"\nID lace (lanyard) [h:Price_IDLace] --h:priceMinPHP--> \"130\"\nTYPE of ID lace (lanyard): h:CampusItemPrice\nSOURCE/QUALIFIER for ID lace (lanyard): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter"
+    ]
+  },
+  "answer": "An ID lace (lanyard) costs 130 PHP and is sold as a campus item supplied by the campus information source.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

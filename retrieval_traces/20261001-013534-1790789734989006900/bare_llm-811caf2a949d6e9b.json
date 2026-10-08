@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "Do school rules still apply if I violate them during OJT or an off-campus competition?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "Yes, school rules generally still apply if you violate them during OJT or an off-campus competition.",
+    "retrieval_query": "Do school rules still apply if I violate them during OJT or an off-campus competition?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.7029999999795109,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.7029999999795109,
+    "selected_contexts": []
+  },
+  "answer": "Yes, school rules generally still apply if you violate them during OJT or an off-campus competition.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

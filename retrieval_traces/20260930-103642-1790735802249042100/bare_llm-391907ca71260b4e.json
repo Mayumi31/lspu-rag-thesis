@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "How many degree programs does LSPU-LB offer?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The number of degree programs offered by LSPU-LB is not specified in the provided evidence.",
+    "retrieval_query": "How many degree programs does LSPU-LB offer?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.0630000000237487,
+    "selected_contexts": []
+  },
+  "answer": "The number of degree programs offered by LSPU-LB is not specified in the provided evidence.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

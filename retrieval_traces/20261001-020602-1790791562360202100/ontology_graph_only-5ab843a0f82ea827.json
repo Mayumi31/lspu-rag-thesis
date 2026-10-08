@@ -1,0 +1,45 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What are the requirements for the half varsity scholarship?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?criteria=SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0.\nVarsity Scholarship — Half Scholarship/Training Allowance [h:Schol_VarsityHalf] --h:eligibilityCriteria--> \"SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0.\"\nTYPE of Varsity Scholarship — Half Scholarship/Training Allowance: h:NonAcademicScholarship\nSOURCE/QUALIFIER for Varsity Scholarship — Half Scholarship/Training Allowance: h:sourceArticle = Chapter 3, Article 10, Sec. 2.1.2"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?criteria=SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0.\nVarsity Scholarship — Half Scholarship/Training Allowance [h:Schol_VarsityHalf] --h:eligibilityCriteria--> \"SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0.\"\nTYPE of Varsity Scholarship — Half Scholarship/Training Allowance: h:NonAcademicScholarship\nSOURCE/QUALIFIER for Varsity Scholarship — Half Scholarship/Training Allowance: h:sourceArticle = Chapter 3, Article 10, Sec. 2.1.2",
+    "answer_for_eval": "The requirements for the half varsity scholarship are:\n- Be an SCUAA point contributor or finalist\n- Have an average grade of 2.5\n- Have a maximum grade of 2.0",
+    "retrieval_query": "What are the requirements for the half varsity scholarship?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Schol_VarsityHalf",
+              "h:eligibilityCriteria",
+              "?criteria"
+            ]
+          ],
+          "select": [
+            "?criteria"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 10.76500000001397,
+    "retrieval_seconds": 9.75,
+    "generation_seconds": 1.0150000000139698,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?criteria=SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0.\nVarsity Scholarship — Half Scholarship/Training Allowance [h:Schol_VarsityHalf] --h:eligibilityCriteria--> \"SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0.\"\nTYPE of Varsity Scholarship — Half Scholarship/Training Allowance: h:NonAcademicScholarship\nSOURCE/QUALIFIER for Varsity Scholarship — Half Scholarship/Training Allowance: h:sourceArticle = Chapter 3, Article 10, Sec. 2.1.2"
+    ]
+  },
+  "answer": "The requirements for the half varsity scholarship are:\n- Be an SCUAA point contributor or finalist\n- Have an average grade of 2.5\n- Have a maximum grade of 2.0",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

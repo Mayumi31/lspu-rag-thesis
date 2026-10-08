@@ -1,0 +1,76 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "How long does the fee assessment step of enrollment take?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_447",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_447\nSECTION: Chapter 3 | Article 7. Grading System and Other Grade-related Concerns\nDismissal who wish to take the removal examination or completion must seek the approval of the College Dean through a written petition before removal or completion is given. A student under this arrangement shall pay a removal/completion fee of P20 per unit, whether or not the removal/completion is given during the regularly scheduled periods or during special arrangements.\n\nSec. 6. Credit and Grading for Transferees. Consensus taken in other schools by transferees may be credited, provided that the number of credits to be credited does not exceed 20% of the total number of units.",
+        "score": 0.05746538415041963
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_605",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_605\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 5. Requirements, Obligations, and Responsibilities\nForm, request letter for the conduct of OJT, Memorandum of Agreement, among others.\n\n7.6. The OJT/SIPP Coordinator conducts regular monitoring of the OJT students or interns.\n\n7.7. Assessment and Evaluation of the OJT is accomplished by requiring the student to submit pertinent documents such as daily time record, evaluation form, certificate of completion, among others.\n\n7.8. A presentation of the Narrative Report may be conducted and, upon revision based on the comments/suggestions of the panel, a soft -bound copy is submitted to the OJT/SIPP Coordinator.\n\nSec. 8. Fee. LSPU shall follow the approved students’ internship fee based on CHED Memorandum Order No. 3, Series of 2012 (CMO No. 03, s. 2012), or the “Enhanced Policies, Guidelines, and Procedures Governing Increase in Tuition and Other School Fees, Introduction of New Fees, and for Other Purposes”. In no case shall the school charge the student fees other than the approved/prescribed fee or other school fees duly noted by CHED. Charging of internship fee in accordance with CMO No. 03, s.",
+        "score": 0.054024272736329565
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_446",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_446\nSECTION: Chapter 3 | Article 7. Grading System and Other Grade-related Concerns\nwith a failing grade in a subject. The one-year academic period is interrupted as extending to the regular semester; the removal period immediately follows the one year.\n\n5.2.2. Examination for the removal of a grade of “4.0” may be taken without fee during the final examination provided that such subject is included in the schedule of examination. It is also given but with a fee of P20 per unit during the regular removal period; that is, the period covering one week preceding the first day of registration each semester/term. Permit to removal examination may be secured from the Office of the Registrar. (BOR Reso.1046, s.2012)\n\n5.2.3. Special removal examination may also be given upon approval of a written petition from the College Dean. A fee of P100 per unit is charged for this removal.\n\n5.2.4. Students not in residence (not registered during the semester) with approved Leave of Absence (LOA) or Honorable Dismissal who wish to take the removal examination or completion must seek the approval of the College Dean through a written petition before removal or completion is given.",
+        "score": 0.05225016816617236
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_467",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_467\nSECTION: Chapter 4 | Article 4. Matriculation and Fees\nArticle 4. Matriculation and Fees\n\nSec. 1. Change of Matriculation. In case of a change in matriculation, a student shall be advised to accomplish the form for change of matriculation to be submitted at first, the accounting office for assessment; then, the office of GSAR for notation and filing. No change of matriculation involving the taking of new subjects shall be allowed after 12% of regular class meetings have been held.\n\nSec. 2. Rules on Fees\n\n2.1. All fees related to enrolment shall be payable in full payment or three (3) installments:\n\n2.1.1. upon enrolment: 50% of total fees\n\n2.1.2. midterm examination: 25% of balance\n\n2.1.3. final examination: the remaining balance\n\n2.2. Under the following conditions, tuition fee paid upon enrolment shall be refunded to any student who withdraws within the first 30 days after the date of registration:\n\n2.2.1. 80% of the amount paid if within the first week of registration, regardless of attendance to classes\n\n2.2.2. 50% of the amount paid if within the second, third, or fourth week after registration, regardless of attendance to classes\n\n2.3. There is no refund for other fees after registration.",
+        "score": 0.04627081163075462
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_419",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_419\nSECTION: Chapter 3 | Article 3. Registration. Registration is open to new and old students who have satisfied the admission requirements. For on-site registration, students should enroll at the Office of the Registrar and register only in those subjects approved by the Registration Adviser/Program Coordinator/College Dean, as evidenced by their initials on the registration form. Whenever applicable, online registration may be used in line with its effectivity as endorsed by the University Registrar.\nthe University Registrar, provided that the applicant would not take any academic subjects in another college/ university during the deferment period.\n\nSec. 3. Refunding of Fees. A student who has paid the enrolment fees and who is granted Honorable Dismissal/Transfer Credentials or Leave of Absence (LOA) is entitled to a refund of their fees, except matriculation or registration fee, in accordance with the following schedule:\n\n3.1. seventy-five percent (75%): within the week from the opening of classes\n\n3.2. fifty percent (50%): within the period from the second to the fourth week\n\n3.3. No refund: after the fourth week from the opening of classes\n\n3.4. Official Day of Registration. If the withdrawal is made before the opening of classes or made by students who register after the opening of classes and withdraw after that, the number of days shall be counted during the actual date of registration.\n\n3.5. Other Fees. Laboratory fees will not be refunded after one week from the opening of classes where voluntary change is made from one course to another. No refund for registration, library, and miscellaneous fees will be made to any student who withdraws anytime after registration.",
+        "score": 0.04457454507857733
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?processingTime\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?processingTime=1 minute per client type\nStep 2: Assessment of fees [a:AssessFees_Step2] --a:hasProcessingTime--> \"1 minute per client type\"\nTYPE of Step 2: Assessment of fees: a:ServiceStep\nSOURCE/QUALIFIER for Step 2: Assessment of fees: a:sourceSection = III. Accounting Office, Service 2: Assessment of Fees, Step 2, p. 10"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?processingTime\": 1}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?processingTime=1 minute per client type\nStep 2: Assessment of fees [a:AssessFees_Step2] --a:hasProcessingTime--> \"1 minute per client type\"\nTYPE of Step 2: Assessment of fees: a:ServiceStep\nSOURCE/QUALIFIER for Step 2: Assessment of fees: a:sourceSection = III. Accounting Office, Service 2: Assessment of Fees, Step 2, p. 10\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_447\nSECTION: Chapter 3 | Article 7. Grading System and Other Grade-related Concerns\nDismissal who wish to take the removal examination or completion must seek the approval of the College Dean through a written petition before removal or completion is given. A student under this arrangement shall pay a removal/completion fee of P20 per unit, whether or not the removal/completion is given during the regularly scheduled periods or during special arrangements.\n\nSec. 6. Credit and Grading for Transferees. Consensus taken in other schools by transferees may be credited, provided that the number of credits to",
+    "answer_for_eval": "The fee assessment step of enrollment takes 1 minute per client type.",
+    "retrieval_query": "How long does the fee assessment step of enrollment take?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:AssessFees_Step2",
+              "a:hasProcessingTime",
+              "?processingTime"
+            ]
+          ],
+          "select": [
+            "?processingTime"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 7,
+    "elapsed_seconds": 2.969000000040978
+  },
+  "answer": "The fee assessment step of enrollment takes 1 minute per client type.",
+  "pipeline_version": "oc-rag-3.0"
+}

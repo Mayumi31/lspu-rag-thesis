@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "How many years does the BS Accountancy program take?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The BS Accountancy program typically takes four years to complete.",
+    "retrieval_query": "How many years does the BS Accountancy program take?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.8439999999827705,
+    "selected_contexts": []
+  },
+  "answer": "The BS Accountancy program typically takes four years to complete.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

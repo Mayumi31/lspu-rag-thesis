@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "How can I apply online for completion of an INC grade?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "To apply online for the completion of an INC (Incomplete) grade at LSPU-LB, visit the official university website or student portal and look for the online grade or academic records section. Follow the instructions provided there to submit your request. If specific procedures are not available online, contact the university's registrar's office for guidance.",
+    "retrieval_query": "How can I apply online for completion of an INC grade?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.5309999999590218,
+    "selected_contexts": []
+  },
+  "answer": "To apply online for the completion of an INC (Incomplete) grade at LSPU-LB, visit the official university website or student portal and look for the online grade or academic records section. Follow the instructions provided there to submit your request. If specific procedures are not available online, contact the university's registrar's office for guidance.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

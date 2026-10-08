@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What subjects does a BS Psychology student take in first year, first semester?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The specific subjects for a BS Psychology student in their first year, first semester, may vary by institution. Generally, it includes foundational courses such as Introduction to Psychology, Filipino, English, Mathematics, and other general education subjects. For precise information, please refer to LSPU-LB's official curriculum.",
+    "retrieval_query": "What subjects does a BS Psychology student take in first year, first semester?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.5310000000172295,
+    "selected_contexts": []
+  },
+  "answer": "The specific subjects for a BS Psychology student in their first year, first semester, may vary by institution. Generally, it includes foundational courses such as Introduction to Psychology, Filipino, English, Mathematics, and other general education subjects. For precise information, please refer to LSPU-LB's official curriculum.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

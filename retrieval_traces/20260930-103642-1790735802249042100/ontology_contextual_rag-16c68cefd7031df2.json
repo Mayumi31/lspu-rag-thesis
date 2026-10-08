@@ -1,0 +1,145 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "How do I pay my fees online, and through which portal?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_352",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_352\nSECTION: receipt)\nreceipt)\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nAfter submitting the\ncomplete | 5 minutes\nrequirements to the | student\nsubject teacher, the | N/A\nstudents will log in to\nhis portal in LSPU\nonline system to apply\nonline for the\ncompletion of INC or\n4.0 grade.\nThe student will pay | After receiving the\nthe corresponding | student’s payment, the\ncompletion fess to the | cashier will put the OR P30.00/ | 5 minutes | Cashier’s office\ncashier’s office | number on the | unit\ncompletion form of the\nstudent through the\nonline system.\nThe student will inform | The subject teacher\nthe subject teacher | will give the | 5 minutes\nthat he already | corresponding grades | Subject teacher\napplied for online | through the online\ncompletion of his | system.\nINC/4.0 grade.\nUpon checking the\ncompletion grade\ngiven by the subject | N/A | 5 minutes | College dean/associate\nfaculty, the college | dean\ndean or associate\ndean shall approve the\nrequest for\ncompletion/removal.\nThe registrar will\ncheck if the INC or 4.0\ngrade is changed | N/A | 5 minutes | Registrar\nTOTAL: P30.00/ unit | 25 minutes\n\n4. Crediting of Subjects",
+        "score": 0.031054405392392875
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_119",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_119\nSECTION: II. | OFFICE OF THE CASHIER\nII. | OFFICE OF THE CASHIER\n1. Collection of Fees Online basis\nThis includes the process of collection of Fees.\nOffice | or Cashier\nDivision:\nClassification: Simple\nType | of G2C-Government to Citizen\nTransaction:\nWho | may All\navail:\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nFor Students: School ID or Registration Cards/ | Client/Students, Registrar, Accounting\nAssessment of Fees.\nCLIENT | FEES TO | PROCESSING | PERSON\nAGENCY ACTIONS\nSTEPS | BE PAID | TIME | RESPONSIBLE\n1. | Clients | none | None\n(Students,\noutsiders) visit\nthe | LinkBiz\nPortal | of\nLandbank | of\nthe Philippines\nthru | mobile\nphones of PC.\n2. | Clients | none | None | 1 minute | Client\n(Students, | (Students)\noutsiders) | fill\nout the given\nform | with\ncomplete and\ncorrect data\n3. | Payment | none | 7.00 per | 1 minute | Client\n(client | select | transaction | (Students)\nthe account for\ndebit)\n4. | Clients | None | 1 minute | Client\n(Students, | (Students)\noutsiders)\nreceives | a\nconfirmation\nreceipt | and\nsecure a copy\nto be send to\ncollecting\nofficer | in\ncharge\n5. Clients (Students, | Receives the transaction receipt | None | 10 seconds | Client\noutsiders) | thru email. | (Students)\n\n7",
+        "score": 0.029726775956284153
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_815",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_815\nSECTION: FREE HIGHER EDUCATION: WHAT YOU STILL PAY FOR (ADDITIONAL NOTE)\nFREE HIGHER EDUCATION: WHAT YOU STILL PAY FOR (ADDITIONAL NOTE)\nSource: Student Handbook Chapter 3, Article 2, Sec. 1.2-1.3 and Citizen's Charter 2026 Enrollment Step 2, p. 3 for the free-tuition rule; item prices and other costs are from campus information supplied by the maintainer (September 2026).\nFree higher education covers tuition and other school fees for qualified bachelor's degree students. It does not cover students who do not qualify, students with RLE subjects, opt-out students, CTP/foreign students, and graduate students, who pay through the Accounting Office and Cashier.\nItems you buy yourself are separate from tuition: uniform fabric (about Php 600-800, plus tailoring), University shirt (Php 400), NSTP shirt (Php 350), PE T-shirt and shorts (Php 500), ID lace (Php 130), OJT expenses, transport and housing.\nLaboratory costs are not on this list: they are already included in the tuition, so a student covered by free higher education pays no separate laboratory fee.",
+        "score": 0.02786377708978328
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_112",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_112\nSECTION: subjects, Opt-\nsubjects, Opt-\nout,CTP/Foreign,G\nSAR Students:\n\nProceeds to\nCashier's Office to\npay fees\n4. New/old college | Issues certificate of | 3 minutes | Registrar’s Staff\nstudents: | registration (COR)\nLog in to student\nportal to view the\nCertificate of\nRegistration\n(COR)\n\nFor College\nStudents who are\nnot qualified to\nFree Higher\nEducation,\nstudents with\nenrolled RLE\nsubjects, Opt-out,\nCTP/Foreign,GSA\nR Students:\n\nProceeds to the\nOffice of the\nRegistrar to claim\nthe Certificate of\nRegistration\n(COR)\nFees\nreflected on\nTOTAL: | the | 20 minutes\nassessmen\nt form.\n\n2. Issuance | of | Transcript | of | Records/Transfer\nCredentials/Certifications/CAV/Authenticated Documents\nThis process provides description and series of steps for assisting the public in\nthe issuance of the pertinent documents such as transcript of records, transfer of\ncredentials, certifications, CAV, and authenticated documents.\n\nOffice or Division: | Registrar\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nG2G – Government to Government\nWho may avail: | All (Walk-In students & Graduates)\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE",
+        "score": 0.027799227799227798
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_115",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_115\nSECTION: FEES TO | PROCESSING | PERSON\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. A. For | Issue request slip | None | 5 minutes | Registrar’s Staff\nundergraduate | (LSPU-REG-SF- 011)\nstudents | Review and check\n- Fill out | accomplished\nrequest slip | request of students\nwith clearance | Assess\n(LSPU-REG- | corresponding fees of\nSF- | requested documents\n011) and\nsecure\nsignatures of\nHead of\nResponsible\noffices\nB. For graduates\n- Fill out\nrequest slip\n(LSPU- REG-\nSF-011)\n2. Pay required | Receives payment | Transcript | 2 minutes | Cashier’s Staff\nfees. Proceed to | and issues official | of Records\nthe Cashier’s | receipt\noffice. | - Undergrad\nstudents\nP75.00/page\n\n- Graduate\nstudents\nP150/page\n\nCertificatio\nns\nP30.00/page\n\n-Copy of\nGrades\n-F137\n-CAV\n-Certificate\nof Transfer\n-General\nWeighted\nAve.\n-Subject\ndescription\n-SPES\n-Permit to\nStudy\n\nAuthenticat\nion\n\n5",
+        "score": 0.026984126984126985
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Online\nrdf:type -> Channel [a:Channel]\nrdfs:label: Online"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 2: Payment of fees; submit Official Receipt\na:agencyAction: Checks the Official Receipt.\na:clientAction: Pays the Certification Fee and Documentary Stamp (if applicable); submits the Official Receipt.\na:hasFeeText: Certification Fee and Documentary Stamp (if applicable)\na:hasProcessingTime: 40 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 5: Issuance of Good Moral Certificate (Undergraduate), Step 2, p. 19\nh:nextStep -> Step 3: Processing of Good Moral Certificate [a:GoodMoralUG_Step3]\nh:performedBy -> Collection Officer (Cashier) [a:Role_CollectionOfficer]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Payment of fees; submit Official Receipt"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 3: Payment of fees\na:agencyAction: Receives payment and issues official receipt.\na:clientAction: Proceeds to the Cashier's Office to pay fees.\na:hasFeeText: Fees reflected on the assessment form\na:hasProcessingTime: 3 minutes\na:sourceSection: I. Office of the Registrar, Service 1: Enrollment, Step 3, p. 3\nh:nextStep -> Step 4: Issuance of Certificate of Registration (COR) [a:Enroll_Step4]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 3: Payment of fees"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Collection of Fees Online basis\na:availedAt -> Cashier [a:Office_Cashier]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasChannel -> Online [a:Channel_Online]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: II. Office of the Cashier, Service 1: Collection of Fees Online basis, p. 7\na:totalFeeText: Php 7.00 (LandBank LinkBiz convenience fee)\na:totalProcessingTime: 2 days, 5 minutes, 10 seconds (dominated by 1-2 banking days for payment verification)\na:whoMayAvail: All\nh:definition: Process for the online collection of student and other fees via the LandBank LinkBiz Portal.\nh:hasStep -> Step 1: Access the LandBank LinkBiz Portal [a:CashierOnline_Step1]\nh:requiresDocument -> School ID or Registration Card / Assessment of Fees (students) [a:Doc_SchoolIDOrAssessment]\nrdf:type -> Service [a:Service]\nrdfs:label: Collection of Fees Online basis"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 2: Pay required fees\na:agencyAction: Receives payment and issues official receipt.\na:clientAction: Proceeds to the Cashier's Office to pay the required fees.\na:hasFeeText: Transcript of Records: P75.00/page (undergraduate), P150.00/page (graduate). Certifications: P30.00/page (Copy of Grades, F137, CAV, Certificate of Transfer, General Weighted Average, Subject Description, SPES, Permit to Study). Authentication: P30.00/page. 2nd copy of Diploma: P100.00.\na:hasProcessingTime: 2 minutes\na:sourceSection: I. Office of the Registrar, Service 2: Issuance of TOR/Transfer Credentials/Certifications/CAV/Authenticated Documents, Step 2, p. 4\nh:nextStep -> Step 3: Submit receipt and request slip; receive claim stub; document preparation [a:TOR_Step3]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Pay required fees"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_352\nSECTION: receipt)\nreceipt)\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nAfter submitting the\ncomplete | 5 minutes\nrequirements to the | student\nsubject teacher, the | N/A\nstudents will log in to\nhis portal in LSPU\nonline system to apply\nonline for the\ncompletion of INC or\n4.0 grade.\nThe student will pay | After receiving the\nthe corresponding | student’s payment, the\ncompletion fess to the | cashier will put the OR P30.00/ | 5 minutes | Cashier’s office\ncashier’s office | number on the | unit\ncompletion form of the\nstudent through the\nonline system.\nThe student will inform | The subject teacher\nthe subject teacher | will give the | 5 minutes\nthat he already | corresponding grades | Subject teacher\napplied for online | through the online\ncompletion of his | system.\nINC/4.0 grade.\nUpon checking the\ncompletion grade\ngiven by the subject | N/A | 5 minutes | College dean/associate\nfaculty, the college | dean\ndean or associate\ndean shall approve the\nrequest for\ncompletion/removal.\nThe registrar will\ncheck if the INC or 4.0\ngrade is changed | N/A | 5 minutes | Registrar\nTOTAL: P30.00/ unit |",
+    "answer_for_eval": "You can pay your fees online through the LandBank LinkBiz Portal. The process involves visiting the portal, filling out the form with complete and correct data, selecting the account for debit, and then proceeding to pay the required fees. After payment, you will receive a confirmation receipt via email.",
+    "retrieval_query": "How do I pay my fees online and through which portal?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?service",
+              "rdf:type",
+              "a:Service"
+            ],
+            [
+              "?service",
+              "a:hasChannel",
+              "a:Channel_Online"
+            ],
+            [
+              "?service",
+              "a:hasTransactionType",
+              "a:TT_G2C"
+            ],
+            [
+              "?service",
+              "a:hasCategory",
+              "a:Cat_Simple"
+            ],
+            [
+              "?service",
+              "a:totalFeeText",
+              {
+                "literal": "Php 7.00 (LandBank LinkBiz convenience fee)"
+              }
+            ],
+            [
+              "?service",
+              "a:sourceSection",
+              {
+                "literal": "II. Office of the Cashier, Service 1: Collection of Fees Online basis, p. 7"
+              }
+            ],
+            [
+              "?service",
+              "a:availedAt",
+              "?office"
+            ],
+            [
+              "?office",
+              "rdfs:label",
+              "Cashier"
+            ]
+          ],
+          "select": [
+            "?service"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown prefix: a",
+      "Unresolved entity or class: a:TT_G2C"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 0.9070000000065193,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_352\nSECTION: receipt)\nreceipt)\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nAfter submitting the\ncomplete | 5 minutes\nrequirements to the | student\nsubject teacher, the | N/A\nstudents will log in to\nhis portal in LSPU\nonline system to apply\nonline for the\ncompletion of INC or\n4.0 grade.\nThe student will pay | After receiving the\nthe corresponding | student’s payment, the\ncompletion fess to the | cashier will put the OR P30.00/ | 5 minutes | Cashier’s office\ncashier’s office | number on the | unit\ncompletion form of the\nstudent through the\nonline system.\nThe student will inform | The subject teacher\nthe subject teacher | will give the | 5 minutes\nthat he already | corresponding grades | Subject teacher\napplied for online | through the online\ncompletion of his | system.\nINC/4.0 grade.\nUpon checking the\ncompletion grade\ngiven by the subject | N/A | 5 minutes | College dean/associate\nfaculty, the college | dean\ndean or associate\ndean shall approve the\nrequest for\ncompletion/removal.\nThe registrar will\ncheck if the INC or 4.0\ngrade is changed | N/A | 5 minutes | Registrar\nTOTAL: P30.00/ unit | 25 minutes\n\n4. Crediting of Subjects",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_119\nSECTION: II. | OFFICE OF THE CASHIER\nII. | OFFICE OF THE CASHIER\n1. Collection of Fees Online basis\nThis includes the process of collection of Fees.\nOffice | or Cashier\nDivision:\nClassification: Simple\nType | of G2C-Government to Citizen\nTransaction:\nWho | may All\navail:\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nFor Students: School ID or Registration Cards/ | Client/Students, Registrar, Accounting\nAssessment of Fees.\nCLIENT | FEES TO | PROCESSING | PERSON\nAGENCY ACTIONS\nSTEPS | BE PAID | TIME | RESPONSIBLE\n1. | Clients | none | None\n(Students,\noutsiders) visit\nthe | LinkBiz\nPortal | of\nLandbank | of\nthe Philippines\nthru | mobile\nphones of PC.\n2. | Clients | none | None | 1 minute | Client\n(Students, | (Students)\noutsiders) | fill\nout the given\nform | with\ncomplete and\ncorrect data\n3. | Payment | none | 7.00 per | 1 minute | Client\n(client | select | transaction | (Students)\nthe account for\ndebit)\n4. | Clients | None | 1 minute | Client\n(Students, | (Students)\noutsiders)\nreceives | a\nconfirmation\nreceipt | and\nsecure a copy\nto be send to\ncollecting\nofficer | in\ncharge\n5. Clients (Students, | Receives the transaction receipt | None | 10 seconds | Client\noutsiders) | thru email. | (Students)\n\n7",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_815\nSECTION: FREE HIGHER EDUCATION: WHAT YOU STILL PAY FOR (ADDITIONAL NOTE)\nFREE HIGHER EDUCATION: WHAT YOU STILL PAY FOR (ADDITIONAL NOTE)\nSource: Student Handbook Chapter 3, Article 2, Sec. 1.2-1.3 and Citizen's Charter 2026 Enrollment Step 2, p. 3 for the free-tuition rule; item prices and other costs are from campus information supplied by the maintainer (September 2026).\nFree higher education covers tuition and other school fees for qualified bachelor's degree students. It does not cover students who do not qualify, students with RLE subjects, opt-out students, CTP/foreign students, and graduate students, who pay through the Accounting Office and Cashier.\nItems you buy yourself are separate from tuition: uniform fabric (about Php 600-800, plus tailoring), University shirt (Php 400), NSTP shirt (Php 350), PE T-shirt and shorts (Php 500), ID lace (Php 130), OJT expenses, transport and housing.\nLaboratory costs are not on this list: they are already included in the tuition, so a student covered by free higher education pays no separate laboratory fee.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_112\nSECTION: subjects, Opt-\nsubjects, Opt-\nout,CTP/Foreign,G\nSAR Students:\n\nProceeds to\nCashier's Office to\npay fees\n4. New/old college | Issues certificate of | 3 minutes | Registrar’s Staff\nstudents: | registration (COR)\nLog in to student\nportal to view the\nCertificate of\nRegistration\n(COR)\n\nFor College\nStudents who are\nnot qualified to\nFree Higher\nEducation,\nstudents with\nenrolled RLE\nsubjects, Opt-out,\nCTP/Foreign,GSA\nR Students:\n\nProceeds to the\nOffice of the\nRegistrar to claim\nthe Certificate of\nRegistration\n(COR)\nFees\nreflected on\nTOTAL: | the | 20 minutes\nassessmen\nt form.\n\n2. Issuance | of | Transcript | of | Records/Transfer\nCredentials/Certifications/CAV/Authenticated Documents\nThis process provides description and series of steps for assisting the public in\nthe issuance of the pertinent documents such as transcript of records, transfer of\ncredentials, certifications, CAV, and authenticated documents.\n\nOffice or Division: | Registrar\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nG2G – Government to Government\nWho may avail: | All (Walk-In students & Graduates)\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_115\nSECTION: FEES TO | PROCESSING | PERSON\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. A. For | Issue request slip | None | 5 minutes | Registrar’s Staff\nundergraduate | (LSPU-REG-SF- 011)\nstudents | Review and check\n- Fill out | accomplished\nrequest slip | request of students\nwith clearance | Assess\n(LSPU-REG- | corresponding fees of\nSF- | requested documents\n011) and\nsecure\nsignatures of\nHead of\nResponsible\noffices\nB. For graduates\n- Fill out\nrequest slip\n(LSPU- REG-\nSF-011)\n2. Pay required | Receives payment | Transcript | 2 minutes | Cashier’s Staff\nfees. Proceed to | and issues official | of Records\nthe Cashier’s | receipt\noffice. | - Undergrad\nstudents\nP75.00/page\n\n- Graduate\nstudents\nP150/page\n\nCertificatio\nns\nP30.00/page\n\n-Copy of\nGrades\n-F137\n-CAV\n-Certificate\nof Transfer\n-General\nWeighted\nAve.\n-Subject\ndescription\n-SPES\n-Permit to\nStudy\n\nAuthenticat\nion\n\n5",
+      "APPROXIMATE MATCH (not an exhaustive result): Online\nrdf:type -> Channel [a:Channel]\nrdfs:label: Online",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 2: Payment of fees; submit Official Receipt\na:agencyAction: Checks the Official Receipt.\na:clientAction: Pays the Certification Fee and Documentary Stamp (if applicable); submits the Official Receipt.\na:hasFeeText: Certification Fee and Documentary Stamp (if applicable)\na:hasProcessingTime: 40 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 5: Issuance of Good Moral Certificate (Undergraduate), Step 2, p. 19\nh:nextStep -> Step 3: Processing of Good Moral Certificate [a:GoodMoralUG_Step3]\nh:performedBy -> Collection Officer (Cashier) [a:Role_CollectionOfficer]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Payment of fees; submit Official Receipt",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 3: Payment of fees\na:agencyAction: Receives payment and issues official receipt.\na:clientAction: Proceeds to the Cashier's Office to pay fees.\na:hasFeeText: Fees reflected on the assessment form\na:hasProcessingTime: 3 minutes\na:sourceSection: I. Office of the Registrar, Service 1: Enrollment, Step 3, p. 3\nh:nextStep -> Step 4: Issuance of Certificate of Registration (COR) [a:Enroll_Step4]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 3: Payment of fees",
+      "APPROXIMATE MATCH (not an exhaustive result): Collection of Fees Online basis\na:availedAt -> Cashier [a:Office_Cashier]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasChannel -> Online [a:Channel_Online]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: II. Office of the Cashier, Service 1: Collection of Fees Online basis, p. 7\na:totalFeeText: Php 7.00 (LandBank LinkBiz convenience fee)\na:totalProcessingTime: 2 days, 5 minutes, 10 seconds (dominated by 1-2 banking days for payment verification)\na:whoMayAvail: All\nh:definition: Process for the online collection of student and other fees via the LandBank LinkBiz Portal.\nh:hasStep -> Step 1: Access the LandBank LinkBiz Portal [a:CashierOnline_Step1]\nh:requiresDocument -> School ID or Registration Card / Assessment of Fees (students) [a:Doc_SchoolIDOrAssessment]\nrdf:type -> Service [a:Service]\nrdfs:label: Collection of Fees Online basis",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 2: Pay required fees\na:agencyAction: Receives payment and issues official receipt.\na:clientAction: Proceeds to the Cashier's Office to pay the required fees.\na:hasFeeText: Transcript of Records: P75.00/page (undergraduate), P150.00/page (graduate). Certifications: P30.00/page (Copy of Grades, F137, CAV, Certificate of Transfer, General Weighted Average, Subject Description, SPES, Permit to Study). Authentication: P30.00/page. 2nd copy of Diploma: P100.00.\na:hasProcessingTime: 2 minutes\na:sourceSection: I. Office of the Registrar, Service 2: Issuance of TOR/Transfer Credentials/Certifications/CAV/Authenticated Documents, Step 2, p. 4\nh:nextStep -> Step 3: Submit receipt and request slip; receive claim stub; document preparation [a:TOR_Step3]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Pay required fees"
+    ]
+  },
+  "answer": "You can pay your fees online through the LandBank LinkBiz Portal. The process involves visiting the portal, filling out the form with complete and correct data, selecting the account for debit, and then proceeding to pay the required fees. After payment, you will receive a confirmation receipt via email.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

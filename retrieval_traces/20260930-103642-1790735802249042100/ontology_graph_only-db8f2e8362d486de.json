@@ -1,0 +1,75 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What can I do on the LSPU Portal?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): LSPU Student Portal (myaccount.lspu.edu.ph)\nh:accessUrl: myaccount.lspu.edu.ph\nh:accountRequirement: Official LSPU student account. It is activated after the student is officially enrolled: visit the ICT office inside the College of Computer Studies (CCS) building and have your email and password verified.\nh:audience: New students\nh:audience: Students\nh:contactNote: Online portal where students can access their academic records, grades, and enrollment status. Reflects the same information shown in the COG, subject to data privacy policy. Accessible at myaccount.lspu.edu.ph.\nh:definition: The LSPU Student Portal (myaccount.lspu.edu.ph) is the university's online student account system. Students use it to view grades and enrollment status, enlist subjects during enrollment (old students), view their Certificate of Registration (COR), apply online to complete an INC or 4.0 grade, and check that grades match the Registrar's report. The Citizen's Charter calls it the Student Web Portal or student portal.\nh:hasFunction -> Portal function: enlist subjects for enrollment [h:PortalFn_EnlistSubjects]\nh:hasFunction -> Portal function: check enrollment status [h:PortalFn_EnrollmentStatus]\nh:hasFunction -> Portal function: apply online for completion of INC or 4.0 grade [h:PortalFn_INCCompletion]\nh:hasFunction -> Portal function: request the school Google account [h:PortalFn_RequestGoogleAccount]\nh:hasFunction -> Portal function: verify grades against the Registrar's report [h:PortalFn_VerifyGrades]\nh:hasFunction -> Portal function: view Certificate of Registration (COR) [h:PortalFn_ViewCOR]\nh:hasFunction -> Portal function: view grades [h:PortalFn_ViewGrades]\nh:sourceArticle: Chapter 3, Article 5, Sec. 8.1.2\nh:sourceArticle: Handbook Chapter 3, Article 5, Sec. 8.1.2; Citizen's Charter 2026: Enrollment (Registrar) p. 2-3, Completion of INC/Removal (Colleges, Service 3) p. 86-87, Enrollment Advising (Colleges, Service 9) p. 90\nh:verificationNote: The new-student activation steps come from the ontology maintainer (ICT office inside the CCS building), not from the Handbook or Charter. Confirm the ICT office hours and any requirements before relying on them.\nrdf:type -> Digital Platform [h:DigitalPlatform]\nrdf:type -> Office [h:Office]\nrdfs:comment: LSPU Student Portal, also called myaccount.lspu.edu.ph, the Student Web Portal, or the student portal. It is the university's online student account system for enrollment tasks and academic records.\nrdfs:label: LSPU Student Portal (myaccount.lspu.edu.ph)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Portal function: request the school Google account\nh:definition: Once your portal account is active, you request your school Google account inside the LSPU Student Portal; the account is created from there.\nh:functionOf -> LSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal]\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nrdf:type -> Platform Function [h:PlatformFunction]\nrdfs:label: Portal function: request the school Google account"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Online application form\nh:definition: Submitted via LSPU Online Admission.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Online application form"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Portal function: view grades\nh:definition: Students see their semester grades on the LSPU Portal, which reflects the same information as the Copy of Grades (COG), subject to the data privacy policy.\nh:functionOf -> LSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal]\nh:sourceArticle: Handbook Chapter 3, Article 5, Sec. 8.1.1-8.1.2\nrdf:type -> Platform Function [h:PlatformFunction]\nrdfs:label: Portal function: view grades"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): LSPU ID\nh:definition: Secured from the Business Affairs Office (BAO).\nrdf:type -> Document/Form [h:Document]\nrdfs:label: LSPU ID"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): LSPU Student Portal (myaccount.lspu.edu.ph)\nh:accessUrl: myaccount.lspu.edu.ph\nh:accountRequirement: Official LSPU student account. It is activated after the student is officially enrolled: visit the ICT office inside the College of Computer Studies (CCS) building and have your email and password verified.\nh:audience: New students\nh:audience: Students\nh:contactNote: Online portal where students can access their academic records, grades, and enrollment status. Reflects the same information shown in the COG, subject to data privacy policy. Accessible at myaccount.lspu.edu.ph.\nh:definition: The LSPU Student Portal (myaccount.lspu.edu.ph) is the university's online student account system. Students use it to view grades and enrollment status, enlist subjects during enrollment (old students), view their Certificate of Registration (COR), apply online to complete an INC or 4.0 grade, and check that grades match the Registrar's report. The Citizen's Charter calls it the Student Web Portal or student portal.\nh:hasFunction -> Portal function: enlist subjects for enrollment [h:PortalFn_EnlistSubjects]\nh:hasFunction -> Portal function: check enroll",
+    "answer_for_eval": "On the LSPU Portal, you can do the following:\n\n1. Enlist subjects for enrollment\n2. Check your enrollment status\n3. Apply online for completion of INC or 4.0 grade\n4. Request the school Google account\n5. Verify grades against the Registrar's report\n6. View your Certificate of Registration (COR)\n7. View your grades",
+    "retrieval_query": "What can I do on the LSPU Portal?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:LSPUPortal",
+              "h:hasFunction",
+              "?function"
+            ],
+            [
+              "?function",
+              "rdfs:label",
+              "Portal function: enlist subjects for enrollment"
+            ]
+          ],
+          "select": [
+            "?function"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown prefix: Portal function: enlist subjects for enrollment",
+      "Unknown prefix: Portal function: enlist subjects for enrollment"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 9.23399999999674,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): LSPU Student Portal (myaccount.lspu.edu.ph)\nh:accessUrl: myaccount.lspu.edu.ph\nh:accountRequirement: Official LSPU student account. It is activated after the student is officially enrolled: visit the ICT office inside the College of Computer Studies (CCS) building and have your email and password verified.\nh:audience: New students\nh:audience: Students\nh:contactNote: Online portal where students can access their academic records, grades, and enrollment status. Reflects the same information shown in the COG, subject to data privacy policy. Accessible at myaccount.lspu.edu.ph.\nh:definition: The LSPU Student Portal (myaccount.lspu.edu.ph) is the university's online student account system. Students use it to view grades and enrollment status, enlist subjects during enrollment (old students), view their Certificate of Registration (COR), apply online to complete an INC or 4.0 grade, and check that grades match the Registrar's report. The Citizen's Charter calls it the Student Web Portal or student portal.\nh:hasFunction -> Portal function: enlist subjects for enrollment [h:PortalFn_EnlistSubjects]\nh:hasFunction -> Portal function: check enrollment status [h:PortalFn_EnrollmentStatus]\nh:hasFunction -> Portal function: apply online for completion of INC or 4.0 grade [h:PortalFn_INCCompletion]\nh:hasFunction -> Portal function: request the school Google account [h:PortalFn_RequestGoogleAccount]\nh:hasFunction -> Portal function: verify grades against the Registrar's report [h:PortalFn_VerifyGrades]\nh:hasFunction -> Portal function: view Certificate of Registration (COR) [h:PortalFn_ViewCOR]\nh:hasFunction -> Portal function: view grades [h:PortalFn_ViewGrades]\nh:sourceArticle: Chapter 3, Article 5, Sec. 8.1.2\nh:sourceArticle: Handbook Chapter 3, Article 5, Sec. 8.1.2; Citizen's Charter 2026: Enrollment (Registrar) p. 2-3, Completion of INC/Removal (Colleges, Service 3) p. 86-87, Enrollment Advising (Colleges, Service 9) p. 90\nh:verificationNote: The new-student activation steps come from the ontology maintainer (ICT office inside the CCS building), not from the Handbook or Charter. Confirm the ICT office hours and any requirements before relying on them.\nrdf:type -> Digital Platform [h:DigitalPlatform]\nrdf:type -> Office [h:Office]\nrdfs:comment: LSPU Student Portal, also called myaccount.lspu.edu.ph, the Student Web Portal, or the student portal. It is the university's online student account system for enrollment tasks and academic records.\nrdfs:label: LSPU Student Portal (myaccount.lspu.edu.ph)",
+      "APPROXIMATE MATCH (not an exhaustive result): Portal function: request the school Google account\nh:definition: Once your portal account is active, you request your school Google account inside the LSPU Student Portal; the account is created from there.\nh:functionOf -> LSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal]\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nrdf:type -> Platform Function [h:PlatformFunction]\nrdfs:label: Portal function: request the school Google account",
+      "APPROXIMATE MATCH (not an exhaustive result): Online application form\nh:definition: Submitted via LSPU Online Admission.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Online application form",
+      "APPROXIMATE MATCH (not an exhaustive result): Portal function: view grades\nh:definition: Students see their semester grades on the LSPU Portal, which reflects the same information as the Copy of Grades (COG), subject to the data privacy policy.\nh:functionOf -> LSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal]\nh:sourceArticle: Handbook Chapter 3, Article 5, Sec. 8.1.1-8.1.2\nrdf:type -> Platform Function [h:PlatformFunction]\nrdfs:label: Portal function: view grades",
+      "APPROXIMATE MATCH (not an exhaustive result): LSPU ID\nh:definition: Secured from the Business Affairs Office (BAO).\nrdf:type -> Document/Form [h:Document]\nrdfs:label: LSPU ID"
+    ]
+  },
+  "answer": "On the LSPU Portal, you can do the following:\n\n1. Enlist subjects for enrollment\n2. Check your enrollment status\n3. Apply online for completion of INC or 4.0 grade\n4. Request the school Google account\n5. Verify grades against the Registrar's report\n6. View your Certificate of Registration (COR)\n7. View your grades",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

@@ -1,0 +1,45 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What is the minimum GWA needed to apply for BS Computer Science?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?req=p:AdmReq_BSCS_IS\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasAdmissionRequirement--> p:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS]\nTYPE of p:AdmReq_BSCS_IS: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCS_IS: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?req=p:AdmReq_BSCS_IS\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasAdmissionRequirement--> p:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS]\nTYPE of p:AdmReq_BSCS_IS: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCS_IS: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program",
+    "answer_for_eval": "The evidence does not specify the minimum GWA needed to apply for BS Computer Science.",
+    "retrieval_query": "What is the minimum GWA needed to apply for BS Computer Science",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSCS_IS",
+              "p:hasAdmissionRequirement",
+              "?req"
+            ]
+          ],
+          "select": [
+            "?req"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: p:AdmReq_BSCS_IS"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 10.625,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?req=p:AdmReq_BSCS_IS\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasAdmissionRequirement--> p:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS]\nTYPE of p:AdmReq_BSCS_IS: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCS_IS: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program"
+    ]
+  },
+  "answer": "The evidence does not specify the minimum GWA needed to apply for BS Computer Science.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

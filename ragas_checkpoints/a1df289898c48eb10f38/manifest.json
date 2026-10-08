@@ -1,0 +1,24 @@
+{
+  "pipeline": "oc-rag-3.7-speed-metrics",
+  "model": "gpt-4.1-nano",
+  "judge_model": "gpt-4.1-nano",
+  "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+  "questions": [
+    {
+      "question": "Which programs lead to a board or licensure exam?",
+      "ground_truth": "15 of the 23 programs lead to a PRC licensure examination: BS Psychology (Psychometrician), BS Accountancy (CPA), BS Criminology (Criminologist), BS Fisheries (Fisheries Professional Licensure Examination), BS Food Technology (Food Technologists Licensure Examination), BS Nutrition and Dietetics (Nutritionist-Dietitian), and all 9 CTE teacher-education programs (Licensure Examination for Teachers). The 8 without a board exam are BS Computer Science, both BS Business Administration majors, the three BS Information Technology majors, BS Tourism Management, and BS Hospitality Management."
+    }
+  ],
+  "files": {
+    "C:\\Users\\German Gian\\Documents\\lspu-rag-thesis - Claude\\app.py": "3550c1f780df083b906a2ffd941854f91a0a6f7c7b832e12602c4dff952c287c",
+    "data\\LSPU_ONTOLOGY.ttl": "10399f4cb096506a19eb52e854b30fc10e1c5527abefbc0a25a9d800114b0955",
+    "data\\LSPU_SOURCE.txt": "1fd9baa83a4acadedea1e501ea44453435c7b70505f8c492e9df1eb051bf0335"
+  },
+  "dependencies": {
+    "ragas": "0.3.9",
+    "rdflib": "7.6.0",
+    "sentence-transformers": "6.0.0",
+    "openai": "1.109.1",
+    "langchain-openai": "1.1.9"
+  }
+}

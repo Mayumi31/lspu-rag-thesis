@@ -18,23 +18,18 @@
         <button class="history-toggle" id="historyToggle" type="button" aria-label="Toggle conversation history">☰</button>
 
         <div class="who">
-          <div class="bot-avatar">AI</div>
+          <img class="bot-avatar" src="{{ url_for('assets', filename='images/lspu-chatbot-avatar.png') }}" alt="" onerror="this.style.display='none'">
           <div>
             <h1 class="assistant-title">LSPU Knowledge Assistant</h1>
-            <span class="online">● Ready to help</span>
+            <span class="online">Campus questions. Clearer answers.</span>
           </div>
-        </div>
-
-        <div class="progress-wrap">
-          <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
-          <span class="progress-label" id="progressLabel">Step 1 of 4 · Getting to know you</span>
         </div>
       </div>
 
       <div class="messages" id="chatMessages" role="log" aria-label="Assistant conversation" aria-live="polite" aria-relevant="additions"></div>
 
       <form class="chat-input-bar" id="assistantForm">
-        <input id="assistantInput" type="text" aria-label="Ask the LSPU Assistant" placeholder="Ask the LSPU Assistant anything..." autocomplete="off">
+        <input id="assistantInput" type="text" aria-label="Ask the LSPU Assistant" placeholder="Ask about programs, admissions, or campus life…" autocomplete="off">
         <button id="sendBtn" type="submit">Send</button>
       </form>
     </main>

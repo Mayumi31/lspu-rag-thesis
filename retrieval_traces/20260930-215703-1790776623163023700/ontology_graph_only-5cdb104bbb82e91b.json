@@ -1,0 +1,112 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What career paths can a BS Psychology graduate take?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Psychology\np:degreeAbbreviation: BS Psychology\np:degreeName: Bachelor of Science in Psychology\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Psychology"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:isGeneralInformation: true\np:jobOutcomeDescription: Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\np:jobOutcomeName: Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:provenanceNote: General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:requiresSkill -> Psychological Assessment [p:Skill_PsychAssessment]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Clinical Psychology Track (Psychometrician / further studies toward licensure)"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Psychology\np:degreeAbbreviation: BS Psychology\np:degreeName: Bachelor of Science in Psychology\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Psychology\n\nAPPROXIMATE MATCH (not an exhaustive result): Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:isGeneralInformation: true\np:jobOutcomeDescription: Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\np:jobOutcomeName: Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:provenanceNote: General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:requiresSkill -> Psychological Assessment [p:Skill_PsychAssessment]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Clinical Psychology Track (Psychometrician / further studies toward licensure)",
+    "answer_for_eval": "A BS Psychology graduate can pursue the following career paths:\n\n1. Work as a psychometrician.\n2. Pursue graduate studies and supervised practice toward psychologist licensure under Philippine psychology practice law.",
+    "retrieval_query": "What career paths can a BS Psychology graduate pursue?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSPsych",
+              "p:hasMajor",
+              "?major"
+            ]
+          ],
+          "select": [
+            "?major"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "p:Job_ClinicalPsychTrack",
+              "p:preparesForOutcome",
+              "?outcome"
+            ],
+            [
+              "?outcome",
+              "p:jobOutcomeName",
+              {
+                "literal": "Clinical Psychology Track (Psychometrician / further studies toward licensure)"
+              }
+            ]
+          ],
+          "select": [
+            "?outcome"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "p:Job_CounselingPsychTrack",
+              "p:preparesForOutcome",
+              "?outcome"
+            ],
+            [
+              "?outcome",
+              "p:jobOutcomeName",
+              {
+                "literal": "Counseling / Guidance Track"
+              }
+            ]
+          ],
+          "select": [
+            "?outcome"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "p:Job_IOPsychTrack",
+              "p:preparesForOutcome",
+              "?outcome"
+            ],
+            [
+              "?outcome",
+              "p:jobOutcomeName",
+              {
+                "literal": "Human Resources / Industrial-Organizational Psychology Track"
+              }
+            ]
+          ],
+          "select": [
+            "?outcome"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Query 1 returned no rows; recheck predicates, entity and filters",
+      "Query 1 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 2,
+    "elapsed_seconds": 13.14100000000326,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Psychology\np:degreeAbbreviation: BS Psychology\np:degreeName: Bachelor of Science in Psychology\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Psychology",
+      "APPROXIMATE MATCH (not an exhaustive result): Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:isGeneralInformation: true\np:jobOutcomeDescription: Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\np:jobOutcomeName: Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:provenanceNote: General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:requiresSkill -> Psychological Assessment [p:Skill_PsychAssessment]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Clinical Psychology Track (Psychometrician / further studies toward licensure)"
+    ]
+  },
+  "answer": "A BS Psychology graduate can pursue the following career paths:\n\n1. Work as a psychometrician.\n2. Pursue graduate studies and supervised practice toward psychologist licensure under Philippine psychology practice law.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

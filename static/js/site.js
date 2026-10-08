@@ -10,7 +10,7 @@ if (menuBtn && navLinks) {
     menuBtn.setAttribute("aria-expanded", String(isOpen));
     menuBtn.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
   });
-  navLinks.querySelectorAll("a").forEach(link => {
+  navLinks.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
       navLinks.classList.remove("open");
       menuBtn.setAttribute("aria-expanded", "false");
@@ -20,71 +20,15 @@ if (menuBtn && navLinks) {
 }
 
 /* ==========================================================
-   RECOMMENDATION PAGE: interests -> colleges/programs
-   Data comes from catalog.py (embedded as JSON by the template).
-   ========================================================== */
-const recommendationForm = document.getElementById("recommendationForm");
-if (recommendationForm) {
-  const resultBox = document.getElementById("recommendationResult");
-  const resultList = document.getElementById("recommendationList");
-  const exploreUrl = recommendationForm.dataset.exploreUrl || "/explore";
-  let catalog = [];
-  try {
-    catalog = JSON.parse(document.getElementById("catalog-data").textContent);
-  } catch (err) {
-    console.error("Could not read catalog data", err);
-  }
-  const byId = Object.fromEntries(catalog.map(c => [c.id, c]));
-
-  recommendationForm.addEventListener("submit", event => {
-    event.preventDefault();
-    const selected = [...recommendationForm.querySelectorAll('input[name="interest"]:checked')]
-      .map(input => input.value);
-    resultList.replaceChildren();
-
-    if (selected.length === 0) {
-      const message = document.createElement("p");
-      message.textContent = "Choose at least one interest to see suggested colleges and programs.";
-      resultList.appendChild(message);
-    } else {
-      selected.forEach(key => {
-        const college = byId[key];
-        if (!college) return;
-
-        const article = document.createElement("article");
-        article.className = "suggestion-result";
-        const title = document.createElement("h3");
-        title.textContent = college.name;
-        const description = document.createElement("p");
-        description.textContent = college.recommend;
-        const label = document.createElement("strong");
-        label.textContent = "Related listings: ";
-        const programs = document.createElement("p");
-        programs.append(label, document.createTextNode(college.programs.map(p => p.name).join("; ")));
-        const link = document.createElement("a");
-        link.className = "card-link";
-        link.href = `${exploreUrl}#${key}`;
-        link.textContent = "View college details →";
-        article.append(title, description, programs, link);
-        resultList.appendChild(article);
-      });
-    }
-    resultBox.hidden = false;
-    resultBox.scrollIntoView({ behavior: "smooth", block: "nearest" });
-  });
-}
-
-/* ==========================================================
    ASSISTANT PAGE: real chat wired to /api/chat
    Conversations are kept in this browser's localStorage.
+   No step indicator / progress bar — just the conversation.
    ========================================================== */
 const chatMessages = document.getElementById("chatMessages");
 if (chatMessages) {
   const chatForm = document.getElementById("assistantForm");
   const chatInput = document.getElementById("assistantInput");
   const sendBtn = document.getElementById("sendBtn");
-  const progressFill = document.getElementById("progressFill");
-  const progressLabel = document.getElementById("progressLabel");
   const historyPanel = document.getElementById("historyPanel");
   const historyToggle = document.getElementById("historyToggle");
   const historyList = document.getElementById("historyList");
@@ -92,31 +36,42 @@ if (chatMessages) {
   const newChatBtn = document.getElementById("newChatBtn");
 
   const STORE_KEY = "lspu_conversations_v1";
-  const GREETING = "Hi! I'm the LSPU-LB Knowledge Assistant. What would you like to know about the university, its programs, or the handbook?";
-  const steps = [
-    "Step 1 of 4 · Getting to know you",
-    "Step 2 of 4 · Matching your interests",
-    "Step 3 of 4 · Comparing programs",
-    "Step 4 of 4 · Next steps"
-  ];
+  const GREETING =
+    "Hi! I'm the LSPU-LB Knowledge Assistant. What would you like to know about the university, its programs, or the handbook?";
 
   let conversations = [];
   let current = null;
   let isSending = false;
 
   function loadStore() {
-    try { conversations = JSON.parse(localStorage.getItem(STORE_KEY)) || []; }
-    catch (e) { conversations = []; }
+    try {
+      conversations = JSON.parse(localStorage.getItem(STORE_KEY)) || [];
+    } catch (e) {
+      conversations = [];
+    }
   }
   function saveStore() {
-    try { localStorage.setItem(STORE_KEY, JSON.stringify(conversations.slice(0, 30))); }
-    catch (e) { /* storage unavailable: chat still works, just not saved */ }
+    try {
+      localStorage.setItem(
+        STORE_KEY,
+        JSON.stringify(conversations.slice(0, 30)),
+      );
+    } catch (e) {
+      /* storage unavailable: chat still works, just not saved */
+    }
   }
 
-  const timeNow = () => new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+  const timeNow = () =>
+    new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 
   function newConversation() {
-    current = { id: String(Date.now()), title: "New conversation", updated: Date.now(), saved: false, messages: [] };
+    current = {
+      id: String(Date.now()),
+      title: "New conversation",
+      updated: Date.now(),
+      saved: false,
+      messages: [],
+    };
     current.messages.push({ sender: "ai", text: GREETING, time: timeNow() });
   }
 
@@ -129,16 +84,18 @@ if (chatMessages) {
 
   function renderHistory() {
     historyList.replaceChildren();
-    conversations.forEach(conv => {
+    conversations.forEach((conv) => {
       const li = document.createElement("li");
       const btn = document.createElement("button");
       btn.type = "button";
-      btn.className = "history-item" + (current && conv.id === current.id ? " active" : "");
-      if (current && conv.id === current.id) btn.setAttribute("aria-current", "true");
+      btn.className =
+        "history-item" + (current && conv.id === current.id ? " active" : "");
+      if (current && conv.id === current.id)
+        btn.setAttribute("aria-current", "true");
       const strong = document.createElement("strong");
       strong.textContent = conv.title;
       const span = document.createElement("span");
-      const count = conv.messages.filter(m => m.sender === "student").length;
+      const count = conv.messages.filter((m) => m.sender === "student").length;
       span.textContent = `${fmtDate(conv.updated)} · ${count} question${count === 1 ? "" : "s"}`;
       btn.append(strong, span);
       btn.addEventListener("click", () => {
@@ -156,14 +113,33 @@ if (chatMessages) {
   function buildRow(msg) {
     const row = document.createElement("div");
     row.className = "msg-row " + msg.sender;
-    const avatar = document.createElement("div");
+
+    const avatar =
+      msg.sender === "ai"
+        ? document.createElement("img")
+        : document.createElement("div");
     avatar.className = "msg-avatar";
-    avatar.textContent = msg.sender === "ai" ? "AI" : "You";
+    if (msg.sender === "ai") {
+      avatar.src = "/assets/images/lspu-chatbot-avatar.png";
+      avatar.alt = "";
+      avatar.onerror = () => {
+        avatar.replaceWith(
+          Object.assign(document.createElement("div"), {
+            className: "msg-avatar",
+            textContent: "AI",
+          }),
+        );
+      };
+    } else {
+      avatar.textContent = "You";
+    }
+
     const content = document.createElement("div");
     content.className = "msg-content";
     const bubble = document.createElement("div");
     bubble.className = "msg-bubble" + (msg.error ? " is-error" : "");
-    bubble.textContent = msg.text;
+    ChatUI.format(bubble, msg.text);
+    if (msg.sender === "ai" && !msg.error && msg.sources) bubble.append(ChatUI.sources(msg.sources));
     const time = document.createElement("div");
     time.className = "msg-time";
     time.textContent = msg.time;
@@ -172,19 +148,13 @@ if (chatMessages) {
     return row;
   }
 
-  function scrollToBottom() { chatMessages.scrollTop = chatMessages.scrollHeight; }
-
-  function updateProgress() {
-    const asked = current.messages.filter(m => m.sender === "student").length;
-    const idx = Math.min(asked, steps.length - 1);
-    progressFill.style.width = ((idx + 1) / steps.length) * 100 + "%";
-    progressLabel.textContent = steps[idx];
+  function scrollToBottom() {
+    chatMessages.scrollTop = chatMessages.scrollHeight;
   }
 
   function renderAll() {
     chatMessages.replaceChildren(...current.messages.map(buildRow));
     scrollToBottom();
-    updateProgress();
     renderHistory();
   }
 
@@ -192,12 +162,22 @@ if (chatMessages) {
     const row = document.createElement("div");
     row.className = "msg-row ai typing-row";
     row.id = "typingRow";
-    const avatar = document.createElement("div");
+    const avatar = document.createElement("img");
     avatar.className = "msg-avatar";
-    avatar.textContent = "AI";
+    avatar.src = "/assets/images/lspu-chatbot-avatar.png";
+    avatar.alt = "";
+    avatar.onerror = () => {
+      avatar.replaceWith(
+        Object.assign(document.createElement("div"), {
+          className: "msg-avatar",
+          textContent: "AI",
+        }),
+      );
+    };
     const bubble = document.createElement("div");
     bubble.className = "msg-bubble";
-    bubble.innerHTML = '<span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span>';
+    bubble.innerHTML =
+      '<span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span>';
     row.append(avatar, bubble);
     chatMessages.appendChild(row);
     scrollToBottom();
@@ -226,11 +206,11 @@ if (chatMessages) {
     const userMsg = { sender: "student", text: question, time: timeNow() };
     current.messages.push(userMsg);
     if (current.title === "New conversation") {
-      current.title = question.length > 38 ? question.slice(0, 38) + "…" : question;
+      current.title =
+        question.length > 38 ? question.slice(0, 38) + "…" : question;
     }
     chatMessages.appendChild(buildRow(userMsg));
     persist();
-    updateProgress();
     renderHistory();
     setSending(true);
     showTyping();
@@ -240,19 +220,20 @@ if (chatMessages) {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question })
+        body: JSON.stringify({ question }),
       });
       const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Request failed");
       reply = data.error
         ? { sender: "ai", text: data.error, time: timeNow(), error: true }
-        : { sender: "ai", text: data.answer, time: timeNow() };
+        : { sender: "ai", text: data.answer, sources: data.sources || [], time: timeNow() };
     } catch (err) {
       console.error(err);
       reply = {
         sender: "ai",
         text: "Sorry — I couldn't reach the knowledge base just now. Please try again in a moment.",
         time: timeNow(),
-        error: true
+        error: true,
       };
     }
 
@@ -266,7 +247,7 @@ if (chatMessages) {
     chatInput.focus();
   }
 
-  chatForm.addEventListener("submit", event => {
+  chatForm.addEventListener("submit", (event) => {
     event.preventDefault();
     const question = chatInput.value.trim();
     if (!question || isSending) return;
@@ -283,10 +264,13 @@ if (chatMessages) {
   });
 
   if (historyToggle) {
-    historyToggle.addEventListener("click", () => historyPanel.classList.toggle("open"));
+    historyToggle.addEventListener("click", () =>
+      historyPanel.classList.toggle("open"),
+    );
   }
 
   loadStore();
   newConversation();
   renderAll();
+  chatInput.value = new URLSearchParams(location.search).get("q") || "";
 }

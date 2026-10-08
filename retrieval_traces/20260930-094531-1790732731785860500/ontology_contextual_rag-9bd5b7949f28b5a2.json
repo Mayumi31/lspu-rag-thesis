@@ -1,0 +1,76 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "How long does the fee assessment step of enrollment take?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_447",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_447\nSECTION: Chapter 3 | Article 7. Grading System and Other Grade-related Concerns\nDismissal who wish to take the removal examination or completion must seek the approval of the College Dean through a written petition before removal or completion is given. A student under this arrangement shall pay a removal/completion fee of P20 per unit, whether or not the removal/completion is given during the regularly scheduled periods or during special arrangements.\n\nSec. 6. Credit and Grading for Transferees. Consensus taken in other schools by transferees may be credited, provided that the number of credits to be credited does not exceed 20% of the total number of units.",
+        "score": 0.0576914394848341
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_605",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_605\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 5. Requirements, Obligations, and Responsibilities\nForm, request letter for the conduct of OJT, Memorandum of Agreement, among others.\n\n7.6. The OJT/SIPP Coordinator conducts regular monitoring of the OJT students or interns.\n\n7.7. Assessment and Evaluation of the OJT is accomplished by requiring the student to submit pertinent documents such as daily time record, evaluation form, certificate of completion, among others.\n\n7.8. A presentation of the Narrative Report may be conducted and, upon revision based on the comments/suggestions of the panel, a soft -bound copy is submitted to the OJT/SIPP Coordinator.\n\nSec. 8. Fee. LSPU shall follow the approved students’ internship fee based on CHED Memorandum Order No. 3, Series of 2012 (CMO No. 03, s. 2012), or the “Enhanced Policies, Guidelines, and Procedures Governing Increase in Tuition and Other School Fees, Introduction of New Fees, and for Other Purposes”. In no case shall the school charge the student fees other than the approved/prescribed fee or other school fees duly noted by CHED. Charging of internship fee in accordance with CMO No. 03, s.",
+        "score": 0.05637714892316097
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_467",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_467\nSECTION: Chapter 4 | Article 4. Matriculation and Fees\nArticle 4. Matriculation and Fees\n\nSec. 1. Change of Matriculation. In case of a change in matriculation, a student shall be advised to accomplish the form for change of matriculation to be submitted at first, the accounting office for assessment; then, the office of GSAR for notation and filing. No change of matriculation involving the taking of new subjects shall be allowed after 12% of regular class meetings have been held.\n\nSec. 2. Rules on Fees\n\n2.1. All fees related to enrolment shall be payable in full payment or three (3) installments:\n\n2.1.1. upon enrolment: 50% of total fees\n\n2.1.2. midterm examination: 25% of balance\n\n2.1.3. final examination: the remaining balance\n\n2.2. Under the following conditions, tuition fee paid upon enrolment shall be refunded to any student who withdraws within the first 30 days after the date of registration:\n\n2.2.1. 80% of the amount paid if within the first week of registration, regardless of attendance to classes\n\n2.2.2. 50% of the amount paid if within the second, third, or fourth week after registration, regardless of attendance to classes\n\n2.3. There is no refund for other fees after registration.",
+        "score": 0.04621952999562108
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_127",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_127\nSECTION: 1. Presents the | Verifies as o the | None | 1 minute | Administrative Aide VI\n1. Presents the | Verifies as o the | None | 1 minute | Administrative Aide VI\nOriginal OR, | correctness of the\nSchool ID, | requirement; directs\nRegistration Form | the student to submit\n2\nsets (photocopy) of\nthe required\ndocuments\n2. Submits the | • Stamps the | None | 1 minute | Administrative Aide VI\nverified | documents as\ndocuments | “certified true\ncopy” by the\nRecord Officer or\nauthorized\nrepresentative;\n• prepares\nvoucher for\npayment of\nrefund;\n• informs the\nstudents to claim\nthe refund after 2\ndays\nTOTAL: | None | 2 minutes\n\n2. Assessment of Fees\nThis covers the procedure from checking the completeness of entry in the\nregistration form up to the assessment of fees.\n\nOffice or Division: | Accounting\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nEnrolment Stub | Registrar\nRegistration Form | Registrar\nClearance Form | Accounting Office\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Presents required\ndocuments\n1.1 Undergraduate | Verification if the | None | 15 seconds Administrative Aide VI\nStudents (Thru | student is qualified to",
+        "score": 0.04618300439195962
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_110",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_110\nSECTION: copy of enrolment | Validates the\nSAR Students:\n\nProceeds to\nAccounting Office\non the scheduled\nappointment for\nassessment of\nfees\n3. For College | Receives payment | Fees | 3 minutes | Cashier’s Staff\nStudents who are | and Issues official | reflected on\nnot qualified to | receipts | the\nFree Higher | assessment\nEducation, | form.\nstudents with\nenrolled RLE\n\n3",
+        "score": 0.042617753623188405
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?processingTime\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?processingTime=1 minute per client type\nAccounting fee-assessment service — Step 2: Assessment of school fees [a:AssessFees_Step2] --a:hasProcessingTime--> \"1 minute per client type\"\nTYPE of Accounting fee-assessment service — Step 2: Assessment of school fees: a:ServiceStep\nSOURCE/QUALIFIER for Accounting fee-assessment service — Step 2: Assessment of school fees: a:sourceSection = III. Accounting Office, Service 2: Assessment of Fees, Step 2, p. 10\nSOURCE/QUALIFIER for Accounting fee-assessment service — Step 2: Assessment of school fees: h:verificationNote = This Accounting Office service step records 1 minute per client type; do not substitute it for the enrollment procedure step based on their former shared label."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?processingTime\": 1}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?processingTime=1 minute per client type\nAccounting fee-assessment service — Step 2: Assessment of school fees [a:AssessFees_Step2] --a:hasProcessingTime--> \"1 minute per client type\"\nTYPE of Accounting fee-assessment service — Step 2: Assessment of school fees: a:ServiceStep\nSOURCE/QUALIFIER for Accounting fee-assessment service — Step 2: Assessment of school fees: a:sourceSection = III. Accounting Office, Service 2: Assessment of Fees, Step 2, p. 10\nSOURCE/QUALIFIER for Accounting fee-assessment service — Step 2: Assessment of school fees: h:verificationNote = This Accounting Office service step records 1 minute per client type; do not substitute it for the enrollment procedure step based on their former shared label.\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_447\nSECTION: Chapter 3 | Article 7. Grading System and Other Grade-related Concerns\nDismissal who wish to take the removal examination or completion must seek the approval of the College Dean through a writ",
+    "answer_for_eval": "The fee assessment step of enrollment takes approximately 1 minute per client type.",
+    "retrieval_query": "How long does the fee assessment step of enrollment take?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:AssessFees_Step2",
+              "a:hasProcessingTime",
+              "?processingTime"
+            ]
+          ],
+          "select": [
+            "?processingTime"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 7,
+    "elapsed_seconds": 2.6880000000237487
+  },
+  "answer": "The fee assessment step of enrollment takes approximately 1 minute per client type.",
+  "pipeline_version": "oc-rag-3.0"
+}

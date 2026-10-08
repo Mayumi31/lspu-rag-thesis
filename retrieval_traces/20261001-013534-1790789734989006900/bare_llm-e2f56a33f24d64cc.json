@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What mental health services does the university offer?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The evidence does not specify the mental health services offered by LSPU-LB. Please consult the university's official website or contact their student services for detailed information.",
+    "retrieval_query": "What mental health services does the university offer?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.9689999999827705,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.9689999999827705,
+    "selected_contexts": []
+  },
+  "answer": "The evidence does not specify the mental health services offered by LSPU-LB. Please consult the university's official website or contact their student services for detailed information.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

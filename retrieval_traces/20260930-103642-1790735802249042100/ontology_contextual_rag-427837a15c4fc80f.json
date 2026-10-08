@@ -1,0 +1,108 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What is the LSPUCET, and which office administers it?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_834",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_834\nSECTION: LSPUCET (LSPU COLLEGE ENTRANCE EXAMINATION)\nLSPUCET (LSPU COLLEGE ENTRANCE EXAMINATION)\nSource: campus information supplied by the maintainer (September 2026). The Citizen's Charter and Handbook call this the \"LSPU Entrance Examination\".\nLSPUCET is the LSPU college entrance examination. It is the college entrance exam given by the Guidance Office to student-applicants, free of charge.",
+        "score": 0.06557377049180328
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_820",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_820\nSECTION: GOOGLE WORKSPACE AT LSPU-LB (SCHOOL GOOGLE ACCOUNT)\nis active. The exact account format is not documented.\nBecause it is requested through the portal, activate your portal account first at the ICT office inside the CCS building. Confirm with your college which tools your instructors use.",
+        "score": 0.041762159409218236
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_778",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_778\nSECTION: LSPU-LB CAMPUS: ADDRESS, MAIN PHONE, EMAIL AND OFFICE HOURS\nLSPU-LB CAMPUS: ADDRESS, MAIN PHONE, EMAIL AND OFFICE HOURS\nSource: campus information supplied by the maintainer (September 2026); campus map.\nThe LSPU Los Baños campus (LSPU-LB) is located in Malinta, Los Baños, Laguna.\nMain phone: (049) 308-4530.\nMain email: info@lspu.edu.ph.\nCampus hours: 8:00 AM to 5:00 PM, Monday to Friday.\nThese are general campus details only. Office-specific numbers, emails and hours have not been supplied, and it is unknown whether individual offices (for example the clinic, library or guards) keep different hours. The main line is not an emergency line and is not answered after office hours.",
+        "score": 0.0395959595959596
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_819",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_819\nSECTION: GOOGLE WORKSPACE AT LSPU-LB (SCHOOL GOOGLE ACCOUNT)\nGOOGLE WORKSPACE AT LSPU-LB (SCHOOL GOOGLE ACCOUNT)\nSource: information from the project team and the maintainer that LSPU-LB mainly uses Google Workspace for study. The Student Handbook and Citizen's Charter do not describe it, except the Google Form used in Student ID processing (Citizen's Charter 2026, Business Affairs, Service 1, p. 13) and the Handbook's plan to use Google Classroom as the learning platform. Confirm the exact tools enabled and the account format with the university ICT office.\nGoogle Workspace is Google's suite of online tools (Gmail, Classroom, Meet, Drive, Docs, Sheets, Slides, Forms, Calendar). It is mainly used at LSPU-LB for school-related activities: official school email, online classes and meetings, sharing and submitting coursework, group projects, forms and surveys, and schedules. Students use their school Google account to access these tools.\nAccount requirement: a school-issued Google account. Students request it inside the LSPU Student Portal once their portal account is active. The exact account format is not documented.\nBecause it is requested through the portal, activate your portal account first at the ICT office inside the CCS building.",
+        "score": 0.03794194485929015
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_236",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_236\nSECTION: BE PAID | TIME | RESPONSIBLE\nOffice or Division: | Management information system\nClassification: | Simple\nType of Transaction: | G2G\nWho may avail: | LSPU Internal units; External government agencies\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nRequest Form/Letter | Client\nFEES TO BE PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nPAID | TIME | RESPONSIBLE\nFills out request form/ Receives & Verifies | None | 2 minutes | MIS Chairperson/Staff\nSubmit request letter | request form/request\nletter\nWait for requested | Prepare requested | 2 days | MIS Chairperson/Staff\ndata | data\nNone\nDepends on | Concerned unit staff\nNote:\n\n47",
+        "score": 0.03200204813108039
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?office=Guidance Office\nLSPU Entrance Examination (LSPUCET) [a:Serv_LSPUEntranceExamination] --a:availedAt--> Guidance Office [h:GuidanceOffice]\nLSPU Entrance Examination (LSPUCET) [a:Serv_LSPUEntranceExamination] --rdf:type--> Entrance Exam [a:EntranceExam]\nTYPE of Entrance Exam: http://www.w3.org/2002/07/owl#Class\nTYPE of LSPU Entrance Examination (LSPUCET): a:EntranceExam\nTYPE of LSPU Entrance Examination (LSPUCET): a:Service\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): h:sourceArticle = Citizen's Charter 2026, Guidance Office, Service 1, p. 72-73\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): a:sourceSection = B.XXIV. Guidance Office, Service 1: LSPU Entrance Examination, p. 72\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\nTYPE of Guidance Office: h:Office"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?office=Guidance Office\nLSPU Entrance Examination (LSPUCET) [a:Serv_LSPUEntranceExamination] --a:availedAt--> Guidance Office [h:GuidanceOffice]\nGuidance Office [h:GuidanceOffice] --rdf:type--> Office [h:Office]\nTYPE of LSPU Entrance Examination (LSPUCET): a:EntranceExam\nTYPE of LSPU Entrance Examination (LSPUCET): a:Service\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): h:sourceArticle = Citizen's Charter 2026, Guidance Office, Service 1, p. 72-73\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): a:sourceSection = B.XXIV. Guidance Office, Service 1: LSPU Entrance Examination, p. 72\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\nTYPE of Guidance Office: h:Office\nTYPE of Office: http://www.w3.org/2002/07/owl#Class"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?office=Guidance Office\nLSPU Entrance Examination (LSPUCET) [a:Serv_LSPUEntranceExamination] --a:availedAt--> Guidance Office [h:GuidanceOffice]\nLSPU Entrance Examination (LSPUCET) [a:Serv_LSPUEntranceExamination] --rdf:type--> Entrance Exam [a:EntranceExam]\nTYPE of Entrance Exam: http://www.w3.org/2002/07/owl#Class\nTYPE of LSPU Entrance Examination (LSPUCET): a:EntranceExam\nTYPE of LSPU Entrance Examination (LSPUCET): a:Service\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): h:sourceArticle = Citizen's Charter 2026, Guidance Office, Service 1, p. 72-73\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): a:sourceSection = B.XXIV. Guidance Office, Service 1: LSPU Entrance Examination, p. 72\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\nTYPE of Guidance Office: h:Office\n\nQUERY 2\nGRAPH RESULT 1: ?office=Guidance Office\nLSPU Entrance Examination (LSPUCET) [a:Serv_LSPUEntranceExamination] --a:availedAt--> Guidance Office [h:GuidanceOffice]\nGuidance Office [h:GuidanceOffice] --rdf:type--> Office [h:Office]\nTYPE of LSPU Entrance Examination (LSPUCET): a:Entranc",
+    "answer_for_eval": "The LSPUCET is the LSPU college entrance examination, which is given by the Guidance Office to student-applicants free of charge. The office that administers it is the Guidance Office.",
+    "retrieval_query": "What is the LSPUCET and which office administers it?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:Serv_LSPUEntranceExamination",
+              "rdf:type",
+              "a:EntranceExam"
+            ],
+            [
+              "a:Serv_LSPUEntranceExamination",
+              "a:availedAt",
+              "?office"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "a:Serv_LSPUEntranceExamination",
+              "a:availedAt",
+              "?office"
+            ],
+            [
+              "?office",
+              "rdf:type",
+              "h:Office"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 7,
+    "elapsed_seconds": 0.7959999999729916,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?office=Guidance Office\nLSPU Entrance Examination (LSPUCET) [a:Serv_LSPUEntranceExamination] --a:availedAt--> Guidance Office [h:GuidanceOffice]\nLSPU Entrance Examination (LSPUCET) [a:Serv_LSPUEntranceExamination] --rdf:type--> Entrance Exam [a:EntranceExam]\nTYPE of Entrance Exam: http://www.w3.org/2002/07/owl#Class\nTYPE of LSPU Entrance Examination (LSPUCET): a:EntranceExam\nTYPE of LSPU Entrance Examination (LSPUCET): a:Service\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): h:sourceArticle = Citizen's Charter 2026, Guidance Office, Service 1, p. 72-73\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): a:sourceSection = B.XXIV. Guidance Office, Service 1: LSPU Entrance Examination, p. 72\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\nTYPE of Guidance Office: h:Office",
+      "QUERY 2\nGRAPH RESULT 1: ?office=Guidance Office\nLSPU Entrance Examination (LSPUCET) [a:Serv_LSPUEntranceExamination] --a:availedAt--> Guidance Office [h:GuidanceOffice]\nGuidance Office [h:GuidanceOffice] --rdf:type--> Office [h:Office]\nTYPE of LSPU Entrance Examination (LSPUCET): a:EntranceExam\nTYPE of LSPU Entrance Examination (LSPUCET): a:Service\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): h:sourceArticle = Citizen's Charter 2026, Guidance Office, Service 1, p. 72-73\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): a:sourceSection = B.XXIV. Guidance Office, Service 1: LSPU Entrance Examination, p. 72\nSOURCE/QUALIFIER for LSPU Entrance Examination (LSPUCET): a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\nTYPE of Guidance Office: h:Office\nTYPE of Office: http://www.w3.org/2002/07/owl#Class",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_834\nSECTION: LSPUCET (LSPU COLLEGE ENTRANCE EXAMINATION)\nLSPUCET (LSPU COLLEGE ENTRANCE EXAMINATION)\nSource: campus information supplied by the maintainer (September 2026). The Citizen's Charter and Handbook call this the \"LSPU Entrance Examination\".\nLSPUCET is the LSPU college entrance examination. It is the college entrance exam given by the Guidance Office to student-applicants, free of charge.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_820\nSECTION: GOOGLE WORKSPACE AT LSPU-LB (SCHOOL GOOGLE ACCOUNT)\nis active. The exact account format is not documented.\nBecause it is requested through the portal, activate your portal account first at the ICT office inside the CCS building. Confirm with your college which tools your instructors use.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_778\nSECTION: LSPU-LB CAMPUS: ADDRESS, MAIN PHONE, EMAIL AND OFFICE HOURS\nLSPU-LB CAMPUS: ADDRESS, MAIN PHONE, EMAIL AND OFFICE HOURS\nSource: campus information supplied by the maintainer (September 2026); campus map.\nThe LSPU Los Baños campus (LSPU-LB) is located in Malinta, Los Baños, Laguna.\nMain phone: (049) 308-4530.\nMain email: info@lspu.edu.ph.\nCampus hours: 8:00 AM to 5:00 PM, Monday to Friday.\nThese are general campus details only. Office-specific numbers, emails and hours have not been supplied, and it is unknown whether individual offices (for example the clinic, library or guards) keep different hours. The main line is not an emergency line and is not answered after office hours.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_819\nSECTION: GOOGLE WORKSPACE AT LSPU-LB (SCHOOL GOOGLE ACCOUNT)\nGOOGLE WORKSPACE AT LSPU-LB (SCHOOL GOOGLE ACCOUNT)\nSource: information from the project team and the maintainer that LSPU-LB mainly uses Google Workspace for study. The Student Handbook and Citizen's Charter do not describe it, except the Google Form used in Student ID processing (Citizen's Charter 2026, Business Affairs, Service 1, p. 13) and the Handbook's plan to use Google Classroom as the learning platform. Confirm the exact tools enabled and the account format with the university ICT office.\nGoogle Workspace is Google's suite of online tools (Gmail, Classroom, Meet, Drive, Docs, Sheets, Slides, Forms, Calendar). It is mainly used at LSPU-LB for school-related activities: official school email, online classes and meetings, sharing and submitting coursework, group projects, forms and surveys, and schedules. Students use their school Google account to access these tools.\nAccount requirement: a school-issued Google account. Students request it inside the LSPU Student Portal once their portal account is active. The exact account format is not documented.\nBecause it is requested through the portal, activate your portal account first at the ICT office inside the CCS building.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_236\nSECTION: BE PAID | TIME | RESPONSIBLE\nOffice or Division: | Management information system\nClassification: | Simple\nType of Transaction: | G2G\nWho may avail: | LSPU Internal units; External government agencies\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nRequest Form/Letter | Client\nFEES TO BE PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nPAID | TIME | RESPONSIBLE\nFills out request form/ Receives & Verifies | None | 2 minutes | MIS Chairperson/Staff\nSubmit request letter | request form/request\nletter\nWait for requested | Prepare requested | 2 days | MIS Chairperson/Staff\ndata | data\nNone\nDepends on | Concerned unit staff\nNote:\n\n47"
+    ]
+  },
+  "answer": "The LSPUCET is the LSPU college entrance examination, which is given by the Guidance Office to student-applicants free of charge. The office that administers it is the Guidance Office.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

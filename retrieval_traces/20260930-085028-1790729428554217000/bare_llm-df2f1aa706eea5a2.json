@@ -1,0 +1,18 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "How many units is GEC 101 (Understanding the Self) in BS Psychology?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "GEC 101 (Understanding the Self) in BS Psychology is typically 3 units.",
+    "retrieval_query": "How many units is GEC 101 (Understanding the Self) in BS Psychology?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.8589999999967404
+  },
+  "answer": "GEC 101 (Understanding the Self) in BS Psychology is typically 3 units.",
+  "pipeline_version": "oc-rag-3.0"
+}

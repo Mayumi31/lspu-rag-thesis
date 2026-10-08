@@ -1,0 +1,87 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What is BSCS all about?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_14",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_14\nSECTION: PROGRAM: Bachelor of Science in Computer Science - Major in Intelligent Systems | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Computer Science (BSCS) | Major: Intelligent Systems\ntechnical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.03252247488101534
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_29",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_29\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Service Management Program | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Service Management Program\nand ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.03200204813108039
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_27",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_27\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Web and Mobile Application Development\nand ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.031009615384615385
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_25",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_25\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Animation and Motion Graphics\nand ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.03036576949620428
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_13",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_13\nSECTION: PROGRAM: Bachelor of Science in Computer Science - Major in Intelligent Systems | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Computer Science (BSCS) | Major: Intelligent Systems\napplications and systems.\n- AI/Research Assistant: Supports research and development in computer vision, NLP, or robotics, or pursues graduate study in AI.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 90.0\n- Note: CCS gives priority to STEM and ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.",
+        "score": 0.028814262023217248
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?entity=Bachelor of Science in Computer Science\nBachelor of Science in Computer Science [p:Degree_BSCS] --p:degreeName--> \"Bachelor of Science in Computer Science\"\nBachelor of Science in Computer Science [p:Degree_BSCS] --rdf:type--> Degree [p:Degree]\nTYPE of Degree: http://www.w3.org/2002/07/owl#Class\nTYPE of Bachelor of Science in Computer Science: p:Degree"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?entity=Bachelor of Science in Computer Science\nBachelor of Science in Computer Science [p:Degree_BSCS] --p:degreeName--> \"Bachelor of Science in Computer Science\"\nBachelor of Science in Computer Science [p:Degree_BSCS] --rdf:type--> Degree [p:Degree]\nTYPE of Degree: http://www.w3.org/2002/07/owl#Class\nTYPE of Bachelor of Science in Computer Science: p:Degree\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_14\nSECTION: PROGRAM: Bachelor of Science in Computer Science - Major in Intelligent Systems | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Computer Science (BSCS) | Major: Intelligent Systems\ntechnical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_29\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Service Management Program | Colle",
+    "answer_for_eval": "BSCS (Bachelor of Science in Computer Science) is about designing, developing, and evaluating computing solutions using current techniques, skills, and tools to meet specific computing or IT problems. It also emphasizes effective communication of technical work to both technical and non-technical stakeholders, and supports research and development in areas like AI, computer vision, NLP, and robotics.",
+    "retrieval_query": "What is BSCS all about?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?entity",
+              "rdf:type",
+              "p:Degree"
+            ],
+            [
+              "?entity",
+              "p:degreeName",
+              {
+                "literal": "Bachelor of Science in Computer Science"
+              }
+            ]
+          ],
+          "select": [
+            "?entity"
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 6,
+    "elapsed_seconds": 7.625,
+    "retrieval_seconds": 5.85999999998603,
+    "generation_seconds": 1.7650000000139698,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?entity=Bachelor of Science in Computer Science\nBachelor of Science in Computer Science [p:Degree_BSCS] --p:degreeName--> \"Bachelor of Science in Computer Science\"\nBachelor of Science in Computer Science [p:Degree_BSCS] --rdf:type--> Degree [p:Degree]\nTYPE of Degree: http://www.w3.org/2002/07/owl#Class\nTYPE of Bachelor of Science in Computer Science: p:Degree",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_14\nSECTION: PROGRAM: Bachelor of Science in Computer Science - Major in Intelligent Systems | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Computer Science (BSCS) | Major: Intelligent Systems\ntechnical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_29\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Service Management Program | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Service Management Program\nand ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_27\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Web and Mobile Application Development\nand ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_25\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Animation and Motion Graphics\nand ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_13\nSECTION: PROGRAM: Bachelor of Science in Computer Science - Major in Intelligent Systems | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Computer Science (BSCS) | Major: Intelligent Systems\napplications and systems.\n- AI/Research Assistant: Supports research and development in computer vision, NLP, or robotics, or pursues graduate study in AI.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 90.0\n- Note: CCS gives priority to STEM and ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A."
+    ]
+  },
+  "answer": "BSCS (Bachelor of Science in Computer Science) is about designing, developing, and evaluating computing solutions using current techniques, skills, and tools to meet specific computing or IT problems. It also emphasizes effective communication of technical work to both technical and non-technical stakeholders, and supports research and development in areas like AI, computer vision, NLP, and robotics.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

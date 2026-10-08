@@ -1,0 +1,138 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What mental health services does the university offer?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Health Services\nh:definition: Provides medical/dental services information to faculty and students, ensures sufficient emergency medicines and equipment, and conducts regular first-aid training.\nh:sourceArticle: Chapter 5, Article 3, Sec. 4\nrdf:type -> Student Service [h:StudentService]\nrdfs:label: Health Services"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): University Health Service\nh:additionalInfo: Go to this office for: medical and dental care.\nh:locatedAtPlace -> Location of University Health Service / Clinic [h:Loc_Clinic]\nrdf:type -> Office [h:Office]\nrdfs:label: University Health Service"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Mental Health Counseling and Referral\nh:audience: All students\nh:definition: Assessment, counseling, and referral for students with mental health concerns; university health service personnel may assess students aged 15-17 with consent/assent.\nh:eligibilityCriteria: All enrolled students; assessment of minors aged 15-17 requires consent and assent.\nh:requiresDocument -> Informed Consent Form (for adult clients) [h:Doc_InformedConsentAdult]\nh:requiresDocument -> Informed Consent Form (for minor clients) [h:Doc_InformedConsentMinor]\nh:sourceArticle: Chapter on Mental Health Services, Article 6-8\nrdf:type -> Mental Health Service [h:MentalHealthService]\nrdfs:label: Mental Health Counseling and Referral"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Guidance and Counseling Services\nh:audience: All students\nh:definition: Individual and group counseling, case conferences with parents/students, and follow-up/referral for students with cases to a multidisciplinary team.\nh:providedBy -> Guidance Office [h:GuidanceOffice]\nh:sourceArticle: Chapter 5, Article 1, Sec. 2\nrdf:type -> Student Service [h:StudentService]\nrdfs:label: Guidance and Counseling Services"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:isGeneralInformation: true\np:jobOutcomeDescription: Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\np:jobOutcomeName: Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:provenanceNote: General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:requiresSkill -> Psychological Assessment [p:Skill_PsychAssessment]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Clinical Psychology Track (Psychometrician / further studies toward licensure)"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Health Services\nh:definition: Provides medical/dental services information to faculty and students, ensures sufficient emergency medicines and equipment, and conducts regular first-aid training.\nh:sourceArticle: Chapter 5, Article 3, Sec. 4\nrdf:type -> Student Service [h:StudentService]\nrdfs:label: Health Services\n\nAPPROXIMATE MATCH (not an exhaustive result): University Health Service\nh:additionalInfo: Go to this office for: medical and dental care.\nh:locatedAtPlace -> Location of University Health Service / Clinic [h:Loc_Clinic]\nrdf:type -> Office [h:Office]\nrdfs:label: University Health Service\n\nAPPROXIMATE MATCH (not an exhaustive result): Mental Health Counseling and Referral\nh:audience: All students\nh:definition: Assessment, counseling, and referral for students with mental health concerns; university health service personnel may assess students aged 15-17 with consent/assent.\nh:eligibilityCriteria: All enrolled students; assessment of minors aged 15-17 requires consent and assent.\nh:requiresDocument -> Informed Consent Form (for adult clients) [h:Doc_InformedConsentAdult]\nh:requiresDocument -> Informed Consent Form (for minor cli",
+    "answer_for_eval": "The university offers the following mental health services:\n1. Mental Health Counseling and Referral: Assessment, counseling, and referral for students with mental health concerns, with university health service personnel able to assess students aged 15-17 with consent/assent.\n2. Guidance and Counseling Services: Individual and group counseling, case conferences with parents/students, and follow-up/referral for students with cases to a multidisciplinary team.",
+    "retrieval_query": "What mental health services does the university offer?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Svc_MentalHealthCounseling",
+              "rdf:type",
+              "h:MentalHealthService"
+            ],
+            [
+              "h:Svc_MentalHealthCounseling",
+              "h:definition",
+              {
+                "literal": "Assessment, counseling, and referral for students with mental health concerns; university health service personnel may assess students aged 15-17 with consent/assent."
+              }
+            ]
+          ],
+          "select": [
+            "?x"
+          ]
+        },
+        {
+          "patterns": [
+            [
+              "h:Svc_GuidanceCounseling",
+              "rdf:type",
+              "h:StudentService"
+            ],
+            [
+              "h:Svc_GuidanceCounseling",
+              "h:definition",
+              {
+                "literal": "Individual and group counseling, case conferences with parents/students, and follow-up/referral for students with cases to a multidisciplinary team."
+              }
+            ],
+            [
+              "h:Svc_GuidanceCounseling",
+              "h:providedBy",
+              "h:GuidanceOffice"
+            ]
+          ],
+          "select": [
+            "?x"
+          ]
+        },
+        {
+          "patterns": [
+            [
+              "h:EC_GuidanceOffice",
+              "rdf:type",
+              "h:EmergencyContact"
+            ],
+            [
+              "h:EC_GuidanceOffice",
+              "h:contactFor",
+              {
+                "literal": "Emotional distress, mental health concerns, and support after a bullying or harassment incident."
+              }
+            ]
+          ],
+          "select": [
+            "?x"
+          ]
+        },
+        {
+          "patterns": [
+            [
+              "h:EC_UniversityHealthService",
+              "rdf:type",
+              "h:EmergencyContact"
+            ],
+            [
+              "h:EC_UniversityHealthService",
+              "h:contactFor",
+              {
+                "literal": "Feeling sick, minor injuries, and first medical assessment on campus."
+              }
+            ]
+          ],
+          "select": [
+            "?x"
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 7.827999999979511,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Health Services\nh:definition: Provides medical/dental services information to faculty and students, ensures sufficient emergency medicines and equipment, and conducts regular first-aid training.\nh:sourceArticle: Chapter 5, Article 3, Sec. 4\nrdf:type -> Student Service [h:StudentService]\nrdfs:label: Health Services",
+      "APPROXIMATE MATCH (not an exhaustive result): University Health Service\nh:additionalInfo: Go to this office for: medical and dental care.\nh:locatedAtPlace -> Location of University Health Service / Clinic [h:Loc_Clinic]\nrdf:type -> Office [h:Office]\nrdfs:label: University Health Service",
+      "APPROXIMATE MATCH (not an exhaustive result): Mental Health Counseling and Referral\nh:audience: All students\nh:definition: Assessment, counseling, and referral for students with mental health concerns; university health service personnel may assess students aged 15-17 with consent/assent.\nh:eligibilityCriteria: All enrolled students; assessment of minors aged 15-17 requires consent and assent.\nh:requiresDocument -> Informed Consent Form (for adult clients) [h:Doc_InformedConsentAdult]\nh:requiresDocument -> Informed Consent Form (for minor clients) [h:Doc_InformedConsentMinor]\nh:sourceArticle: Chapter on Mental Health Services, Article 6-8\nrdf:type -> Mental Health Service [h:MentalHealthService]\nrdfs:label: Mental Health Counseling and Referral",
+      "APPROXIMATE MATCH (not an exhaustive result): Guidance and Counseling Services\nh:audience: All students\nh:definition: Individual and group counseling, case conferences with parents/students, and follow-up/referral for students with cases to a multidisciplinary team.\nh:providedBy -> Guidance Office [h:GuidanceOffice]\nh:sourceArticle: Chapter 5, Article 1, Sec. 2\nrdf:type -> Student Service [h:StudentService]\nrdfs:label: Guidance and Counseling Services",
+      "APPROXIMATE MATCH (not an exhaustive result): Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:isGeneralInformation: true\np:jobOutcomeDescription: Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\np:jobOutcomeName: Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:provenanceNote: General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:requiresSkill -> Psychological Assessment [p:Skill_PsychAssessment]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Clinical Psychology Track (Psychometrician / further studies toward licensure)"
+    ]
+  },
+  "answer": "The university offers the following mental health services:\n1. Mental Health Counseling and Referral: Assessment, counseling, and referral for students with mental health concerns, with university health service personnel able to assess students aged 15-17 with consent/assent.\n2. Guidance and Counseling Services: Individual and group counseling, case conferences with parents/students, and follow-up/referral for students with cases to a multidisciplinary team.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

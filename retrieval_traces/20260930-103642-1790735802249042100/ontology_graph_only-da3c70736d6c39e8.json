@@ -1,0 +1,80 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What programs does the College of Computer Studies offer?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): College of Computer Studies\nh:collegeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:definition: The College of Computer Studies (CCS) offers 4 programs: BS Computer Science major in Intelligent Systems, and BS Information Technology majors in Animation and Motion Graphics, Web and Mobile Application Development, and Service Management Program. CCS gives priority to STEM and ICT/ICTS strand applicants.\nh:hasStudentOrganization -> College of Computer Studies Student Council (CCS-SC) [h:Org_Council_CCS]\nh:programCount: 4\np:collegeAbbreviation: CCS\np:collegeName: College of Computer Studies\np:hasProgram -> Bachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS]\np:hasProgram -> Bachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG]\np:hasProgram -> Bachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM]\np:hasProgram -> Bachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD]\np:sourceDataGap: Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nrdf:type -> College [p:College]\nrdfs:label: College of Computer Studies"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): College of Computer Studies (CCS) Dean's Office\nh:locatedAtPlace -> Location of CCS Building (College of Computer Studies) [h:Loc_CCS]\nrdf:type -> Office [h:Office]\nrdfs:label: College of Computer Studies (CCS) Dean's Office"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Computer Science\np:degreeAbbreviation: BSCS\np:degreeName: Bachelor of Science in Computer Science\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Computer Science"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): CSEL 303 — Computational Science (BSCS - Major in Intelligent Systems, Year 3, 2nd Semester)\np:belongsToProgram -> Bachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS]\np:hasPrerequisite -> CMSC 204 — Algorithms and Complexity (BSCS - Major in Intelligent Systems, Year 2, 2nd Semester) [p:Subj_BSCS_IS_CMSC204]\np:laboratoryUnits: 1\np:lectureUnits: 2\np:semester: 2nd Semester\np:sourceDocument: campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter).\np:subjectCode: CSEL 303\np:subjectDescription: Applies computational methods to solve scientific and mathematical problems. Students use programming and numerical methods to model real-world phenomena. The course builds directly on algorithmic foundations from earlier coursework.\np:subjectTitle: Computational Science\np:units: 3\np:yearLevel: 3\nrdf:type -> Subject (as prescribed in a program's curriculum) [p:Subject]\nrdfs:label: CSEL 303 — Computational Science (BSCS - Major in Intelligent Systems, Year 3, 2nd Semester)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\np:cmoCitation: CMO No. 25, s. 2015\np:cmoNumber: 25\np:cmoSeriesYear: 2015\np:cmoTitle: Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\np:hasProgramObjective -> p:PEO_CS_IT_1 [p:PEO_CS_IT_1]\np:hasProgramObjective -> p:PEO_CS_IT_2 [p:PEO_CS_IT_2]\np:isLegalBasisFor -> Bachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS]\np:isLegalBasisFor -> Bachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG]\np:isLegalBasisFor -> Bachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM]\np:isLegalBasisFor -> Bachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD]\np:sourceDocument: Supplied directly by the user's CMO list (batch of 11).\nrdf:type -> CHED Memorandum Order (CMO) [p:CMO]\nrdfs:label: Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): College of Computer Studies\nh:collegeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:definition: The College of Computer Studies (CCS) offers 4 programs: BS Computer Science major in Intelligent Systems, and BS Information Technology majors in Animation and Motion Graphics, Web and Mobile Application Development, and Service Management Program. CCS gives priority to STEM and ICT/ICTS strand applicants.\nh:hasStudentOrganization -> College of Computer Studies Student Council (CCS-SC) [h:Org_Council_CCS]\nh:programCount: 4\np:collegeAbbreviation: CCS\np:collegeName: College of Computer Studies\np:hasProgram -> Bachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS]\np:hasProgram -> Bachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG]\np:hasProgram -> Bachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM]\np:hasProgram -> Bachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD]\np:sourceDataGap: Resolved: the earlier Program Offers document named t",
+    "answer_for_eval": "The College of Computer Studies offers the following programs:\n1. Bachelor of Science in Computer Science - Major in Intelligent Systems\n2. Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\n3. Bachelor of Science in Information Technology - Major in Service Management Program\n4. Bachelor of Science in Information Technology - Major in Web and Mobile Application Development",
+    "retrieval_query": "What programs does the College of Computer Studies offer?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:College",
+              "rdf:type",
+              "p:College"
+            ],
+            [
+              "p:College",
+              "p:collegeName",
+              "College of Computer Studies"
+            ],
+            [
+              "p:College",
+              "p:hasProgram",
+              "?program"
+            ]
+          ],
+          "select": [
+            "?program"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown prefix: College of Computer Studies",
+      "Unknown prefix: College of Computer Studies"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 10.952999999979511,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): College of Computer Studies\nh:collegeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:definition: The College of Computer Studies (CCS) offers 4 programs: BS Computer Science major in Intelligent Systems, and BS Information Technology majors in Animation and Motion Graphics, Web and Mobile Application Development, and Service Management Program. CCS gives priority to STEM and ICT/ICTS strand applicants.\nh:hasStudentOrganization -> College of Computer Studies Student Council (CCS-SC) [h:Org_Council_CCS]\nh:programCount: 4\np:collegeAbbreviation: CCS\np:collegeName: College of Computer Studies\np:hasProgram -> Bachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS]\np:hasProgram -> Bachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG]\np:hasProgram -> Bachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM]\np:hasProgram -> Bachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD]\np:sourceDataGap: Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nrdf:type -> College [p:College]\nrdfs:label: College of Computer Studies",
+      "APPROXIMATE MATCH (not an exhaustive result): College of Computer Studies (CCS) Dean's Office\nh:locatedAtPlace -> Location of CCS Building (College of Computer Studies) [h:Loc_CCS]\nrdf:type -> Office [h:Office]\nrdfs:label: College of Computer Studies (CCS) Dean's Office",
+      "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Computer Science\np:degreeAbbreviation: BSCS\np:degreeName: Bachelor of Science in Computer Science\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Computer Science",
+      "APPROXIMATE MATCH (not an exhaustive result): CSEL 303 — Computational Science (BSCS - Major in Intelligent Systems, Year 3, 2nd Semester)\np:belongsToProgram -> Bachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS]\np:hasPrerequisite -> CMSC 204 — Algorithms and Complexity (BSCS - Major in Intelligent Systems, Year 2, 2nd Semester) [p:Subj_BSCS_IS_CMSC204]\np:laboratoryUnits: 1\np:lectureUnits: 2\np:semester: 2nd Semester\np:sourceDocument: campus_curriculum_clean.md (maintainer-supplied campus curriculum; not from the CHED CMO, Handbook or Citizen's Charter).\np:subjectCode: CSEL 303\np:subjectDescription: Applies computational methods to solve scientific and mathematical problems. Students use programming and numerical methods to model real-world phenomena. The course builds directly on algorithmic foundations from earlier coursework.\np:subjectTitle: Computational Science\np:units: 3\np:yearLevel: 3\nrdf:type -> Subject (as prescribed in a program's curriculum) [p:Subject]\nrdfs:label: CSEL 303 — Computational Science (BSCS - Major in Intelligent Systems, Year 3, 2nd Semester)",
+      "APPROXIMATE MATCH (not an exhaustive result): Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\np:cmoCitation: CMO No. 25, s. 2015\np:cmoNumber: 25\np:cmoSeriesYear: 2015\np:cmoTitle: Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\np:hasProgramObjective -> p:PEO_CS_IT_1 [p:PEO_CS_IT_1]\np:hasProgramObjective -> p:PEO_CS_IT_2 [p:PEO_CS_IT_2]\np:isLegalBasisFor -> Bachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS]\np:isLegalBasisFor -> Bachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG]\np:isLegalBasisFor -> Bachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM]\np:isLegalBasisFor -> Bachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD]\np:sourceDocument: Supplied directly by the user's CMO list (batch of 11).\nrdf:type -> CHED Memorandum Order (CMO) [p:CMO]\nrdfs:label: Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs"
+    ]
+  },
+  "answer": "The College of Computer Studies offers the following programs:\n1. Bachelor of Science in Computer Science - Major in Intelligent Systems\n2. Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\n3. Bachelor of Science in Information Technology - Major in Service Management Program\n4. Bachelor of Science in Information Technology - Major in Web and Mobile Application Development",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

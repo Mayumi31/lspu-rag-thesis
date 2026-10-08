@@ -1,0 +1,48 @@
+{
+  "pipeline": "oc-rag-3.0",
+  "model": "gpt-4.1-nano",
+  "judge_model": "gpt-4.1-nano",
+  "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+  "questions": [
+    {
+      "question": "Which law is the offense of illegal access or hacking based on?",
+      "ground_truth": "Illegal access or hacking is based on RA 10175, the Cybercrime Prevention Act of 2012."
+    },
+    {
+      "question": "Is smoking a minor or a major offense?",
+      "ground_truth": "Smoking is a minor offense (Student Handbook, Ch. 6 Art. 3 Sec. 6). Smoking within University premises is strictly prohibited to all students."
+    },
+    {
+      "question": "What kinds of attire are prohibited on campus?",
+      "ground_truth": "Prohibited campus attire includes shorts, walking shorts and cycling shorts; pedal pushers; capri pants; cargo shorts; mutilated or jazzed pants; faded, torn or wrinkled shirts; jogging pants; miniskirts; sleeveless, backless, halter and spaghetti-strap tops; sandos; plunging necklines; leggings; and slippers. A student violating the uniform provision is not allowed to enter the University gates unless a promissory note or communication letter from OSAS is presented."
+    },
+    {
+      "question": "What haircut must male 2nd to 4th year college students follow?",
+      "ground_truth": "Male 2nd to 4th year college students follow a clean-cut or 1x2 barber's cut, which is inspected monthly. Male freshmen and Senior High School students follow a 2x3 cut."
+    },
+    {
+      "question": "Do school rules still apply if I violate them during OJT or an off-campus competition?",
+      "ground_truth": "Yes. Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP)."
+    },
+    {
+      "question": "What academic statuses can a student be placed under?",
+      "ground_truth": "The academic statuses are Warning (given by the Dean when a student fails 25%-49% of total registered units), Probation (fails 50%-74% of units; load is reduced by the Dean), Dismissal from the College (fails more than 75% of enrolled units), and Disqualification (an enrollment-status flag that may appear on the Copy of Grades alongside the others)."
+    },
+    {
+      "question": "Is drinking alcoholic beverages a minor or a major offense?",
+      "ground_truth": "Drinking alcoholic beverages, or exhibiting drunken behavior within University premises, is a major offense (Student Handbook, Ch. 6 Art. 2 Sec. 6.1). Sanctions: a first offense is one week of suspension plus 40 hours of community service in the institution; a second offense is suspension for one semester; a third offense is expulsion from the University."
+    }
+  ],
+  "files": {
+    "C:\\Users\\German Gian\\Documents\\lspu-rag-thesis - Claude\\app.py": "f639da517664f56d38a093a384fe53d14611cf21ff49fcc933d87afa7fc129a0",
+    "data\\LSPU_ONTOLOGY.ttl": "9949c2ffc4a6b2e72025cc95736d737cc3e5f29e990797021387c6620983b997",
+    "data\\LSPU_SOURCE.txt": "1fd9baa83a4acadedea1e501ea44453435c7b70505f8c492e9df1eb051bf0335"
+  },
+  "dependencies": {
+    "ragas": "0.3.9",
+    "rdflib": "7.6.0",
+    "sentence-transformers": "6.0.0",
+    "openai": "1.109.1",
+    "langchain-openai": "1.1.9"
+  }
+}

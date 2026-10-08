@@ -1,0 +1,64 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Which office issues the Copy of Grades (COG)?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Copy of Grades (COG)\nh:additionalInfo: COG (Copy of Grades): Official record of your grades for a semester issued by the Registrar; its information is also shown on the LSPU Portal.\nh:definition: Official record of a student's grades for a given semester issued by the Office of the Registrar at the end of each semester. Also indicates enrollment status flags such as Warning, Probation, Dismissal, Disqualification, or INC. Used by the College Dean for retention evaluation and by the student to monitor academic standing via the LSPU Portal.\nh:issuedBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:sourceArticle: Chapter 3, Article 5, Sec. 8.1.1\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Copy of Grades (COG)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Copy of Evaluation of Grades\nh:definition: Secured from: Registrar.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Copy of Evaluation of Grades"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Copy of Grades (COG)\nh:additionalInfo: COG (Copy of Grades): Official record of your grades for a semester issued by the Registrar; its information is also shown on the LSPU Portal.\nh:definition: Official record of a student's grades for a given semester issued by the Office of the Registrar at the end of each semester. Also indicates enrollment status flags such as Warning, Probation, Dismissal, Disqualification, or INC. Used by the College Dean for retention evaluation and by the student to monitor academic standing via the LSPU Portal.\nh:issuedBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:sourceArticle: Chapter 3, Article 5, Sec. 8.1.1\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Copy of Grades (COG)\n\nAPPROXIMATE MATCH (not an exhaustive result): Copy of Evaluation of Grades\nh:definition: Secured from: Registrar.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Copy of Evaluation of Grades",
+    "answer_for_eval": "The Copy of Grades (COG) is issued by the Office of the Registrar.",
+    "retrieval_query": "Which office issues the Copy of Grades (COG)?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:OfficeOfTheRegistrar",
+              "h:issues",
+              "h:Document"
+            ],
+            [
+              "h:Document",
+              "rdf:type",
+              "h:Document"
+            ],
+            [
+              "h:Document",
+              "rdfs:label",
+              "Copy of Grades (COG)"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown prefix: Copy of Grades (COG)",
+      "Unknown prefix: Copy of Grades (COG)"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 2,
+    "elapsed_seconds": 11.28100000001723,
+    "retrieval_seconds": 10.59299999999348,
+    "generation_seconds": 0.6880000000237487,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Copy of Grades (COG)\nh:additionalInfo: COG (Copy of Grades): Official record of your grades for a semester issued by the Registrar; its information is also shown on the LSPU Portal.\nh:definition: Official record of a student's grades for a given semester issued by the Office of the Registrar at the end of each semester. Also indicates enrollment status flags such as Warning, Probation, Dismissal, Disqualification, or INC. Used by the College Dean for retention evaluation and by the student to monitor academic standing via the LSPU Portal.\nh:issuedBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:sourceArticle: Chapter 3, Article 5, Sec. 8.1.1\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Copy of Grades (COG)",
+      "APPROXIMATE MATCH (not an exhaustive result): Copy of Evaluation of Grades\nh:definition: Secured from: Registrar.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Copy of Evaluation of Grades"
+    ]
+  },
+  "answer": "The Copy of Grades (COG) is issued by the Office of the Registrar.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

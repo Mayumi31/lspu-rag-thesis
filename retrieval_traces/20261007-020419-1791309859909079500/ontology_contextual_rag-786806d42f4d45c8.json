@@ -1,0 +1,60 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "where  to get Tor?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_224",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_224\nSECTION: and technical\nPPMP and | approved PPMP\nPurchase Request | and PR or TOR\n(PR) | to | the 2. Evaluate if it is\nProcurement | Unit. | included in the\nApproved | None | 5 minutes | Procurement Unit\nProcurement\nNote: | Plan (APP)\nTOR is needed instead of | Assign PR\nPR for | number\nconsultancy services\n1.3 Prepare\n• Request for None | 10 minutes\nQuotation | Procurement Unit\n(RFQ)\n1.4 Check the RFQ | 1 day\nvis-à-vis Purchase None | Procurement Unit\nRequest or TOR\n\n43",
+        "score": 0.031544957774465976
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_718",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_718\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nLaguna.\nAlso known as: Registrar, registrar's office, where to get COR TOR.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Campus Library\nDirections from the main gate: Exit the main gate and follow the road to the left (southwest) all the way to its end. The Library compound is there, with its own gate and parking.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: library, LSPU library.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Cashier and Accounting Office\nDirections from the main gate: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Cashier and Accounting Office is the room beside the Registrar.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: Cashier, Accounting, where to pay, payment office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: University Health Service / Clinic\nDirections from the main gate: From the main gate, walk straight in. Look for the first long building on your right, just past the Hall.",
+        "score": 0.028373015873015873
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?channel=Online\nCollection of Fees Online basis [a:Serv_CollectionOfFeesOnlineBasis] --a:hasChannel--> Online [a:Channel_Online]\nTYPE of Online: a:Channel\nTYPE of Collection of Fees Online basis: a:Service\nSOURCE/QUALIFIER for Collection of Fees Online basis: a:sourceSection = II. Office of the Cashier, Service 1: Collection of Fees Online basis, p. 7\nSOURCE/QUALIFIER for Collection of Fees Online basis: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?channel=Online\nCollection of Fees Online basis [a:Serv_CollectionOfFeesOnlineBasis] --a:hasChannel--> Online [a:Channel_Online]\nTYPE of Online: a:Channel\nTYPE of Collection of Fees Online basis: a:Service\nSOURCE/QUALIFIER for Collection of Fees Online basis: a:sourceSection = II. Office of the Cashier, Service 1: Collection of Fees Online basis, p. 7\nSOURCE/QUALIFIER for Collection of Fees Online basis: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_224\nSECTION: and technical\nPPMP and | approved PPMP\nPurchase Request | and PR or TOR\n(PR) | to | the 2. Evaluate if it is\nProcurement | Unit. | included in the\nApproved | None | 5 minutes | Procurement Unit\nProcurement\nNote: | Plan (APP)\nTOR is needed instead of | Assign PR\nPR for | number\nconsultancy services\n1.3 Prepare\n• Request for None | 10 minutes\nQuotation | Procurement Unit\n(RFQ)\n1.4 Check the RFQ | 1 day\nvis-à-vis Purchase None | Procurement Unit\nRequest or TOR\n\n43\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_718\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nLaguna.\nAlso known as:",
+    "answer_for_eval": "You can get Tor at the Registrar's Office on the LSPU-LB campus.",
+    "retrieval_query": "Where can I get Tor?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?service",
+              "a:hasChannel",
+              "?channel"
+            ]
+          ],
+          "select": [
+            "?channel"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 5.484000000000378,
+    "retrieval_seconds": 3.8909999999996217,
+    "generation_seconds": 1.5930000000007567,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?channel=Online\nCollection of Fees Online basis [a:Serv_CollectionOfFeesOnlineBasis] --a:hasChannel--> Online [a:Channel_Online]\nTYPE of Online: a:Channel\nTYPE of Collection of Fees Online basis: a:Service\nSOURCE/QUALIFIER for Collection of Fees Online basis: a:sourceSection = II. Office of the Cashier, Service 1: Collection of Fees Online basis, p. 7\nSOURCE/QUALIFIER for Collection of Fees Online basis: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_224\nSECTION: and technical\nPPMP and | approved PPMP\nPurchase Request | and PR or TOR\n(PR) | to | the 2. Evaluate if it is\nProcurement | Unit. | included in the\nApproved | None | 5 minutes | Procurement Unit\nProcurement\nNote: | Plan (APP)\nTOR is needed instead of | Assign PR\nPR for | number\nconsultancy services\n1.3 Prepare\n• Request for None | 10 minutes\nQuotation | Procurement Unit\n(RFQ)\n1.4 Check the RFQ | 1 day\nvis-à-vis Purchase None | Procurement Unit\nRequest or TOR\n\n43",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_718\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nLaguna.\nAlso known as: Registrar, registrar's office, where to get COR TOR.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Campus Library\nDirections from the main gate: Exit the main gate and follow the road to the left (southwest) all the way to its end. The Library compound is there, with its own gate and parking.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: library, LSPU library.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: Cashier and Accounting Office\nDirections from the main gate: From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Cashier and Accounting Office is the room beside the Registrar.\nLocated in the LSPU-LB campus, Malinta, Los Baños, Laguna.\nAlso known as: Cashier, Accounting, where to pay, payment office.\nSource: Map of LSPU-LB (campus map, walking directions from the main gate).\n\nLOCATION: University Health Service / Clinic\nDirections from the main gate: From the main gate, walk straight in. Look for the first long building on your right, just past the Hall."
+    ]
+  },
+  "answer": "You can get Tor at the Registrar's Office on the LSPU-LB campus.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

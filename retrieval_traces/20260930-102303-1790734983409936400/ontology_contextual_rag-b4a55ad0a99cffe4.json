@@ -1,0 +1,60 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "How many tardiness instances count as one absence?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_518",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_518\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Minor Offense\nArticle 3. Minor Offense\n\nSec. 1. Attendance\n\n1.1. Attending flag raising and flag lowering ceremonies (R.A. 8491 Sec. 18 and 50 Philippine Flag Law), classes, and other required University activities regularly and on time is required for all students unless exemption is granted by the University President or his duly authorized representative.\n\n1.2 Tardiness and absences shall be dealt with as follows:\n\n1.2.1 Tardiness in all activities where student’s attendance is required shall be considered one (1) absence in class.\n\n1.2.2 Three (3) tardiness in a class shall be considered one (1) absence from the same.\n 1st Offense: One (1) day absent plus community service\n 2nd Offense: Inform the parents/guardians with three (3) days suspension\n 3rd Offense: Suspension for one (1) week\n\n1.2.3. Every student accumulating unexcused absences from class equivalent to 17% of the total number of hours/ semester for a particular subject or class shall be dropped from the roll of students. However, excused absences can be removed through makeup.\n\n1.2.4. Every student shall secure an excuse slip from the Guidance Office for absence/s made before admission to classes.\n\nSec. 2. Dishonesty.",
+        "score": 0.06557377049180328
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_582",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_582\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 5. Medals and Certificates\nfor another period and the student is found positive the second time or show no sign of improvement or recovery, the University may place the student under a one (1) term/semester. Observation and counseling period with the University Physician/Nurse/ Guidance Counselor/s or require the student to file a leave of absence (LOA) in consultation with the parent/s or guardian or proceed in accordance with Section 6, of RA 9165.\n\n7.6.7.1. If the student is found to be drug dependent, appropriate sanction and intervention shall be imposed as stated in the latest edition of the Student Handbook;\n\nCode of Conduct for LSPU Students, Article II. Specific Misconduct, section 6, Narcotics; that in case of old student already enrolled in any program of the University he/she shall be suspended for one (1) semester; provided that appropriate rehabilitation shall be personally discharged by the student and/or by family of the student who is found to have positively used prohibited drugs.",
+        "score": 0.05785701340535864
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?x=3\nTardiness/Unexcused Absences [h:Tardiness] --h:tardinessInstancesPerAbsence--> \"3\"\nTYPE of Tardiness/Unexcused Absences: h:MinorOffense\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:sourceArticle = Ch.6 Art.3 Sec.1\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:verificationNote = Chapter 6 Article 3 Section 1 states 17%; other attendance/dropping sections state 25%. Preserve section scope and disclose conflicting thresholds rather than treating one as universally controlling."
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_518\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Minor Offense\nArticle 3. Minor Offense\n\nSec. 1. Attendance\n\n1.1. Attending flag raising and flag lowering ceremonies (R.A. 8491 Sec. 18 and 50 Philippine Flag Law), classes, and other required University activities regularly and on time is required for all students unless exemption is granted by the University President or his duly authorized representative.\n\n1.2 Tardiness and absences shall be dealt with as follows:\n\n1.2.1 Tardiness in all activities where student’s attendance is required shall be considered one (1) absence in class.\n\n1.2.2 Three (3) tardiness in a class shall be considered one (1) absence from the same.\n 1st Offense: One (1) day absent plus community service\n 2nd Offense: Inform the parents/guardians with three (3) days suspension\n 3rd Offense: Suspension for one (1) week\n\n1.2.3. Every student accumulating unexcused absences from class equivalent to 17% of the total number of hours/ semester for a particular subject or class shall be dropped from the roll of students. However, excused absences can be removed th",
+    "answer_for_eval": "Three (3) tardiness instances count as one (1) absence.",
+    "retrieval_query": "How many tardiness instances count as one absence?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Tardiness",
+              "h:tardinessInstancesPerAbsence",
+              "?x"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Expected a URI or prefixed name"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 3.8280000000377186,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_518\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Minor Offense\nArticle 3. Minor Offense\n\nSec. 1. Attendance\n\n1.1. Attending flag raising and flag lowering ceremonies (R.A. 8491 Sec. 18 and 50 Philippine Flag Law), classes, and other required University activities regularly and on time is required for all students unless exemption is granted by the University President or his duly authorized representative.\n\n1.2 Tardiness and absences shall be dealt with as follows:\n\n1.2.1 Tardiness in all activities where student’s attendance is required shall be considered one (1) absence in class.\n\n1.2.2 Three (3) tardiness in a class shall be considered one (1) absence from the same.\n 1st Offense: One (1) day absent plus community service\n 2nd Offense: Inform the parents/guardians with three (3) days suspension\n 3rd Offense: Suspension for one (1) week\n\n1.2.3. Every student accumulating unexcused absences from class equivalent to 17% of the total number of hours/ semester for a particular subject or class shall be dropped from the roll of students. However, excused absences can be removed through makeup.\n\n1.2.4. Every student shall secure an excuse slip from the Guidance Office for absence/s made before admission to classes.\n\nSec. 2. Dishonesty.",
+      "QUERY 1\nGRAPH RESULT 1: ?x=3\nTardiness/Unexcused Absences [h:Tardiness] --h:tardinessInstancesPerAbsence--> \"3\"\nTYPE of Tardiness/Unexcused Absences: h:MinorOffense\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:sourceArticle = Ch.6 Art.3 Sec.1\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:verificationNote = Chapter 6 Article 3 Section 1 states 17%; other attendance/dropping sections state 25%. Preserve section scope and disclose conflicting thresholds rather than treating one as universally controlling.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_582\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 5. Medals and Certificates\nfor another period and the student is found positive the second time or show no sign of improvement or recovery, the University may place the student under a one (1) term/semester. Observation and counseling period with the University Physician/Nurse/ Guidance Counselor/s or require the student to file a leave of absence (LOA) in consultation with the parent/s or guardian or proceed in accordance with Section 6, of RA 9165.\n\n7.6.7.1. If the student is found to be drug dependent, appropriate sanction and intervention shall be imposed as stated in the latest edition of the Student Handbook;\n\nCode of Conduct for LSPU Students, Article II. Specific Misconduct, section 6, Narcotics; that in case of old student already enrolled in any program of the University he/she shall be suspended for one (1) semester; provided that appropriate rehabilitation shall be personally discharged by the student and/or by family of the student who is found to have positively used prohibited drugs."
+    ]
+  },
+  "answer": "Three (3) tardiness instances count as one (1) absence.",
+  "pipeline_version": "oc-rag-3.3-verified-build"
+}

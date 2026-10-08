@@ -1,0 +1,45 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "How do I get to the Registrar's office from the main gate?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?directions=From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nLocation of Office of the Registrar [h:Loc_Registrar] --h:directionsFromGate--> \"From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\"\nTYPE of Location of Office of the Registrar: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of the Registrar: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?directions=From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nLocation of Office of the Registrar [h:Loc_Registrar] --h:directionsFromGate--> \"From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\"\nTYPE of Location of Office of the Registrar: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of the Registrar: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter",
+    "answer_for_eval": "To get to the Registrar's Office from the main gate, turn left and follow the road-side path to the Administration Building. Then go up to the second floor, where the Registrar's Office is located.",
+    "retrieval_query": "How do I get to the Registrar's office from the main gate?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Loc_Registrar",
+              "h:directionsFromGate",
+              "?directions"
+            ]
+          ],
+          "select": [
+            "?directions"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 5.828000000037719,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?directions=From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\nLocation of Office of the Registrar [h:Loc_Registrar] --h:directionsFromGate--> \"From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor.\"\nTYPE of Location of Office of the Registrar: h:CampusPlace\nSOURCE/QUALIFIER for Location of Office of the Registrar: h:sourceArticle = Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter"
+    ]
+  },
+  "answer": "To get to the Registrar's Office from the main gate, turn left and follow the road-side path to the Administration Building. Then go up to the second floor, where the Registrar's Office is located.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

@@ -1,0 +1,52 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Is drinking alcoholic beverages a minor or a major offense?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Drinking Alcoholic Beverages\nh:definition: Drinking alcoholic beverages or exhibiting drunken behavior within University premises.\nh:hasSanctionTier -> h:Tier_DrinkingAlcohol_1 [h:Tier_DrinkingAlcohol_1]\nh:hasSanctionTier -> h:Tier_DrinkingAlcohol_2 [h:Tier_DrinkingAlcohol_2]\nh:hasSanctionTier -> h:Tier_DrinkingAlcohol_3 [h:Tier_DrinkingAlcohol_3]\nh:sourceArticle: Ch.6 Art.2 Sec.6.1\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Drinking Alcoholic Beverages"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Drunkenness Causing Physical Injury or Property Destruction\nh:definition: Any drunkenness or drunken behavior resulting in physical injuries to other person/s or destruction of property/ies.\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_1 [h:Tier_DrunkennessCausingHarm_1]\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_2 [h:Tier_DrunkennessCausingHarm_2]\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_3 [h:Tier_DrunkennessCausingHarm_3]\nh:sourceArticle: Ch.6 Art.2 Sec.6.2\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Drunkenness Causing Physical Injury or Property Destruction"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Drinking Alcoholic Beverages\nh:definition: Drinking alcoholic beverages or exhibiting drunken behavior within University premises.\nh:hasSanctionTier -> h:Tier_DrinkingAlcohol_1 [h:Tier_DrinkingAlcohol_1]\nh:hasSanctionTier -> h:Tier_DrinkingAlcohol_2 [h:Tier_DrinkingAlcohol_2]\nh:hasSanctionTier -> h:Tier_DrinkingAlcohol_3 [h:Tier_DrinkingAlcohol_3]\nh:sourceArticle: Ch.6 Art.2 Sec.6.1\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Drinking Alcoholic Beverages\n\nAPPROXIMATE MATCH (not an exhaustive result): Drunkenness Causing Physical Injury or Property Destruction\nh:definition: Any drunkenness or drunken behavior resulting in physical injuries to other person/s or destruction of property/ies.\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_1 [h:Tier_DrunkennessCausingHarm_1]\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_2 [h:Tier_DrunkennessCausingHarm_2]\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_3 [h:Tier_DrunkennessCausingHarm_3]\nh:sourceArticle: Ch.6 Art.2 Sec.6.2\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Drunkenness Causing Physical Injury or Property Destruction",
+    "answer_for_eval": "Drinking alcoholic beverages is a major offense.",
+    "retrieval_query": "Is drinking alcoholic beverages a minor or a major offense?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:DrinkingAlcohol",
+              "rdf:type",
+              "h:MajorOffense"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "No supported graph query or traversal",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 2,
+    "elapsed_seconds": 13.01600000000326,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Drinking Alcoholic Beverages\nh:definition: Drinking alcoholic beverages or exhibiting drunken behavior within University premises.\nh:hasSanctionTier -> h:Tier_DrinkingAlcohol_1 [h:Tier_DrinkingAlcohol_1]\nh:hasSanctionTier -> h:Tier_DrinkingAlcohol_2 [h:Tier_DrinkingAlcohol_2]\nh:hasSanctionTier -> h:Tier_DrinkingAlcohol_3 [h:Tier_DrinkingAlcohol_3]\nh:sourceArticle: Ch.6 Art.2 Sec.6.1\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Drinking Alcoholic Beverages",
+      "APPROXIMATE MATCH (not an exhaustive result): Drunkenness Causing Physical Injury or Property Destruction\nh:definition: Any drunkenness or drunken behavior resulting in physical injuries to other person/s or destruction of property/ies.\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_1 [h:Tier_DrunkennessCausingHarm_1]\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_2 [h:Tier_DrunkennessCausingHarm_2]\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_3 [h:Tier_DrunkennessCausingHarm_3]\nh:sourceArticle: Ch.6 Art.2 Sec.6.2\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Drunkenness Causing Physical Injury or Property Destruction"
+    ]
+  },
+  "answer": "Drinking alcoholic beverages is a major offense.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

@@ -1,0 +1,165 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which programs lead to a board or licensure exam?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_62",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_62\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBoard programs (graduates may sit a PRC licensure examination):\n- Bachelor of Science in Psychology: Psychometrician Licensure Examination\n- Bachelor of Science in Accountancy: CPA (Certified Public Accountant) Licensure Examination\n- Bachelor of Science in Criminology: Criminologist Licensure Examination\n- Bachelor of Science in Fisheries: Fisheries Professional Licensure Examination\n- Bachelor of Science in Food Technology: Food Technologist Licensure Examination\n- Bachelor of Science in Nutrition and Dietetics: Nutritionist-Dietitian Licensure Examination\n- Bachelor of Technology and Livelihood Education - Major in Home Economics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Physical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)",
+        "score": 0.032266458495966696
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_63",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_63\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nPhysical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Filipino: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Mathematics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Sciences: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Social Studies: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Elementary Education: Licensure Examination for Teachers (Elementary Level)\n\nNon-board programs (no PRC licensure examination):\n- Bachelor of Science in Computer Science - Major in Intelligent Systems\n- Bachelor of Science in Business Administration - Major in Marketing Management\n- Bachelor of Science in Business Administration - Major in Financial Management\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development",
+        "score": 0.031754032258064516
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_836",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_836\nSECTION: PRC LICENSURE EXAMINATION NAMES: FISHERIES AND FOOD TECHNOLOGY (NAME VARIANTS)\nAct), PRC uses the plural \"Food Technologists Licensure Examination\", and 2026 PRC announcements call it the \"Professional Food Technologists Computer-Based Licensure Examination\". Other names for the same exam: Food Technologist Licensure Examination, Professional Food Technologists Licensure Examination, and \"Food Tech board exam\".",
+        "score": 0.031754032258064516
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_64",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_64\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nof Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\n- Bachelor of Science in Information Technology - Major in Service Management Program\n- Bachelor of Science in Tourism Management\n- Bachelor of Science in Hospitality Management",
+        "score": 0.03057889822595705
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_835",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_835\nSECTION: PRC LICENSURE EXAMINATION NAMES: FISHERIES AND FOOD TECHNOLOGY (NAME VARIANTS)\nPRC LICENSURE EXAMINATION NAMES: FISHERIES AND FOOD TECHNOLOGY (NAME VARIANTS)\nSource: checked by the maintainer against RA 11398, RA 11052 and PRC announcements (general public information, not an LSPU document). The Pillar 1 program blocks above use \"Fisheries Professional Licensure Examination\" and \"Food Technologist Licensure Examination\".\nBS Fisheries: the official current name is the Fisheries Professional Licensure Examination, under RA 11398 (Philippine Fisheries Profession Act, 2019), which speaks of the licensure examination for fisheries professionals. The earlier law (RA 8550 / PRC Res. 2000-664) called the practitioners fisheries technologists, and PRC web pages still list the board type as Fisheries Technologists. Other names for the same exam: Fisheries Technologist Licensure Examination, Fisheries Technologists Licensure Examination, Fisheries Professionals Licensure Examination, and \"Fisheries board exam\".\nBS Food Technology: under RA 11052 (Philippine Food Technology Act), PRC uses the plural \"Food Technologists Licensure Examination\", and 2026 PRC announcements call it the \"Professional Food Technologists Computer-Based Licensure Examination\".",
+        "score": 0.02889344262295082
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Elementary Education\nBachelor of Elementary Education [p:Prog_BEEd] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Elementary Education: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Physical Education\nBachelor of Physical Education [p:Prog_BPE] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Physical Education: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Science in Accountancy\nBachelor of Science in Accountancy [p:Prog_BSA] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Accountancy: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 4: ?program=Bachelor of Science in Criminology\nBachelor of Science in Criminology [p:Prog_BSCrim] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Criminology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 5: ?program=Bachelor of Secondary Education - Major in English\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in English: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 6: ?program=Bachelor of Secondary Education - Major in Filipino\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Filipino: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 7: ?program=Bachelor of Secondary Education - Major in Mathematics\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Mathematics: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 8: ?program=Bachelor of Secondary Education - Major in Sciences\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Sciences: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 9: ?program=Bachelor of Secondary Education - Major in Social Studies\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Social Studies: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 10: ?program=Bachelor of Science in Fisheries\nBachelor of Science in Fisheries [p:Prog_BSFisheries] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Fisheries: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 11: ?program=Bachelor of Science in Food Technology\nBachelor of Science in Food Technology [p:Prog_BSFoodTech] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Food Technology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 12: ?program=Bachelor of Science in Nutrition and Dietetics\nBachelor of Science in Nutrition and Dietetics [p:Prog_BSNutritionDietetics] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Nutrition and Dietetics: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 13: ?program=Bachelor of Science in Psychology\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Psychology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 14: ?program=Bachelor of Technology and Livelihood Education - Major in Home Economics\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Technology and Livelihood Education - Major in Home Economics: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 15: ?program=Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Elementary Education\nBachelor of Elementary Education [p:Prog_BEEd] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Elementary Education: p:Program\n\nQUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Physical Education\nBachelor of Physical Education [p:Prog_BPE] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Physical Education: p:Program\n\nQUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Science in Accountancy\nBachelor of Science in Accountancy [p:Prog_BSA] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Accountancy: p:Program\n\nQUERY 1\nGRAPH RESULT 4: ?program=Bachelor of Science in Criminology\nBachelor of Science in Criminology [p:Prog_BSCrim] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Criminology: p:Program\n\nQUERY 1\nGRAPH RESULT 5: ?program=Bachelor of Secondary Education - Major in English\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in English: p:Program\n\nQUERY 1\nGRAPH RESULT 6: ?program=Bachelor of Secondary Education - Major in Filipino\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:boa",
+    "answer_for_eval": "The programs that lead to a board or licensure exam are:\n\n1. Bachelor of Science in Psychology (Psychometrician Licensure Examination)\n2. Bachelor of Science in Accountancy (CPA Licensure Examination)\n3. Bachelor of Science in Criminology (Criminologist Licensure Examination)\n4. Bachelor of Science in Fisheries (Fisheries Professional Licensure Examination)\n5. Bachelor of Science in Food Technology (Food Technologist Licensure Examination)\n6. Bachelor of Science in Nutrition and Dietetics (Nutritionist-Dietitian Licensure Examination)\n7. Bachelor of Technology and Livelihood Education - Major in Home Economics (Licensure Examination for Teachers - Secondary Level)\n8. Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management (Licensure Examination for Teachers - Secondary Level)\n9. Bachelor of Physical Education (Licensure Examination for Teachers - Secondary Level)\n10. Bachelor of Secondary Education - Major in English (Licensure Examination for Teachers - Secondary Level)\n11. Bachelor of Secondary Education - Major in Filipino (Licensure Examination for Teachers - Secondary Level)\n12. Bachelor of Secondary Education - Major in Mathematics (Licensure Examination for Teachers - Secondary Level)\n13. Bachelor of Secondary Education - Major in Sciences (Licensure Examination for Teachers - Secondary Level)\n14. Bachelor of Secondary Education - Major in Social Studies (Licensure Examination for Teachers - Secondary Level)",
+    "retrieval_query": "Which programs lead to a board or licensure exam?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?program",
+              "p:boardProgram",
+              {
+                "literal": true
+              }
+            ]
+          ],
+          "select": [
+            "?program"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 20,
+    "elapsed_seconds": 11.34299999999348,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Elementary Education\nBachelor of Elementary Education [p:Prog_BEEd] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Elementary Education: p:Program",
+      "QUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Physical Education\nBachelor of Physical Education [p:Prog_BPE] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Physical Education: p:Program",
+      "QUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Science in Accountancy\nBachelor of Science in Accountancy [p:Prog_BSA] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Accountancy: p:Program",
+      "QUERY 1\nGRAPH RESULT 4: ?program=Bachelor of Science in Criminology\nBachelor of Science in Criminology [p:Prog_BSCrim] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Criminology: p:Program",
+      "QUERY 1\nGRAPH RESULT 5: ?program=Bachelor of Secondary Education - Major in English\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in English: p:Program",
+      "QUERY 1\nGRAPH RESULT 6: ?program=Bachelor of Secondary Education - Major in Filipino\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Filipino: p:Program",
+      "QUERY 1\nGRAPH RESULT 7: ?program=Bachelor of Secondary Education - Major in Mathematics\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Mathematics: p:Program",
+      "QUERY 1\nGRAPH RESULT 8: ?program=Bachelor of Secondary Education - Major in Sciences\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Sciences: p:Program",
+      "QUERY 1\nGRAPH RESULT 9: ?program=Bachelor of Secondary Education - Major in Social Studies\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Social Studies: p:Program",
+      "QUERY 1\nGRAPH RESULT 10: ?program=Bachelor of Science in Fisheries\nBachelor of Science in Fisheries [p:Prog_BSFisheries] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Fisheries: p:Program",
+      "QUERY 1\nGRAPH RESULT 11: ?program=Bachelor of Science in Food Technology\nBachelor of Science in Food Technology [p:Prog_BSFoodTech] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Food Technology: p:Program",
+      "QUERY 1\nGRAPH RESULT 12: ?program=Bachelor of Science in Nutrition and Dietetics\nBachelor of Science in Nutrition and Dietetics [p:Prog_BSNutritionDietetics] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Nutrition and Dietetics: p:Program",
+      "QUERY 1\nGRAPH RESULT 13: ?program=Bachelor of Science in Psychology\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Psychology: p:Program",
+      "QUERY 1\nGRAPH RESULT 14: ?program=Bachelor of Technology and Livelihood Education - Major in Home Economics\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Technology and Livelihood Education - Major in Home Economics: p:Program",
+      "QUERY 1\nGRAPH RESULT 15: ?program=Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: p:Program",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_62\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nBoard programs (graduates may sit a PRC licensure examination):\n- Bachelor of Science in Psychology: Psychometrician Licensure Examination\n- Bachelor of Science in Accountancy: CPA (Certified Public Accountant) Licensure Examination\n- Bachelor of Science in Criminology: Criminologist Licensure Examination\n- Bachelor of Science in Fisheries: Fisheries Professional Licensure Examination\n- Bachelor of Science in Food Technology: Food Technologist Licensure Examination\n- Bachelor of Science in Nutrition and Dietetics: Nutritionist-Dietitian Licensure Examination\n- Bachelor of Technology and Livelihood Education - Major in Home Economics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Physical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_63\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nPhysical Education: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in English: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Filipino: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Mathematics: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Sciences: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Secondary Education - Major in Social Studies: Licensure Examination for Teachers (Secondary Level)\n- Bachelor of Elementary Education: Licensure Examination for Teachers (Elementary Level)\n\nNon-board programs (no PRC licensure examination):\n- Bachelor of Science in Computer Science - Major in Intelligent Systems\n- Bachelor of Science in Business Administration - Major in Marketing Management\n- Bachelor of Science in Business Administration - Major in Financial Management\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_836\nSECTION: PRC LICENSURE EXAMINATION NAMES: FISHERIES AND FOOD TECHNOLOGY (NAME VARIANTS)\nAct), PRC uses the plural \"Food Technologists Licensure Examination\", and 2026 PRC announcements call it the \"Professional Food Technologists Computer-Based Licensure Examination\". Other names for the same exam: Food Technologist Licensure Examination, Professional Food Technologists Licensure Examination, and \"Food Tech board exam\".",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_64\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nof Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\n- Bachelor of Science in Information Technology - Major in Service Management Program\n- Bachelor of Science in Tourism Management\n- Bachelor of Science in Hospitality Management",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_835\nSECTION: PRC LICENSURE EXAMINATION NAMES: FISHERIES AND FOOD TECHNOLOGY (NAME VARIANTS)\nPRC LICENSURE EXAMINATION NAMES: FISHERIES AND FOOD TECHNOLOGY (NAME VARIANTS)\nSource: checked by the maintainer against RA 11398, RA 11052 and PRC announcements (general public information, not an LSPU document). The Pillar 1 program blocks above use \"Fisheries Professional Licensure Examination\" and \"Food Technologist Licensure Examination\".\nBS Fisheries: the official current name is the Fisheries Professional Licensure Examination, under RA 11398 (Philippine Fisheries Profession Act, 2019), which speaks of the licensure examination for fisheries professionals. The earlier law (RA 8550 / PRC Res. 2000-664) called the practitioners fisheries technologists, and PRC web pages still list the board type as Fisheries Technologists. Other names for the same exam: Fisheries Technologist Licensure Examination, Fisheries Technologists Licensure Examination, Fisheries Professionals Licensure Examination, and \"Fisheries board exam\".\nBS Food Technology: under RA 11052 (Philippine Food Technology Act), PRC uses the plural \"Food Technologists Licensure Examination\", and 2026 PRC announcements call it the \"Professional Food Technologists Computer-Based Licensure Examination\"."
+    ]
+  },
+  "answer": "The programs that lead to a board or licensure exam are:\n\n1. Bachelor of Science in Psychology (Psychometrician Licensure Examination)\n2. Bachelor of Science in Accountancy (CPA Licensure Examination)\n3. Bachelor of Science in Criminology (Criminologist Licensure Examination)\n4. Bachelor of Science in Fisheries (Fisheries Professional Licensure Examination)\n5. Bachelor of Science in Food Technology (Food Technologist Licensure Examination)\n6. Bachelor of Science in Nutrition and Dietetics (Nutritionist-Dietitian Licensure Examination)\n7. Bachelor of Technology and Livelihood Education - Major in Home Economics (Licensure Examination for Teachers - Secondary Level)\n8. Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management (Licensure Examination for Teachers - Secondary Level)\n9. Bachelor of Physical Education (Licensure Examination for Teachers - Secondary Level)\n10. Bachelor of Secondary Education - Major in English (Licensure Examination for Teachers - Secondary Level)\n11. Bachelor of Secondary Education - Major in Filipino (Licensure Examination for Teachers - Secondary Level)\n12. Bachelor of Secondary Education - Major in Mathematics (Licensure Examination for Teachers - Secondary Level)\n13. Bachelor of Secondary Education - Major in Sciences (Licensure Examination for Teachers - Secondary Level)\n14. Bachelor of Secondary Education - Major in Social Studies (Licensure Examination for Teachers - Secondary Level)",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "How do I get to the Registrar's office from the main gate?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "I don't have specific directions from the main gate to the Registrar's Office at LSPU-LB. Please refer to campus maps or ask a campus staff member for assistance.",
+    "retrieval_query": "How do I get to the Registrar's office from the main gate?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.2189999999827705,
+    "selected_contexts": []
+  },
+  "answer": "I don't have specific directions from the main gate to the Registrar's Office at LSPU-LB. Please refer to campus maps or ask a campus staff member for assistance.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

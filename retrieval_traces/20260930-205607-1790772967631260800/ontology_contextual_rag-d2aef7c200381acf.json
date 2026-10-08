@@ -1,0 +1,58 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Who may avail of the enrollment service?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_106",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_106\nSECTION: I. | OFFICE OF THE REGISTRAR\nI. | OFFICE OF THE REGISTRAR\n1. Enrollment\nThis process provides description and series of steps for assisting the public in\nthe enrollment procedures.\n\nOffice or Division: | Registrar\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nG2G – Government to Government\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nNew Students/Transferees | Admission Office\n1. Enrolment Slip from Admission Office | School previously attended/graduated\n2. Original Certificate of Good Moral\nCharacter | School previously attended/graduated\n3. Original Report Card (For New Students\nOnly | PSA office\n4. Photocopy of PSA Birth\nCertificate/Marriage Contract for Married School previously attended/graduated\nFemale\n5. Original/authenticated Form 137 (For New Accredited DOH\nStudents Only)\n6. Medical slip/Certificate from LSPU | School previously attended/graduated\nMedical Clinic\n7. Transcript of Records/Copy of Grades for Client\nEvaluation purposes (For Transferees | School previously attended/graduated\nonly)\n8. 2 pcs/ 2x2 picture | Client\n9. Original Certificate of Transfer (For\nTransferees Only)\n10. 1 pc. Long brown envelope\n\nOld Students\n1. Clearance | 1.",
+        "score": 0.06401249024199844
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_361",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_361\nSECTION: 8. Dropping of Subjects\n8. Dropping of Subjects\nProcess for students who intend to drop subjects.\n\nOffice or Division: | Colleges\nClassification: | Simple\nType of Transaction: | G2C - Government to Citizen\nWho may avail: | New and Transferee Students\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nDropping Form | Registrar’s Office\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nStudent Application for | Release of dropping 30/unit | 3 min | Registrar’s Office\nDropping | form | Cashier’s Office\nRequest for the dropping | Approval of the | N/A | 5 minutes | Faculty-in-charge\nof subjects from the | faculty-in-charge\nfaculty-in-charge\nRequest for Deans | Approval from the | N/A | 5 Minutes Dean/Associate Dean\nApproval | Dean\nSubmit approved | Receives approved | N/A | 2 minutes | Registrar’s Office\nDropping Form | dropping form\nTOTAL: P30.00/ | 15 minutes\nunit\n\n9. Enrollment Advising\nEstablishment of a defined procedure in the Enrollment Advising in consonance\nwith other academic processes.\nOffice or Division: Colleges\nClassification: | Simple\nType | of Government to Citizen\nTransaction:\nWho may avail: | Students, Shifters, Transferees",
+        "score": 0.06280843765045739
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?x=All\nEnrollment [a:Serv_Enrollment] --a:whoMayAvail--> \"All\"\nTYPE of Enrollment: a:Service\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nSOURCE/QUALIFIER for Enrollment: a:sourceSection = I. Office of the Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?x=All\nEnrollment [a:Serv_Enrollment] --a:whoMayAvail--> \"All\"\nTYPE of Enrollment: a:Service\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nSOURCE/QUALIFIER for Enrollment: a:sourceSection = I. Office of the Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_106\nSECTION: I. | OFFICE OF THE REGISTRAR\nI. | OFFICE OF THE REGISTRAR\n1. Enrollment\nThis process provides description and series of steps for assisting the public in\nthe enrollment procedures.\n\nOffice or Division: | Registrar\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nG2G – Government to Government\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nNew Students/Transferees | Admission Office\n1. Enrolment Slip from Admission Office | School previously attended/graduated\n2. Original Certificate of Good Moral\nCharacter | School prev",
+    "answer_for_eval": "Who may avail of the enrollment service?\n\n- All students (including new students, transferees, and old students)\n- New students/transferees\n- Old students\n- Students, shifters, and transferees",
+    "retrieval_query": "Who can avail of the enrollment service?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:Serv_Enrollment",
+              "a:whoMayAvail",
+              "?x"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 6.14100000000326,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?x=All\nEnrollment [a:Serv_Enrollment] --a:whoMayAvail--> \"All\"\nTYPE of Enrollment: a:Service\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nSOURCE/QUALIFIER for Enrollment: a:sourceSection = I. Office of the Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_106\nSECTION: I. | OFFICE OF THE REGISTRAR\nI. | OFFICE OF THE REGISTRAR\n1. Enrollment\nThis process provides description and series of steps for assisting the public in\nthe enrollment procedures.\n\nOffice or Division: | Registrar\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nG2G – Government to Government\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nNew Students/Transferees | Admission Office\n1. Enrolment Slip from Admission Office | School previously attended/graduated\n2. Original Certificate of Good Moral\nCharacter | School previously attended/graduated\n3. Original Report Card (For New Students\nOnly | PSA office\n4. Photocopy of PSA Birth\nCertificate/Marriage Contract for Married School previously attended/graduated\nFemale\n5. Original/authenticated Form 137 (For New Accredited DOH\nStudents Only)\n6. Medical slip/Certificate from LSPU | School previously attended/graduated\nMedical Clinic\n7. Transcript of Records/Copy of Grades for Client\nEvaluation purposes (For Transferees | School previously attended/graduated\nonly)\n8. 2 pcs/ 2x2 picture | Client\n9. Original Certificate of Transfer (For\nTransferees Only)\n10. 1 pc. Long brown envelope\n\nOld Students\n1. Clearance | 1.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_361\nSECTION: 8. Dropping of Subjects\n8. Dropping of Subjects\nProcess for students who intend to drop subjects.\n\nOffice or Division: | Colleges\nClassification: | Simple\nType of Transaction: | G2C - Government to Citizen\nWho may avail: | New and Transferee Students\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nDropping Form | Registrar’s Office\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nStudent Application for | Release of dropping 30/unit | 3 min | Registrar’s Office\nDropping | form | Cashier’s Office\nRequest for the dropping | Approval of the | N/A | 5 minutes | Faculty-in-charge\nof subjects from the | faculty-in-charge\nfaculty-in-charge\nRequest for Deans | Approval from the | N/A | 5 Minutes Dean/Associate Dean\nApproval | Dean\nSubmit approved | Receives approved | N/A | 2 minutes | Registrar’s Office\nDropping Form | dropping form\nTOTAL: P30.00/ | 15 minutes\nunit\n\n9. Enrollment Advising\nEstablishment of a defined procedure in the Enrollment Advising in consonance\nwith other academic processes.\nOffice or Division: Colleges\nClassification: | Simple\nType | of Government to Citizen\nTransaction:\nWho may avail: | Students, Shifters, Transferees"
+    ]
+  },
+  "answer": "Who may avail of the enrollment service?\n\n- All students (including new students, transferees, and old students)\n- New students/transferees\n- Old students\n- Students, shifters, and transferees",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

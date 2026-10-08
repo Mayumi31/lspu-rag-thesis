@@ -1,0 +1,133 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Who can I contact in an emergency on campus?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_779",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_779\nSECTION: WHO TO CONTACT IN AN EMERGENCY ON CAMPUS (SUMMARY)\nWHO TO CONTACT IN AN EMERGENCY ON CAMPUS (SUMMARY)\nSource: compiled from campus information supplied by the maintainer; 911 is general national information.\nFor a life-threatening emergency, call 911 (the national emergency hotline) and tell the nearest guard.\nOn campus:\n- The Guard House at the main gate (on the left as you enter) for any security concern.\n- The University Health Service clinic for medical help.\n- The Guidance Office for an emotional or mental health crisis.\n- Your College Dean for bullying or harassment.\nThe campus main line is (049) 308-4530 (Monday to Friday, 8:00 AM to 5:00 PM), but it is not an emergency line and it is not answered after office hours. For emergencies use 911 or a guard.\nOnly the campus main line is documented. Direct numbers for the guards, clinic and Guidance Office have not been supplied.",
+        "score": 0.03252247488101534
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_781",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_781\nSECTION: EMERGENCY CONTACT: CAMPUS GUARDS AND THE GUARD HOUSE (SAFETY AND SECURITY)\nEMERGENCY CONTACT: CAMPUS GUARDS AND THE GUARD HOUSE (SAFETY AND SECURITY)\nSource: campus map (location); Student Handbook (role of the Safety and Security Management Office); no phone number available.\nFor an emergency on campus, tell the nearest guard or go to the Guard House at the main gate (on the left as you enter). The Safety and Security Management Office handles security concerns.\nGo to the guards for: fights, threats, suspicious persons, fire, accidents, and lost and found items.\nNo direct security phone number has been documented. The campus main line (049) 308-4530 (Mon-Fri, 8:00 AM-5:00 PM) is general, not an emergency line. For emergencies use 911 or go to the Guard House.",
+        "score": 0.03200204813108039
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_780",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_780\nSECTION: EMERGENCY CONTACT: NATIONAL EMERGENCY HOTLINE 911\nEMERGENCY CONTACT: NATIONAL EMERGENCY HOTLINE 911\nSource: general national information (not an LSPU document).\n911 is the Philippine national emergency hotline. Call it for police, fire, ambulance and other urgent emergencies anywhere in the Philippines, including on or near the campus. Call it for a crime in progress, fire, serious injury or any life-threatening situation, then inform the campus guard as soon as you can.",
+        "score": 0.031544957774465976
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_782",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_782\nSECTION: EMERGENCY CONTACT: UNIVERSITY HEALTH SERVICE (CAMPUS CLINIC)\nEMERGENCY CONTACT: UNIVERSITY HEALTH SERVICE (CAMPUS CLINIC)\nSource: Citizen's Charter 2026, University Health Service, Service 1, p. 14; the 911 advice is general safety information.\nThe University Health Service (campus clinic) gives routine medical and dental consultation at no fee. Go there when you feel sick, have minor injuries, or need a first medical assessment on campus.\nFor a serious injury or life-threatening condition, call 911 and tell a guard rather than waiting for a clinic visit.\nNo direct clinic phone number has been supplied. The campus main line is (049) 308-4530 (Mon-Fri, 8:00 AM-5:00 PM); confirm the clinic's own hours.",
+        "score": 0.03125763125763126
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_783",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_783\nSECTION: EMERGENCY CONTACT: GUIDANCE OFFICE (EMOTIONAL OR MENTAL HEALTH CRISIS)\nEMERGENCY CONTACT: GUIDANCE OFFICE (EMOTIONAL OR MENTAL HEALTH CRISIS)\nSource: Student Handbook Chapter 5, Article 1, Sec. 2 and the Mental Health Services articles; the 911 advice and the office location are from the maintainer and general safety information.\nThe Guidance Office (inside the OSAS building) offers counseling and mental health support to enrolled students. Go there for emotional distress, mental health concerns, and support after a bullying or harassment incident.\nIf you or someone else is in immediate danger, call 911 first.\nNo direct Guidance Office phone number has been supplied. The campus main line is (049) 308-4530 (Mon-Fri, 8:00 AM-5:00 PM).",
+        "score": 0.03055037313432836
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Campus guards and Guard House (Safety and Security)\nh:contactFor: Any emergency or safety concern on campus: fights, threats, suspicious persons, fire, accidents, lost and found items.\nh:contactOffice -> Safety and Security Management Office [h:SafetyAndSecurityManagementOffice]\nh:definition: For an emergency on campus, tell the nearest guard or go to the Guard House at the main gate (on the left as you enter). The Safety and Security Management Office handles security concerns. No campus phone number has been documented.\nh:emergencyContactOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:sourceArticle: Location: Map of LSPU-LB. Office role: Student Handbook (Safety and Security Management Office). No phone number available\nh:verificationNote: No direct security phone number was supplied. The campus main line (049) 308-4530 (Mon-Fri, 8:00 AM-5:00 PM) is general, not an emergency line; for emergencies use 911 or go to the Guard House.\nrdf:type -> Emergency Contact [h:EmergencyContact]\nrdfs:label: Campus guards and Guard House (Safety and Security)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): What to do in an earthquake\nh:audience: All students\nh:definition: During shaking: DROP to your hands and knees, take COVER under a sturdy desk or table (or protect your head and neck with your arms next to an inside wall), and HOLD ON until the shaking stops. Stay away from windows, glass, shelves and heavy objects. If outdoors, move away from buildings, posts and wires. Do not run out during the shaking. After it stops: leave the building calmly by the stairs (not the elevator) to an open area, expect aftershocks, and follow the guards and faculty. Help others only if it is safe, and report injuries to a guard or the campus clinic. Call 911 for serious injuries or fire.\nh:sourceArticle: General earthquake-safety guidance (G), not an LSPU document\nh:verificationNote: General safety guidance, not an LSPU-LB protocol. The campus's official evacuation areas and drill procedure were not supplied, so none are stated. Ask the Safety and Security Management Office.\nrdf:type -> Safety Guide [h:SafetyGuide]\nrdfs:label: What to do in an earthquake\nrdfs:seeAlso -> Campus guards and Guard House (Safety and Security) [h:EC_GuardHouse]\nrdfs:seeAlso -> National Emergency Hotline 911 [h:EC_National911]"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): University Health Service (campus clinic)\nh:contactFor: Feeling sick, minor injuries, and first medical assessment on campus.\nh:contactOffice -> University Health Service [a:Office_UniversityHealthService]\nh:definition: The University Health Service (campus clinic) gives routine medical and dental consultation at no fee. For a serious injury or life-threatening condition, call 911 and tell a guard rather than waiting for a clinic visit.\nh:emergencyContactOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:sourceArticle: Citizen's Charter 2026, University Health Service, Service 1, p. 14; the 911 advice is general safety information\nh:verificationNote: No direct clinic phone number was supplied. The campus main line is (049) 308-4530 (Mon-Fri, 8:00 AM-5:00 PM); confirm the clinic's own hours.\nrdf:type -> Emergency Contact [h:EmergencyContact]\nrdfs:label: University Health Service (campus clinic)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): What to do in a typhoon\nh:audience: All students\nh:definition: Before: check the official LSPU-LB Facebook page for campus-wide class suspensions, and your professor's Messenger group and Google Classroom for class-level announcements, before you travel. Keep your phone charged. If you are already on campus in strong wind or heavy rain: stay indoors, keep away from windows and glass doors, stay out of open areas and away from trees, posts and loose signs, and follow the guards and faculty. Do not travel through flooded roads or walk under fallen wires. Go home only when it is safe, and check announcements before coming back to campus.\nh:relatedChannel -> Class Messenger groups (created by each professor) [h:Channel_ClassMessengerGroups]\nh:relatedChannel -> LSPU-LB official Facebook page (campus-wide announcements and class suspensions) [h:Channel_OfficialFacebookPage]\nh:sourceArticle: Announcement channels: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. Safety steps: general disaster-safety guidance (G), not an LSPU document\nh:sourceArticle: Announcement channels: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. Safety steps: general guidance (G)\nh:verificationNote: General safety guidance, not an LSPU-LB protocol. Who decides suspensions and the campus's own typhoon procedure were not supplied.\nrdf:type -> Safety Guide [h:SafetyGuide]\nrdfs:label: What to do in a typhoon"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Travel Order\nh:definition: Secured from: Office of the Campus Director.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Travel Order"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Campus guards and Guard House (Safety and Security)\nh:contactFor: Any emergency or safety concern on campus: fights, threats, suspicious persons, fire, accidents, lost and found items.\nh:contactOffice -> Safety and Security Management Office [h:SafetyAndSecurityManagementOffice]\nh:definition: For an emergency on campus, tell the nearest guard or go to the Guard House at the main gate (on the left as you enter). The Safety and Security Management Office handles security concerns. No campus phone number has been documented.\nh:emergencyContactOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:sourceArticle: Location: Map of LSPU-LB. Office role: Student Handbook (Safety and Security Management Office). No phone number available\nh:verificationNote: No direct security phone number was supplied. The campus main line (049) 308-4530 (Mon-Fri, 8:00 AM-5:00 PM) is general, not an emergency line; for emergencies use 911 or go to the Guard House.\nrdf:type -> Emergency Contact [h:EmergencyContact]\nrdfs:label: Campus guards and Guard House (Safety and Security)\n\nAPPROXIMATE MATCH (not an exhaustive result): What to do in an earthquake\nh:",
+    "answer_for_eval": "In an emergency on campus, you can contact the following:\n\n1. The nearest guard or go to the Guard House at the main gate (on the left as you enter).\n2. Call 911 for life-threatening emergencies, serious injuries, fire, or crimes in progress.\n3. The University Health Service clinic for medical help.\n4. The Guidance Office for emotional or mental health crises.\n5. Your College Dean for bullying or harassment.\n\nThe campus main line is (049) 308-4530, but it is not an emergency line. For emergencies, use 911 or go to the Guard House.",
+    "retrieval_query": "Who can I contact in an emergency on campus?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:EC_GuardHouse",
+              "h:emergencyContactOfCampus",
+              "h:Campus"
+            ]
+          ],
+          "select": [
+            "?contact"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "h:EC_UniversityHealthService",
+              "h:emergencyContactOfCampus",
+              "h:Campus"
+            ]
+          ],
+          "select": [
+            "?contact"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "h:EC_National911",
+              "h:emergencyContactOfCampus",
+              "h:Campus"
+            ]
+          ],
+          "select": [
+            "?contact"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "h:EC_GuidanceOffice",
+              "h:emergencyContactOfCampus",
+              "h:Campus"
+            ]
+          ],
+          "select": [
+            "?contact"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 10.312999999965541
+  },
+  "answer": "In an emergency on campus, you can contact the following:\n\n1. The nearest guard or go to the Guard House at the main gate (on the left as you enter).\n2. Call 911 for life-threatening emergencies, serious injuries, fire, or crimes in progress.\n3. The University Health Service clinic for medical help.\n4. The Guidance Office for emotional or mental health crises.\n5. Your College Dean for bullying or harassment.\n\nThe campus main line is (049) 308-4530, but it is not an emergency line. For emergencies, use 911 or go to the Guard House.",
+  "pipeline_version": "oc-rag-3.0"
+}

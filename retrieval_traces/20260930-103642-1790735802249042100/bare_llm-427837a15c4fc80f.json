@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What is the LSPUCET, and which office administers it?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "LSPUCET is the Licensure Examination for Teachers conducted by the Licensure Examination Office.",
+    "retrieval_query": "What is the LSPUCET, and which office administers it?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.8439999999827705,
+    "selected_contexts": []
+  },
+  "answer": "LSPUCET is the Licensure Examination for Teachers conducted by the Licensure Examination Office.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

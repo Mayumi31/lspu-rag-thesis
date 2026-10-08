@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Others{% endblock %}
+{% block description %}Project information and contact guidance for the LSPU-LB program guide.{% endblock %}
+{% block body_class %}others-page{% endblock %}
+
+{% block content %}
+    <header class="page-hero">
+      <div class="container">
+        <div class="section-label">More about the Pathfinder</div>
+        <h1 class="page-title">Others</h1>
+        <p>Learn about this project or find guidance for contacting the campus.</p>
+      </div>
+    </header>
+
+    <section class="about-content others-section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-label">About this project</div>
+        <h2 id="about-title" class="others-heading">A clearer way to explore your next step.</h2>
+        <p class="others-lede">This LSPU-LB website is a campus knowledge assistant prototype designed to help students explore areas of study and start asking questions.</p>
+        <div class="about-grid">
+          <article class="about-block">
+            <div class="section-label">Purpose</div>
+            <h3>Explore before you decide.</h3>
+            <p>Use the college and program listings to compare possible fields, then ask the Knowledge Assistant for further information.</p>
+            <a class="card-link" href="{{ url_for('explore') }}">Explore colleges and programs →</a>
+          </article>
+          <article class="about-block about-note">
+            <div class="section-label">Prototype status</div>
+            <h3>Information is still being verified.</h3>
+            <p>Some program descriptions and assistant responses are illustrative prototype content, not official academic or admissions guidance. Confirm current offerings, requirements, and contact details with LSPU-LB before making decisions.</p>
+            <a class="card-link" href="{{ url_for('assistant') }}">Open the assistant →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-content others-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-layout">
+        <div>
+          <div class="section-label">Contact</div>
+          <h2 id="contact-title">How can we help you explore?</h2>
+          <p>For program and admissions decisions, please confirm details through LSPU-LB’s official channels. This prototype does not currently have a connected contact inbox.</p>
+          <div class="buttons contact-actions">
+            <a class="btn btn-primary" href="{{ url_for('explore') }}">Explore programs</a>
+            <a class="btn btn-outline contact-assistant" href="{{ url_for('assistant') }}">Ask Assistant</a>
+          </div>
+        </div>
+        <aside class="contact-note">
+          <h3>Prototype notice</h3>
+          <p>Official campus phone numbers, email addresses, and office hours have not been verified for this website, so they are intentionally not listed here.</p>
+        </aside>
+      </div>
+    </section>
+
+    <script id="catalog-data" type="application/json">{{ colleges|tojson }}</script>
+{% endblock %}
+
+{% block footer %}
+  <footer>
+    <div class="container footer-grid">
+      <div><h3>LSPU-LB</h3><p>A student-focused program exploration prototype for Los Baños Campus.</p></div>
+      <div><h3>Explore</h3><a href="{{ url_for('index') }}">Home</a><a href="{{ url_for('explore') }}">Colleges &amp; Programs</a><a href="{{ url_for('assistant') }}">Ask Assistant</a></div>
+      <div><h3>Others</h3><a href="#about">About</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="container copyright">© 2026 LSPU-LB Student Information Portal. Thesis Prototype.</div>
+  </footer>
+{% endblock %}

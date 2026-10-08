@@ -1,0 +1,45 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What are the criteria for the Athlete of the Year Award?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?definition=Given to a student who excels in sports, whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution.\nAthlete of the Year Award [h:Award_AthleteOfTheYear] --h:definition--> \"Given to a student who excels in sports, whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution.\"\nTYPE of Athlete of the Year Award: h:NonAcademicAward\nSOURCE/QUALIFIER for Athlete of the Year Award: h:sourceArticle = Appendix B, Article 3, Sec. 2"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?definition=Given to a student who excels in sports, whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution.\nAthlete of the Year Award [h:Award_AthleteOfTheYear] --h:definition--> \"Given to a student who excels in sports, whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution.\"\nTYPE of Athlete of the Year Award: h:NonAcademicAward\nSOURCE/QUALIFIER for Athlete of the Year Award: h:sourceArticle = Appendix B, Article 3, Sec. 2",
+    "answer_for_eval": "The criteria for the Athlete of the Year Award are:  \n- Given to a student who excels in sports  \n- Whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution",
+    "retrieval_query": "What are the criteria for the Athlete of the Year Award?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Award_AthleteOfTheYear",
+              "h:definition",
+              "?definition"
+            ]
+          ],
+          "select": [
+            "?definition"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 9.311999999976251,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?definition=Given to a student who excels in sports, whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution.\nAthlete of the Year Award [h:Award_AthleteOfTheYear] --h:definition--> \"Given to a student who excels in sports, whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution.\"\nTYPE of Athlete of the Year Award: h:NonAcademicAward\nSOURCE/QUALIFIER for Athlete of the Year Award: h:sourceArticle = Appendix B, Article 3, Sec. 2"
+    ]
+  },
+  "answer": "The criteria for the Athlete of the Year Award are:  \n- Given to a student who excels in sports  \n- Whose representation and performance for the University in competitions brought recognition to and strengthened the external relations of the institution",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

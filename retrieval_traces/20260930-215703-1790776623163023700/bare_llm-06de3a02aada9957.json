@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What documents do I need for enrollment?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "You typically need the following documents for enrollment at LSPU-LB:\n\n- Accomplished enrollment form\n- Birth certificate or valid ID\n- Form 138 (High School Report Card)\n- Good moral certificate\n- 2x2 ID picture\n- Medical certificate (if required)\n- Other documents as specified by the university\n\nPlease check with the university's official enrollment guidelines for the most accurate and updated list.",
+    "retrieval_query": "What documents do I need for enrollment?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 3.5320000000065193,
+    "selected_contexts": []
+  },
+  "answer": "You typically need the following documents for enrollment at LSPU-LB:\n\n- Accomplished enrollment form\n- Birth certificate or valid ID\n- Form 138 (High School Report Card)\n- Good moral certificate\n- 2x2 ID picture\n- Medical certificate (if required)\n- Other documents as specified by the university\n\nPlease check with the university's official enrollment guidelines for the most accurate and updated list.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

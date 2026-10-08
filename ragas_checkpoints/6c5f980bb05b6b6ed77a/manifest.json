@@ -1,0 +1,79 @@
+{
+  "pipeline": "oc-rag-3.0",
+  "model": "claude-haiku-4-5-20251001",
+  "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+  "questions": [
+    {
+      "question": "What is the minimum GWA needed to apply for BS Computer Science?",
+      "ground_truth": "The minimum general weighted average (GWA) for BS Computer Science (Major in Intelligent Systems) is 90, per the LSPU Admission Guidelines for 1st Semester AY 2026-2027, Annex A."
+    },
+    {
+      "question": "Which college offers BS Psychology?",
+      "ground_truth": "BS Psychology is offered by the College of Arts and Sciences (CAS)."
+    },
+    {
+      "question": "How many years does the BS Accountancy program take?",
+      "ground_truth": "BS Accountancy is a 4-year program. All 23 LSPU-LB programs are 4-year bachelor's programs."
+    },
+    {
+      "question": "Which programs require a GWA of 85, and which colleges offer them?",
+      "ground_truth": "Five programs require a minimum GWA of 85: BS Information Technology majors in Animation and Motion Graphics, Web and Mobile Application Development, and Service Management Program (College of Computer Studies); BS Criminology (College of Criminal Justice Education); and BS Hospitality Management (College of Hospitality Management and Tourism)."
+    },
+    {
+      "question": "Which CHED memorandum order covers the BSCS, BSIS and BSIT programs?",
+      "ground_truth": "CMO No. 25, series of 2015: Revised Policies, Standards, and Guidelines for the Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) programs."
+    },
+    {
+      "question": "What subjects does a BS Psychology student take in first year, first semester?",
+      "ground_truth": "First year, first semester of BS Psychology: PATHFit 1 - Movement Competency Training (2 units); GEC 101 - Understanding the Self (3); GEC 104 - Mathematics in the Modern World (3); P.I. 100 - The Life and Works of Jose Rizal (3); GEC ELEC 1 - Living in the IT Era (3); NSTP 1 - CWTS 1 / ROTC 1 (3); BC PSY 1 - Introduction to Psychology (3); and KOMFIL - Kontekstwalisadong Komunikasyon sa Filipino (3)."
+    },
+    {
+      "question": "What is the prerequisite of CMSC 204 (Algorithms and Complexity) in BSCS?",
+      "ground_truth": "The prerequisite of CMSC 204 (Algorithms and Complexity), taken in the 2nd semester of second year of BSCS - Intelligent Systems, is CMSC 202 (Discrete Structures 2), taken in the 1st semester of second year."
+    },
+    {
+      "question": "How many units is GEC 101 (Understanding the Self) in BS Psychology?",
+      "ground_truth": "GEC 101 - Understanding the Self is a 3-unit subject in the 1st semester of first year of BS Psychology."
+    },
+    {
+      "question": "What career paths can a BS Psychology graduate take?",
+      "ground_truth": "The ontology lists three career tracks for BS Psychology: the Clinical Psychology Track (psychometrician, or graduate study and supervised practice toward psychologist licensure); the Human Resources / Industrial-Organizational Psychology Track (HR, recruitment, training and organizational development roles); and the Counseling / Guidance Track (school or community guidance and counseling support roles, often alongside licensed guidance counselors). These are general career information, not an official LSPU document."
+    },
+    {
+      "question": "What programs does the College of Computer Studies offer?",
+      "ground_truth": "The College of Computer Studies (CCS) offers 4 programs: BS Computer Science major in Intelligent Systems, and BS Information Technology majors in Animation and Motion Graphics, Web and Mobile Application Development, and Service Management Program. CCS gives priority to STEM and ICT/ICTS strand applicants."
+    },
+    {
+      "question": "Which programs does the College of Hospitality Management and Tourism offer, and what GWA does each require?",
+      "ground_truth": "The College of Hospitality Management and Tourism (CIHT) offers 2 programs: BS Tourism Management, which requires a minimum GWA of 88, and BS Hospitality Management, which requires a minimum GWA of 85."
+    },
+    {
+      "question": "How many tardiness instances count as one absence?",
+      "ground_truth": "Three (3) tardiness instances in a class count as one (1) absence (Student Handbook, Ch. 6 Art. 3 Sec. 1)."
+    },
+    {
+      "question": "At what percentage of unexcused absences is a student dropped from the roll?",
+      "ground_truth": "A student whose unexcused absences reach 17% of the total class hours per semester is dropped from the roll. Excused absences may be removed through makeup."
+    },
+    {
+      "question": "Is cyber bullying a minor or a major offense?",
+      "ground_truth": "Cyber bullying is a major offense (Student Handbook, Ch. 6 Art. 2 Sec. 1.1). It is defined as bullying done through technology or any electronic means, and is based on RA 10175."
+    },
+    {
+      "question": "What are the sanctions for a first offense of cyber bullying?",
+      "ground_truth": "The sanction for a first offense of cyber bullying is suspension for one (1) month."
+    }
+  ],
+  "files": {
+    "C:\\Users\\German Gian\\Documents\\lspu-rag-thesis - Main\\app.py": "739a135a2fb4f409a9441515ddd2fcb3cfd900fb8c70fb0e7aa14cf157b7a0eb",
+    "data\\LSPU_ONTOLOGY.ttl": "9949c2ffc4a6b2e72025cc95736d737cc3e5f29e990797021387c6620983b997",
+    "data\\LSPU_SOURCE.txt": "1fd9baa83a4acadedea1e501ea44453435c7b70505f8c492e9df1eb051bf0335"
+  },
+  "dependencies": {
+    "ragas": "0.3.9",
+    "rdflib": "7.6.0",
+    "sentence-transformers": "6.0.0",
+    "anthropic": "0.125.0",
+    "langchain-anthropic": "1.6.1"
+  }
+}

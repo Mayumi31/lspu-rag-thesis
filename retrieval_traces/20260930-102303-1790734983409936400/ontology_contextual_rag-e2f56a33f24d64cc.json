@@ -1,0 +1,74 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What mental health services does the university offer?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_684",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_684\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Objectives The University's Mental Health Services run a program with the following objectives: • Ensure a safe, healthy, and sustainable learning environment for all students. • Use university-trained school psychologists, guidance counselors and school nurses to help those who need assistance. • Protect the rights and freedoms of people with mental health problems • Aim to improve mental and behavioral health information systems as well as evidence-based research.\nArticle 3. Objectives The University's Mental Health Services run a program with the following objectives: • Ensure a safe, healthy, and sustainable learning environment for all students. • Use university-trained school psychologists, guidance counselors and school nurses to help those who need assistance. • Protect the rights and freedoms of people with mental health problems • Aim to improve mental and behavioral health information systems as well as evidence-based research.\n\n• Integrate mental health care in the essential health services; and • Collaborate with other agencies, families, and communities to improve staffing ratios and to provide a continuum of mental health services",
+        "score": 0.03278688524590164
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_682",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_682\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 1. Rationale People’s academic performance, motivation to learn, level of stress, and ability to perform well in the workplace are all impacted by mental health issues, according to the LSPU-Mental Health Services Unit. This includes not only the absence of mental illness, but also the promotion of social, emotional, and behavioral health in addition to a person's overall health.\nArticle 1. Rationale People’s academic performance, motivation to learn, level of stress, and ability to perform well in the workplace are all impacted by mental health issues, according to the LSPU-Mental Health Services Unit. This includes not only the absence of mental illness, but also the promotion of social, emotional, and behavioral health in addition to a person's overall health.\n\nThe Laguna State Polytechnic University has an overall program vision for mental health services, which provides a common definition of mental health, the general approach to mental health, the roles that university administrators and health service officials play in implementing these services.",
+        "score": 0.031754032258064516
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Health Services\nh:definition: Provides medical/dental services information to faculty and students, ensures sufficient emergency medicines and equipment, and conducts regular first-aid training.\nh:sourceArticle: Chapter 5, Article 3, Sec. 4\nrdf:type -> Student Service [h:StudentService]\nrdfs:label: Health Services"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Mental Health Counseling and Referral\nh:audience: All students\nh:definition: Assessment, counseling, and referral for students with mental health concerns; university health service personnel may assess students aged 15-17 with consent/assent.\nh:eligibilityCriteria: All enrolled students; assessment of minors aged 15-17 requires consent and assent.\nh:requiresDocument -> Informed Consent Form (for adult clients) [h:Doc_InformedConsentAdult]\nh:requiresDocument -> Informed Consent Form (for minor clients) [h:Doc_InformedConsentMinor]\nh:sourceArticle: Chapter on Mental Health Services, Article 6-8\nrdf:type -> Mental Health Service [h:MentalHealthService]\nrdfs:label: Mental Health Counseling and Referral"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Mental Health Counseling and Referral\nh:audience: All students\nh:definition: Assessment, counseling, and referral for students with mental health concerns; university health service personnel may assess students aged 15-17 with consent/assent.\nh:eligibilityCriteria: All enrolled students; assessment of minors aged 15-17 requires consent and assent.\nh:requiresDocument -> Informed Consent Form (for adult clients) [h:Doc_InformedConsentAdult]\nh:requiresDocument -> Informed Consent Form (for minor clients) [h:Doc_InformedConsentMinor]\nh:sourceArticle: Chapter on Mental Health Services, Article 6-8\nrdf:type -> Mental Health Service [h:MentalHealthService]\nrdfs:label: Mental Health Counseling and Referral\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_684\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Objectives The University's Mental Health Services run a program with the following objectives: • Ensure a safe, healthy, and sustainable learning environment for all students. • Use university-trained school psychologists, guidance counselors and school nurses to help those who need assi",
+    "answer_for_eval": "The university offers Mental Health Counseling and Referral services, which include assessment, counseling, and referral for students with mental health concerns. These services are provided by university-trained professionals such as school psychologists, guidance counselors, and school nurses, and are aimed at ensuring a safe, healthy, and sustainable learning environment, protecting the rights and freedoms of individuals with mental health issues, and improving mental health information systems and research.",
+    "retrieval_query": "What mental health services does the university offer?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Svc_MentalHealthCounseling",
+              "rdf:type",
+              "h:MentalHealthService"
+            ],
+            [
+              "h:Svc_MentalHealthCounseling",
+              "rdfs:label",
+              {
+                "literal": "Mental Health Counseling and Referral"
+              }
+            ]
+          ],
+          "select": [
+            "?service"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 4,
+    "elapsed_seconds": 4.9689999999827705,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Mental Health Counseling and Referral\nh:audience: All students\nh:definition: Assessment, counseling, and referral for students with mental health concerns; university health service personnel may assess students aged 15-17 with consent/assent.\nh:eligibilityCriteria: All enrolled students; assessment of minors aged 15-17 requires consent and assent.\nh:requiresDocument -> Informed Consent Form (for adult clients) [h:Doc_InformedConsentAdult]\nh:requiresDocument -> Informed Consent Form (for minor clients) [h:Doc_InformedConsentMinor]\nh:sourceArticle: Chapter on Mental Health Services, Article 6-8\nrdf:type -> Mental Health Service [h:MentalHealthService]\nrdfs:label: Mental Health Counseling and Referral",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_684\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Objectives The University's Mental Health Services run a program with the following objectives: • Ensure a safe, healthy, and sustainable learning environment for all students. • Use university-trained school psychologists, guidance counselors and school nurses to help those who need assistance. • Protect the rights and freedoms of people with mental health problems • Aim to improve mental and behavioral health information systems as well as evidence-based research.\nArticle 3. Objectives The University's Mental Health Services run a program with the following objectives: • Ensure a safe, healthy, and sustainable learning environment for all students. • Use university-trained school psychologists, guidance counselors and school nurses to help those who need assistance. • Protect the rights and freedoms of people with mental health problems • Aim to improve mental and behavioral health information systems as well as evidence-based research.\n\n• Integrate mental health care in the essential health services; and • Collaborate with other agencies, families, and communities to improve staffing ratios and to provide a continuum of mental health services",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_682\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 1. Rationale People’s academic performance, motivation to learn, level of stress, and ability to perform well in the workplace are all impacted by mental health issues, according to the LSPU-Mental Health Services Unit. This includes not only the absence of mental illness, but also the promotion of social, emotional, and behavioral health in addition to a person's overall health.\nArticle 1. Rationale People’s academic performance, motivation to learn, level of stress, and ability to perform well in the workplace are all impacted by mental health issues, according to the LSPU-Mental Health Services Unit. This includes not only the absence of mental illness, but also the promotion of social, emotional, and behavioral health in addition to a person's overall health.\n\nThe Laguna State Polytechnic University has an overall program vision for mental health services, which provides a common definition of mental health, the general approach to mental health, the roles that university administrators and health service officials play in implementing these services.",
+      "APPROXIMATE MATCH (not an exhaustive result): Health Services\nh:definition: Provides medical/dental services information to faculty and students, ensures sufficient emergency medicines and equipment, and conducts regular first-aid training.\nh:sourceArticle: Chapter 5, Article 3, Sec. 4\nrdf:type -> Student Service [h:StudentService]\nrdfs:label: Health Services"
+    ]
+  },
+  "answer": "The university offers Mental Health Counseling and Referral services, which include assessment, counseling, and referral for students with mental health concerns. These services are provided by university-trained professionals such as school psychologists, guidance counselors, and school nurses, and are aimed at ensuring a safe, healthy, and sustainable learning environment, protecting the rights and freedoms of individuals with mental health issues, and improving mental health information systems and research.",
+  "pipeline_version": "oc-rag-3.3-verified-build"
+}

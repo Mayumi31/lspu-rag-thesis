@@ -1,0 +1,317 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What career paths can a BS Psychology graduate take?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_17",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psychological Research Methods and Statistics\n- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.",
+        "score": 0.06530936012691699
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_19",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_19\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nfurther training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.06452452301209573
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_18",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_18\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\n/ Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.\n- Counseling / Guidance Track: Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Psychometrician Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 34, s. 2017 - Policies and Standards for Undergraduate Programs in Psychology\nProgram educational objectives (per this CMO):\n- Apply the scientific study of behavior and mental processes to understand individuals and groups across diverse settings.\n- Conduct psychological research and assessment ethically, and pursue further training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.",
+        "score": 0.06325204813108039
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_740",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_740\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nleadership, group decision-making, and intergroup relations. This elective builds directly on concepts introduced in Social Psychology.\nPSY ELEC 4 — Introduction to Counseling\nCAS | Year 4, Sem 1 | Units: 3 | Prerequisite: PSY (incomplete in source) Introduces basic counseling theories, techniques, and the helping relationship. Students practice foundational counseling skills such as active listening and rapport-building. This elective prepares students interested in counseling-focused career paths.\nPSY ELEC 5 — Seminar in Psychology: Recruitment and Selection\nCAS | Year 4, Sem 1 | Units: 3 Focuses specifically on personnel recruitment and selection processes within organizations. Students learn to design and evaluate hiring assessments and interview procedures. This seminar extends the I/O psychology foundation into practical HR application.\nPSY ELEC 6 — Seminar on Psychological Assessment\nCAS | Year 4, Sem 1 | Units: 3 Provides advanced, specialized study of psychological assessment tools and their application in professional practice. Students critically evaluate assessment methods across various contexts.",
+        "score": 0.05827015361899083
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_31",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_31\nSECTION: PROGRAM: Bachelor of Science in Criminology | College: College of Criminal Justice Education (CCJE) | Degree: Bachelor of Science in Criminology (BSCrim)\nGeneral Weighted Average (GWA): 85.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Criminologist Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 05, s. 2018 - Policies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program\nProgram educational objectives (per this CMO):\n- Apply the principles of criminal law, criminalistics, and law enforcement administration to the investigation and prevention of crime.\n- Practice the profession within Philippine legal and ethical standards for law enforcement, corrections, and criminal justice work.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.05796703296703297
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 3; distinct values by variable = {\"?jobOutcome\": 3}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?jobOutcome=Clinical Psychology Track (Psychometrician / further studies toward licensure)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Clinical Psychology Track (Psychometrician / further studies toward licensure) [p:Job_ClinicalPsychTrack]\nTYPE of Clinical Psychology Track (Psychometrician / further studies toward licensure): p:JobOutcome\nSOURCE/QUALIFIER for Clinical Psychology Track (Psychometrician / further studies toward licensure): p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Clinical Psychology Track (Psychometrician / further studies toward licensure): p:isGeneralInformation = true\nTYPE of Bachelor of Science in Psychology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?jobOutcome=Counseling / Guidance Track\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Counseling / Guidance Track [p:Job_CounselingPsychTrack]\nTYPE of Counseling / Guidance Track: p:JobOutcome\nSOURCE/QUALIFIER for Counseling / Guidance Track: p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Counseling / Guidance Track: p:isGeneralInformation = true\nTYPE of Bachelor of Science in Psychology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?jobOutcome=Human Resources / Industrial-Organizational Psychology Track\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Human Resources / Industrial-Organizational Psychology Track [p:Job_IOPsychTrack]\nTYPE of Human Resources / Industrial-Organizational Psychology Track: p:JobOutcome\nSOURCE/QUALIFIER for Human Resources / Industrial-Organizational Psychology Track: p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Human Resources / Industrial-Organizational Psychology Track: p:isGeneralInformation = true\nTYPE of Bachelor of Science in Psychology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 40; distinct values by variable = {\"?jobOutcome\": 40, \"?name\": 40, \"?description\": 40}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?jobOutcome=AI/Research Assistant; ?name=AI/Research Assistant; ?description=Supports research and development in computer vision, NLP, or robotics, or pursues graduate study in AI.\nAI/Research Assistant [p:Job_AIResearchAssistant] --p:jobOutcomeDescription--> \"Supports research and development in computer vision, NLP, or robotics, or pursues graduate study in AI.\"\nAI/Research Assistant [p:Job_AIResearchAssistant] --p:jobOutcomeName--> \"AI/Research Assistant\"\nAI/Research Assistant [p:Job_AIResearchAssistant] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of AI/Research Assistant: p:JobOutcome\nSOURCE/QUALIFIER for AI/Research Assistant: p:provenanceNote = General knowledge of BSCS-Intelligent Systems career paths; not an official LSPU document.\nSOURCE/QUALIFIER for AI/Research Assistant: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 2: ?jobOutcome=2D/3D Animator / Motion Graphics Designer; ?name=2D/3D Animator / Motion Graphics Designer; ?description=Works in animation studios, game studios, or media/advertising companies producing animated and motion-graphics content.\n2D/3D Animator / Motion Graphics Designer [p:Job_AnimatorMotionDesigner] --p:jobOutcomeDescription--> \"Works in animation studios, game studios, or media/advertising companies producing animated and motion-graphics content.\"\n2D/3D Animator / Motion Graphics Designer [p:Job_AnimatorMotionDesigner] --p:jobOutcomeName--> \"2D/3D Animator / Motion Graphics Designer\"\n2D/3D Animator / Motion Graphics Designer [p:Job_AnimatorMotionDesigner] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of 2D/3D Animator / Motion Graphics Designer: p:JobOutcome\nSOURCE/QUALIFIER for 2D/3D Animator / Motion Graphics Designer: p:provenanceNote = General knowledge of BSIT-Animation and Motion Graphics career paths; not an official LSPU document.\nSOURCE/QUALIFIER for 2D/3D Animator / Motion Graphics Designer: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 3: ?jobOutcome=Aquaculture Technician/Fish Farm Manager; ?name=Aquaculture Technician/Fish Farm Manager; ?description=Manages fish farming and aquaculture operations for private hatcheries, fish farms, or agribusiness companies.\nAquaculture Technician/Fish Farm Manager [p:Job_AquacultureTechnician] --p:jobOutcomeDescription--> \"Manages fish farming and aquaculture operations for private hatcheries, fish farms, or agribusiness companies.\"\nAquaculture Technician/Fish Farm Manager [p:Job_AquacultureTechnician] --p:jobOutcomeName--> \"Aquaculture Technician/Fish Farm Manager\"\nAquaculture Technician/Fish Farm Manager [p:Job_AquacultureTechnician] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Aquaculture Technician/Fish Farm Manager: p:JobOutcome\nSOURCE/QUALIFIER for Aquaculture Technician/Fish Farm Manager: p:provenanceNote = General knowledge of BS Fisheries career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Aquaculture Technician/Fish Farm Manager: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 4: ?jobOutcome=Corporate Finance / Budget Officer; ?name=Corporate Finance / Budget Officer; ?description=Handles corporate budgeting, treasury, and financial planning functions.\nCorporate Finance / Budget Officer [p:Job_BudgetOfficer] --p:jobOutcomeDescription--> \"Handles corporate budgeting, treasury, and financial planning functions.\"\nCorporate Finance / Budget Officer [p:Job_BudgetOfficer] --p:jobOutcomeName--> \"Corporate Finance / Budget Officer\"\nCorporate Finance / Budget Officer [p:Job_BudgetOfficer] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Corporate Finance / Budget Officer: p:JobOutcome\nSOURCE/QUALIFIER for Corporate Finance / Budget Officer: p:provenanceNote = General knowledge of BSBA-Financial Management career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Corporate Finance / Budget Officer: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 5: ?jobOutcome=Certified Public Accountant (CPA); ?name=Certified Public Accountant (CPA); ?description=Sits for the CPA Licensure Examination and practices in public accounting, private industry, government, or academia.\nCertified Public Accountant (CPA) [p:Job_CertifiedPublicAccountant] --p:jobOutcomeDescription--> \"Sits for the CPA Licensure Examination and practices in public accounting, private industry, government, or academia.\"\nCertified Public Accountant (CPA) [p:Job_CertifiedPublicAccountant] --p:jobOutcomeName--> \"Certified Public Accountant (CPA)\"\nCertified Public Accountant (CPA) [p:Job_CertifiedPublicAccountant] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Certified Public Accountant (CPA): p:JobOutcome\nSOURCE/QUALIFIER for Certified Public Accountant (CPA): p:provenanceNote = General knowledge of the BSA-to-CPA licensure pathway in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Certified Public Accountant (CPA): p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 6: ?jobOutcome=Clinical Psychology Track (Psychometrician / further studies toward licensure); ?name=Clinical Psychology Track (Psychometrician / further studies toward licensure); ?description=Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\nClinical Psychology Track (Psychometrician / further studies toward licensure) [p:Job_ClinicalPsychTrack] --p:jobOutcomeDescription--> \"Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\"\nClinical Psychology Track (Psychometrician / further studies toward licensure) [p:Job_ClinicalPsychTrack] --p:jobOutcomeName--> \"Clinical Psychology Track (Psychometrician / further studies toward licensure)\"\nClinical Psychology Track (Psychometrician / further studies toward licensure) [p:Job_ClinicalPsychTrack] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Clinical Psychology Track (Psychometrician / further studies toward licensure): p:JobOutcome\nSOURCE/QUALIFIER for Clinical Psychology Track (Psychometrician / further studies toward licensure): p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Clinical Psychology Track (Psychometrician / further studies toward licensure): p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 7: ?jobOutcome=Counseling / Guidance Track; ?name=Counseling / Guidance Track; ?description=Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors.\nCounseling / Guidance Track [p:Job_CounselingPsychTrack] --p:jobOutcomeDescription--> \"Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors.\"\nCounseling / Guidance Track [p:Job_CounselingPsychTrack] --p:jobOutcomeName--> \"Counseling / Guidance Track\"\nCounseling / Guidance Track [p:Job_CounselingPsychTrack] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Counseling / Guidance Track: p:JobOutcome\nSOURCE/QUALIFIER for Counseling / Guidance Track: p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Counseling / Guidance Track: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 8: ?jobOutcome=Criminologist / Law Enforcement Officer; ?name=Criminologist / Law Enforcement Officer; ?description=Sits for the Criminologist Licensure Examination and pursues careers in the Philippine National Police, the Bureau of Jail Management and Penology, or related law enforcement and corrections agencies.\nCriminologist / Law Enforcement Officer [p:Job_Criminologist] --p:jobOutcomeDescription--> \"Sits for the Criminologist Licensure Examination and pursues careers in the Philippine National Police, the Bureau of Jail Management and Penology, or related law enforcement and corrections agencies.\"\nCriminologist / Law Enforcement Officer [p:Job_Criminologist] --p:jobOutcomeName--> \"Criminologist / Law Enforcement Officer\"\nCriminologist / Law Enforcement Officer [p:Job_Criminologist] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Criminologist / Law Enforcement Officer: p:JobOutcome\nSOURCE/QUALIFIER for Criminologist / Law Enforcement Officer: p:provenanceNote = General knowledge of the BS Criminology-to-licensure pathway in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Criminologist / Law Enforcement Officer: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 9: ?jobOutcome=Elementary School Teacher; ?name=Elementary School Teacher; ?description=Teaches multiple subjects at the elementary level after passing the Licensure Examination for Teachers.\nElementary School Teacher [p:Job_ElementaryTeacher] --p:jobOutcomeDescription--> \"Teaches multiple subjects at the elementary level after passing the Licensure Examination for Teachers.\"\nElementary School Teacher [p:Job_ElementaryTeacher] --p:jobOutcomeName--> \"Elementary School Teacher\"\nElementary School Teacher [p:Job_ElementaryTeacher] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Elementary School Teacher: p:JobOutcome\nSOURCE/QUALIFIER for Elementary School Teacher: p:provenanceNote = General knowledge of BEEd career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Elementary School Teacher: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 10: ?jobOutcome=Food and Service Management Teacher/Trainer; ?name=Food and Service Management Teacher/Trainer; ?description=Teaches culinary arts and food service subjects in senior high school TVL tracks or TESDA-accredited training centers.\nFood and Service Management Teacher/Trainer [p:Job_FSMTeacher] --p:jobOutcomeDescription--> \"Teaches culinary arts and food service subjects in senior high school TVL tracks or TESDA-accredited training centers.\"\nFood and Service Management Teacher/Trainer [p:Job_FSMTeacher] --p:jobOutcomeName--> \"Food and Service Management Teacher/Trainer\"\nFood and Service Management Teacher/Trainer [p:Job_FSMTeacher] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Food and Service Management Teacher/Trainer: p:JobOutcome\nSOURCE/QUALIFIER for Food and Service Management Teacher/Trainer: p:provenanceNote = General knowledge of the BTVTE-Food and Service Management career path in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Food and Service Management Teacher/Trainer: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 11: ?jobOutcome=Financial Analyst / Investment Associate; ?name=Financial Analyst / Investment Associate; ?description=Works in corporate finance, banking, or investment roles analyzing financial performance and opportunities.\nFinancial Analyst / Investment Associate [p:Job_FinancialAnalyst] --p:jobOutcomeDescription--> \"Works in corporate finance, banking, or investment roles analyzing financial performance and opportunities.\"\nFinancial Analyst / Investment Associate [p:Job_FinancialAnalyst] --p:jobOutcomeName--> \"Financial Analyst / Investment Associate\"\nFinancial Analyst / Investment Associate [p:Job_FinancialAnalyst] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Financial Analyst / Investment Associate: p:JobOutcome\nSOURCE/QUALIFIER for Financial Analyst / Investment Associate: p:provenanceNote = General knowledge of BSBA-Financial Management career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Financial Analyst / Investment Associate: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 12: ?jobOutcome=Fisheries Officer/Extension Worker; ?name=Fisheries Officer/Extension Worker; ?description=Works with government agencies such as the Bureau of Fisheries and Aquatic Resources on fisheries management and extension programs.\nFisheries Officer/Extension Worker [p:Job_FisheriesOfficer] --p:jobOutcomeDescription--> \"Works with government agencies such as the Bureau of Fisheries and Aquatic Resources on fisheries management and extension programs.\"\nFisheries Officer/Extension Worker [p:Job_FisheriesOfficer] --p:jobOutcomeName--> \"Fisheries Officer/Extension Worker\"\nFisheries Officer/Extension Worker [p:Job_FisheriesOfficer] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Fisheries Officer/Extension Worker: p:JobOutcome\nSOURCE/QUALIFIER for Fisheries Officer/Extension Worker: p:provenanceNote = General knowledge of BS Fisheries career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Fisheries Officer/Extension Worker: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 13: ?jobOutcome=Fitness Instructor/Program Coordinator; ?name=Fitness Instructor/Program Coordinator; ?description=Works in gyms, sports facilities, or wellness programs designing and leading fitness programs.\nFitness Instructor/Program Coordinator [p:Job_FitnessInstructor] --p:jobOutcomeDescription--> \"Works in gyms, sports facilities, or wellness programs designing and leading fitness programs.\"\nFitness Instructor/Program Coordinator [p:Job_FitnessInstructor] --p:jobOutcomeName--> \"Fitness Instructor/Program Coordinator\"\nFitness Instructor/Program Coordinator [p:Job_FitnessInstructor] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Fitness Instructor/Program Coordinator: p:JobOutcome\nSOURCE/QUALIFIER for Fitness Instructor/Program Coordinator: p:provenanceNote = General knowledge of Bachelor of Physical Education career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Fitness Instructor/Program Coordinator: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 14: ?jobOutcome=Food and Beverage Service Supervisor; ?name=Food and Beverage Service Supervisor; ?description=Supervises dining, catering, or banquet service operations in the hospitality industry.\nFood and Beverage Service Supervisor [p:Job_FoodBeverageSupervisor] --p:jobOutcomeDescription--> \"Supervises dining, catering, or banquet service operations in the hospitality industry.\"\nFood and Beverage Service Supervisor [p:Job_FoodBeverageSupervisor] --p:jobOutcomeName--> \"Food and Beverage Service Supervisor\"\nFood and Beverage Service Supervisor [p:Job_FoodBeverageSupervisor] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Food and Beverage Service Supervisor: p:JobOutcome\nSOURCE/QUALIFIER for Food and Beverage Service Supervisor: p:provenanceNote = General knowledge of BS Hospitality Management career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Food and Beverage Service Supervisor: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 15: ?jobOutcome=Food Service Industry Professional (chef, baker, catering/cruise line staff); ?name=Food Service Industry Professional (chef, baker, catering/cruise line staff); ?description=Works in restaurants, hotels, catering companies, or cruise lines in culinary and food-service roles.\nFood Service Industry Professional (chef, baker, catering/cruise line staff) [p:Job_FoodServiceIndustryStaff] --p:jobOutcomeDescription--> \"Works in restaurants, hotels, catering companies, or cruise lines in culinary and food-service roles.\"\nFood Service Industry Professional (chef, baker, catering/cruise line staff) [p:Job_FoodServiceIndustryStaff] --p:jobOutcomeName--> \"Food Service Industry Professional (chef, baker, catering/cruise line staff)\"\nFood Service Industry Professional (chef, baker, catering/cruise line staff) [p:Job_FoodServiceIndustryStaff] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Food Service Industry Professional (chef, baker, catering/cruise line staff): p:JobOutcome\nSOURCE/QUALIFIER for Food Service Industry Professional (chef, baker, catering/cruise line staff): p:provenanceNote = General knowledge of the BTVTE-Food and Service Management career path in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Food Service Industry Professional (chef, baker, catering/cruise line staff): p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 16: ?jobOutcome=Institutional Food Service Supervisor; ?name=Institutional Food Service Supervisor; ?description=Manages meal planning and food service operations in hospitals, schools, or corporate cafeterias.\nInstitutional Food Service Supervisor [p:Job_FoodServiceSupervisorND] --p:jobOutcomeDescription--> \"Manages meal planning and food service operations in hospitals, schools, or corporate cafeterias.\"\nInstitutional Food Service Supervisor [p:Job_FoodServiceSupervisorND] --p:jobOutcomeName--> \"Institutional Food Service Supervisor\"\nInstitutional Food Service Supervisor [p:Job_FoodServiceSupervisorND] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Institutional Food Service Supervisor: p:JobOutcome\nSOURCE/QUALIFIER for Institutional Food Service Supervisor: p:provenanceNote = General knowledge of BS Nutrition and Dietetics career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Institutional Food Service Supervisor: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 17: ?jobOutcome=Food Technologist; ?name=Food Technologist; ?description=Sits for the Food Technologists Licensure Examination and works in food product development, processing, or quality assurance for food manufacturers.\nFood Technologist [p:Job_FoodTechnologist] --p:jobOutcomeDescription--> \"Sits for the Food Technologists Licensure Examination and works in food product development, processing, or quality assurance for food manufacturers.\"\nFood Technologist [p:Job_FoodTechnologist] --p:jobOutcomeName--> \"Food Technologist\"\nFood Technologist [p:Job_FoodTechnologist] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Food Technologist: p:JobOutcome\nSOURCE/QUALIFIER for Food Technologist: p:provenanceNote = General knowledge of the BS Food Technology-to-licensure pathway in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Food Technologist: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 18: ?jobOutcome=Forensic/Crime Scene Investigator; ?name=Forensic/Crime Scene Investigator; ?description=Works in crime scene processing and forensic support roles for law enforcement agencies.\nForensic/Crime Scene Investigator [p:Job_ForensicInvestigator] --p:jobOutcomeDescription--> \"Works in crime scene processing and forensic support roles for law enforcement agencies.\"\nForensic/Crime Scene Investigator [p:Job_ForensicInvestigator] --p:jobOutcomeName--> \"Forensic/Crime Scene Investigator\"\nForensic/Crime Scene Investigator [p:Job_ForensicInvestigator] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Forensic/Crime Scene Investigator: p:JobOutcome\nSOURCE/QUALIFIER for Forensic/Crime Scene Investigator: p:provenanceNote = General knowledge of BS Criminology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Forensic/Crime Scene Investigator: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 19: ?jobOutcome=High School English Teacher; ?name=High School English Teacher; ?description=Teaches English language and literature in junior/senior high school after passing the Licensure Examination for Teachers.\nHigh School English Teacher [p:Job_HighSchoolTeacherEnglish] --p:jobOutcomeDescription--> \"Teaches English language and literature in junior/senior high school after passing the Licensure Examination for Teachers.\"\nHigh School English Teacher [p:Job_HighSchoolTeacherEnglish] --p:jobOutcomeName--> \"High School English Teacher\"\nHigh School English Teacher [p:Job_HighSchoolTeacherEnglish] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of High School English Teacher: p:JobOutcome\nSOURCE/QUALIFIER for High School English Teacher: p:provenanceNote = General knowledge of BSEd-English career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for High School English Teacher: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 20: ?jobOutcome=High School Filipino Teacher; ?name=High School Filipino Teacher; ?description=Teaches Filipino language and literature in junior/senior high school after passing the Licensure Examination for Teachers.\nHigh School Filipino Teacher [p:Job_HighSchoolTeacherFilipino] --p:jobOutcomeDescription--> \"Teaches Filipino language and literature in junior/senior high school after passing the Licensure Examination for Teachers.\"\nHigh School Filipino Teacher [p:Job_HighSchoolTeacherFilipino] --p:jobOutcomeName--> \"High School Filipino Teacher\"\nHigh School Filipino Teacher [p:Job_HighSchoolTeacherFilipino] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of High School Filipino Teacher: p:JobOutcome\nSOURCE/QUALIFIER for High School Filipino Teacher: p:provenanceNote = General knowledge of BSEd-Filipino career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for High School Filipino Teacher: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 21: ?jobOutcome=High School Mathematics Teacher; ?name=High School Mathematics Teacher; ?description=Teaches mathematics in junior/senior high school after passing the Licensure Examination for Teachers.\nHigh School Mathematics Teacher [p:Job_HighSchoolTeacherMath] --p:jobOutcomeDescription--> \"Teaches mathematics in junior/senior high school after passing the Licensure Examination for Teachers.\"\nHigh School Mathematics Teacher [p:Job_HighSchoolTeacherMath] --p:jobOutcomeName--> \"High School Mathematics Teacher\"\nHigh School Mathematics Teacher [p:Job_HighSchoolTeacherMath] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of High School Mathematics Teacher: p:JobOutcome\nSOURCE/QUALIFIER for High School Mathematics Teacher: p:provenanceNote = General knowledge of BSEd-Mathematics career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for High School Mathematics Teacher: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 22: ?jobOutcome=High School Science Teacher; ?name=High School Science Teacher; ?description=Teaches science subjects in junior/senior high school after passing the Licensure Examination for Teachers.\nHigh School Science Teacher [p:Job_HighSchoolTeacherScience] --p:jobOutcomeDescription--> \"Teaches science subjects in junior/senior high school after passing the Licensure Examination for Teachers.\"\nHigh School Science Teacher [p:Job_HighSchoolTeacherScience] --p:jobOutcomeName--> \"High School Science Teacher\"\nHigh School Science Teacher [p:Job_HighSchoolTeacherScience] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of High School Science Teacher: p:JobOutcome\nSOURCE/QUALIFIER for High School Science Teacher: p:provenanceNote = General knowledge of BSEd-Sciences career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for High School Science Teacher: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 23: ?jobOutcome=High School Social Studies Teacher; ?name=High School Social Studies Teacher; ?description=Teaches social studies/Araling Panlipunan in junior/senior high school after passing the Licensure Examination for Teachers.\nHigh School Social Studies Teacher [p:Job_HighSchoolTeacherSocialStudies] --p:jobOutcomeDescription--> \"Teaches social studies/Araling Panlipunan in junior/senior high school after passing the Licensure Examination for Teachers.\"\nHigh School Social Studies Teacher [p:Job_HighSchoolTeacherSocialStudies] --p:jobOutcomeName--> \"High School Social Studies Teacher\"\nHigh School Social Studies Teacher [p:Job_HighSchoolTeacherSocialStudies] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of High School Social Studies Teacher: p:JobOutcome\nSOURCE/QUALIFIER for High School Social Studies Teacher: p:provenanceNote = General knowledge of BSEd-Social Studies career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for High School Social Studies Teacher: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 24: ?jobOutcome=Hotel and Restaurant Operations Supervisor; ?name=Hotel and Restaurant Operations Supervisor; ?description=Manages front office, housekeeping, or food and beverage operations in hotels, resorts, or restaurants.\nHotel and Restaurant Operations Supervisor [p:Job_HotelOperationsManager] --p:jobOutcomeDescription--> \"Manages front office, housekeeping, or food and beverage operations in hotels, resorts, or restaurants.\"\nHotel and Restaurant Operations Supervisor [p:Job_HotelOperationsManager] --p:jobOutcomeName--> \"Hotel and Restaurant Operations Supervisor\"\nHotel and Restaurant Operations Supervisor [p:Job_HotelOperationsManager] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Hotel and Restaurant Operations Supervisor: p:JobOutcome\nSOURCE/QUALIFIER for Hotel and Restaurant Operations Supervisor: p:provenanceNote = General knowledge of BS Hospitality Management career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Hotel and Restaurant Operations Supervisor: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 25: ?jobOutcome=Human Resources / Industrial-Organizational Psychology Track; ?name=Human Resources / Industrial-Organizational Psychology Track; ?description=Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.\nHuman Resources / Industrial-Organizational Psychology Track [p:Job_IOPsychTrack] --p:jobOutcomeDescription--> \"Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.\"\nHuman Resources / Industrial-Organizational Psychology Track [p:Job_IOPsychTrack] --p:jobOutcomeName--> \"Human Resources / Industrial-Organizational Psychology Track\"\nHuman Resources / Industrial-Organizational Psychology Track [p:Job_IOPsychTrack] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Human Resources / Industrial-Organizational Psychology Track: p:JobOutcome\nSOURCE/QUALIFIER for Human Resources / Industrial-Organizational Psychology Track: p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Human Resources / Industrial-Organizational Psychology Track: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 26: ?jobOutcome=IT Service/Support Manager; ?name=IT Service/Support Manager; ?description=Manages IT service delivery, helpdesk operations, or systems administration for an organization.\nIT Service/Support Manager [p:Job_ITServiceManager] --p:jobOutcomeDescription--> \"Manages IT service delivery, helpdesk operations, or systems administration for an organization.\"\nIT Service/Support Manager [p:Job_ITServiceManager] --p:jobOutcomeName--> \"IT Service/Support Manager\"\nIT Service/Support Manager [p:Job_ITServiceManager] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of IT Service/Support Manager: p:JobOutcome\nSOURCE/QUALIFIER for IT Service/Support Manager: p:provenanceNote = General knowledge of BSIT-Service Management career paths; not an official LSPU document.\nSOURCE/QUALIFIER for IT Service/Support Manager: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 27: ?jobOutcome=Internal Auditor / Financial Analyst; ?name=Internal Auditor / Financial Analyst; ?description=Works in internal audit, financial reporting, or compliance functions within a company or government agency.\nInternal Auditor / Financial Analyst [p:Job_InternalAuditor] --p:jobOutcomeDescription--> \"Works in internal audit, financial reporting, or compliance functions within a company or government agency.\"\nInternal Auditor / Financial Analyst [p:Job_InternalAuditor] --p:jobOutcomeName--> \"Internal Auditor / Financial Analyst\"\nInternal Auditor / Financial Analyst [p:Job_InternalAuditor] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Internal Auditor / Financial Analyst: p:JobOutcome\nSOURCE/QUALIFIER for Internal Auditor / Financial Analyst: p:provenanceNote = General knowledge of BSA career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Internal Auditor / Financial Analyst: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 28: ?jobOutcome=Machine Learning Engineer; ?name=Machine Learning Engineer; ?description=Builds and deploys machine learning models for industry applications.\nMachine Learning Engineer [p:Job_MLEngineer] --p:jobOutcomeDescription--> \"Builds and deploys machine learning models for industry applications.\"\nMachine Learning Engineer [p:Job_MLEngineer] --p:jobOutcomeName--> \"Machine Learning Engineer\"\nMachine Learning Engineer [p:Job_MLEngineer] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Machine Learning Engineer: p:JobOutcome\nSOURCE/QUALIFIER for Machine Learning Engineer: p:provenanceNote = General knowledge of BSCS-Intelligent Systems career paths; not an official LSPU document.\nSOURCE/QUALIFIER for Machine Learning Engineer: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 29: ?jobOutcome=Market Research Analyst; ?name=Market Research Analyst; ?description=Conducts consumer and market research to guide business and marketing decisions.\nMarket Research Analyst [p:Job_MarketResearcher] --p:jobOutcomeDescription--> \"Conducts consumer and market research to guide business and marketing decisions.\"\nMarket Research Analyst [p:Job_MarketResearcher] --p:jobOutcomeName--> \"Market Research Analyst\"\nMarket Research Analyst [p:Job_MarketResearcher] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Market Research Analyst: p:JobOutcome\nSOURCE/QUALIFIER for Market Research Analyst: p:provenanceNote = General knowledge of BSBA-Marketing Management career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Market Research Analyst: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 30: ?jobOutcome=Marketing Associate/Officer; ?name=Marketing Associate/Officer; ?description=Works in brand management, digital marketing, or product marketing roles in private companies.\nMarketing Associate/Officer [p:Job_MarketingAssociate] --p:jobOutcomeDescription--> \"Works in brand management, digital marketing, or product marketing roles in private companies.\"\nMarketing Associate/Officer [p:Job_MarketingAssociate] --p:jobOutcomeName--> \"Marketing Associate/Officer\"\nMarketing Associate/Officer [p:Job_MarketingAssociate] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Marketing Associate/Officer: p:JobOutcome\nSOURCE/QUALIFIER for Marketing Associate/Officer: p:provenanceNote = General knowledge of BSBA-Marketing Management career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Marketing Associate/Officer: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 31: ?jobOutcome=Physical Education Teacher / Sports Coach; ?name=Physical Education Teacher / Sports Coach; ?description=Teaches PE in basic education or higher education, or coaches school/community sports teams, after passing the Licensure Examination for Teachers.\nPhysical Education Teacher / Sports Coach [p:Job_PETeacherCoach] --p:jobOutcomeDescription--> \"Teaches PE in basic education or higher education, or coaches school/community sports teams, after passing the Licensure Examination for Teachers.\"\nPhysical Education Teacher / Sports Coach [p:Job_PETeacherCoach] --p:jobOutcomeName--> \"Physical Education Teacher / Sports Coach\"\nPhysical Education Teacher / Sports Coach [p:Job_PETeacherCoach] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Physical Education Teacher / Sports Coach: p:JobOutcome\nSOURCE/QUALIFIER for Physical Education Teacher / Sports Coach: p:provenanceNote = General knowledge of Bachelor of Physical Education career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Physical Education Teacher / Sports Coach: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 32: ?jobOutcome=Quality Assurance/Quality Control Specialist; ?name=Quality Assurance/Quality Control Specialist; ?description=Oversees food safety and quality standards compliance in a food processing facility.\nQuality Assurance/Quality Control Specialist [p:Job_QAQCFoodSpecialist] --p:jobOutcomeDescription--> \"Oversees food safety and quality standards compliance in a food processing facility.\"\nQuality Assurance/Quality Control Specialist [p:Job_QAQCFoodSpecialist] --p:jobOutcomeName--> \"Quality Assurance/Quality Control Specialist\"\nQuality Assurance/Quality Control Specialist [p:Job_QAQCFoodSpecialist] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Quality Assurance/Quality Control Specialist: p:JobOutcome\nSOURCE/QUALIFIER for Quality Assurance/Quality Control Specialist: p:provenanceNote = General knowledge of BS Food Technology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Quality Assurance/Quality Control Specialist: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 33: ?jobOutcome=Registered Nutritionist-Dietitian (RND); ?name=Registered Nutritionist-Dietitian (RND); ?description=Sits for the Nutritionist-Dietitian Licensure Examination and works in hospitals, clinics, or community health programs.\nRegistered Nutritionist-Dietitian (RND) [p:Job_RegisteredNutritionistDietitian] --p:jobOutcomeDescription--> \"Sits for the Nutritionist-Dietitian Licensure Examination and works in hospitals, clinics, or community health programs.\"\nRegistered Nutritionist-Dietitian (RND) [p:Job_RegisteredNutritionistDietitian] --p:jobOutcomeName--> \"Registered Nutritionist-Dietitian (RND)\"\nRegistered Nutritionist-Dietitian (RND) [p:Job_RegisteredNutritionistDietitian] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Registered Nutritionist-Dietitian (RND): p:JobOutcome\nSOURCE/QUALIFIER for Registered Nutritionist-Dietitian (RND): p:provenanceNote = General knowledge of the BS Nutrition and Dietetics-to-licensure pathway in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Registered Nutritionist-Dietitian (RND): p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 34: ?jobOutcome=Sales Executive/Account Manager; ?name=Sales Executive/Account Manager; ?description=Manages client accounts and sales targets for a company's products or services.\nSales Executive/Account Manager [p:Job_SalesExecutive] --p:jobOutcomeDescription--> \"Manages client accounts and sales targets for a company's products or services.\"\nSales Executive/Account Manager [p:Job_SalesExecutive] --p:jobOutcomeName--> \"Sales Executive/Account Manager\"\nSales Executive/Account Manager [p:Job_SalesExecutive] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Sales Executive/Account Manager: p:JobOutcome\nSOURCE/QUALIFIER for Sales Executive/Account Manager: p:provenanceNote = General knowledge of BSBA-Marketing Management career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Sales Executive/Account Manager: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 35: ?jobOutcome=Software Developer/Engineer; ?name=Software Developer/Engineer; ?description=Designs, builds, and maintains software applications and systems.\nSoftware Developer/Engineer [p:Job_SoftwareDeveloper] --p:jobOutcomeDescription--> \"Designs, builds, and maintains software applications and systems.\"\nSoftware Developer/Engineer [p:Job_SoftwareDeveloper] --p:jobOutcomeName--> \"Software Developer/Engineer\"\nSoftware Developer/Engineer [p:Job_SoftwareDeveloper] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Software Developer/Engineer: p:JobOutcome\nSOURCE/QUALIFIER for Software Developer/Engineer: p:provenanceNote = General knowledge of BSCS career paths; not an official LSPU document.\nSOURCE/QUALIFIER for Software Developer/Engineer: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 36: ?jobOutcome=Technology and Livelihood Education (TLE) Teacher, Grades 4-8; ?name=Technology and Livelihood Education (TLE) Teacher, Grades 4-8; ?description=Teaches TLE/Home Economics exploratory subjects in the K-12 basic education curriculum after passing the Licensure Examination for Teachers.\nTechnology and Livelihood Education (TLE) Teacher, Grades 4-8 [p:Job_TLETeacher] --p:jobOutcomeDescription--> \"Teaches TLE/Home Economics exploratory subjects in the K-12 basic education curriculum after passing the Licensure Examination for Teachers.\"\nTechnology and Livelihood Education (TLE) Teacher, Grades 4-8 [p:Job_TLETeacher] --p:jobOutcomeName--> \"Technology and Livelihood Education (TLE) Teacher, Grades 4-8\"\nTechnology and Livelihood Education (TLE) Teacher, Grades 4-8 [p:Job_TLETeacher] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Technology and Livelihood Education (TLE) Teacher, Grades 4-8: p:JobOutcome\nSOURCE/QUALIFIER for Technology and Livelihood Education (TLE) Teacher, Grades 4-8: p:provenanceNote = General knowledge of the BTLE-Home Economics career path in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Technology and Livelihood Education (TLE) Teacher, Grades 4-8: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 37: ?jobOutcome=TVET Trainer-Assessor / Livelihood Program Facilitator; ?name=TVET Trainer-Assessor / Livelihood Program Facilitator; ?description=Works as an accredited TESDA trainer-assessor or facilitates community livelihood training programs.\nTVET Trainer-Assessor / Livelihood Program Facilitator [p:Job_TVETTrainerAssessor] --p:jobOutcomeDescription--> \"Works as an accredited TESDA trainer-assessor or facilitates community livelihood training programs.\"\nTVET Trainer-Assessor / Livelihood Program Facilitator [p:Job_TVETTrainerAssessor] --p:jobOutcomeName--> \"TVET Trainer-Assessor / Livelihood Program Facilitator\"\nTVET Trainer-Assessor / Livelihood Program Facilitator [p:Job_TVETTrainerAssessor] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of TVET Trainer-Assessor / Livelihood Program Facilitator: p:JobOutcome\nSOURCE/QUALIFIER for TVET Trainer-Assessor / Livelihood Program Facilitator: p:provenanceNote = General knowledge of the BTLE-Home Economics career path in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for TVET Trainer-Assessor / Livelihood Program Facilitator: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 38: ?jobOutcome=Tourism Planning/Development Officer; ?name=Tourism Planning/Development Officer; ?description=Works with local government units or tourism boards on destination planning and promotion.\nTourism Planning/Development Officer [p:Job_TourismPlanningOfficer] --p:jobOutcomeDescription--> \"Works with local government units or tourism boards on destination planning and promotion.\"\nTourism Planning/Development Officer [p:Job_TourismPlanningOfficer] --p:jobOutcomeName--> \"Tourism Planning/Development Officer\"\nTourism Planning/Development Officer [p:Job_TourismPlanningOfficer] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Tourism Planning/Development Officer: p:JobOutcome\nSOURCE/QUALIFIER for Tourism Planning/Development Officer: p:provenanceNote = General knowledge of BS Tourism Management career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Tourism Planning/Development Officer: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 39: ?jobOutcome=Travel and Tour Officer; ?name=Travel and Tour Officer; ?description=Works for travel agencies, tour operators, or airlines arranging and managing travel packages.\nTravel and Tour Officer [p:Job_TravelTourOfficer] --p:jobOutcomeDescription--> \"Works for travel agencies, tour operators, or airlines arranging and managing travel packages.\"\nTravel and Tour Officer [p:Job_TravelTourOfficer] --p:jobOutcomeName--> \"Travel and Tour Officer\"\nTravel and Tour Officer [p:Job_TravelTourOfficer] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Travel and Tour Officer: p:JobOutcome\nSOURCE/QUALIFIER for Travel and Tour Officer: p:provenanceNote = General knowledge of BS Tourism Management career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Travel and Tour Officer: p:isGeneralInformation = true"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 40: ?jobOutcome=Web/Mobile Application Developer; ?name=Web/Mobile Application Developer; ?description=Builds websites and mobile applications for businesses or as an independent/freelance developer.\nWeb/Mobile Application Developer [p:Job_WebMobileDeveloper] --p:jobOutcomeDescription--> \"Builds websites and mobile applications for businesses or as an independent/freelance developer.\"\nWeb/Mobile Application Developer [p:Job_WebMobileDeveloper] --p:jobOutcomeName--> \"Web/Mobile Application Developer\"\nWeb/Mobile Application Developer [p:Job_WebMobileDeveloper] --rdf:type--> Job/Career Outcome [p:JobOutcome]\nTYPE of Job/Career Outcome: http://www.w3.org/2002/07/owl#Class\nTYPE of Web/Mobile Application Developer: p:JobOutcome\nSOURCE/QUALIFIER for Web/Mobile Application Developer: p:provenanceNote = General knowledge of BSIT-Web and Mobile Application Development career paths; not an official LSPU document.\nSOURCE/QUALIFIER for Web/Mobile Application Developer: p:isGeneralInformation = true"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 3; distinct values by variable = {\"?jobOutcome\": 3}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?jobOutcome=Clinical Psychology Track (Psychometrician / further studies toward licensure)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Clinical Psychology Track (Psychometrician / further studies toward licensure) [p:Job_ClinicalPsychTrack]\nTYPE of Clinical Psychology Track (Psychometrician / further studies toward licensure): p:JobOutcome\nSOURCE/QUALIFIER for Clinical Psychology Track (Psychometrician / further studies toward licensure): p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Clinical Psychology Track (Psychometrician / further studies toward licensure): p:isGeneralInformation = true\nTYPE of Bachelor of Science in Psychology: p:Program\n\nQUERY 1\nGRAPH RESULT 2: ?jobOutcome=Counseling / Guidance Track\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Counseling / Guidance Track [p:Job_CounselingPsychTrack]\nTYPE of Counsel",
+    "answer_for_eval": "# Career Paths for BS Psychology Graduates\n\nBased on LSPU's program information, BS Psychology graduates can pursue the following career paths:\n\n## Primary Career Tracks\n\n1. **Clinical Psychology Track (Psychometrician / further studies toward licensure)**\n   - Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law\n\n2. **Counseling / Guidance Track**\n   - Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors\n\n3. **Human Resources / Industrial-Organizational Psychology Track**\n   - Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior\n\n## Board/Licensure Opportunity\n\nGraduates may take the **Psychometrician Licensure Examination** as this is a board program.\n\n---\n\n**Source Note:** This information reflects general knowledge of BS Psychology career paths in the Philippines and the program's CMO (CMO No. 34, s. 2017); it is not an official LSPU curriculum document.",
+    "retrieval_query": "What career paths can a BS Psychology graduate take?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSPsych",
+              "p:preparesForOutcome",
+              "?jobOutcome"
+            ]
+          ],
+          "select": [
+            "?jobOutcome"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "?jobOutcome",
+              "rdf:type",
+              "p:JobOutcome"
+            ],
+            [
+              "?jobOutcome",
+              "p:jobOutcomeName",
+              "?name"
+            ],
+            [
+              "?jobOutcome",
+              "p:jobOutcomeDescription",
+              "?description"
+            ]
+          ],
+          "select": [
+            "?jobOutcome",
+            "?name",
+            "?description"
+          ],
+          "filters": []
+        }
+      ],
+      "traversals": []
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 50,
+    "elapsed_seconds": 6.172000000020489
+  },
+  "answer": "# Career Paths for BS Psychology Graduates\n\nBased on LSPU's program information, BS Psychology graduates can pursue the following career paths:\n\n## Primary Career Tracks\n\n1. **Clinical Psychology Track (Psychometrician / further studies toward licensure)**\n   - Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law\n\n2. **Counseling / Guidance Track**\n   - Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors\n\n3. **Human Resources / Industrial-Organizational Psychology Track**\n   - Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior\n\n## Board/Licensure Opportunity\n\nGraduates may take the **Psychometrician Licensure Examination** as this is a board program.\n\n---\n\n**Source Note:** This information reflects general knowledge of BS Psychology career paths in the Philippines and the program's CMO (CMO No. 34, s. 2017); it is not an official LSPU curriculum document.",
+  "pipeline_version": "oc-rag-3.0"
+}

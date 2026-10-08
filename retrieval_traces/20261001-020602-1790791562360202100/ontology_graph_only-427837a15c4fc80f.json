@@ -1,0 +1,111 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What is the LSPUCET, and which office administers it?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): LSPU Entrance Examination (LSPUCET)\na:availedAt -> Guidance Office [h:GuidanceOffice]\na:classificationText: Simple\na:feedsAdmissionRequirement -> p:AdmReq_BEEd [p:AdmReq_BEEd]\na:feedsAdmissionRequirement -> p:AdmReq_BPE [p:AdmReq_BPE]\na:feedsAdmissionRequirement -> p:AdmReq_BSA [p:AdmReq_BSA]\na:feedsAdmissionRequirement -> p:AdmReq_BSBA_FM [p:AdmReq_BSBA_FM]\na:feedsAdmissionRequirement -> p:AdmReq_BSBA_MM [p:AdmReq_BSBA_MM]\na:feedsAdmissionRequirement -> p:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS]\na:feedsAdmissionRequirement -> p:AdmReq_BSCrim [p:AdmReq_BSCrim]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_English [p:AdmReq_BSEd_English]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_Filipino [p:AdmReq_BSEd_Filipino]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_Math [p:AdmReq_BSEd_Math]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_Sciences [p:AdmReq_BSEd_Sciences]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_SocialStudies [p:AdmReq_BSEd_SocialStudies]\na:feedsAdmissionRequirement -> p:AdmReq_BSFisheries [p:AdmReq_BSFisheries]\na:feedsAdmissionRequirement -> p:AdmReq_BSFoodTech [p:AdmReq_BSFoodTech]\na:feedsAdmissionRequirement -> p:AdmReq_BSHospitalityManagement [p:AdmReq_BSHospitalityManagement]\na:feedsAdmissionRequirement -> p:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG]\na:feedsAdmissionRequirement -> p:AdmReq_BSIT_SM [p:AdmReq_BSIT_SM]\na:feedsAdmissionRequirement -> p:AdmReq_BSIT_WMAD [p:AdmReq_BSIT_WMAD]\na:feedsAdmissionRequirement -> p:AdmReq_BSNutritionDietetics [p:AdmReq_BSNutritionDietetics]\na:feedsAdmissionRequirement -> p:AdmReq_BSPsych [p:AdmReq_BSPsych]\na:feedsAdmissionRequirement -> p:AdmReq_BSTourismManagement [p:AdmReq_BSTourismManagement]\na:feedsAdmissionRequirement -> p:AdmReq_BTLE_HE [p:AdmReq_BTLE_HE]\na:feedsAdmissionRequirement -> p:AdmReq_BTVTE_FSM [p:AdmReq_BTVTE_FSM]\na:feedsAdmissionRequirement -> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: B.XXIV. Guidance Office, Service 1: LSPU Entrance Examination, p. 72\na:totalFeeText: None (N/A)\na:totalProcessingTime: 1-3 days, 1 hour and 45 minutes\na:whoMayAvail: Student-applicants\nh:additionalInfo: LSPUCET (LSPU college entrance examination): The college entrance exam given by the Guidance Office to student-applicants; free of charge.\nh:additionalInfo: The process is a 15-minute orientation, about 1.5 hours of exam proper, and results released within 1-3 days.\nh:additionalInfo: You submit the online application form and a certified true copy of your report card or TOR.\nh:audience: Applicants\nh:definition: Testing service for student admission: orientation, administration, and release of results of the college entrance examination.\nh:hasStep -> Step 1: Orientation [a:LSPUCET_Step1]\nh:requiresDocument -> Certified True Copy of Report Card and/or Transcript of Records [a:Doc_CTCReportCardOrTOR]\nh:requiresDocument -> Online application form [a:Doc_OnlineApplicationForm]\nh:sourceArticle: Citizen's Charter 2026, Guidance Office, Service 1, p. 72-73\nrdf:type -> Entrance Exam [a:EntranceExam]\nrdf:type -> Service [a:Service]\nrdfs:comment: The Charter describes one entrance-exam PROCESS shared by all programs; the per-program pass/cutoff VALUE for each of these 23 lspuprog:AdmReq_* instances lives in Pillar 1 (LSPU Admission Guidelines, Annex A), not in the Charter.\nrdfs:label: LSPU Entrance Examination (LSPUCET)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology\np:degreeAbbreviation: BSIT\np:degreeName: Bachelor of Science in Information Technology\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Information Technology"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Animation and Motion Graphics [p:Major_AnimationMotionGraphics]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> 2D/3D Animator / Motion Graphics Designer [p:Job_AnimatorMotionDesigner]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:programOverview: Combines core IT fundamentals with specialized training in 2D/3D animation, digital illustration, and motion graphics design for media, advertising, and game production.\np:teachesSkill -> 2D/3D Animation and Digital Illustration [p:Skill_2DAnimation]\np:teachesSkill -> Motion Graphics Design [p:Skill_MotionGraphics]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Service Management Program\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_SM [p:AdmReq_BSIT_SM]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Service Management Program [p:Major_ServiceManagement]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> IT Service/Support Manager [p:Job_ITServiceManager]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Service Management Program\np:programOverview: Combines core IT fundamentals with specialized training in IT service delivery, systems administration, and technical support operations.\np:teachesSkill -> IT Service Management [p:Skill_ITServiceManagement]\np:teachesSkill -> Systems Administration and Technical Support [p:Skill_SystemsAdministration]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Service Management Program"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_WMAD [p:AdmReq_BSIT_WMAD]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Web and Mobile Application Development [p:Major_WebMobileAppDev]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> Web/Mobile Application Developer [p:Job_WebMobileDeveloper]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\np:programOverview: Combines core IT fundamentals with specialized training in building websites and mobile applications, including UI/UX design.\np:teachesSkill -> Mobile Application Development [p:Skill_MobileAppDevelopment]\np:teachesSkill -> UI/UX Design [p:Skill_UIUXDesign]\np:teachesSkill -> Web Application Development [p:Skill_WebDevelopment]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): LSPU Entrance Examination (LSPUCET)\na:availedAt -> Guidance Office [h:GuidanceOffice]\na:classificationText: Simple\na:feedsAdmissionRequirement -> p:AdmReq_BEEd [p:AdmReq_BEEd]\na:feedsAdmissionRequirement -> p:AdmReq_BPE [p:AdmReq_BPE]\na:feedsAdmissionRequirement -> p:AdmReq_BSA [p:AdmReq_BSA]\na:feedsAdmissionRequirement -> p:AdmReq_BSBA_FM [p:AdmReq_BSBA_FM]\na:feedsAdmissionRequirement -> p:AdmReq_BSBA_MM [p:AdmReq_BSBA_MM]\na:feedsAdmissionRequirement -> p:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS]\na:feedsAdmissionRequirement -> p:AdmReq_BSCrim [p:AdmReq_BSCrim]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_English [p:AdmReq_BSEd_English]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_Filipino [p:AdmReq_BSEd_Filipino]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_Math [p:AdmReq_BSEd_Math]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_Sciences [p:AdmReq_BSEd_Sciences]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_SocialStudies [p:AdmReq_BSEd_SocialStudies]\na:feedsAdmissionRequirement -> p:AdmReq_BSFisheries [p:AdmReq_BSFisheries]\na:feedsAdmissionRequirement -> p:AdmReq_BSFoodTech [p:AdmReq_BSFoodTech]\na:feedsAdmissionRequirement -> p:AdmReq_BSHospitali",
+    "answer_for_eval": "The LSPUCET is the LSPU Entrance Examination, a testing service for student admission that includes orientation, administration, and release of results for student applicants. It is administered by the Guidance Office.",
+    "retrieval_query": "What is the LSPUCET and which office administers it?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:Serv_LSPUEntranceExamination",
+              "a:sourceDocument",
+              "LSPU Citizen's Charter, 2026 1st Edition (University-Wide)"
+            ]
+          ],
+          "select": [
+            "?sourceDocument"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "a:Serv_LSPUEntranceExamination",
+              "a:hasCategory",
+              "a:Cat_Simple"
+            ]
+          ],
+          "select": [
+            "?category"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "a:Serv_LSPUEntranceExamination",
+              "a:availedAt",
+              "h:GuidanceOffice"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "a:Serv_LSPUEntranceExamination",
+              "a:hasStep",
+              "a:LSPUCET_Step1"
+            ]
+          ],
+          "select": [
+            "?step"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Use at most 4 queries",
+      "Unknown prefix: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 13.811999999976251,
+    "retrieval_seconds": 12.375,
+    "generation_seconds": 1.4369999999762513,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): LSPU Entrance Examination (LSPUCET)\na:availedAt -> Guidance Office [h:GuidanceOffice]\na:classificationText: Simple\na:feedsAdmissionRequirement -> p:AdmReq_BEEd [p:AdmReq_BEEd]\na:feedsAdmissionRequirement -> p:AdmReq_BPE [p:AdmReq_BPE]\na:feedsAdmissionRequirement -> p:AdmReq_BSA [p:AdmReq_BSA]\na:feedsAdmissionRequirement -> p:AdmReq_BSBA_FM [p:AdmReq_BSBA_FM]\na:feedsAdmissionRequirement -> p:AdmReq_BSBA_MM [p:AdmReq_BSBA_MM]\na:feedsAdmissionRequirement -> p:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS]\na:feedsAdmissionRequirement -> p:AdmReq_BSCrim [p:AdmReq_BSCrim]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_English [p:AdmReq_BSEd_English]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_Filipino [p:AdmReq_BSEd_Filipino]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_Math [p:AdmReq_BSEd_Math]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_Sciences [p:AdmReq_BSEd_Sciences]\na:feedsAdmissionRequirement -> p:AdmReq_BSEd_SocialStudies [p:AdmReq_BSEd_SocialStudies]\na:feedsAdmissionRequirement -> p:AdmReq_BSFisheries [p:AdmReq_BSFisheries]\na:feedsAdmissionRequirement -> p:AdmReq_BSFoodTech [p:AdmReq_BSFoodTech]\na:feedsAdmissionRequirement -> p:AdmReq_BSHospitalityManagement [p:AdmReq_BSHospitalityManagement]\na:feedsAdmissionRequirement -> p:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG]\na:feedsAdmissionRequirement -> p:AdmReq_BSIT_SM [p:AdmReq_BSIT_SM]\na:feedsAdmissionRequirement -> p:AdmReq_BSIT_WMAD [p:AdmReq_BSIT_WMAD]\na:feedsAdmissionRequirement -> p:AdmReq_BSNutritionDietetics [p:AdmReq_BSNutritionDietetics]\na:feedsAdmissionRequirement -> p:AdmReq_BSPsych [p:AdmReq_BSPsych]\na:feedsAdmissionRequirement -> p:AdmReq_BSTourismManagement [p:AdmReq_BSTourismManagement]\na:feedsAdmissionRequirement -> p:AdmReq_BTLE_HE [p:AdmReq_BTLE_HE]\na:feedsAdmissionRequirement -> p:AdmReq_BTVTE_FSM [p:AdmReq_BTVTE_FSM]\na:feedsAdmissionRequirement -> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: B.XXIV. Guidance Office, Service 1: LSPU Entrance Examination, p. 72\na:totalFeeText: None (N/A)\na:totalProcessingTime: 1-3 days, 1 hour and 45 minutes\na:whoMayAvail: Student-applicants\nh:additionalInfo: LSPUCET (LSPU college entrance examination): The college entrance exam given by the Guidance Office to student-applicants; free of charge.\nh:additionalInfo: The process is a 15-minute orientation, about 1.5 hours of exam proper, and results released within 1-3 days.\nh:additionalInfo: You submit the online application form and a certified true copy of your report card or TOR.\nh:audience: Applicants\nh:definition: Testing service for student admission: orientation, administration, and release of results of the college entrance examination.\nh:hasStep -> Step 1: Orientation [a:LSPUCET_Step1]\nh:requiresDocument -> Certified True Copy of Report Card and/or Transcript of Records [a:Doc_CTCReportCardOrTOR]\nh:requiresDocument -> Online application form [a:Doc_OnlineApplicationForm]\nh:sourceArticle: Citizen's Charter 2026, Guidance Office, Service 1, p. 72-73\nrdf:type -> Entrance Exam [a:EntranceExam]\nrdf:type -> Service [a:Service]\nrdfs:comment: The Charter describes one entrance-exam PROCESS shared by all programs; the per-program pass/cutoff VALUE for each of these 23 lspuprog:AdmReq_* instances lives in Pillar 1 (LSPU Admission Guidelines, Annex A), not in the Charter.\nrdfs:label: LSPU Entrance Examination (LSPUCET)",
+      "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology\np:degreeAbbreviation: BSIT\np:degreeName: Bachelor of Science in Information Technology\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Information Technology",
+      "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Animation and Motion Graphics [p:Major_AnimationMotionGraphics]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> 2D/3D Animator / Motion Graphics Designer [p:Job_AnimatorMotionDesigner]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:programOverview: Combines core IT fundamentals with specialized training in 2D/3D animation, digital illustration, and motion graphics design for media, advertising, and game production.\np:teachesSkill -> 2D/3D Animation and Digital Illustration [p:Skill_2DAnimation]\np:teachesSkill -> Motion Graphics Design [p:Skill_MotionGraphics]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics",
+      "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Service Management Program\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_SM [p:AdmReq_BSIT_SM]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Service Management Program [p:Major_ServiceManagement]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> IT Service/Support Manager [p:Job_ITServiceManager]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Service Management Program\np:programOverview: Combines core IT fundamentals with specialized training in IT service delivery, systems administration, and technical support operations.\np:teachesSkill -> IT Service Management [p:Skill_ITServiceManagement]\np:teachesSkill -> Systems Administration and Technical Support [p:Skill_SystemsAdministration]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Service Management Program",
+      "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_WMAD [p:AdmReq_BSIT_WMAD]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Web and Mobile Application Development [p:Major_WebMobileAppDev]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> Web/Mobile Application Developer [p:Job_WebMobileDeveloper]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\np:programOverview: Combines core IT fundamentals with specialized training in building websites and mobile applications, including UI/UX design.\np:teachesSkill -> Mobile Application Development [p:Skill_MobileAppDevelopment]\np:teachesSkill -> UI/UX Design [p:Skill_UIUXDesign]\np:teachesSkill -> Web Application Development [p:Skill_WebDevelopment]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development"
+    ]
+  },
+  "answer": "The LSPUCET is the LSPU Entrance Examination, a testing service for student admission that includes orientation, administration, and release of results for student applicants. It is administered by the Guidance Office.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

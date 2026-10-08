@@ -1,0 +1,111 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Is smoking a minor or a major offense?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Smoking\nh:definition: Smoking within University premises is strictly prohibited to all students.\nh:hasSanctionTier -> h:Tier_Smoking_1 [h:Tier_Smoking_1]\nh:hasSanctionTier -> h:Tier_Smoking_2 [h:Tier_Smoking_2]\nh:hasSanctionTier -> h:Tier_Smoking_3 [h:Tier_Smoking_3]\nh:sourceArticle: Ch.6 Art.3 Sec.6\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Smoking"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Other Minor Offenses\nh:definition: Other offenses not stated herein shall be treated on a case-to-case basis.\nh:sourceArticle: Ch.6 Art.3 Sec.9\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Other Minor Offenses"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Drunkenness Causing Physical Injury or Property Destruction\nh:definition: Any drunkenness or drunken behavior resulting in physical injuries to other person/s or destruction of property/ies.\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_1 [h:Tier_DrunkennessCausingHarm_1]\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_2 [h:Tier_DrunkennessCausingHarm_2]\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_3 [h:Tier_DrunkennessCausingHarm_3]\nh:sourceArticle: Ch.6 Art.2 Sec.6.2\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Drunkenness Causing Physical Injury or Property Destruction"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Child Pornography\nh:definition: Unlawful and prohibited acts defined and punishable by RA 9775 (Anti-Child Pornography Act of 2009), committed through a computer system.\nh:hasSanctionTier -> h:Tier_ChildPornography_1 [h:Tier_ChildPornography_1]\nh:isBasedOn -> RA 9775 [h:RA9775]\nh:sourceArticle: Ch.6 Art.2 Sec.1.7\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Child Pornography"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Narcotics-related Concerns\nh:definition: Possession, use or distribution of any prohibited drugs or chemicals (e.g. LSD, ecstasy, marijuana, shabu, heroin, opiates). Reported to Safety and Security Office; parents are informed. Subject to LSPU's Mandatory Drug Testing Program (BOR Resolution 1362, s.2017; CHED Memo No. 64, s.2017).\nh:hasSanctionTier -> h:Tier_NarcoticsRelatedConcerns_1 [h:Tier_NarcoticsRelatedConcerns_1]\nh:isBasedOn -> RA 9165 [h:RA9165]\nh:reportedTo -> Safety and Security Management Office [h:SafetyAndSecurityManagementOffice]\nh:sourceArticle: Ch.6 Art.2 Sec.10\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Narcotics-related Concerns"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Smoking\nh:definition: Smoking within University premises is strictly prohibited to all students.\nh:hasSanctionTier -> h:Tier_Smoking_1 [h:Tier_Smoking_1]\nh:hasSanctionTier -> h:Tier_Smoking_2 [h:Tier_Smoking_2]\nh:hasSanctionTier -> h:Tier_Smoking_3 [h:Tier_Smoking_3]\nh:sourceArticle: Ch.6 Art.3 Sec.6\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Smoking\n\nAPPROXIMATE MATCH (not an exhaustive result): Other Minor Offenses\nh:definition: Other offenses not stated herein shall be treated on a case-to-case basis.\nh:sourceArticle: Ch.6 Art.3 Sec.9\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Other Minor Offenses\n\nAPPROXIMATE MATCH (not an exhaustive result): Drunkenness Causing Physical Injury or Property Destruction\nh:definition: Any drunkenness or drunken behavior resulting in physical injuries to other person/s or destruction of property/ies.\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_1 [h:Tier_DrunkennessCausingHarm_1]\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_2 [h:Tier_DrunkennessCausingHarm_2]\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_3 [h:Tier_DrunkennessCausingHarm_3]\nh:sourceArticle: Ch.6 A",
+    "answer_for_eval": "Smoking is classified as a minor offense.",
+    "retrieval_query": "Is smoking considered a minor or a major offense?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Smoking",
+              "h:definition",
+              {
+                "literal": "Smoking within University premises is strictly prohibited to all students."
+              }
+            ],
+            [
+              "h:Smoking",
+              "h:hasSanctionTier",
+              "?tier"
+            ]
+          ],
+          "select": [
+            "?tier"
+          ]
+        },
+        {
+          "patterns": [
+            [
+              "?tier",
+              "h:imposesSanction",
+              "?sanction"
+            ]
+          ],
+          "select": [
+            "?sanction"
+          ]
+        },
+        {
+          "patterns": [
+            [
+              "?sanction",
+              "h:sanctionType",
+              {
+                "literal": "Reprimand"
+              }
+            ],
+            [
+              "?sanction",
+              "h:occurrenceOrdinal",
+              {
+                "literal": "1st Offense"
+              }
+            ]
+          ],
+          "select": [
+            "?sanction"
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Query 3 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 7.030999999959022,
+    "retrieval_seconds": 5.98399999999674,
+    "generation_seconds": 1.0469999999622814,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Smoking\nh:definition: Smoking within University premises is strictly prohibited to all students.\nh:hasSanctionTier -> h:Tier_Smoking_1 [h:Tier_Smoking_1]\nh:hasSanctionTier -> h:Tier_Smoking_2 [h:Tier_Smoking_2]\nh:hasSanctionTier -> h:Tier_Smoking_3 [h:Tier_Smoking_3]\nh:sourceArticle: Ch.6 Art.3 Sec.6\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Smoking",
+      "APPROXIMATE MATCH (not an exhaustive result): Other Minor Offenses\nh:definition: Other offenses not stated herein shall be treated on a case-to-case basis.\nh:sourceArticle: Ch.6 Art.3 Sec.9\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Other Minor Offenses",
+      "APPROXIMATE MATCH (not an exhaustive result): Drunkenness Causing Physical Injury or Property Destruction\nh:definition: Any drunkenness or drunken behavior resulting in physical injuries to other person/s or destruction of property/ies.\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_1 [h:Tier_DrunkennessCausingHarm_1]\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_2 [h:Tier_DrunkennessCausingHarm_2]\nh:hasSanctionTier -> h:Tier_DrunkennessCausingHarm_3 [h:Tier_DrunkennessCausingHarm_3]\nh:sourceArticle: Ch.6 Art.2 Sec.6.2\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Drunkenness Causing Physical Injury or Property Destruction",
+      "APPROXIMATE MATCH (not an exhaustive result): Child Pornography\nh:definition: Unlawful and prohibited acts defined and punishable by RA 9775 (Anti-Child Pornography Act of 2009), committed through a computer system.\nh:hasSanctionTier -> h:Tier_ChildPornography_1 [h:Tier_ChildPornography_1]\nh:isBasedOn -> RA 9775 [h:RA9775]\nh:sourceArticle: Ch.6 Art.2 Sec.1.7\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Child Pornography",
+      "APPROXIMATE MATCH (not an exhaustive result): Narcotics-related Concerns\nh:definition: Possession, use or distribution of any prohibited drugs or chemicals (e.g. LSD, ecstasy, marijuana, shabu, heroin, opiates). Reported to Safety and Security Office; parents are informed. Subject to LSPU's Mandatory Drug Testing Program (BOR Resolution 1362, s.2017; CHED Memo No. 64, s.2017).\nh:hasSanctionTier -> h:Tier_NarcoticsRelatedConcerns_1 [h:Tier_NarcoticsRelatedConcerns_1]\nh:isBasedOn -> RA 9165 [h:RA9165]\nh:reportedTo -> Safety and Security Management Office [h:SafetyAndSecurityManagementOffice]\nh:sourceArticle: Ch.6 Art.2 Sec.10\nrdf:type -> Major Offense [h:MajorOffense]\nrdfs:label: Narcotics-related Concerns"
+    ]
+  },
+  "answer": "Smoking is classified as a minor offense.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

@@ -1,0 +1,83 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Which office handles scholarships and financial assistance, and where is it?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology\np:degreeAbbreviation: BSIT\np:degreeName: Bachelor of Science in Information Technology\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Information Technology"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Animation and Motion Graphics [p:Major_AnimationMotionGraphics]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> 2D/3D Animator / Motion Graphics Designer [p:Job_AnimatorMotionDesigner]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:programOverview: Combines core IT fundamentals with specialized training in 2D/3D animation, digital illustration, and motion graphics design for media, advertising, and game production.\np:teachesSkill -> 2D/3D Animation and Digital Illustration [p:Skill_2DAnimation]\np:teachesSkill -> Motion Graphics Design [p:Skill_MotionGraphics]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Service Management Program\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_SM [p:AdmReq_BSIT_SM]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Service Management Program [p:Major_ServiceManagement]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> IT Service/Support Manager [p:Job_ITServiceManager]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Service Management Program\np:programOverview: Combines core IT fundamentals with specialized training in IT service delivery, systems administration, and technical support operations.\np:teachesSkill -> IT Service Management [p:Skill_ITServiceManagement]\np:teachesSkill -> Systems Administration and Technical Support [p:Skill_SystemsAdministration]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Service Management Program"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_WMAD [p:AdmReq_BSIT_WMAD]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Web and Mobile Application Development [p:Major_WebMobileAppDev]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> Web/Mobile Application Developer [p:Job_WebMobileDeveloper]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\np:programOverview: Combines core IT fundamentals with specialized training in building websites and mobile applications, including UI/UX design.\np:teachesSkill -> Mobile Application Development [p:Skill_MobileAppDevelopment]\np:teachesSkill -> UI/UX Design [p:Skill_UIUXDesign]\np:teachesSkill -> Web Application Development [p:Skill_WebDevelopment]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Processing of Scholarship and Financial Assistance\na:availedAt -> Scholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2B -- Government to Business [a:TT_G2B]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:hasTransactionType -> G2G -- Government to Government [a:TT_G2G]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, p. 22\na:totalFeeText: None\na:totalProcessingTime: 9 minutes\na:whoMayAvail: All\nh:additionalInfo: Steps: apply, fill out the SFA or CHED form, submit the form and documents, and request certification if you are a scholar.\nh:audience: Students\nh:hasStep -> Step 1: Apply for scholarship [a:Scholarship_Step1]\nh:requiresDocument -> Application Form (CHED Form) [a:Doc_CHEDForm]\nh:requiresDocument -> Certified True Copy of Certificate of Registration [a:Doc_CTCCOR]\nh:requiresDocument -> Certified True Copy of Grades [a:Doc_CTCGrades]\nh:requiresDocument -> Financial Documents [a:Doc_FinancialDocuments]\nh:requiresDocument -> Copy of ID with 3 Specimen Signatures [a:Doc_IDWith3Signatures]\nh:requiresDocument -> Notarized Certificate of No Employment and No Scholarship [a:Doc_NotarizedNoEmploymentCert]\nh:requiresDocument -> Application Form for Scholarship and Financial Assistance [a:Doc_SFAApplicationForm]\nh:sourceArticle: Citizen's Charter 2026, Scholarship and Financial Assistance, Service 1, p. 22-23\nrdf:type -> Service [a:Service]\nrdfs:label: Processing of Scholarship and Financial Assistance"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology\np:degreeAbbreviation: BSIT\np:degreeName: Bachelor of Science in Information Technology\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Information Technology\n\nAPPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Animation and Motion Graphics [p:Major_AnimationMotionGraphics]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> 2D/3D Animator / Motion Graphics Designer [p:Job_AnimatorMotionDesigner]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:programOverview: Comb",
+    "answer_for_eval": "The office that handles scholarships and financial assistance is the Scholarship and Financial Assistance Unit, and it is located at the LSPU-LB campus.",
+    "retrieval_query": "Which office handles scholarships and financial assistance, and where is it?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:Office_ScholarshipAndFinancialAssistanceUnit",
+              "h:locatedAtPlace",
+              "h:Loc_SFA"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "h:Loc_SFA",
+              "h:placeOfCampus",
+              "h:Campus_LSPULB"
+            ]
+          ],
+          "select": [
+            "?place"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 13.405999999959022,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology\np:degreeAbbreviation: BSIT\np:degreeName: Bachelor of Science in Information Technology\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Information Technology",
+      "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Animation and Motion Graphics [p:Major_AnimationMotionGraphics]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> 2D/3D Animator / Motion Graphics Designer [p:Job_AnimatorMotionDesigner]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\np:programOverview: Combines core IT fundamentals with specialized training in 2D/3D animation, digital illustration, and motion graphics design for media, advertising, and game production.\np:teachesSkill -> 2D/3D Animation and Digital Illustration [p:Skill_2DAnimation]\np:teachesSkill -> Motion Graphics Design [p:Skill_MotionGraphics]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Animation and Motion Graphics",
+      "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Service Management Program\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_SM [p:AdmReq_BSIT_SM]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Service Management Program [p:Major_ServiceManagement]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> IT Service/Support Manager [p:Job_ITServiceManager]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Service Management Program\np:programOverview: Combines core IT fundamentals with specialized training in IT service delivery, systems administration, and technical support operations.\np:teachesSkill -> IT Service Management [p:Skill_ITServiceManagement]\np:teachesSkill -> Systems Administration and Technical Support [p:Skill_SystemsAdministration]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Service Management Program",
+      "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\np:boardProgram: false\np:hasAdmissionRequirement -> p:AdmReq_BSIT_WMAD [p:AdmReq_BSIT_WMAD]\np:hasDegree -> Bachelor of Science in Information Technology [p:Degree_BSIT]\np:hasLegalBasis -> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\np:hasMajor -> Web and Mobile Application Development [p:Major_WebMobileAppDev]\np:offeredByCollege -> College of Computer Studies [p:CCS]\np:preparesForOutcome -> Web/Mobile Application Developer [p:Job_WebMobileDeveloper]\np:programDurationYears: 4\np:programName: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\np:programOverview: Combines core IT fundamentals with specialized training in building websites and mobile applications, including UI/UX design.\np:teachesSkill -> Mobile Application Development [p:Skill_MobileAppDevelopment]\np:teachesSkill -> UI/UX Design [p:Skill_UIUXDesign]\np:teachesSkill -> Web Application Development [p:Skill_WebDevelopment]\nrdf:type -> Program [p:Program]\nrdfs:label: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development",
+      "APPROXIMATE MATCH (not an exhaustive result): Processing of Scholarship and Financial Assistance\na:availedAt -> Scholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2B -- Government to Business [a:TT_G2B]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:hasTransactionType -> G2G -- Government to Government [a:TT_G2G]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, p. 22\na:totalFeeText: None\na:totalProcessingTime: 9 minutes\na:whoMayAvail: All\nh:additionalInfo: Steps: apply, fill out the SFA or CHED form, submit the form and documents, and request certification if you are a scholar.\nh:audience: Students\nh:hasStep -> Step 1: Apply for scholarship [a:Scholarship_Step1]\nh:requiresDocument -> Application Form (CHED Form) [a:Doc_CHEDForm]\nh:requiresDocument -> Certified True Copy of Certificate of Registration [a:Doc_CTCCOR]\nh:requiresDocument -> Certified True Copy of Grades [a:Doc_CTCGrades]\nh:requiresDocument -> Financial Documents [a:Doc_FinancialDocuments]\nh:requiresDocument -> Copy of ID with 3 Specimen Signatures [a:Doc_IDWith3Signatures]\nh:requiresDocument -> Notarized Certificate of No Employment and No Scholarship [a:Doc_NotarizedNoEmploymentCert]\nh:requiresDocument -> Application Form for Scholarship and Financial Assistance [a:Doc_SFAApplicationForm]\nh:sourceArticle: Citizen's Charter 2026, Scholarship and Financial Assistance, Service 1, p. 22-23\nrdf:type -> Service [a:Service]\nrdfs:label: Processing of Scholarship and Financial Assistance"
+    ]
+  },
+  "answer": "The office that handles scholarships and financial assistance is the Scholarship and Financial Assistance Unit, and it is located at the LSPU-LB campus.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

@@ -1,0 +1,109 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "How do I pay my fees online, and through which portal?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Online\nrdf:type -> Channel [a:Channel]\nrdfs:label: Online"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 2: Payment of fees; submit Official Receipt\na:agencyAction: Checks the Official Receipt.\na:clientAction: Pays the Certification Fee and Documentary Stamp (if applicable); submits the Official Receipt.\na:hasFeeText: Certification Fee and Documentary Stamp (if applicable)\na:hasProcessingTime: 40 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 5: Issuance of Good Moral Certificate (Undergraduate), Step 2, p. 19\nh:nextStep -> Step 3: Processing of Good Moral Certificate [a:GoodMoralUG_Step3]\nh:performedBy -> Collection Officer (Cashier) [a:Role_CollectionOfficer]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Payment of fees; submit Official Receipt"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 3: Payment of fees\na:agencyAction: Receives payment and issues official receipt.\na:clientAction: Proceeds to the Cashier's Office to pay fees.\na:hasFeeText: Fees reflected on the assessment form\na:hasProcessingTime: 3 minutes\na:sourceSection: I. Office of the Registrar, Service 1: Enrollment, Step 3, p. 3\nh:nextStep -> Step 4: Issuance of Certificate of Registration (COR) [a:Enroll_Step4]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 3: Payment of fees"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Collection of Fees Online basis\na:availedAt -> Cashier [a:Office_Cashier]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasChannel -> Online [a:Channel_Online]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: II. Office of the Cashier, Service 1: Collection of Fees Online basis, p. 7\na:totalFeeText: Php 7.00 (LandBank LinkBiz convenience fee)\na:totalProcessingTime: 2 days, 5 minutes, 10 seconds (dominated by 1-2 banking days for payment verification)\na:whoMayAvail: All\nh:definition: Process for the online collection of student and other fees via the LandBank LinkBiz Portal.\nh:hasStep -> Step 1: Access the LandBank LinkBiz Portal [a:CashierOnline_Step1]\nh:requiresDocument -> School ID or Registration Card / Assessment of Fees (students) [a:Doc_SchoolIDOrAssessment]\nrdf:type -> Service [a:Service]\nrdfs:label: Collection of Fees Online basis"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 2: Pay required fees\na:agencyAction: Receives payment and issues official receipt.\na:clientAction: Proceeds to the Cashier's Office to pay the required fees.\na:hasFeeText: Transcript of Records: P75.00/page (undergraduate), P150.00/page (graduate). Certifications: P30.00/page (Copy of Grades, F137, CAV, Certificate of Transfer, General Weighted Average, Subject Description, SPES, Permit to Study). Authentication: P30.00/page. 2nd copy of Diploma: P100.00.\na:hasProcessingTime: 2 minutes\na:sourceSection: I. Office of the Registrar, Service 2: Issuance of TOR/Transfer Credentials/Certifications/CAV/Authenticated Documents, Step 2, p. 4\nh:nextStep -> Step 3: Submit receipt and request slip; receive claim stub; document preparation [a:TOR_Step3]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Pay required fees"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Online\nrdf:type -> Channel [a:Channel]\nrdfs:label: Online\n\nAPPROXIMATE MATCH (not an exhaustive result): Step 2: Payment of fees; submit Official Receipt\na:agencyAction: Checks the Official Receipt.\na:clientAction: Pays the Certification Fee and Documentary Stamp (if applicable); submits the Official Receipt.\na:hasFeeText: Certification Fee and Documentary Stamp (if applicable)\na:hasProcessingTime: 40 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 5: Issuance of Good Moral Certificate (Undergraduate), Step 2, p. 19\nh:nextStep -> Step 3: Processing of Good Moral Certificate [a:GoodMoralUG_Step3]\nh:performedBy -> Collection Officer (Cashier) [a:Role_CollectionOfficer]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Payment of fees; submit Official Receipt\n\nAPPROXIMATE MATCH (not an exhaustive result): Step 3: Payment of fees\na:agencyAction: Receives payment and issues official receipt.\na:clientAction: Proceeds to the Cashier's Office to pay fees.\na:hasFeeText: Fees reflected on the assessment form\na:hasProcessingTime: 3 minutes\na:sourceSection: I. Office of the Registrar, Service 1: Enrollm",
+    "answer_for_eval": "You can pay your fees online through the LandBank LinkBiz Portal. The process involves accessing the portal, paying the required fees, and submitting the official receipt.",
+    "retrieval_query": "How do I pay my fees online and through which portal?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?service",
+              "rdf:type",
+              "a:Service"
+            ],
+            [
+              "?service",
+              "a:hasChannel",
+              "a:Channel_Online"
+            ],
+            [
+              "?service",
+              "a:hasTransactionType",
+              "a:TT_G2C"
+            ],
+            [
+              "?service",
+              "a:hasCategory",
+              "a:Cat_Simple"
+            ],
+            [
+              "?service",
+              "a:totalFeeText",
+              {
+                "literal": "Php 7.00 (LandBank LinkBiz convenience fee)"
+              }
+            ],
+            [
+              "?service",
+              "a:sourceSection",
+              {
+                "literal": "II. Office of the Cashier, Service 1: Collection of Fees Online basis, p. 7"
+              }
+            ],
+            [
+              "?service",
+              "a:availedAt",
+              "?office"
+            ],
+            [
+              "?office",
+              "rdfs:label",
+              "Cashier"
+            ]
+          ],
+          "select": [
+            "?service"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown prefix: a",
+      "Unresolved entity or class: a:TT_G2C"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 4.829000000027008,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Online\nrdf:type -> Channel [a:Channel]\nrdfs:label: Online",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 2: Payment of fees; submit Official Receipt\na:agencyAction: Checks the Official Receipt.\na:clientAction: Pays the Certification Fee and Documentary Stamp (if applicable); submits the Official Receipt.\na:hasFeeText: Certification Fee and Documentary Stamp (if applicable)\na:hasProcessingTime: 40 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 5: Issuance of Good Moral Certificate (Undergraduate), Step 2, p. 19\nh:nextStep -> Step 3: Processing of Good Moral Certificate [a:GoodMoralUG_Step3]\nh:performedBy -> Collection Officer (Cashier) [a:Role_CollectionOfficer]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Payment of fees; submit Official Receipt",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 3: Payment of fees\na:agencyAction: Receives payment and issues official receipt.\na:clientAction: Proceeds to the Cashier's Office to pay fees.\na:hasFeeText: Fees reflected on the assessment form\na:hasProcessingTime: 3 minutes\na:sourceSection: I. Office of the Registrar, Service 1: Enrollment, Step 3, p. 3\nh:nextStep -> Step 4: Issuance of Certificate of Registration (COR) [a:Enroll_Step4]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 3: Payment of fees",
+      "APPROXIMATE MATCH (not an exhaustive result): Collection of Fees Online basis\na:availedAt -> Cashier [a:Office_Cashier]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasChannel -> Online [a:Channel_Online]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: II. Office of the Cashier, Service 1: Collection of Fees Online basis, p. 7\na:totalFeeText: Php 7.00 (LandBank LinkBiz convenience fee)\na:totalProcessingTime: 2 days, 5 minutes, 10 seconds (dominated by 1-2 banking days for payment verification)\na:whoMayAvail: All\nh:definition: Process for the online collection of student and other fees via the LandBank LinkBiz Portal.\nh:hasStep -> Step 1: Access the LandBank LinkBiz Portal [a:CashierOnline_Step1]\nh:requiresDocument -> School ID or Registration Card / Assessment of Fees (students) [a:Doc_SchoolIDOrAssessment]\nrdf:type -> Service [a:Service]\nrdfs:label: Collection of Fees Online basis",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 2: Pay required fees\na:agencyAction: Receives payment and issues official receipt.\na:clientAction: Proceeds to the Cashier's Office to pay the required fees.\na:hasFeeText: Transcript of Records: P75.00/page (undergraduate), P150.00/page (graduate). Certifications: P30.00/page (Copy of Grades, F137, CAV, Certificate of Transfer, General Weighted Average, Subject Description, SPES, Permit to Study). Authentication: P30.00/page. 2nd copy of Diploma: P100.00.\na:hasProcessingTime: 2 minutes\na:sourceSection: I. Office of the Registrar, Service 2: Issuance of TOR/Transfer Credentials/Certifications/CAV/Authenticated Documents, Step 2, p. 4\nh:nextStep -> Step 3: Submit receipt and request slip; receive claim stub; document preparation [a:TOR_Step3]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Pay required fees"
+    ]
+  },
+  "answer": "You can pay your fees online through the LandBank LinkBiz Portal. The process involves accessing the portal, paying the required fees, and submitting the official receipt.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

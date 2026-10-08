@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What does INC mean?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "INC typically means \"Incomplete\" in academic grading, indicating that a student has not completed all required coursework.",
+    "retrieval_query": "What does INC mean?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.875,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.875,
+    "selected_contexts": []
+  },
+  "answer": "INC typically means \"Incomplete\" in academic grading, indicating that a student has not completed all required coursework.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

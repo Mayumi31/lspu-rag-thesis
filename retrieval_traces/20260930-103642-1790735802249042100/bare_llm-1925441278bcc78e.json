@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What should I do during a typhoon?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "During a typhoon, you should stay indoors, avoid using electrical appliances, keep updated with weather advisories, and prepare emergency supplies.",
+    "retrieval_query": "What should I do during a typhoon?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.8280000000377186,
+    "selected_contexts": []
+  },
+  "answer": "During a typhoon, you should stay indoors, avoid using electrical appliances, keep updated with weather advisories, and prepare emergency supplies.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

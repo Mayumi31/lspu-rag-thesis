@@ -1,0 +1,70 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What programs does the College of Computer Studies offer?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Computer Science - Major in Intelligent Systems\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --rdf:type--> Program [p:Program]\nTYPE of College of Computer Studies: p:College\nSOURCE/QUALIFIER for College of Computer Studies: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\nBachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG] --rdf:type--> Program [p:Program]\nTYPE of College of Computer Studies: p:College\nSOURCE/QUALIFIER for College of Computer Studies: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Information Technology - Major in Animation and Motion Graphics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Science in Information Technology - Major in Service Management Program\nBachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM] --rdf:type--> Program [p:Program]\nTYPE of College of Computer Studies: p:College\nSOURCE/QUALIFIER for College of Computer Studies: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Information Technology - Major in Service Management Program: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 4: ?program=Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\nBachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD] --rdf:type--> Program [p:Program]\nTYPE of College of Computer Studies: p:College\nSOURCE/QUALIFIER for College of Computer Studies: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Information Technology - Major in Web and Mobile Application Development: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Computer Science - Major in Intelligent Systems\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --rdf:type--> Program [p:Program]\nTYPE of College of Computer Studies: p:College\nSOURCE/QUALIFIER for College of Computer Studies: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\n\nQUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\nBachelor of Science in Information Technology - Major in Animation and M",
+    "answer_for_eval": "The College of Computer Studies offers the following programs:\n1. Bachelor of Science in Computer Science - Major in Intelligent Systems\n2. Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\n3. Bachelor of Science in Information Technology - Major in Service Management Program\n4. Bachelor of Science in Information Technology - Major in Web and Mobile Application Development",
+    "retrieval_query": "What programs does the College of Computer Studies offer?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?program",
+              "rdf:type",
+              "p:Program"
+            ],
+            [
+              "?program",
+              "p:offeredByCollege",
+              "p:CCS"
+            ]
+          ],
+          "select": [
+            "?program"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: p:Prog_BSIT_AMG"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 4,
+    "elapsed_seconds": 10.295999999972992,
+    "retrieval_seconds": 7.125,
+    "generation_seconds": 3.1709999999729916,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Computer Science - Major in Intelligent Systems\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --rdf:type--> Program [p:Program]\nTYPE of College of Computer Studies: p:College\nSOURCE/QUALIFIER for College of Computer Studies: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class",
+      "QUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\nBachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG] --rdf:type--> Program [p:Program]\nTYPE of College of Computer Studies: p:College\nSOURCE/QUALIFIER for College of Computer Studies: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Information Technology - Major in Animation and Motion Graphics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class",
+      "QUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Science in Information Technology - Major in Service Management Program\nBachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM] --rdf:type--> Program [p:Program]\nTYPE of College of Computer Studies: p:College\nSOURCE/QUALIFIER for College of Computer Studies: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Information Technology - Major in Service Management Program: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class",
+      "QUERY 1\nGRAPH RESULT 4: ?program=Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\nBachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD] --p:offeredByCollege--> College of Computer Studies [p:CCS]\nBachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD] --rdf:type--> Program [p:Program]\nTYPE of College of Computer Studies: p:College\nSOURCE/QUALIFIER for College of Computer Studies: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of Computer Science'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Computer Studies', now used here. 'College of Computer Science' is kept only as a historical alternate name.\nTYPE of Bachelor of Science in Information Technology - Major in Web and Mobile Application Development: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  "answer": "The College of Computer Studies offers the following programs:\n1. Bachelor of Science in Computer Science - Major in Intelligent Systems\n2. Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\n3. Bachelor of Science in Information Technology - Major in Service Management Program\n4. Bachelor of Science in Information Technology - Major in Web and Mobile Application Development",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

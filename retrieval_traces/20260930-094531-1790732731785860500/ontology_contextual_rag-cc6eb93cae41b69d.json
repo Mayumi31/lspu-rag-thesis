@@ -1,0 +1,94 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What does OSAS handle?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_150",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_150\nSECTION: 2. Evaluate the | Issue Evaluation Form | None | 2 minutes | OSAS Director/\n2. Evaluate the | Issue Evaluation Form | None | 2 minutes | OSAS Director/\nServices | Chairperson/ Staff\nrendered by\nOSAS. | Clientele\n\n3. Accept the signed | Release signed | None | 1 minute | OSAS Director/\nclearance. | clearance. | Chairperson/ Staff\n\nTOTAL: | None | 4 minutes\n\n3. Application, Renewal and Recognition of Student Organizations\nThis process provides description and series of steps for assisting the public\nspecifically in the application, renewal and recognition of student’s organizations.\n\nOffice or Division: | Office of the Student Affairs and Services\nClassification: | Highly Technical\nType of Transaction: | G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\n⎯ | Letter of application for renewal and\nOSAS\nrecognition\n⎯ | Updated/modified constitution and by- laws | Applicant\n⎯ | Renewal Form (for renewal only) | OSAS\n⎯ | Program of activities or action plan for one (1)\nOSAS\nyear\n⎯ | Organization Adviser Commitment Form | OSAS\n⎯ | Certification of Officers | OSAS\n⎯ | List of Officers and members with signature\nOSAS\nand 1x1 picture\n⎯ | Accomplishment report for previous year (for\nOSAS\nrenewal only)",
+        "score": 0.031544957774465976
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_151",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_151\nSECTION: 2. Evaluate the | Issue Evaluation Form | None | 2 minutes | OSAS Director/\nOSAS\n⎯ | Certification of Officers | OSAS\n⎯ | List of Officers and members with signature\nOSAS\nand 1x1 picture\n⎯ | Accomplishment report for previous year (for\nOSAS\nrenewal only)\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present complete | Check | papers | for None | 10 days | Student Organization\nrequirements to | details; | review | Unit Head/ Coordinator\nOSAS. | constitution and by-\nlaws, | program | of\nactivities; consolidated | OSAS\naccomplishment | Director/ Chairperson/\nreports for previous | Staff\nyear (for renewal only).\n\n2. Retrieved | Release of Certificate | None | 4 minutes | OSAS Director/\nApproved | of Recognition | Chairperson/ Staff\nApplication for\nrenewal/recogniti\non and certificate\n10 days and 4\nTOTAL: | None\nminutes\n\n18",
+        "score": 0.03055037313432836
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_160",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_160\nSECTION: Preparation | of\nPERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present the Certificate | Receive and check | OSAS Director /\nof Transfer. | submitted | Chairperson\ndocuments. | None | 5 Minutes | OSAS Staff\nIssue Good Moral\npayment slip.\n2. Payment | of | fees | Check | Official | Cashier\n(Certification Fee and | Receipt.\nDocumentary Stamp – | None | 40 minutes\nif applicable). Submit\nOfficial Receipt.\n3. Processing of Good | Check correctness | OSAS Director /\nMoral Certificate. | of | documents | Chairperson\nsubmitted. Check | OSAS Staff\ndisciplinary records.\nPreparation | of\nGood | Moral | None | 20 minutes\nCertificate.\nAffix Documentary\nStamp.\nAffix signature on\nthe certification.\n\n21",
+        "score": 0.030158730158730156
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_157",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_157\nSECTION: if applicable). Submit\nCitizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nTranscript of Record (TOR) | Registrar’s Office\nOfficial Receipt for Good Moral/Doc\nStamp | Cashier Office\nStudent ID | Business Affairs Office\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present any of the | Receive and check | OSAS Director /\nfollowing: | Original | submitted | Chairperson\nTranscript of Records, | documents. | None | 5 Minutes | OSAS Staff\nDiploma or Alumni ID. | Issue Good Moral\npayment slip.\n2. Payment | of | fees | Check | Official | Cashier\n(Certification Fee and | Receipt.\nDocumentary Stamp – | None | 40 minutes\nif applicable). Submit\nOfficial Receipt.\n3. Processing of Good | Check correctness | OSAS Director /\nMoral Certificate. | of | documents | Chairperson\nNone | 20 minutes\nsubmitted. Check | OSAS Staff\ndisciplinary records.\n\n20",
+        "score": 0.029827662395050816
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_162",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_162\nSECTION: 4. Evaluate the Services\n4. Evaluate the Services\nIssue Confirm fulfillment | OSAS Director /\nrendered by OSAS. | of evaluation. | None | 5 minutes | Chairperson\nOSAS Staff\n5. Accept the Good Moral | Release | Good | OSAS Director /\nCertificate. Signing in | Moral Certificate. | None | 5 minutes | Chairperson\nthe Logbook. | OSAS Staff\n1 hour and 15\nTOTAL: | None\nminutes\n\nIX. | SCHOLARSHIP AND FINANCIAL ASSISTANCE\n1. Processing of Scholarship and Financial Assistance\nThis process provides description and series of steps for assisting the public\nspecifically processing of scholarship and financial assistance.\n\nOffice or Division: | Scholarship and Financial Assistance Unit\nClassification: | Simple\nType of Transaction: | G2C, G2G, G2B\nWho may avail: | ALL\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nApplication Form for Scholarship and Financial | Scholarship and Financial Assistance Office/ SFA\nAssistance | Page (Online)\nApplication Form (CHED Form) | CHED Official Page/ Scholarship and Financial\nAssistance Office/ SFA Page (Online)\nCertified True Copy of Grades | Registrar\nCertified True Copy of Certificate of Registration Registrar\nFinancial Documents | DSWD and BIR Office",
+        "score": 0.029273504273504274
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Location of Office of Student Affairs and Services (OSAS) Building\nh:definition: From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there.\nh:housesOffice -> Guidance Office [h:GuidanceOffice]\nh:housesOffice -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:nearPlace -> Location of CBAA Building (College of Business Administration and Accountancy) [h:Loc_CBAA]\nh:nearPlace -> Location of Office of the University President [h:Loc_UniversityPresident]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: Office\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:label: Location of Office of Student Affairs and Services (OSAS) Building"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Office of Student Affairs and Services (OSAS)\nh:additionalInfo: Go to this office for: student organizations, ID validation, clearances, good moral certificates, excuse slips.\nh:administers -> School Uniform and Dress Code Policy [h:Policy_DressCode]\nh:administers -> Flag Ceremony Attendance Policy [h:Policy_FlagCeremonyAttendance]\nh:administers -> Clothing and Gender Representation Policy (LGBT/Gender Nonconforming Students) [h:Policy_GenderInclusiveDressCode]\nh:administers -> Hairstyle/Haircut Policy [h:Policy_HairstylePolicy]\nh:contactNote: Handles all complaints against alleged violators of the Code of Conduct; issues promissory notes, excuse-slip referrals, and coordinates the Student Discipline Coordinator.\nh:definition: Handles student organizations, discipline, ID validation, clearances, good moral certificates, and excuse slips.\nh:issues -> Excuse Slip [h:Doc_ExcuseSlip]\nh:issues -> Promissory Note [h:Doc_PromissoryNote]\nh:locatedAtPlace -> Location of Office of Student Affairs and Services (OSAS) Building [h:Loc_OSAS]\nh:receivesReportOf -> Non-wearing of I.D. and School Uniform [h:NonWearingIDUniform]\nh:receivesReportOf -> Other Acts Requiring Disciplinary/Corrective Action [h:OtherActsMajor]\nrdf:type -> Office [h:Office]\nrdfs:label: Office of Student Affairs and Services (OSAS)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 4: Evaluate the services rendered by OSAS\na:agencyAction: Issues/confirms fulfillment of evaluation.\na:hasFeeText: None\na:hasProcessingTime: 5 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 5: Issuance of Good Moral Certificate (Undergraduate), Step 4, p. 19\nh:nextStep -> Step 5: Accept the Good Moral Certificate; sign the logbook [a:GoodMoralUG_Step5]\nh:performedBy -> OSAS Director/Chairperson/Staff [a:Role_OSASDirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 4: Evaluate the services rendered by OSAS"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 2: Evaluate the services rendered by OSAS\na:agencyAction: Issues Evaluation Form.\na:clientAction: Evaluates the services rendered by OSAS.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 2: Signing of Semestral Clearances (Graduating Students), Step 2, p. 17\nh:nextStep -> Step 3: Accept the signed clearance [a:SemClearance_Step3]\nh:performedBy -> OSAS Director/Chairperson/Staff [a:Role_OSASDirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Evaluate the services rendered by OSAS"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 2: Evaluate the services rendered by OSAS\na:agencyAction: Issues Evaluation Form.\na:clientAction: Evaluates the services rendered by OSAS.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes\na:sourceSection: VIII. Office of the Student Affairs and Services, Service 1: Signing of General Clearances (Graduating Students), Step 2, p. 16\nh:nextStep -> Step 3: Accept the signed clearance [a:GenClearance_Step3]\nh:performedBy -> OSAS Director/Chairperson/Staff [a:Role_OSASDirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 2: Evaluate the services rendered by OSAS"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Location of Office of Student Affairs and Services (OSAS) Building\nh:definition: From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there. Located in the LSPU Los Baños campus, Malinta, Los Baños, Laguna.\nh:directionsFromGate: From the main gate, turn right and walk past the Hall and Gender and Development. Follow the CBAA hallway to the end. The OSAS building is there.\nh:housesOffice -> Guidance Office [h:GuidanceOffice]\nh:housesOffice -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:nearPlace -> Location of CBAA Building (College of Business Administration and Accountancy) [h:Loc_CBAA]\nh:nearPlace -> Location of Office of the University President [h:Loc_UniversityPresident]\nh:placeOfCampus -> LSPU Los Baños Campus (LSPU-LB) [h:Campus_LSPULB]\nh:placeType: Office\nh:sourceArticle: Map of LSPU-LB (campus map, walking directions from the main gate); not from the Handbook or Citizen's Charter\nrdf:type -> Campus Place [h:CampusPlace]\nrdfs:label: Location of Office of Student Affairs and Services (OSAS) Building\n\nAPPROXIMATE MATCH (not an exhaus",
+    "answer_for_eval": "OSAS handles student organizations, discipline, ID validation, clearances, good moral certificates, and excuse slips.",
+    "retrieval_query": "What does OSAS handle?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:OSAS",
+              "rdf:type",
+              "h:Office"
+            ]
+          ],
+          "select": [
+            "h:OSAS"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 3.8589999999967404
+  },
+  "answer": "OSAS handles student organizations, discipline, ID validation, clearances, good moral certificates, and excuse slips.",
+  "pipeline_version": "oc-rag-3.0"
+}

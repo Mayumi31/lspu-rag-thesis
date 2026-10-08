@@ -1,0 +1,76 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What programs does the College of Teacher Education offer?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?legalBasis=Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --p:isLegalBasisFor--> Bachelor of Secondary Education - Major in English [p:Prog_BSEd_English]\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:hasLegalBasis--> Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017]\nTYPE of Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Secondary Education - Major in English: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?legalBasis=Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --p:isLegalBasisFor--> Bachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math]\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:hasLegalBasis--> Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017]\nTYPE of Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Secondary Education - Major in Mathematics: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?legalBasis=Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --p:isLegalBasisFor--> Bachelor of Secondary Education - Major in English [p:Prog_BSEd_English]\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:hasLegalBasis--> Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017]\nTYPE of Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Secondary Education - Major in English: p:Program\n\nQUERY 2\nGRAPH RESULT 1: ?legalBasis=Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --p:isLegalBasisFor--> Bachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math]\nBachelor of Secondary Education - Major in Mathematics [p:Pro",
+    "answer_for_eval": "The College of Teacher Education offers the following programs:\n1. Bachelor of Secondary Education - Major in English\n2. Bachelor of Secondary Education - Major in Mathematics",
+    "retrieval_query": "What programs does the College of Teacher Education offer?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSEd_English",
+              "p:hasLegalBasis",
+              "?legalBasis"
+            ],
+            [
+              "?legalBasis",
+              "p:isLegalBasisFor",
+              "p:Prog_BSEd_English"
+            ]
+          ],
+          "select": [
+            "?legalBasis"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "p:Prog_BSEd_Math",
+              "p:hasLegalBasis",
+              "?legalBasis"
+            ],
+            [
+              "?legalBasis",
+              "p:isLegalBasisFor",
+              "p:Prog_BSEd_Math"
+            ]
+          ],
+          "select": [
+            "?legalBasis"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: p:Prog_BSEd_Filipino"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 2,
+    "elapsed_seconds": 17.25,
+    "retrieval_seconds": 15.51600000000326,
+    "generation_seconds": 1.7339999999967404,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?legalBasis=Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --p:isLegalBasisFor--> Bachelor of Secondary Education - Major in English [p:Prog_BSEd_English]\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:hasLegalBasis--> Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017]\nTYPE of Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Secondary Education - Major in English: p:Program",
+      "QUERY 2\nGRAPH RESULT 1: ?legalBasis=Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nPolicies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017] --p:isLegalBasisFor--> Bachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math]\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:hasLegalBasis--> Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd) [p:CMO_75_s2017]\nTYPE of Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:CMO\nSOURCE/QUALIFIER for Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd): p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Secondary Education - Major in Mathematics: p:Program"
+    ]
+  },
+  "answer": "The College of Teacher Education offers the following programs:\n1. Bachelor of Secondary Education - Major in English\n2. Bachelor of Secondary Education - Major in Mathematics",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

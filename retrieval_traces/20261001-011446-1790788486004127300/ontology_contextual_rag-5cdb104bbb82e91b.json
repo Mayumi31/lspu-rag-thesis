@@ -1,0 +1,95 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What career paths can a BS Psychology graduate take?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_17",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psychological Research Methods and Statistics\n- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.",
+        "score": 0.03252247488101534
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_19",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_19\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nfurther training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.032266458495966696
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_18",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_18\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\n/ Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.\n- Counseling / Guidance Track: Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Psychometrician Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 34, s. 2017 - Policies and Standards for Undergraduate Programs in Psychology\nProgram educational objectives (per this CMO):\n- Apply the scientific study of behavior and mental processes to understand individuals and groups across diverse settings.\n- Conduct psychological research and assessment ethically, and pursue further training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.",
+        "score": 0.03200204813108039
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_740",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_740\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nleadership, group decision-making, and intergroup relations. This elective builds directly on concepts introduced in Social Psychology.\nPSY ELEC 4 — Introduction to Counseling\nCAS | Year 4, Sem 1 | Units: 3 | Prerequisite: PSY (incomplete in source) Introduces basic counseling theories, techniques, and the helping relationship. Students practice foundational counseling skills such as active listening and rapport-building. This elective prepares students interested in counseling-focused career paths.\nPSY ELEC 5 — Seminar in Psychology: Recruitment and Selection\nCAS | Year 4, Sem 1 | Units: 3 Focuses specifically on personnel recruitment and selection processes within organizations. Students learn to design and evaluate hiring assessments and interview procedures. This seminar extends the I/O psychology foundation into practical HR application.\nPSY ELEC 6 — Seminar on Psychological Assessment\nCAS | Year 4, Sem 1 | Units: 3 Provides advanced, specialized study of psychological assessment tools and their application in professional practice. Students critically evaluate assessment methods across various contexts.",
+        "score": 0.031009615384615385
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_31",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_31\nSECTION: PROGRAM: Bachelor of Science in Criminology | College: College of Criminal Justice Education (CCJE) | Degree: Bachelor of Science in Criminology (BSCrim)\nGeneral Weighted Average (GWA): 85.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Criminologist Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 05, s. 2018 - Policies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program\nProgram educational objectives (per this CMO):\n- Apply the principles of criminal law, criminalistics, and law enforcement administration to the investigation and prevention of crime.\n- Practice the profession within Philippine legal and ethical standards for law enforcement, corrections, and criminal justice work.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.02862400327131466
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Psychology\np:degreeAbbreviation: BS Psychology\np:degreeName: Bachelor of Science in Psychology\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Psychology"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:isGeneralInformation: true\np:jobOutcomeDescription: Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\np:jobOutcomeName: Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:provenanceNote: General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:requiresSkill -> Psychological Assessment [p:Skill_PsychAssessment]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Clinical Psychology Track (Psychometrician / further studies toward licensure)"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psychological Research Methods and Statistics\n- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in ",
+    "answer_for_eval": "A BS Psychology graduate can pursue the following career paths:\n\n1. Clinical Psychology Track:\n   - Works as a psychometrician\n   - Pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law\n\n2. Human Resources / Industrial-Organizational Psychology Track:\n   - Works in human resources, recruitment, training, and organizational development roles that draw on the study of workplace behavior\n\n3. Counseling / Guidance Track:\n   - Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors",
+    "retrieval_query": "What career paths can a BS Psychology graduate pursue?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSPsych",
+              "p:hasOutcome",
+              "p:Job_ClinicalPsychTrack"
+            ],
+            [
+              "p:Job_ClinicalPsychTrack",
+              "p:belongsToProgram",
+              "p:Prog_BSPsych"
+            ]
+          ],
+          "select": [
+            "?outcome"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: p:Major_SeriousStudent",
+      "Unknown predicate"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 7,
+    "elapsed_seconds": 5.48399999999674,
+    "retrieval_seconds": 4.23399999999674,
+    "generation_seconds": 1.25,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psychological Research Methods and Statistics\n- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_19\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nfurther training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_18\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\n/ Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.\n- Counseling / Guidance Track: Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Psychometrician Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 34, s. 2017 - Policies and Standards for Undergraduate Programs in Psychology\nProgram educational objectives (per this CMO):\n- Apply the scientific study of behavior and mental processes to understand individuals and groups across diverse settings.\n- Conduct psychological research and assessment ethically, and pursue further training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_740\nSECTION: LSPU-LB CAMPUS MAP: LOCATIONS AND WALKING DIRECTIONS FROM THE MAIN GATE\nleadership, group decision-making, and intergroup relations. This elective builds directly on concepts introduced in Social Psychology.\nPSY ELEC 4 — Introduction to Counseling\nCAS | Year 4, Sem 1 | Units: 3 | Prerequisite: PSY (incomplete in source) Introduces basic counseling theories, techniques, and the helping relationship. Students practice foundational counseling skills such as active listening and rapport-building. This elective prepares students interested in counseling-focused career paths.\nPSY ELEC 5 — Seminar in Psychology: Recruitment and Selection\nCAS | Year 4, Sem 1 | Units: 3 Focuses specifically on personnel recruitment and selection processes within organizations. Students learn to design and evaluate hiring assessments and interview procedures. This seminar extends the I/O psychology foundation into practical HR application.\nPSY ELEC 6 — Seminar on Psychological Assessment\nCAS | Year 4, Sem 1 | Units: 3 Provides advanced, specialized study of psychological assessment tools and their application in professional practice. Students critically evaluate assessment methods across various contexts.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_31\nSECTION: PROGRAM: Bachelor of Science in Criminology | College: College of Criminal Justice Education (CCJE) | Degree: Bachelor of Science in Criminology (BSCrim)\nGeneral Weighted Average (GWA): 85.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Criminologist Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 05, s. 2018 - Policies, Standards and Guidelines for the Bachelor of Science in Criminology (BS Criminology) Program\nProgram educational objectives (per this CMO):\n- Apply the principles of criminal law, criminalistics, and law enforcement administration to the investigation and prevention of crime.\n- Practice the profession within Philippine legal and ethical standards for law enforcement, corrections, and criminal justice work.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "APPROXIMATE MATCH (not an exhaustive result): Bachelor of Science in Psychology\np:degreeAbbreviation: BS Psychology\np:degreeName: Bachelor of Science in Psychology\nrdf:type -> Degree [p:Degree]\nrdfs:label: Bachelor of Science in Psychology",
+      "APPROXIMATE MATCH (not an exhaustive result): Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:isGeneralInformation: true\np:jobOutcomeDescription: Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\np:jobOutcomeName: Clinical Psychology Track (Psychometrician / further studies toward licensure)\np:provenanceNote: General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Clinical Diagnosis and Case Formulation [p:Skill_ClinicalCaseFormulation]\np:requiresSkill -> Psychological Assessment [p:Skill_PsychAssessment]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Clinical Psychology Track (Psychometrician / further studies toward licensure)"
+    ]
+  },
+  "answer": "A BS Psychology graduate can pursue the following career paths:\n\n1. Clinical Psychology Track:\n   - Works as a psychometrician\n   - Pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law\n\n2. Human Resources / Industrial-Organizational Psychology Track:\n   - Works in human resources, recruitment, training, and organizational development roles that draw on the study of workplace behavior\n\n3. Counseling / Guidance Track:\n   - Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

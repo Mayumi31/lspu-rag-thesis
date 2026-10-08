@@ -1,0 +1,131 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Which programs lead to a board or licensure exam?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Elementary Education\nBachelor of Elementary Education [p:Prog_BEEd] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Elementary Education: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Physical Education\nBachelor of Physical Education [p:Prog_BPE] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Physical Education: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Science in Accountancy\nBachelor of Science in Accountancy [p:Prog_BSA] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Accountancy: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 4: ?program=Bachelor of Science in Criminology\nBachelor of Science in Criminology [p:Prog_BSCrim] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Criminology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 5: ?program=Bachelor of Secondary Education - Major in English\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in English: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 6: ?program=Bachelor of Secondary Education - Major in Filipino\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Filipino: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 7: ?program=Bachelor of Secondary Education - Major in Mathematics\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Mathematics: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 8: ?program=Bachelor of Secondary Education - Major in Sciences\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Sciences: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 9: ?program=Bachelor of Secondary Education - Major in Social Studies\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Social Studies: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 10: ?program=Bachelor of Science in Fisheries\nBachelor of Science in Fisheries [p:Prog_BSFisheries] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Fisheries: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 11: ?program=Bachelor of Science in Food Technology\nBachelor of Science in Food Technology [p:Prog_BSFoodTech] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Food Technology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 12: ?program=Bachelor of Science in Nutrition and Dietetics\nBachelor of Science in Nutrition and Dietetics [p:Prog_BSNutritionDietetics] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Nutrition and Dietetics: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 13: ?program=Bachelor of Science in Psychology\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Psychology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 14: ?program=Bachelor of Technology and Livelihood Education - Major in Home Economics\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Technology and Livelihood Education - Major in Home Economics: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 15: ?program=Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Elementary Education\nBachelor of Elementary Education [p:Prog_BEEd] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Elementary Education: p:Program\n\nQUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Physical Education\nBachelor of Physical Education [p:Prog_BPE] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Physical Education: p:Program\n\nQUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Science in Accountancy\nBachelor of Science in Accountancy [p:Prog_BSA] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Accountancy: p:Program\n\nQUERY 1\nGRAPH RESULT 4: ?program=Bachelor of Science in Criminology\nBachelor of Science in Criminology [p:Prog_BSCrim] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Criminology: p:Program\n\nQUERY 1\nGRAPH RESULT 5: ?program=Bachelor of Secondary Education - Major in English\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in English: p:Program\n\nQUERY 1\nGRAPH RESULT 6: ?program=Bachelor of Secondary Education - Major in Filipino\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:boa",
+    "answer_for_eval": "The programs that lead to a board or licensure exam are:\n\n1. Bachelor of Elementary Education\n2. Bachelor of Physical Education\n3. Bachelor of Science in Accountancy\n4. Bachelor of Science in Criminology\n5. Bachelor of Secondary Education - Major in English\n6. Bachelor of Secondary Education - Major in Filipino\n7. Bachelor of Secondary Education - Major in Mathematics\n8. Bachelor of Secondary Education - Major in Sciences\n9. Bachelor of Secondary Education - Major in Social Studies\n10. Bachelor of Science in Fisheries\n11. Bachelor of Science in Food Technology\n12. Bachelor of Science in Nutrition and Dietetics\n13. Bachelor of Science in Psychology\n14. Bachelor of Technology and Livelihood Education - Major in Home Economics\n15. Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management",
+    "retrieval_query": "Which programs lead to a board or licensure exam?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?program",
+              "p:boardProgram",
+              {
+                "literal": true
+              }
+            ]
+          ],
+          "select": [
+            "?program"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 15,
+    "elapsed_seconds": 7.5939999999827705,
+    "retrieval_seconds": 5.5310000000172295,
+    "generation_seconds": 2.062999999965541,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Elementary Education\nBachelor of Elementary Education [p:Prog_BEEd] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Elementary Education: p:Program",
+      "QUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Physical Education\nBachelor of Physical Education [p:Prog_BPE] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Physical Education: p:Program",
+      "QUERY 1\nGRAPH RESULT 3: ?program=Bachelor of Science in Accountancy\nBachelor of Science in Accountancy [p:Prog_BSA] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Accountancy: p:Program",
+      "QUERY 1\nGRAPH RESULT 4: ?program=Bachelor of Science in Criminology\nBachelor of Science in Criminology [p:Prog_BSCrim] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Criminology: p:Program",
+      "QUERY 1\nGRAPH RESULT 5: ?program=Bachelor of Secondary Education - Major in English\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in English: p:Program",
+      "QUERY 1\nGRAPH RESULT 6: ?program=Bachelor of Secondary Education - Major in Filipino\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Filipino: p:Program",
+      "QUERY 1\nGRAPH RESULT 7: ?program=Bachelor of Secondary Education - Major in Mathematics\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Mathematics: p:Program",
+      "QUERY 1\nGRAPH RESULT 8: ?program=Bachelor of Secondary Education - Major in Sciences\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Sciences: p:Program",
+      "QUERY 1\nGRAPH RESULT 9: ?program=Bachelor of Secondary Education - Major in Social Studies\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Secondary Education - Major in Social Studies: p:Program",
+      "QUERY 1\nGRAPH RESULT 10: ?program=Bachelor of Science in Fisheries\nBachelor of Science in Fisheries [p:Prog_BSFisheries] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Fisheries: p:Program",
+      "QUERY 1\nGRAPH RESULT 11: ?program=Bachelor of Science in Food Technology\nBachelor of Science in Food Technology [p:Prog_BSFoodTech] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Food Technology: p:Program",
+      "QUERY 1\nGRAPH RESULT 12: ?program=Bachelor of Science in Nutrition and Dietetics\nBachelor of Science in Nutrition and Dietetics [p:Prog_BSNutritionDietetics] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Nutrition and Dietetics: p:Program",
+      "QUERY 1\nGRAPH RESULT 13: ?program=Bachelor of Science in Psychology\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Science in Psychology: p:Program",
+      "QUERY 1\nGRAPH RESULT 14: ?program=Bachelor of Technology and Livelihood Education - Major in Home Economics\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Technology and Livelihood Education - Major in Home Economics: p:Program",
+      "QUERY 1\nGRAPH RESULT 15: ?program=Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --p:boardProgram--> \"true\"\nTYPE of Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: p:Program"
+    ]
+  },
+  "answer": "The programs that lead to a board or licensure exam are:\n\n1. Bachelor of Elementary Education\n2. Bachelor of Physical Education\n3. Bachelor of Science in Accountancy\n4. Bachelor of Science in Criminology\n5. Bachelor of Secondary Education - Major in English\n6. Bachelor of Secondary Education - Major in Filipino\n7. Bachelor of Secondary Education - Major in Mathematics\n8. Bachelor of Secondary Education - Major in Sciences\n9. Bachelor of Secondary Education - Major in Social Studies\n10. Bachelor of Science in Fisheries\n11. Bachelor of Science in Food Technology\n12. Bachelor of Science in Nutrition and Dietetics\n13. Bachelor of Science in Psychology\n14. Bachelor of Technology and Livelihood Education - Major in Home Economics\n15. Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

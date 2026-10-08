@@ -1,0 +1,188 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "How about transfer student?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_469",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_469\nSECTION: Chapter 4 | Article 6. Advanced or Transfer of Credits\nArticle 6. Advanced or Transfer of Credits\n\nSec. 1. A student whose application for admission has already been approved and is duly matriculated shall apply for advanced credits or transfer credits for work done in another institution upon:\n\n1.1 Presentation of credentials showing that the applicant passed in another institution courses fully equivalent to those given in this university for which credit is sought.\n\n1.2. Passing the validating test given if necessary by the department concerned.\n\nSec. 2. Transfer from one graduate school to another is discouraged. However, in exceptional cases where transferring is unavoidable, all the academic units earned by the students from the school last attended shall be accepted and validated by the Dean of the Graduate Studies but not exceeding 50 percent of the total number of units required by the university for the degree working; this excludes thesis or dissertation units.\n\nSec. 3. Transferees shall seek transfer subjects with the following conditions:\n\n3.1. The subjects taken in the school last attended are substantially the same in content in the graduate curriculum of the university.\n\n3.2.",
+        "score": 0.031746031746031744
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_827",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_827\nSECTION: WEBSITE ADMISSION RULE: TRANSFER WITHIN LSPU / SHIFTING OF COURSE (30-UNIT RULE)\nWEBSITE ADMISSION RULE: TRANSFER WITHIN LSPU / SHIFTING OF COURSE (30-UNIT RULE)\nSource: LSPU official website admission pages, text supplied by the maintainer (September 2026); not from the Handbook or Citizen's Charter (Transfer within LSPU / Shifting of Course). Compare with the Handbook shifting and transferring rules above.\nA student who has earned at least 30 collegiate academic units and wants to move from one course to another files an application for transfer or shifting in the current college. It is referred to the accepting college together with a true copy of grades. If the accepting college approves, the student receives a permit to transfer and a copy of grades.\nShifting is not allowed without a valid reason. The student must qualify for the grade requirements of the department being entered. The application uses the prescribed form stating the reasons, with a copy of grades certified by the registrar. The College Dean must approve it, and it goes to the VPAA/Campus Director for approval, before 12% of the regular class meetings of the term have been held. A request submitted or received later is not considered for the following semester.",
+        "score": 0.0315136476426799
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_413",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_413\nSECTION: Chapter 3 | Article 2. Admission Requirements\nofficially enrolled had been duly signed by the concerned authorities.\n\n2.9. Transferring. Those who intend to transfer to another College should satisfy its grade requirements. The prescribed forms for transfer should indicate a valid reason with an attached copy of grades and a recommendation letter from the previous Dean with a courtesy copy furnished to the registrar. Approval of the College Dean and the Registrar should be acquired before twelve percent (12%) of the regular class meeting for the terms is held. Finally, the student must have completed in the State University no less than sixty percent (60%) of the program's units and seventy-five (75%) if running for honors. (Also see Residency).\n\n2.10. Shifting of Course. Students from other courses can shift to any BS Program within the university provided that the following conditions are met:\n\n2.10.1. No failure of greater than six (6) units during the semester.\n\n2.10.2. No failure in the course/major-related subjects stated in the retention policy of any BS in the respective program curriculum.\n\n2.10.3 A filled out shifting form from the Office of the Registrar\n\n2.11. Basic Requirements.",
+        "score": 0.028958333333333336
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_830",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_830\nSECTION: WEBSITE ADMISSION RULE: TRANSFER FROM ANOTHER LSPU CAMPUS (WITHIN THE LSPU SYSTEM)\nwas not supplied. The source says the transferee \"must have completed\" the 50% or 75% of units in LSPU; this is read as a residency requirement. Confirm with the Registrar. The 50% here differs from the 60% in the Handbook's college-to-college transfer rule, which covers a different situation.",
+        "score": 0.028814262023217248
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_107",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_107\nSECTION: I. | OFFICE OF THE REGISTRAR\nattended/graduated\nonly)\n8. 2 pcs/ 2x2 picture | Client\n9. Original Certificate of Transfer (For\nTransferees Only)\n10. 1 pc. Long brown envelope\n\nOld Students\n1. Clearance | 1. Accounting Office\n2. Student ID | 2. OSAS\n3. Evaluation of Grades | 3. Registrar/College\n\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. New College | Validates the | None | 8 minutes | Registrar’s Staff\nstudents | authenticity of the\nsubmitted hard copy\nTransferees: | of enrolment\nProceeds to the | requirements.\nOffice of the | Enlists subjects to the\nRegistrar on the | system and Issues\nscheduled | Request for\nappointment date | SF10/F137\nto submit the hard\n\n2",
+        "score": 0.02862400327131466
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Transferring to Another College/Program Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:definition: Students intending to transfer to another college must satisfy grade requirements of the target college. The prescribed transfer form must state a valid reason, with an attached copy of grades and a recommendation letter from the previous Dean (CC to Registrar). Approval from the College Dean and Registrar must be obtained before 12% of regular class meetings have been held. The student must complete at least 60% of program units at LSPU (75% if running for honors).\nh:sourceArticle: Chapter 3, Article 2, Sec. 2.9\nrdf:type -> Policy [h:Policy]\nrdfs:label: Transferring to Another College/Program Policy"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Transfer within LSPU / shifting of course (website rules)\nh:appliesToStudentType -> Undergraduate Student [h:StudentType_Undergraduate]\nh:audience: Current students\nh:definition: A student who has earned at least 30 collegiate academic units and wants to move from one course to another files an application for transfer or shifting in the current college. It is referred to the accepting college together with a true copy of grades. If the accepting college approves, the student receives a permit to transfer and a copy of grades. Shifting is not allowed without a valid reason. The student must qualify for the grade requirements of the department being entered. The application uses the prescribed form stating the reasons, with a copy of grades certified by the registrar. The College Dean must approve it, and it goes to the VPAA/Campus Director for approval, before 12% of the regular class meetings of the term have been held. A request submitted or received later is not considered for the following semester.\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Transfer Admission: Transfer within LSPU / Shifting of Course)\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Transfer within LSPU / Shifting of Course); Handbook Chapter 3, Article 2, Sec. 2.9-2.10\nh:verificationNote: Compare with lspu:Policy_ShiftingOfCourse and lspu:Policy_Transferring (Handbook): the Handbook asks for no failure above 6 units, the Registrar's shifting form, a recommendation letter from the previous Dean, Dean and Registrar approval, and completion of 60% of units at LSPU (75% for honors). The website adds the 30-unit minimum and VPAA/Campus Director approval. Both are kept; confirm with the Registrar which applies.\nh:verificationNote: The website and Handbook rules overlap but are not identical; confirm the current requirements with the Registrar.\nrdf:type -> Policy [h:Policy]\nrdfs:label: Transfer within LSPU / shifting of course (website rules)\nrdfs:seeAlso -> Shifting of Course Policy [h:Policy_ShiftingOfCourse]\nrdfs:seeAlso -> Transferring to Another College/Program Policy [h:Policy_Transferring]"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_469\nSECTION: Chapter 4 | Article 6. Advanced or Transfer of Credits\nArticle 6. Advanced or Transfer of Credits\n\nSec. 1. A student whose application for admission has already been approved and is duly matriculated shall apply for advanced credits or transfer credits for work done in another institution upon:\n\n1.1 Presentation of credentials showing that the applicant passed in another institution courses fully equivalent to those given in this university for which credit is sought.\n\n1.2. Passing the validating test given if necessary by the department concerned.\n\nSec. 2. Transfer from one graduate school to another is discouraged. However, in exceptional cases where transferring is unavoidable, all the academic units earned by the students from the school last attended shall be accepted and validated by the Dean of the Graduate Studies but not exceeding 50 percent of the total number of units required by the university for the degree working; this excludes thesis or dissertation units.\n\nSec. 3. Transferees shall seek transfer subjects with the following conditions:\n\n3.1. The subjects taken in the school last attended are substantial",
+    "answer_for_eval": "A transfer student at LSPU can be admitted through the following processes:\n\n1. Transfer of Credits:\n   - Must present credentials showing passing work in courses equivalent to those at LSPU.\n   - May need to pass a validating test.\n   - Transfer from one graduate school to another is discouraged but possible in exceptional cases, accepting up to 50% of units earned (excluding thesis/dissertation units).\n   - Transfer subjects must be substantially similar in content to the university's curriculum.\n\n2. Transfer within LSPU / Shifting of Course:\n   - Must have earned at least 30 collegiate academic units.\n   - Files an application for transfer or shifting with a true copy of grades.\n   - Approval is required from the accepting college, the College Dean, and the VPAA/Campus Director.\n   - Must meet grade requirements of the target department.\n   - For shifting, no failure of more than 6 units during the semester and no failure in major-related subjects.\n   - Must complete at least 60% of program units at LSPU (75% if running for honors).\n   - Application must be submitted before 12% of the class meetings have been held in the semester.\n   - For transfer from another LSPU campus, the student must have completed the required residency units (50% or 75%, depending on the situation).\n\n3. Additional documentation:\n   - Prescribed transfer or shifting forms.\n   - Recommendation letter from the previous Dean.\n   - Certified grades from the registrar.\n   - Original Certificate of Transfer (for transfees only).\n   - Valid reasons for shifting.\n\nIn summary, transfer students must meet specific academic and administrative requirements, including grade standards, documentation, and approval processes, to be admitted as transfer students at LSPU.",
+    "retrieval_query": "How about transfer students?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?service",
+              "rdf:type",
+              "a:Service"
+            ],
+            [
+              "?service",
+              "a:hasCategory",
+              "a:ServiceCategory"
+            ],
+            [
+              "?service",
+              "a:hasTransactionType",
+              "a:TransactionType"
+            ],
+            [
+              "?service",
+              "a:whoMayAvail",
+              {
+                "literal": "Students"
+              }
+            ],
+            [
+              "?service",
+              "a:sourceDocument",
+              "LSPU Citizen's Charter, 2026 1st Edition (University-Wide)"
+            ]
+          ],
+          "select": [
+            "?service"
+          ]
+        },
+        {
+          "patterns": [
+            [
+              "?service",
+              "rdfs:label",
+              {
+                "literal": "Crediting of Subjects"
+              }
+            ],
+            [
+              "?service",
+              "h:definition",
+              {
+                "literal": "For students who are transferees, shifters, and returnees."
+              }
+            ]
+          ],
+          "select": [
+            "?service"
+          ]
+        },
+        {
+          "patterns": [
+            [
+              "?policy",
+              "rdf:type",
+              "h:Policy"
+            ],
+            [
+              "?policy",
+              "rdfs:label",
+              {
+                "literal": "Transferring to Another College/Program Policy"
+              }
+            ],
+            [
+              "?policy",
+              "h:administeredBy",
+              "h:OfficeOfTheRegistrar"
+            ],
+            [
+              "?policy",
+              "h:definition",
+              {
+                "literal": "Students intending to transfer to another college must satisfy grade requirements of the target college. The prescribed transfer form must state a valid reason, with an attached copy of grades and a recommendation letter from the previous D"
+              }
+            ]
+          ],
+          "select": [
+            "?policy"
+          ]
+        },
+        {
+          "patterns": [
+            [
+              "?studentType",
+              "rdf:type",
+              "h:StudentType"
+            ],
+            [
+              "?studentType",
+              "rdfs:label",
+              {
+                "literal": "Student Transferee"
+              }
+            ],
+            [
+              "?studentType",
+              "h:definition",
+              {
+                "literal": "A student coming from another school or another LSPU campus. Needs honorable dismissal or transfer credential, a transcript of records for evaluation, and must pass the entrance examination and interview."
+              }
+            ]
+          ],
+          "select": [
+            "?studentType"
+          ]
+        }
+      ],
+      "traversals": []
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: a:Cat_Simple",
+      "Unknown prefix: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 7,
+    "elapsed_seconds": 41.125,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_469\nSECTION: Chapter 4 | Article 6. Advanced or Transfer of Credits\nArticle 6. Advanced or Transfer of Credits\n\nSec. 1. A student whose application for admission has already been approved and is duly matriculated shall apply for advanced credits or transfer credits for work done in another institution upon:\n\n1.1 Presentation of credentials showing that the applicant passed in another institution courses fully equivalent to those given in this university for which credit is sought.\n\n1.2. Passing the validating test given if necessary by the department concerned.\n\nSec. 2. Transfer from one graduate school to another is discouraged. However, in exceptional cases where transferring is unavoidable, all the academic units earned by the students from the school last attended shall be accepted and validated by the Dean of the Graduate Studies but not exceeding 50 percent of the total number of units required by the university for the degree working; this excludes thesis or dissertation units.\n\nSec. 3. Transferees shall seek transfer subjects with the following conditions:\n\n3.1. The subjects taken in the school last attended are substantially the same in content in the graduate curriculum of the university.\n\n3.2.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_827\nSECTION: WEBSITE ADMISSION RULE: TRANSFER WITHIN LSPU / SHIFTING OF COURSE (30-UNIT RULE)\nWEBSITE ADMISSION RULE: TRANSFER WITHIN LSPU / SHIFTING OF COURSE (30-UNIT RULE)\nSource: LSPU official website admission pages, text supplied by the maintainer (September 2026); not from the Handbook or Citizen's Charter (Transfer within LSPU / Shifting of Course). Compare with the Handbook shifting and transferring rules above.\nA student who has earned at least 30 collegiate academic units and wants to move from one course to another files an application for transfer or shifting in the current college. It is referred to the accepting college together with a true copy of grades. If the accepting college approves, the student receives a permit to transfer and a copy of grades.\nShifting is not allowed without a valid reason. The student must qualify for the grade requirements of the department being entered. The application uses the prescribed form stating the reasons, with a copy of grades certified by the registrar. The College Dean must approve it, and it goes to the VPAA/Campus Director for approval, before 12% of the regular class meetings of the term have been held. A request submitted or received later is not considered for the following semester.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_413\nSECTION: Chapter 3 | Article 2. Admission Requirements\nofficially enrolled had been duly signed by the concerned authorities.\n\n2.9. Transferring. Those who intend to transfer to another College should satisfy its grade requirements. The prescribed forms for transfer should indicate a valid reason with an attached copy of grades and a recommendation letter from the previous Dean with a courtesy copy furnished to the registrar. Approval of the College Dean and the Registrar should be acquired before twelve percent (12%) of the regular class meeting for the terms is held. Finally, the student must have completed in the State University no less than sixty percent (60%) of the program's units and seventy-five (75%) if running for honors. (Also see Residency).\n\n2.10. Shifting of Course. Students from other courses can shift to any BS Program within the university provided that the following conditions are met:\n\n2.10.1. No failure of greater than six (6) units during the semester.\n\n2.10.2. No failure in the course/major-related subjects stated in the retention policy of any BS in the respective program curriculum.\n\n2.10.3 A filled out shifting form from the Office of the Registrar\n\n2.11. Basic Requirements.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_830\nSECTION: WEBSITE ADMISSION RULE: TRANSFER FROM ANOTHER LSPU CAMPUS (WITHIN THE LSPU SYSTEM)\nwas not supplied. The source says the transferee \"must have completed\" the 50% or 75% of units in LSPU; this is read as a residency requirement. Confirm with the Registrar. The 50% here differs from the 60% in the Handbook's college-to-college transfer rule, which covers a different situation.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_107\nSECTION: I. | OFFICE OF THE REGISTRAR\nattended/graduated\nonly)\n8. 2 pcs/ 2x2 picture | Client\n9. Original Certificate of Transfer (For\nTransferees Only)\n10. 1 pc. Long brown envelope\n\nOld Students\n1. Clearance | 1. Accounting Office\n2. Student ID | 2. OSAS\n3. Evaluation of Grades | 3. Registrar/College\n\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. New College | Validates the | None | 8 minutes | Registrar’s Staff\nstudents | authenticity of the\nsubmitted hard copy\nTransferees: | of enrolment\nProceeds to the | requirements.\nOffice of the | Enlists subjects to the\nRegistrar on the | system and Issues\nscheduled | Request for\nappointment date | SF10/F137\nto submit the hard\n\n2",
+      "APPROXIMATE MATCH (not an exhaustive result): Transferring to Another College/Program Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:definition: Students intending to transfer to another college must satisfy grade requirements of the target college. The prescribed transfer form must state a valid reason, with an attached copy of grades and a recommendation letter from the previous Dean (CC to Registrar). Approval from the College Dean and Registrar must be obtained before 12% of regular class meetings have been held. The student must complete at least 60% of program units at LSPU (75% if running for honors).\nh:sourceArticle: Chapter 3, Article 2, Sec. 2.9\nrdf:type -> Policy [h:Policy]\nrdfs:label: Transferring to Another College/Program Policy",
+      "APPROXIMATE MATCH (not an exhaustive result): Transfer within LSPU / shifting of course (website rules)\nh:appliesToStudentType -> Undergraduate Student [h:StudentType_Undergraduate]\nh:audience: Current students\nh:definition: A student who has earned at least 30 collegiate academic units and wants to move from one course to another files an application for transfer or shifting in the current college. It is referred to the accepting college together with a true copy of grades. If the accepting college approves, the student receives a permit to transfer and a copy of grades. Shifting is not allowed without a valid reason. The student must qualify for the grade requirements of the department being entered. The application uses the prescribed form stating the reasons, with a copy of grades certified by the registrar. The College Dean must approve it, and it goes to the VPAA/Campus Director for approval, before 12% of the regular class meetings of the term have been held. A request submitted or received later is not considered for the following semester.\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Transfer Admission: Transfer within LSPU / Shifting of Course)\nh:sourceArticle: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Transfer within LSPU / Shifting of Course); Handbook Chapter 3, Article 2, Sec. 2.9-2.10\nh:verificationNote: Compare with lspu:Policy_ShiftingOfCourse and lspu:Policy_Transferring (Handbook): the Handbook asks for no failure above 6 units, the Registrar's shifting form, a recommendation letter from the previous Dean, Dean and Registrar approval, and completion of 60% of units at LSPU (75% for honors). The website adds the 30-unit minimum and VPAA/Campus Director approval. Both are kept; confirm with the Registrar which applies.\nh:verificationNote: The website and Handbook rules overlap but are not identical; confirm the current requirements with the Registrar.\nrdf:type -> Policy [h:Policy]\nrdfs:label: Transfer within LSPU / shifting of course (website rules)\nrdfs:seeAlso -> Shifting of Course Policy [h:Policy_ShiftingOfCourse]\nrdfs:seeAlso -> Transferring to Another College/Program Policy [h:Policy_Transferring]"
+    ]
+  },
+  "answer": "A transfer student at LSPU can be admitted through the following processes:\n\n1. Transfer of Credits:\n   - Must present credentials showing passing work in courses equivalent to those at LSPU.\n   - May need to pass a validating test.\n   - Transfer from one graduate school to another is discouraged but possible in exceptional cases, accepting up to 50% of units earned (excluding thesis/dissertation units).\n   - Transfer subjects must be substantially similar in content to the university's curriculum.\n\n2. Transfer within LSPU / Shifting of Course:\n   - Must have earned at least 30 collegiate academic units.\n   - Files an application for transfer or shifting with a true copy of grades.\n   - Approval is required from the accepting college, the College Dean, and the VPAA/Campus Director.\n   - Must meet grade requirements of the target department.\n   - For shifting, no failure of more than 6 units during the semester and no failure in major-related subjects.\n   - Must complete at least 60% of program units at LSPU (75% if running for honors).\n   - Application must be submitted before 12% of the class meetings have been held in the semester.\n   - For transfer from another LSPU campus, the student must have completed the required residency units (50% or 75%, depending on the situation).\n\n3. Additional documentation:\n   - Prescribed transfer or shifting forms.\n   - Recommendation letter from the previous Dean.\n   - Certified grades from the registrar.\n   - Original Certificate of Transfer (for transfees only).\n   - Valid reasons for shifting.\n\nIn summary, transfer students must meet specific academic and administrative requirements, including grade standards, documentation, and approval processes, to be admitted as transfer students at LSPU.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

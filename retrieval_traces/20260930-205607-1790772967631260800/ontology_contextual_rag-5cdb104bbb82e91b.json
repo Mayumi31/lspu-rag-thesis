@@ -1,0 +1,72 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What career paths can a BS Psychology graduate take?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_17",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psychological Research Methods and Statistics\n- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.",
+        "score": 0.06530936012691699
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_19",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_19\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nfurther training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.06452452301209573
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?outcome=Clinical Psychology Track (Psychometrician / further studies toward licensure)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Clinical Psychology Track (Psychometrician / further studies toward licensure) [p:Job_ClinicalPsychTrack]\nTYPE of Clinical Psychology Track (Psychometrician / further studies toward licensure): p:JobOutcome\nSOURCE/QUALIFIER for Clinical Psychology Track (Psychometrician / further studies toward licensure): p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Clinical Psychology Track (Psychometrician / further studies toward licensure): p:isGeneralInformation = true\nTYPE of Bachelor of Science in Psychology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?outcome=Counseling / Guidance Track\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Counseling / Guidance Track [p:Job_CounselingPsychTrack]\nTYPE of Counseling / Guidance Track: p:JobOutcome\nSOURCE/QUALIFIER for Counseling / Guidance Track: p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Counseling / Guidance Track: p:isGeneralInformation = true\nTYPE of Bachelor of Science in Psychology: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?outcome=Human Resources / Industrial-Organizational Psychology Track\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Human Resources / Industrial-Organizational Psychology Track [p:Job_IOPsychTrack]\nTYPE of Human Resources / Industrial-Organizational Psychology Track: p:JobOutcome\nSOURCE/QUALIFIER for Human Resources / Industrial-Organizational Psychology Track: p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Human Resources / Industrial-Organizational Psychology Track: p:isGeneralInformation = true\nTYPE of Bachelor of Science in Psychology: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?outcome=Clinical Psychology Track (Psychometrician / further studies toward licensure)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Clinical Psychology Track (Psychometrician / further studies toward licensure) [p:Job_ClinicalPsychTrack]\nTYPE of Clinical Psychology Track (Psychometrician / further studies toward licensure): p:JobOutcome\nSOURCE/QUALIFIER for Clinical Psychology Track (Psychometrician / further studies toward licensure): p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Clinical Psychology Track (Psychometrician / further studies toward licensure): p:isGeneralInformation = true\nTYPE of Bachelor of Science in Psychology: p:Program\n\nQUERY 1\nGRAPH RESULT 2: ?outcome=Counseling / Guidance Track\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Counseling / Guidance Track [p:Job_CounselingPsychTrack]\nTYPE of Counseling / Guidance Track: p:JobOutcome\nSOURCE/QUALIFIER for Counseling / Guidance Track: p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LS",
+    "answer_for_eval": "A BS Psychology graduate can pursue the following career paths:\n\n1. Clinical Psychology Track (Psychometrician / further studies toward licensure)\n2. Counseling / Guidance Track\n3. Human Resources / Industrial-Organizational Psychology Track",
+    "retrieval_query": "What career paths can a BS Psychology graduate pursue?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSPsych",
+              "p:preparesForOutcome",
+              "?outcome"
+            ]
+          ],
+          "select": [
+            "?outcome"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unknown predicate"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 5,
+    "elapsed_seconds": 5.25,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?outcome=Clinical Psychology Track (Psychometrician / further studies toward licensure)\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Clinical Psychology Track (Psychometrician / further studies toward licensure) [p:Job_ClinicalPsychTrack]\nTYPE of Clinical Psychology Track (Psychometrician / further studies toward licensure): p:JobOutcome\nSOURCE/QUALIFIER for Clinical Psychology Track (Psychometrician / further studies toward licensure): p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Clinical Psychology Track (Psychometrician / further studies toward licensure): p:isGeneralInformation = true\nTYPE of Bachelor of Science in Psychology: p:Program",
+      "QUERY 1\nGRAPH RESULT 2: ?outcome=Counseling / Guidance Track\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Counseling / Guidance Track [p:Job_CounselingPsychTrack]\nTYPE of Counseling / Guidance Track: p:JobOutcome\nSOURCE/QUALIFIER for Counseling / Guidance Track: p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Counseling / Guidance Track: p:isGeneralInformation = true\nTYPE of Bachelor of Science in Psychology: p:Program",
+      "QUERY 1\nGRAPH RESULT 3: ?outcome=Human Resources / Industrial-Organizational Psychology Track\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:preparesForOutcome--> Human Resources / Industrial-Organizational Psychology Track [p:Job_IOPsychTrack]\nTYPE of Human Resources / Industrial-Organizational Psychology Track: p:JobOutcome\nSOURCE/QUALIFIER for Human Resources / Industrial-Organizational Psychology Track: p:provenanceNote = General knowledge of BS Psychology career paths in the Philippines; not an official LSPU document.\nSOURCE/QUALIFIER for Human Resources / Industrial-Organizational Psychology Track: p:isGeneralInformation = true\nTYPE of Bachelor of Science in Psychology: p:Program",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psychological Research Methods and Statistics\n- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_19\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nfurther training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document."
+    ]
+  },
+  "answer": "A BS Psychology graduate can pursue the following career paths:\n\n1. Clinical Psychology Track (Psychometrician / further studies toward licensure)\n2. Counseling / Guidance Track\n3. Human Resources / Industrial-Organizational Psychology Track",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

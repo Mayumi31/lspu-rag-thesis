@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "How many colleges does LSPU-LB have, and what are they?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "LSPU-LB has three colleges: the College of Education, the College of Arts and Sciences, and the College of Business, Hospitality, and Tourism.",
+    "retrieval_query": "How many colleges does LSPU-LB have, and what are they?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.9529999999795109,
+    "selected_contexts": []
+  },
+  "answer": "LSPU-LB has three colleges: the College of Education, the College of Arts and Sciences, and the College of Business, Hospitality, and Tourism.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

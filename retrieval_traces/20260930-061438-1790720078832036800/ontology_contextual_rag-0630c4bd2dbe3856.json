@@ -1,0 +1,140 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What is the minimum GWA needed to apply for BS Computer Science?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_60",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_60\nSECTION: ADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nSource: LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\n- Bachelor of Elementary Education (CTE): minimum GWA 90\n- Bachelor of Physical Education (CTE): minimum GWA 90\n- Bachelor of Science in Accountancy (CBAA): minimum GWA 90\n- Bachelor of Science in Computer Science - Major in Intelligent Systems (CCS): minimum GWA 90\n- Bachelor of Science in Food Technology (CFND): minimum GWA 90\n- Bachelor of Science in Nutrition and Dietetics (CFND): minimum GWA 90\n- Bachelor of Secondary Education - Major in English (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Filipino (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Mathematics (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Sciences (CTE): minimum GWA 90\n- Bachelor of Secondary Education - Major in Social Studies (CTE): minimum GWA 90\n- Bachelor of Science in Business Administration - Major in Financial Management (CBAA): minimum GWA 88\n- Bachelor of Science in Business Administration - Major in Marketing Management (CBAA): minimum GWA 88\n- Bachelor of Science in Psychology (CAS): minimum GWA 88",
+        "score": 0.03252247488101534
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_61",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_61\nSECTION: ADMISSION CUTOFFS: MINIMUM GWA PER PROGRAM (highest to lowest)\nminimum GWA 88\n- Bachelor of Science in Business Administration - Major in Marketing Management (CBAA): minimum GWA 88\n- Bachelor of Science in Psychology (CAS): minimum GWA 88\n- Bachelor of Science in Tourism Management (CIHT): minimum GWA 88\n- Bachelor of Science in Fisheries (CF): minimum GWA 87\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management (CTE): minimum GWA 87\n- Bachelor of Technology and Livelihood Education - Major in Home Economics (CTE): minimum GWA 87\n- Bachelor of Science in Criminology (CCJE): minimum GWA 85\n- Bachelor of Science in Hospitality Management (CIHT): minimum GWA 85\n- Bachelor of Science in Information Technology - Major in Animation and Motion Graphics (CCS): minimum GWA 85\n- Bachelor of Science in Information Technology - Major in Service Management Program (CCS): minimum GWA 85\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development (CCS): minimum GWA 85",
+        "score": 0.03200204813108039
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_832",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_832\nSECTION: ADMISSION CUTOFF ADVICE: IS THE GWA CUTOFF STRICT? (ADDITION TO THE ANNEX A CUTOFFS)\nADMISSION CUTOFF ADVICE: IS THE GWA CUTOFF STRICT? (ADDITION TO THE ANNEX A CUTOFFS)\nSource: strictness and lower-cutoff advice from campus information supplied by the maintainer (September 2026); cutoff values are from the LSPU Admission Guidelines, 1st Sem AY 2026-2027, Annex A above; exam and interview from the LSPU website admission pages. Cutoffs may change each year.\nThe GWA cutoff is strict. If your GWA is below the minimum for the program you want, you cannot be admitted to it; your only option is to choose another program with a lower cutoff.\nExample: a GWA of 86 qualifies only for the GWA-85 programs.\nCutoffs for 1st Sem AY 2026-2027: GWA 85 for the three BS Information Technology majors, BS Criminology and BS Hospitality Management (5 programs); GWA 87 for BS Fisheries, BTLE and BTVTE (3); GWA 88 for BS Psychology, both BS Business Administration majors and BS Tourism Management (4); GWA 90 for Accountancy, Computer Science, Food Technology, Nutrition and Dietetics, Physical Education, all five BS Education majors and Elementary Education (11).\nMeeting the cutoff is not enough by itself: applicants must still pass the entrance exam and interview.",
+        "score": 0.030886196246139225
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_26",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_26\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Web and Mobile Application Development\nPROGRAM: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\nCollege: College of Computer Studies (CCS)\nDegree: Bachelor of Science in Information Technology (BSIT)\nMajor: Web and Mobile Application Development\nDuration: 4 years\n\nOverview: Combines core IT fundamentals with specialized training in building websites and mobile applications, including UI/UX design.\n\nSkills developed:\n- Web Application Development\n- Mobile Application Development\n- UI/UX Design\n\nCareer and job outcomes:\n- Web/Mobile Application Developer: Builds websites and mobile applications for businesses or as an independent/freelance developer.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 85.0\n- Note: Annex A gives one GWA (85) for BSIT overall; per-major cutoffs are not broken out. CCS gives priority to STEM and ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s.",
+        "score": 0.03036576949620428
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_13",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_13\nSECTION: PROGRAM: Bachelor of Science in Computer Science - Major in Intelligent Systems | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Computer Science (BSCS) | Major: Intelligent Systems\napplications and systems.\n- AI/Research Assistant: Supports research and development in computer vision, NLP, or robotics, or pursues graduate study in AI.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 90.0\n- Note: CCS gives priority to STEM and ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.",
+        "score": 0.030303030303030304
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?program\": 1, \"?name\": 1, \"?req\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Computer Science - Major in Intelligent Systems; ?name=Bachelor of Science in Computer Science - Major in Intelligent Systems; ?req=p:AdmReq_BSCS_IS\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasAdmissionRequirement--> p:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS]\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:programName--> \"Bachelor of Science in Computer Science - Major in Intelligent Systems\"\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSCS_IS: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCS_IS: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 4; distinct values by variable = {\"?gwa\": 4}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?gwa=90.0\np:AdmReq_BEEd [p:AdmReq_BEEd] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BEEd [p:AdmReq_BEEd] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BPE [p:AdmReq_BPE] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BPE [p:AdmReq_BPE] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSA [p:AdmReq_BSA] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSA [p:AdmReq_BSA] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSEd_English [p:AdmReq_BSEd_English] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSEd_English [p:AdmReq_BSEd_English] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSEd_Filipino [p:AdmReq_BSEd_Filipino] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSEd_Filipino [p:AdmReq_BSEd_Filipino] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSEd_Math [p:AdmReq_BSEd_Math] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSEd_Math [p:AdmReq_BSEd_Math] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSEd_Sciences [p:AdmReq_BSEd_Sciences] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSEd_Sciences [p:AdmReq_BSEd_Sciences] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSEd_SocialStudies [p:AdmReq_BSEd_SocialStudies] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSEd_SocialStudies [p:AdmReq_BSEd_SocialStudies] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSFoodTech [p:AdmReq_BSFoodTech] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSFoodTech [p:AdmReq_BSFoodTech] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSNutritionDietetics [p:AdmReq_BSNutritionDietetics] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSNutritionDietetics [p:AdmReq_BSNutritionDietetics] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BEEd: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BEEd: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BPE: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BPE: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nSOURCE/QUALIFIER for p:AdmReq_BPE: p:sourceDataGap = Earlier user-supplied grade list omitted this program; confirmed as GWA 90 per the official Admission Guidelines Annex A.\nTYPE of p:AdmReq_BSA: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSA: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSCS_IS: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCS_IS: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSEd_English: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_English: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSEd_Filipino: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_Filipino: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSEd_Math: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_Math: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSEd_Sciences: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_Sciences: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSEd_SocialStudies: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_SocialStudies: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSFoodTech: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSFoodTech: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSNutritionDietetics: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSNutritionDietetics: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 2: ?gwa=88.0\np:AdmReq_BSBA_FM [p:AdmReq_BSBA_FM] --p:minimumGeneralWeightedAverage--> \"88.0\"\np:AdmReq_BSBA_FM [p:AdmReq_BSBA_FM] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSBA_MM [p:AdmReq_BSBA_MM] --p:minimumGeneralWeightedAverage--> \"88.0\"\np:AdmReq_BSBA_MM [p:AdmReq_BSBA_MM] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSPsych [p:AdmReq_BSPsych] --p:minimumGeneralWeightedAverage--> \"88.0\"\np:AdmReq_BSPsych [p:AdmReq_BSPsych] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSTourismManagement [p:AdmReq_BSTourismManagement] --p:minimumGeneralWeightedAverage--> \"88.0\"\np:AdmReq_BSTourismManagement [p:AdmReq_BSTourismManagement] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSBA_FM: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSBA_FM: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSBA_MM: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSBA_MM: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSPsych: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSPsych: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSTourismManagement: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSTourismManagement: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 3: ?gwa=85.0\np:AdmReq_BSCrim [p:AdmReq_BSCrim] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSCrim [p:AdmReq_BSCrim] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSHospitalityManagement [p:AdmReq_BSHospitalityManagement] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSHospitalityManagement [p:AdmReq_BSHospitalityManagement] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSIT_SM [p:AdmReq_BSIT_SM] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSIT_SM [p:AdmReq_BSIT_SM] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BSIT_WMAD [p:AdmReq_BSIT_WMAD] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSIT_WMAD [p:AdmReq_BSIT_WMAD] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSCrim: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCrim: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSHospitalityManagement: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSHospitalityManagement: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSIT_AMG: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSIT_AMG: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSIT_SM: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSIT_SM: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BSIT_WMAD: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSIT_WMAD: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 4: ?gwa=87.0\np:AdmReq_BSFisheries [p:AdmReq_BSFisheries] --p:minimumGeneralWeightedAverage--> \"87.0\"\np:AdmReq_BSFisheries [p:AdmReq_BSFisheries] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BTLE_HE [p:AdmReq_BTLE_HE] --p:minimumGeneralWeightedAverage--> \"87.0\"\np:AdmReq_BTLE_HE [p:AdmReq_BTLE_HE] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\np:AdmReq_BTVTE_FSM [p:AdmReq_BTVTE_FSM] --p:minimumGeneralWeightedAverage--> \"87.0\"\np:AdmReq_BTVTE_FSM [p:AdmReq_BTVTE_FSM] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSFisheries: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSFisheries: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BTLE_HE: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BTLE_HE: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of p:AdmReq_BTVTE_FSM: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BTVTE_FSM: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?program\": 1, \"?name\": 1, \"?req\": 1}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Computer Science - Major in Intelligent Systems; ?name=Bachelor of Science in Computer Science - Major in Intelligent Systems; ?req=p:AdmReq_BSCS_IS\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasAdmissionRequirement--> p:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS]\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:programName--> \"Bachelor of Science in Computer Science - Major in Intelligent Systems\"\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSCS_IS: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCS_IS: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class\n\nQUERY 2\nEXECUTED QUE",
+    "answer_for_eval": "# Minimum GWA for BS Computer Science\n\nThe minimum GWA needed to apply for **BS Computer Science - Major in Intelligent Systems** is **90.0**.\n\n**Source:** LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\n\n**Important note:** Meeting the GWA cutoff alone does not establish admission eligibility. You must also pass the entrance exam and interview to be admitted.",
+    "retrieval_query": "What is the minimum GWA needed to apply for BS Computer Science?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?program",
+              "rdf:type",
+              "p:Program"
+            ],
+            [
+              "?program",
+              "p:programName",
+              "?name"
+            ],
+            [
+              "?program",
+              "p:hasAdmissionRequirement",
+              "?req"
+            ]
+          ],
+          "select": [
+            "?program",
+            "?name",
+            "?req"
+          ],
+          "filters": [
+            {
+              "var": "?name",
+              "op": "contains",
+              "value": "Computer Science"
+            }
+          ]
+        },
+        {
+          "patterns": [
+            [
+              "?req",
+              "rdf:type",
+              "p:AdmissionRequirement"
+            ],
+            [
+              "?req",
+              "p:minimumGeneralWeightedAverage",
+              "?gwa"
+            ]
+          ],
+          "select": [
+            "?gwa"
+          ],
+          "filters": []
+        }
+      ],
+      "traversals": []
+    },
+    "retrieval_errors": [
+      "Query 1 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 12,
+    "elapsed_seconds": 7.3439999999827705
+  },
+  "answer": "# Minimum GWA for BS Computer Science\n\nThe minimum GWA needed to apply for **BS Computer Science - Major in Intelligent Systems** is **90.0**.\n\n**Source:** LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\n\n**Important note:** Meeting the GWA cutoff alone does not establish admission eligibility. You must also pass the entrance exam and interview to be admitted.",
+  "pipeline_version": "oc-rag-3.0"
+}

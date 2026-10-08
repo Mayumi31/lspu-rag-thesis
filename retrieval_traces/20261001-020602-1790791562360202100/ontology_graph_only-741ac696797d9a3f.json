@@ -1,0 +1,51 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "How much does the official uniform cost, and is tailoring included?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?minPrice=600; ?maxPrice=800\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceMaxPHP--> \"800\"\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceMinPHP--> \"600\"\nTYPE of Official uniform (fabric only): h:CampusItemPrice\nSOURCE/QUALIFIER for Official uniform (fabric only): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?minPrice=600; ?maxPrice=800\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceMaxPHP--> \"800\"\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceMinPHP--> \"600\"\nTYPE of Official uniform (fabric only): h:CampusItemPrice\nSOURCE/QUALIFIER for Official uniform (fabric only): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter",
+    "answer_for_eval": "The official uniform costs between 600 and 800 PHP, and the price includes only the fabric. Tailoring is not included.",
+    "retrieval_query": "How much does the official uniform cost, and is tailoring included?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Price_UniformFabric",
+              "h:priceMinPHP",
+              "?minPrice"
+            ],
+            [
+              "h:Price_UniformFabric",
+              "h:priceMaxPHP",
+              "?maxPrice"
+            ]
+          ],
+          "select": [
+            "?minPrice",
+            "?maxPrice"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 5.797000000020489,
+    "retrieval_seconds": 4.828000000037719,
+    "generation_seconds": 0.9689999999827705,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?minPrice=600; ?maxPrice=800\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceMaxPHP--> \"800\"\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceMinPHP--> \"600\"\nTYPE of Official uniform (fabric only): h:CampusItemPrice\nSOURCE/QUALIFIER for Official uniform (fabric only): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter"
+    ]
+  },
+  "answer": "The official uniform costs between 600 and 800 PHP, and the price includes only the fabric. Tailoring is not included.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

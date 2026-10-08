@@ -1,0 +1,54 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Do school rules still apply if I violate them during OJT or an off-campus competition?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Off-Campus Jurisdiction of the Code of Conduct\nh:definition: Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).\nh:sourceArticle: Chapter 6, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: Off-Campus Jurisdiction of the Code of Conduct"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Trespassing\nh:definition: Staying inside University premises after class hours in the afternoon, or entering campus during off-school days without authorization from Campus Director/Deans/OSAS Director/Chief of Security (exceptions for makeup classes, practice, field activities, official business, or regular activities like ROTC/CWTS/Band).\nh:hasSanctionTier -> h:Tier_Trespassing_1 [h:Tier_Trespassing_1]\nh:hasSanctionTier -> h:Tier_Trespassing_2 [h:Tier_Trespassing_2]\nh:hasSanctionTier -> h:Tier_Trespassing_3 [h:Tier_Trespassing_3]\nh:sourceArticle: Ch.6 Art.3 Sec.7\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Trespassing"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Off-Campus Jurisdiction of the Code of Conduct\nh:definition: Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).\nh:sourceArticle: Chapter 6, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: Off-Campus Jurisdiction of the Code of Conduct\n\nAPPROXIMATE MATCH (not an exhaustive result): Trespassing\nh:definition: Staying inside University premises after class hours in the afternoon, or entering campus during off-school days without authorization from Campus Director/Deans/OSAS Director/Chief of Security (exceptions for makeup classes, practice, field activities, official business, or regular activities like ROTC/CWTS/Band).\nh:hasSanctionTier -> h:Tier_Trespassing_1 [h:Tier_Trespassing_1]\nh:hasSanctionTier -> h:Tier_Trespassing_2 [h:Tier_Trespassing_2]\nh:hasSanctionTier -> h:Tier_Trespassing_3 [h:Tier_Trespassing_3]\nh:sourceArticle: Ch.6 Art.3 Sec.7\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Trespassing",
+    "answer_for_eval": "Yes, school rules still apply if you violate them during OJT or an off-campus competition. Violations committed outside University premises are treated as if committed within the University when you are representing the University at conferences, conventions, competitions, presentations, OJT, or the Student Internship Program (SIP).",
+    "retrieval_query": "Do school rules still apply if I violate them during OJT or an off-campus competition?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Policy_OffCampusJurisdiction",
+              "h:definition",
+              {
+                "literal": "Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Stu"
+              }
+            ]
+          ],
+          "select": [
+            "h:Policy_OffCampusJurisdiction"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Query 1 returned no rows; recheck predicates, entity and filters",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 2,
+    "elapsed_seconds": 9.202999999979511,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Off-Campus Jurisdiction of the Code of Conduct\nh:definition: Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).\nh:sourceArticle: Chapter 6, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: Off-Campus Jurisdiction of the Code of Conduct",
+      "APPROXIMATE MATCH (not an exhaustive result): Trespassing\nh:definition: Staying inside University premises after class hours in the afternoon, or entering campus during off-school days without authorization from Campus Director/Deans/OSAS Director/Chief of Security (exceptions for makeup classes, practice, field activities, official business, or regular activities like ROTC/CWTS/Band).\nh:hasSanctionTier -> h:Tier_Trespassing_1 [h:Tier_Trespassing_1]\nh:hasSanctionTier -> h:Tier_Trespassing_2 [h:Tier_Trespassing_2]\nh:hasSanctionTier -> h:Tier_Trespassing_3 [h:Tier_Trespassing_3]\nh:sourceArticle: Ch.6 Art.3 Sec.7\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Trespassing"
+    ]
+  },
+  "answer": "Yes, school rules still apply if you violate them during OJT or an off-campus competition. Violations committed outside University premises are treated as if committed within the University when you are representing the University at conferences, conventions, competitions, presentations, OJT, or the Student Internship Program (SIP).",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

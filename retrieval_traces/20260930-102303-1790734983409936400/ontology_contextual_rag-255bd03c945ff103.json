@@ -1,0 +1,72 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What programs does the College of Teacher Education offer?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_11",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_11\nSECTION: COLLEGE: College of Teacher Education (CTE)\nCOLLEGE: College of Teacher Education (CTE)\nThe College of Teacher Education at LSPU-LB offers the following degree programs:\n- Bachelor of Technology and Livelihood Education - Major in Home Economics\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\n- Bachelor of Physical Education\n- Bachelor of Secondary Education - Major in English\n- Bachelor of Secondary Education - Major in Filipino\n- Bachelor of Secondary Education - Major in Mathematics\n- Bachelor of Secondary Education - Major in Sciences\n- Bachelor of Secondary Education - Major in Social Studies\n- Bachelor of Elementary Education",
+        "score": 0.06454091750396616
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_54",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_54\nSECTION: PROGRAM: Bachelor of Secondary Education - Major in Sciences | College: College of Teacher Education (CTE) | Degree: Bachelor of Secondary Education (BSEd) | Major: Sciences\nPROGRAM: Bachelor of Secondary Education - Major in Sciences\nCollege: College of Teacher Education (CTE)\nDegree: Bachelor of Secondary Education (BSEd)\nMajor: Sciences\nDuration: 4 years\n\nOverview: A teacher-education program specializing in general science content and pedagogy, including laboratory instruction, preparing graduates to teach science in junior/senior high school.\n\nSkills developed:\n- Science Teaching Methodology and Laboratory Instruction\n- Subject-Area Teaching Pedagogy\n- Curriculum Planning and Classroom Instruction\n\nCareer and job outcomes:\n- High School Science Teacher: Teaches science subjects in junior/senior high school after passing the Licensure Examination for Teachers.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 90.0\n- Note: CTE additionally requires no grade lower than 85 in English, Mathematics, and Science.\n\nBoard/licensure status:\n- Board program. Graduates may take the Licensure Examination for Teachers (Secondary Level).\n\nRegulatory basis (CHED): CMO No. 75, s. 2017 - Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nProgram educational objectives (per this CMO):",
+        "score": 0.06074116976637689
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?college=College of Teacher Education\nCollege of Teacher Education [p:CTE] --p:collegeName--> \"College of Teacher Education\"\nCollege of Teacher Education [p:CTE] --rdf:type--> College [p:College]\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nTYPE of College of Teacher Education: p:College\nTYPE of College: http://www.w3.org/2002/07/owl#Class\nTYPE of Bachelor of Secondary Education - Major in Sciences: p:Program"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_11\nSECTION: COLLEGE: College of Teacher Education (CTE)\nCOLLEGE: College of Teacher Education (CTE)\nThe College of Teacher Education at LSPU-LB offers the following degree programs:\n- Bachelor of Technology and Livelihood Education - Major in Home Economics\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\n- Bachelor of Physical Education\n- Bachelor of Secondary Education - Major in English\n- Bachelor of Secondary Education - Major in Filipino\n- Bachelor of Secondary Education - Major in Mathematics\n- Bachelor of Secondary Education - Major in Sciences\n- Bachelor of Secondary Education - Major in Social Studies\n- Bachelor of Elementary Education\n\nQUERY 1\nGRAPH RESULT 1: ?college=College of Teacher Education\nCollege of Teacher Education [p:CTE] --p:collegeName--> \"College of Teacher Education\"\nCollege of Teacher Education [p:CTE] --rdf:type--> College [p:College]\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nTYPE of College of Teacher Education: p:College\nTYPE of College: http://www.w3.org/2002/07/owl#C",
+    "answer_for_eval": "The College of Teacher Education offers the following programs:\n- Bachelor of Technology and Livelihood Education - Major in Home Economics\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\n- Bachelor of Physical Education\n- Bachelor of Secondary Education - Major in English\n- Bachelor of Secondary Education - Major in Filipino\n- Bachelor of Secondary Education - Major in Mathematics\n- Bachelor of Secondary Education - Major in Sciences\n- Bachelor of Secondary Education - Major in Social Studies\n- Bachelor of Elementary Education",
+    "retrieval_query": "What programs does the College of Teacher Education offer?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSEd_Sciences",
+              "p:offeredByCollege",
+              "?college"
+            ],
+            [
+              "?college",
+              "rdf:type",
+              "p:College"
+            ],
+            [
+              "?college",
+              "p:collegeName",
+              {
+                "literal": "College of Teacher Education"
+              }
+            ]
+          ],
+          "select": [
+            "?college"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Query 1 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 7.25,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_11\nSECTION: COLLEGE: College of Teacher Education (CTE)\nCOLLEGE: College of Teacher Education (CTE)\nThe College of Teacher Education at LSPU-LB offers the following degree programs:\n- Bachelor of Technology and Livelihood Education - Major in Home Economics\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\n- Bachelor of Physical Education\n- Bachelor of Secondary Education - Major in English\n- Bachelor of Secondary Education - Major in Filipino\n- Bachelor of Secondary Education - Major in Mathematics\n- Bachelor of Secondary Education - Major in Sciences\n- Bachelor of Secondary Education - Major in Social Studies\n- Bachelor of Elementary Education",
+      "QUERY 1\nGRAPH RESULT 1: ?college=College of Teacher Education\nCollege of Teacher Education [p:CTE] --p:collegeName--> \"College of Teacher Education\"\nCollege of Teacher Education [p:CTE] --rdf:type--> College [p:College]\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:offeredByCollege--> College of Teacher Education [p:CTE]\nTYPE of College of Teacher Education: p:College\nTYPE of College: http://www.w3.org/2002/07/owl#Class\nTYPE of Bachelor of Secondary Education - Major in Sciences: p:Program",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_54\nSECTION: PROGRAM: Bachelor of Secondary Education - Major in Sciences | College: College of Teacher Education (CTE) | Degree: Bachelor of Secondary Education (BSEd) | Major: Sciences\nPROGRAM: Bachelor of Secondary Education - Major in Sciences\nCollege: College of Teacher Education (CTE)\nDegree: Bachelor of Secondary Education (BSEd)\nMajor: Sciences\nDuration: 4 years\n\nOverview: A teacher-education program specializing in general science content and pedagogy, including laboratory instruction, preparing graduates to teach science in junior/senior high school.\n\nSkills developed:\n- Science Teaching Methodology and Laboratory Instruction\n- Subject-Area Teaching Pedagogy\n- Curriculum Planning and Classroom Instruction\n\nCareer and job outcomes:\n- High School Science Teacher: Teaches science subjects in junior/senior high school after passing the Licensure Examination for Teachers.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 90.0\n- Note: CTE additionally requires no grade lower than 85 in English, Mathematics, and Science.\n\nBoard/licensure status:\n- Board program. Graduates may take the Licensure Examination for Teachers (Secondary Level).\n\nRegulatory basis (CHED): CMO No. 75, s. 2017 - Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nProgram educational objectives (per this CMO):"
+    ]
+  },
+  "answer": "The College of Teacher Education offers the following programs:\n- Bachelor of Technology and Livelihood Education - Major in Home Economics\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\n- Bachelor of Physical Education\n- Bachelor of Secondary Education - Major in English\n- Bachelor of Secondary Education - Major in Filipino\n- Bachelor of Secondary Education - Major in Mathematics\n- Bachelor of Secondary Education - Major in Sciences\n- Bachelor of Secondary Education - Major in Social Studies\n- Bachelor of Elementary Education",
+  "pipeline_version": "oc-rag-3.3-verified-build"
+}

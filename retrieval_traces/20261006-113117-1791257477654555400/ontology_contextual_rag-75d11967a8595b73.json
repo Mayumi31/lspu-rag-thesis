@@ -1,0 +1,115 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What are the courses offered in LSPULB?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_49",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_49\nSECTION: PROGRAM: Bachelor of Secondary Education - Major in English | College: College of Teacher Education (CTE) | Degree: Bachelor of Secondary Education (BSEd) | Major: English\nRegulatory basis (CHED): CMO No. 75, s. 2017 - Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nProgram educational objectives (per this CMO):\n- Demonstrate mastery of subject-area content and pedagogy sufficient to teach that subject effectively at the junior/senior high school level.\n- Design and implement curricula and assessments responsive to the diverse needs of secondary learners.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.02938045560996381
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_55",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_55\nSECTION: PROGRAM: Bachelor of Secondary Education - Major in Sciences | College: College of Teacher Education (CTE) | Degree: Bachelor of Secondary Education (BSEd) | Major: Sciences\nRegulatory basis (CHED): CMO No. 75, s. 2017 - Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nProgram educational objectives (per this CMO):\n- Demonstrate mastery of subject-area content and pedagogy sufficient to teach that subject effectively at the junior/senior high school level.\n- Design and implement curricula and assessments responsive to the diverse needs of secondary learners.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.028629032258064516
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_53",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_53\nSECTION: PROGRAM: Bachelor of Secondary Education - Major in Mathematics | College: College of Teacher Education (CTE) | Degree: Bachelor of Secondary Education (BSEd) | Major: Mathematics\nRegulatory basis (CHED): CMO No. 75, s. 2017 - Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nProgram educational objectives (per this CMO):\n- Demonstrate mastery of subject-area content and pedagogy sufficient to teach that subject effectively at the junior/senior high school level.\n- Design and implement curricula and assessments responsive to the diverse needs of secondary learners.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.028531243721117136
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_57",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_57\nSECTION: PROGRAM: Bachelor of Secondary Education - Major in Social Studies | College: College of Teacher Education (CTE) | Degree: Bachelor of Secondary Education (BSEd) | Major: Social Studies\nRegulatory basis (CHED): CMO No. 75, s. 2017 - Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nProgram educational objectives (per this CMO):\n- Demonstrate mastery of subject-area content and pedagogy sufficient to teach that subject effectively at the junior/senior high school level.\n- Design and implement curricula and assessments responsive to the diverse needs of secondary learners.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.027730294396961064
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_59",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_59\nSECTION: PROGRAM: Bachelor of Elementary Education | College: College of Teacher Education (CTE) | Degree: Bachelor of Elementary Education (BEEd)\nRegulatory basis (CHED): CMO No. 74, s. 2017 - Policies, Standards and Guidelines for Bachelor of Elementary Education (BEEd)\nProgram educational objectives (per this CMO):\n- Demonstrate deep and principled understanding of how elementary learners grow and learn across the full range of school subjects taught at that level.\n- Facilitate learning using a wide range of teaching methodologies delivered in varied learning environments, in and outside the traditional classroom.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.02712049508554787
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Tour Planning and Operations\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Tour Planning and Operations\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Tour Planning and Operations"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Culinary Arts and Food Costing\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Culinary Arts and Food Costing\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Culinary Arts and Food Costing"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Language and Literature Teaching\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Language and Literature Teaching\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Language and Literature Teaching"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Food and Service Management Instruction\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Food and Service Management Instruction\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Food and Service Management Instruction"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Curriculum Planning and Classroom Instruction\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Curriculum Planning and Classroom Instruction\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Curriculum Planning and Classroom Instruction"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_49\nSECTION: PROGRAM: Bachelor of Secondary Education - Major in English | College: College of Teacher Education (CTE) | Degree: Bachelor of Secondary Education (BSEd) | Major: English\nRegulatory basis (CHED): CMO No. 75, s. 2017 - Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nProgram educational objectives (per this CMO):\n- Demonstrate mastery of subject-area content and pedagogy sufficient to teach that subject effectively at the junior/senior high school level.\n- Design and implement curricula and assessments responsive to the diverse needs of secondary learners.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_55\nSECTION: PROGRAM: Bachelor of Secondary Education - Major in Sciences | College: College of Teacher Education (CTE) | Degree: Bachelor of Secondary Education (BSEd) | Major: Sciences\nRegul",
+    "answer_for_eval": "The courses offered in LSPULB include:\n\n- Bachelor of Secondary Education - Major in English\n- Bachelor of Secondary Education - Major in Sciences\n- Bachelor of Secondary Education - Major in Mathematics\n- Bachelor of Secondary Education - Major in Social Studies\n- Bachelor of Elementary Education\n\nNote: The list is based on the programs identified in the source; specific course titles are not provided.",
+    "retrieval_query": "What are the courses offered at LSPULB?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?course",
+              "a:hasChannel",
+              "h:Loc_Hall"
+            ],
+            [
+              "?course",
+              "p:subjectCode",
+              {
+                "literal": "HIST 101"
+              }
+            ]
+          ],
+          "select": [
+            "?course"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Query 1 returned no rows; recheck predicates, entity and filters",
+      "Query 1 returned no rows; recheck predicates, entity and filters"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 7.797000000020489,
+    "retrieval_seconds": 6.282000000006519,
+    "generation_seconds": 1.5150000000139698,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_49\nSECTION: PROGRAM: Bachelor of Secondary Education - Major in English | College: College of Teacher Education (CTE) | Degree: Bachelor of Secondary Education (BSEd) | Major: English\nRegulatory basis (CHED): CMO No. 75, s. 2017 - Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nProgram educational objectives (per this CMO):\n- Demonstrate mastery of subject-area content and pedagogy sufficient to teach that subject effectively at the junior/senior high school level.\n- Design and implement curricula and assessments responsive to the diverse needs of secondary learners.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_55\nSECTION: PROGRAM: Bachelor of Secondary Education - Major in Sciences | College: College of Teacher Education (CTE) | Degree: Bachelor of Secondary Education (BSEd) | Major: Sciences\nRegulatory basis (CHED): CMO No. 75, s. 2017 - Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nProgram educational objectives (per this CMO):\n- Demonstrate mastery of subject-area content and pedagogy sufficient to teach that subject effectively at the junior/senior high school level.\n- Design and implement curricula and assessments responsive to the diverse needs of secondary learners.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_53\nSECTION: PROGRAM: Bachelor of Secondary Education - Major in Mathematics | College: College of Teacher Education (CTE) | Degree: Bachelor of Secondary Education (BSEd) | Major: Mathematics\nRegulatory basis (CHED): CMO No. 75, s. 2017 - Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nProgram educational objectives (per this CMO):\n- Demonstrate mastery of subject-area content and pedagogy sufficient to teach that subject effectively at the junior/senior high school level.\n- Design and implement curricula and assessments responsive to the diverse needs of secondary learners.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_57\nSECTION: PROGRAM: Bachelor of Secondary Education - Major in Social Studies | College: College of Teacher Education (CTE) | Degree: Bachelor of Secondary Education (BSEd) | Major: Social Studies\nRegulatory basis (CHED): CMO No. 75, s. 2017 - Policies, Standards and Guidelines for Bachelor of Secondary Education (BSEd)\nProgram educational objectives (per this CMO):\n- Demonstrate mastery of subject-area content and pedagogy sufficient to teach that subject effectively at the junior/senior high school level.\n- Design and implement curricula and assessments responsive to the diverse needs of secondary learners.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_59\nSECTION: PROGRAM: Bachelor of Elementary Education | College: College of Teacher Education (CTE) | Degree: Bachelor of Elementary Education (BEEd)\nRegulatory basis (CHED): CMO No. 74, s. 2017 - Policies, Standards and Guidelines for Bachelor of Elementary Education (BEEd)\nProgram educational objectives (per this CMO):\n- Demonstrate deep and principled understanding of how elementary learners grow and learn across the full range of school subjects taught at that level.\n- Facilitate learning using a wide range of teaching methodologies delivered in varied learning environments, in and outside the traditional classroom.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "APPROXIMATE MATCH (not an exhaustive result): Tour Planning and Operations\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Tour Planning and Operations\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Tour Planning and Operations",
+      "APPROXIMATE MATCH (not an exhaustive result): Culinary Arts and Food Costing\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Culinary Arts and Food Costing\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Culinary Arts and Food Costing",
+      "APPROXIMATE MATCH (not an exhaustive result): Language and Literature Teaching\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Language and Literature Teaching\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Language and Literature Teaching",
+      "APPROXIMATE MATCH (not an exhaustive result): Food and Service Management Instruction\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Food and Service Management Instruction\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Food and Service Management Instruction",
+      "APPROXIMATE MATCH (not an exhaustive result): Curriculum Planning and Classroom Instruction\np:isGeneralInformation: true\np:provenanceNote: General knowledge of competencies programs in this field typically develop; NOT an official LSPU or CMO competency list. When answering, say 'generally' or 'typically'.\np:skillName: Curriculum Planning and Classroom Instruction\nrdf:type -> Skill [p:Skill]\nrdfs:comment: Generally developed by programs in this field; not an official LSPU curriculum item.\nrdfs:label: Curriculum Planning and Classroom Instruction"
+    ]
+  },
+  "answer": "The courses offered in LSPULB include:\n\n- Bachelor of Secondary Education - Major in English\n- Bachelor of Secondary Education - Major in Sciences\n- Bachelor of Secondary Education - Major in Mathematics\n- Bachelor of Secondary Education - Major in Social Studies\n- Bachelor of Elementary Education\n\nNote: The list is based on the programs identified in the source; specific course titles are not provided.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

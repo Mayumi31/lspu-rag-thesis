@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What does OSAS handle?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "OSAS (Office of Student Affairs and Services) handles student-related concerns, support services, and campus activities at LSPU-LB.",
+    "retrieval_query": "What does OSAS handle?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.9679999999934807,
+    "selected_contexts": []
+  },
+  "answer": "OSAS (Office of Student Affairs and Services) handles student-related concerns, support services, and campus activities at LSPU-LB.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

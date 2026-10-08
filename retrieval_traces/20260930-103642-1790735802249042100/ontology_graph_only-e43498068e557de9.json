@@ -1,0 +1,48 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What grade range is needed for Summa Cum Laude?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?gradeRange=1.00 to 1.20\nSumma Cum Laude [h:Award_SummaCumLaude] --h:gradeRangeText--> \"1.00 to 1.20\"\nSumma Cum Laude [h:Award_SummaCumLaude] --rdf:type--> Academic Award [h:AcademicAward]\nTYPE of Academic Award: http://www.w3.org/2002/07/owl#Class\nTYPE of Summa Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Summa Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 2-3\nSOURCE/QUALIFIER for Summa Cum Laude: h:sourceArticle = Handbook, Awards, Article 1, Sec. 2-3"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?gradeRange=1.00 to 1.20\nSumma Cum Laude [h:Award_SummaCumLaude] --h:gradeRangeText--> \"1.00 to 1.20\"\nSumma Cum Laude [h:Award_SummaCumLaude] --rdf:type--> Academic Award [h:AcademicAward]\nTYPE of Academic Award: http://www.w3.org/2002/07/owl#Class\nTYPE of Summa Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Summa Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 2-3\nSOURCE/QUALIFIER for Summa Cum Laude: h:sourceArticle = Handbook, Awards, Article 1, Sec. 2-3",
+    "answer_for_eval": "The grade range needed for Summa Cum Laude is 1.00 to 1.20.",
+    "retrieval_query": "What grade range is needed for Summa Cum Laude?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Award_SummaCumLaude",
+              "rdf:type",
+              "h:AcademicAward"
+            ],
+            [
+              "h:Award_SummaCumLaude",
+              "h:gradeRangeText",
+              "?gradeRange"
+            ]
+          ],
+          "select": [
+            "?gradeRange"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 5.10899999999674,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?gradeRange=1.00 to 1.20\nSumma Cum Laude [h:Award_SummaCumLaude] --h:gradeRangeText--> \"1.00 to 1.20\"\nSumma Cum Laude [h:Award_SummaCumLaude] --rdf:type--> Academic Award [h:AcademicAward]\nTYPE of Academic Award: http://www.w3.org/2002/07/owl#Class\nTYPE of Summa Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Summa Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 2-3\nSOURCE/QUALIFIER for Summa Cum Laude: h:sourceArticle = Handbook, Awards, Article 1, Sec. 2-3"
+    ]
+  },
+  "answer": "The grade range needed for Summa Cum Laude is 1.00 to 1.20.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

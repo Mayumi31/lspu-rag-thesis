@@ -1,0 +1,18 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "Is drinking alcoholic beverages a minor or a major offense?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "Drinking alcoholic beverages is generally considered a minor offense on campus.",
+    "retrieval_query": "Is drinking alcoholic beverages a minor or a major offense?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.6099999999860302
+  },
+  "answer": "Drinking alcoholic beverages is generally considered a minor offense on campus.",
+  "pipeline_version": "oc-rag-3.0"
+}

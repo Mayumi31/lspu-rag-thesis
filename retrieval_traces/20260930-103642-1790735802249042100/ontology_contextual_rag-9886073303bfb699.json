@@ -1,0 +1,60 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which office handles enrollment each semester?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_615",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_615\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 2. Student Admission and Counseling In line with the directives of the IATF for seniors and young individuals to minimize going out of their homes during the pandemic, the process of admission and enrolment are modified in compliance with the IATF guidelines. Further, even under the Modified General Community Quarantine\nof students to another degree program may be allowed, subject to the department policies on admission and retention.\n\nSec. 2. Enrollment Strategies, Policies, and Procedures\n\n2.1. Colleges or departments may commence enrollment immediately once course offering is already finalized.\n\n2.2. The adviser or the enrolling officers shall decide the schedule that best fits the subjects advised for the students. All students should be accommodated and no one should be left behind.\n\n2.3. Students shall then be notified on the subjects they have to take this semester through any possible means. Changes or modification of the courses to be taken by the student is allowed in case there are errors or discrepancies in the subjects advised/enrolled for the student prior to the confirmation of enrollment.\n\n2.4. Confirmation or official enrollment shall be done by the Registrar, upon confirmation by the student that he/she shall continue his/ her studies, a week prior to the start of classes.\n\n2.5. The process of a fully functional and efficient automated registration and online payment is considered for utilization.",
+        "score": 0.06430053288858154
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_272",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_272\nSECTION: XVII. | INTERNATIONAL AFFAIRS OFFICE\nPERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Foreign students | ILA Student Mobility | 1 day | IA Student Mobility\nsubmit his/her | evaluates the client’s\nintention to enroll | capacity for the\nthrough a formal | intended program\nletter attached the | and the capacity to\nrequirement for the | use the target\nenrollment | language\n2. Enrollment | IA Student Mobility | 1 day | IA Student Mobility,\nprocedure to his/her | facilitates the | Registrar’s Office,\nchosen program. | enrollment procedure | Dean/Assoc. Dean of\nthe College\n3. The FS complies | IA Student Mobility | 1 day | IA Student Mobility\nwith the medical | assists the FS to look\nrequirements in | for a Level III Hospital\npreparation for the in the area. The IA\nBOQ Clearance | Student Mobility\nthen applies for the\nClearance Stamp\nfrom the Bureau of\nQuarantine.\n4. The foreign students IA facilitates the | Depends on | 1 day | IA Student Mobility\napplies for the | application of the | the Bureau | (Representative to\nconversion of the | conversion and/or | of | Bureau of\nvisa from tourist to extension of the Visa Immigration | Immigration)\nstudent (9F) through at the Bureau of | table of",
+        "score": 0.06058126139461756
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?office=Office of the Registrar\nEnrollment [a:Serv_Enrollment] --a:availedAt--> Office of the Registrar [h:OfficeOfTheRegistrar]\nTYPE of Enrollment: a:Service\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nSOURCE/QUALIFIER for Enrollment: a:sourceSection = I. Office of the Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\nTYPE of Office of the Registrar: h:Office"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?office=Office of the Registrar\nEnrollment [a:Serv_Enrollment] --a:availedAt--> Office of the Registrar [h:OfficeOfTheRegistrar]\nTYPE of Enrollment: a:Service\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nSOURCE/QUALIFIER for Enrollment: a:sourceSection = I. Office of the Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\nTYPE of Office of the Registrar: h:Office\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_615\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 2. Student Admission and Counseling In line with the directives of the IATF for seniors and young individuals to minimize going out of their homes during the pandemic, the process of admission and enrolment are modified in compliance with the IATF guidelines. Further, even under the Modified General Community Quarantine\nof students to another degree program may be allowed",
+    "answer_for_eval": "The office that handles enrollment each semester is the Office of the Registrar.",
+    "retrieval_query": "Which office handles enrollment each semester",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:Serv_Enrollment",
+              "a:availedAt",
+              "?office"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: h:Office_Registrar"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 0.6410000000032596,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?office=Office of the Registrar\nEnrollment [a:Serv_Enrollment] --a:availedAt--> Office of the Registrar [h:OfficeOfTheRegistrar]\nTYPE of Enrollment: a:Service\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nSOURCE/QUALIFIER for Enrollment: a:sourceSection = I. Office of the Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\nTYPE of Office of the Registrar: h:Office",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_615\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 2. Student Admission and Counseling In line with the directives of the IATF for seniors and young individuals to minimize going out of their homes during the pandemic, the process of admission and enrolment are modified in compliance with the IATF guidelines. Further, even under the Modified General Community Quarantine\nof students to another degree program may be allowed, subject to the department policies on admission and retention.\n\nSec. 2. Enrollment Strategies, Policies, and Procedures\n\n2.1. Colleges or departments may commence enrollment immediately once course offering is already finalized.\n\n2.2. The adviser or the enrolling officers shall decide the schedule that best fits the subjects advised for the students. All students should be accommodated and no one should be left behind.\n\n2.3. Students shall then be notified on the subjects they have to take this semester through any possible means. Changes or modification of the courses to be taken by the student is allowed in case there are errors or discrepancies in the subjects advised/enrolled for the student prior to the confirmation of enrollment.\n\n2.4. Confirmation or official enrollment shall be done by the Registrar, upon confirmation by the student that he/she shall continue his/ her studies, a week prior to the start of classes.\n\n2.5. The process of a fully functional and efficient automated registration and online payment is considered for utilization.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_272\nSECTION: XVII. | INTERNATIONAL AFFAIRS OFFICE\nPERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Foreign students | ILA Student Mobility | 1 day | IA Student Mobility\nsubmit his/her | evaluates the client’s\nintention to enroll | capacity for the\nthrough a formal | intended program\nletter attached the | and the capacity to\nrequirement for the | use the target\nenrollment | language\n2. Enrollment | IA Student Mobility | 1 day | IA Student Mobility,\nprocedure to his/her | facilitates the | Registrar’s Office,\nchosen program. | enrollment procedure | Dean/Assoc. Dean of\nthe College\n3. The FS complies | IA Student Mobility | 1 day | IA Student Mobility\nwith the medical | assists the FS to look\nrequirements in | for a Level III Hospital\npreparation for the in the area. The IA\nBOQ Clearance | Student Mobility\nthen applies for the\nClearance Stamp\nfrom the Bureau of\nQuarantine.\n4. The foreign students IA facilitates the | Depends on | 1 day | IA Student Mobility\napplies for the | application of the | the Bureau | (Representative to\nconversion of the | conversion and/or | of | Bureau of\nvisa from tourist to extension of the Visa Immigration | Immigration)\nstudent (9F) through at the Bureau of | table of"
+    ]
+  },
+  "answer": "The office that handles enrollment each semester is the Office of the Registrar.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

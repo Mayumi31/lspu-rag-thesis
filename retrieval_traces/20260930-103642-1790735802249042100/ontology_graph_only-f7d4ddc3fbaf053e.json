@@ -1,0 +1,64 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Who sits on the Student Discipline Committee?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Student Discipline Committee\nh:definition: Handles investigation and recommendation on all Code of Conduct violation complaints; composed of the OSAS Director/Chairperson (Chair), Student Discipline Coordinator (Vice Chair), VPAA/Campus Director, the student's College Dean, Chief Security Officer, President of the Supreme Student Council, and the University Legal Consultant.\nh:handles -> Procedure for Major Disciplinary Actions [h:Proc_MajorDisciplinaryAction]\nh:handles -> How to report bullying or harassment [h:Proc_ReportBullyingHarassment]\nh:hasCommitteeRole -> Chief Security Officer [h:Role_ChiefSecurityOfficer]\nh:hasCommitteeRole -> College Dean [h:Role_CollegeDean]\nh:hasCommitteeRole -> OSAS Director/Chairperson [h:Role_OSASDirector]\nh:hasCommitteeRole -> President, Supreme Student Council [h:Role_SSCPresident]\nh:hasCommitteeRole -> Student Discipline Coordinator [h:Role_StudentDisciplineCoordinator]\nh:hasCommitteeRole -> University Legal Consultant [h:Role_UniversityLegalConsultant]\nh:hasCommitteeRole -> Vice President for Academic Affairs / Campus Director [h:Role_VPAA_CampusDirector]\nh:sourceArticle: Chapter 6, Article 7, Sec. 2\nrdf:type -> Committee [h:Committee]\nrdfs:label: Student Discipline Committee"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Student Discipline Coordinator\nh:definition: First point of contact for filing a written, signed complaint under Code of Conduct procedure.\nrdf:type -> University Role [h:UniversityRole]\nrdfs:label: Student Discipline Coordinator"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Student Discipline Services\nh:definition: Strictly imposes university rules and regulations, coordinates with teachers and parents on student discipline, deals impartially with students on disciplinary problems, and follows up on students with offenses for proper guidance.\nh:sourceArticle: Chapter 5, Article 2, Sec. 4\nrdf:type -> Student Service [h:StudentService]\nrdfs:label: Student Discipline Services"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): LSPU Drug-Free Committee (DFC) Selection Board\nh:definition: Committee overseeing the Mandatory Drug Testing Program. Chaired by the Campus Director (Drug Testing Coordinator). Members include the OSAS Director/Chairperson, Guidance Counselors, Medical Services staff, and the Supreme Student Council President/Representative.\nh:handles -> Mandatory Drug Testing Program (MDTP) Procedure [h:Proc_MDTP]\nh:hasCommitteeRole -> Campus Director [h:Role_CampusDirector]\nh:hasCommitteeRole -> Guidance Counselor [h:Role_GuidanceCounselor]\nh:hasCommitteeRole -> OSAS Director/Chairperson [h:Role_OSASDirector]\nh:hasCommitteeRole -> President, Supreme Student Council [h:Role_SSCPresident]\nh:sourceArticle: Appendix C, Sec. 5.2\nrdf:type -> Committee [h:Committee]\nrdfs:label: LSPU Drug-Free Committee (DFC) Selection Board"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Student Discipline Committee\nh:definition: Handles investigation and recommendation on all Code of Conduct violation complaints; composed of the OSAS Director/Chairperson (Chair), Student Discipline Coordinator (Vice Chair), VPAA/Campus Director, the student's College Dean, Chief Security Officer, President of the Supreme Student Council, and the University Legal Consultant.\nh:handles -> Procedure for Major Disciplinary Actions [h:Proc_MajorDisciplinaryAction]\nh:handles -> How to report bullying or harassment [h:Proc_ReportBullyingHarassment]\nh:hasCommitteeRole -> Chief Security Officer [h:Role_ChiefSecurityOfficer]\nh:hasCommitteeRole -> College Dean [h:Role_CollegeDean]\nh:hasCommitteeRole -> OSAS Director/Chairperson [h:Role_OSASDirector]\nh:hasCommitteeRole -> President, Supreme Student Council [h:Role_SSCPresident]\nh:hasCommitteeRole -> Student Discipline Coordinator [h:Role_StudentDisciplineCoordinator]\nh:hasCommitteeRole -> University Legal Consultant [h:Role_UniversityLegalConsultant]\nh:hasCommitteeRole -> Vice President for Academic Affairs / Campus Director [h:Role_VPAA_CampusDirector]\nh:sourceArticle: Chapter 6, Article 7, Sec. ",
+    "answer_for_eval": "The Student Discipline Committee is composed of the following members:\n1. OSAS Director/Chairperson (Chair)\n2. Student Discipline Coordinator (Vice Chair)\n3. VPAA/Campus Director\n4. The student's College Dean\n5. Chief Security Officer\n6. President of the Supreme Student Council\n7. University Legal Consultant",
+    "retrieval_query": "Who is part of the Student Discipline Committee?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:StudentDisciplineCommittee",
+              "rdf:type",
+              "h:Committee"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 4,
+    "elapsed_seconds": 8.453000000037719,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Student Discipline Committee\nh:definition: Handles investigation and recommendation on all Code of Conduct violation complaints; composed of the OSAS Director/Chairperson (Chair), Student Discipline Coordinator (Vice Chair), VPAA/Campus Director, the student's College Dean, Chief Security Officer, President of the Supreme Student Council, and the University Legal Consultant.\nh:handles -> Procedure for Major Disciplinary Actions [h:Proc_MajorDisciplinaryAction]\nh:handles -> How to report bullying or harassment [h:Proc_ReportBullyingHarassment]\nh:hasCommitteeRole -> Chief Security Officer [h:Role_ChiefSecurityOfficer]\nh:hasCommitteeRole -> College Dean [h:Role_CollegeDean]\nh:hasCommitteeRole -> OSAS Director/Chairperson [h:Role_OSASDirector]\nh:hasCommitteeRole -> President, Supreme Student Council [h:Role_SSCPresident]\nh:hasCommitteeRole -> Student Discipline Coordinator [h:Role_StudentDisciplineCoordinator]\nh:hasCommitteeRole -> University Legal Consultant [h:Role_UniversityLegalConsultant]\nh:hasCommitteeRole -> Vice President for Academic Affairs / Campus Director [h:Role_VPAA_CampusDirector]\nh:sourceArticle: Chapter 6, Article 7, Sec. 2\nrdf:type -> Committee [h:Committee]\nrdfs:label: Student Discipline Committee",
+      "APPROXIMATE MATCH (not an exhaustive result): Student Discipline Coordinator\nh:definition: First point of contact for filing a written, signed complaint under Code of Conduct procedure.\nrdf:type -> University Role [h:UniversityRole]\nrdfs:label: Student Discipline Coordinator",
+      "APPROXIMATE MATCH (not an exhaustive result): Student Discipline Services\nh:definition: Strictly imposes university rules and regulations, coordinates with teachers and parents on student discipline, deals impartially with students on disciplinary problems, and follows up on students with offenses for proper guidance.\nh:sourceArticle: Chapter 5, Article 2, Sec. 4\nrdf:type -> Student Service [h:StudentService]\nrdfs:label: Student Discipline Services",
+      "APPROXIMATE MATCH (not an exhaustive result): LSPU Drug-Free Committee (DFC) Selection Board\nh:definition: Committee overseeing the Mandatory Drug Testing Program. Chaired by the Campus Director (Drug Testing Coordinator). Members include the OSAS Director/Chairperson, Guidance Counselors, Medical Services staff, and the Supreme Student Council President/Representative.\nh:handles -> Mandatory Drug Testing Program (MDTP) Procedure [h:Proc_MDTP]\nh:hasCommitteeRole -> Campus Director [h:Role_CampusDirector]\nh:hasCommitteeRole -> Guidance Counselor [h:Role_GuidanceCounselor]\nh:hasCommitteeRole -> OSAS Director/Chairperson [h:Role_OSASDirector]\nh:hasCommitteeRole -> President, Supreme Student Council [h:Role_SSCPresident]\nh:sourceArticle: Appendix C, Sec. 5.2\nrdf:type -> Committee [h:Committee]\nrdfs:label: LSPU Drug-Free Committee (DFC) Selection Board"
+    ]
+  },
+  "answer": "The Student Discipline Committee is composed of the following members:\n1. OSAS Director/Chairperson (Chair)\n2. Student Discipline Coordinator (Vice Chair)\n3. VPAA/Campus Director\n4. The student's College Dean\n5. Chief Security Officer\n6. President of the Supreme Student Council\n7. University Legal Consultant",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

@@ -1,0 +1,81 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which CHED memorandum order covers the BSCS, BSIS and BSIT programs?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_65",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_65\nSECTION: CHED MEMORANDUM ORDER: CMO No. 25, s. 2015\nCHED MEMORANDUM ORDER: CMO No. 25, s. 2015\nTitle: Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nLSPU-LB programs covered by this CMO: Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program.\nProgram educational objectives:\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.",
+        "score": 0.06557377049180328
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_29",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_29\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Service Management Program | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Service Management Program\nand ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.06087007750314202
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_71",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_71\nSECTION: CHED MEMORANDUM ORDER: CMO No. 17, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 17, s. 2017\nTitle: Revised Policies, Standards and Guidelines for Bachelor of Science in Business Administration\nLSPU-LB programs covered by this CMO: Bachelor of Science in Business Administration - Major in Marketing Management; Bachelor of Science in Business Administration - Major in Financial Management.\nProgram educational objectives:\n- Apply core business, economic, and management principles to plan, organize, and evaluate business operations.\n- Exercise sound, ethical decision-making within a chosen business specialization in response to a changing market environment.",
+        "score": 0.05934405230179878
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_27",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_27\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Web and Mobile Application Development\nand ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.05874719416386083
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_72",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_72\nSECTION: CHED MEMORANDUM ORDER: CMO No. 27, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 27, s. 2017\nTitle: Revised Policies, Standards and Guidelines for Bachelor of Science in Accountancy (BSA)\nLSPU-LB programs covered by this CMO: Bachelor of Science in Accountancy.\nProgram educational objectives:\n- Apply generally accepted accounting, auditing, and taxation principles to prepare and evaluate financial information with integrity.\n- Qualify for and succeed in the CPA Licensure Examination and subsequent professional accountancy practice.",
+        "score": 0.05814818105470691
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?legalBasis=Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasLegalBasis--> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?legalBasis=Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasLegalBasis--> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Sys",
+    "answer_for_eval": "The CHED memorandum order that covers the BSCS, BSIS, and BSIT programs is CMO No. 25, s. 2015.",
+    "retrieval_query": "Which CHED memorandum order covers the BSCS, BSIS, and BSIT programs?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSCS_IS",
+              "p:hasLegalBasis",
+              "?legalBasis"
+            ]
+          ],
+          "select": [
+            "?legalBasis"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 6,
+    "elapsed_seconds": 0.8589999999967404,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?legalBasis=Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasLegalBasis--> Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs [p:CMO_25_s2015]\nTYPE of Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:CMO\nSOURCE/QUALIFIER for Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs: p:sourceDocument = Supplied directly by the user's CMO list (batch of 11).\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_65\nSECTION: CHED MEMORANDUM ORDER: CMO No. 25, s. 2015\nCHED MEMORANDUM ORDER: CMO No. 25, s. 2015\nTitle: Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nLSPU-LB programs covered by this CMO: Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program.\nProgram educational objectives:\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_29\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Service Management Program | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Service Management Program\nand ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_71\nSECTION: CHED MEMORANDUM ORDER: CMO No. 17, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 17, s. 2017\nTitle: Revised Policies, Standards and Guidelines for Bachelor of Science in Business Administration\nLSPU-LB programs covered by this CMO: Bachelor of Science in Business Administration - Major in Marketing Management; Bachelor of Science in Business Administration - Major in Financial Management.\nProgram educational objectives:\n- Apply core business, economic, and management principles to plan, organize, and evaluate business operations.\n- Exercise sound, ethical decision-making within a chosen business specialization in response to a changing market environment.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_27\nSECTION: PROGRAM: Bachelor of Science in Information Technology - Major in Web and Mobile Application Development | College: College of Computer Studies (CCS) | Degree: Bachelor of Science in Information Technology (BSIT) | Major: Web and Mobile Application Development\nand ICT/ICTS strand applicants.\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 25, s. 2015 - Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nProgram educational objectives (per this CMO):\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_72\nSECTION: CHED MEMORANDUM ORDER: CMO No. 27, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 27, s. 2017\nTitle: Revised Policies, Standards and Guidelines for Bachelor of Science in Accountancy (BSA)\nLSPU-LB programs covered by this CMO: Bachelor of Science in Accountancy.\nProgram educational objectives:\n- Apply generally accepted accounting, auditing, and taxation principles to prepare and evaluate financial information with integrity.\n- Qualify for and succeed in the CPA Licensure Examination and subsequent professional accountancy practice."
+    ]
+  },
+  "answer": "The CHED memorandum order that covers the BSCS, BSIS, and BSIT programs is CMO No. 25, s. 2015.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

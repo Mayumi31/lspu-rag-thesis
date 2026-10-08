@@ -1,0 +1,112 @@
+{
+  "pipeline": "oc-rag-3.3-verified-build",
+  "model": "gpt-4.1-nano",
+  "judge_model": "gpt-4.1-nano",
+  "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+  "questions": [
+    {
+      "question": "Which programs require a GWA of 85, and which colleges offer them?",
+      "ground_truth": "Five programs require a minimum GWA of 85: BS Information Technology majors in Animation and Motion Graphics, Web and Mobile Application Development, and Service Management Program (College of Computer Studies); BS Criminology (College of Criminal Justice Education); and BS Hospitality Management (College of Hospitality Management and Tourism)."
+    },
+    {
+      "question": "What subjects does a BS Psychology student take in first year, first semester?",
+      "ground_truth": "First year, first semester of BS Psychology: PATHFit 1 - Movement Competency Training (2 units); GEC 101 - Understanding the Self (3); GEC 104 - Mathematics in the Modern World (3); P.I. 100 - The Life and Works of Jose Rizal (3); GEC ELEC 1 - Living in the IT Era (3); NSTP 1 - CWTS 1 / ROTC 1 (3); BC PSY 1 - Introduction to Psychology (3); and KOMFIL - Kontekstwalisadong Komunikasyon sa Filipino (3)."
+    },
+    {
+      "question": "How many tardiness instances count as one absence?",
+      "ground_truth": "Three (3) tardiness instances in a class count as one (1) absence (Student Handbook, Ch. 6 Art. 3 Sec. 1)."
+    },
+    {
+      "question": "At what percentage of unexcused absences is a student dropped from the roll?",
+      "ground_truth": "A student whose unexcused absences reach 17% of the total class hours per semester is dropped from the roll. Excused absences may be removed through makeup."
+    },
+    {
+      "question": "What are the sanctions for a first offense of cyber bullying?",
+      "ground_truth": "The sanction for a first offense of cyber bullying is suspension for one (1) month."
+    },
+    {
+      "question": "What kinds of attire are prohibited on campus?",
+      "ground_truth": "Prohibited campus attire includes shorts, walking shorts and cycling shorts; pedal pushers; capri pants; cargo shorts; mutilated or jazzed pants; faded, torn or wrinkled shirts; jogging pants; miniskirts; sleeveless, backless, halter and spaghetti-strap tops; sandos; plunging necklines; leggings; and slippers. A student violating the uniform provision is not allowed to enter the University gates unless a promissory note or communication letter from OSAS is presented."
+    },
+    {
+      "question": "What academic statuses can a student be placed under?",
+      "ground_truth": "The academic statuses are Warning (given by the Dean when a student fails 25%-49% of total registered units), Probation (fails 50%-74% of units; load is reduced by the Dean), Dismissal from the College (fails more than 75% of enrolled units), and Disqualification (an enrollment-status flag that may appear on the Copy of Grades alongside the others)."
+    },
+    {
+      "question": "How do I pay my fees online, and through which portal?",
+      "ground_truth": "Fees can be paid online through the LandBank LinkBiz Portal, using a mobile phone or PC. Steps: access the portal; fill out the payment form; select the account and pay; receive the confirmation receipt; send the transaction receipt by email; the Cashier verifies the payment; and you receive an e-copy of the official receipt. A LandBank LinkBiz convenience fee of Php 7.00 applies, and total processing time is about 2 days because of 1-2 banking days of payment verification."
+    },
+    {
+      "question": "What are the steps to request a Transcript of Records?",
+      "ground_truth": "Step 1: fill out the request slip (LSPU-REG-SF-011) with clearance and signatures of the heads of responsible offices; graduates fill out the same slip. Step 2: pay the required fees at the Cashier's Office (TOR is P75.00 per page for undergraduate and P150.00 per page for graduate). Step 3: submit the request slip and official receipt and receive a claim stub with the release date while the Registrar prepares the document. Step 4: claim the document on the date on the claim stub. Total service time is up to 59 minutes for active files and 1 day plus about 44 minutes for inactive files."
+    },
+    {
+      "question": "How long does the fee assessment step of enrollment take?",
+      "ground_truth": "The assessment of fees step at the Accounting Office takes 3 minutes."
+    },
+    {
+      "question": "What documents must freshman applicants submit?",
+      "ground_truth": "Freshman applicants submit the Report Card (DepEd Form 138) or equivalent (Form 137) and NCAE results; a physical and medical examination certified by a government physician; a certificate of good moral character from the last school attended; three latest 2x2 pictures; and a photocopy of the authenticated birth certificate (NSO). This is the older website wording; the 2026 Citizen's Charter enrollment list asks for a PSA birth certificate, a medical slip from the LSPU Medical Clinic, and 2 pictures."
+    },
+    {
+      "question": "What are the steps for processing my student ID?",
+      "ground_truth": "Step 1: scan the QR code or fill out the Google form. Step 2: your information is verified and encoded. Step 3: the ID card is printed, with a fee of Php 100.00. Step 4: sign the logbook. The service is at the Business Affairs Office, requires your COR, and takes about 4 minutes in total."
+    },
+    {
+      "question": "What does OSAS handle?",
+      "ground_truth": "The Office of Student Affairs and Services (OSAS) handles all complaints against alleged violators of the Code of Conduct, issues promissory notes and excuse-slip referrals, and coordinates the Student Discipline Coordinator."
+    },
+    {
+      "question": "Where is the Guidance Office located?",
+      "ground_truth": "The Guidance Office is inside the OSAS building. To reach the OSAS building from the main gate, turn right and walk past the Hall and Gender and Development, then follow the CBAA hallway to the end."
+    },
+    {
+      "question": "What can I do on the LSPU Portal?",
+      "ground_truth": "On the LSPU Portal students can view their grades, check their enrollment status and academic standing flags (such as Warning, Probation and INC), enlist subjects for enrollment (old students), view the Certificate of Registration (COR), apply online for completion of an INC or 4.0 grade, verify printed grades against the Registrar's report, and request the school Google account."
+    },
+    {
+      "question": "Who sits on the Student Discipline Committee?",
+      "ground_truth": "The Student Discipline Committee is composed of the OSAS Director/Chairperson (Chair), the Student Discipline Coordinator (Vice Chair), the VPAA/Campus Director, the student's College Dean, the Chief Security Officer, the President of the Supreme Student Council, and the University Legal Consultant. It handles investigation and recommendation on all Code of Conduct violation complaints."
+    },
+    {
+      "question": "Which office handles scholarships and financial assistance, and where is it?",
+      "ground_truth": "The Scholarship and Financial Assistance (SFA) Unit processes scholarship and financial assistance applications. From the main gate, walk straight in; the SFA office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side."
+    },
+    {
+      "question": "How do I get to the Registrar's office from the main gate?",
+      "ground_truth": "From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor."
+    },
+    {
+      "question": "How much is an ID lace, and where is it sold?",
+      "ground_truth": "The ID lace (lanyard) costs Php 130 and is sold at the Business Affairs Office (BAO)."
+    },
+    {
+      "question": "What mental health services does the university offer?",
+      "ground_truth": "The university offers Mental Health Counseling and Referral (assessment, counseling, and referral for enrolled students; university health service personnel may assess students aged 15-17 with consent and assent) and Guidance and Counseling Services (individual and group counseling, case conferences with parents or students, and follow-up or referral to a multidisciplinary team). The Guidance Office, inside the OSAS building, offers counseling and mental health support."
+    },
+    {
+      "question": "Which programs lead to a board or licensure exam?",
+      "ground_truth": "15 of the 23 programs lead to a PRC licensure examination: BS Psychology (Psychometrician), BS Accountancy (CPA), BS Criminology (Criminologist), BS Fisheries (Fisheries Professional Licensure Examination), BS Food Technology (Food Technologists Licensure Examination), BS Nutrition and Dietetics (Nutritionist-Dietitian), and all 9 CTE teacher-education programs (Licensure Examination for Teachers). The 8 without a board exam are BS Computer Science, both BS Business Administration majors, the three BS Information Technology majors, BS Tourism Management, and BS Hospitality Management."
+    },
+    {
+      "question": "What programs does the College of Teacher Education offer?",
+      "ground_truth": "The College of Teacher Education (CTE) offers 9 programs: BS Education majors in English, Filipino, Mathematics, Sciences, and Social Studies; Bachelor of Elementary Education; Bachelor of Technology and Livelihood Education major in Home Economics; Bachelor of Technical-Vocational Teacher Education major in Food and Service Management; and Bachelor of Physical Education. CTE requires no grade lower than 85 in English, Mathematics, and Science for admission."
+    },
+    {
+      "question": "What is the difference between a COR and a COG?",
+      "ground_truth": "The COR (Certificate of Registration) certifies that you are officially enrolled for the semester; it is required for admission to classes and for processing a student ID, and can be viewed on the portal or claimed as a printed copy at the Registrar. The COG (Copy of Grades) is the official record of your grades for a semester issued by the Registrar; its information is also shown on the LSPU Portal."
+    }
+  ],
+  "files": {
+    "C:\\Users\\German Gian\\Documents\\lspu-rag-thesis - Claude\\app.py": "2bf52d3a00963d464b3c510852461d97aaf6524478246248fcff2a5080a04f2e",
+    "data\\LSPU_ONTOLOGY.ttl": "a2f0c59e34d709ce8ce3600048bfd8bbc1caf306569e192e7011f06ff2ce2dce",
+    "data\\LSPU_SOURCE.txt": "1fd9baa83a4acadedea1e501ea44453435c7b70505f8c492e9df1eb051bf0335"
+  },
+  "dependencies": {
+    "ragas": "0.3.9",
+    "rdflib": "7.6.0",
+    "sentence-transformers": "3.1.1",
+    "openai": "1.109.1",
+    "langchain-openai": "1.1.9"
+  }
+}

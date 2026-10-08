@@ -1,0 +1,45 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What are the sanctions for a first offense of cyber bullying?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_CyberBullying_1\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_1 [h:Tier_CyberBullying_1]\nh:Sanc_Tier_CyberBullying_1_1 [h:Sanc_Tier_CyberBullying_1_1] --h:durationText--> \"one (1) month\"\nh:Sanc_Tier_CyberBullying_1_1 [h:Sanc_Tier_CyberBullying_1_1] --h:sanctionType--> \"Suspension\"\nh:Tier_CyberBullying_1 [h:Tier_CyberBullying_1] --h:imposesSanction--> h:Sanc_Tier_CyberBullying_1_1 [h:Sanc_Tier_CyberBullying_1_1]\nh:Tier_CyberBullying_1 [h:Tier_CyberBullying_1] --h:occurrenceOrdinal--> \"1st Offense\"\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Sanc_Tier_CyberBullying_1_1: h:Sanction\nTYPE of h:Tier_CyberBullying_1: h:SanctionTier"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_CyberBullying_1\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_1 [h:Tier_CyberBullying_1]\nh:Sanc_Tier_CyberBullying_1_1 [h:Sanc_Tier_CyberBullying_1_1] --h:durationText--> \"one (1) month\"\nh:Sanc_Tier_CyberBullying_1_1 [h:Sanc_Tier_CyberBullying_1_1] --h:sanctionType--> \"Suspension\"\nh:Tier_CyberBullying_1 [h:Tier_CyberBullying_1] --h:imposesSanction--> h:Sanc_Tier_CyberBullying_1_1 [h:Sanc_Tier_CyberBullying_1_1]\nh:Tier_CyberBullying_1 [h:Tier_CyberBullying_1] --h:occurrenceOrdinal--> \"1st Offense\"\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Sanc_Tier_CyberBullying_1_1: h:Sanction\nTYPE of h:Tier_CyberBullying_1: h:SanctionTier",
+    "answer_for_eval": "The sanctions for a first offense of cyber bullying are suspension for one (1) month.",
+    "retrieval_query": "What are the sanctions for a first offense of cyber bullying?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:CyberBullying",
+              "h:hasSanctionTier",
+              "?tier"
+            ]
+          ],
+          "select": [
+            "?tier"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 6.64000000001397,
+    "retrieval_seconds": 5.453000000037719,
+    "generation_seconds": 1.1869999999762513,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_CyberBullying_1\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_1 [h:Tier_CyberBullying_1]\nh:Sanc_Tier_CyberBullying_1_1 [h:Sanc_Tier_CyberBullying_1_1] --h:durationText--> \"one (1) month\"\nh:Sanc_Tier_CyberBullying_1_1 [h:Sanc_Tier_CyberBullying_1_1] --h:sanctionType--> \"Suspension\"\nh:Tier_CyberBullying_1 [h:Tier_CyberBullying_1] --h:imposesSanction--> h:Sanc_Tier_CyberBullying_1_1 [h:Sanc_Tier_CyberBullying_1_1]\nh:Tier_CyberBullying_1 [h:Tier_CyberBullying_1] --h:occurrenceOrdinal--> \"1st Offense\"\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Sanc_Tier_CyberBullying_1_1: h:Sanction\nTYPE of h:Tier_CyberBullying_1: h:SanctionTier"
+    ]
+  },
+  "answer": "The sanctions for a first offense of cyber bullying are suspension for one (1) month.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

@@ -1,0 +1,378 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which programs does the College of Hospitality Management and Tourism offer, and what GWA does each require?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_10",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_10\nSECTION: COLLEGE: College of Hospitality Management and Tourism (CIHT)\nCOLLEGE: College of Hospitality Management and Tourism (CIHT)\nThe College of Hospitality Management and Tourism at LSPU-LB offers the following degree programs:\n- Bachelor of Science in Tourism Management\n- Bachelor of Science in Hospitality Management",
+        "score": 0.03177805800756621
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_40",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_40\nSECTION: PROGRAM: Bachelor of Science in Hospitality Management | College: College of Hospitality Management and Tourism (CIHT) | Degree: Bachelor of Science in Hospitality Management (BSHM)\nPROGRAM: Bachelor of Science in Hospitality Management\nCollege: College of Hospitality Management and Tourism (CIHT)\nDegree: Bachelor of Science in Hospitality Management (BSHM)\nDuration: 4 years\n\nOverview: Covers hotel and lodging operations, food and beverage service, and front office management for the hospitality industry.\n\nSkills developed:\n- Hotel and Lodging Operations\n- Food and Beverage Service\n- Front Office Management\n\nCareer and job outcomes:\n- Hotel and Restaurant Operations Supervisor: Manages front office, housekeeping, or food and beverage operations in hotels, resorts, or restaurants.\n- Food and Beverage Service Supervisor: Supervises dining, catering, or banquet service operations in the hospitality industry.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 85.0\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 62, s. 2017 - Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM)\nProgram educational objectives (per this CMO):",
+        "score": 0.03177805800756621
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_38",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_38\nSECTION: PROGRAM: Bachelor of Science in Tourism Management | College: College of Hospitality Management and Tourism (CIHT) | Degree: Bachelor of Science in Tourism Management (BSTM)\nPROGRAM: Bachelor of Science in Tourism Management\nCollege: College of Hospitality Management and Tourism (CIHT)\nDegree: Bachelor of Science in Tourism Management (BSTM)\nDuration: 4 years\n\nOverview: Covers tour planning and operations, destination management and development, and tourism marketing.\n\nSkills developed:\n- Tour Planning and Operations\n- Destination Management and Development\n- Tourism Marketing\n\nCareer and job outcomes:\n- Travel and Tour Officer: Works for travel agencies, tour operators, or airlines arranging and managing travel packages.\n- Tourism Planning/Development Officer: Works with local government units or tourism boards on destination planning and promotion.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Not a board program (no PRC licensure examination is required for this degree).\n\nRegulatory basis (CHED): CMO No. 62, s. 2017 - Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM)\nProgram educational objectives (per this CMO):",
+        "score": 0.031754032258064516
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_41",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_41\nSECTION: PROGRAM: Bachelor of Science in Hospitality Management | College: College of Hospitality Management and Tourism (CIHT) | Degree: Bachelor of Science in Hospitality Management (BSHM)\nand Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM)\nProgram educational objectives (per this CMO):\n- Plan, deliver, and manage guest-centered tourism or hospitality operations that meet industry service standards.\n- Advance to supervisory or entrepreneurial roles within the tourism and hospitality industry through demonstrated operational and management competence.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.031754032258064516
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_39",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_39\nSECTION: PROGRAM: Bachelor of Science in Tourism Management | College: College of Hospitality Management and Tourism (CIHT) | Degree: Bachelor of Science in Tourism Management (BSTM)\nand Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM)\nProgram educational objectives (per this CMO):\n- Plan, deliver, and manage guest-centered tourism or hospitality operations that meet industry service standards.\n- Advance to supervisory or entrepreneurial roles within the tourism and hospitality industry through demonstrated operational and management competence.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.031746031746031744
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 2; distinct values by variable = {\"?program\": 2}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Hospitality Management\nCollege of Hospitality Management and Tourism [p:CIHT] --p:collegeName--> \"College of Hospitality Management and Tourism\"\nCollege of Hospitality Management and Tourism [p:CIHT] --p:hasProgram--> Bachelor of Science in Hospitality Management [p:Prog_BSHospitalityManagement]\nCollege of Hospitality Management and Tourism [p:CIHT] --rdf:type--> College [p:College]\nTYPE of College of Hospitality Management and Tourism: p:College\nSOURCE/QUALIFIER for College of Hospitality Management and Tourism: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of International Hospitality and Tourism'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Hospitality Management and Tourism', now used here. 'College of International Hospitality and Tourism' is kept only as a historical alternate name.\nTYPE of College: http://www.w3.org/2002/07/owl#Class\nTYPE of Bachelor of Science in Hospitality Management: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?program=Bachelor of Science in Tourism Management\nCollege of Hospitality Management and Tourism [p:CIHT] --p:collegeName--> \"College of Hospitality Management and Tourism\"\nCollege of Hospitality Management and Tourism [p:CIHT] --p:hasProgram--> Bachelor of Science in Tourism Management [p:Prog_BSTourismManagement]\nCollege of Hospitality Management and Tourism [p:CIHT] --rdf:type--> College [p:College]\nTYPE of College of Hospitality Management and Tourism: p:College\nSOURCE/QUALIFIER for College of Hospitality Management and Tourism: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of International Hospitality and Tourism'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Hospitality Management and Tourism', now used here. 'College of International Hospitality and Tourism' is kept only as a historical alternate name.\nTYPE of College: http://www.w3.org/2002/07/owl#Class\nTYPE of Bachelor of Science in Tourism Management: p:Program"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 23; distinct values by variable = {\"?program\": 23, \"?programName\": 23, \"?admReq\": 23}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?program=Bachelor of Elementary Education; ?programName=Bachelor of Elementary Education; ?admReq=p:AdmReq_BEEd\nBachelor of Elementary Education [p:Prog_BEEd] --p:hasAdmissionRequirement--> p:AdmReq_BEEd [p:AdmReq_BEEd]\nBachelor of Elementary Education [p:Prog_BEEd] --p:programName--> \"Bachelor of Elementary Education\"\nBachelor of Elementary Education [p:Prog_BEEd] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BEEd: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BEEd: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Elementary Education: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 2: ?program=Bachelor of Physical Education; ?programName=Bachelor of Physical Education; ?admReq=p:AdmReq_BPE\nBachelor of Physical Education [p:Prog_BPE] --p:hasAdmissionRequirement--> p:AdmReq_BPE [p:AdmReq_BPE]\nBachelor of Physical Education [p:Prog_BPE] --p:programName--> \"Bachelor of Physical Education\"\nBachelor of Physical Education [p:Prog_BPE] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BPE: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BPE: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nSOURCE/QUALIFIER for p:AdmReq_BPE: p:sourceDataGap = Earlier user-supplied grade list omitted this program; confirmed as GWA 90 per the official Admission Guidelines Annex A.\nTYPE of Bachelor of Physical Education: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 3: ?program=Bachelor of Science in Accountancy; ?programName=Bachelor of Science in Accountancy; ?admReq=p:AdmReq_BSA\nBachelor of Science in Accountancy [p:Prog_BSA] --p:hasAdmissionRequirement--> p:AdmReq_BSA [p:AdmReq_BSA]\nBachelor of Science in Accountancy [p:Prog_BSA] --p:programName--> \"Bachelor of Science in Accountancy\"\nBachelor of Science in Accountancy [p:Prog_BSA] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSA: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSA: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Accountancy: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 4: ?program=Bachelor of Science in Business Administration - Major in Financial Management; ?programName=Bachelor of Science in Business Administration - Major in Financial Management; ?admReq=p:AdmReq_BSBA_FM\nBachelor of Science in Business Administration - Major in Financial Management [p:Prog_BSBA_FM] --p:hasAdmissionRequirement--> p:AdmReq_BSBA_FM [p:AdmReq_BSBA_FM]\nBachelor of Science in Business Administration - Major in Financial Management [p:Prog_BSBA_FM] --p:programName--> \"Bachelor of Science in Business Administration - Major in Financial Management\"\nBachelor of Science in Business Administration - Major in Financial Management [p:Prog_BSBA_FM] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSBA_FM: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSBA_FM: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Business Administration - Major in Financial Management: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 5: ?program=Bachelor of Science in Business Administration - Major in Marketing Management; ?programName=Bachelor of Science in Business Administration - Major in Marketing Management; ?admReq=p:AdmReq_BSBA_MM\nBachelor of Science in Business Administration - Major in Marketing Management [p:Prog_BSBA_MM] --p:hasAdmissionRequirement--> p:AdmReq_BSBA_MM [p:AdmReq_BSBA_MM]\nBachelor of Science in Business Administration - Major in Marketing Management [p:Prog_BSBA_MM] --p:programName--> \"Bachelor of Science in Business Administration - Major in Marketing Management\"\nBachelor of Science in Business Administration - Major in Marketing Management [p:Prog_BSBA_MM] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSBA_MM: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSBA_MM: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Business Administration - Major in Marketing Management: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 6: ?program=Bachelor of Science in Computer Science - Major in Intelligent Systems; ?programName=Bachelor of Science in Computer Science - Major in Intelligent Systems; ?admReq=p:AdmReq_BSCS_IS\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:hasAdmissionRequirement--> p:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS]\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --p:programName--> \"Bachelor of Science in Computer Science - Major in Intelligent Systems\"\nBachelor of Science in Computer Science - Major in Intelligent Systems [p:Prog_BSCS_IS] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSCS_IS: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCS_IS: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Computer Science - Major in Intelligent Systems: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 7: ?program=Bachelor of Science in Criminology; ?programName=Bachelor of Science in Criminology; ?admReq=p:AdmReq_BSCrim\nBachelor of Science in Criminology [p:Prog_BSCrim] --p:hasAdmissionRequirement--> p:AdmReq_BSCrim [p:AdmReq_BSCrim]\nBachelor of Science in Criminology [p:Prog_BSCrim] --p:programName--> \"Bachelor of Science in Criminology\"\nBachelor of Science in Criminology [p:Prog_BSCrim] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSCrim: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCrim: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Criminology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 8: ?program=Bachelor of Secondary Education - Major in English; ?programName=Bachelor of Secondary Education - Major in English; ?admReq=p:AdmReq_BSEd_English\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:hasAdmissionRequirement--> p:AdmReq_BSEd_English [p:AdmReq_BSEd_English]\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --p:programName--> \"Bachelor of Secondary Education - Major in English\"\nBachelor of Secondary Education - Major in English [p:Prog_BSEd_English] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSEd_English: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_English: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Secondary Education - Major in English: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 9: ?program=Bachelor of Secondary Education - Major in Filipino; ?programName=Bachelor of Secondary Education - Major in Filipino; ?admReq=p:AdmReq_BSEd_Filipino\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:hasAdmissionRequirement--> p:AdmReq_BSEd_Filipino [p:AdmReq_BSEd_Filipino]\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --p:programName--> \"Bachelor of Secondary Education - Major in Filipino\"\nBachelor of Secondary Education - Major in Filipino [p:Prog_BSEd_Filipino] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSEd_Filipino: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_Filipino: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Secondary Education - Major in Filipino: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 10: ?program=Bachelor of Secondary Education - Major in Mathematics; ?programName=Bachelor of Secondary Education - Major in Mathematics; ?admReq=p:AdmReq_BSEd_Math\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:hasAdmissionRequirement--> p:AdmReq_BSEd_Math [p:AdmReq_BSEd_Math]\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --p:programName--> \"Bachelor of Secondary Education - Major in Mathematics\"\nBachelor of Secondary Education - Major in Mathematics [p:Prog_BSEd_Math] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSEd_Math: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_Math: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Secondary Education - Major in Mathematics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 11: ?program=Bachelor of Secondary Education - Major in Sciences; ?programName=Bachelor of Secondary Education - Major in Sciences; ?admReq=p:AdmReq_BSEd_Sciences\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:hasAdmissionRequirement--> p:AdmReq_BSEd_Sciences [p:AdmReq_BSEd_Sciences]\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --p:programName--> \"Bachelor of Secondary Education - Major in Sciences\"\nBachelor of Secondary Education - Major in Sciences [p:Prog_BSEd_Sciences] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSEd_Sciences: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_Sciences: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Secondary Education - Major in Sciences: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 12: ?program=Bachelor of Secondary Education - Major in Social Studies; ?programName=Bachelor of Secondary Education - Major in Social Studies; ?admReq=p:AdmReq_BSEd_SocialStudies\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --p:hasAdmissionRequirement--> p:AdmReq_BSEd_SocialStudies [p:AdmReq_BSEd_SocialStudies]\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --p:programName--> \"Bachelor of Secondary Education - Major in Social Studies\"\nBachelor of Secondary Education - Major in Social Studies [p:Prog_BSEd_SocialStudies] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSEd_SocialStudies: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_SocialStudies: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Secondary Education - Major in Social Studies: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 13: ?program=Bachelor of Science in Fisheries; ?programName=Bachelor of Science in Fisheries; ?admReq=p:AdmReq_BSFisheries\nBachelor of Science in Fisheries [p:Prog_BSFisheries] --p:hasAdmissionRequirement--> p:AdmReq_BSFisheries [p:AdmReq_BSFisheries]\nBachelor of Science in Fisheries [p:Prog_BSFisheries] --p:programName--> \"Bachelor of Science in Fisheries\"\nBachelor of Science in Fisheries [p:Prog_BSFisheries] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSFisheries: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSFisheries: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Fisheries: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 14: ?program=Bachelor of Science in Food Technology; ?programName=Bachelor of Science in Food Technology; ?admReq=p:AdmReq_BSFoodTech\nBachelor of Science in Food Technology [p:Prog_BSFoodTech] --p:hasAdmissionRequirement--> p:AdmReq_BSFoodTech [p:AdmReq_BSFoodTech]\nBachelor of Science in Food Technology [p:Prog_BSFoodTech] --p:programName--> \"Bachelor of Science in Food Technology\"\nBachelor of Science in Food Technology [p:Prog_BSFoodTech] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSFoodTech: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSFoodTech: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Food Technology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 15: ?program=Bachelor of Science in Hospitality Management; ?programName=Bachelor of Science in Hospitality Management; ?admReq=p:AdmReq_BSHospitalityManagement\nBachelor of Science in Hospitality Management [p:Prog_BSHospitalityManagement] --p:hasAdmissionRequirement--> p:AdmReq_BSHospitalityManagement [p:AdmReq_BSHospitalityManagement]\nBachelor of Science in Hospitality Management [p:Prog_BSHospitalityManagement] --p:programName--> \"Bachelor of Science in Hospitality Management\"\nBachelor of Science in Hospitality Management [p:Prog_BSHospitalityManagement] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSHospitalityManagement: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSHospitalityManagement: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Hospitality Management: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 16: ?program=Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; ?programName=Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; ?admReq=p:AdmReq_BSIT_AMG\nBachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG] --p:hasAdmissionRequirement--> p:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG]\nBachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG] --p:programName--> \"Bachelor of Science in Information Technology - Major in Animation and Motion Graphics\"\nBachelor of Science in Information Technology - Major in Animation and Motion Graphics [p:Prog_BSIT_AMG] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSIT_AMG: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSIT_AMG: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Information Technology - Major in Animation and Motion Graphics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 17: ?program=Bachelor of Science in Information Technology - Major in Service Management Program; ?programName=Bachelor of Science in Information Technology - Major in Service Management Program; ?admReq=p:AdmReq_BSIT_SM\nBachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM] --p:hasAdmissionRequirement--> p:AdmReq_BSIT_SM [p:AdmReq_BSIT_SM]\nBachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM] --p:programName--> \"Bachelor of Science in Information Technology - Major in Service Management Program\"\nBachelor of Science in Information Technology - Major in Service Management Program [p:Prog_BSIT_SM] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSIT_SM: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSIT_SM: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Information Technology - Major in Service Management Program: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 18: ?program=Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; ?programName=Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; ?admReq=p:AdmReq_BSIT_WMAD\nBachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD] --p:hasAdmissionRequirement--> p:AdmReq_BSIT_WMAD [p:AdmReq_BSIT_WMAD]\nBachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD] --p:programName--> \"Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\"\nBachelor of Science in Information Technology - Major in Web and Mobile Application Development [p:Prog_BSIT_WMAD] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSIT_WMAD: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSIT_WMAD: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Information Technology - Major in Web and Mobile Application Development: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 19: ?program=Bachelor of Science in Nutrition and Dietetics; ?programName=Bachelor of Science in Nutrition and Dietetics; ?admReq=p:AdmReq_BSNutritionDietetics\nBachelor of Science in Nutrition and Dietetics [p:Prog_BSNutritionDietetics] --p:hasAdmissionRequirement--> p:AdmReq_BSNutritionDietetics [p:AdmReq_BSNutritionDietetics]\nBachelor of Science in Nutrition and Dietetics [p:Prog_BSNutritionDietetics] --p:programName--> \"Bachelor of Science in Nutrition and Dietetics\"\nBachelor of Science in Nutrition and Dietetics [p:Prog_BSNutritionDietetics] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSNutritionDietetics: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSNutritionDietetics: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Nutrition and Dietetics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 20: ?program=Bachelor of Science in Psychology; ?programName=Bachelor of Science in Psychology; ?admReq=p:AdmReq_BSPsych\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:hasAdmissionRequirement--> p:AdmReq_BSPsych [p:AdmReq_BSPsych]\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:programName--> \"Bachelor of Science in Psychology\"\nBachelor of Science in Psychology [p:Prog_BSPsych] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSPsych: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSPsych: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Psychology: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 21: ?program=Bachelor of Science in Tourism Management; ?programName=Bachelor of Science in Tourism Management; ?admReq=p:AdmReq_BSTourismManagement\nBachelor of Science in Tourism Management [p:Prog_BSTourismManagement] --p:hasAdmissionRequirement--> p:AdmReq_BSTourismManagement [p:AdmReq_BSTourismManagement]\nBachelor of Science in Tourism Management [p:Prog_BSTourismManagement] --p:programName--> \"Bachelor of Science in Tourism Management\"\nBachelor of Science in Tourism Management [p:Prog_BSTourismManagement] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BSTourismManagement: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSTourismManagement: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Science in Tourism Management: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 22: ?program=Bachelor of Technology and Livelihood Education - Major in Home Economics; ?programName=Bachelor of Technology and Livelihood Education - Major in Home Economics; ?admReq=p:AdmReq_BTLE_HE\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --p:hasAdmissionRequirement--> p:AdmReq_BTLE_HE [p:AdmReq_BTLE_HE]\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --p:programName--> \"Bachelor of Technology and Livelihood Education - Major in Home Economics\"\nBachelor of Technology and Livelihood Education - Major in Home Economics [p:Prog_BTLE_HE] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BTLE_HE: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BTLE_HE: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Technology and Livelihood Education - Major in Home Economics: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 23: ?program=Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management; ?programName=Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management; ?admReq=p:AdmReq_BTVTE_FSM\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --p:hasAdmissionRequirement--> p:AdmReq_BTVTE_FSM [p:AdmReq_BTVTE_FSM]\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --p:programName--> \"Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\"\nBachelor of Technical-Vocational Teacher Education - Major in Food and Service Management [p:Prog_BTVTE_FSM] --rdf:type--> Program [p:Program]\nTYPE of p:AdmReq_BTVTE_FSM: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BTVTE_FSM: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management: p:Program\nTYPE of Program: http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 23; distinct values by variable = {\"?admReq\": 23, \"?gwa\": 4}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 1: ?admReq=p:AdmReq_BEEd; ?gwa=90.0\np:AdmReq_BEEd [p:AdmReq_BEEd] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BEEd [p:AdmReq_BEEd] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BEEd: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BEEd: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 2: ?admReq=p:AdmReq_BPE; ?gwa=90.0\np:AdmReq_BPE [p:AdmReq_BPE] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BPE [p:AdmReq_BPE] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BPE: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BPE: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nSOURCE/QUALIFIER for p:AdmReq_BPE: p:sourceDataGap = Earlier user-supplied grade list omitted this program; confirmed as GWA 90 per the official Admission Guidelines Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 3: ?admReq=p:AdmReq_BSA; ?gwa=90.0\np:AdmReq_BSA [p:AdmReq_BSA] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSA [p:AdmReq_BSA] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSA: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSA: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 4: ?admReq=p:AdmReq_BSBA_FM; ?gwa=88.0\np:AdmReq_BSBA_FM [p:AdmReq_BSBA_FM] --p:minimumGeneralWeightedAverage--> \"88.0\"\np:AdmReq_BSBA_FM [p:AdmReq_BSBA_FM] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSBA_FM: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSBA_FM: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 5: ?admReq=p:AdmReq_BSBA_MM; ?gwa=88.0\np:AdmReq_BSBA_MM [p:AdmReq_BSBA_MM] --p:minimumGeneralWeightedAverage--> \"88.0\"\np:AdmReq_BSBA_MM [p:AdmReq_BSBA_MM] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSBA_MM: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSBA_MM: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 6: ?admReq=p:AdmReq_BSCS_IS; ?gwa=90.0\np:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSCS_IS [p:AdmReq_BSCS_IS] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSCS_IS: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCS_IS: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 7: ?admReq=p:AdmReq_BSCrim; ?gwa=85.0\np:AdmReq_BSCrim [p:AdmReq_BSCrim] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSCrim [p:AdmReq_BSCrim] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSCrim: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSCrim: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 8: ?admReq=p:AdmReq_BSEd_English; ?gwa=90.0\np:AdmReq_BSEd_English [p:AdmReq_BSEd_English] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSEd_English [p:AdmReq_BSEd_English] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSEd_English: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_English: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 9: ?admReq=p:AdmReq_BSEd_Filipino; ?gwa=90.0\np:AdmReq_BSEd_Filipino [p:AdmReq_BSEd_Filipino] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSEd_Filipino [p:AdmReq_BSEd_Filipino] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSEd_Filipino: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_Filipino: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 10: ?admReq=p:AdmReq_BSEd_Math; ?gwa=90.0\np:AdmReq_BSEd_Math [p:AdmReq_BSEd_Math] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSEd_Math [p:AdmReq_BSEd_Math] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSEd_Math: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_Math: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 11: ?admReq=p:AdmReq_BSEd_Sciences; ?gwa=90.0\np:AdmReq_BSEd_Sciences [p:AdmReq_BSEd_Sciences] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSEd_Sciences [p:AdmReq_BSEd_Sciences] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSEd_Sciences: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_Sciences: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 12: ?admReq=p:AdmReq_BSEd_SocialStudies; ?gwa=90.0\np:AdmReq_BSEd_SocialStudies [p:AdmReq_BSEd_SocialStudies] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSEd_SocialStudies [p:AdmReq_BSEd_SocialStudies] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSEd_SocialStudies: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSEd_SocialStudies: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 13: ?admReq=p:AdmReq_BSFisheries; ?gwa=87.0\np:AdmReq_BSFisheries [p:AdmReq_BSFisheries] --p:minimumGeneralWeightedAverage--> \"87.0\"\np:AdmReq_BSFisheries [p:AdmReq_BSFisheries] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSFisheries: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSFisheries: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 14: ?admReq=p:AdmReq_BSFoodTech; ?gwa=90.0\np:AdmReq_BSFoodTech [p:AdmReq_BSFoodTech] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSFoodTech [p:AdmReq_BSFoodTech] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSFoodTech: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSFoodTech: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 15: ?admReq=p:AdmReq_BSHospitalityManagement; ?gwa=85.0\np:AdmReq_BSHospitalityManagement [p:AdmReq_BSHospitalityManagement] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSHospitalityManagement [p:AdmReq_BSHospitalityManagement] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSHospitalityManagement: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSHospitalityManagement: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 16: ?admReq=p:AdmReq_BSIT_AMG; ?gwa=85.0\np:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSIT_AMG [p:AdmReq_BSIT_AMG] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSIT_AMG: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSIT_AMG: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 17: ?admReq=p:AdmReq_BSIT_SM; ?gwa=85.0\np:AdmReq_BSIT_SM [p:AdmReq_BSIT_SM] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSIT_SM [p:AdmReq_BSIT_SM] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSIT_SM: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSIT_SM: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 18: ?admReq=p:AdmReq_BSIT_WMAD; ?gwa=85.0\np:AdmReq_BSIT_WMAD [p:AdmReq_BSIT_WMAD] --p:minimumGeneralWeightedAverage--> \"85.0\"\np:AdmReq_BSIT_WMAD [p:AdmReq_BSIT_WMAD] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSIT_WMAD: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSIT_WMAD: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 19: ?admReq=p:AdmReq_BSNutritionDietetics; ?gwa=90.0\np:AdmReq_BSNutritionDietetics [p:AdmReq_BSNutritionDietetics] --p:minimumGeneralWeightedAverage--> \"90.0\"\np:AdmReq_BSNutritionDietetics [p:AdmReq_BSNutritionDietetics] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSNutritionDietetics: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSNutritionDietetics: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 20: ?admReq=p:AdmReq_BSPsych; ?gwa=88.0\np:AdmReq_BSPsych [p:AdmReq_BSPsych] --p:minimumGeneralWeightedAverage--> \"88.0\"\np:AdmReq_BSPsych [p:AdmReq_BSPsych] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSPsych: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSPsych: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 21: ?admReq=p:AdmReq_BSTourismManagement; ?gwa=88.0\np:AdmReq_BSTourismManagement [p:AdmReq_BSTourismManagement] --p:minimumGeneralWeightedAverage--> \"88.0\"\np:AdmReq_BSTourismManagement [p:AdmReq_BSTourismManagement] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BSTourismManagement: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BSTourismManagement: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 22: ?admReq=p:AdmReq_BTLE_HE; ?gwa=87.0\np:AdmReq_BTLE_HE [p:AdmReq_BTLE_HE] --p:minimumGeneralWeightedAverage--> \"87.0\"\np:AdmReq_BTLE_HE [p:AdmReq_BTLE_HE] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BTLE_HE: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BTLE_HE: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 23: ?admReq=p:AdmReq_BTVTE_FSM; ?gwa=87.0\np:AdmReq_BTVTE_FSM [p:AdmReq_BTVTE_FSM] --p:minimumGeneralWeightedAverage--> \"87.0\"\np:AdmReq_BTVTE_FSM [p:AdmReq_BTVTE_FSM] --rdf:type--> Program Admission Requirement (GWA cutoff) [p:AdmissionRequirement]\nTYPE of p:AdmReq_BTVTE_FSM: p:AdmissionRequirement\nSOURCE/QUALIFIER for p:AdmReq_BTVTE_FSM: p:sourceDocument = LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.\nTYPE of Program Admission Requirement (GWA cutoff): http://www.w3.org/2002/07/owl#Class"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 2; distinct values by variable = {\"?program\": 2}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?program=Bachelor of Science in Hospitality Management\nCollege of Hospitality Management and Tourism [p:CIHT] --p:collegeName--> \"College of Hospitality Management and Tourism\"\nCollege of Hospitality Management and Tourism [p:CIHT] --p:hasProgram--> Bachelor of Science in Hospitality Management [p:Prog_BSHospitalityManagement]\nCollege of Hospitality Management and Tourism [p:CIHT] --rdf:type--> College [p:College]\nTYPE of College of Hospitality Management and Tourism: p:College\nSOURCE/QUALIFIER for College of Hospitality Management and Tourism: p:sourceDataGap = Resolved: the earlier Program Offers document named this college 'College of International Hospitality and Tourism'; the official LSPU Admission Guidelines (1st Sem AY 2026-2027), Annex A — treated as the current authority elsewhere in this file (e.g. GWA values) — names it 'College of Hospitality Management and Tourism', now used here. 'College of International Hospitality and Tourism' is kept only as a historical alterna",
+    "answer_for_eval": "# Programs Offered by the College of Hospitality Management and Tourism\n\nThe College of Hospitality Management and Tourism at LSPU-LB offers two programs with the following GWA requirements:\n\n1. **Bachelor of Science in Hospitality Management** – Minimum GWA: **85.0**\n\n2. **Bachelor of Science in Tourism Management** – Minimum GWA: **88.0**\n\nBoth programs are 4-year degrees and are not board programs (no PRC licensure examination required). They are governed by CHED CMO No. 62, s. 2017.",
+    "retrieval_query": "Which programs does the College of Hospitality Management and Tourism offer, and what GWA does each require?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?college",
+              "rdf:type",
+              "p:College"
+            ],
+            [
+              "?college",
+              "p:collegeName",
+              {
+                "literal": "College of Hospitality Management and Tourism"
+              }
+            ],
+            [
+              "?college",
+              "p:hasProgram",
+              "?program"
+            ]
+          ],
+          "select": [
+            "?program"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "?program",
+              "rdf:type",
+              "p:Program"
+            ],
+            [
+              "?program",
+              "p:programName",
+              "?programName"
+            ],
+            [
+              "?program",
+              "p:hasAdmissionRequirement",
+              "?admReq"
+            ]
+          ],
+          "select": [
+            "?program",
+            "?programName",
+            "?admReq"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "?admReq",
+              "rdf:type",
+              "p:AdmissionRequirement"
+            ],
+            [
+              "?admReq",
+              "p:minimumGeneralWeightedAverage",
+              "?gwa"
+            ]
+          ],
+          "select": [
+            "?admReq",
+            "?gwa"
+          ],
+          "filters": []
+        }
+      ],
+      "traversals": []
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 56,
+    "elapsed_seconds": 6.26500000001397
+  },
+  "answer": "# Programs Offered by the College of Hospitality Management and Tourism\n\nThe College of Hospitality Management and Tourism at LSPU-LB offers two programs with the following GWA requirements:\n\n1. **Bachelor of Science in Hospitality Management** – Minimum GWA: **85.0**\n\n2. **Bachelor of Science in Tourism Management** – Minimum GWA: **88.0**\n\nBoth programs are 4-year degrees and are not board programs (no PRC licensure examination required). They are governed by CHED CMO No. 62, s. 2017.",
+  "pipeline_version": "oc-rag-3.0"
+}

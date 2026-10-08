@@ -1,0 +1,58 @@
+{
+  "trace": {
+    "mode": "basic_rag",
+    "query": "How much is an ID lace, and where is it sold?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_811",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_811\nSECTION: PRICE: ID LACE (LANYARD)\nPRICE: ID LACE (LANYARD)\nSource: campus information supplied by the maintainer (September 2026).\nThe ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).",
+        "score": 0.7399414777755737
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_816",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_816\nSECTION: LOST OR FOUND STUDENT ID: WHAT TO DO\nLOST OR FOUND STUDENT ID: WHAT TO DO\nSource: found-ID hand-in points from campus information supplied by the maintainer (September 2026). ID processing: Citizen's Charter 2026, Business Affairs, Marketing and Production Office, Service 1, p. 13. Wearing the ID: Student Handbook Chapter 6, Article 3, Sec. 4. The lost-ID replacement fee and process were not supplied; confirm at the BAO.\nIf you LOST your ID, check the guard office and the student council first, because found IDs are turned in there. If it is not found, go to the Business Affairs Office (BAO), which handles student ID processing. The Citizen's Charter lists Php 100.00 for ID processing and the ID lace costs Php 130, but the replacement fee and steps for a lost ID are not documented, so ask the BAO.\nIf you FOUND an ID, hand it to the guard office (the Guard House at the main gate, on the left as you enter) or to the student council (the Supreme Student Council or your college's student council), who can return it to its owner.\nThe Handbook requires wearing the University ID at all times on campus (not doing so is a minor offense), so replace it as soon as you can.",
+        "score": 0.4644817113876343
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_812",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_812\nSECTION: PRICE: OFFICIAL STUDENT ID CARD FOR FIRST-YEAR STUDENTS\nPRICE: OFFICIAL STUDENT ID CARD FOR FIRST-YEAR STUDENTS\nSource: campus information supplied by the maintainer (September 2026). The Citizen's Charter lists Php 100.00 for ID processing without saying who pays it; confirm at the BAO.\nThe official ID card is free for first-year students and is obtained at the Business Affairs Office (BAO).",
+        "score": 0.38739925622940063
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_806",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_806\nSECTION: COSTS OF UNIFORM, SHIRTS AND ID LACE, AND A FIRST-YEAR BUDGET ESTIMATE\nCOSTS OF UNIFORM, SHIRTS AND ID LACE, AND A FIRST-YEAR BUDGET ESTIMATE\nSource: prices reported by the maintainer in September 2026 and may change. The total is an estimate computed from those prices, assuming one of each item. Confirm whether the Php 500 PE price is per set.\nAll of these are bought at the Business Affairs Office (BAO).\n- Uniform fabric: about Php 600-800 (fabric only, so you need a tailor to make the polo and pants, which costs extra).\n- University shirt: Php 400.\n- NSTP shirt: Php 350.\n- PE T-shirt and shorts: Php 500.\n- ID lace: Php 130.\n- The official ID card itself is free for first-year students.\nIf you buy one of each item sold at the BAO, the total is roughly Php 1,980 to 2,180 (fabric Php 600-800 + University shirt Php 400 + NSTP shirt Php 350 + PE T-shirt and shorts Php 500 + ID lace Php 130).\nNot included: tailoring for the uniform, books, OJT, transport and housing.\nLaboratory costs are not an extra: they are already covered by the free tuition.",
+        "score": 0.37377190589904785
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_817",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_817\nSECTION: LOST OR FOUND STUDENT ID: WHAT TO DO\nwho can return it to its owner.\nThe Handbook requires wearing the University ID at all times on campus (not doing so is a minor offense), so replace it as soon as you can.\nFee note: the Citizen's Charter lists Php 100.00 for ID processing, while campus information says the official ID is free for first-year students. The sources do not say which students pay the Php 100.00, so confirm at the BAO.",
+        "score": 0.36730965971946716
+      }
+    ],
+    "graph_hits": [],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_811\nSECTION: PRICE: ID LACE (LANYARD)\nPRICE: ID LACE (LANYARD)\nSource: campus information supplied by the maintainer (September 2026).\nThe ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_816\nSECTION: LOST OR FOUND STUDENT ID: WHAT TO DO\nLOST OR FOUND STUDENT ID: WHAT TO DO\nSource: found-ID hand-in points from campus information supplied by the maintainer (September 2026). ID processing: Citizen's Charter 2026, Business Affairs, Marketing and Production Office, Service 1, p. 13. Wearing the ID: Student Handbook Chapter 6, Article 3, Sec. 4. The lost-ID replacement fee and process were not supplied; confirm at the BAO.\nIf you LOST your ID, check the guard office and the student council first, because found IDs are turned in there. If it is not found, go to the Business Affairs Office (BAO), which handles student ID processing. The Citizen's Charter lists Php 100.00 for ID processing and the ID lace costs Php 130, but the replacement fee and steps for a lost ID are not documented, so ask the BAO.\nIf you FOUND an ID, hand it to the guard office (the Guard House",
+    "answer_for_eval": "An ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).",
+    "retrieval_query": "How much is an ID lanyard, and where is it sold?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 5,
+    "elapsed_seconds": 2.1880000000237487,
+    "retrieval_seconds": 1.0320000000065193,
+    "generation_seconds": 1.1560000000172295,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_811\nSECTION: PRICE: ID LACE (LANYARD)\nPRICE: ID LACE (LANYARD)\nSource: campus information supplied by the maintainer (September 2026).\nThe ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_816\nSECTION: LOST OR FOUND STUDENT ID: WHAT TO DO\nLOST OR FOUND STUDENT ID: WHAT TO DO\nSource: found-ID hand-in points from campus information supplied by the maintainer (September 2026). ID processing: Citizen's Charter 2026, Business Affairs, Marketing and Production Office, Service 1, p. 13. Wearing the ID: Student Handbook Chapter 6, Article 3, Sec. 4. The lost-ID replacement fee and process were not supplied; confirm at the BAO.\nIf you LOST your ID, check the guard office and the student council first, because found IDs are turned in there. If it is not found, go to the Business Affairs Office (BAO), which handles student ID processing. The Citizen's Charter lists Php 100.00 for ID processing and the ID lace costs Php 130, but the replacement fee and steps for a lost ID are not documented, so ask the BAO.\nIf you FOUND an ID, hand it to the guard office (the Guard House at the main gate, on the left as you enter) or to the student council (the Supreme Student Council or your college's student council), who can return it to its owner.\nThe Handbook requires wearing the University ID at all times on campus (not doing so is a minor offense), so replace it as soon as you can.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_812\nSECTION: PRICE: OFFICIAL STUDENT ID CARD FOR FIRST-YEAR STUDENTS\nPRICE: OFFICIAL STUDENT ID CARD FOR FIRST-YEAR STUDENTS\nSource: campus information supplied by the maintainer (September 2026). The Citizen's Charter lists Php 100.00 for ID processing without saying who pays it; confirm at the BAO.\nThe official ID card is free for first-year students and is obtained at the Business Affairs Office (BAO).",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_806\nSECTION: COSTS OF UNIFORM, SHIRTS AND ID LACE, AND A FIRST-YEAR BUDGET ESTIMATE\nCOSTS OF UNIFORM, SHIRTS AND ID LACE, AND A FIRST-YEAR BUDGET ESTIMATE\nSource: prices reported by the maintainer in September 2026 and may change. The total is an estimate computed from those prices, assuming one of each item. Confirm whether the Php 500 PE price is per set.\nAll of these are bought at the Business Affairs Office (BAO).\n- Uniform fabric: about Php 600-800 (fabric only, so you need a tailor to make the polo and pants, which costs extra).\n- University shirt: Php 400.\n- NSTP shirt: Php 350.\n- PE T-shirt and shorts: Php 500.\n- ID lace: Php 130.\n- The official ID card itself is free for first-year students.\nIf you buy one of each item sold at the BAO, the total is roughly Php 1,980 to 2,180 (fabric Php 600-800 + University shirt Php 400 + NSTP shirt Php 350 + PE T-shirt and shorts Php 500 + ID lace Php 130).\nNot included: tailoring for the uniform, books, OJT, transport and housing.\nLaboratory costs are not an extra: they are already covered by the free tuition.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_817\nSECTION: LOST OR FOUND STUDENT ID: WHAT TO DO\nwho can return it to its owner.\nThe Handbook requires wearing the University ID at all times on campus (not doing so is a minor offense), so replace it as soon as you can.\nFee note: the Citizen's Charter lists Php 100.00 for ID processing, while campus information says the official ID is free for first-year students. The sources do not say which students pay the Php 100.00, so confirm at the BAO."
+    ]
+  },
+  "answer": "An ID lace costs Php 130 and is sold at the Business Affairs Office (BAO).",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

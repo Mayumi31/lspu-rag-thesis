@@ -1,0 +1,56 @@
+{
+  "trace": {
+    "mode": "hybrid_rag",
+    "query": "How many degree programs does LSPU-LB offer?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_2",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_2\nSECTION: LSPU-LB ACADEMIC PROGRAMS: OVERVIEW\nLSPU-LB ACADEMIC PROGRAMS: OVERVIEW\nLaguna State Polytechnic University - Los Banos Campus (LSPU-LB) offers 23 degree programs across 8 colleges. All programs are four-year programs.\n\nColleges and the programs they offer:\n- College of Arts and Sciences (CAS): Bachelor of Science in Psychology\n- College of Business Administration and Accountancy (CBAA): Bachelor of Science in Business Administration - Major in Marketing Management; Bachelor of Science in Accountancy; Bachelor of Science in Business Administration - Major in Financial Management\n- College of Computer Studies (CCS): Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program\n- College of Criminal Justice Education (CCJE): Bachelor of Science in Criminology\n- College of Fisheries (CF): Bachelor of Science in Fisheries",
+        "score": 0.03278688524590164
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_4",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_4\nSECTION: COLLEGE: College of Arts and Sciences (CAS)\nCOLLEGE: College of Arts and Sciences (CAS)\nThe College of Arts and Sciences at LSPU-LB offers the following degree programs:\n- Bachelor of Science in Psychology",
+        "score": 0.03057889822595705
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_9",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_9\nSECTION: COLLEGE: College of Food Nutrition and Dietetics (CFND)\nCOLLEGE: College of Food Nutrition and Dietetics (CFND)\nThe College of Food Nutrition and Dietetics at LSPU-LB offers the following degree programs:\n- Bachelor of Science in Food Technology\n- Bachelor of Science in Nutrition and Dietetics",
+        "score": 0.028309409888357256
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_11",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_11\nSECTION: COLLEGE: College of Teacher Education (CTE)\nCOLLEGE: College of Teacher Education (CTE)\nThe College of Teacher Education at LSPU-LB offers the following degree programs:\n- Bachelor of Technology and Livelihood Education - Major in Home Economics\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\n- Bachelor of Physical Education\n- Bachelor of Secondary Education - Major in English\n- Bachelor of Secondary Education - Major in Filipino\n- Bachelor of Secondary Education - Major in Mathematics\n- Bachelor of Secondary Education - Major in Sciences\n- Bachelor of Secondary Education - Major in Social Studies\n- Bachelor of Elementary Education",
+        "score": 0.02817460317460317
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_64",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_64\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nof Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\n- Bachelor of Science in Information Technology - Major in Service Management Program\n- Bachelor of Science in Tourism Management\n- Bachelor of Science in Hospitality Management",
+        "score": 0.028083267871170464
+      }
+    ],
+    "graph_hits": [],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_2\nSECTION: LSPU-LB ACADEMIC PROGRAMS: OVERVIEW\nLSPU-LB ACADEMIC PROGRAMS: OVERVIEW\nLaguna State Polytechnic University - Los Banos Campus (LSPU-LB) offers 23 degree programs across 8 colleges. All programs are four-year programs.\n\nColleges and the programs they offer:\n- College of Arts and Sciences (CAS): Bachelor of Science in Psychology\n- College of Business Administration and Accountancy (CBAA): Bachelor of Science in Business Administration - Major in Marketing Management; Bachelor of Science in Accountancy; Bachelor of Science in Business Administration - Major in Financial Management\n- College of Computer Studies (CCS): Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program\n- College of Criminal Justice Education (CCJE): Bachelor of Science in Criminology\n- College of Fisheries (CF): Bachelor of Science in Fisheries\n\nSOURCE: LSPU_SOURCE.txt | CH",
+    "answer_for_eval": "LSPU-LB offers 23 degree programs.",
+    "retrieval_query": "How many degree programs does LSPU-LB offer?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 5,
+    "elapsed_seconds": 4.9060000000172295,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_2\nSECTION: LSPU-LB ACADEMIC PROGRAMS: OVERVIEW\nLSPU-LB ACADEMIC PROGRAMS: OVERVIEW\nLaguna State Polytechnic University - Los Banos Campus (LSPU-LB) offers 23 degree programs across 8 colleges. All programs are four-year programs.\n\nColleges and the programs they offer:\n- College of Arts and Sciences (CAS): Bachelor of Science in Psychology\n- College of Business Administration and Accountancy (CBAA): Bachelor of Science in Business Administration - Major in Marketing Management; Bachelor of Science in Accountancy; Bachelor of Science in Business Administration - Major in Financial Management\n- College of Computer Studies (CCS): Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program\n- College of Criminal Justice Education (CCJE): Bachelor of Science in Criminology\n- College of Fisheries (CF): Bachelor of Science in Fisheries",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_4\nSECTION: COLLEGE: College of Arts and Sciences (CAS)\nCOLLEGE: College of Arts and Sciences (CAS)\nThe College of Arts and Sciences at LSPU-LB offers the following degree programs:\n- Bachelor of Science in Psychology",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_9\nSECTION: COLLEGE: College of Food Nutrition and Dietetics (CFND)\nCOLLEGE: College of Food Nutrition and Dietetics (CFND)\nThe College of Food Nutrition and Dietetics at LSPU-LB offers the following degree programs:\n- Bachelor of Science in Food Technology\n- Bachelor of Science in Nutrition and Dietetics",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_11\nSECTION: COLLEGE: College of Teacher Education (CTE)\nCOLLEGE: College of Teacher Education (CTE)\nThe College of Teacher Education at LSPU-LB offers the following degree programs:\n- Bachelor of Technology and Livelihood Education - Major in Home Economics\n- Bachelor of Technical-Vocational Teacher Education - Major in Food and Service Management\n- Bachelor of Physical Education\n- Bachelor of Secondary Education - Major in English\n- Bachelor of Secondary Education - Major in Filipino\n- Bachelor of Secondary Education - Major in Mathematics\n- Bachelor of Secondary Education - Major in Sciences\n- Bachelor of Secondary Education - Major in Social Studies\n- Bachelor of Elementary Education",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_64\nSECTION: BOARD (LICENSURE) PROGRAMS VS NON-BOARD PROGRAMS AT LSPU-LB\nof Science in Information Technology - Major in Animation and Motion Graphics\n- Bachelor of Science in Information Technology - Major in Web and Mobile Application Development\n- Bachelor of Science in Information Technology - Major in Service Management Program\n- Bachelor of Science in Tourism Management\n- Bachelor of Science in Hospitality Management"
+    ]
+  },
+  "answer": "LSPU-LB offers 23 degree programs.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

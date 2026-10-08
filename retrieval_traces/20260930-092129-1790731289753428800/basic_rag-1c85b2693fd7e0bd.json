@@ -1,0 +1,49 @@
+{
+  "trace": {
+    "mode": "basic_rag",
+    "query": "What kinds of attire are prohibited on campus?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_525",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_525\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 4. Norms and Decorum The following are not allowed or strictly prohibited for male and female students.\nArticle 4. Norms and Decorum The following are not allowed or strictly prohibited for male and female students.\n\nSec. 1. School Uniforms\n\n1.1. The prescribed uniform shall be worn in all classroom sessions and the proper field/laboratory attire or work clothes for the field/ laboratory activities and/or as prescribed by the instructor/ professors-in-charge. Any student who violates this provision shall not be allowed to enter the University gates unless she/he presents a promissory note/communication letter from the Office of Student Affairs and Services (OSAS) through the Student Discipline Coordinator.\n\n1.2. P.E. uniforms shall be worn only during P.E. classes. Students wearing P.E. uniform will not be allowed to enter academic classes.\n\n1.3. University t-shirt shall be worn every Wednesday while department shirt shall be worn every Friday. Blue jeans and/or maong trouser\n\n(pants) following the dress code will be acceptable. Wearing of inappropriate student campus attire shall be considered a minor offense during washdays, (Wednesday and inter-semester classes).\n\nThe following attires or apparels are strictly prohibited inside the campus:\n\n1.3.1. Shorts/short pants\n\n1.3.2.",
+        "score": 0.7936398983001709
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_526",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_526\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 4. Norms and Decorum The following are not allowed or strictly prohibited for male and female students.\noffense during washdays, (Wednesday and inter-semester classes).\n\nThe following attires or apparels are strictly prohibited inside the campus:\n\n1.3.1. Shorts/short pants\n\n1.3.2. Walking Shorts, cycling shorts\n\n1.3.3. Pedal pusher pants\n\n1.3.4. Capri pants\n\n1.3.5. “Puruntong” style or Cargo shorts\n\n1.3.6. Mutilated/Jazzed pants\n\n1.3.7. Faded, torn, wrinkled shirts\n\n1.3.8. Jogging pants / Jogger pants\n\n1.3.9. Miniskirts\n\n1.3.10. Sleeveless, backless, venus de milo neck (one sleeve type), spaghetti type shirt and blouse\n\n1.3.11. Sandos or sando type sleeveless shirt\n\n1.3.12. Plunging necklines/halter tops\n\n1.3.13. Leggings\n\n1.3.14. Slippers Note: Female pants should be slacks or loosely cut trousers, not made up of denim/maong and not very tight fitting.\n\n1.4. Society/Organization uniforms shall be worn on specific occasions (parade, competitions, seminars, trainings, workshops, conferences) only.\n\n1.5.",
+        "score": 0.7411597967147827
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_527",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_527\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 4. Norms and Decorum The following are not allowed or strictly prohibited for male and female students.\nand not very tight fitting.\n\n1.4. Society/Organization uniforms shall be worn on specific occasions (parade, competitions, seminars, trainings, workshops, conferences) only.\n\n1.5. For On-Campus/Off-Campus Trainings, there should be an official style and color of uniform to those who will undergo OJT/ practicum/ internship/practice teaching, hence, in case of changes in uniform, the Business Affairs Office in coordination with the Office of Student Affairs and Services shall be properly informed.\n\nSec. 2. Hair Style/Hair-cut The following are prohibited in the university:\n\n2.1. Colored/tinted/dyed differently (out of the ordinary) styled hair is not an academic requirement; (hair-dyeing and hair coloring for both male and female is allowed on a minimal aesthetic level and appropriate personal needs only upon the approval of the OSAS and the Campus Director)\n\n2.2. Funky short or fixie crop (shaven side and long top) hairstyles among male students, which they usually fasten with hair ties or stiffen with gel\n\n2.3. Departure from approved hair-cut below:\n\n2.3.1. 2x3 - for male Freshmen and Senior High School Students\n\n2.3.2.",
+        "score": 0.6764131784439087
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_529",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_529\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 4. Norms and Decorum The following are not allowed or strictly prohibited for male and female students.\nof the body is strictly prohibited.\n\nSec. 6. Clothing and Gender Representation. LSPU may enforce dress codes pursuant to the university policy as specified in student hand book. Transgender students shall have the right to dress in accordance with their gender identity and expression, including maintaining a gender-neutral appearance within the constraints of the dress codes adopted by the school (from the Office of Gender and Development).\n\n6.1. Lesbian, Gay, Bisexual and Transgender (LGBT) and Gender Nonconforming students shall be allowed to dress and present themselves in a manner consistent with their gender identity.\n\nLSPU shall allow LGBT and Gender Nonconforming Students with institutional clothing, including undergarments, appropriate for the LGBT and Gender Nonconforming Students gender identity and gender presentation in such a way that Transwoman will still be required to wear male uniform i.e. pants and polo but with female cut blouses of same color with male uniforms and Transman will be allowed to wear pants and polo but with same color of the female uniform.",
+        "score": 0.6628322005271912
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_530",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_530\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 4. Norms and Decorum The following are not allowed or strictly prohibited for male and female students.\ni.e. pants and polo but with female cut blouses of same color with male uniforms and Transman will be allowed to wear pants and polo but with same color of the female uniform.\n\n6.2 Grooming rules and restrictions, including rules regarding hair, make-up, shaving, etc., shall be the same in male and female units.\n\nTransgender girls shall not be required to have a male haircut provided that their hair should be clipped properly (men’s tail or fold over style), or to wear masculine clothing. Transgender boys shall not be required to maintain a female hairstyle, to wear make-up, or to wear feminine clothing.",
+        "score": 0.6219455003738403
+      }
+    ],
+    "graph_hits": [],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_525\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 4. Norms and Decorum The following are not allowed or strictly prohibited for male and female students.\nArticle 4. Norms and Decorum The following are not allowed or strictly prohibited for male and female students.\n\nSec. 1. School Uniforms\n\n1.1. The prescribed uniform shall be worn in all classroom sessions and the proper field/laboratory attire or work clothes for the field/ laboratory activities and/or as prescribed by the instructor/ professors-in-charge. Any student who violates this provision shall not be allowed to enter the University gates unless she/he presents a promissory note/communication letter from the Office of Student Affairs and Services (OSAS) through the Student Discipline Coordinator.\n\n1.2. P.E. uniforms shall be worn only during P.E. classes. Students wearing P.E. uniform will not be allowed to enter academic classes.\n\n1.3. University t-shirt shall be worn every Wednesday while department shirt shall be worn every Friday. Blue jeans and/or maong trouser\n\n(pants) following the dress code will be acceptable. Wea",
+    "answer_for_eval": "Prohibited attire on campus includes:\n- Shorts/short pants\n- Walking shorts, cycling shorts\n- Pedal pusher pants\n- Capri pants\n- “Puruntong” style or cargo shorts\n- Mutilated/jazzed pants\n- Faded, torn, wrinkled shirts\n- Jogging pants/jogger pants\n- Miniskirts\n- Sleeveless, backless, Venus de Milo neck (one sleeve type), spaghetti type shirts and blouses\n- Sandos or sando type sleeveless shirts\n- Plunging necklines/halter tops\n- Leggings\n- Slippers",
+    "retrieval_query": "What kinds of attire are prohibited on campus",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 5,
+    "elapsed_seconds": 1.9070000000065193
+  },
+  "answer": "Prohibited attire on campus includes:\n- Shorts/short pants\n- Walking shorts, cycling shorts\n- Pedal pusher pants\n- Capri pants\n- “Puruntong” style or cargo shorts\n- Mutilated/jazzed pants\n- Faded, torn, wrinkled shirts\n- Jogging pants/jogger pants\n- Miniskirts\n- Sleeveless, backless, Venus de Milo neck (one sleeve type), spaghetti type shirts and blouses\n- Sandos or sando type sleeveless shirts\n- Plunging necklines/halter tops\n- Leggings\n- Slippers",
+  "pipeline_version": "oc-rag-3.0"
+}

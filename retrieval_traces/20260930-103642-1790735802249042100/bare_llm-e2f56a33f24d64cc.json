@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What mental health services does the university offer?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The university offers mental health services, but specific details are not provided in the evidence. Please consult the university's official website or contact their student services for precise information.",
+    "retrieval_query": "What mental health services does the university offer?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.7029999999795109,
+    "selected_contexts": []
+  },
+  "answer": "The university offers mental health services, but specific details are not provided in the evidence. Please consult the university's official website or contact their student services for precise information.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

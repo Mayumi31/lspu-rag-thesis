@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What does OSAS handle?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "OSAS (Office of Student Affairs and Services) handles student-related services and concerns, including student welfare, discipline, and support services.",
+    "retrieval_query": "What does OSAS handle?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.5149999999557622,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 1.5149999999557622,
+    "selected_contexts": []
+  },
+  "answer": "OSAS (Office of Student Affairs and Services) handles student-related services and concerns, including student welfare, discipline, and support services.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

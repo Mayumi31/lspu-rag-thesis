@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "Which office issues excuse slips for absences?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The Office of the Student Affairs issues excuse slips for absences.",
+    "retrieval_query": "Which office issues excuse slips for absences?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.8279999999795109,
+    "selected_contexts": []
+  },
+  "answer": "The Office of the Student Affairs issues excuse slips for absences.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

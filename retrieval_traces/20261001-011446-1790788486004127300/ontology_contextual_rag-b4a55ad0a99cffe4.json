@@ -1,0 +1,60 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "How many tardiness instances count as one absence?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_518",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_518\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Minor Offense\nArticle 3. Minor Offense\n\nSec. 1. Attendance\n\n1.1. Attending flag raising and flag lowering ceremonies (R.A. 8491 Sec. 18 and 50 Philippine Flag Law), classes, and other required University activities regularly and on time is required for all students unless exemption is granted by the University President or his duly authorized representative.\n\n1.2 Tardiness and absences shall be dealt with as follows:\n\n1.2.1 Tardiness in all activities where student’s attendance is required shall be considered one (1) absence in class.\n\n1.2.2 Three (3) tardiness in a class shall be considered one (1) absence from the same.\n 1st Offense: One (1) day absent plus community service\n 2nd Offense: Inform the parents/guardians with three (3) days suspension\n 3rd Offense: Suspension for one (1) week\n\n1.2.3. Every student accumulating unexcused absences from class equivalent to 17% of the total number of hours/ semester for a particular subject or class shall be dropped from the roll of students. However, excused absences can be removed through makeup.\n\n1.2.4. Every student shall secure an excuse slip from the Guidance Office for absence/s made before admission to classes.\n\nSec. 2. Dishonesty.",
+        "score": 0.06557377049180328
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_448",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_448\nSECTION: Chapter 3 | Article 8. Attendance\nArticle 8. Attendance\n\nSec. 1. Policy. A student absent from classes for unavoidable cause must obtain an excuse slip from the Office of the Students Affairs Services or Guidance Office. The slip must be presented to the instructor/ professor concerned not later than the second class session, following the student’s return with a medical certification for absence due to illness.\n\nSec. 2. Absence. A student accumulating unexcused absences from class, equivalent to twenty percent (25%) of the total number of hours per day session for a particular subject, shall be dropped from the roll of students for the particular subject or class, as the case may be. Time lost due to late enrolment shall be considered as a time lost by absence.",
+        "score": 0.06401209677419355
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?x=3\nTardiness/Unexcused Absences [h:Tardiness] --h:tardinessInstancesPerAbsence--> \"3\"\nCONFLICTING SOURCE for Attendance / Dropping Policy: h:definition = Undergraduate students accumulating absences equal to at least 25% of total class hours in a semester shall be dropped; withdrawing before mid-term exams permits dropping without prejudice.\nCONFLICTING SOURCE for Attendance / Dropping Policy: h:sourceArticle = Article 9, Sec. 4.1\nTYPE of Tardiness/Unexcused Absences: h:MinorOffense\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:sourceArticle = Ch.6 Art.3 Sec.1\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:verificationNote = Chapter 6 Article 3 Section 1 states 17%; other attendance/dropping sections state 25%. Preserve section scope and disclose conflicting thresholds rather than treating one as universally controlling."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?x=3\nTardiness/Unexcused Absences [h:Tardiness] --h:tardinessInstancesPerAbsence--> \"3\"\nCONFLICTING SOURCE for Attendance / Dropping Policy: h:definition = Undergraduate students accumulating absences equal to at least 25% of total class hours in a semester shall be dropped; withdrawing before mid-term exams permits dropping without prejudice.\nCONFLICTING SOURCE for Attendance / Dropping Policy: h:sourceArticle = Article 9, Sec. 4.1\nTYPE of Tardiness/Unexcused Absences: h:MinorOffense\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:sourceArticle = Ch.6 Art.3 Sec.1\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:verificationNote = Chapter 6 Article 3 Section 1 states 17%; other attendance/dropping sections state 25%. Preserve section scope and disclose conflicting thresholds rather than treating one as universally controlling.\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_518\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Minor Offense\nArticle 3. Minor Offense\n\nSec. 1. Attendance\n\n1.1. Attending flag raising and flag lowering ceremonies (R.A. 8491 Sec. 18 and 50 Philippine Flag Law), classes",
+    "answer_for_eval": "Three (3) tardiness instances count as one (1) absence.",
+    "retrieval_query": "How many tardiness instances count as one absence?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Tardiness",
+              "h:tardinessInstancesPerAbsence",
+              "?x"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 3,
+    "elapsed_seconds": 5.155999999959022,
+    "retrieval_seconds": 4.48399999999674,
+    "generation_seconds": 0.6719999999622814,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?x=3\nTardiness/Unexcused Absences [h:Tardiness] --h:tardinessInstancesPerAbsence--> \"3\"\nCONFLICTING SOURCE for Attendance / Dropping Policy: h:definition = Undergraduate students accumulating absences equal to at least 25% of total class hours in a semester shall be dropped; withdrawing before mid-term exams permits dropping without prejudice.\nCONFLICTING SOURCE for Attendance / Dropping Policy: h:sourceArticle = Article 9, Sec. 4.1\nTYPE of Tardiness/Unexcused Absences: h:MinorOffense\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:sourceArticle = Ch.6 Art.3 Sec.1\nSOURCE/QUALIFIER for Tardiness/Unexcused Absences: h:verificationNote = Chapter 6 Article 3 Section 1 states 17%; other attendance/dropping sections state 25%. Preserve section scope and disclose conflicting thresholds rather than treating one as universally controlling.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_518\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Minor Offense\nArticle 3. Minor Offense\n\nSec. 1. Attendance\n\n1.1. Attending flag raising and flag lowering ceremonies (R.A. 8491 Sec. 18 and 50 Philippine Flag Law), classes, and other required University activities regularly and on time is required for all students unless exemption is granted by the University President or his duly authorized representative.\n\n1.2 Tardiness and absences shall be dealt with as follows:\n\n1.2.1 Tardiness in all activities where student’s attendance is required shall be considered one (1) absence in class.\n\n1.2.2 Three (3) tardiness in a class shall be considered one (1) absence from the same.\n 1st Offense: One (1) day absent plus community service\n 2nd Offense: Inform the parents/guardians with three (3) days suspension\n 3rd Offense: Suspension for one (1) week\n\n1.2.3. Every student accumulating unexcused absences from class equivalent to 17% of the total number of hours/ semester for a particular subject or class shall be dropped from the roll of students. However, excused absences can be removed through makeup.\n\n1.2.4. Every student shall secure an excuse slip from the Guidance Office for absence/s made before admission to classes.\n\nSec. 2. Dishonesty.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_448\nSECTION: Chapter 3 | Article 8. Attendance\nArticle 8. Attendance\n\nSec. 1. Policy. A student absent from classes for unavoidable cause must obtain an excuse slip from the Office of the Students Affairs Services or Guidance Office. The slip must be presented to the instructor/ professor concerned not later than the second class session, following the student’s return with a medical certification for absence due to illness.\n\nSec. 2. Absence. A student accumulating unexcused absences from class, equivalent to twenty percent (25%) of the total number of hours per day session for a particular subject, shall be dropped from the roll of students for the particular subject or class, as the case may be. Time lost due to late enrolment shall be considered as a time lost by absence."
+    ]
+  },
+  "answer": "Three (3) tardiness instances count as one (1) absence.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

@@ -1,0 +1,48 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "How do I pay my fees online, and through which portal?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?url=myaccount.lspu.edu.ph\nLSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal] --h:accessUrl--> \"myaccount.lspu.edu.ph\"\nLSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal] --rdf:type--> Office [h:Office]\nTYPE of LSPU Student Portal (myaccount.lspu.edu.ph): h:DigitalPlatform\nTYPE of LSPU Student Portal (myaccount.lspu.edu.ph): h:Office\nSOURCE/QUALIFIER for LSPU Student Portal (myaccount.lspu.edu.ph): h:sourceArticle = Chapter 3, Article 5, Sec. 8.1.2\nSOURCE/QUALIFIER for LSPU Student Portal (myaccount.lspu.edu.ph): h:sourceArticle = Handbook Chapter 3, Article 5, Sec. 8.1.2; Citizen's Charter 2026: Enrollment (Registrar) p. 2-3, Completion of INC/Removal (Colleges, Service 3) p. 86-87, Enrollment Advising (Colleges, Service 9) p. 90\nSOURCE/QUALIFIER for LSPU Student Portal (myaccount.lspu.edu.ph): h:verificationNote = The new-student activation steps come from the ontology maintainer (ICT office inside the CCS building), not from the Handbook or Charter. Confirm the ICT office hours and any requirements before relying on them.\nTYPE of Office: http://www.w3.org/2002/07/owl#Class"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?url=myaccount.lspu.edu.ph\nLSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal] --h:accessUrl--> \"myaccount.lspu.edu.ph\"\nLSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal] --rdf:type--> Office [h:Office]\nTYPE of LSPU Student Portal (myaccount.lspu.edu.ph): h:DigitalPlatform\nTYPE of LSPU Student Portal (myaccount.lspu.edu.ph): h:Office\nSOURCE/QUALIFIER for LSPU Student Portal (myaccount.lspu.edu.ph): h:sourceArticle = Chapter 3, Article 5, Sec. 8.1.2\nSOURCE/QUALIFIER for LSPU Student Portal (myaccount.lspu.edu.ph): h:sourceArticle = Handbook Chapter 3, Article 5, Sec. 8.1.2; Citizen's Charter 2026: Enrollment (Registrar) p. 2-3, Completion of INC/Removal (Colleges, Service 3) p. 86-87, Enrollment Advising (Colleges, Service 9) p. 90\nSOURCE/QUALIFIER for LSPU Student Portal (myaccount.lspu.edu.ph): h:verificationNote = The new-student activation steps come from the ontology maintainer (ICT office inside the CCS building), not from the Handbook or Charter. Confirm the ICT office hours and any requirements before relying on them.\nTYPE of Office: http://www.w3.org/2002/07/owl#Class",
+    "answer_for_eval": "You can pay your fees online through the LSPU Student Portal at myaccount.lspu.edu.ph.",
+    "retrieval_query": "How do I pay my fees online and through which portal?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:LSPUPortal",
+              "rdf:type",
+              "h:Office"
+            ],
+            [
+              "h:LSPUPortal",
+              "h:accessUrl",
+              "?url"
+            ]
+          ],
+          "select": [
+            "?url"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 2.5619999999762513,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?url=myaccount.lspu.edu.ph\nLSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal] --h:accessUrl--> \"myaccount.lspu.edu.ph\"\nLSPU Student Portal (myaccount.lspu.edu.ph) [h:LSPUPortal] --rdf:type--> Office [h:Office]\nTYPE of LSPU Student Portal (myaccount.lspu.edu.ph): h:DigitalPlatform\nTYPE of LSPU Student Portal (myaccount.lspu.edu.ph): h:Office\nSOURCE/QUALIFIER for LSPU Student Portal (myaccount.lspu.edu.ph): h:sourceArticle = Chapter 3, Article 5, Sec. 8.1.2\nSOURCE/QUALIFIER for LSPU Student Portal (myaccount.lspu.edu.ph): h:sourceArticle = Handbook Chapter 3, Article 5, Sec. 8.1.2; Citizen's Charter 2026: Enrollment (Registrar) p. 2-3, Completion of INC/Removal (Colleges, Service 3) p. 86-87, Enrollment Advising (Colleges, Service 9) p. 90\nSOURCE/QUALIFIER for LSPU Student Portal (myaccount.lspu.edu.ph): h:verificationNote = The new-student activation steps come from the ontology maintainer (ICT office inside the CCS building), not from the Handbook or Charter. Confirm the ICT office hours and any requirements before relying on them.\nTYPE of Office: http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  "answer": "You can pay your fees online through the LSPU Student Portal at myaccount.lspu.edu.ph.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

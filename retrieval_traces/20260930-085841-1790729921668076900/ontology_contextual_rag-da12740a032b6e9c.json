@@ -1,0 +1,96 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What does INC mean?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_445",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_445\nSECTION: Chapter 3 | Article 7. Grading System and Other Grade-related Concerns\nterm/semester).\n\n5.5. Removal Fee. The removal fee is P20 per unit. (BOR Reso.1046, s.2012)\n\nSec. 5. INC Mark\n\n5.1. Types of INC or Incomplete mark\n\n5.1.1. No Final Examination. A grade of INC is given if a student whose class standing throughout the term/semester is passing but fails to take the final examination due to illness or other valid reason/s. An approved excuse slip is required before a student is given the examination. In case the student's class standing is not passing, and s/he fails the final examination for any reason, a grade of “5.0” is given. Re-examination to improve a passing grade is not allowed.\n\n5.1.2. Failure to comply with certain requirements. INC is also given to the work that is of passing quality, but some parts of which are undone because of sickness or failure to comply with certain requirements of the course.\n\n5.2. Policies for INC\n\n5.2.1. A grade of INC is not given to any student with a failing grade in a subject. The one-year academic period is interrupted as extending to the regular semester; the removal period immediately follows the one year.\n\n5.2.2.",
+        "score": 0.029877369007803793
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_473",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_473\nSECTION: Chapter 4 | Article 8. Grading System and Requirements\nwhich does not earn any academic credit nor indicate failures such as “NC” for “No Credit” or “NG” for “No Grade.” Such a grade is permanent and cannot be subsequently changed. Provided, however, that where the failure to take the final examination or to submit the academic requirements is due to excusable grounds, such as sickness, emergency or accident may be given an incomplete mark or “INC.” Provided further that the institution allows special or completion examinations or additional time for compliance with the requirements. In no case shall an incomplete or “INC” mark remain for more than one (1) academic year. (CMO No. 40 s.2008 and CMO No. 30 s.2009)\n\n2.3. A special completion fee of P100 is charged in the completion of\n\n“INC.”\n\n2.4. A student cannot drop or change the subject without the written consent of the GSAR Dean; otherwise, the student shall be given an “F.”\n\n2.5. The letter “W” for “Withdrawn” shows that the student shall drop a course with the written permission of the College Dean of the Graduate Studies. If a student drops a course without written permission, s/he shall get an “F automatically.”",
+        "score": 0.029827662395050816
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_818",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_818\nSECTION: BUSINESS AFFAIRS OFFICE (BAO) AND ICT OFFICE: WHAT THEY HANDLE (ADDITION TO THE OFFICE DIRECTORY)\nBUSINESS AFFAIRS OFFICE (BAO) AND ICT OFFICE: WHAT THEY HANDLE (ADDITION TO THE OFFICE DIRECTORY)\nSource: campus information supplied by the maintainer (September 2026); campus map.\nBusiness Affairs, Marketing and Production Office (BAO): Student ID, and the sale of the ID lace, uniform fabric, University shirt, NSTP shirt and PE uniform. The BAO is in the same building as the Clinic and Cafeteria, on the left side as you walk straight in from the main gate.\nICT office (inside the College of Computer Studies (CCS) building): activation of the student portal account.",
+        "score": 0.028531243721117136
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_353",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_353\nSECTION: receipt)\nfor\ncompletion/removal.\nThe registrar will\ncheck if the INC or 4.0\ngrade is changed | N/A | 5 minutes | Registrar\nTOTAL: P30.00/ unit | 25 minutes\n\n4. Crediting of Subjects\nThis service is for students who are transferees, shifters, and returnees.\n\nOffice or Division: | Colleges\nClassification: | Simple\nType of Transaction: | G2C - Government to Citizen\nWho may avail: | Students\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nTranscript of records/ copy of grades | Previous school / College/ Department\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n\n87",
+        "score": 0.0259915611814346
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_326",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_326\nSECTION: XXVII. INTELLECTUAL PROPERTY AND TECHNOLOGY BUSINESS\n| Technology to be\nInvestment Readiness | evaluated\nLevel (IRL)\n\nAcceptance of | Provide Endorsement | None | 20 days | IP-TBM Chairperson\nEndorsement for | for | CIET Director\nIncubation/Adaption & | Incubation/Adaption & | ETS Director\nUtilization | Utilization\n\nNegotiation of the | If the CRL/IRL | None | 45 days | CIET, Technology\nTechnology Developer | evaluation is high, the | Developer and\nto the Licensee | technology | Technology Adaptor,\ndeveloper's decision | Legal Office, University\nwill depend on | President\nnegotiations with the\nlicensee\nTOTAL: | None | 3 months\n\nXXVIII. AGRI-AQUA TECHNOLOGY BUSINESS | INCUBATOR\n1. Entry/Acceptance of Incubatees\nDescribes the process of assessing, processing of requirements, and accepting\nof incubatees into the incubation program.\n\n77",
+        "score": 0.01639344262295082
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): INC Mark and Grade Removal Policy\nh:additionalInfo: INC (Incomplete): A temporary grade for unfinished requirements or a missed final exam for a valid reason; it becomes 5.00 if not completed within one year.\nh:additionalInfo: You submit requirements to the subject teacher and then apply online through the portal; the Charter lists a fee of P30.00 per unit for the online completion/removal service, while the Handbook states a removal fee of P20 per unit; confirm the current amount with the Registrar or Cashier.\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:audience: Students\nh:definition: An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which must be taken within one (1) academic year. Removal fee: P20 per unit. Special removal examination (via Dean petition): P100 per unit.\nh:requiresDocument -> Excuse Slip [h:Doc_ExcuseSlip]\nh:sourceArticle: Chapter 3, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: INC Mark and Grade Removal Policy"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Completion of INC/Removal – Online System\na:availedAt -> Colleges [a:Office_Colleges]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: XXXI. Colleges, Service 3: Completion of INC/Removal – Online System (College, Registrar, Cashier), p. 86\na:totalFeeText: P30.00 per unit\na:totalProcessingTime: 25 minutes\na:whoMayAvail: Students\nh:definition: For students with a grade of INC or 4.0 requesting completion/removal of grades.\nh:hasStep -> Step 1: Apply online for completion [a:Serv_CompletionOfINCRemovalOnlineSystem_S1]\nh:requiresDocument -> Completion form [a:Doc_Completionform]\nh:requiresDocument -> Proof of payment for completion/removal (official Cashier receipt) [a:Doc_ProofofpaymentforcompletionremovalofficialCashierreceipt]\nrdf:type -> Service [a:Service]\nrdfs:label: Completion of INC/Removal – Online System"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Business Affairs Office\nh:additionalInfo: All of these are bought at the Business Affairs Office (BAO). Uniform fabric: about Php 600-800 (fabric only, so you need a tailor to make the polo and pants, which costs extra). University shirt: Php 400. NSTP shirt: Php 350. PE T-shirt and shorts: Php 500. ID lace: Php 130. The official ID card itself is free for first-year students. If you buy one of each item sold at the BAO, the total is roughly Php 1,980 to 2,180: uniform fabric Php 600-800, University shirt Php 400, NSTP shirt Php 350, PE T-shirt and shorts Php 500, ID lace Php 130. Not included: tailoring for the uniform, books, OJT, transport and housing. Laboratory costs are not an extra: they are already covered by the free tuition. The ID card is free for first-year students.\nh:additionalInfo: Go to this office for: Student ID, and the sale of the ID lace, uniform fabric, University shirt, NSTP shirt and PE uniform.\nh:audience: New students\nh:contactNote: Student ID processing. Also sells the ID lace (Php 130), the uniform fabric (about Php 600-800), the University shirt (Php 400), the NSTP shirt (Php 350) and the PE T-shirt and shorts (Php 500). For hours and contact use the campus main line (see lspu:Campus_LSPULB); office-specific phone and email are not documented.\nh:locatedAtPlace -> Location of Business Affairs Office (BAO) [h:Loc_BAO]\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nh:sourceArticle: Estimate computed by the ontology builder from the maintainer-supplied prices (2026-09); assumes one of each item\nh:verificationNote: Prices reported in September 2026 and may change. Confirm whether the Php 500 PE price is per set.\nrdf:type -> Office [h:Office]\nrdfs:label: Business Affairs Office"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Marketing Associate/Officer\np:isGeneralInformation: true\np:jobOutcomeDescription: Works in brand management, digital marketing, or product marketing roles in private companies.\np:jobOutcomeName: Marketing Associate/Officer\np:provenanceNote: General knowledge of BSBA-Marketing Management career paths in the Philippines; not an official LSPU document.\np:requiresSkill -> Advertising and Campaign Development [p:Skill_AdvertisingCampaigns]\np:requiresSkill -> Marketing Strategy [p:Skill_MarketingStrategy]\nrdf:type -> Job/Career Outcome [p:JobOutcome]\nrdfs:label: Marketing Associate/Officer"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): College of Business Administration and Accountancy student organizations\nh:affiliatedCollege -> College of Business Administration and Accountancy [p:CBAA]\nh:definition: Organizations for students in Business Administration and Accountancy, commonly focusing on business-related activities, professional development, competitions, and college events. Individual organization names were not supplied.\nh:sourceArticle: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nrdf:type -> Student Organization [h:StudentOrganization]\nrdfs:label: College of Business Administration and Accountancy student organizations"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): INC Mark and Grade Removal Policy\nh:additionalInfo: INC (Incomplete): A temporary grade for unfinished requirements or a missed final exam for a valid reason; it becomes 5.00 if not completed within one year.\nh:additionalInfo: You submit requirements to the subject teacher and then apply online through the portal; the Charter lists a fee of P30.00 per unit for the online completion/removal service, while the Handbook states a removal fee of P20 per unit; confirm the current amount with the Registrar or Cashier.\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:audience: Students\nh:definition: An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which mus",
+    "answer_for_eval": "INC means Incomplete. It is a temporary grade given to students for unfinished requirements or a missed final exam for a valid reason, such as illness. If not completed within one year, it automatically becomes a grade of 5.00.",
+    "retrieval_query": "What does INC mean?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Policy_INCAndRemovalGrades",
+              "h:additionalInfo",
+              {
+                "literal": "INC"
+              }
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 5.094000000040978
+  },
+  "answer": "INC means Incomplete. It is a temporary grade given to students for unfinished requirements or a missed final exam for a valid reason, such as illness. If not completed within one year, it automatically becomes a grade of 5.00.",
+  "pipeline_version": "oc-rag-3.0"
+}

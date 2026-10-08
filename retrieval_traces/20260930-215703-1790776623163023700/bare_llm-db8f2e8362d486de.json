@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What can I do on the LSPU Portal?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "You can access various academic and administrative services on the LSPU Portal, such as viewing grades, enrollment, and other student-related information.",
+    "retrieval_query": "What can I do on the LSPU Portal?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.9380000000237487,
+    "selected_contexts": []
+  },
+  "answer": "You can access various academic and administrative services on the LSPU Portal, such as viewing grades, enrollment, and other student-related information.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

@@ -1,0 +1,47 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Who can I contact in an emergency on campus?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?contact=Any emergency or safety concern on campus: fights, threats, suspicious persons, fire, accidents, lost and found items.\nCampus guards and Guard House (Safety and Security) [h:EC_GuardHouse] --h:contactFor--> \"Any emergency or safety concern on campus: fights, threats, suspicious persons, fire, accidents, lost and found items.\"\nTYPE of Campus guards and Guard House (Safety and Security): h:EmergencyContact\nSOURCE/QUALIFIER for Campus guards and Guard House (Safety and Security): h:sourceArticle = Location: Map of LSPU-LB. Office role: Student Handbook (Safety and Security Management Office). No phone number available\nSOURCE/QUALIFIER for Campus guards and Guard House (Safety and Security): h:verificationNote = No direct security phone number was supplied. The campus main line (049) 308-4530 (Mon-Fri, 8:00 AM-5:00 PM) is general, not an emergency line; for emergencies use 911 or go to the Guard House."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?contact=Any emergency or safety concern on campus: fights, threats, suspicious persons, fire, accidents, lost and found items.\nCampus guards and Guard House (Safety and Security) [h:EC_GuardHouse] --h:contactFor--> \"Any emergency or safety concern on campus: fights, threats, suspicious persons, fire, accidents, lost and found items.\"\nTYPE of Campus guards and Guard House (Safety and Security): h:EmergencyContact\nSOURCE/QUALIFIER for Campus guards and Guard House (Safety and Security): h:sourceArticle = Location: Map of LSPU-LB. Office role: Student Handbook (Safety and Security Management Office). No phone number available\nSOURCE/QUALIFIER for Campus guards and Guard House (Safety and Security): h:verificationNote = No direct security phone number was supplied. The campus main line (049) 308-4530 (Mon-Fri, 8:00 AM-5:00 PM) is general, not an emergency line; for emergencies use 911 or go to the Guard House.",
+    "answer_for_eval": "In an emergency on campus, you can contact the Campus guards and Guard House (Safety and Security). If immediate assistance is needed, use 911 or go directly to the Guard House.",
+    "retrieval_query": "Who can I contact in an emergency on campus?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:EC_GuardHouse",
+              "h:contactFor",
+              "?contact"
+            ]
+          ],
+          "select": [
+            "?contact"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 11.98499999998603,
+    "retrieval_seconds": 10.812999999965541,
+    "generation_seconds": 1.172000000020489,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?contact=Any emergency or safety concern on campus: fights, threats, suspicious persons, fire, accidents, lost and found items.\nCampus guards and Guard House (Safety and Security) [h:EC_GuardHouse] --h:contactFor--> \"Any emergency or safety concern on campus: fights, threats, suspicious persons, fire, accidents, lost and found items.\"\nTYPE of Campus guards and Guard House (Safety and Security): h:EmergencyContact\nSOURCE/QUALIFIER for Campus guards and Guard House (Safety and Security): h:sourceArticle = Location: Map of LSPU-LB. Office role: Student Handbook (Safety and Security Management Office). No phone number available\nSOURCE/QUALIFIER for Campus guards and Guard House (Safety and Security): h:verificationNote = No direct security phone number was supplied. The campus main line (049) 308-4530 (Mon-Fri, 8:00 AM-5:00 PM) is general, not an emergency line; for emergencies use 911 or go to the Guard House."
+    ]
+  },
+  "answer": "In an emergency on campus, you can contact the Campus guards and Guard House (Safety and Security). If immediate assistance is needed, use 911 or go directly to the Guard House.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

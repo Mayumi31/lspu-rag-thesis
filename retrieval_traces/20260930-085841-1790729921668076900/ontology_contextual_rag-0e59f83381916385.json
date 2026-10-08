@@ -1,0 +1,93 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What academic statuses can a student be placed under?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_428",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_428\nSECTION: Chapter 3 | Article 5. Retention Policies\nof the semester, A student who fails 25% to 49% of the total academic units he registered shall be warned by the Dean and advised to improve his/her performance.\n\n4.2. Probation. At the end of the semester, A student fails 50% to 74% of the total academic units in which he registered shall be placed on probation for the succeeding semester, and the Dean concerned shall reduce his/her load accordingly. A student's probation status may be lifted upon passing all the subjects carried during the term s/he is in probation period.\n\n4.3. Dismissal. Any student who fails in more than seventy-five percent (75%) of the total academic units enrolled shall be subject for dismissal from the College; provided that an incomplete grade shall not be included in the computation of earned units; provided further, that this shall not apply to students who receive final grades in only nine academic units.\n\nSec. 5. Dropped. Any student dropped from one college/school shall not be admitted to another course in LSPU, unless in the evaluation of the Dean, the student’s aptitude and interest may qualify him/her to another field of study, in which case, he/she may be admitted on probation.\n\nSec. 7.",
+        "score": 0.0287391216352965
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_541",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_541\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 2. Duties and Obligations of Students (Lifted from Section 15: Duties and Responsibilities of Students)\nArticle 2. Duties and Obligations of Students (Lifted from Section 15: Duties and Responsibilities of Students)\n\nIn addition to those provided for under existing laws, (and of this Code,) every student shall:\n\na. exert utmost effort to develop his potentialities for service, particularly by an asset to his family and to society;\n\nb. uphold the academic integrity of the University, endeavor to achieve academic excellence and abide by the rules and regulations governing his academic responsibilities and moral integrity;\n\nc. promote and maintain the peace and tranquility of the University by observing the rules of discipline, and by exerting efforts to attain harmonious relationship with fellow students, the teaching and academic staff and other university personnel;\n\nd. participate actively in civic affairs and in the promotion of the general welfare, particularly in the social, economic and cultural development of his community, and in the attainment of a just compassionate and orderly society; and\n\ne. exercise his rights responsibly in the knowledge that he is answerable for any infringement or violation of the public welfare and of the rights of others.",
+        "score": 0.02574682290807064
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_476",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_476\nSECTION: Chapter 4 | Article 11. Attendance\nArticle 11. Attendance\n\nSec. 1. Policy. A student may absent from classes for unavoidable cause. A student accumulating absences from class which is equivalent to twenty percent (20%) of the total number of hour per day session for a particular subject shall be dropped from the roll of students for the particular subject or class. Time lost due to late enrolment shall be considered as a time lost by absence.\n\nSec. 2. Sports, other non-academic activities, and academic commitments at other institutions will not normally be accepted as valid reasons for approving absences from any arranged course activities in the university.",
+        "score": 0.024390243902439025
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_404",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_404\nSECTION: Chapter 3\nChapter 3\n\nUNDERGRADUATE ACADEMIC POLICIES",
+        "score": 0.01639344262295082
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_384",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_384\nSECTION: 2021 EDITION Approved pursuant to Board Resolution No. 111, series of 2021 LSPU Student Handbook 2021 Edition\nconduct themselves accordingly to maintain self-discipline and uphold the LSPU system's policies, rules and regulations—hence, promoting the institution's standard of excellence.\n\nIt is hoped that with the full knowledge of the policies, the whole studentry of all campuses will generously and willingly cooperate with the administration in achieving the success of the system's educational endeavor.\n\nMESSAGE OF THE UNIVERSITY PRESIDENT To All Students, With this student handbook, you will learn how Laguna State Polytechnic University (LSPU) operates and thereby how you, as a student, can be in harmony with the institution. This handbook is designed to give you the necessary information to succeed in your academic life and develop yourself into productive individuals. It offers a host of practical information that will guide you in getting things done accordingly. It reminds you to be observant and aware of what you should or should not do as students of the University. With the help of its guiding policies, may you bring with you a homeschool atmosphere and self-fulfillment within the campus's shelter.\n\nThis handbook tells you where to go and what is offered in the University.",
+        "score": 0.016129032258064516
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 4; distinct values by variable = {\"?x\": 4}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?x=Dismissal (from the College)\nDismissal (from the College) [h:Status_Dismissal] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Dismissal (from the College): h:AcademicStatus\nSOURCE/QUALIFIER for Dismissal (from the College): h:sourceArticle = Sec. 4.3, Scholastic Delinquency"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?x=Disqualification\nDisqualification [h:Status_Disqualification] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Disqualification: h:AcademicStatus\nSOURCE/QUALIFIER for Disqualification: h:sourceArticle = Sec. 8.1.1.1"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?x=Probation\nProbation [h:Status_Probation] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Probation: h:AcademicStatus\nSOURCE/QUALIFIER for Probation: h:sourceArticle = Sec. 4.2, Scholastic Delinquency"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 4: ?x=Warning\nWarning [h:Status_Warning] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Warning: h:AcademicStatus\nSOURCE/QUALIFIER for Warning: h:sourceArticle = Sec. 4.1, Scholastic Delinquency"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 4; distinct values by variable = {\"?x\": 4}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?x=Dismissal (from the College)\nDismissal (from the College) [h:Status_Dismissal] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Dismissal (from the College): h:AcademicStatus\nSOURCE/QUALIFIER for Dismissal (from the College): h:sourceArticle = Sec. 4.3, Scholastic Delinquency\n\nQUERY 1\nGRAPH RESULT 2: ?x=Disqualification\nDisqualification [h:Status_Disqualification] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Disqualification: h:AcademicStatus\nSOURCE/QUALIFIER for Disqualification: h:sourceArticle = Sec. 8.1.1.1\n\nQUERY 1\nGRAPH RESULT 3: ?x=Probation\nProbation [h:Status_Probation] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Probation: h:AcademicStatus\nSOURCE/QUALIFIER for Probation: h:sourceArticle = Sec. 4.2, Scholastic Delinquency\n\nQUERY 1\nGRAPH RESULT 4: ?x=Warning\nWarni",
+    "answer_for_eval": "A student can be placed under the following academic statuses:\n1. Dismissal (from the College)\n2. Disqualification\n3. Probation\n4. Warning",
+    "retrieval_query": "What academic statuses can a student be placed under?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?x",
+              "rdf:type",
+              "h:AcademicStatus"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 10,
+    "elapsed_seconds": 4.75
+  },
+  "answer": "A student can be placed under the following academic statuses:\n1. Dismissal (from the College)\n2. Disqualification\n3. Probation\n4. Warning",
+  "pipeline_version": "oc-rag-3.0"
+}

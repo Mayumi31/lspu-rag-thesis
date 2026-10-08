@@ -1,0 +1,105 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Within how many days should the school release official documents I request?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Right to issuance of official documents within 30 days\nh:definition: The right to the issuance of official certificates, diplomas, transcript of records, grades, transfer credentials, and other similar documents within thirty (30) days from request.\nh:sourceArticle: Appendix A, Article 1(e)\nrdf:type -> Student Right [h:Right]\nrdfs:label: Right to issuance of official documents within 30 days"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Change/Rectification of Grades Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:definition: A student who receives a grade believed incorrect may request in writing for change/rectification within ten (10) days after the official release of grades.\nh:sourceArticle: Sec. 3.2\nrdf:type -> Policy [h:Policy]\nrdfs:label: Change/Rectification of Grades Policy"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Releasing of Yearbook\na:availedAt -> Alumni Affairs and Placement Services [a:Office_AlumniAffairsAndPlacementServices]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: B.XXI. Alumni Affairs and Placement Services, p. 69\na:whoMayAvail: Alumni or Authorized representative\nrdf:type -> Service [a:Service]\nrdfs:label: Releasing of Yearbook"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 1: Present required documents (verification of student status/entries)\na:agencyAction: Verifies if the student is qualified to avail RA No. 10931 (Free Higher Education) / checks the Registration Form or Clearance for completeness of entry, as applicable.\na:clientAction: Presents required documents: undergraduates via Registrar's online registration; graduate students; senior high school students (represented by parent/authorized rep); or students with adding/dropping/cancellation of subjects.\na:hasFeeText: None\na:hasProcessingTime: 15 seconds per client type\na:sourceSection: III. Accounting Office, Service 2: Assessment of Fees, Step 1, p. 9-10\nh:nextStep -> Accounting fee-assessment service — Step 2: Assessment of school fees [a:AssessFees_Step2]\nh:performedBy -> Administrative Aide VI [a:Role_AdministrativeAideVI]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Present required documents (verification of student status/entries)"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Releasing of Documents\na:availedAt -> Records Management Office [a:Office_RecordsManagementOffice]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:hasTransactionType -> G2G -- Government to Government [a:TT_G2G]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: B.XIX. Records Management Office, p. 66\na:whoMayAvail: All\nrdf:type -> Service [a:Service]\nrdfs:label: Releasing of Documents"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Right to issuance of official documents within 30 days\nh:definition: The right to the issuance of official certificates, diplomas, transcript of records, grades, transfer credentials, and other similar documents within thirty (30) days from request.\nh:sourceArticle: Appendix A, Article 1(e)\nrdf:type -> Student Right [h:Right]\nrdfs:label: Right to issuance of official documents within 30 days\n\nAPPROXIMATE MATCH (not an exhaustive result): Change/Rectification of Grades Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:definition: A student who receives a grade believed incorrect may request in writing for change/rectification within ten (10) days after the official release of grades.\nh:sourceArticle: Sec. 3.2\nrdf:type -> Policy [h:Policy]\nrdfs:label: Change/Rectification of Grades Policy\n\nAPPROXIMATE MATCH (not an exhaustive result): Releasing of Yearbook\na:availedAt -> Alumni Affairs and Placement Services [a:Office_AlumniAffairsAndPlacementServices]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citize",
+    "answer_for_eval": "The school should release official documents within 30 days of the request.",
+    "retrieval_query": "Within how many days should the school release official documents I request",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?service",
+              "a:hasProcessingTime",
+              "?time"
+            ],
+            [
+              "?service",
+              "a:sourceSection",
+              "?section"
+            ],
+            [
+              "?service",
+              "a:hasCategory",
+              "?category"
+            ],
+            [
+              "?service",
+              "a:hasTransactionType",
+              "a:TT_G2C"
+            ],
+            [
+              "?service",
+              "a:sourceDocument",
+              "?doc"
+            ],
+            [
+              "?service",
+              "a:availedAt",
+              "?office"
+            ]
+          ],
+          "select": [
+            "?time"
+          ],
+          "filters": [
+            {
+              "var": "?service",
+              "op": "contains",
+              "value": {
+                "literal": "Releasing of Documents"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: a:Cat_Simple",
+      "Unresolved entity or class: a:TT_G2C"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 15.389999999955762,
+    "retrieval_seconds": 14.125,
+    "generation_seconds": 1.2649999999557622,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Right to issuance of official documents within 30 days\nh:definition: The right to the issuance of official certificates, diplomas, transcript of records, grades, transfer credentials, and other similar documents within thirty (30) days from request.\nh:sourceArticle: Appendix A, Article 1(e)\nrdf:type -> Student Right [h:Right]\nrdfs:label: Right to issuance of official documents within 30 days",
+      "APPROXIMATE MATCH (not an exhaustive result): Change/Rectification of Grades Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:definition: A student who receives a grade believed incorrect may request in writing for change/rectification within ten (10) days after the official release of grades.\nh:sourceArticle: Sec. 3.2\nrdf:type -> Policy [h:Policy]\nrdfs:label: Change/Rectification of Grades Policy",
+      "APPROXIMATE MATCH (not an exhaustive result): Releasing of Yearbook\na:availedAt -> Alumni Affairs and Placement Services [a:Office_AlumniAffairsAndPlacementServices]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: B.XXI. Alumni Affairs and Placement Services, p. 69\na:whoMayAvail: Alumni or Authorized representative\nrdf:type -> Service [a:Service]\nrdfs:label: Releasing of Yearbook",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 1: Present required documents (verification of student status/entries)\na:agencyAction: Verifies if the student is qualified to avail RA No. 10931 (Free Higher Education) / checks the Registration Form or Clearance for completeness of entry, as applicable.\na:clientAction: Presents required documents: undergraduates via Registrar's online registration; graduate students; senior high school students (represented by parent/authorized rep); or students with adding/dropping/cancellation of subjects.\na:hasFeeText: None\na:hasProcessingTime: 15 seconds per client type\na:sourceSection: III. Accounting Office, Service 2: Assessment of Fees, Step 1, p. 9-10\nh:nextStep -> Accounting fee-assessment service — Step 2: Assessment of school fees [a:AssessFees_Step2]\nh:performedBy -> Administrative Aide VI [a:Role_AdministrativeAideVI]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Present required documents (verification of student status/entries)",
+      "APPROXIMATE MATCH (not an exhaustive result): Releasing of Documents\na:availedAt -> Records Management Office [a:Office_RecordsManagementOffice]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:hasTransactionType -> G2G -- Government to Government [a:TT_G2G]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: B.XIX. Records Management Office, p. 66\na:whoMayAvail: All\nrdf:type -> Service [a:Service]\nrdfs:label: Releasing of Documents"
+    ]
+  },
+  "answer": "The school should release official documents within 30 days of the request.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

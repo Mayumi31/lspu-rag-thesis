@@ -1,0 +1,70 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Is cyber bullying a minor or a major offense?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_504",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_504\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 2. Major Offense. A student shall be subjected to disciplinary action ranging from deprivation of certain students’ privileges, suspension and expulsion if he commits serious deviations from the expected norm of behavior as an LSPU student. The following acts are strictly prohibited.\nArticle 2. Major Offense. A student shall be subjected to disciplinary action ranging from deprivation of certain students’ privileges, suspension and expulsion if he commits serious deviations from the expected norm of behavior as an LSPU student. The following acts are strictly prohibited.\n\nSec. 1. Acts of Cybercrime (Stipulated by RA 10175 or the Cybercrime Prevention Act of 2012).\n\n1.1. Cyber bullying or bullying done through the use of technology or any electronic means\n 1st Offense: Suspension for one (1) month\n 2nd Offense: Suspension for one (1) semester\n 3rd Offense: Expulsion from the University\n\n1.2. Illegal access or hacking to the whole or any part of one’s online accounts including e -mail, social media profiles, etc.\n 1st Offense: Suspension for one (1) month\n 2nd Offense: Suspension for one (1) semester\n 3rd Offense: Expulsion from the University\n\n1.3. Illegal interception or listening to, recording, monitoring or surveillance of the content of communications, either directly through the access and use of computer systems, or indirectly through the use of electronic eavesdropping or tapping devices\n 1st Offense: Suspension for one (1) month",
+        "score": 0.06557377049180328
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_506",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_506\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 2. Major Offense. A student shall be subjected to disciplinary action ranging from deprivation of certain students’ privileges, suspension and expulsion if he commits serious deviations from the expected norm of behavior as an LSPU student. The following acts are strictly prohibited.\nexhibition of sexual organs or sexual activity, with the aid of a computer system, for favor or consideration.\n Sanction (all offenses): expulsion from the University\n\n1.7. Child Pornography, including unlawful and prohibited acts defined and punishable by RA 9775 or the Anti-Child Pornography Act of 2009, committed through a computer system.\n Sanction (all offenses): expulsion from the University\n\n1.8. Cyber Libel or the unlawful or prohibited acts of libel as defined in Article 355 of the Revised Penal Code, committed through a computer system or any other similar means.\n Sanction (all offenses): expulsion from the University\n\n1.9. Aiding, abetting or attempting to willfully commit any of the offenses enumerated as acts of cybercrime shall be held liable.\n 1st Offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n 2nd Offense: Suspension for one (1) month\n 3rd Offense: Suspension for one (1) semester\n\nSec. 2. Belligerence and Discourtesy. Defiant attitude indicated by acts of belligerence, gross and deliberate discourtesy toward fellow student, teachers, employees and other University authorities.",
+        "score": 0.06325204813108039
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_CyberBullying_1\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_1 [h:Tier_CyberBullying_1]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_1: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_CyberBullying_2\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_2 [h:Tier_CyberBullying_2]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_2: h:SanctionTier"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_CyberBullying_3\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_3 [h:Tier_CyberBullying_3]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_3: h:SanctionTier"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_CyberBullying_1\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_1 [h:Tier_CyberBullying_1]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_1: h:SanctionTier\n\nQUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_CyberBullying_2\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_2 [h:Tier_CyberBullying_2]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_2: h:SanctionTier\n\nQUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_CyberBullying_3\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_3 [h:Tier_CyberBullying_3]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_3: h:SanctionTier\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_504\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 2. Major Offense. A student shall be subjected to disciplinary action ranging from deprivation",
+    "answer_for_eval": "Cyber bullying is classified as a major offense.",
+    "retrieval_query": "Is cyber bullying a minor or a major offense?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:CyberBullying",
+              "h:hasSanctionTier",
+              "?tier"
+            ]
+          ],
+          "select": [
+            "?tier"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 5,
+    "elapsed_seconds": 0.6880000000237487,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?tier=h:Tier_CyberBullying_1\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_1 [h:Tier_CyberBullying_1]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_1: h:SanctionTier",
+      "QUERY 1\nGRAPH RESULT 2: ?tier=h:Tier_CyberBullying_2\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_2 [h:Tier_CyberBullying_2]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_2: h:SanctionTier",
+      "QUERY 1\nGRAPH RESULT 3: ?tier=h:Tier_CyberBullying_3\nCyber Bullying [h:CyberBullying] --h:hasSanctionTier--> h:Tier_CyberBullying_3 [h:Tier_CyberBullying_3]\nTYPE of Cyber Bullying: h:MajorOffense\nSOURCE/QUALIFIER for Cyber Bullying: h:sourceArticle = Ch.6 Art.2 Sec.1.1\nTYPE of h:Tier_CyberBullying_3: h:SanctionTier",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_504\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 2. Major Offense. A student shall be subjected to disciplinary action ranging from deprivation of certain students’ privileges, suspension and expulsion if he commits serious deviations from the expected norm of behavior as an LSPU student. The following acts are strictly prohibited.\nArticle 2. Major Offense. A student shall be subjected to disciplinary action ranging from deprivation of certain students’ privileges, suspension and expulsion if he commits serious deviations from the expected norm of behavior as an LSPU student. The following acts are strictly prohibited.\n\nSec. 1. Acts of Cybercrime (Stipulated by RA 10175 or the Cybercrime Prevention Act of 2012).\n\n1.1. Cyber bullying or bullying done through the use of technology or any electronic means\n 1st Offense: Suspension for one (1) month\n 2nd Offense: Suspension for one (1) semester\n 3rd Offense: Expulsion from the University\n\n1.2. Illegal access or hacking to the whole or any part of one’s online accounts including e -mail, social media profiles, etc.\n 1st Offense: Suspension for one (1) month\n 2nd Offense: Suspension for one (1) semester\n 3rd Offense: Expulsion from the University\n\n1.3. Illegal interception or listening to, recording, monitoring or surveillance of the content of communications, either directly through the access and use of computer systems, or indirectly through the use of electronic eavesdropping or tapping devices\n 1st Offense: Suspension for one (1) month",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_506\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 2. Major Offense. A student shall be subjected to disciplinary action ranging from deprivation of certain students’ privileges, suspension and expulsion if he commits serious deviations from the expected norm of behavior as an LSPU student. The following acts are strictly prohibited.\nexhibition of sexual organs or sexual activity, with the aid of a computer system, for favor or consideration.\n Sanction (all offenses): expulsion from the University\n\n1.7. Child Pornography, including unlawful and prohibited acts defined and punishable by RA 9775 or the Anti-Child Pornography Act of 2009, committed through a computer system.\n Sanction (all offenses): expulsion from the University\n\n1.8. Cyber Libel or the unlawful or prohibited acts of libel as defined in Article 355 of the Revised Penal Code, committed through a computer system or any other similar means.\n Sanction (all offenses): expulsion from the University\n\n1.9. Aiding, abetting or attempting to willfully commit any of the offenses enumerated as acts of cybercrime shall be held liable.\n 1st Offense: Suspension for one (1) week and 40 hours service to be rendered in the institution\n 2nd Offense: Suspension for one (1) month\n 3rd Offense: Suspension for one (1) semester\n\nSec. 2. Belligerence and Discourtesy. Defiant attitude indicated by acts of belligerence, gross and deliberate discourtesy toward fellow student, teachers, employees and other University authorities."
+    ]
+  },
+  "answer": "Cyber bullying is classified as a major offense.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

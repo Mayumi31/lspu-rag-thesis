@@ -1,0 +1,116 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "anong mga patakaran sa campus?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_776",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_776\nSECTION: # PILLAR 4 - SUPPLEMENTARY CAMPUS INFORMATION (BEGIN)\n# PILLAR 4 - SUPPLEMENTARY CAMPUS INFORMATION (BEGIN)\n# Campus life, costs, emergency contacts, digital platforms, and website admission rules\n# that are NOT in the Citizen's Charter, Admission Guidelines or Student Handbook above.",
+        "score": 0.030621785881252923
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_538",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_538\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nRules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction. Violation of rules and regulations done outside the premises shall be treated as if they were committed within the University premises when a student is representing the University in conference, conventions, competitions presentations, during the time of On- thejob Training (OJT) and Student Internship Program (SIP) period.\n\nNB: LSPU System reserves the right for its University President to device any measure or enhance any established policy for the resolution of any concern if the implementation of any former policy will not be workable at any juncture.\n\nAPPENDIX A",
+        "score": 0.028484848484848488
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_537",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_537\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nof the Code of Conduct of LSPU Students and/or College Rules and Regulations.\n\nCases must be treated individually according to their merits and findings of investigations. They shall be reported to the University President who has the final say in all the cases.\n\nIn the pursuit of the preceding paragraph, every faculty member is authorized to enforce this Code of Conduct. A faculty member usually handles his own disciplinary problems, and more serious infractions.\n\nHowever, it must be reported to the OSAS through the Student Discipline Coordinator. Student leaders authorized by the administration are given equal responsibility in enforcing the Code of Conduct.\n\nSec. 4. Coverage. The provisions on Specific Misconduct and Miscellaneous Rules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction.",
+        "score": 0.02668564312399929
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_522",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_522\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Minor Offense\nby the Guidance Counselor/Student Discipline Coordinator and two (2) days community service\n 3rd Offense: Subsequent offense: Suspension for two (2) weeks\n\nSec. 7. Trespassing. Students are not allowed to stay inside the University premises after class hours in the afternoon or to get inside the campus premises during offschool days, provided that this shall not apply to those who are authorized to report for “makeup”, for practice, for field activities, and other official business and provided further, that permission or authorization from the Campus Director/Deans/OSAS Director/ Chairperson/Chief of Security is presented to the guards, except for those whose activities are regular such as ROTC /CWTS and Band. Movements of campus-resident students are likewise restricted except on the activities mentioned above.\n 1st Offense: Reprimand, promissory note duly signed by the College Dean/ Associate Dean and Student Discipline Coordinator\n 2nd Offense: Inform the parents, suspension for one (1) week and 40 hours service to be rendered in the institution",
+        "score": 0.01639344262295082
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_786",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_786\nSECTION: SAFETY GUIDE: WHAT TO DO IN A TYPHOON\nSAFETY GUIDE: WHAT TO DO IN A TYPHOON\nSource: announcement channels from the maintainer (September 2026); safety steps are general disaster-safety guidance, NOT an LSPU-LB protocol. Who decides suspensions and the campus's own typhoon procedure were not supplied here (see the Student Handbook rules on suspension of classes).\nBefore: check the official LSPU-LB Facebook page for campus-wide class suspensions, and your professor's Messenger group and Google Classroom for class-level announcements, before you travel. Keep your phone charged.\nIf you are already on campus in strong wind or heavy rain: stay indoors, keep away from windows and glass doors, stay out of open areas and away from trees, posts and loose signs, and follow the guards and faculty.\nDo not travel through flooded roads or walk under fallen wires. Go home only when it is safe, and check announcements before coming back to campus.",
+        "score": 0.01639344262295082
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Violation of Rules/Regulations/Policies from Other Departments or Units\nh:definition: Every student must observe the rules, regulations and policies promulgated by the College/Department Head, instructors, or organization advisers, provided such rules conform with the LSPU Code of Conduct.\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_1 [h:Tier_ViolationOtherDeptPolicies_1]\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_2 [h:Tier_ViolationOtherDeptPolicies_2]\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_3 [h:Tier_ViolationOtherDeptPolicies_3]\nh:sourceArticle: Ch.6 Art.3 Sec.8\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Violation of Rules/Regulations/Policies from Other Departments or Units"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Trespassing\nh:definition: Staying inside University premises after class hours in the afternoon, or entering campus during off-school days without authorization from Campus Director/Deans/OSAS Director/Chief of Security (exceptions for makeup classes, practice, field activities, official business, or regular activities like ROTC/CWTS/Band).\nh:hasSanctionTier -> h:Tier_Trespassing_1 [h:Tier_Trespassing_1]\nh:hasSanctionTier -> h:Tier_Trespassing_2 [h:Tier_Trespassing_2]\nh:hasSanctionTier -> h:Tier_Trespassing_3 [h:Tier_Trespassing_3]\nh:sourceArticle: Ch.6 Art.3 Sec.7\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Trespassing"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): School Uniform and Dress Code Policy\nh:administeredBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:audience: New students\nh:definition: Prescribed uniform must be worn in classroom sessions; P.E. uniform only during P.E. classes; University t-shirt every Wednesday, department shirt every Friday. Prohibited campus attire includes: shorts/walking shorts/cycling shorts, pedal pushers, capri pants, cargo shorts, mutilated/jazzed pants, faded/torn/wrinkled shirts, jogging pants, miniskirts, sleeveless/backless/halter/spaghetti-strap tops, sandos, plunging necklines, leggings, and slippers. A student violating the uniform provision is not allowed to enter the University gates unless a promissory note/communication letter from OSAS is presented.\nh:requiresDocument -> Promissory Note [h:Doc_PromissoryNote]\nh:sourceArticle: Chapter 6, Article 4, Sec. 1\nrdf:type -> Policy [h:Policy]\nrdfs:label: School Uniform and Dress Code Policy"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Off-Campus Jurisdiction of the Code of Conduct\nh:definition: Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).\nh:sourceArticle: Chapter 6, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: Off-Campus Jurisdiction of the Code of Conduct"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): h:Sanc_Tier_NonWearingIDUniform_1_1\nh:durationText: Not allowed to enter University gates/class unless an excuse slip from OSAS through the Guidance Counselor is presented\nh:sanctionType: EntryDenial\nrdf:type -> Sanction [h:Sanction]"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_776\nSECTION: # PILLAR 4 - SUPPLEMENTARY CAMPUS INFORMATION (BEGIN)\n# PILLAR 4 - SUPPLEMENTARY CAMPUS INFORMATION (BEGIN)\n# Campus life, costs, emergency contacts, digital platforms, and website admission rules\n# that are NOT in the Citizen's Charter, Admission Guidelines or Student Handbook above.\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_538\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nRules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction. Violation of rules and regulations done outside the premises shall be treated as if they were committed within the University premises when a student is representing the University in conference, conventions, competitions presentations, during the time of On- thejob Training (OJT) and Student Internship Program (SIP) period.\n\nNB: LSPU System reserves the right for its University President to device any measure or enhance any estab",
+    "answer_for_eval": "The campus policies at LSPU-LB include the following:\n\n1. Rules and regulations on campus life, costs, emergency contacts, digital platforms, and admission rules that are not in the Citizen's Charter, Admission Guidelines, or Student Handbook.\n2. Code of Conduct for students, which covers:\n   - Offenses committed outside the campus when representing the university (e.g., conferences, competitions, OJT, SIP).\n   - Disciplinary procedures, including investigation, reporting to the University President, and enforcement by faculty, student leaders, and OSAS.\n   - Specific misconduct such as trespassing, with sanctions ranging from reprimand to suspension.\n   - Dress code and uniform policies, requiring students to wear prescribed uniforms and prohibiting certain attire.\n   - Off-campus jurisdiction, where violations outside the campus are treated as if committed on campus under certain circumstances.\n3. Specific rules on trespassing, including restrictions on staying inside campus after hours or during off-school days without proper authorization.\n4. Safety procedures during typhoons, including checking official announcements and following safety steps.\n5. Additional policies may be added by administration or OSAS depending on the situation.",
+    "retrieval_query": "What are the campus rules?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Policy_DressCode",
+              "h:definition",
+              {
+                "literal": "School Uniform and Dress Code Policy"
+              }
+            ],
+            [
+              "h:Policy_DressCode",
+              "h:administeredBy",
+              "h:OfficeOfTheCampusDirector"
+            ]
+          ],
+          "select": [
+            "?policy"
+          ],
+          "filters": []
+        }
+      ],
+      "traversals": []
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: h:Office_OfficeOfTheCampusDirector",
+      "Unresolved entity or class: h:OfficeOfTheCampusDirector"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 9.375,
+    "retrieval_seconds": 6.547000000020489,
+    "generation_seconds": 2.827999999979511,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_776\nSECTION: # PILLAR 4 - SUPPLEMENTARY CAMPUS INFORMATION (BEGIN)\n# PILLAR 4 - SUPPLEMENTARY CAMPUS INFORMATION (BEGIN)\n# Campus life, costs, emergency contacts, digital platforms, and website admission rules\n# that are NOT in the Citizen's Charter, Admission Guidelines or Student Handbook above.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_538\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nRules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction. Violation of rules and regulations done outside the premises shall be treated as if they were committed within the University premises when a student is representing the University in conference, conventions, competitions presentations, during the time of On- thejob Training (OJT) and Student Internship Program (SIP) period.\n\nNB: LSPU System reserves the right for its University President to device any measure or enhance any established policy for the resolution of any concern if the implementation of any former policy will not be workable at any juncture.\n\nAPPENDIX A",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_537\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 7. Composition, Administration, Coverage and Jurisdiction of the Student Discipline Committee\nof the Code of Conduct of LSPU Students and/or College Rules and Regulations.\n\nCases must be treated individually according to their merits and findings of investigations. They shall be reported to the University President who has the final say in all the cases.\n\nIn the pursuit of the preceding paragraph, every faculty member is authorized to enforce this Code of Conduct. A faculty member usually handles his own disciplinary problems, and more serious infractions.\n\nHowever, it must be reported to the OSAS through the Student Discipline Coordinator. Student leaders authorized by the administration are given equal responsibility in enforcing the Code of Conduct.\n\nSec. 4. Coverage. The provisions on Specific Misconduct and Miscellaneous Rules and Regulations herein are by situation demand administration, through its authorized body and/or OSAS, may add coverage of other offenses.\n\nSec. 5. Jurisdiction.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_522\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 3. Minor Offense\nby the Guidance Counselor/Student Discipline Coordinator and two (2) days community service\n 3rd Offense: Subsequent offense: Suspension for two (2) weeks\n\nSec. 7. Trespassing. Students are not allowed to stay inside the University premises after class hours in the afternoon or to get inside the campus premises during offschool days, provided that this shall not apply to those who are authorized to report for “makeup”, for practice, for field activities, and other official business and provided further, that permission or authorization from the Campus Director/Deans/OSAS Director/ Chairperson/Chief of Security is presented to the guards, except for those whose activities are regular such as ROTC /CWTS and Band. Movements of campus-resident students are likewise restricted except on the activities mentioned above.\n 1st Offense: Reprimand, promissory note duly signed by the College Dean/ Associate Dean and Student Discipline Coordinator\n 2nd Offense: Inform the parents, suspension for one (1) week and 40 hours service to be rendered in the institution",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_786\nSECTION: SAFETY GUIDE: WHAT TO DO IN A TYPHOON\nSAFETY GUIDE: WHAT TO DO IN A TYPHOON\nSource: announcement channels from the maintainer (September 2026); safety steps are general disaster-safety guidance, NOT an LSPU-LB protocol. Who decides suspensions and the campus's own typhoon procedure were not supplied here (see the Student Handbook rules on suspension of classes).\nBefore: check the official LSPU-LB Facebook page for campus-wide class suspensions, and your professor's Messenger group and Google Classroom for class-level announcements, before you travel. Keep your phone charged.\nIf you are already on campus in strong wind or heavy rain: stay indoors, keep away from windows and glass doors, stay out of open areas and away from trees, posts and loose signs, and follow the guards and faculty.\nDo not travel through flooded roads or walk under fallen wires. Go home only when it is safe, and check announcements before coming back to campus.",
+      "APPROXIMATE MATCH (not an exhaustive result): Violation of Rules/Regulations/Policies from Other Departments or Units\nh:definition: Every student must observe the rules, regulations and policies promulgated by the College/Department Head, instructors, or organization advisers, provided such rules conform with the LSPU Code of Conduct.\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_1 [h:Tier_ViolationOtherDeptPolicies_1]\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_2 [h:Tier_ViolationOtherDeptPolicies_2]\nh:hasSanctionTier -> h:Tier_ViolationOtherDeptPolicies_3 [h:Tier_ViolationOtherDeptPolicies_3]\nh:sourceArticle: Ch.6 Art.3 Sec.8\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Violation of Rules/Regulations/Policies from Other Departments or Units",
+      "APPROXIMATE MATCH (not an exhaustive result): Trespassing\nh:definition: Staying inside University premises after class hours in the afternoon, or entering campus during off-school days without authorization from Campus Director/Deans/OSAS Director/Chief of Security (exceptions for makeup classes, practice, field activities, official business, or regular activities like ROTC/CWTS/Band).\nh:hasSanctionTier -> h:Tier_Trespassing_1 [h:Tier_Trespassing_1]\nh:hasSanctionTier -> h:Tier_Trespassing_2 [h:Tier_Trespassing_2]\nh:hasSanctionTier -> h:Tier_Trespassing_3 [h:Tier_Trespassing_3]\nh:sourceArticle: Ch.6 Art.3 Sec.7\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Trespassing",
+      "APPROXIMATE MATCH (not an exhaustive result): School Uniform and Dress Code Policy\nh:administeredBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:audience: New students\nh:definition: Prescribed uniform must be worn in classroom sessions; P.E. uniform only during P.E. classes; University t-shirt every Wednesday, department shirt every Friday. Prohibited campus attire includes: shorts/walking shorts/cycling shorts, pedal pushers, capri pants, cargo shorts, mutilated/jazzed pants, faded/torn/wrinkled shirts, jogging pants, miniskirts, sleeveless/backless/halter/spaghetti-strap tops, sandos, plunging necklines, leggings, and slippers. A student violating the uniform provision is not allowed to enter the University gates unless a promissory note/communication letter from OSAS is presented.\nh:requiresDocument -> Promissory Note [h:Doc_PromissoryNote]\nh:sourceArticle: Chapter 6, Article 4, Sec. 1\nrdf:type -> Policy [h:Policy]\nrdfs:label: School Uniform and Dress Code Policy",
+      "APPROXIMATE MATCH (not an exhaustive result): Off-Campus Jurisdiction of the Code of Conduct\nh:definition: Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP).\nh:sourceArticle: Chapter 6, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: Off-Campus Jurisdiction of the Code of Conduct",
+      "APPROXIMATE MATCH (not an exhaustive result): h:Sanc_Tier_NonWearingIDUniform_1_1\nh:durationText: Not allowed to enter University gates/class unless an excuse slip from OSAS through the Guidance Counselor is presented\nh:sanctionType: EntryDenial\nrdf:type -> Sanction [h:Sanction]"
+    ]
+  },
+  "answer": "The campus policies at LSPU-LB include the following:\n\n1. Rules and regulations on campus life, costs, emergency contacts, digital platforms, and admission rules that are not in the Citizen's Charter, Admission Guidelines, or Student Handbook.\n2. Code of Conduct for students, which covers:\n   - Offenses committed outside the campus when representing the university (e.g., conferences, competitions, OJT, SIP).\n   - Disciplinary procedures, including investigation, reporting to the University President, and enforcement by faculty, student leaders, and OSAS.\n   - Specific misconduct such as trespassing, with sanctions ranging from reprimand to suspension.\n   - Dress code and uniform policies, requiring students to wear prescribed uniforms and prohibiting certain attire.\n   - Off-campus jurisdiction, where violations outside the campus are treated as if committed on campus under certain circumstances.\n3. Specific rules on trespassing, including restrictions on staying inside campus after hours or during off-school days without proper authorization.\n4. Safety procedures during typhoons, including checking official announcements and following safety steps.\n5. Additional policies may be added by administration or OSAS depending on the situation.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

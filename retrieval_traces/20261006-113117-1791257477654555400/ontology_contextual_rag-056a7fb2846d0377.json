@@ -1,0 +1,118 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Where to secure TOR?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_224",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_224\nSECTION: and technical\nPPMP and | approved PPMP\nPurchase Request | and PR or TOR\n(PR) | to | the 2. Evaluate if it is\nProcurement | Unit. | included in the\nApproved | None | 5 minutes | Procurement Unit\nProcurement\nNote: | Plan (APP)\nTOR is needed instead of | Assign PR\nPR for | number\nconsultancy services\n1.3 Prepare\n• Request for None | 10 minutes\nQuotation | Procurement Unit\n(RFQ)\n1.4 Check the RFQ | 1 day\nvis-à-vis Purchase None | Procurement Unit\nRequest or TOR\n\n43",
+        "score": 0.03131881575727918
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_250",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_250\nSECTION: CHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nSF-Form-009 | ICTS Office\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Client fills-up the\nSF-FORM-001 | Conduct\n(via LSPU | preventive\nNexus) | maintenance of ICT\n2. The ICTS staff | Equipment.\nevaluates the\nproblem and\ndetermines the | None | 1 hour | ICTS Unit Head\npossible solution | ICTS Staff\n3. The servicing\nstaff issues a\nService Report\nregarding the\nstatus of the\nequipment.\nTOTAL: | None | 1 hour\n\n3. Web Posting (University Files)\nA service designed to streamline the process of sharing relevant information,\nannouncements, events, and updates on a university's official website. Through\nthis service, administrators can efficiently upload and publish content, ensuring\ntimely communication with students, faculty, staff, and the broader community. It\nfacilitates the dissemination of crucial information, fostering transparency,\nengagement, and accessibility across the university ecosystem.\n\nOffice or Division: | Information and Communications Technology Services (ICTS)\nClassification: | Simple\nType of Transaction: | G2G – Government to Government\nG2C – government to Citizen",
+        "score": 0.03036576949620428
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_148",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_148\nSECTION: CHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nof Transaction: G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nSemestral Clearances | Registrar’s Office\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present the | Checks/evaluates the None | 1 minute | OSAS Director/\nsemestral | student obligation such | Chairperson/ Staff\nclearance to | as school uniform,\nOSAS. | school ID, haircut and\nhair color, records on\nstudent discipline, and\nrecords on Student\nOrganization.\n\n17",
+        "score": 0.023839931885908897
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_314",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_314\nSECTION: Office or Division: | Guidance and Counseling\nOffice or Division: | Guidance and Counseling\nClassification: | Simple\nType of Transaction: | G2C\nWho may avail: | Student-applicants\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nOnline application form | LSPU Online Admission\nCertified True Copy (Report Card and/or TOR) | Client\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Orientation | Inform the clients | N/A | 15 minutes | Guidance Staff\nabout the college\nentrance examination\n(flow, time)\n2. Examination | Monitoring of the | N/A | 1 and ½ hours Guidance Staff and\nproper | desktop during the | Interns\nexamination.\nExamination result | Issuance of the official | N/A | 1-3 days | Guidance Staff\nresult to examinees\n1-3 days, 1 hr\nTOTAL: | None | and 45\nminutes\n\n2. Appraisal\nAdministration and interpretation of appraisal.\n\nOffice or Division: | Guidance and Counseling\nClassification: | Simple\nType of Transaction: | G2G\nG2C\nWho may avail: | Students, Faculty, Non-Teaching, Job Applicants\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nData Privacy Consent | Client\nIdentification Card | Guidance and Counseling\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS",
+        "score": 0.01639344262295082
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_192",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_192\nSECTION: I. | OFFICE OF THE UNIVERSITY PRESIDENT\nor Division: | Office of the Campus Director\nClassification: | Complex\nType of Transaction: | G2G\nG2C\nWho may avail: | Students, Faculty, Colleges/Offices and Other Stakeholders\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nRequest Letter | Client\nAppropriate attachments | Client\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nSubmit Letter | Receives the request | n/a | 2 minutes | OCD Staff\nRequest to OCD | letter from the client\n\n32",
+        "score": 0.016129032258064516
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Transcript of Records/Copy of Grades\nh:additionalInfo: TOR (Transcript of Records): Official record of all subjects and grades, issued by the Office of the Registrar; transferees submit their previous school's TOR for evaluation.\nh:definition: Secured from: Previous school/College/Department.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Transcript of Records/Copy of Grades"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 1: Secure checklist\na:agencyAction: Office secretary issues signed checklist.\na:clientAction: Faculty secures checklist of submission of all requirements.\na:hasFeeText: None\na:hasProcessingTime: 3 minutes\na:sourceSection: XXXI. Colleges, Service 5: Signing of Faculty Clearance, Step 1, p. 88\nh:nextStep -> Step 2: Submit deliverables [a:Serv_SigningOfFacultyClearance_S2]\nh:performedBy -> Office secretary or assigned personnel [a:Role_Officesecretaryorassignedpersonnel]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Secure checklist"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_224\nSECTION: and technical\nPPMP and | approved PPMP\nPurchase Request | and PR or TOR\n(PR) | to | the 2. Evaluate if it is\nProcurement | Unit. | included in the\nApproved | None | 5 minutes | Procurement Unit\nProcurement\nNote: | Plan (APP)\nTOR is needed instead of | Assign PR\nPR for | number\nconsultancy services\n1.3 Prepare\n• Request for None | 10 minutes\nQuotation | Procurement Unit\n(RFQ)\n1.4 Check the RFQ | 1 day\nvis-à-vis Purchase None | Procurement Unit\nRequest or TOR\n\n43\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_250\nSECTION: CHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nSF-Form-009 | ICTS Office\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Client fills-up the\nSF-FORM-001 | Conduct\n(via LSPU | preventive\nNexus) | maintenance of ICT\n2. The ICTS staff | Equipment.\nevaluates the\nproblem and\ndetermines the | None | 1 hour | ICTS Unit Head\npossible solution | ICTS Staff\n3. The servicing\nstaff issues a\nService Report\nregarding the\nstatus of the\nequipment.\nTOTAL: | None | 1 hour\n\n3. Web Posting (University Files)\nA service designed to stream",
+    "answer_for_eval": "You can secure the Transcript of Records (TOR) from the previous school or college/department.",
+    "retrieval_query": "Where can I secure a TOR?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:Service",
+              "a:hasCategory",
+              "a:ServiceCategory"
+            ],
+            [
+              "a:Service",
+              "a:hasChannel",
+              "a:Channel"
+            ],
+            [
+              "a:Service",
+              "a:availedAt",
+              "h:Office"
+            ],
+            [
+              "a:Service",
+              "a:sourceSection",
+              "?section"
+            ],
+            [
+              "a:Service",
+              "a:sourceDocument",
+              "?doc"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": [
+            {
+              "var": "?section",
+              "op": "contains",
+              "value": {
+                "literal": "TOR"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Unresolved entity or class: http://www.w3.org/2001/XMLSchema#string",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 7,
+    "elapsed_seconds": 8.172000000020489,
+    "retrieval_seconds": 7.14000000001397,
+    "generation_seconds": 1.0320000000065193,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_224\nSECTION: and technical\nPPMP and | approved PPMP\nPurchase Request | and PR or TOR\n(PR) | to | the 2. Evaluate if it is\nProcurement | Unit. | included in the\nApproved | None | 5 minutes | Procurement Unit\nProcurement\nNote: | Plan (APP)\nTOR is needed instead of | Assign PR\nPR for | number\nconsultancy services\n1.3 Prepare\n• Request for None | 10 minutes\nQuotation | Procurement Unit\n(RFQ)\n1.4 Check the RFQ | 1 day\nvis-à-vis Purchase None | Procurement Unit\nRequest or TOR\n\n43",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_250\nSECTION: CHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nSF-Form-009 | ICTS Office\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Client fills-up the\nSF-FORM-001 | Conduct\n(via LSPU | preventive\nNexus) | maintenance of ICT\n2. The ICTS staff | Equipment.\nevaluates the\nproblem and\ndetermines the | None | 1 hour | ICTS Unit Head\npossible solution | ICTS Staff\n3. The servicing\nstaff issues a\nService Report\nregarding the\nstatus of the\nequipment.\nTOTAL: | None | 1 hour\n\n3. Web Posting (University Files)\nA service designed to streamline the process of sharing relevant information,\nannouncements, events, and updates on a university's official website. Through\nthis service, administrators can efficiently upload and publish content, ensuring\ntimely communication with students, faculty, staff, and the broader community. It\nfacilitates the dissemination of crucial information, fostering transparency,\nengagement, and accessibility across the university ecosystem.\n\nOffice or Division: | Information and Communications Technology Services (ICTS)\nClassification: | Simple\nType of Transaction: | G2G – Government to Government\nG2C – government to Citizen",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_148\nSECTION: CHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nof Transaction: G2C – Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nSemestral Clearances | Registrar’s Office\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Present the | Checks/evaluates the None | 1 minute | OSAS Director/\nsemestral | student obligation such | Chairperson/ Staff\nclearance to | as school uniform,\nOSAS. | school ID, haircut and\nhair color, records on\nstudent discipline, and\nrecords on Student\nOrganization.\n\n17",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_314\nSECTION: Office or Division: | Guidance and Counseling\nOffice or Division: | Guidance and Counseling\nClassification: | Simple\nType of Transaction: | G2C\nWho may avail: | Student-applicants\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nOnline application form | LSPU Online Admission\nCertified True Copy (Report Card and/or TOR) | Client\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. Orientation | Inform the clients | N/A | 15 minutes | Guidance Staff\nabout the college\nentrance examination\n(flow, time)\n2. Examination | Monitoring of the | N/A | 1 and ½ hours Guidance Staff and\nproper | desktop during the | Interns\nexamination.\nExamination result | Issuance of the official | N/A | 1-3 days | Guidance Staff\nresult to examinees\n1-3 days, 1 hr\nTOTAL: | None | and 45\nminutes\n\n2. Appraisal\nAdministration and interpretation of appraisal.\n\nOffice or Division: | Guidance and Counseling\nClassification: | Simple\nType of Transaction: | G2G\nG2C\nWho may avail: | Students, Faculty, Non-Teaching, Job Applicants\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nData Privacy Consent | Client\nIdentification Card | Guidance and Counseling\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_192\nSECTION: I. | OFFICE OF THE UNIVERSITY PRESIDENT\nor Division: | Office of the Campus Director\nClassification: | Complex\nType of Transaction: | G2G\nG2C\nWho may avail: | Students, Faculty, Colleges/Offices and Other Stakeholders\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nRequest Letter | Client\nAppropriate attachments | Client\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nSubmit Letter | Receives the request | n/a | 2 minutes | OCD Staff\nRequest to OCD | letter from the client\n\n32",
+      "APPROXIMATE MATCH (not an exhaustive result): Transcript of Records/Copy of Grades\nh:additionalInfo: TOR (Transcript of Records): Official record of all subjects and grades, issued by the Office of the Registrar; transferees submit their previous school's TOR for evaluation.\nh:definition: Secured from: Previous school/College/Department.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Transcript of Records/Copy of Grades",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 1: Secure checklist\na:agencyAction: Office secretary issues signed checklist.\na:clientAction: Faculty secures checklist of submission of all requirements.\na:hasFeeText: None\na:hasProcessingTime: 3 minutes\na:sourceSection: XXXI. Colleges, Service 5: Signing of Faculty Clearance, Step 1, p. 88\nh:nextStep -> Step 2: Submit deliverables [a:Serv_SigningOfFacultyClearance_S2]\nh:performedBy -> Office secretary or assigned personnel [a:Role_Officesecretaryorassignedpersonnel]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Secure checklist"
+    ]
+  },
+  "answer": "You can secure the Transcript of Records (TOR) from the previous school or college/department.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

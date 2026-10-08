@@ -1,0 +1,56 @@
+{
+  "trace": {
+    "mode": "hybrid_rag",
+    "query": "Which CHED memorandum order covers the BSCS, BSIS and BSIT programs?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_65",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_65\nSECTION: CHED MEMORANDUM ORDER: CMO No. 25, s. 2015\nCHED MEMORANDUM ORDER: CMO No. 25, s. 2015\nTitle: Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nLSPU-LB programs covered by this CMO: Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program.\nProgram educational objectives:\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.",
+        "score": 0.03278688524590164
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_72",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_72\nSECTION: CHED MEMORANDUM ORDER: CMO No. 27, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 27, s. 2017\nTitle: Revised Policies, Standards and Guidelines for Bachelor of Science in Accountancy (BSA)\nLSPU-LB programs covered by this CMO: Bachelor of Science in Accountancy.\nProgram educational objectives:\n- Apply generally accepted accounting, auditing, and taxation principles to prepare and evaluate financial information with integrity.\n- Qualify for and succeed in the CPA Licensure Examination and subsequent professional accountancy practice.",
+        "score": 0.030834914611005692
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_74",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_74\nSECTION: CHED MEMORANDUM ORDER: CMO No. 34, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 34, s. 2017\nTitle: Policies and Standards for Undergraduate Programs in Psychology\nLSPU-LB programs covered by this CMO: Bachelor of Science in Psychology.\nProgram educational objectives:\n- Apply the scientific study of behavior and mental processes to understand individuals and groups across diverse settings.\n- Conduct psychological research and assessment ethically, and pursue further training or licensure (e.g. as a psychometrician) as warranted.",
+        "score": 0.030303030303030304
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_71",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_71\nSECTION: CHED MEMORANDUM ORDER: CMO No. 17, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 17, s. 2017\nTitle: Revised Policies, Standards and Guidelines for Bachelor of Science in Business Administration\nLSPU-LB programs covered by this CMO: Bachelor of Science in Business Administration - Major in Marketing Management; Bachelor of Science in Business Administration - Major in Financial Management.\nProgram educational objectives:\n- Apply core business, economic, and management principles to plan, organize, and evaluate business operations.\n- Exercise sound, ethical decision-making within a chosen business specialization in response to a changing market environment.",
+        "score": 0.029386529386529386
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_75",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_75\nSECTION: CHED MEMORANDUM ORDER: CMO No. 62, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 62, s. 2017\nTitle: Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM)\nLSPU-LB programs covered by this CMO: Bachelor of Science in Tourism Management; Bachelor of Science in Hospitality Management.\nProgram educational objectives:\n- Plan, deliver, and manage guest-centered tourism or hospitality operations that meet industry service standards.\n- Advance to supervisory or entrepreneurial roles within the tourism and hospitality industry through demonstrated operational and management competence.",
+        "score": 0.0293236301369863
+      }
+    ],
+    "graph_hits": [],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_65\nSECTION: CHED MEMORANDUM ORDER: CMO No. 25, s. 2015\nCHED MEMORANDUM ORDER: CMO No. 25, s. 2015\nTitle: Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nLSPU-LB programs covered by this CMO: Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program.\nProgram educational objectives:\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_72\nSECTION: CHED MEMORANDUM ORDER: CMO No. 27, s. 2017",
+    "answer_for_eval": "The CHED memorandum order that covers the BSCS, BSIS, and BSIT programs is CMO No. 25, s. 2015.",
+    "retrieval_query": "Which CHED memorandum order covers the BSCS, BSIS, and BSIT programs?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 5,
+    "elapsed_seconds": 0.8279999999795109,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_65\nSECTION: CHED MEMORANDUM ORDER: CMO No. 25, s. 2015\nCHED MEMORANDUM ORDER: CMO No. 25, s. 2015\nTitle: Revised Policies, Standards, and Guidelines for Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) Programs\nLSPU-LB programs covered by this CMO: Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program.\nProgram educational objectives:\n- Design, develop, and evaluate computing solutions using appropriate current techniques, skills, and tools to meet the requirements of a specific computing or IT problem.\n- Function effectively as part of a development team, communicating technical work clearly to both technical and non-technical stakeholders.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_72\nSECTION: CHED MEMORANDUM ORDER: CMO No. 27, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 27, s. 2017\nTitle: Revised Policies, Standards and Guidelines for Bachelor of Science in Accountancy (BSA)\nLSPU-LB programs covered by this CMO: Bachelor of Science in Accountancy.\nProgram educational objectives:\n- Apply generally accepted accounting, auditing, and taxation principles to prepare and evaluate financial information with integrity.\n- Qualify for and succeed in the CPA Licensure Examination and subsequent professional accountancy practice.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_74\nSECTION: CHED MEMORANDUM ORDER: CMO No. 34, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 34, s. 2017\nTitle: Policies and Standards for Undergraduate Programs in Psychology\nLSPU-LB programs covered by this CMO: Bachelor of Science in Psychology.\nProgram educational objectives:\n- Apply the scientific study of behavior and mental processes to understand individuals and groups across diverse settings.\n- Conduct psychological research and assessment ethically, and pursue further training or licensure (e.g. as a psychometrician) as warranted.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_71\nSECTION: CHED MEMORANDUM ORDER: CMO No. 17, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 17, s. 2017\nTitle: Revised Policies, Standards and Guidelines for Bachelor of Science in Business Administration\nLSPU-LB programs covered by this CMO: Bachelor of Science in Business Administration - Major in Marketing Management; Bachelor of Science in Business Administration - Major in Financial Management.\nProgram educational objectives:\n- Apply core business, economic, and management principles to plan, organize, and evaluate business operations.\n- Exercise sound, ethical decision-making within a chosen business specialization in response to a changing market environment.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_75\nSECTION: CHED MEMORANDUM ORDER: CMO No. 62, s. 2017\nCHED MEMORANDUM ORDER: CMO No. 62, s. 2017\nTitle: Policies, Standards and Guidelines for Bachelor of Science in Tourism Management (BSTM) and Bachelor of Science in Hospitality Management (BSHM)\nLSPU-LB programs covered by this CMO: Bachelor of Science in Tourism Management; Bachelor of Science in Hospitality Management.\nProgram educational objectives:\n- Plan, deliver, and manage guest-centered tourism or hospitality operations that meet industry service standards.\n- Advance to supervisory or entrepreneurial roles within the tourism and hospitality industry through demonstrated operational and management competence."
+    ]
+  },
+  "answer": "The CHED memorandum order that covers the BSCS, BSIS, and BSIT programs is CMO No. 25, s. 2015.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

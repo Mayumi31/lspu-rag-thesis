@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "How much is an ID lace, and where is it sold?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "I do not have specific information about the cost or location of purchasing an ID lace at LSPU-LB. Please contact the campus administration or the student affairs office for accurate details.",
+    "retrieval_query": "How much is an ID lace, and where is it sold?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.0939999999827705,
+    "selected_contexts": []
+  },
+  "answer": "I do not have specific information about the cost or location of purchasing an ID lace at LSPU-LB. Please contact the campus administration or the student affairs office for accurate details.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

@@ -1,0 +1,260 @@
+{
+  "pipeline": "oc-rag-3.5-grounded-evidence",
+  "model": "gpt-4.1-nano",
+  "judge_model": "gpt-4.1-nano",
+  "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+  "questions": [
+    {
+      "question": "What is the minimum GWA needed to apply for BS Computer Science?",
+      "ground_truth": "The minimum general weighted average (GWA) for BS Computer Science (Major in Intelligent Systems) is 90, per the LSPU Admission Guidelines for 1st Semester AY 2026-2027, Annex A."
+    },
+    {
+      "question": "Which college offers BS Psychology?",
+      "ground_truth": "BS Psychology is offered by the College of Arts and Sciences (CAS)."
+    },
+    {
+      "question": "How many years does the BS Accountancy program take?",
+      "ground_truth": "BS Accountancy is a 4-year program. All 23 LSPU-LB programs are 4-year bachelor's programs."
+    },
+    {
+      "question": "Which programs require a GWA of 85, and which colleges offer them?",
+      "ground_truth": "Five programs require a minimum GWA of 85: BS Information Technology majors in Animation and Motion Graphics, Web and Mobile Application Development, and Service Management Program (College of Computer Studies); BS Criminology (College of Criminal Justice Education); and BS Hospitality Management (College of Hospitality Management and Tourism)."
+    },
+    {
+      "question": "Which CHED memorandum order covers the BSCS, BSIS and BSIT programs?",
+      "ground_truth": "CMO No. 25, series of 2015: Revised Policies, Standards, and Guidelines for the Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS), and Bachelor of Science in Information Technology (BSIT) programs."
+    },
+    {
+      "question": "What subjects does a BS Psychology student take in first year, first semester?",
+      "ground_truth": "First year, first semester of BS Psychology: PATHFit 1 - Movement Competency Training (2 units); GEC 101 - Understanding the Self (3); GEC 104 - Mathematics in the Modern World (3); P.I. 100 - The Life and Works of Jose Rizal (3); GEC ELEC 1 - Living in the IT Era (3); NSTP 1 - CWTS 1 / ROTC 1 (3); BC PSY 1 - Introduction to Psychology (3); and KOMFIL - Kontekstwalisadong Komunikasyon sa Filipino (3)."
+    },
+    {
+      "question": "What is the prerequisite of CMSC 204 (Algorithms and Complexity) in BSCS?",
+      "ground_truth": "The prerequisite of CMSC 204 (Algorithms and Complexity), taken in the 2nd semester of second year of BSCS - Intelligent Systems, is CMSC 202 (Discrete Structures 2), taken in the 1st semester of second year."
+    },
+    {
+      "question": "How many units is GEC 101 (Understanding the Self) in BS Psychology?",
+      "ground_truth": "GEC 101 - Understanding the Self is a 3-unit subject in the 1st semester of first year of BS Psychology."
+    },
+    {
+      "question": "What career paths can a BS Psychology graduate take?",
+      "ground_truth": "The ontology lists three career tracks for BS Psychology: the Clinical Psychology Track (psychometrician, or graduate study and supervised practice toward psychologist licensure); the Human Resources / Industrial-Organizational Psychology Track (HR, recruitment, training and organizational development roles); and the Counseling / Guidance Track (school or community guidance and counseling support roles, often alongside licensed guidance counselors). These are general career information, not an official LSPU document."
+    },
+    {
+      "question": "What programs does the College of Computer Studies offer?",
+      "ground_truth": "The College of Computer Studies (CCS) offers 4 programs: BS Computer Science major in Intelligent Systems, and BS Information Technology majors in Animation and Motion Graphics, Web and Mobile Application Development, and Service Management Program. CCS gives priority to STEM and ICT/ICTS strand applicants."
+    },
+    {
+      "question": "Which programs does the College of Hospitality Management and Tourism offer, and what GWA does each require?",
+      "ground_truth": "The College of Hospitality Management and Tourism (CIHT) offers 2 programs: BS Tourism Management, which requires a minimum GWA of 88, and BS Hospitality Management, which requires a minimum GWA of 85."
+    },
+    {
+      "question": "How many tardiness instances count as one absence?",
+      "ground_truth": "Three (3) tardiness instances in a class count as one (1) absence (Student Handbook, Ch. 6 Art. 3 Sec. 1)."
+    },
+    {
+      "question": "At what percentage of unexcused absences is a student dropped from the roll?",
+      "ground_truth": "A student whose unexcused absences reach 17% of the total class hours per semester is dropped from the roll. Excused absences may be removed through makeup."
+    },
+    {
+      "question": "Is cyber bullying a minor or a major offense?",
+      "ground_truth": "Cyber bullying is a major offense (Student Handbook, Ch. 6 Art. 2 Sec. 1.1). It is defined as bullying done through technology or any electronic means, and is based on RA 10175."
+    },
+    {
+      "question": "What are the sanctions for a first offense of cyber bullying?",
+      "ground_truth": "The sanction for a first offense of cyber bullying is suspension for one (1) month."
+    },
+    {
+      "question": "Which law is the offense of illegal access or hacking based on?",
+      "ground_truth": "Illegal access or hacking is based on RA 10175, the Cybercrime Prevention Act of 2012."
+    },
+    {
+      "question": "Is smoking a minor or a major offense?",
+      "ground_truth": "Smoking is a minor offense (Student Handbook, Ch. 6 Art. 3 Sec. 6). Smoking within University premises is strictly prohibited to all students."
+    },
+    {
+      "question": "What kinds of attire are prohibited on campus?",
+      "ground_truth": "Prohibited campus attire includes shorts, walking shorts and cycling shorts; pedal pushers; capri pants; cargo shorts; mutilated or jazzed pants; faded, torn or wrinkled shirts; jogging pants; miniskirts; sleeveless, backless, halter and spaghetti-strap tops; sandos; plunging necklines; leggings; and slippers. A student violating the uniform provision is not allowed to enter the University gates unless a promissory note or communication letter from OSAS is presented."
+    },
+    {
+      "question": "What haircut must male 2nd to 4th year college students follow?",
+      "ground_truth": "Male 2nd to 4th year college students follow a clean-cut or 1x2 barber's cut, which is inspected monthly. Male freshmen and Senior High School students follow a 2x3 cut."
+    },
+    {
+      "question": "Do school rules still apply if I violate them during OJT or an off-campus competition?",
+      "ground_truth": "Yes. Violations committed outside University premises are treated as if committed within the University when a student is representing the University at conferences, conventions, competitions, presentations, On-the-Job Training (OJT), or the Student Internship Program (SIP)."
+    },
+    {
+      "question": "What academic statuses can a student be placed under?",
+      "ground_truth": "The academic statuses are Warning (given by the Dean when a student fails 25%-49% of total registered units), Probation (fails 50%-74% of units; load is reduced by the Dean), Dismissal from the College (fails more than 75% of enrolled units), and Disqualification (an enrollment-status flag that may appear on the Copy of Grades alongside the others)."
+    },
+    {
+      "question": "Is drinking alcoholic beverages a minor or a major offense?",
+      "ground_truth": "Drinking alcoholic beverages, or exhibiting drunken behavior within University premises, is a major offense (Student Handbook, Ch. 6 Art. 2 Sec. 6.1). Sanctions: a first offense is one week of suspension plus 40 hours of community service in the institution; a second offense is suspension for one semester; a third offense is expulsion from the University."
+    },
+    {
+      "question": "Which office handles enrollment each semester?",
+      "ground_truth": "The Office of the Registrar handles enrollment each semester (Citizen's Charter 2026, Registrar, Service 1: Enrollment)."
+    },
+    {
+      "question": "What documents do I need for enrollment?",
+      "ground_truth": "Enrollment documents: Enrolment Slip from the Admission Office (new students and transferees); original Certificate of Good Moral Character; original Report Card (new students only); photocopy of PSA Birth Certificate or Marriage Contract (for married female students); original or authenticated Form 137 (new students only); medical slip or certificate from the LSPU Medical Clinic; Transcript of Records or Copy of Grades for evaluation (transferees only); 2 pcs 2x2 ID picture; original Certificate of Transfer (transferees only); 1 pc long brown envelope; and, for old students, the clearance and the student ID."
+    },
+    {
+      "question": "How do I pay my fees online, and through which portal?",
+      "ground_truth": "Fees can be paid online through the LandBank LinkBiz Portal, using a mobile phone or PC. Steps: access the portal; fill out the payment form; select the account and pay; receive the confirmation receipt; send the transaction receipt by email; the Cashier verifies the payment; and you receive an e-copy of the official receipt. A LandBank LinkBiz convenience fee of Php 7.00 applies, and total processing time is about 2 days because of 1-2 banking days of payment verification."
+    },
+    {
+      "question": "What are the steps to request a Transcript of Records?",
+      "ground_truth": "Step 1: fill out the request slip (LSPU-REG-SF-011) with clearance and signatures of the heads of responsible offices; graduates fill out the same slip. Step 2: pay the required fees at the Cashier's Office (TOR is P75.00 per page for undergraduate and P150.00 per page for graduate). Step 3: submit the request slip and official receipt and receive a claim stub with the release date while the Registrar prepares the document. Step 4: claim the document on the date on the claim stub. Total service time is up to 59 minutes for active files and 1 day plus about 44 minutes for inactive files."
+    },
+    {
+      "question": "What is the LSPUCET, and which office administers it?",
+      "ground_truth": "The LSPUCET is the LSPU college entrance examination. The service covers orientation, administration, and release of results, and is offered to student-applicants at the Guidance Office. It requires an online application form and a certified true copy of the report card or TOR, has no fee, and takes about 1-3 days, 1 hour and 45 minutes."
+    },
+    {
+      "question": "How long does the fee assessment step of enrollment take?",
+      "ground_truth": "The assessment of fees step at the Accounting Office takes 3 minutes."
+    },
+    {
+      "question": "What documents must freshman applicants submit?",
+      "ground_truth": "Freshman applicants submit the Report Card (DepEd Form 138) or equivalent (Form 137) and NCAE results; a physical and medical examination certified by a government physician; a certificate of good moral character from the last school attended; three latest 2x2 pictures; and a photocopy of the authenticated birth certificate (NSO). This is the older website wording; the 2026 Citizen's Charter enrollment list asks for a PSA birth certificate, a medical slip from the LSPU Medical Clinic, and 2 pictures."
+    },
+    {
+      "question": "What documents must transferee applicants submit?",
+      "ground_truth": "Transferee applicants submit a transfer credential or honorable dismissal from the last school attended; a transcript of records or copy of academic records for evaluation; a physical and medical examination certified by a government physician; a certificate of good moral character from the last school attended; three latest 2x2 pictures; and a photocopy of the authenticated birth certificate (NSO). The Citizen's Charter enrollment list also asks for an original Certificate of Transfer."
+    },
+    {
+      "question": "How can I apply online for completion of an INC grade?",
+      "ground_truth": "After submitting the complete requirements to the subject teacher, log in to the LSPU online system through the portal and apply online for completion of the INC or 4.0 grade. The steps are: apply online for completion; pay the completion fee (P30.00 per unit per the Citizen's Charter); inform the subject teacher; Dean approval; and Registrar confirmation. Total processing time is 25 minutes."
+    },
+    {
+      "question": "What are the steps for processing my student ID?",
+      "ground_truth": "Step 1: scan the QR code or fill out the Google form. Step 2: your information is verified and encoded. Step 3: the ID card is printed, with a fee of Php 100.00. Step 4: sign the logbook. The service is at the Business Affairs Office, requires your COR, and takes about 4 minutes in total."
+    },
+    {
+      "question": "Within how many days should the school release official documents I request?",
+      "ground_truth": "Students have the right to the issuance of official certificates, diplomas, transcript of records, grades, transfer credentials and similar documents within thirty (30) days from request (Student Handbook, Appendix A, Article 1(e))."
+    },
+    {
+      "question": "Who may avail of the enrollment service?",
+      "ground_truth": "The enrollment service is open to all (classification: Simple; transaction types G2C and G2G), per the Citizen's Charter 2026. It is handled by the Office of the Registrar."
+    },
+    {
+      "question": "What does OSAS handle?",
+      "ground_truth": "The Office of Student Affairs and Services (OSAS) handles all complaints against alleged violators of the Code of Conduct, issues promissory notes and excuse-slip referrals, and coordinates the Student Discipline Coordinator."
+    },
+    {
+      "question": "Which office issues excuse slips for absences?",
+      "ground_truth": "The Guidance Office issues excuse slips for absences. It also does follow-up counseling for students who violated a rule, except in expulsion cases."
+    },
+    {
+      "question": "Where is the Guidance Office located?",
+      "ground_truth": "The Guidance Office is inside the OSAS building. To reach the OSAS building from the main gate, turn right and walk past the Hall and Gender and Development, then follow the CBAA hallway to the end."
+    },
+    {
+      "question": "What can I do on the LSPU Portal?",
+      "ground_truth": "On the LSPU Portal students can view their grades, check their enrollment status and academic standing flags (such as Warning, Probation and INC), enlist subjects for enrollment (old students), view the Certificate of Registration (COR), apply online for completion of an INC or 4.0 grade, verify printed grades against the Registrar's report, and request the school Google account."
+    },
+    {
+      "question": "What is Google Classroom used for at LSPU-LB?",
+      "ground_truth": "Google Classroom, part of the school's Google Workspace, is used for online class management: joining a class with a class code, reading posted lessons and announcements, receiving assignments, and submitting outputs online."
+    },
+    {
+      "question": "Who sits on the Student Discipline Committee?",
+      "ground_truth": "The Student Discipline Committee is composed of the OSAS Director/Chairperson (Chair), the Student Discipline Coordinator (Vice Chair), the VPAA/Campus Director, the student's College Dean, the Chief Security Officer, the President of the Supreme Student Council, and the University Legal Consultant. It handles investigation and recommendation on all Code of Conduct violation complaints."
+    },
+    {
+      "question": "Which office handles scholarships and financial assistance, and where is it?",
+      "ground_truth": "The Scholarship and Financial Assistance (SFA) Unit processes scholarship and financial assistance applications. From the main gate, walk straight in; the SFA office is inside the BAO, in the same building as the Clinic and Cafeteria, on the left side."
+    },
+    {
+      "question": "Which office issues the Copy of Grades (COG)?",
+      "ground_truth": "The Office of the Registrar issues the Copy of Grades (COG). It also handles enrollment, dropping, withdrawal, Honorable Dismissal, and change or rectification of grades."
+    },
+    {
+      "question": "What grade range is needed for Summa Cum Laude?",
+      "ground_truth": "Summa Cum Laude requires a grade range of 1.00 to 1.20, plus a normal academic load, at least 75% of units completed in residence, at least 2 years of residence, no grade below 2.0 in PE/NSTP/Euthenics or similar subjects, and good moral character."
+    },
+    {
+      "question": "What are the requirements for the full varsity scholarship?",
+      "ground_truth": "The full varsity scholarship (Full Scholarship/Training Allowance) requires being a SCUAA medalist (gold, silver, or bronze), a grade average of 2.0 for the preceding semester, and good moral character."
+    },
+    {
+      "question": "What are the criteria for the Athlete of the Year Award?",
+      "ground_truth": "The Athlete of the Year Award goes to a student who excels in sports and whose representation and performance in competitions brought recognition to the University. Criteria: no derogatory records with OSAS or the Guidance and Counseling Office; having represented the university and won in various competitions; evaluated 70% on technical/competition-based points and 30% on student-achievement impact. It is awarded through the Committee on Awards and Recognition."
+    },
+    {
+      "question": "How do I get to the Registrar's office from the main gate?",
+      "ground_truth": "From the main gate, turn left and follow the road-side path to the Administration Building. Go up to the second floor. The Registrar's Office is on that floor."
+    },
+    {
+      "question": "How much is an ID lace, and where is it sold?",
+      "ground_truth": "The ID lace (lanyard) costs Php 130 and is sold at the Business Affairs Office (BAO)."
+    },
+    {
+      "question": "How much does the official uniform cost, and is tailoring included?",
+      "ground_truth": "The official uniform costs about Php 600 to 800 depending on the fabric, sold at the Business Affairs Office. Only the fabric is sold, so you must find a tailor to sew the polo and pants; tailoring is extra and not included."
+    },
+    {
+      "question": "When was the 2026 campus-level ICAC-CAF held?",
+      "ground_truth": "The 2026 LSPU-LBC campus-level ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival) was held September 15-18, 2026. The colleges competed in basketball, volleyball, chess, e-sports, swimming and other sports, plus cultural competitions, and the winners represented LSPU-LBC in the university-wide ICAC-CAF."
+    },
+    {
+      "question": "Who can I contact in an emergency on campus?",
+      "ground_truth": "For any emergency or safety concern on campus, tell the nearest guard or go to the Guard House at the main gate (on the left as you enter); the Safety and Security Management Office handles security concerns. For feeling sick or minor injuries, go to the University Health Service (campus clinic). For emotional distress or mental health concerns, go to the Guidance Office inside the OSAS building. Tell your College Dean about bullying or harassment. For police, fire, ambulance or life-threatening emergencies, call the national hotline 911, then inform a campus guard."
+    },
+    {
+      "question": "What should I do during a typhoon?",
+      "ground_truth": "Before traveling, check the official LSPU-LB Facebook page for campus-wide class suspensions, and your professor's Messenger group and Google Classroom for class-level announcements; keep your phone charged. If you are on campus in strong wind or heavy rain, stay indoors, keep away from windows and glass doors, stay out of open areas and away from trees, posts and loose signs, and follow the guards and faculty. Do not travel through flooded roads or walk under fallen wires. Go home only when it is safe, and check announcements before coming back. (This is general safety guidance, not a documented LSPU-LB protocol.)"
+    },
+    {
+      "question": "What mental health services does the university offer?",
+      "ground_truth": "The university offers Mental Health Counseling and Referral (assessment, counseling, and referral for enrolled students; university health service personnel may assess students aged 15-17 with consent and assent) and Guidance and Counseling Services (individual and group counseling, case conferences with parents or students, and follow-up or referral to a multidisciplinary team). The Guidance Office, inside the OSAS building, offers counseling and mental health support."
+    },
+    {
+      "question": "What are the requirements for the half varsity scholarship?",
+      "ground_truth": "The half varsity scholarship (Half Scholarship/Training Allowance) requires being a SCUAA point contributor or finalist, with an average grade of 2.5 and a maximum grade of 2.0."
+    },
+    {
+      "question": "How many degree programs does LSPU-LB offer?",
+      "ground_truth": "LSPU-LB offers 23 degree programs across 8 colleges, all 4-year bachelor's programs. By college: CTE 9, CCS 4, CBAA 3, CFND 2, CIHT 2, CAS 1, CCJE 1, CF 1."
+    },
+    {
+      "question": "Which programs lead to a board or licensure exam?",
+      "ground_truth": "15 of the 23 programs lead to a PRC licensure examination: BS Psychology (Psychometrician), BS Accountancy (CPA), BS Criminology (Criminologist), BS Fisheries (Fisheries Professional Licensure Examination), BS Food Technology (Food Technologists Licensure Examination), BS Nutrition and Dietetics (Nutritionist-Dietitian), and all 9 CTE teacher-education programs (Licensure Examination for Teachers). The 8 without a board exam are BS Computer Science, both BS Business Administration majors, the three BS Information Technology majors, BS Tourism Management, and BS Hospitality Management."
+    },
+    {
+      "question": "How many colleges does LSPU-LB have, and what are they?",
+      "ground_truth": "LSPU-LB has 8 colleges: College of Arts and Sciences (CAS); College of Business Administration and Accountancy (CBAA); College of Computer Studies (CCS); College of Criminal Justice Education (CCJE); College of Fisheries (CF); College of Food Nutrition and Dietetics (CFND); College of Hospitality Management and Tourism (CIHT); and College of Teacher Education (CTE)."
+    },
+    {
+      "question": "What programs does the College of Teacher Education offer?",
+      "ground_truth": "The College of Teacher Education (CTE) offers 9 programs: BS Education majors in English, Filipino, Mathematics, Sciences, and Social Studies; Bachelor of Elementary Education; Bachelor of Technology and Livelihood Education major in Home Economics; Bachelor of Technical-Vocational Teacher Education major in Food and Service Management; and Bachelor of Physical Education. CTE requires no grade lower than 85 in English, Mathematics, and Science for admission."
+    },
+    {
+      "question": "What does INC mean?",
+      "ground_truth": "INC means Incomplete: a temporary grade for unfinished requirements or a missed final exam for a valid reason. It becomes 5.00 if not completed within one year."
+    },
+    {
+      "question": "What is the difference between a COR and a COG?",
+      "ground_truth": "The COR (Certificate of Registration) certifies that you are officially enrolled for the semester; it is required for admission to classes and for processing a student ID, and can be viewed on the portal or claimed as a printed copy at the Registrar. The COG (Copy of Grades) is the official record of your grades for a semester issued by the Registrar; its information is also shown on the LSPU Portal."
+    },
+    {
+      "question": "What is the minimum GWA needed to apply, by program?",
+      "ground_truth": "Minimum GWA cutoffs (1st Sem AY 2026-2027) range from 85 to 90. GWA 90: BS Accountancy, BS Computer Science, BS Food Technology, BS Nutrition and Dietetics, Bachelor of Physical Education, all five BS Education majors, and Bachelor of Elementary Education (11 programs). GWA 88: BS Psychology, both BS Business Administration majors, and BS Tourism Management (4). GWA 87: BS Fisheries, BTLE, and BTVTE (3). GWA 85: the three BS Information Technology majors, BS Criminology, and BS Hospitality Management (5)."
+    }
+  ],
+  "files": {
+    "C:\\Users\\German Gian\\Documents\\lspu-rag-thesis - Claude\\app.py": "fc844cd3c840c9fc0ff45915edcfd6182eb4de58b448383cdc16aa7a0a103077",
+    "data\\LSPU_ONTOLOGY.ttl": "841f295a5ed3190bdf0f4f3d348014f3ab72e458da0c090c3b0bebd8fe57d38f",
+    "data\\LSPU_SOURCE.txt": "1fd9baa83a4acadedea1e501ea44453435c7b70505f8c492e9df1eb051bf0335"
+  },
+  "dependencies": {
+    "ragas": "0.3.9",
+    "rdflib": "7.6.0",
+    "sentence-transformers": "3.1.1",
+    "openai": "1.109.1",
+    "langchain-openai": "1.1.9"
+  }
+}

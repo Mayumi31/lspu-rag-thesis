@@ -1,0 +1,100 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What documents must transferee applicants submit?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?requirement=Entrance examination and interview (new freshmen and transferees)\nStudent Transferee [h:StudentType_Transferee] --h:mustSatisfy--> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nTYPE of Entrance examination and interview (new freshmen and transferees): h:AdmissionRequirement\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements)\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = Strictness and lower-cutoff advice: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. Cutoff values: LSPU Admission Guidelines, 1st Sem AY 2026-2027, Annex A. Exam and interview: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = LSPU Admission Guidelines, 1st Sem AY 2026-2027, Annex A\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): p:sourceDocument = LSPU Admission Guidelines for the 1st Semester of AY 2026-2027, Annex A.\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:verificationNote = Cutoffs are for 1st Semester AY 2026-2027 and may change each year.\nTYPE of Student Transferee: h:StudentType"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?requirement=Student transferee admission documents (LSPU website list)\nStudent Transferee [h:StudentType_Transferee] --h:mustSatisfy--> Student transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments]\nTYPE of Student transferee admission documents (LSPU website list): h:AdmissionRequirement\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Student Transferees)\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:verificationNote = Older website wording; see the note on lspu:AdmReq_FreshmanDocuments. The Charter's enrollment list for transferees also asks for an original certificate of transfer and TOR or copy of grades.\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:verificationNote = Website list is older wording (NSO, government physician). Prefer the Charter list for enrollment day. No rule about a minimum number of units was supplied for transferees from schools outside LSPU.\nTYPE of Student Transferee: h:StudentType"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 1: ?requirement=Entrance examination and interview (new freshmen and transferees)\nEntrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview] --rdf:type--> University Admission Requirement (Handbook) [h:AdmissionRequirement]\nStudent Transferee [h:StudentType_Transferee] --h:mustSatisfy--> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nTYPE of Entrance examination and interview (new freshmen and transferees): h:AdmissionRequirement\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements)\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = Strictness and lower-cutoff advice: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. Cutoff values: LSPU Admission Guidelines, 1st Sem AY 2026-2027, Annex A. Exam and interview: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = LSPU Admission Guidelines, 1st Sem AY 2026-2027, Annex A\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): p:sourceDocument = LSPU Admission Guidelines for the 1st Semester of AY 2026-2027, Annex A.\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:verificationNote = Cutoffs are for 1st Semester AY 2026-2027 and may change each year.\nTYPE of University Admission Requirement (Handbook): http://www.w3.org/2002/07/owl#Class\nTYPE of Student Transferee: h:StudentType"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 2\nGRAPH RESULT 2: ?requirement=Student transferee admission documents (LSPU website list)\nStudent transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments] --rdf:type--> University Admission Requirement (Handbook) [h:AdmissionRequirement]\nStudent Transferee [h:StudentType_Transferee] --h:mustSatisfy--> Student transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments]\nTYPE of Student transferee admission documents (LSPU website list): h:AdmissionRequirement\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Student Transferees)\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:verificationNote = Older website wording; see the note on lspu:AdmReq_FreshmanDocuments. The Charter's enrollment list for transferees also asks for an original certificate of transfer and TOR or copy of grades.\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:verificationNote = Website list is older wording (NSO, government physician). Prefer the Charter list for enrollment day. No rule about a minimum number of units was supplied for transferees from schools outside LSPU.\nTYPE of University Admission Requirement (Handbook): http://www.w3.org/2002/07/owl#Class\nTYPE of Student Transferee: h:StudentType"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 3\nGRAPH RESULT 1: ?label=Student transferee admission documents (LSPU website list)\nStudent transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments] --rdfs:label--> \"Student transferee admission documents (LSPU website list)\"\nTYPE of Student transferee admission documents (LSPU website list): h:AdmissionRequirement\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Student Transferees)\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:verificationNote = Older website wording; see the note on lspu:AdmReq_FreshmanDocuments. The Charter's enrollment list for transferees also asks for an original certificate of transfer and TOR or copy of grades.\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:verificationNote = Website list is older wording (NSO, government physician). Prefer the Charter list for enrollment day. No rule about a minimum number of units was supplied for transferees from schools outside LSPU."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?requirement=Entrance examination and interview (new freshmen and transferees)\nStudent Transferee [h:StudentType_Transferee] --h:mustSatisfy--> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nTYPE of Entrance examination and interview (new freshmen and transferees): h:AdmissionRequirement\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements)\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = Strictness and lower-cutoff advice: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. Cutoff values: LSPU Admission Guidelines, 1st Sem AY 2026-2027, Annex A. Exam and interview: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for Entrance examination and interview (",
+    "answer_for_eval": "Transferee applicants must submit the following documents:\n\n- An original certificate of transfer\n- TOR (Transcript of Records) or a copy of grades",
+    "retrieval_query": "What documents must transferee applicants submit",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:StudentType_Transferee",
+              "h:mustSatisfy",
+              "?requirement"
+            ]
+          ],
+          "select": [
+            "?requirement"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "h:StudentType_Transferee",
+              "h:mustSatisfy",
+              "?requirement"
+            ],
+            [
+              "?requirement",
+              "rdf:type",
+              "h:AdmissionRequirement"
+            ]
+          ],
+          "select": [
+            "?requirement"
+          ],
+          "filters": []
+        },
+        {
+          "patterns": [
+            [
+              "h:AdmReq_TransfereeDocuments",
+              "rdfs:label",
+              "?label"
+            ]
+          ],
+          "select": [
+            "?label"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 5,
+    "elapsed_seconds": 7.062000000034459,
+    "retrieval_seconds": 5.0310000000172295,
+    "generation_seconds": 2.0310000000172295,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?requirement=Entrance examination and interview (new freshmen and transferees)\nStudent Transferee [h:StudentType_Transferee] --h:mustSatisfy--> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nTYPE of Entrance examination and interview (new freshmen and transferees): h:AdmissionRequirement\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements)\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = Strictness and lower-cutoff advice: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. Cutoff values: LSPU Admission Guidelines, 1st Sem AY 2026-2027, Annex A. Exam and interview: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = LSPU Admission Guidelines, 1st Sem AY 2026-2027, Annex A\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): p:sourceDocument = LSPU Admission Guidelines for the 1st Semester of AY 2026-2027, Annex A.\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:verificationNote = Cutoffs are for 1st Semester AY 2026-2027 and may change each year.\nTYPE of Student Transferee: h:StudentType",
+      "QUERY 1\nGRAPH RESULT 2: ?requirement=Student transferee admission documents (LSPU website list)\nStudent Transferee [h:StudentType_Transferee] --h:mustSatisfy--> Student transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments]\nTYPE of Student transferee admission documents (LSPU website list): h:AdmissionRequirement\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Student Transferees)\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:verificationNote = Older website wording; see the note on lspu:AdmReq_FreshmanDocuments. The Charter's enrollment list for transferees also asks for an original certificate of transfer and TOR or copy of grades.\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:verificationNote = Website list is older wording (NSO, government physician). Prefer the Charter list for enrollment day. No rule about a minimum number of units was supplied for transferees from schools outside LSPU.\nTYPE of Student Transferee: h:StudentType",
+      "QUERY 2\nGRAPH RESULT 1: ?requirement=Entrance examination and interview (new freshmen and transferees)\nEntrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview] --rdf:type--> University Admission Requirement (Handbook) [h:AdmissionRequirement]\nStudent Transferee [h:StudentType_Transferee] --h:mustSatisfy--> Entrance examination and interview (new freshmen and transferees) [h:AdmReq_ExamAndInterview]\nTYPE of Entrance examination and interview (new freshmen and transferees): h:AdmissionRequirement\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements)\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = Strictness and lower-cutoff advice: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. Cutoff values: LSPU Admission Guidelines, 1st Sem AY 2026-2027, Annex A. Exam and interview: LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:sourceArticle = LSPU Admission Guidelines, 1st Sem AY 2026-2027, Annex A\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): p:sourceDocument = LSPU Admission Guidelines for the 1st Semester of AY 2026-2027, Annex A.\nSOURCE/QUALIFIER for Entrance examination and interview (new freshmen and transferees): h:verificationNote = Cutoffs are for 1st Semester AY 2026-2027 and may change each year.\nTYPE of University Admission Requirement (Handbook): http://www.w3.org/2002/07/owl#Class\nTYPE of Student Transferee: h:StudentType",
+      "QUERY 2\nGRAPH RESULT 2: ?requirement=Student transferee admission documents (LSPU website list)\nStudent transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments] --rdf:type--> University Admission Requirement (Handbook) [h:AdmissionRequirement]\nStudent Transferee [h:StudentType_Transferee] --h:mustSatisfy--> Student transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments]\nTYPE of Student transferee admission documents (LSPU website list): h:AdmissionRequirement\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Student Transferees)\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:verificationNote = Older website wording; see the note on lspu:AdmReq_FreshmanDocuments. The Charter's enrollment list for transferees also asks for an original certificate of transfer and TOR or copy of grades.\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:verificationNote = Website list is older wording (NSO, government physician). Prefer the Charter list for enrollment day. No rule about a minimum number of units was supplied for transferees from schools outside LSPU.\nTYPE of University Admission Requirement (Handbook): http://www.w3.org/2002/07/owl#Class\nTYPE of Student Transferee: h:StudentType",
+      "QUERY 3\nGRAPH RESULT 1: ?label=Student transferee admission documents (LSPU website list)\nStudent transferee admission documents (LSPU website list) [h:AdmReq_TransfereeDocuments] --rdfs:label--> \"Student transferee admission documents (LSPU website list)\"\nTYPE of Student transferee admission documents (LSPU website list): h:AdmissionRequirement\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Student Transferees)\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:verificationNote = Older website wording; see the note on lspu:AdmReq_FreshmanDocuments. The Charter's enrollment list for transferees also asks for an original certificate of transfer and TOR or copy of grades.\nSOURCE/QUALIFIER for Student transferee admission documents (LSPU website list): h:verificationNote = Website list is older wording (NSO, government physician). Prefer the Charter list for enrollment day. No rule about a minimum number of units was supplied for transferees from schools outside LSPU."
+    ]
+  },
+  "answer": "Transferee applicants must submit the following documents:\n\n- An original certificate of transfer\n- TOR (Transcript of Records) or a copy of grades",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

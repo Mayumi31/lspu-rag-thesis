@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "Which programs require a GWA of 85, and which colleges offer them?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The programs that require a GWA of 85 are Bachelor of Science in Education (BSED) and Bachelor of Science in Elementary Education (BEED). These programs are offered by the College of Education at LSPU-LB.",
+    "retrieval_query": "Which programs require a GWA of 85, and which colleges offer them?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.9839999999967404,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.9839999999967404,
+    "selected_contexts": []
+  },
+  "answer": "The programs that require a GWA of 85 are Bachelor of Science in Education (BSED) and Bachelor of Science in Elementary Education (BEED). These programs are offered by the College of Education at LSPU-LB.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

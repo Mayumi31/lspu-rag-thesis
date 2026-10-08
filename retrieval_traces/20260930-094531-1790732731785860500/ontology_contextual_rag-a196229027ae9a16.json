@@ -1,0 +1,78 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What are the steps to request a Transcript of Records?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_353",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_353\nSECTION: receipt)\nfor\ncompletion/removal.\nThe registrar will\ncheck if the INC or 4.0\ngrade is changed | N/A | 5 minutes | Registrar\nTOTAL: P30.00/ unit | 25 minutes\n\n4. Crediting of Subjects\nThis service is for students who are transferees, shifters, and returnees.\n\nOffice or Division: | Colleges\nClassification: | Simple\nType of Transaction: | G2C - Government to Citizen\nWho may avail: | Students\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nTranscript of records/ copy of grades | Previous school / College/ Department\nFEES TO PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n\n87",
+        "score": 0.031754032258064516
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_355",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_355\nSECTION: 1. Evaluate Transcript of\n1. Evaluate Transcript of\nIdentify subjects to be | Program Head/ faculty\nRecords of Students | N/A | 30 mins\ncredited | In-charge\n2. | Prepare document\nEnumeration of\nof credited subjects | N/A | 15 mins | College Secretary\nsubjects to be credited\n3. | Noted by the dean/ The Dean/ Assoc\nassoc. dean | Dean will review the | N/A | 5 min | Dean/ Assoc. Dean\nsubjects to be credited\n4. | Approval of the | The registrar will\nRegistrar | confirm/ approve the | N/A | 5 min | Registrar\nsubjects to be credited\nTOTAL: | None | 55 minutes\n\n5. Signing of Faculty Clearance\n\nOffice or Division: | Colleges\nClassification: | Simple\nType of Transaction: | G2C - Government to Citizen\nWho may avail: | Regular and Part-Time Faculty\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\nSyllabus | Faculty\nCourse Guide | Faculty\nModules | Faculty\nAttendance Sheets | Faculty\nStudent Consultation | Faculty\nClass Record | Faculty\nGrading Sheet | Faculty\nOther office-specific requirement (borrowed | Faculty\nequipment, etc., ILO assessment Report, etc. )\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nFaculty secures | Office secretary issues none | 3 min | Office secretary or",
+        "score": 0.031544957774465976
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_115",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_115\nSECTION: FEES TO | PROCESSING | PERSON\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\n1. A. For | Issue request slip | None | 5 minutes | Registrar’s Staff\nundergraduate | (LSPU-REG-SF- 011)\nstudents | Review and check\n- Fill out | accomplished\nrequest slip | request of students\nwith clearance | Assess\n(LSPU-REG- | corresponding fees of\nSF- | requested documents\n011) and\nsecure\nsignatures of\nHead of\nResponsible\noffices\nB. For graduates\n- Fill out\nrequest slip\n(LSPU- REG-\nSF-011)\n2. Pay required | Receives payment | Transcript | 2 minutes | Cashier’s Staff\nfees. Proceed to | and issues official | of Records\nthe Cashier’s | receipt\noffice. | - Undergrad\nstudents\nP75.00/page\n\n- Graduate\nstudents\nP150/page\n\nCertificatio\nns\nP30.00/page\n\n-Copy of\nGrades\n-F137\n-CAV\n-Certificate\nof Transfer\n-General\nWeighted\nAve.\n-Subject\ndescription\n-SPES\n-Permit to\nStudy\n\nAuthenticat\nion\n\n5",
+        "score": 0.030886196246139225
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_294",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_294\nSECTION: uploaded to the LSPU | Evaluate | Legal assistant III\n- Government to Citizen\nWho may avail: | All\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE\n\nFEES TO | PROCESSING | PERSON\nCLIENT STEPS | AGENCY ACTIONS\nBE PAID | TIME | RESPONSIBLE\nReceive Approved | Upload and Release | n/a | 10mins | Records\nRequest | Officer/concerned unit\nTOTAL: | None | 10 minutes\n\n3. Mail Management\nReceipt/Mailing of letters\n\nOffice or Division: | Records Management Office\nClassification: | Simple\n\n66",
+        "score": 0.030536130536130537
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_112",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_112\nSECTION: subjects, Opt-\nsubjects, Opt-\nout,CTP/Foreign,G\nSAR Students:\n\nProceeds to\nCashier's Office to\npay fees\n4. New/old college | Issues certificate of | 3 minutes | Registrar’s Staff\nstudents: | registration (COR)\nLog in to student\nportal to view the\nCertificate of\nRegistration\n(COR)\n\nFor College\nStudents who are\nnot qualified to\nFree Higher\nEducation,\nstudents with\nenrolled RLE\nsubjects, Opt-out,\nCTP/Foreign,GSA\nR Students:\n\nProceeds to the\nOffice of the\nRegistrar to claim\nthe Certificate of\nRegistration\n(COR)\nFees\nreflected on\nTOTAL: | the | 20 minutes\nassessmen\nt form.\n\n2. Issuance | of | Transcript | of | Records/Transfer\nCredentials/Certifications/CAV/Authenticated Documents\nThis process provides description and series of steps for assisting the public in\nthe issuance of the pertinent documents such as transcript of records, transfer of\ncredentials, certifications, CAV, and authenticated documents.\n\nOffice or Division: | Registrar\nClassification: | Simple\nType of Transaction: | G2C – Government to Citizen\nG2G – Government to Government\nWho may avail: | All (Walk-In students & Graduates)\nCHECKLIST OF REQUIREMENTS | WHERE TO SECURE",
+        "score": 0.029206349206349208
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Transcript of Records/Copy of Grades\nh:additionalInfo: TOR (Transcript of Records): Official record of all subjects and grades, issued by the Office of the Registrar; transferees submit their previous school's TOR for evaluation.\nh:definition: Secured from: Previous school/College/Department.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Transcript of Records/Copy of Grades"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 1: Evaluate Transcript of Records\na:agencyAction: Evaluates the student's Transcript of Records and identifies subjects to be credited.\na:hasFeeText: N/A\na:hasProcessingTime: 30 minutes\na:sourceSection: XXXI. Colleges, Service 4: Crediting of Subjects, Step 1, p. 88\nh:nextStep -> Step 2: Enumerate subjects to be credited [a:Serv_CreditingOfSubjects_S2]\nh:performedBy -> Program Head/Faculty In-charge [a:Role_ProgramHeadFacultyIncharge]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Evaluate Transcript of Records"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Original Transcript of Records, Diploma, or Alumni ID\nh:definition: Secured from the Registrar's Office.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Original Transcript of Records, Diploma, or Alumni ID"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Issuance of Transcript of Records/Transfer Credentials/Certifications/CAV/Authenticated Documents\na:availedAt -> Office of the Registrar [h:OfficeOfTheRegistrar]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:hasTransactionType -> G2G -- Government to Government [a:TT_G2G]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: I. Office of the Registrar, Service 2: Issuance of TOR/Transfer Credentials/Certifications/CAV/Authenticated Documents, p. 4\na:totalProcessingTime: Active files: 59 minutes. Inactive files: 1 day, 44 minutes.\na:whoMayAvail: All (Walk-in students & Graduates)\nh:definition: Assists the public in requesting and claiming a transcript of records, transfer credentials, certifications, CAV, and authenticated documents.\nh:hasStep -> Step 1: Fill out and endorse request slip [a:TOR_Step1]\nh:requiresDocument -> Clearance and Request Form (LSPU-REG-SF-011) [a:Doc_ClearanceRequestForm]\nrdf:type -> Service [a:Service]\nrdfs:label: Issuance of Transcript of Records/Transfer Credentials/Certifications/CAV/Authenticated Documents"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Transcript of Records/Copy of Grades for evaluation purposes (transferees only)\nh:definition: Secured from the school previously attended/graduated from.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Transcript of Records/Copy of Grades for evaluation purposes (transferees only)"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Transcript of Records/Copy of Grades\nh:additionalInfo: TOR (Transcript of Records): Official record of all subjects and grades, issued by the Office of the Registrar; transferees submit their previous school's TOR for evaluation.\nh:definition: Secured from: Previous school/College/Department.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Transcript of Records/Copy of Grades\n\nAPPROXIMATE MATCH (not an exhaustive result): Step 1: Evaluate Transcript of Records\na:agencyAction: Evaluates the student's Transcript of Records and identifies subjects to be credited.\na:hasFeeText: N/A\na:hasProcessingTime: 30 minutes\na:sourceSection: XXXI. Colleges, Service 4: Crediting of Subjects, Step 1, p. 88\nh:nextStep -> Step 2: Enumerate subjects to be credited [a:Serv_CreditingOfSubjects_S2]\nh:performedBy -> Program Head/Faculty In-charge [a:Role_ProgramHeadFacultyIncharge]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Evaluate Transcript of Records\n\nAPPROXIMATE MATCH (not an exhaustive result): Original Transcript of Records, Diploma, or Alumni ID\nh:definition: Secured from the Registrar's Office.\nrdf:type -> Document/Form [h:Document",
+    "answer_for_eval": "The steps to request a Transcript of Records are:\n\n1. Fill out and endorse the request slip (LSPU-REG-SF-011).\n2. Secure the required documents, such as Clearance and Request Form.\n3. Pay the required fees at the Cashier’s Office:\n   - Undergrad students: P75.00 per page\n   - Graduate students: P150.00 per page\n   - Certifications: P30.00 per page\n4. Proceed to the Office of the Registrar to claim the approved request, which takes about 10 minutes.\n5. The Office of the Registrar will check the request, process it, and release the Transcript of Records.",
+    "retrieval_query": "What are the steps to request a Transcript of Records?",
+    "graph_plan": {},
+    "retrieval_errors": [
+      "Expecting ',' delimiter: line 1 column 518 (char 517)",
+      "Expecting ',' delimiter: line 1 column 518 (char 517)"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 10,
+    "elapsed_seconds": 7.7810000000172295
+  },
+  "answer": "The steps to request a Transcript of Records are:\n\n1. Fill out and endorse the request slip (LSPU-REG-SF-011).\n2. Secure the required documents, such as Clearance and Request Form.\n3. Pay the required fees at the Cashier’s Office:\n   - Undergrad students: P75.00 per page\n   - Graduate students: P150.00 per page\n   - Certifications: P30.00 per page\n4. Proceed to the Office of the Registrar to claim the approved request, which takes about 10 minutes.\n5. The Office of the Registrar will check the request, process it, and release the Transcript of Records.",
+  "pipeline_version": "oc-rag-3.0"
+}

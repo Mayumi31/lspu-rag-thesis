@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "Is smoking a minor or a major offense?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "Smoking is generally considered a minor offense, but it can vary depending on the specific rules and regulations of the campus or institution.",
+    "retrieval_query": "Is smoking a minor or a major offense?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.8899999999557622,
+    "selected_contexts": []
+  },
+  "answer": "Smoking is generally considered a minor offense, but it can vary depending on the specific rules and regulations of the campus or institution.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

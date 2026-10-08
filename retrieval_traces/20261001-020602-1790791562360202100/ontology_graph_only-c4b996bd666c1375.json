@@ -1,0 +1,60 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Which office issues excuse slips for absences?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Excuse Slip\nh:definition: Requested for readmission to class after an absence/tardiness; must be presented to the instructor not later than the second class session following return.\nh:issuedBy -> Guidance Office [h:GuidanceOffice]\nh:issuedBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:sourceArticle: Chapter 3, Article 8, Section 1\nh:verificationNote: The attendance policy allows obtaining an excuse slip from OSAS or the Guidance Office; issuedBy links represent alternatives, not a requirement to visit both.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Excuse Slip"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Tardiness/Unexcused Absences\nh:conflictsWithPolicy -> Attendance / Dropping Policy [h:Policy_AttendanceDropping]\nh:definition: Tardiness in required activities is considered one (1) absence; three (3) tardiness instances in a class count as one (1) absence. Unexcused absences equal to 17% of total class hours/semester result in being dropped from the roll (excused absences may be removed through makeup).\nh:hasSanctionTier -> h:Tier_Tardiness_1 [h:Tier_Tardiness_1]\nh:hasSanctionTier -> h:Tier_Tardiness_2 [h:Tier_Tardiness_2]\nh:hasSanctionTier -> h:Tier_Tardiness_3 [h:Tier_Tardiness_3]\nh:isBasedOn -> RA 8491, Sec. 18 & 50 [h:RA8491]\nh:reportedTo -> Guidance Office [h:GuidanceOffice]\nh:sourceArticle: Ch.6 Art.3 Sec.1\nh:tardinessInstancesPerAbsence: 3\nh:unexcusedAbsenceThresholdPercent: 17\nh:verificationNote: Chapter 6 Article 3 Section 1 states 17%; other attendance/dropping sections state 25%. Preserve section scope and disclose conflicting thresholds rather than treating one as universally controlling.\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Tardiness/Unexcused Absences"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Attendance / Dropping Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:conflictsWithPolicy -> Tardiness/Unexcused Absences [h:Tardiness]\nh:definition: Undergraduate students accumulating absences equal to at least 25% of total class hours in a semester shall be dropped; withdrawing before mid-term exams permits dropping without prejudice.\nh:requiresDocument -> Excuse Slip [h:Doc_ExcuseSlip]\nh:sourceArticle: Article 9, Sec. 4.1\nrdf:type -> Policy [h:Policy]\nrdfs:label: Attendance / Dropping Policy"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Excuse Slip\nh:definition: Requested for readmission to class after an absence/tardiness; must be presented to the instructor not later than the second class session following return.\nh:issuedBy -> Guidance Office [h:GuidanceOffice]\nh:issuedBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:sourceArticle: Chapter 3, Article 8, Section 1\nh:verificationNote: The attendance policy allows obtaining an excuse slip from OSAS or the Guidance Office; issuedBy links represent alternatives, not a requirement to visit both.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Excuse Slip\n\nAPPROXIMATE MATCH (not an exhaustive result): Tardiness/Unexcused Absences\nh:conflictsWithPolicy -> Attendance / Dropping Policy [h:Policy_AttendanceDropping]\nh:definition: Tardiness in required activities is considered one (1) absence; three (3) tardiness instances in a class count as one (1) absence. Unexcused absences equal to 17% of total class hours/semester result in being dropped from the roll (excused absences may be removed through makeup).\nh:hasSanctionTier -> h:Tier_Tardiness_1 [h:Tier_Tardiness_1]\nh:hasSanctionTier -> h:Tier_Tardiness_2 [h:Ti",
+    "answer_for_eval": "The office that issues excuse slips for absences is the Guidance Office and the Office of Student Affairs and Services (OSAS).",
+    "retrieval_query": "Which office issues excuse slips for absences",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:GuidanceOffice",
+              "h:issues",
+              "h:Doc_ExcuseSlip"
+            ]
+          ],
+          "select": [
+            "?office"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 3,
+    "elapsed_seconds": 15.0,
+    "retrieval_seconds": 13.39100000000326,
+    "generation_seconds": 1.6089999999967404,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Excuse Slip\nh:definition: Requested for readmission to class after an absence/tardiness; must be presented to the instructor not later than the second class session following return.\nh:issuedBy -> Guidance Office [h:GuidanceOffice]\nh:issuedBy -> Office of Student Affairs and Services (OSAS) [h:OSAS]\nh:sourceArticle: Chapter 3, Article 8, Section 1\nh:verificationNote: The attendance policy allows obtaining an excuse slip from OSAS or the Guidance Office; issuedBy links represent alternatives, not a requirement to visit both.\nrdf:type -> Document/Form [h:Document]\nrdfs:label: Excuse Slip",
+      "APPROXIMATE MATCH (not an exhaustive result): Tardiness/Unexcused Absences\nh:conflictsWithPolicy -> Attendance / Dropping Policy [h:Policy_AttendanceDropping]\nh:definition: Tardiness in required activities is considered one (1) absence; three (3) tardiness instances in a class count as one (1) absence. Unexcused absences equal to 17% of total class hours/semester result in being dropped from the roll (excused absences may be removed through makeup).\nh:hasSanctionTier -> h:Tier_Tardiness_1 [h:Tier_Tardiness_1]\nh:hasSanctionTier -> h:Tier_Tardiness_2 [h:Tier_Tardiness_2]\nh:hasSanctionTier -> h:Tier_Tardiness_3 [h:Tier_Tardiness_3]\nh:isBasedOn -> RA 8491, Sec. 18 & 50 [h:RA8491]\nh:reportedTo -> Guidance Office [h:GuidanceOffice]\nh:sourceArticle: Ch.6 Art.3 Sec.1\nh:tardinessInstancesPerAbsence: 3\nh:unexcusedAbsenceThresholdPercent: 17\nh:verificationNote: Chapter 6 Article 3 Section 1 states 17%; other attendance/dropping sections state 25%. Preserve section scope and disclose conflicting thresholds rather than treating one as universally controlling.\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Tardiness/Unexcused Absences",
+      "APPROXIMATE MATCH (not an exhaustive result): Attendance / Dropping Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:conflictsWithPolicy -> Tardiness/Unexcused Absences [h:Tardiness]\nh:definition: Undergraduate students accumulating absences equal to at least 25% of total class hours in a semester shall be dropped; withdrawing before mid-term exams permits dropping without prejudice.\nh:requiresDocument -> Excuse Slip [h:Doc_ExcuseSlip]\nh:sourceArticle: Article 9, Sec. 4.1\nrdf:type -> Policy [h:Policy]\nrdfs:label: Attendance / Dropping Policy"
+    ]
+  },
+  "answer": "The office that issues excuse slips for absences is the Guidance Office and the Office of Student Affairs and Services (OSAS).",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

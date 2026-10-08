@@ -1,0 +1,56 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "When was the 2026 campus-level ICAC-CAF held?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?startDate=2026-10-20; ?endDate=2026-10-23\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:editionOf--> ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival) [h:Event_ICACCAF]\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventEndDate--> \"2026-10-23\"\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventStartDate--> \"2026-10-20\"\nTYPE of ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival): h:CampusEvent\nSOURCE/QUALIFIER for ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival): h:verificationNote = Dates were supplied by the maintainer and not independently confirmed; the campus-level dates could not be matched to a Los Baños report.\nTYPE of University-wide ICAC-CAF 2026: h:CampusEvent\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:verificationNote = Dates and venue supplied by the maintainer; not independently confirmed. Schedules can change."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?startDate=2026-10-20; ?endDate=2026-10-23\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:editionOf--> ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival) [h:Event_ICACCAF]\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventEndDate--> \"2026-10-23\"\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventStartDate--> \"2026-10-20\"\nTYPE of ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival): h:CampusEvent\nSOURCE/QUALIFIER for ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival): h:verificationNote = Dates were supplied by the maintainer and not independently confirmed; the campus-level dates could not be matched to a Los Baños report.\nTYPE of University-wide ICAC-CAF 2026: h:CampusEvent\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:sourceArticle = Campus ",
+    "answer_for_eval": "The 2026 campus-level ICAC-CAF was held from October 20, 2026, to October 23, 2026.",
+    "retrieval_query": "When was the 2026 campus-level ICAC-CAF held?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Event_ICACCAF_University_2026",
+              "h:editionOf",
+              "h:Event_ICACCAF"
+            ],
+            [
+              "h:Event_ICACCAF_University_2026",
+              "h:eventStartDate",
+              "?startDate"
+            ],
+            [
+              "h:Event_ICACCAF_University_2026",
+              "h:eventEndDate",
+              "?endDate"
+            ]
+          ],
+          "select": [
+            "?startDate",
+            "?endDate"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 5.875,
+    "retrieval_seconds": 5.01500000001397,
+    "generation_seconds": 0.8599999999860302,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?startDate=2026-10-20; ?endDate=2026-10-23\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:editionOf--> ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival) [h:Event_ICACCAF]\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventEndDate--> \"2026-10-23\"\nUniversity-wide ICAC-CAF 2026 [h:Event_ICACCAF_University_2026] --h:eventStartDate--> \"2026-10-20\"\nTYPE of ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival): h:CampusEvent\nSOURCE/QUALIFIER for ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for ICAC-CAF (Intercollegiate Athletic Competition and Culture and the Arts Festival): h:verificationNote = Dates were supplied by the maintainer and not independently confirmed; the campus-level dates could not be matched to a Los Baños report.\nTYPE of University-wide ICAC-CAF 2026: h:CampusEvent\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for University-wide ICAC-CAF 2026: h:verificationNote = Dates and venue supplied by the maintainer; not independently confirmed. Schedules can change."
+    ]
+  },
+  "answer": "The 2026 campus-level ICAC-CAF was held from October 20, 2026, to October 23, 2026.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

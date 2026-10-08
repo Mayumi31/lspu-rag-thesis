@@ -1,0 +1,21 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "How much is an ID lace, and where is it sold?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The cost of an ID lace and its point of sale are not specified in the provided evidence.",
+    "retrieval_query": "How much is an ID lace, and where is it sold?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.7970000000204891,
+    "retrieval_seconds": 0.0,
+    "generation_seconds": 0.7970000000204891,
+    "selected_contexts": []
+  },
+  "answer": "The cost of an ID lace and its point of sale are not specified in the provided evidence.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

@@ -1,0 +1,60 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "How much does the official uniform cost, and is tailoring included?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?minPrice=600; ?maxPrice=800; ?note=Fabric only; tailoring not included.\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceMaxPHP--> \"800\"\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceMinPHP--> \"600\"\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceNote--> \"Fabric only; tailoring not included.\"\nOfficial uniform (fabric only) [h:Price_UniformFabric] --rdf:type--> Campus Item Price [h:CampusItemPrice]\nTYPE of Campus Item Price: http://www.w3.org/2002/07/owl#Class\nTYPE of Official uniform (fabric only): h:CampusItemPrice\nSOURCE/QUALIFIER for Official uniform (fabric only): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?minPrice=600; ?maxPrice=800; ?note=Fabric only; tailoring not included.\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceMaxPHP--> \"800\"\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceMinPHP--> \"600\"\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceNote--> \"Fabric only; tailoring not included.\"\nOfficial uniform (fabric only) [h:Price_UniformFabric] --rdf:type--> Campus Item Price [h:CampusItemPrice]\nTYPE of Campus Item Price: http://www.w3.org/2002/07/owl#Class\nTYPE of Official uniform (fabric only): h:CampusItemPrice\nSOURCE/QUALIFIER for Official uniform (fabric only): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter",
+    "answer_for_eval": "The official uniform costs between 600 and 800 PHP, and tailoring is not included.",
+    "retrieval_query": "How much does the official uniform cost, and is tailoring included?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Price_UniformFabric",
+              "rdf:type",
+              "h:CampusItemPrice"
+            ],
+            [
+              "h:Price_UniformFabric",
+              "h:priceMinPHP",
+              "?minPrice"
+            ],
+            [
+              "h:Price_UniformFabric",
+              "h:priceMaxPHP",
+              "?maxPrice"
+            ],
+            [
+              "h:Price_UniformFabric",
+              "h:priceNote",
+              "?note"
+            ]
+          ],
+          "select": [
+            "?minPrice",
+            "?maxPrice",
+            "?note"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 3.077999999979511,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?minPrice=600; ?maxPrice=800; ?note=Fabric only; tailoring not included.\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceMaxPHP--> \"800\"\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceMinPHP--> \"600\"\nOfficial uniform (fabric only) [h:Price_UniformFabric] --h:priceNote--> \"Fabric only; tailoring not included.\"\nOfficial uniform (fabric only) [h:Price_UniformFabric] --rdf:type--> Campus Item Price [h:CampusItemPrice]\nTYPE of Campus Item Price: http://www.w3.org/2002/07/owl#Class\nTYPE of Official uniform (fabric only): h:CampusItemPrice\nSOURCE/QUALIFIER for Official uniform (fabric only): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter"
+    ]
+  },
+  "answer": "The official uniform costs between 600 and 800 PHP, and tailoring is not included.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

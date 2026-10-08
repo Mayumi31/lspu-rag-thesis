@@ -1,0 +1,76 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "What grade range is needed for Summa Cum Laude?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_544",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_544\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 1. Academic Awards\nStudents who completed a curriculum in the degree/non-degree courses with the grades computed in the basis of the number of units for each course will be granted with honors.\n\n2.5. I the computation of the final averages of the students who are candidates for graduation with honors, subjects such as PE, NSTP (MTS/CWTS), Euthenics and other similar subjects must not receive a grade lower than “2.0” in all subjects to qualify for graduation with honors.\n\n2.6. For transferee students running for honors, students must have no grades lower than “2.0” in all subjects.\n\n2.7. In computing the final average of candidate for graduation with honors, only resident credits shall be included. He/she should not have a mark of incomplete or dropped subjects. He/she must be of good moral character. Al grades from first to fourth year shall be considered.\n\nSec. 3. Academic Awards Criteria\n\n3.1. for degree course Latin Honors Table (Award / Final Grade):\nSumma cum laude / 1.00 to 1.20\nMagna cum laude / 1.21 to 1.45\nCum laude / 1.46 to 1.75\n\n3.2. for non-degree course Honors Table (Award / Final Grade):\nwith highest honors / 1.00 to 1.20\nwith higher honors / 1.21 to 1.45\nwith honors / 1.46 to 1.75",
+        "score": 0.06557377049180328
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_485",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_485\nSECTION: Chapter 4 | Article 15. Retention/Scholastic Policy\nArticle 15. Retention/Scholastic Policy\n\nSec. 1. The minimum grade point average (GPA) of a graduate student required by the program for an advanced degree is 2.0.\n\nSec. 2. The GPA is computed at the end of every semester and is shown in a grade report of the student. The GPA shall be based only on units within the grade of 1.0 through 2.0 and on all courses prescribed in the approved graduate program.\n\nSec. 3. The student shall obtain a passing grade of 2.0 in all prescribed subjects and 3.0 for undergraduate subjects, including those listed under “others”. Excluded in the computation are grades of Incomplete (INC), Satisfactory (S), and other letter marks.",
+        "score": 0.06124357176250585
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_443",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_443\nSECTION: Chapter 3 | Article 7. Grading System and Other Grade-related Concerns\nof GWA\n\n4.1. GWA. The General Weighted Average or GWA of students refers to the weighted average of grades in all academic courses taken in a given semester.\n\n4.2. Cumulative GWA. Cumulative GWA is the weighted average of the grades in all academic courses from the first semester in which the student was enrolled up to the second semester just finished.\n\nSec. 5. Policy on Grades of “4” and “5”\n\n5.1. Appearance of “4”. To compute the General Weighted Average\n\n(GWA) of a student with a grade of “4”, use the latter as an actual grade on the premise that “4” is conditional.\n\n5.2. Appearance of “5”. If the student gets a removal grade of “5”, this grade is included in the computation of the GWA together with the grade which s/he gets after re-enrolling and passing the course.\n\nThe GWA should be the basis for determining if the student graduates with or without honors.\n\n5.3. Removal Policy for “4.00”. A grade of “4.00” may be removed by repeating the subject or by re-examination. The highest grade a student must obtain upon re-examination is “3.00”. If the removal examination is failed, a student is given a grade of “5.00”.\n\n5.3.1.",
+        "score": 0.058595317725752515
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_472",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_472\nSECTION: Chapter 4 | Article 8. Grading System and Requirements\nArticle 8. Grading System and Requirements\n\nSec. 1. Grading System Grading System Table (Numerical Grade = Adjectival Rating):\n\n1.0 = 99-100 = excellent\n1.25 = 96-98% = outstanding\n1.5 = 93-95% = very satisfactory\n1.75 = 90-92% = satisfactory\n2.0 = 87-89% = passing\nA = audit\nW = withdrawn\n\nSec. 2. Grading Requirements\n\n2.1. No provisional, conditional, or temporary final grade for any curricular or component subject/course shall be given to a student.\n\n2.2. In case a student fails to take a final examination or submit an academic requirement for completion of a subject/course and that his/her scholastic performance is not sufficient to merit a final passing grade, an institution may, consistent with its academic policies, give the student a final grade which does not earn any academic credit nor indicate failures such as “NC” for “No Credit” or “NG” for “No Grade.” Such a grade is permanent and cannot be subsequently changed.",
+        "score": 0.05778251599147121
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_444",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_444\nSECTION: Chapter 3 | Article 7. Grading System and Other Grade-related Concerns\nor by re-examination. The highest grade a student must obtain upon re-examination is “3.00”. If the removal examination is failed, a student is given a grade of “5.00”.\n\n5.3.1. A student is allowed only one (1) removal examination, which must be taken within one (1) academic year from the date the grade “4.00” was received. If the condition is not removed within the prescribed period, it will be automatically changed to “5.00”.\n\n5.3.2. If the subject for removal of grade is a pre-requisite for the succeeding semester, it must be accomplished before the next enrolment, superseding the one-year time frame stipulated in 5.3.1.\n\n5.4. INC and Automatic “5”. If not completed within the prescribed period (one year), a grade of “incomplete” will automatically be changed to “5.0”. The Registrar will change the grade upon prior confirmation with the concerned professor or the Dean/Associate Dean of the College. (This refers to the last day of classes during term/semester).\n\n5.5. Removal Fee. The removal fee is P20 per unit. (BOR Reso.1046, s.2012)\n\nSec. 5. INC Mark\n\n5.1. Types of INC or Incomplete mark\n\n5.1.1. No Final Examination.",
+        "score": 0.056207604253744284
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?gradeRange\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?gradeRange=1.00 to 1.20\nSumma Cum Laude [h:Award_SummaCumLaude] --h:gradeRangeText--> \"1.00 to 1.20\"\nTYPE of Summa Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Summa Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 2-3\nSOURCE/QUALIFIER for Summa Cum Laude: h:sourceArticle = Handbook, Awards, Article 1, Sec. 2-3"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?gradeRange\": 1}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?gradeRange=1.00 to 1.20\nSumma Cum Laude [h:Award_SummaCumLaude] --h:gradeRangeText--> \"1.00 to 1.20\"\nTYPE of Summa Cum Laude: h:AcademicAward\nSOURCE/QUALIFIER for Summa Cum Laude: h:sourceArticle = Chapter on Awards, Article 1, Sec. 2-3\nSOURCE/QUALIFIER for Summa Cum Laude: h:sourceArticle = Handbook, Awards, Article 1, Sec. 2-3\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_544\nSECTION: Chapter 6 CODE OF CONDUCT FOR LSPU STUDENTS (Definition and Type of Offenses) | Article 1. Academic Awards\nStudents who completed a curriculum in the degree/non-degree courses with the grades computed in the basis of the number of units for each course will be granted with honors.\n\n2.5. I the computation of the final averages of the students who are candidates for graduation with honors, subjects such as PE, NSTP (MTS/CWTS), Euthenics and other similar subjects must not receive a grade lower than “2.0” in all subjects to qualify for graduation with honors.\n\n2.6. For transferee students ru",
+    "answer_for_eval": "The grade range needed for Summa Cum Laude is 1.00 to 1.20.",
+    "retrieval_query": "What grade range is needed for Summa Cum Laude?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Award_SummaCumLaude",
+              "h:gradeRangeText",
+              "?gradeRange"
+            ]
+          ],
+          "select": [
+            "?gradeRange"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 7,
+    "elapsed_seconds": 3.3910000000032596
+  },
+  "answer": "The grade range needed for Summa Cum Laude is 1.00 to 1.20.",
+  "pipeline_version": "oc-rag-3.0"
+}

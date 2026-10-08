@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What are the criteria for the Athlete of the Year Award?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "The criteria for the Athlete of the Year Award are not provided in the evidence.",
+    "retrieval_query": "What are the criteria for the Athlete of the Year Award?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 0.6720000000204891,
+    "selected_contexts": []
+  },
+  "answer": "The criteria for the Athlete of the Year Award are not provided in the evidence.",
+  "pipeline_version": "oc-rag-3.6-schema-guidance"
+}

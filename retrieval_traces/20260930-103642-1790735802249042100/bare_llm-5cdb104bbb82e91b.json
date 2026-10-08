@@ -1,0 +1,19 @@
+{
+  "trace": {
+    "mode": "bare_llm",
+    "query": "What career paths can a BS Psychology graduate take?",
+    "retrieved_chunks": [],
+    "graph_hits": [],
+    "prompt_context_preview": "",
+    "answer_for_eval": "A BS Psychology graduate can pursue careers in counseling, social services, human resources, research, marketing, education, healthcare, and mental health support. They may also continue with graduate studies for specialized roles.",
+    "retrieval_query": "What career paths can a BS Psychology graduate take?",
+    "graph_plan": {},
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 0,
+    "elapsed_seconds": 1.125,
+    "selected_contexts": []
+  },
+  "answer": "A BS Psychology graduate can pursue careers in counseling, social services, human resources, research, marketing, education, healthcare, and mental health support. They may also continue with graduate studies for specialized roles.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

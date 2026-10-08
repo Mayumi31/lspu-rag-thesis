@@ -1,0 +1,45 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "Who may avail of the enrollment service?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?x=All\nEnrollment [a:Serv_Enrollment] --a:whoMayAvail--> \"All\"\nTYPE of Enrollment: a:Service\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nSOURCE/QUALIFIER for Enrollment: a:sourceSection = I. Office of the Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?x=All\nEnrollment [a:Serv_Enrollment] --a:whoMayAvail--> \"All\"\nTYPE of Enrollment: a:Service\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nSOURCE/QUALIFIER for Enrollment: a:sourceSection = I. Office of the Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)",
+    "answer_for_eval": "Anyone may avail of the enrollment service.",
+    "retrieval_query": "Who can avail of the enrollment service?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "a:Serv_Enrollment",
+              "a:whoMayAvail",
+              "?x"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 2.375,
+    "retrieval_seconds": 1.7190000000409782,
+    "generation_seconds": 0.6559999999590218,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?x=All\nEnrollment [a:Serv_Enrollment] --a:whoMayAvail--> \"All\"\nTYPE of Enrollment: a:Service\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: h:sourceArticle = Citizen's Charter 2026, Registrar, Service 1: Enrollment, p. 2-3\nSOURCE/QUALIFIER for Enrollment: a:sourceSection = I. Office of the Registrar, Service 1: Enrollment, p. 2\nSOURCE/QUALIFIER for Enrollment: a:sourceDocument = LSPU Citizen's Charter, 2026 1st Edition (University-Wide)"
+    ]
+  },
+  "answer": "Anyone may avail of the enrollment service.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

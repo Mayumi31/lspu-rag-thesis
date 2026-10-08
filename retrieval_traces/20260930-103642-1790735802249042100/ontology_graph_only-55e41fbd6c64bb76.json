@@ -1,0 +1,102 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "At what percentage of unexcused absences is a student dropped from the roll?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Attendance / Dropping Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:conflictsWithPolicy -> Tardiness/Unexcused Absences [h:Tardiness]\nh:definition: Undergraduate students accumulating absences equal to at least 25% of total class hours in a semester shall be dropped; withdrawing before mid-term exams permits dropping without prejudice.\nh:requiresDocument -> Excuse Slip [h:Doc_ExcuseSlip]\nh:sourceArticle: Article 9, Sec. 4.1\nrdf:type -> Policy [h:Policy]\nrdfs:label: Attendance / Dropping Policy"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Dropping of Subject Procedure\nh:additionalInfo: Three tardiness instances in a class count as one absence.\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:audience: New students\nh:definition: A student may be dropped from a subject if unexcused absences reach 25% of total class hours. Dropping before the midterm examination is done without prejudice (no failing grade). Dropping after the midterm: the instructor may give a grade of 5.0 if the student's class standing is below 3.0. Dropping without the Dean's approval results in an automatic grade of 5.0. Dropping fee: P20 per unit.\nh:requiresDocument -> Excuse Slip [h:Doc_ExcuseSlip]\nh:sourceArticle: Chapter 3, Article 6, Sec. 4\nrdf:type -> Policy [h:Policy]\nrdfs:label: Dropping of Subject Procedure\nrdfs:seeAlso -> Attendance / Dropping Policy [h:Policy_AttendanceDropping]"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Tardiness/Unexcused Absences\nh:conflictsWithPolicy -> Attendance / Dropping Policy [h:Policy_AttendanceDropping]\nh:definition: Tardiness in required activities is considered one (1) absence; three (3) tardiness instances in a class count as one (1) absence. Unexcused absences equal to 17% of total class hours/semester result in being dropped from the roll (excused absences may be removed through makeup).\nh:hasSanctionTier -> h:Tier_Tardiness_1 [h:Tier_Tardiness_1]\nh:hasSanctionTier -> h:Tier_Tardiness_2 [h:Tier_Tardiness_2]\nh:hasSanctionTier -> h:Tier_Tardiness_3 [h:Tier_Tardiness_3]\nh:isBasedOn -> RA 8491, Sec. 18 & 50 [h:RA8491]\nh:reportedTo -> Guidance Office [h:GuidanceOffice]\nh:sourceArticle: Ch.6 Art.3 Sec.1\nh:tardinessInstancesPerAbsence: 3\nh:unexcusedAbsenceThresholdPercent: 17\nh:verificationNote: Chapter 6 Article 3 Section 1 states 17%; other attendance/dropping sections state 25%. Preserve section scope and disclose conflicting thresholds rather than treating one as universally controlling.\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Tardiness/Unexcused Absences"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Attendance / Dropping Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:conflictsWithPolicy -> Tardiness/Unexcused Absences [h:Tardiness]\nh:definition: Undergraduate students accumulating absences equal to at least 25% of total class hours in a semester shall be dropped; withdrawing before mid-term exams permits dropping without prejudice.\nh:requiresDocument -> Excuse Slip [h:Doc_ExcuseSlip]\nh:sourceArticle: Article 9, Sec. 4.1\nrdf:type -> Policy [h:Policy]\nrdfs:label: Attendance / Dropping Policy\n\nAPPROXIMATE MATCH (not an exhaustive result): Dropping of Subject Procedure\nh:additionalInfo: Three tardiness instances in a class count as one absence.\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:audience: New students\nh:definition: A student may be dropped from a subject if unexcused absences reach 25% of total class hours. Dropping before the midterm examination is done without prejudice (no failing grade). Dropping after the midterm: the instructor may give a grade of 5.0 if the student's class standing is below 3.0. Dropping without the Dean's approval results in an automatic grade o",
+    "answer_for_eval": "A student is dropped from the roll at 17% of unexcused absences.",
+    "retrieval_query": "At what percentage of unexcused absences is a student dropped from the roll?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Policy_ScholasticDelinquency",
+              "h:resultsInStatus",
+              "?status"
+            ],
+            [
+              "?status",
+              "rdfs:label",
+              "Dismissal (from the College)"
+            ]
+          ],
+          "select": [
+            "?status"
+          ]
+        },
+        {
+          "patterns": [
+            [
+              "h:Policy_AttendanceDropping",
+              "h:conflictsWithPolicy",
+              "h:Policy_ScholasticDelinquency"
+            ]
+          ],
+          "select": [
+            "?policy"
+          ]
+        },
+        {
+          "patterns": [
+            [
+              "h:Policy_AttendanceDropping",
+              "h:definition",
+              {
+                "literal": "Undergraduate students accumulating absences equal to at least 25% of total class hours in a semester shall be dropped; withdrawing before mid-term exams permits dropping without prejudice."
+              }
+            ]
+          ],
+          "select": [
+            "h:Policy_AttendanceDropping"
+          ]
+        },
+        {
+          "patterns": [
+            [
+              "h:Tardiness",
+              "h:unexcusedAbsenceThresholdPercent",
+              {
+                "literal": 17
+              }
+            ]
+          ],
+          "select": [
+            "h:Tardiness"
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Query 1 returned no rows; recheck predicates, entity and filters",
+      "Unknown prefix: Dismissal (from the College)"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 3,
+    "elapsed_seconds": 8.96899999998277,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Attendance / Dropping Policy\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:conflictsWithPolicy -> Tardiness/Unexcused Absences [h:Tardiness]\nh:definition: Undergraduate students accumulating absences equal to at least 25% of total class hours in a semester shall be dropped; withdrawing before mid-term exams permits dropping without prejudice.\nh:requiresDocument -> Excuse Slip [h:Doc_ExcuseSlip]\nh:sourceArticle: Article 9, Sec. 4.1\nrdf:type -> Policy [h:Policy]\nrdfs:label: Attendance / Dropping Policy",
+      "APPROXIMATE MATCH (not an exhaustive result): Dropping of Subject Procedure\nh:additionalInfo: Three tardiness instances in a class count as one absence.\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:audience: New students\nh:definition: A student may be dropped from a subject if unexcused absences reach 25% of total class hours. Dropping before the midterm examination is done without prejudice (no failing grade). Dropping after the midterm: the instructor may give a grade of 5.0 if the student's class standing is below 3.0. Dropping without the Dean's approval results in an automatic grade of 5.0. Dropping fee: P20 per unit.\nh:requiresDocument -> Excuse Slip [h:Doc_ExcuseSlip]\nh:sourceArticle: Chapter 3, Article 6, Sec. 4\nrdf:type -> Policy [h:Policy]\nrdfs:label: Dropping of Subject Procedure\nrdfs:seeAlso -> Attendance / Dropping Policy [h:Policy_AttendanceDropping]",
+      "APPROXIMATE MATCH (not an exhaustive result): Tardiness/Unexcused Absences\nh:conflictsWithPolicy -> Attendance / Dropping Policy [h:Policy_AttendanceDropping]\nh:definition: Tardiness in required activities is considered one (1) absence; three (3) tardiness instances in a class count as one (1) absence. Unexcused absences equal to 17% of total class hours/semester result in being dropped from the roll (excused absences may be removed through makeup).\nh:hasSanctionTier -> h:Tier_Tardiness_1 [h:Tier_Tardiness_1]\nh:hasSanctionTier -> h:Tier_Tardiness_2 [h:Tier_Tardiness_2]\nh:hasSanctionTier -> h:Tier_Tardiness_3 [h:Tier_Tardiness_3]\nh:isBasedOn -> RA 8491, Sec. 18 & 50 [h:RA8491]\nh:reportedTo -> Guidance Office [h:GuidanceOffice]\nh:sourceArticle: Ch.6 Art.3 Sec.1\nh:tardinessInstancesPerAbsence: 3\nh:unexcusedAbsenceThresholdPercent: 17\nh:verificationNote: Chapter 6 Article 3 Section 1 states 17%; other attendance/dropping sections state 25%. Preserve section scope and disclose conflicting thresholds rather than treating one as universally controlling.\nrdf:type -> Minor Offense [h:MinorOffense]\nrdfs:label: Tardiness/Unexcused Absences"
+    ]
+  },
+  "answer": "A student is dropped from the roll at 17% of unexcused absences.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

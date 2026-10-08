@@ -1,0 +1,86 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which programs require a GWA of 85, and which colleges offer them?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_373",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_373\nSECTION: Republic of the Philippines\n3\nE. Annex A: List of Curricular Program Offerings and\n   General Weighted Average Requirement.........................................Page 4\n\nB. ADMISSION REQUIREMENTS\n\nThe requirements listed below should be in PDF format for uploading in the LSPU Online Application System. The clear and readable documents to be uploaded will be verified and serve as the basis of qualifications.\n\nNOTE: No original copies of documents will be asked during the admission process. Please keep them for the enrolment process.\n\n1. College Qualification\n   General Weighted Average (GWA)\n   As stipulated in the LSPU Handbook 2021, the colleges may set their respective qualifications on the general weighted average (GWA) of students to be admitted to the program (board or non-board) in consideration of accommodation capacity and standards. For the list of programs and their respective GWA requirements, please see \"Annex A\" on page 4.\n\n2. Documentary Requirements\n\n   For First Year College (Freshmen) Applicants:\n   a. Recent 2x2 ID Picture (white background)\n   b. Birth Certificate (PSA/NSO)\n   c. Certificate of Good Moral Character (with certification of current grade level and school year)\n   d.",
+        "score": 0.030330882352941176
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_832",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_832\nSECTION: ADMISSION CUTOFF ADVICE: IS THE GWA CUTOFF STRICT? (ADDITION TO THE ANNEX A CUTOFFS)\nADMISSION CUTOFF ADVICE: IS THE GWA CUTOFF STRICT? (ADDITION TO THE ANNEX A CUTOFFS)\nSource: strictness and lower-cutoff advice from campus information supplied by the maintainer (September 2026); cutoff values are from the LSPU Admission Guidelines, 1st Sem AY 2026-2027, Annex A above; exam and interview from the LSPU website admission pages. Cutoffs may change each year.\nThe GWA cutoff is strict. If your GWA is below the minimum for the program you want, you cannot be admitted to it; your only option is to choose another program with a lower cutoff.\nExample: a GWA of 86 qualifies only for the GWA-85 programs.\nCutoffs for 1st Sem AY 2026-2027: GWA 85 for the three BS Information Technology majors, BS Criminology and BS Hospitality Management (5 programs); GWA 87 for BS Fisheries, BTLE and BTVTE (3); GWA 88 for BS Psychology, both BS Business Administration majors and BS Tourism Management (4); GWA 90 for Accountancy, Computer Science, Food Technology, Nutrition and Dietetics, Physical Education, all five BS Education majors and Elementary Education (11).\nMeeting the cutoff is not enough by itself: applicants must still pass the entrance exam and interview.",
+        "score": 0.032018442622950824
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Colleges\nrdf:type -> Office [h:Office]\nrdfs:comment: Generic placeholder office used by the 9 college-agnostic Citizen's Charter services (enrollment/adding, dropping, crediting subjects, clearances, etc.), which apply to whichever college a given student belongs to and so cannot resolve to a single location. For a specific location, see the 8 lspuadm:Office_Dean_* instances below, each linked to its college building.\nrdfs:label: Colleges"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Minimum Grade Point Average\nh:definition: Minimum GPA of 2.00 every semester or summer; board programs require 2.00 in major/professional subjects (1.00-1.75 for general education); non-board programs require 2.25 in major/professional subjects (1.00-2.00 for general education).\nh:resultsInStatus -> Dismissal (from the College) [h:Status_Dismissal]\nh:resultsInStatus -> Probation [h:Status_Probation]\nh:resultsInStatus -> Warning [h:Status_Warning]\nh:sourceArticle: Chapter 3, Article 5, Sec. 3.2\nrdf:type -> Retention Requirement [h:RetentionRequirement]\nrdfs:label: Minimum Grade Point Average"
+      }
+    ],
+    "prompt_context_preview": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_373\nSECTION: Republic of the Philippines\n3\nE. Annex A: List of Curricular Program Offerings and\n   General Weighted Average Requirement.........................................Page 4\n\nB. ADMISSION REQUIREMENTS\n\nThe requirements listed below should be in PDF format for uploading in the LSPU Online Application System. The clear and readable documents to be uploaded will be verified and serve as the basis of qualifications.\n\nNOTE: No original copies of documents will be asked during the admission process. Please keep them for the enrolment process.\n\n1. College Qualification\n   General Weighted Average (GWA)\n   As stipulated in the LSPU Handbook 2021, the colleges may set their respective qualifications on the general weighted average (GWA) of students to be admitted to the program (board or non-board) in consideration of accommodation capacity and standards. For the list of programs and their respective GWA requirements, please see \"Annex A\" on page 4.\n\n2. Documentary Requirements\n\n   For First Year College (Freshmen) Applicants:\n   a. Recent 2x2 ID Picture (white background)\n   b. Birth Certificate (PSA/NSO)\n   c. Certificate of Good",
+    "answer_for_eval": "The programs that require a GWA of 85 are:\n\n- BS Information Technology majors\n- BS Criminology\n- BS Hospitality Management\n\nThe colleges that offer these programs are not explicitly named in the evidence, but they are associated with the programs requiring a GWA of 85.",
+    "retrieval_query": "Which programs require a GWA of 85, and which colleges offer them?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?program",
+              "p:hasAdmissionRequirement",
+              "?requirement"
+            ],
+            [
+              "?requirement",
+              "p:minimumGeneralWeightedAverage",
+              "?gpa"
+            ],
+            [
+              "?program",
+              "p:offeredByCollege",
+              "?college"
+            ]
+          ],
+          "select": [
+            "?program",
+            "?college"
+          ],
+          "filters": [
+            {
+              "var": "?gpa",
+              "op": "ge",
+              "value": {
+                "literal": 85
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Invalid filter value",
+      "Invalid filter value"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 4,
+    "elapsed_seconds": 7.625,
+    "selected_contexts": [
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_373\nSECTION: Republic of the Philippines\n3\nE. Annex A: List of Curricular Program Offerings and\n   General Weighted Average Requirement.........................................Page 4\n\nB. ADMISSION REQUIREMENTS\n\nThe requirements listed below should be in PDF format for uploading in the LSPU Online Application System. The clear and readable documents to be uploaded will be verified and serve as the basis of qualifications.\n\nNOTE: No original copies of documents will be asked during the admission process. Please keep them for the enrolment process.\n\n1. College Qualification\n   General Weighted Average (GWA)\n   As stipulated in the LSPU Handbook 2021, the colleges may set their respective qualifications on the general weighted average (GWA) of students to be admitted to the program (board or non-board) in consideration of accommodation capacity and standards. For the list of programs and their respective GWA requirements, please see \"Annex A\" on page 4.\n\n2. Documentary Requirements\n\n   For First Year College (Freshmen) Applicants:\n   a. Recent 2x2 ID Picture (white background)\n   b. Birth Certificate (PSA/NSO)\n   c. Certificate of Good Moral Character (with certification of current grade level and school year)\n   d.",
+      "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_832\nSECTION: ADMISSION CUTOFF ADVICE: IS THE GWA CUTOFF STRICT? (ADDITION TO THE ANNEX A CUTOFFS)\nADMISSION CUTOFF ADVICE: IS THE GWA CUTOFF STRICT? (ADDITION TO THE ANNEX A CUTOFFS)\nSource: strictness and lower-cutoff advice from campus information supplied by the maintainer (September 2026); cutoff values are from the LSPU Admission Guidelines, 1st Sem AY 2026-2027, Annex A above; exam and interview from the LSPU website admission pages. Cutoffs may change each year.\nThe GWA cutoff is strict. If your GWA is below the minimum for the program you want, you cannot be admitted to it; your only option is to choose another program with a lower cutoff.\nExample: a GWA of 86 qualifies only for the GWA-85 programs.\nCutoffs for 1st Sem AY 2026-2027: GWA 85 for the three BS Information Technology majors, BS Criminology and BS Hospitality Management (5 programs); GWA 87 for BS Fisheries, BTLE and BTVTE (3); GWA 88 for BS Psychology, both BS Business Administration majors and BS Tourism Management (4); GWA 90 for Accountancy, Computer Science, Food Technology, Nutrition and Dietetics, Physical Education, all five BS Education majors and Elementary Education (11).\nMeeting the cutoff is not enough by itself: applicants must still pass the entrance exam and interview.",
+      "APPROXIMATE MATCH (not an exhaustive result): Colleges\nrdf:type -> Office [h:Office]\nrdfs:comment: Generic placeholder office used by the 9 college-agnostic Citizen's Charter services (enrollment/adding, dropping, crediting subjects, clearances, etc.), which apply to whichever college a given student belongs to and so cannot resolve to a single location. For a specific location, see the 8 lspuadm:Office_Dean_* instances below, each linked to its college building.\nrdfs:label: Colleges",
+      "APPROXIMATE MATCH (not an exhaustive result): Minimum Grade Point Average\nh:definition: Minimum GPA of 2.00 every semester or summer; board programs require 2.00 in major/professional subjects (1.00-1.75 for general education); non-board programs require 2.25 in major/professional subjects (1.00-2.00 for general education).\nh:resultsInStatus -> Dismissal (from the College) [h:Status_Dismissal]\nh:resultsInStatus -> Probation [h:Status_Probation]\nh:resultsInStatus -> Warning [h:Status_Warning]\nh:sourceArticle: Chapter 3, Article 5, Sec. 3.2\nrdf:type -> Retention Requirement [h:RetentionRequirement]\nrdfs:label: Minimum Grade Point Average"
+    ]
+  },
+  "answer": "The programs that require a GWA of 85 are:\n\n- BS Information Technology majors\n- BS Criminology\n- BS Hospitality Management\n\nThe colleges that offer these programs are not explicitly named in the evidence, but they are associated with the programs requiring a GWA of 85.",
+  "pipeline_version": "oc-rag-3.3-verified-build"
+}

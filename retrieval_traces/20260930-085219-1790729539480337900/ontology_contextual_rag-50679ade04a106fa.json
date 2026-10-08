@@ -1,0 +1,76 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "Which college offers BS Psychology?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_17",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psychological Research Methods and Statistics\n- Counseling and Helping Relationship Skills\n- Clinical Diagnosis and Case Formulation\n\nCareer and job outcomes:\n- Clinical Psychology Track (Psychometrician / further studies toward licensure): Works as a psychometrician or pursues graduate study and supervised practice toward psychologist licensure under Philippine psychology practice law.\n- Human Resources / Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.",
+        "score": 0.06452452301209573
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_19",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_19\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nfurther training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A. Overview, skills, career outcomes, objectives, and board status reflect what the program's CMO and general knowledge of the field typically cover; they are not an official LSPU curriculum document.",
+        "score": 0.06428490111891752
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_18",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_18\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\n/ Industrial-Organizational Psychology Track: Works in human resources, recruitment, training and organizational development roles that draw on the study of workplace behavior.\n- Counseling / Guidance Track: Works in school or community guidance and counseling support roles, often alongside licensed guidance counselors.\n\nAdmission requirement:\n- Minimum General Weighted Average (GWA): 88.0\n\nBoard/licensure status:\n- Board program. Graduates may take the Psychometrician Licensure Examination.\n\nRegulatory basis (CHED): CMO No. 34, s. 2017 - Policies and Standards for Undergraduate Programs in Psychology\nProgram educational objectives (per this CMO):\n- Apply the scientific study of behavior and mental processes to understand individuals and groups across diverse settings.\n- Conduct psychological research and assessment ethically, and pursue further training or licensure (e.g. as a psychometrician) as warranted.\n\nSource notes: admission cutoff from the LSPU Admission Guidelines, 1st Semester AY 2026-2027, Annex A.",
+        "score": 0.06301166351569577
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_2",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_2\nSECTION: LSPU-LB ACADEMIC PROGRAMS: OVERVIEW\nLSPU-LB ACADEMIC PROGRAMS: OVERVIEW\nLaguna State Polytechnic University - Los Banos Campus (LSPU-LB) offers 23 degree programs across 8 colleges. All programs are four-year programs.\n\nColleges and the programs they offer:\n- College of Arts and Sciences (CAS): Bachelor of Science in Psychology\n- College of Business Administration and Accountancy (CBAA): Bachelor of Science in Business Administration - Major in Marketing Management; Bachelor of Science in Accountancy; Bachelor of Science in Business Administration - Major in Financial Management\n- College of Computer Studies (CCS): Bachelor of Science in Computer Science - Major in Intelligent Systems; Bachelor of Science in Information Technology - Major in Animation and Motion Graphics; Bachelor of Science in Information Technology - Major in Web and Mobile Application Development; Bachelor of Science in Information Technology - Major in Service Management Program\n- College of Criminal Justice Education (CCJE): Bachelor of Science in Criminology\n- College of Fisheries (CF): Bachelor of Science in Fisheries",
+        "score": 0.05994031525660219
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_4",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_4\nSECTION: COLLEGE: College of Arts and Sciences (CAS)\nCOLLEGE: College of Arts and Sciences (CAS)\nThe College of Arts and Sciences at LSPU-LB offers the following degree programs:\n- Bachelor of Science in Psychology",
+        "score": 0.0563914204902577
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?college\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?college=College of Arts and Sciences\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:offeredByCollege--> College of Arts and Sciences [p:CAS]\nTYPE of College of Arts and Sciences: p:College\nTYPE of Bachelor of Science in Psychology: p:Program"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?college\": 1}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?college=College of Arts and Sciences\nBachelor of Science in Psychology [p:Prog_BSPsych] --p:offeredByCollege--> College of Arts and Sciences [p:CAS]\nTYPE of College of Arts and Sciences: p:College\nTYPE of Bachelor of Science in Psychology: p:Program\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_17\nSECTION: PROGRAM: Bachelor of Science in Psychology | College: College of Arts and Sciences (CAS) | Degree: Bachelor of Science in Psychology (BS Psychology)\nPROGRAM: Bachelor of Science in Psychology\nCollege: College of Arts and Sciences (CAS)\nDegree: Bachelor of Science in Psychology (BS Psychology)\nDuration: 4 years\n\nOverview: Trains students in the scientific study of behavior and mental processes (developmental, abnormal, social, physiological psychology) alongside research methods and psychological assessment, preparing graduates for further specialization in clinical, industrial/organizational, or counseling psychology.\n\nSkills developed:\n- Psychological Assessment\n- Psycho",
+    "answer_for_eval": "The College of Arts and Sciences offers BS Psychology.",
+    "retrieval_query": "Which colleges offer BS Psychology?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "p:Prog_BSPsych",
+              "p:offeredByCollege",
+              "?college"
+            ]
+          ],
+          "select": [
+            "?college"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 7,
+    "elapsed_seconds": 3.405999999959022
+  },
+  "answer": "The College of Arts and Sciences offers BS Psychology.",
+  "pipeline_version": "oc-rag-3.0"
+}

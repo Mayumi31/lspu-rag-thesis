@@ -1,0 +1,74 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What are the requirements for the full varsity scholarship?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Varsity Scholarship — Full Scholarship/Training Allowance\nh:benefitDescription: Full Scholarship/Training Allowance\nh:eligibilityCriteria: SCUAA medalist (gold, silver, or bronze); grade average of 2.0 for the preceding semester; good moral character.\nh:sourceArticle: Chapter 3, Article 10, Sec. 2.1.1\nrdf:type -> Non-academic Scholarship [h:NonAcademicScholarship]\nrdfs:label: Varsity Scholarship — Full Scholarship/Training Allowance"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Varsity Scholarship — Half Scholarship/Training Allowance\nh:benefitDescription: Half Scholarship/Training Allowance\nh:eligibilityCriteria: SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0.\nh:sourceArticle: Chapter 3, Article 10, Sec. 2.1.2\nrdf:type -> Non-academic Scholarship [h:NonAcademicScholarship]\nrdfs:label: Varsity Scholarship — Half Scholarship/Training Allowance"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 1: Apply for scholarship\na:agencyAction: Verifies the qualification of the applicant.\na:clientAction: Applies for scholarship through online or actual application.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, Step 1, p. 22\nh:nextStep -> Step 2: Fill out application form [a:Scholarship_Step2]\nh:performedBy -> Scholarship and Financial Assistance Director/Chairperson and Technical Staff [a:Role_SFADirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Apply for scholarship"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Step 3: Submit scholarship/CHED form and documentary requirements\na:agencyAction: Checks the filled-out form and the requirements for approval of the scholarship or financial assistance.\na:clientAction: Submits the scholarship and/or CHED form and other documentary requirements.\na:hasFeeText: None\na:hasProcessingTime: 3 minutes\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, Step 3, p. 22\nh:nextStep -> Step 4: Request for certification [a:Scholarship_Step4]\nh:performedBy -> Scholarship and Financial Assistance Director/Chairperson and Technical Staff [a:Role_SFADirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 3: Submit scholarship/CHED form and documentary requirements"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Processing of Scholarship and Financial Assistance\na:availedAt -> Scholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2B -- Government to Business [a:TT_G2B]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:hasTransactionType -> G2G -- Government to Government [a:TT_G2G]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, p. 22\na:totalFeeText: None\na:totalProcessingTime: 9 minutes\na:whoMayAvail: All\nh:additionalInfo: Steps: apply, fill out the SFA or CHED form, submit the form and documents, and request certification if you are a scholar.\nh:audience: Students\nh:hasStep -> Step 1: Apply for scholarship [a:Scholarship_Step1]\nh:requiresDocument -> Application Form (CHED Form) [a:Doc_CHEDForm]\nh:requiresDocument -> Certified True Copy of Certificate of Registration [a:Doc_CTCCOR]\nh:requiresDocument -> Certified True Copy of Grades [a:Doc_CTCGrades]\nh:requiresDocument -> Financial Documents [a:Doc_FinancialDocuments]\nh:requiresDocument -> Copy of ID with 3 Specimen Signatures [a:Doc_IDWith3Signatures]\nh:requiresDocument -> Notarized Certificate of No Employment and No Scholarship [a:Doc_NotarizedNoEmploymentCert]\nh:requiresDocument -> Application Form for Scholarship and Financial Assistance [a:Doc_SFAApplicationForm]\nh:sourceArticle: Citizen's Charter 2026, Scholarship and Financial Assistance, Service 1, p. 22-23\nrdf:type -> Service [a:Service]\nrdfs:label: Processing of Scholarship and Financial Assistance"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): Varsity Scholarship — Full Scholarship/Training Allowance\nh:benefitDescription: Full Scholarship/Training Allowance\nh:eligibilityCriteria: SCUAA medalist (gold, silver, or bronze); grade average of 2.0 for the preceding semester; good moral character.\nh:sourceArticle: Chapter 3, Article 10, Sec. 2.1.1\nrdf:type -> Non-academic Scholarship [h:NonAcademicScholarship]\nrdfs:label: Varsity Scholarship — Full Scholarship/Training Allowance\n\nAPPROXIMATE MATCH (not an exhaustive result): Varsity Scholarship — Half Scholarship/Training Allowance\nh:benefitDescription: Half Scholarship/Training Allowance\nh:eligibilityCriteria: SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0.\nh:sourceArticle: Chapter 3, Article 10, Sec. 2.1.2\nrdf:type -> Non-academic Scholarship [h:NonAcademicScholarship]\nrdfs:label: Varsity Scholarship — Half Scholarship/Training Allowance\n\nAPPROXIMATE MATCH (not an exhaustive result): Step 1: Apply for scholarship\na:agencyAction: Verifies the qualification of the applicant.\na:clientAction: Applies for scholarship through online or actual application.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes",
+    "answer_for_eval": "The requirements for the full varsity scholarship are:\n- SCUAA medalist (gold, silver, or bronze)\n- Grade average of 2.0 for the preceding semester\n- Good moral character",
+    "retrieval_query": "What are the requirements for the full varsity scholarship?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Schol_VarsityFull",
+              "h:eligibilityCriteria",
+              {
+                "literal": "SCUAA medalist (gold, silver, or bronze); grade average of 2.0 for the preceding semester; good moral character."
+              }
+            ]
+          ],
+          "select": [
+            "?criteria"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Expecting ',' delimiter: line 1 column 76 (char 75)",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 5,
+    "elapsed_seconds": 9.937999999965541,
+    "retrieval_seconds": 8.76600000000326,
+    "generation_seconds": 1.1719999999622814,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): Varsity Scholarship — Full Scholarship/Training Allowance\nh:benefitDescription: Full Scholarship/Training Allowance\nh:eligibilityCriteria: SCUAA medalist (gold, silver, or bronze); grade average of 2.0 for the preceding semester; good moral character.\nh:sourceArticle: Chapter 3, Article 10, Sec. 2.1.1\nrdf:type -> Non-academic Scholarship [h:NonAcademicScholarship]\nrdfs:label: Varsity Scholarship — Full Scholarship/Training Allowance",
+      "APPROXIMATE MATCH (not an exhaustive result): Varsity Scholarship — Half Scholarship/Training Allowance\nh:benefitDescription: Half Scholarship/Training Allowance\nh:eligibilityCriteria: SCUAA point contributor or finalist; average grade of 2.5, maximum grade of 2.0.\nh:sourceArticle: Chapter 3, Article 10, Sec. 2.1.2\nrdf:type -> Non-academic Scholarship [h:NonAcademicScholarship]\nrdfs:label: Varsity Scholarship — Half Scholarship/Training Allowance",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 1: Apply for scholarship\na:agencyAction: Verifies the qualification of the applicant.\na:clientAction: Applies for scholarship through online or actual application.\na:hasFeeText: None\na:hasProcessingTime: 2 minutes\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, Step 1, p. 22\nh:nextStep -> Step 2: Fill out application form [a:Scholarship_Step2]\nh:performedBy -> Scholarship and Financial Assistance Director/Chairperson and Technical Staff [a:Role_SFADirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 1: Apply for scholarship",
+      "APPROXIMATE MATCH (not an exhaustive result): Step 3: Submit scholarship/CHED form and documentary requirements\na:agencyAction: Checks the filled-out form and the requirements for approval of the scholarship or financial assistance.\na:clientAction: Submits the scholarship and/or CHED form and other documentary requirements.\na:hasFeeText: None\na:hasProcessingTime: 3 minutes\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, Step 3, p. 22\nh:nextStep -> Step 4: Request for certification [a:Scholarship_Step4]\nh:performedBy -> Scholarship and Financial Assistance Director/Chairperson and Technical Staff [a:Role_SFADirectorStaff]\nrdf:type -> Service Step [a:ServiceStep]\nrdfs:label: Step 3: Submit scholarship/CHED form and documentary requirements",
+      "APPROXIMATE MATCH (not an exhaustive result): Processing of Scholarship and Financial Assistance\na:availedAt -> Scholarship and Financial Assistance Unit [a:Office_ScholarshipAndFinancialAssistanceUnit]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2B -- Government to Business [a:TT_G2B]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:hasTransactionType -> G2G -- Government to Government [a:TT_G2G]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: IX. Scholarship and Financial Assistance, Service 1: Processing of Scholarship and Financial Assistance, p. 22\na:totalFeeText: None\na:totalProcessingTime: 9 minutes\na:whoMayAvail: All\nh:additionalInfo: Steps: apply, fill out the SFA or CHED form, submit the form and documents, and request certification if you are a scholar.\nh:audience: Students\nh:hasStep -> Step 1: Apply for scholarship [a:Scholarship_Step1]\nh:requiresDocument -> Application Form (CHED Form) [a:Doc_CHEDForm]\nh:requiresDocument -> Certified True Copy of Certificate of Registration [a:Doc_CTCCOR]\nh:requiresDocument -> Certified True Copy of Grades [a:Doc_CTCGrades]\nh:requiresDocument -> Financial Documents [a:Doc_FinancialDocuments]\nh:requiresDocument -> Copy of ID with 3 Specimen Signatures [a:Doc_IDWith3Signatures]\nh:requiresDocument -> Notarized Certificate of No Employment and No Scholarship [a:Doc_NotarizedNoEmploymentCert]\nh:requiresDocument -> Application Form for Scholarship and Financial Assistance [a:Doc_SFAApplicationForm]\nh:sourceArticle: Citizen's Charter 2026, Scholarship and Financial Assistance, Service 1, p. 22-23\nrdf:type -> Service [a:Service]\nrdfs:label: Processing of Scholarship and Financial Assistance"
+    ]
+  },
+  "answer": "The requirements for the full varsity scholarship are:\n- SCUAA medalist (gold, silver, or bronze)\n- Grade average of 2.0 for the preceding semester\n- Good moral character",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

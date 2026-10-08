@@ -1,0 +1,60 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What does INC mean?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): INC Mark and Grade Removal Policy\nh:additionalInfo: INC (Incomplete): A temporary grade for unfinished requirements or a missed final exam for a valid reason; it becomes 5.00 if not completed within one year.\nh:additionalInfo: You submit requirements to the subject teacher and then apply online through the portal; the Charter lists a fee of P30.00 per unit for the online completion/removal service, while the Handbook states a removal fee of P20 per unit; confirm the current amount with the Registrar or Cashier.\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:audience: Students\nh:definition: An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which must be taken within one (1) academic year. Removal fee: P20 per unit. Special removal examination (via Dean petition): P100 per unit.\nh:requiresDocument -> Excuse Slip [h:Doc_ExcuseSlip]\nh:sourceArticle: Chapter 3, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: INC Mark and Grade Removal Policy"
+      },
+      {
+        "label": "Approximate evidence",
+        "definition": "",
+        "frame": "APPROXIMATE MATCH (not an exhaustive result): Completion of INC/Removal – Online System\na:availedAt -> Colleges [a:Office_Colleges]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: XXXI. Colleges, Service 3: Completion of INC/Removal – Online System (College, Registrar, Cashier), p. 86\na:totalFeeText: P30.00 per unit\na:totalProcessingTime: 25 minutes\na:whoMayAvail: Students\nh:definition: For students with a grade of INC or 4.0 requesting completion/removal of grades.\nh:hasStep -> Step 1: Apply online for completion [a:Serv_CompletionOfINCRemovalOnlineSystem_S1]\nh:requiresDocument -> Completion form [a:Doc_Completionform]\nh:requiresDocument -> Proof of payment for completion/removal (official Cashier receipt) [a:Doc_ProofofpaymentforcompletionremovalofficialCashierreceipt]\nrdf:type -> Service [a:Service]\nrdfs:label: Completion of INC/Removal – Online System"
+      }
+    ],
+    "prompt_context_preview": "APPROXIMATE MATCH (not an exhaustive result): INC Mark and Grade Removal Policy\nh:additionalInfo: INC (Incomplete): A temporary grade for unfinished requirements or a missed final exam for a valid reason; it becomes 5.00 if not completed within one year.\nh:additionalInfo: You submit requirements to the subject teacher and then apply online through the portal; the Charter lists a fee of P30.00 per unit for the online completion/removal service, while the Handbook states a removal fee of P20 per unit; confirm the current amount with the Registrar or Cashier.\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:audience: Students\nh:definition: An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which mus",
+    "answer_for_eval": "INC means Incomplete. It is a temporary grade given when a student has unfinished requirements or missed a final exam for a valid reason, such as illness. If not completed within one year, it automatically becomes a grade of 5.00.",
+    "retrieval_query": "What does INC mean?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Policy_INCAndRemovalGrades",
+              "rdf:type",
+              "h:Policy"
+            ],
+            [
+              "h:Policy_INCAndRemovalGrades",
+              "h:definition",
+              {
+                "literal": "An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to student"
+              }
+            ]
+          ],
+          "select": [
+            "h:Policy_INCAndRemovalGrades"
+          ]
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables",
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": true,
+    "evidence_count": 2,
+    "elapsed_seconds": 5.3439999999827705,
+    "retrieval_seconds": 3.8910000000032596,
+    "generation_seconds": 1.452999999979511,
+    "selected_contexts": [
+      "APPROXIMATE MATCH (not an exhaustive result): INC Mark and Grade Removal Policy\nh:additionalInfo: INC (Incomplete): A temporary grade for unfinished requirements or a missed final exam for a valid reason; it becomes 5.00 if not completed within one year.\nh:additionalInfo: You submit requirements to the subject teacher and then apply online through the portal; the Charter lists a fee of P30.00 per unit for the online completion/removal service, while the Handbook states a removal fee of P20 per unit; confirm the current amount with the Registrar or Cashier.\nh:administeredBy -> Office of the Registrar [h:OfficeOfTheRegistrar]\nh:audience: Students\nh:definition: An INC (Incomplete) is given when a student with a passing class standing fails to take the final examination due to illness or other valid reason, or when some course requirements are incomplete due to sickness. INC is not given to students with failing grades. INC automatically becomes 5.00 if not completed within one (1) academic year. Removal of a grade of 4.00 may be done by re-examination; the highest removal grade is 3.00; if failed, the grade becomes 5.00. A student is allowed only one (1) removal examination, which must be taken within one (1) academic year. Removal fee: P20 per unit. Special removal examination (via Dean petition): P100 per unit.\nh:requiresDocument -> Excuse Slip [h:Doc_ExcuseSlip]\nh:sourceArticle: Chapter 3, Article 7, Sec. 5\nrdf:type -> Policy [h:Policy]\nrdfs:label: INC Mark and Grade Removal Policy",
+      "APPROXIMATE MATCH (not an exhaustive result): Completion of INC/Removal – Online System\na:availedAt -> Colleges [a:Office_Colleges]\na:classificationText: Simple\na:hasCategory -> Simple [a:Cat_Simple]\na:hasTransactionType -> G2C -- Government to Citizen [a:TT_G2C]\na:sourceDocument: LSPU Citizen's Charter, 2026 1st Edition (University-Wide)\na:sourceSection: XXXI. Colleges, Service 3: Completion of INC/Removal – Online System (College, Registrar, Cashier), p. 86\na:totalFeeText: P30.00 per unit\na:totalProcessingTime: 25 minutes\na:whoMayAvail: Students\nh:definition: For students with a grade of INC or 4.0 requesting completion/removal of grades.\nh:hasStep -> Step 1: Apply online for completion [a:Serv_CompletionOfINCRemovalOnlineSystem_S1]\nh:requiresDocument -> Completion form [a:Doc_Completionform]\nh:requiresDocument -> Proof of payment for completion/removal (official Cashier receipt) [a:Doc_ProofofpaymentforcompletionremovalofficialCashierreceipt]\nrdf:type -> Service [a:Service]\nrdfs:label: Completion of INC/Removal – Online System"
+    ]
+  },
+  "answer": "INC means Incomplete. It is a temporary grade given when a student has unfinished requirements or missed a final exam for a valid reason, such as illness. If not completed within one year, it automatically becomes a grade of 5.00.",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

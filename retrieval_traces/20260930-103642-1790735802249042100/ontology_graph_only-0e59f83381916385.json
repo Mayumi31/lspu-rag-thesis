@@ -1,0 +1,63 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What academic statuses can a student be placed under?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?x=Dismissal (from the College)\nDismissal (from the College) [h:Status_Dismissal] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Dismissal (from the College): h:AcademicStatus\nSOURCE/QUALIFIER for Dismissal (from the College): h:sourceArticle = Sec. 4.3, Scholastic Delinquency"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 2: ?x=Disqualification\nDisqualification [h:Status_Disqualification] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Disqualification: h:AcademicStatus\nSOURCE/QUALIFIER for Disqualification: h:sourceArticle = Sec. 8.1.1.1"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 3: ?x=Probation\nProbation [h:Status_Probation] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Probation: h:AcademicStatus\nSOURCE/QUALIFIER for Probation: h:sourceArticle = Sec. 4.2, Scholastic Delinquency"
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 4: ?x=Warning\nWarning [h:Status_Warning] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Warning: h:AcademicStatus\nSOURCE/QUALIFIER for Warning: h:sourceArticle = Sec. 4.1, Scholastic Delinquency"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?x=Dismissal (from the College)\nDismissal (from the College) [h:Status_Dismissal] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Dismissal (from the College): h:AcademicStatus\nSOURCE/QUALIFIER for Dismissal (from the College): h:sourceArticle = Sec. 4.3, Scholastic Delinquency\n\nQUERY 1\nGRAPH RESULT 2: ?x=Disqualification\nDisqualification [h:Status_Disqualification] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Disqualification: h:AcademicStatus\nSOURCE/QUALIFIER for Disqualification: h:sourceArticle = Sec. 8.1.1.1\n\nQUERY 1\nGRAPH RESULT 3: ?x=Probation\nProbation [h:Status_Probation] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Probation: h:AcademicStatus\nSOURCE/QUALIFIER for Probation: h:sourceArticle = Sec. 4.2, Scholastic Delinquency\n\nQUERY 1\nGRAPH RESULT 4: ?x=Warning\nWarning [h:Status_Warning] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Warning: h:AcademicStatus\nSOURCE/QU",
+    "answer_for_eval": "A student can be placed under the following academic statuses:\n1. Dismissal (from the College)\n2. Disqualification\n3. Probation\n4. Warning",
+    "retrieval_query": "What academic statuses can a student be placed under?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "?x",
+              "rdf:type",
+              "h:AcademicStatus"
+            ]
+          ],
+          "select": [
+            "?x"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [
+      "Select must reference bound variables"
+    ],
+    "approximate_fallback": false,
+    "evidence_count": 4,
+    "elapsed_seconds": 5.797000000020489,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?x=Dismissal (from the College)\nDismissal (from the College) [h:Status_Dismissal] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Dismissal (from the College): h:AcademicStatus\nSOURCE/QUALIFIER for Dismissal (from the College): h:sourceArticle = Sec. 4.3, Scholastic Delinquency",
+      "QUERY 1\nGRAPH RESULT 2: ?x=Disqualification\nDisqualification [h:Status_Disqualification] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Disqualification: h:AcademicStatus\nSOURCE/QUALIFIER for Disqualification: h:sourceArticle = Sec. 8.1.1.1",
+      "QUERY 1\nGRAPH RESULT 3: ?x=Probation\nProbation [h:Status_Probation] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Probation: h:AcademicStatus\nSOURCE/QUALIFIER for Probation: h:sourceArticle = Sec. 4.2, Scholastic Delinquency",
+      "QUERY 1\nGRAPH RESULT 4: ?x=Warning\nWarning [h:Status_Warning] --rdf:type--> Academic Status [h:AcademicStatus]\nTYPE of Academic Status: http://www.w3.org/2002/07/owl#Class\nTYPE of Warning: h:AcademicStatus\nSOURCE/QUALIFIER for Warning: h:sourceArticle = Sec. 4.1, Scholastic Delinquency"
+    ]
+  },
+  "answer": "A student can be placed under the following academic statuses:\n1. Dismissal (from the College)\n2. Disqualification\n3. Probation\n4. Warning",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}

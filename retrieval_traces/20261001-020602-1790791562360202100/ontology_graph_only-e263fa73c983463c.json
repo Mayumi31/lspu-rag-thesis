@@ -1,0 +1,56 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What documents must freshman applicants submit?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?criteria=Report Card (DepEd Form 138) or its equivalent (Form 137), and NCAE results; physical and medical examination certified by a government physician (fitness to do University work); certificate of good moral character from the school last attended; three latest 2x2 pictures; photocopy of authenticated birth certificate (NSO).; ?source=LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Freshmen)\nFreshman admission documents (LSPU website list) [h:AdmReq_FreshmanDocuments] --h:appliesToStudentType--> Freshman Student [h:StudentType_Freshman]\nFreshman admission documents (LSPU website list) [h:AdmReq_FreshmanDocuments] --h:eligibilityCriteria--> \"Report Card (DepEd Form 138) or its equivalent (Form 137), and NCAE results; physical and medical examination certified by a government physician (fitness to do University work); certificate of good moral character from the school last attended; three latest 2x2 pictures; photocopy of authenticated birth certificate (NSO).\"\nFreshman admission documents (LSPU website list) [h:AdmReq_FreshmanDocuments] --h:sourceArticle--> \"LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Freshmen)\"\nTYPE of Freshman admission documents (LSPU website list): h:AdmissionRequirement\nSOURCE/QUALIFIER for Freshman admission documents (LSPU website list): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Freshmen)\nSOURCE/QUALIFIER for Freshman admission documents (LSPU website list): h:verificationNote = This is the older website wording. It says NSO (now PSA), asks for a government physician's medical certificate and 3 pictures, whereas the 2026 Citizen's Charter enrollment list says PSA, medical slip from the LSPU Medical Clinic and 2 pictures. For enrollment-day documents prefer the Charter list in lspuadm:Serv_Enrollment.\nSOURCE/QUALIFIER for Freshman admission documents (LSPU website list): h:verificationNote = ALS information has not been supplied. Do not add ALS rules until they are confirmed with the Guidance Office or Registrar.\nTYPE of Freshman Student: h:StudentType\nSOURCE/QUALIFIER for Freshman Student: h:sourceArticle = Chapter 3, Article 1, Sec. 2.1"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?criteria=Report Card (DepEd Form 138) or its equivalent (Form 137), and NCAE results; physical and medical examination certified by a government physician (fitness to do University work); certificate of good moral character from the school last attended; three latest 2x2 pictures; photocopy of authenticated birth certificate (NSO).; ?source=LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Freshmen)\nFreshman admission documents (LSPU website list) [h:AdmReq_FreshmanDocuments] --h:appliesToStudentType--> Freshman Student [h:StudentType_Freshman]\nFreshman admission documents (LSPU website list) [h:AdmReq_FreshmanDocuments] --h:eligibilityCriteria--> \"Report Card (DepEd Form 138) or its equivalent (Form 137), and NCAE results; physical and medical examination certified by a government physician (fitness to do University work); certificate of good moral character from the school last attended; three latest 2x2 pictures; photocopy of authenticated birth certificate (NSO).\"\nFreshman admission documents (LSPU website list) [h:AdmReq_FreshmanDocuments]",
+    "answer_for_eval": "Freshman applicants must submit the following documents:\n- Report Card (DepEd Form 138) or its equivalent (Form 137)\n- NCAE results\n- Physical and medical examination certified by a government physician (fitness to do University work)\n- Certificate of good moral character from the school last attended\n- Three latest 2x2 pictures\n- Photocopy of authenticated birth certificate (NSO)",
+    "retrieval_query": "What documents must freshman applicants submit",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:AdmReq_FreshmanDocuments",
+              "h:appliesToStudentType",
+              "h:StudentType_Freshman"
+            ],
+            [
+              "h:AdmReq_FreshmanDocuments",
+              "h:eligibilityCriteria",
+              "?criteria"
+            ],
+            [
+              "h:AdmReq_FreshmanDocuments",
+              "h:sourceArticle",
+              "?source"
+            ]
+          ],
+          "select": [
+            "?criteria",
+            "?source"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 6.562999999965541,
+    "retrieval_seconds": 5.375,
+    "generation_seconds": 1.187999999965541,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?criteria=Report Card (DepEd Form 138) or its equivalent (Form 137), and NCAE results; physical and medical examination certified by a government physician (fitness to do University work); certificate of good moral character from the school last attended; three latest 2x2 pictures; photocopy of authenticated birth certificate (NSO).; ?source=LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Freshmen)\nFreshman admission documents (LSPU website list) [h:AdmReq_FreshmanDocuments] --h:appliesToStudentType--> Freshman Student [h:StudentType_Freshman]\nFreshman admission documents (LSPU website list) [h:AdmReq_FreshmanDocuments] --h:eligibilityCriteria--> \"Report Card (DepEd Form 138) or its equivalent (Form 137), and NCAE results; physical and medical examination certified by a government physician (fitness to do University work); certificate of good moral character from the school last attended; three latest 2x2 pictures; photocopy of authenticated birth certificate (NSO).\"\nFreshman admission documents (LSPU website list) [h:AdmReq_FreshmanDocuments] --h:sourceArticle--> \"LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Freshmen)\"\nTYPE of Freshman admission documents (LSPU website list): h:AdmissionRequirement\nSOURCE/QUALIFIER for Freshman admission documents (LSPU website list): h:sourceArticle = LSPU official website admission pages, text supplied by the ontology maintainer, September 2026; not from the Handbook or Citizen's Charter (Admission Requirements: Freshmen)\nSOURCE/QUALIFIER for Freshman admission documents (LSPU website list): h:verificationNote = This is the older website wording. It says NSO (now PSA), asks for a government physician's medical certificate and 3 pictures, whereas the 2026 Citizen's Charter enrollment list says PSA, medical slip from the LSPU Medical Clinic and 2 pictures. For enrollment-day documents prefer the Charter list in lspuadm:Serv_Enrollment.\nSOURCE/QUALIFIER for Freshman admission documents (LSPU website list): h:verificationNote = ALS information has not been supplied. Do not add ALS rules until they are confirmed with the Guidance Office or Registrar.\nTYPE of Freshman Student: h:StudentType\nSOURCE/QUALIFIER for Freshman Student: h:sourceArticle = Chapter 3, Article 1, Sec. 2.1"
+    ]
+  },
+  "answer": "Freshman applicants must submit the following documents:\n- Report Card (DepEd Form 138) or its equivalent (Form 137)\n- NCAE results\n- Physical and medical examination certified by a government physician (fitness to do University work)\n- Certificate of good moral character from the school last attended\n- Three latest 2x2 pictures\n- Photocopy of authenticated birth certificate (NSO)",
+  "pipeline_version": "oc-rag-3.7-speed-metrics"
+}

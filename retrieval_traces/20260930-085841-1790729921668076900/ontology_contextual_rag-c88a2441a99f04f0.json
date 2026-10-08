@@ -1,0 +1,82 @@
+{
+  "trace": {
+    "mode": "ontology_contextual_rag",
+    "query": "When was the 2026 campus-level ICAC-CAF held?",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "pillar3_txt_chunk_802",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_802\nSECTION: EVENT: LSPU-LBC ICAC-CAF 2026 (CAMPUS LEVEL)\nEVENT: LSPU-LBC ICAC-CAF 2026 (CAMPUS LEVEL)\nSource: campus information supplied by the maintainer (September 2026). An LSPU-LBC ICAC-CAF 2026 is announced on the university website, but the dates were not independently confirmed.\nThe 2026 LSPU-LBC ICAC-CAF was held September 15-18, 2026. The colleges competed against each other in basketball, volleyball, chess, e-sports, swimming and other sports, plus cultural competitions. Afterward, the winners became LSPU-LBC's representatives in the university-wide ICAC-CAF. As of September 29, 2026 this campus-level event has already been held.",
+        "score": 0.06530936012691699
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_801",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_801\nSECTION: EVENT: ICAC-CAF (INTERCOLLEGIATE ATHLETIC COMPETITION AND CULTURE AND THE ARTS FESTIVAL)\nEVENT: ICAC-CAF (INTERCOLLEGIATE ATHLETIC COMPETITION AND CULTURE AND THE ARTS FESTIVAL)\nSource: campus information supplied by the maintainer (September 2026); dates not independently confirmed.\nICAC-CAF is the Intercollegiate Athletic Competition and Culture and the Arts Festival: mainly an athletic and cultural competition among the colleges. Sports include basketball, volleyball, chess, e-sports and swimming, among others, plus cultural competitions. Campus winners become the campus's representatives in the university-wide ICAC-CAF.\nEditions in 2026: the LSPU-LBC (campus-level) edition was held September 15-18, 2026; the university-wide edition is scheduled for October 20-23, 2026 at the LSPU Santa Cruz Campus.",
+        "score": 0.06400409626216078
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_803",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_803\nSECTION: EVENT: UNIVERSITY-WIDE ICAC-CAF 2026\nEVENT: UNIVERSITY-WIDE ICAC-CAF 2026\nSource: campus information supplied by the maintainer (September 2026); dates and venue not independently confirmed; schedules can change.\nThe university-wide ICAC-CAF 2026 is scheduled for October 20-23, 2026 at the LSPU Santa Cruz Campus. Each campus sends the winners of its own campus-level ICAC-CAF. As of September 29, 2026 this event has not happened yet.",
+        "score": 0.06377247488101534
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_800",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_800\nSECTION: CAMPUS EVENTS AT LSPU-LB (SUMMARY)\nCAMPUS EVENTS AT LSPU-LB (SUMMARY)\nSource: campus information supplied by the maintainer (September 2026). Event dates were supplied by the maintainer, are time-sensitive, and were not independently confirmed (status as of September 29, 2026).\nMain events:\n(1) ICAC-CAF, the sports and cultural competition among colleges. The 2026 campus level was held September 15-18, 2026, and the university-wide ICAC-CAF is scheduled for October 20-23, 2026 at the LSPU Santa Cruz Campus.\n(2) The LSPU Founding Anniversary. The 73rd was celebrated with activities around November 26-28, 2025.\n(3) College weeks: each college has its own festival week during the year, such as CCS Week and CTE Week.\nAlso, LURES took part in the 2026 February Fair esports competition.",
+        "score": 0.06299603174603174
+      },
+      {
+        "chunk_id": "pillar3_txt_chunk_799",
+        "source": "LSPU_SOURCE.txt",
+        "text": "SOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_799\nSECTION: STUDENT COUNCIL: COLLEGE OF COMPUTER STUDIES STUDENT COUNCIL (CCS-SC)\nSTUDENT COUNCIL: COLLEGE OF COMPUTER STUDIES STUDENT COUNCIL (CCS-SC)\nSource: campus information supplied by the maintainer (September 2026). The 2026 Gawad Parangal recognition was supplied by the maintainer and not independently confirmed.\nThe CCS Student Council (CCS-SC) is the student organization representing students of the College of Computer Studies. It handles CCS-related activities, programs, and student representation. LSPU recognized CCS-SC as its Most Outstanding Mother Organization in the 2026 Gawad Parangal.",
+        "score": 0.059289133713686146
+      }
+    ],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?startDate\": 1, \"?endDate\": 1}. Counts apply only to this executed query and supplied dataset."
+      },
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?startDate=2026-09-15; ?endDate=2026-09-18\nLSPU-LBC ICAC-CAF 2026 (campus level) [h:Event_ICACCAF_LBC_2026] --h:eventEndDate--> \"2026-09-18\"\nLSPU-LBC ICAC-CAF 2026 (campus level) [h:Event_ICACCAF_LBC_2026] --h:eventStartDate--> \"2026-09-15\"\nTYPE of LSPU-LBC ICAC-CAF 2026 (campus level): h:CampusEvent\nSOURCE/QUALIFIER for LSPU-LBC ICAC-CAF 2026 (campus level): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for LSPU-LBC ICAC-CAF 2026 (campus level): h:verificationNote = Dates supplied by the maintainer. An LSPU-LBC ICAC-CAF 2026 is announced on the university website, but the dates were not independently confirmed; the only September 15-18 report found was for the San Pablo City campus's own ICAC-CAF."
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nEXECUTED QUERY SUMMARY: matched distinct selected tuples = 1; distinct values by variable = {\"?startDate\": 1, \"?endDate\": 1}. Counts apply only to this executed query and supplied dataset.\n\nQUERY 1\nGRAPH RESULT 1: ?startDate=2026-09-15; ?endDate=2026-09-18\nLSPU-LBC ICAC-CAF 2026 (campus level) [h:Event_ICACCAF_LBC_2026] --h:eventEndDate--> \"2026-09-18\"\nLSPU-LBC ICAC-CAF 2026 (campus level) [h:Event_ICACCAF_LBC_2026] --h:eventStartDate--> \"2026-09-15\"\nTYPE of LSPU-LBC ICAC-CAF 2026 (campus level): h:CampusEvent\nSOURCE/QUALIFIER for LSPU-LBC ICAC-CAF 2026 (campus level): h:sourceArticle = Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter\nSOURCE/QUALIFIER for LSPU-LBC ICAC-CAF 2026 (campus level): h:verificationNote = Dates supplied by the maintainer. An LSPU-LBC ICAC-CAF 2026 is announced on the university website, but the dates were not independently confirmed; the only September 15-18 report found was for the San Pablo City campus's own ICAC-CAF.\n\nSOURCE: LSPU_SOURCE.txt | CHUNK: pillar3_txt_chunk_802\nSECTION: EVENT: LSPU-LBC ICAC-CAF 2026 (CAMPUS LEVEL)\nEVENT: LSPU-LBC ICAC-CAF 2026 (CAMP",
+    "answer_for_eval": "The 2026 campus-level ICAC-CAF was held from September 15 to September 18, 2026.",
+    "retrieval_query": "When was the 2026 campus-level ICAC-CAF held?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Event_ICACCAF_LBC_2026",
+              "h:eventStartDate",
+              "?startDate"
+            ],
+            [
+              "h:Event_ICACCAF_LBC_2026",
+              "h:eventEndDate",
+              "?endDate"
+            ]
+          ],
+          "select": [
+            "?startDate",
+            "?endDate"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 7,
+    "elapsed_seconds": 4.453000000037719
+  },
+  "answer": "The 2026 campus-level ICAC-CAF was held from September 15 to September 18, 2026.",
+  "pipeline_version": "oc-rag-3.0"
+}

@@ -1,0 +1,48 @@
+{
+  "trace": {
+    "mode": "ontology_graph_only",
+    "query": "What should I do during a typhoon?",
+    "retrieved_chunks": [],
+    "graph_hits": [
+      {
+        "label": "Executed evidence",
+        "definition": "",
+        "frame": "QUERY 1\nGRAPH RESULT 1: ?definition=Before: check the official LSPU-LB Facebook page for campus-wide class suspensions, and your professor's Messenger group and Google Classroom for class-level announcements, before you travel. Keep your phone charged. If you are already on campus in strong wind or heavy rain: stay indoors, keep away from windows and glass doors, stay out of open areas and away from trees, posts and loose signs, and follow the guards and faculty. Do not travel through flooded roads or walk under fallen wires. Go home only when it is safe, and check announcements before coming back to campus.\nWhat to do in a typhoon [h:Guide_Typhoon] --h:definition--> \"Before: check the official LSPU-LB Facebook page for campus-wide class suspensions, and your professor's Messenger group and Google Classroom for class-level announcements, before you travel. Keep your phone charged. If you are already on campus in strong wind or heavy rain: stay indoors, keep away from windows and glass doors, stay out of open areas and away from trees, posts and loose signs, and follow the guards and faculty. Do not travel through flooded roads or walk under fallen wires. Go home only when it is safe, and check announcements before coming back to campus.\"\nWhat to do in a typhoon [h:Guide_Typhoon] --rdf:type--> Safety Guide [h:SafetyGuide]\nTYPE of What to do in a typhoon: h:SafetyGuide\nSOURCE/QUALIFIER for What to do in a typhoon: h:sourceArticle = Announcement channels: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. Safety steps: general disaster-safety guidance (G), not an LSPU document\nSOURCE/QUALIFIER for What to do in a typhoon: h:sourceArticle = Announcement channels: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. Safety steps: general guidance (G)\nSOURCE/QUALIFIER for What to do in a typhoon: h:verificationNote = General safety guidance, not an LSPU-LB protocol. Who decides suspensions and the campus's own typhoon procedure were not supplied.\nTYPE of Safety Guide: http://www.w3.org/2002/07/owl#Class"
+      }
+    ],
+    "prompt_context_preview": "QUERY 1\nGRAPH RESULT 1: ?definition=Before: check the official LSPU-LB Facebook page for campus-wide class suspensions, and your professor's Messenger group and Google Classroom for class-level announcements, before you travel. Keep your phone charged. If you are already on campus in strong wind or heavy rain: stay indoors, keep away from windows and glass doors, stay out of open areas and away from trees, posts and loose signs, and follow the guards and faculty. Do not travel through flooded roads or walk under fallen wires. Go home only when it is safe, and check announcements before coming back to campus.\nWhat to do in a typhoon [h:Guide_Typhoon] --h:definition--> \"Before: check the official LSPU-LB Facebook page for campus-wide class suspensions, and your professor's Messenger group and Google Classroom for class-level announcements, before you travel. Keep your phone charged. If you are already on campus in strong wind or heavy rain: stay indoors, keep away from windows and glass doors, stay out of open areas and away from trees, posts and loose signs, and follow the guards and faculty. Do not travel through flooded roads or walk under fallen wires. Go home only when it is saf",
+    "answer_for_eval": "During a typhoon, you should check the official LSPU-LB Facebook page for campus-wide class suspensions, and your professor's Messenger group and Google Classroom for class-level announcements before you travel. If you are already on campus in strong wind or heavy rain, stay indoors, keep away from windows and glass doors, stay out of open areas and away from trees, posts, and loose signs, and follow the guards and faculty. Do not travel through flooded roads or walk under fallen wires. Go home only when it is safe, and check announcements before coming back to campus.",
+    "retrieval_query": "What should I do during a typhoon?",
+    "graph_plan": {
+      "queries": [
+        {
+          "patterns": [
+            [
+              "h:Guide_Typhoon",
+              "rdf:type",
+              "h:SafetyGuide"
+            ],
+            [
+              "h:Guide_Typhoon",
+              "h:definition",
+              "?definition"
+            ]
+          ],
+          "select": [
+            "?definition"
+          ],
+          "filters": []
+        }
+      ]
+    },
+    "retrieval_errors": [],
+    "approximate_fallback": false,
+    "evidence_count": 1,
+    "elapsed_seconds": 3.0929999999934807,
+    "selected_contexts": [
+      "QUERY 1\nGRAPH RESULT 1: ?definition=Before: check the official LSPU-LB Facebook page for campus-wide class suspensions, and your professor's Messenger group and Google Classroom for class-level announcements, before you travel. Keep your phone charged. If you are already on campus in strong wind or heavy rain: stay indoors, keep away from windows and glass doors, stay out of open areas and away from trees, posts and loose signs, and follow the guards and faculty. Do not travel through flooded roads or walk under fallen wires. Go home only when it is safe, and check announcements before coming back to campus.\nWhat to do in a typhoon [h:Guide_Typhoon] --h:definition--> \"Before: check the official LSPU-LB Facebook page for campus-wide class suspensions, and your professor's Messenger group and Google Classroom for class-level announcements, before you travel. Keep your phone charged. If you are already on campus in strong wind or heavy rain: stay indoors, keep away from windows and glass doors, stay out of open areas and away from trees, posts and loose signs, and follow the guards and faculty. Do not travel through flooded roads or walk under fallen wires. Go home only when it is safe, and check announcements before coming back to campus.\"\nWhat to do in a typhoon [h:Guide_Typhoon] --rdf:type--> Safety Guide [h:SafetyGuide]\nTYPE of What to do in a typhoon: h:SafetyGuide\nSOURCE/QUALIFIER for What to do in a typhoon: h:sourceArticle = Announcement channels: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. Safety steps: general disaster-safety guidance (G), not an LSPU document\nSOURCE/QUALIFIER for What to do in a typhoon: h:sourceArticle = Announcement channels: Campus information supplied by the ontology maintainer (an LSPU-LB student), September 2026; not from the Handbook or Citizen's Charter. Safety steps: general guidance (G)\nSOURCE/QUALIFIER for What to do in a typhoon: h:verificationNote = General safety guidance, not an LSPU-LB protocol. Who decides suspensions and the campus's own typhoon procedure were not supplied.\nTYPE of Safety Guide: http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  "answer": "During a typhoon, you should check the official LSPU-LB Facebook page for campus-wide class suspensions, and your professor's Messenger group and Google Classroom for class-level announcements before you travel. If you are already on campus in strong wind or heavy rain, stay indoors, keep away from windows and glass doors, stay out of open areas and away from trees, posts, and loose signs, and follow the guards and faculty. Do not travel through flooded roads or walk under fallen wires. Go home only when it is safe, and check announcements before coming back to campus.",
+  "pipeline_version": "oc-rag-3.4-recall-repair"
+}
